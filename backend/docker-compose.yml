@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: techshop_postgres
+    restart: always
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-techshop}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - techshop_network
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: techshop_qdrant
+    restart: always
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    networks:
+      - techshop_network
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: techshop_backend
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - qdrant
+    volumes:
+      - .:/app # Mount local folder để auto-reload source code ở dev mode
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    networks:
+      - techshop_network
+
+  adminer:
+    image: adminer
+    container_name: techshop_adminer
+    restart: always
+    ports:
+      - "8080:8080"
+    networks:
+      - techshop_network
+
+volumes:
+  postgres_data:
+  qdrant_data:
+
+
+networks:
+  techshop_network:
+    driver: bridge
