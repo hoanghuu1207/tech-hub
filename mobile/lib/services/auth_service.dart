@@ -1,14 +1,17 @@
-import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 import '../models/index.dart';
-import 'api_service.dart';
+import '../core/network/api_client.dart';
+import '../core/storage/secure_storage.dart';
 
 class AuthService {
   static final AuthService _instance = AuthService._internal();
   
-  late SharedPreferences _prefs;
-  String? _token;
+  final ApiClient _apiClient = ApiClient();
+  final SecureStorage _storage = SecureStorage();
+  
   User? _currentUser;
+  String? _token;
+  bool _isAuthenticated = false;
 
   AuthService._internal();
 
@@ -17,42 +20,54 @@ class AuthService {
   }
 
   Future<void> init() async {
-    _prefs = await SharedPreferences.getInstance();
-    _token = _prefs.getString('auth_token');
+    _token = await _storage.getToken();
+    final userJsonStr = await _storage.getUserData();
     
-    final userJson = _prefs.getString('current_user');
-    if (userJson != null) {
-      _currentUser = User.fromJson(jsonDecode(userJson));
+    if (_token != null && userJsonStr != null) {
+      try {
+        _currentUser = User.fromJson(jsonDecode(userJsonStr));
+        _isAuthenticated = true;
+      } catch (e) {
+        // Corrupted user data
+        await logout();
+      }
     }
   }
 
   // Getters
-  String? get token => _token;
   User? get currentUser => _currentUser;
-  bool get isAuthenticated => _token != null && _currentUser != null;
+  bool get isAuthenticated => _isAuthenticated;
+  String? get token => _token;
 
   /// Register new user
   Future<User> register({
     required String email,
     required String password,
     required String fullName,
+    String? phone,
   }) async {
     try {
-      final response = await ApiService().post(
+      final response = await _apiClient.dio.post(
         '/auth/register',
-        body: {
+        data: {
           'email': email,
           'password': password,
           'full_name': fullName,
+          if (phone != null) 'phone': phone,
+          'role': 'buyer',
         },
       );
 
-      final data = jsonDecode(response);
-      _token = data['access_token'];
-      _currentUser = User.fromJson(data['user']);
+      final data = response.data['data'];
+      final user = User.fromJson(data['user']);
+      
+      await _saveAuthData(
+        accessToken: data['access_token'],
+        refreshToken: data['refresh_token'],
+        user: user,
+      );
 
-      await _saveAuthData();
-      return _currentUser!;
+      return user;
     } catch (e) {
       rethrow;
     }
@@ -64,20 +79,24 @@ class AuthService {
     required String password,
   }) async {
     try {
-      final response = await ApiService().post(
+      final response = await _apiClient.dio.post(
         '/auth/login',
-        body: {
+        data: {
           'email': email,
           'password': password,
         },
       );
 
-      final data = jsonDecode(response);
-      _token = data['access_token'];
-      _currentUser = User.fromJson(data['user']);
+      final data = response.data['data'];
+      final user = User.fromJson(data['user']);
 
-      await _saveAuthData();
-      return _currentUser!;
+      await _saveAuthData(
+        accessToken: data['access_token'],
+        refreshToken: data['refresh_token'],
+        user: user,
+      );
+
+      return user;
     } catch (e) {
       rethrow;
     }
@@ -85,75 +104,76 @@ class AuthService {
 
   /// Logout
   Future<void> logout() async {
-    _token = null;
-    _currentUser = null;
-    await _prefs.remove('auth_token');
-    await _prefs.remove('current_user');
+    try {
+      // Call logout API to revoke token
+      if (_isAuthenticated) {
+        await _apiClient.dio.post('/auth/logout');
+      }
+    } catch (e) {
+      // Ignore API error on logout (e.g. token already expired)
+    } finally {
+      // Always clear local data
+      _isAuthenticated = false;
+      _currentUser = null;
+      _token = null;
+      await _storage.deleteAll();
+    }
   }
 
-  /// Refresh token
-  Future<void> refreshToken() async {
+  /// Refetch current user Profile
+  Future<User> fetchProfile() async {
     try {
-      final response = await ApiService().post(
-        '/auth/refresh',
-        body: {},
-        token: _token,
-      );
-
-      final data = jsonDecode(response);
-      _token = data['access_token'];
+      final response = await _apiClient.dio.get('/auth/me');
+      final data = response.data['data'];
+      final user = User.fromJson(data);
       
-      await _prefs.setString('auth_token', _token!);
+      _currentUser = user;
+      await _storage.saveUserData(jsonEncode(user.toJson()));
+      
+      return user;
     } catch (e) {
-      await logout();
       rethrow;
     }
   }
 
-  /// Verify email with OTP
-  Future<void> verifyEmail({
-    required String email,
-    required String otp,
+  /// Update profile
+  Future<User> updateProfile({
+    String? fullName,
+    String? phone,
+    String? avatarUrl,
   }) async {
     try {
-      await ApiService().post(
-        '/auth/verify-email',
-        body: {
-          'email': email,
-          'otp': otp,
+      final response = await _apiClient.dio.put(
+        '/auth/me',
+        data: {
+          if (fullName != null) 'full_name': fullName,
+          if (phone != null) 'phone': phone,
+          if (avatarUrl != null) 'avatar_url': avatarUrl,
         },
-        token: _token,
       );
 
-      _currentUser = _currentUser?.copyWith(isVerified: true);
-      await _saveAuthData();
+      final data = response.data['data'];
+      final user = User.fromJson(data);
+      
+      _currentUser = user;
+      await _storage.saveUserData(jsonEncode(user.toJson()));
+      
+      return user;
     } catch (e) {
       rethrow;
     }
   }
 
-  /// Reset password
-  Future<void> resetPassword({required String email}) async {
-    try {
-      await ApiService().post(
-        '/auth/forgot-password',
-        body: {'email': email},
-      );
-    } catch (e) {
-      rethrow;
-    }
-  }
-
-  /// Confirm password reset
-  Future<void> confirmPasswordReset({
-    required String token,
+  /// Change Password
+  Future<void> changePassword({
+    required String oldPassword,
     required String newPassword,
   }) async {
     try {
-      await ApiService().post(
-        '/auth/reset-password',
-        body: {
-          'token': token,
+      await _apiClient.dio.post(
+        '/auth/change-password',
+        data: {
+          'old_password': oldPassword,
           'new_password': newPassword,
         },
       );
@@ -163,10 +183,16 @@ class AuthService {
   }
 
   /// Save auth data to local storage
-  Future<void> _saveAuthData() async {
-    await _prefs.setString('auth_token', _token ?? '');
-    if (_currentUser != null) {
-      await _prefs.setString('current_user', jsonEncode(_currentUser!.toJson()));
-    }
+  Future<void> _saveAuthData({
+    required String accessToken,
+    required String refreshToken,
+    required User user,
+  }) async {
+    await _storage.saveToken(accessToken);
+    await _storage.saveRefreshToken(refreshToken);
+    await _storage.saveUserData(jsonEncode(user.toJson()));
+    _token = accessToken;
+    _currentUser = user;
+    _isAuthenticated = true;
   }
 }

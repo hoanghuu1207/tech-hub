@@ -18,8 +18,8 @@ class Settings(BaseSettings):
     DATABASE_URL: str
 
     # Qdrant config
-    QDRANT_HOST: str
-    QDRANT_PORT: int
+    QDRANT_CLUSTER_ENDPOINT: str
+    QDRANT_API_KEY: str
 
     # AI Config
     OPENAI_API_KEY: str

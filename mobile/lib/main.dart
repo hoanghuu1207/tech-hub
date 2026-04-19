@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'bloc/index.dart';
 import 'screens/index.dart';
 import 'services/index.dart';
@@ -66,6 +67,7 @@ class MyApp extends StatelessWidget {
   static ThemeData _buildTheme() {
     return ThemeData(
       useMaterial3: true,
+      textTheme: GoogleFonts.interTextTheme(),
       colorScheme: ColorScheme.fromSeed(
         seedColor: AppColors.primary,
         brightness: Brightness.light,
@@ -88,15 +90,15 @@ class MyApp extends StatelessWidget {
           vertical: AppSpacing.md,
         ),
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(AppRadius.lg),
+          borderRadius: BorderRadius.circular(AppRadius.input),
           borderSide: const BorderSide(color: AppColors.gray300),
         ),
         enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(AppRadius.lg),
+          borderRadius: BorderRadius.circular(AppRadius.input),
           borderSide: const BorderSide(color: AppColors.gray300),
         ),
         focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(AppRadius.lg),
+          borderRadius: BorderRadius.circular(AppRadius.input),
           borderSide: const BorderSide(color: AppColors.primary, width: 2),
         ),
         filled: true,
@@ -111,7 +113,7 @@ class MyApp extends StatelessWidget {
             vertical: AppSpacing.md,
           ),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(AppRadius.lg),
+            borderRadius: BorderRadius.circular(AppRadius.button),
           ),
         ),
       ),
@@ -133,7 +135,7 @@ class MyApp extends StatelessWidget {
             vertical: AppSpacing.md,
           ),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(AppRadius.lg),
+            borderRadius: BorderRadius.circular(AppRadius.button),
           ),
         ),
       ),
@@ -166,7 +168,9 @@ class MyApp extends StatelessWidget {
           const PlaceholderScreen(title: 'Product Detail'),
       '/checkout': (context) => const PlaceholderScreen(title: 'Checkout'),
       '/orders': (context) => const PlaceholderScreen(title: 'Orders'),
-      '/profile': (context) => const PlaceholderScreen(title: 'Profile'),
+      '/profile': (context) => const ProfileScreen(),
+      '/edit-profile': (context) => const EditProfileScreen(),
+      '/change-password': (context) => const ChangePasswordScreen(),
     };
   }
 }

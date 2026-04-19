@@ -5,6 +5,8 @@ import '../../bloc/index.dart';
 import '../../models/index.dart';
 import '../../utils/index.dart';
 import '../../widgets/index.dart';
+import 'cart_screen.dart';
+import 'profile_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -15,6 +17,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int _carouselIndex = 0;
+  int _selectedTab = 0;
 
   @override
   void initState() {
@@ -24,14 +27,143 @@ class _HomeScreenState extends State<HomeScreen> {
     context.read<ProductBloc>().add(const FetchCategoriesRequested());
   }
 
+  Widget _buildTimeBox(String time, String label) {
+    return Container(
+      padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12),
+      decoration: BoxDecoration(
+        color: Colors.white.withOpacity(0.1),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: Colors.white.withOpacity(0.1)),
+      ),
+      child: Column(
+        children: [
+          Text(
+            time,
+            style: const TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
+          ),
+          Text(
+            label,
+            style: const TextStyle(color: Color(0xFF8690ee), fontSize: 10, fontWeight: FontWeight.bold, letterSpacing: 1),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildNavItem(IconData icon, String label, bool isActive, VoidCallback onTap) {
+    return GestureDetector(
+      onTap: onTap,
+      behavior: HitTestBehavior.opaque,
+      child: isActive
+          ? Container(
+              width: 56,
+              height: 56,
+              decoration: const BoxDecoration(
+                color: Color(0xFF1a237e),
+                shape: BoxShape.circle,
+              ),
+              child: Icon(icon, color: Colors.white, size: 28),
+            )
+          : Padding(
+              padding: const EdgeInsets.only(top: 8.0, left: 8.0, right: 8.0),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(icon, color: const Color(0xFF9CA3AF), size: 28),
+                  const SizedBox(height: 4),
+                  Text(
+                    label,
+                    style: const TextStyle(
+                      color: Color(0xFF9CA3AF),
+                      fontSize: 10,
+                      fontWeight: FontWeight.w800,
+                      letterSpacing: 1.5,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
+    return Scaffold(
+      body: IndexedStack(
+        index: _selectedTab,
+        children: [
+          _buildHomeTab(context),
+          const Scaffold(body: Center(child: Text('Search', style: TextStyle(color: Colors.black)))),
+          const CartScreen(),
+          const Scaffold(body: Center(child: Text('Orders', style: TextStyle(color: Colors.black)))),
+          const ProfileScreen(),
+        ],
+      ),
+      floatingActionButton: Container(
+        decoration: BoxDecoration(
+          shape: BoxShape.circle,
+          boxShadow: [
+            BoxShadow(
+              color: const Color(0xFF1a237e).withOpacity(0.4),
+              blurRadius: 30,
+              offset: const Offset(0, 10),
+            )
+          ],
+        ),
+        child: FloatingActionButton(
+          onPressed: () {
+            Navigator.of(context).pushNamed('/chat');
+          },
+          backgroundColor: const Color(0xFF1a237e),
+          foregroundColor: const Color(0xFF58e6ff),
+          elevation: 0,
+          child: const Icon(Icons.psychology, size: 32),
+        ),
+      ),
+      bottomNavigationBar: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: const BorderRadius.only(
+            topLeft: Radius.circular(30),
+            topRight: Radius.circular(30),
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.05),
+              blurRadius: 20,
+              offset: const Offset(0, -5),
+            ),
+          ],
+        ),
+        child: SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                _buildNavItem(Icons.home, 'HOME', _selectedTab == 0, () => setState(() => _selectedTab = 0)),
+                _buildNavItem(Icons.search, 'SEARCH', _selectedTab == 1, () => setState(() => _selectedTab = 1)),
+                _buildNavItem(Icons.shopping_cart, 'CART', _selectedTab == 2, () => setState(() => _selectedTab = 2)),
+                _buildNavItem(Icons.inventory_2, 'ORDERS', _selectedTab == 3, () => setState(() => _selectedTab = 3)),
+                _buildNavItem(Icons.person, 'ACCOUNT', _selectedTab == 4, () => setState(() => _selectedTab = 4)),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildHomeTab(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: AppHomeAppBar(
         userName: 'Hữu Hoàng',
         onProfileTap: () {
-          Navigator.of(context).pushNamed('/profile');
+          setState(() {
+            _selectedTab = 4;
+          });
         },
         onNotificationTap: () {
           // TODO: Navigate to notifications
@@ -84,94 +216,191 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             ),
-            // Premium Banner Carousel
-            CarouselSlider(
-              options: CarouselOptions(
-                height: 180,
-                autoPlay: true,
-                autoPlayInterval: const Duration(seconds: 4),
-                enlargeCenterPage: true,
-                viewportFraction: 0.9,
-                onPageChanged: (index, reason) {
-                  setState(() => _carouselIndex = index);
-                },
-              ),
-              items: [
-                {'title': 'Màn Hình\nĐỉnh Cao', 'subtitle': 'Giảm tới 30%', 'color1': Color(0xFF0F172A), 'color2': Color(0xFF334155)},
-                {'title': 'Gaming Gear', 'subtitle': 'Mới về hàng', 'color1': AppColors.secondary, 'color2': AppColors.accentPurple},
-                {'title': 'Flash Sale', 'subtitle': 'Duy nhất hôm nay', 'color1': AppColors.discount, 'color2': AppColors.accentPink},
-              ].map((banner) {
-                return Container(
-                  width: double.infinity,
-                  padding: const EdgeInsets.all(AppSpacing.xl),
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [banner['color1'] as Color, banner['color2'] as Color],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
+            // Premium Bento Cards
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
+              child: Column(
+                children: [
+                  // Card 1: Quantum Efficiency
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(AppSpacing.xxl),
+                    decoration: BoxDecoration(
+                      gradient: const LinearGradient(
+                        colors: [Color(0xFF000666), Color(0xFF1a237e)],
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
+                      ),
+                      borderRadius: BorderRadius.circular(AppRadius.lg),
+                      boxShadow: AppShadows.softCard,
                     ),
-                    borderRadius: BorderRadius.circular(AppRadius.xl),
-                    boxShadow: AppShadows.softCard,
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        banner['subtitle'] as String,
-                        style: const TextStyle(
-                          color: AppColors.surface,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w600,
-                          letterSpacing: 1.2,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                          decoration: BoxDecoration(
+                            color: const Color(0xFF2c1600),
+                            borderRadius: BorderRadius.circular(AppRadius.full),
+                          ),
+                          child: const Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Icon(Icons.bolt, color: Colors.white, size: 16),
+                              SizedBox(width: 4),
+                              Text(
+                                'FLASH SALE',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 10,
+                                  fontWeight: FontWeight.bold,
+                                  letterSpacing: 1.5,
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                      const SizedBox(height: AppSpacing.sm),
-                      Text(
-                        banner['title'] as String,
-                        style: const TextStyle(
-                          color: AppColors.white,
-                          fontSize: 24,
-                          fontWeight: FontWeight.w900,
-                          height: 1.2,
+                        const SizedBox(height: AppSpacing.xl),
+                        const Text(
+                          'Quantum\nEfficiency.',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 40,
+                            height: 1.1,
+                            fontWeight: FontWeight.w900,
+                            letterSpacing: -1,
+                          ),
                         ),
-                      ),
-                    ],
+                        const SizedBox(height: AppSpacing.md),
+                        const Text(
+                          'Elevate your workspace with the next generation of neural-engine processing.',
+                          style: TextStyle(
+                            color: Color(0xFF8690ee),
+                            fontSize: 14,
+                          ),
+                        ),
+                        const SizedBox(height: AppSpacing.xl),
+                        Row(
+                          children: [
+                            _buildTimeBox('08', 'HRS'),
+                            const SizedBox(width: AppSpacing.sm),
+                            _buildTimeBox('42', 'MIN'),
+                            const SizedBox(width: AppSpacing.sm),
+                            _buildTimeBox('19', 'SEC'),
+                          ],
+                        ),
+                        const SizedBox(height: AppSpacing.xl),
+                        ElevatedButton(
+                          onPressed: () {},
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: const Color(0xFF006876),
+                            foregroundColor: Colors.white,
+                            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(AppRadius.full),
+                            ),
+                          ),
+                          child: const Text('Explore Drops', style: TextStyle(fontWeight: FontWeight.bold)),
+                        ),
+                      ],
+                    ),
                   ),
-                );
-              }).toList(),
-            ),
-            const SizedBox(height: AppSpacing.md),
-            // Modern Dot Indicator
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: List.generate(
-                3,
-                (index) => AnimatedContainer(
-                  duration: const Duration(milliseconds: 300),
-                  width: _carouselIndex == index ? 24 : 8,
-                  height: 8,
-                  margin: const EdgeInsets.symmetric(horizontal: 4),
-                  decoration: BoxDecoration(
-                    color: _carouselIndex == index
-                        ? AppColors.secondary
-                        : AppColors.gray300,
-                    borderRadius: BorderRadius.circular(AppRadius.full),
+                  const SizedBox(height: AppSpacing.lg),
+                  // Card 2: Retro Futures
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(AppSpacing.xl),
+                    decoration: BoxDecoration(
+                      color: const Color(0xFF58e6ff),
+                      borderRadius: BorderRadius.circular(AppRadius.lg),
+                      boxShadow: AppShadows.softCard,
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text(
+                          'Retro Futures.',
+                          style: TextStyle(
+                            color: Color(0xFF006573),
+                            fontSize: 28,
+                            fontWeight: FontWeight.w900,
+                            letterSpacing: -0.5,
+                          ),
+                        ),
+                        const SizedBox(height: AppSpacing.sm),
+                        const Text(
+                          'Curated collection of analog-inspired digital gear.',
+                          style: TextStyle(
+                            color: Color(0xFF004e59),
+                            fontSize: 14,
+                          ),
+                        ),
+                        const SizedBox(height: AppSpacing.lg),
+                        Row(
+                          children: const [
+                            Text(
+                              'View Collection',
+                              style: TextStyle(
+                                color: Color(0xFF006573),
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            SizedBox(width: 4),
+                            Icon(Icons.arrow_forward, color: Color(0xFF006573), size: 16),
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
-                ),
+                ],
               ),
             ),
             const SizedBox(height: AppSpacing.xxl),
             // Dynamic Categories
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
-              child: const Text(
-                'Danh Mục',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w800,
-                  color: AppColors.primary,
-                ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: const [
+                      Text(
+                        'Browse Labs',
+                        style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.w900,
+                          color: Color(0xFF000666),
+                        ),
+                      ),
+                      Text(
+                        'Specialized hardware sectors',
+                        style: TextStyle(
+                          fontSize: 14,
+                          color: Color(0xFF767683),
+                        ),
+                      ),
+                    ],
+                  ),
+                  GestureDetector(
+                    onTap: () {},
+                    child: const Row(
+                      children: [
+                        Text(
+                          'View All Labs',
+                          style: TextStyle(
+                            color: Color(0xFF006876),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 14,
+                          ),
+                        ),
+                        SizedBox(width: 4),
+                        Icon(Icons.open_in_new, color: Color(0xFF006876), size: 16),
+                      ],
+                    ),
+                  ),
+                ],
               ),
             ),
             const SizedBox(height: AppSpacing.lg),
@@ -199,29 +428,29 @@ class _HomeScreenState extends State<HomeScreen> {
                             child: Column(
                               children: [
                                 Container(
-                                  width: 64,
-                                  height: 64,
-                                  decoration: BoxDecoration(
-                                    color: AppColors.surface,
-                                    borderRadius: BorderRadius.circular(AppRadius.xl),
-                                    boxShadow: AppShadows.softCard,
+                                  width: 72,
+                                  height: 72,
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xFFf5f2fb),
+                                    shape: BoxShape.circle,
                                   ),
-                                  child: Icon(
-                                    Icons.devices_other_rounded,
-                                    color: AppColors.secondaryDark,
-                                    size: 28,
+                                  child: const Icon(
+                                    Icons.computer_rounded,
+                                    color: Color(0xFF000666),
+                                    size: 32,
                                   ),
                                 ),
                                 const SizedBox(height: AppSpacing.sm),
                                 Text(
-                                  category.name,
+                                  category.name.toUpperCase(),
                                   textAlign: TextAlign.center,
                                   maxLines: 1,
                                   overflow: TextOverflow.ellipsis,
                                   style: const TextStyle(
-                                    fontSize: 13,
-                                    fontWeight: FontWeight.w600,
-                                    color: AppColors.gray700,
+                                    fontSize: 10,
+                                    fontWeight: FontWeight.w700,
+                                    letterSpacing: 1,
+                                    color: Color(0xFF454652),
                                   ),
                                 ),
                               ],
@@ -258,29 +487,22 @@ class _HomeScreenState extends State<HomeScreen> {
             // Trending section with premium styling
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                crossAxisAlignment: CrossAxisAlignment.end,
-                children: [
-                  const Text(
-                    'Sản Phẩm Nổi Bật',
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: const [
+                  Text(
+                    'Featured Apparatus',
                     style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w800,
-                      color: AppColors.primary,
+                      fontSize: 24,
+                      fontWeight: FontWeight.w900,
+                      color: Color(0xFF000666),
                     ),
                   ),
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.of(context).pushNamed('/products');
-                    },
-                    child: const Text(
-                      'Tất cả',
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w600,
-                        color: AppColors.secondaryDark,
-                      ),
+                  Text(
+                    'Engineered for peak performance',
+                    style: TextStyle(
+                      fontSize: 14,
+                      color: Color(0xFF767683),
                     ),
                   ),
                 ],
@@ -368,37 +590,6 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 100), // padding for FAB
           ],
         ),
-      ),
-      floatingActionButton: Container(
-        decoration: BoxDecoration(
-          boxShadow: AppShadows.neonGlow,
-          borderRadius: BorderRadius.circular(AppRadius.full),
-        ),
-        child: FloatingActionButton.extended(
-          onPressed: () {
-            Navigator.of(context).pushNamed('/chat');
-          },
-          label: const Text(
-            'Trợ lý AI',
-            style: TextStyle(fontWeight: FontWeight.w700),
-          ),
-          icon: const Icon(Icons.auto_awesome),
-          backgroundColor: AppColors.primary,
-          foregroundColor: AppColors.secondaryLight,
-        ),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 0,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Trang chủ'),
-          BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Tìm kiếm'),
-          BottomNavigationBarItem(icon: Icon(Icons.shopping_cart), label: 'Giỏ hàng'),
-          BottomNavigationBarItem(icon: Icon(Icons.receipt), label: 'Đơn hàng'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Tài khoản'),
-        ],
-        onTap: (index) {
-          // TODO: Navigate based on index
-        },
       ),
     );
   }

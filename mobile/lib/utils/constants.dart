@@ -1,35 +1,40 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  // Primary colors - Deep Space Blue
-  static const Color primary = Color(0xFF0F172A); // Slate 900
-  static const Color primaryLight = Color(0xFF1E293B); // Slate 800
-  static const Color primaryDark = Color(0xFF020617); // Slate 950
+  // Primary - Deep Indigo & Electric Blue
+  static const Color primary = Color(0xFF312E81); // Deep Indigo
+  static const Color primaryLight = Color(0xFF4F46E5); // Indigo 500
+  static const Color primaryDark = Color(0xFF1E1B4B); // Indigo 950
 
-  // Secondary colors - Electric Neon / Cyan
-  static const Color secondary = Color(0xFF06B6D4); // Cyan 500
-  static const Color secondaryLight = Color(0xFF22D3EE); // Cyan 400
-  static const Color secondaryDark = Color(0xFF0891B2); // Cyan 600
+  static const Color electricBlue = Color(0xFF3B82F6); // Blue 500
+  static const Color electricBlueLight = Color(0xFF60A5FA); // Blue 400
 
-  // Accents
-  static const Color accentPurple = Color(0xFF8B5CF6);
-  static const Color accentPink = Color(0xFFEC4899);
+  // Accent - Amber / Coral
+  static const Color secondary = Color(0xFFF59E0B); // Amber 500
+  static const Color secondaryLight = Color(0xFFFCD34D); // Amber 300
+  static const Color secondaryDark = Color(0xFF0891B2); // Cyan 600 - Added back for compatibility
+  
+  static const Color coral = Color(0xFFF43F5E); // Rose 500
+  static const Color discount = Color(0xFFF43F5E); // Rose 500 - Added back for compatibility
+  
+  static const Color accentPurple = Color(0xFF8B5CF6); // Added back for compatibility
+  static const Color accentPink = Color(0xFFEC4899); // Added back for compatibility
 
-  // Neutral colors
+  // Neutral Colors (Light mode)
   static const Color white = Color(0xFFFFFFFF);
-  static const Color black = Color(0xFF000000);
-  static const Color background = Color(0xFFF8FAFC); // Slate 50
+  static const Color black = Color(0xFF111827); // Gray 900
+  static const Color background = Color(0xFFF9FAFB); // Gray 50
   static const Color surface = Color(0xFFFFFFFF);
   
-  static const Color gray50 = Color(0xFFF8FAFC);
-  static const Color gray100 = Color(0xFFF1F5F9);
-  static const Color gray200 = Color(0xFFE2E8F0);
-  static const Color gray300 = Color(0xFFCBD5E1);
-  static const Color gray400 = Color(0xFF94A3B8);
-  static const Color gray500 = Color(0xFF64748B);
-  static const Color gray600 = Color(0xFF475569);
-  static const Color gray700 = Color(0xFF334155);
-  static const Color gray800 = Color(0xFF1E293B);
+  static const Color gray50 = Color(0xFFF9FAFB);
+  static const Color gray100 = Color(0xFFF3F4F6);
+  static const Color gray200 = Color(0xFFE5E7EB);
+  static const Color gray300 = Color(0xFFD1D5DB);
+  static const Color gray400 = Color(0xFF9CA3AF);
+  static const Color gray500 = Color(0xFF6B7280);
+  static const Color gray600 = Color(0xFF4B5563);
+  static const Color gray700 = Color(0xFF374151);
+  static const Color gray800 = Color(0xFF1F2937);
 
   // Status colors
   static const Color success = Color(0xFF10B981);
@@ -37,18 +42,19 @@ class AppColors {
   static const Color error = Color(0xFFEF4444);
   static const Color info = Color(0xFF3B82F6);
 
-  // Product specific
-  static const Color discount = Color(0xFFF43F5E); // Rose 500
-  static const Color inStock = Color(0xFF10B981);
-  static const Color outOfStock = Color(0xFF64748B);
-
   // Gradients
   static const LinearGradient primaryGradient = LinearGradient(
-    colors: [Color(0xFF0F172A), Color(0xFF1E293B)],
+    colors: [Color(0xFF312E81), Color(0xFF4F46E5)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
   
+  static const LinearGradient electricGradient = LinearGradient(
+    colors: [Color(0xFF3B82F6), Color(0xFF60A5FA)],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  );
+
   static const LinearGradient neonGradient = LinearGradient(
     colors: [secondary, accentPurple],
     begin: Alignment.topLeft,
@@ -63,15 +69,11 @@ class AppColors {
 }
 
 class AppShadows {
+  // Flat modern design prefers subtle/no shadows. We keep basic glow.
   static List<BoxShadow> softCard = [
     BoxShadow(
-      color: AppColors.gray800.withOpacity(0.04),
-      blurRadius: 15,
-      offset: const Offset(0, 4),
-    ),
-    BoxShadow(
-      color: AppColors.gray800.withOpacity(0.02),
-      blurRadius: 4,
+      color: AppColors.gray800.withOpacity(0.03),
+      blurRadius: 10,
       offset: const Offset(0, 2),
     ),
   ];
@@ -106,15 +108,12 @@ class AppSpacing {
 class AppRadius {
   static const double sm = 4.0;
   static const double md = 8.0;
-  static const double lg = 12.0;
-  static const double xl = 16.0;
-  static const double xxl = 20.0;
+  static const double button = 12.0;
+  static const double input = 14.0;
+  static const double card = 16.0;
   static const double full = 50.0;
-}
-
-class AppElevation {
-  static const double sm = 2.0;
-  static const double md = 4.0;
-  static const double lg = 8.0;
-  static const double xl = 12.0;
+  
+  // Backwards compatibility for old code that uses AppRadius.lg and AppRadius.xl
+  static const double lg = 16.0; 
+  static const double xl = 16.0;
 }

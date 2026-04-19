@@ -1,7 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:dio/dio.dart';
 import '../../models/index.dart';
 import '../../services/index.dart';
+import '../../core/network/exceptions.dart';
 
 // Events
 abstract class AuthEvent extends Equatable {
@@ -25,11 +27,17 @@ class AuthRegisterRequested extends AuthEvent {
   final String email;
   final String password;
   final String fullName;
+  final String? phone;
 
-  const AuthRegisterRequested(this.email, this.password, this.fullName);
+  const AuthRegisterRequested({
+    required this.email,
+    required this.password,
+    required this.fullName,
+    this.phone,
+  });
 
   @override
-  List<Object?> get props => [email, password, fullName];
+  List<Object?> get props => [email, password, fullName, phone];
 }
 
 class AuthLogoutRequested extends AuthEvent {
@@ -89,6 +97,16 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
     on<AuthLogoutRequested>(_onAuthLogoutRequested);
   }
 
+  String _getErrorMessage(dynamic error) {
+    if (error is DioException) {
+      if (error.error is AppException) {
+        final appException = error.error as AppException;
+        return appException.message;
+      }
+    }
+    return error.toString();
+  }
+
   Future<void> _onAuthCheckRequested(
     AuthCheckRequested event,
     Emitter<AuthState> emit,
@@ -112,7 +130,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
       );
       emit(AuthSuccess(user));
     } catch (e) {
-      emit(AuthFailure(e.toString()));
+      emit(AuthFailure(_getErrorMessage(e)));
     }
   }
 
@@ -126,10 +144,11 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
         email: event.email,
         password: event.password,
         fullName: event.fullName,
+        phone: event.phone,
       );
       emit(AuthSuccess(user));
     } catch (e) {
-      emit(AuthFailure(e.toString()));
+      emit(AuthFailure(_getErrorMessage(e)));
     }
   }
 
@@ -141,7 +160,8 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
       await _authService.logout();
       emit(const AuthUnauthenticated());
     } catch (e) {
-      emit(AuthFailure(e.toString()));
+      // Even on failure to tell server, we log out client
+      emit(const AuthUnauthenticated());
     }
   }
 }
