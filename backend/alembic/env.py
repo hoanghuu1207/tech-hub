@@ -1,5 +1,10 @@
 import asyncio
+import sys
+import os
 from logging.config import fileConfig
+
+# Thêm thư mục gốc vào PYTHONPATH để nhận diện module 'app'
+sys.path.insert(0, os.getcwd())
 
 from sqlalchemy import pool
 from sqlalchemy.engine import Connection
@@ -12,7 +17,7 @@ from app.core.config import settings
 from app.db.base import Base
 
 # BẮT BUỘC IMPORT CÁC MODELS VÀO ĐÂY ĐỂ ALEMBIC THẤY VÀ TRACK SỰ THAY ĐỔI
-from app.models.user import User
+from app.models import *
 
 config = context.config
 

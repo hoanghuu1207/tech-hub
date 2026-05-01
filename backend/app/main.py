@@ -27,8 +27,9 @@ app = FastAPI(
 
 check_qdrant_connection()
 logger.info(f"Qdrant URL: {settings.QDRANT_CLUSTER_ENDPOINT}")
-logger.info(f"Qdrant API Key: {settings.QDRANT_API_KEY}")
-qdrant_client.search(collection_name="products", query_vector=[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0], limit=5)
+# logger.info(f"Qdrant API Key: {settings.QDRANT_API_KEY}")
+# qdrant_client.search(collection_name="products", query_vector=[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0], limit=5)
+
 
 # --- 1. Rate Limiting Setup ---
 app.state.limiter = limiter
