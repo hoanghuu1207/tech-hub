@@ -1,0 +1,52 @@
+{
+  "name": "Đồng hồ thông minh Garmin Lily 2 Active",
+  "price": 7320000,
+  "sale_price": 8290000,
+  "colors": [
+    "Vàng",
+    "Tím",
+    "Xanh Rêu"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h__4_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_3__1_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_1__1_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_2__1_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_56.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_17__8_10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__6_116.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__6_133.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__5_121.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__7_110.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.0,
+      "resolution": "240 x 201 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 110 - 175 mm",
+      "weight_g": 29.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "GARMIN PAY",
+      "Ghi lại lượng nước hàng ngày để nhắc nhở bù nước",
+      "Nhận biết giấc ngủ ngắn"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-lily-2-active.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

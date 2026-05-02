@@ -1,0 +1,63 @@
+{
+  "name": "Laptop ASUS Vivobook S16 S3607CA-SH083WS",
+  "price": 26090000,
+  "sale_price": 26990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s16_s3607ca-sh083ws_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s16_s3607ca-sh083ws_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s16_s3607ca-sh083ws_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_249_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_293_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_284_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__4_225_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__4_253_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_240_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__6_220_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FHD có chức năng IR hỗ trợ Windows Hello; Có màn trập riêng tư"
+    },
+    "performance": {
+      "chipset": "Intel AI Boost NPU up to 13TOPS",
+      "cpu": "Intel Core Ultra 7 255H 2.0 GHz (24MB Cache, up to 5.1 GHz, 16 lõi, 16 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home + Microsoft Office Home 2024 + Microsoft 365 Basic"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.70 x 25.06 x 1.59 ~ 1.79 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.7,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6(802.11ax) (Dual band) 2*2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-s16-s3607ca-sh083ws.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK S"
+}

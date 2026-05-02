@@ -1,0 +1,61 @@
+{
+  "name": "Laptop HP 14‑EM0023AU D0BG7PA",
+  "price": 15990000,
+  "sale_price": 19990000,
+  "colors": [
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_14_em0023au_d0bg7pa_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_14_em0023au_d0bg7pa_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_14_em0023au_d0bg7pa_-_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_136.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_76.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_80.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_71.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_945_4.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_14_em0023au_d0bg7pa_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_14_em0023au_d0bg7pa_-_2_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera HP True Vision 720p HD với tính năng giảm nhiễu theo thời gian và tích hợp micro kỹ thuật số kép"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 5 7520U (up to 4.3 GHz max boost clock, 4 MB L3 cache, 4 lõi, 8 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "32.37 x 21.5 x 1.79 - 3.25 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.4,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Realtek Wi-Fi 6 (2x2)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-14-em0023au-d0bg7pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": null
+}

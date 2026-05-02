@@ -1,0 +1,57 @@
+{
+  "name": "Apple MacBook Pro 13 inch Touch Bar 512GB MR9V2",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/b/mbp13touch-mr9u2-mr9v2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/b/mbp13touch-2018-silver-1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/b/mbp13touch-2018-silver-2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/b/mbp13touch-2018-silver-3_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mbp13touch-mr9u2-mr9v2_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mbp13touch-2018-silver-1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mbp13touch-2018-silver-2_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mbp13touch-2018-silver-3_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mbp13touch-mr9u2-mr9v2_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mbp13touch-2018-silver-1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.3,
+      "resolution": "2560 x 1600 pixels (2K)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5 Quad-core 2.3 GHz, Turbo Boost lên đến 3.8 GHz, 128MB eDRAM",
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": "macOS High Sierra"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "30.41 x 21.24 x 1.49 cm (11.97 x 8.36 x 0.59 in)",
+      "weight_kg": 1.37,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "Wi-Fi 802.11 b/g/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-macbook-pro-13-inch-touch-bar-512-gb-mr9v2-11650.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK PRO"
+}

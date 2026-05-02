@@ -1,0 +1,74 @@
+{
+  "name": "iPhone 14 Pro 128GB | Chính hãng VN/A",
+  "price": 24990000,
+  "sale_price": 27990000,
+  "colors": [
+    "Tím",
+    "Vàng",
+    "Đen",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_pro_1tb_-_1_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-14-pro-1tb-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-14-pro-1tb-10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-14-pro-1tb-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/1/21_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-14-pro-1tb-9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-14-pro-1tb-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/1/21.1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/1/21.7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-14-pro-1tb-4.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "2556 x 1179 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 48,
+      "optical_zoom": "3x"
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A16 Bionic 6 nhân",
+      "cpu": "6 nhân",
+      "gpu": "GPU 5 nhân",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "iOS 16"
+    },
+    "battery": {
+      "capacity_mah": 3200
+    },
+    "design": {
+      "dimensions_mm": "Dài 174.5mm - Ngang: 71.5mm - Dày 7.85mm",
+      "weight_g": 206.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 6 (802.11ax) with 2x2 MIMO"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Hàng chính hãng Apple Việt Nam, Mới",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-14-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 14 SERIES"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "vivo V30E 12GB 256GB",
+  "price": 10490000,
+  "sale_price": null,
+  "colors": [
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-v30e-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-v30e-9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-v30e-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_v30e_12gb_256gb_-_4-10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_v30e_12gb_256gb_-_5-11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/3/v30e_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-v30e_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-v30e_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-v30e_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-v30e_6_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Qualcomm SM6450 Snapdragon 6 Gen 1 (4 nm)",
+      "cpu": "4x2.2 GHz Cortex-A78 & 4x1.8 GHz Cortex-A55",
+      "gpu": "Adreno 710",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 14 OS"
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "design": {
+      "dimensions_mm": "164.4 x 74.8 x 7.7 mm",
+      "weight_g": 179.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.1, A2DP, LE",
+      "wifi": "802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-vivo-v30e.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại vivo",
+  "product_line": null
+}

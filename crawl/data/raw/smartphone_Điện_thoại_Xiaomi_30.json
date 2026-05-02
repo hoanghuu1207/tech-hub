@@ -1,0 +1,61 @@
+{
+  "name": "Xiaomi Redmi Note 9 Pro",
+  "price": 5750000,
+  "sale_price": 6490000,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_65_5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002_pms_1589425067.76245714.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_pms_1589425078.08482488.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001_pms_1589425072.91549652.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_65_5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0002_pms_1589425067.76245714.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0000_pms_1589425078.08482488.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0001_pms_1589425072.91549652.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_65_5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0002_pms_1589425067.76245714.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.66,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 64
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Qualcomm SM7125 Snapdragon 720G (8 nm)",
+      "cpu": "Octa-core (2x2.3 GHz Kryo 465 Gold & 6x1.8 GHz Kryo 465 Silver)",
+      "gpu": "Adreno 618",
+      "ram_gb": 6,
+      "storage_gb": 64,
+      "os": "Android 10.0; MIUI 11"
+    },
+    "battery": {
+      "capacity_mah": 5020
+    },
+    "design": {
+      "dimensions_mm": "165.8 x 76.7 x 8.8 mm",
+      "weight_g": 209.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-redmi-note-9-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": null
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Laptop HP OmniBook 7 14-FR0033TU C1MN2PA",
+  "price": 26990000,
+  "sale_price": 28490000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_7_14-fr0033tu_c1mn2pa_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_7_14-fr0033tu_c1mn2pa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_7_14-fr0033tu_c1mn2pa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_94.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__71.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__75.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__69.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__63.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_744_1_105.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_omnibook_7_14-fr0033tu_c1mn2pa_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Intel AI Boost (12 NPU TOPS)",
+      "cpu": "Intel Core Ultra 5 225U (lên đến 4.8 GHz với Công nghệ Intel Turbo Boost, bộ nhớ đệm L3 12 MB, 12 lõi, 14 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language + Office"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "31.4 x 22.65 x 1.49 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.41,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Intel Wi-Fi 6E AX211 (2x2)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-omnibook-7-14-fr0033tu-c1mn2pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "OMNIBOOK"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Huawei nova 3e Chính hãng",
+  "price": 5290000,
+  "sale_price": 5990000,
+  "colors": [
+    "Xanh dương",
+    "Đen",
+    "Gold",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nova-3e-black.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nova-3e-blue_2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nova-3e-gold.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nova-3e-pink.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nova-3e-black-back.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nova-3e-blue-back_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nova-3e-gold-back.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nova-3e-pink-back.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nova-3e-black.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nova-3e-blue_2_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 5.84,
+      "resolution": "1080 x 2280 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 16
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "HiSilicon Kirin 659",
+      "cpu": "4x 2.36 GHz Cortex-A53 & 4x 1.7 GHz Cortex-A53",
+      "gpu": "Mali-T830 MP2",
+      "ram_gb": null,
+      "storage_gb": 64,
+      "os": "8.0 (Oreo)"
+    },
+    "battery": {
+      "capacity_mah": 3000
+    },
+    "design": {
+      "dimensions_mm": "148.6 x 71.2 x 7.4 mm (5.85 x 2.80 x 0.29 in)",
+      "weight_g": 145.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "4.2, A2DP, LE, EDR, aptX",
+      "wifi": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Cookies được sử dụng nhằm ghi nhận các thiết lập cần thiết để website hoạt động ổn định và hỗ trợ trải nghiệm mua sắm. Việc sử dụng cookies không làm gián đoạn trải nghiệm và giúp quá trình mua hàng diễn ra thuận tiện hơn.",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/huawei-nova-3e-chinh-hang.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Huawei",
+  "product_line": null
+}

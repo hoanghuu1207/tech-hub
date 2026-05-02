@@ -1,0 +1,31 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai Edifier Evo Space (TBC)",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1262702391.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_1262702391.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_1262702391.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 93
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-edifier-evo-space.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Edifier",
+  "product_line": null
+}

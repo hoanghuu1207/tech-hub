@@ -1,0 +1,53 @@
+{
+  "name": "Đồng hồ thông minh Coros Vertix 2S",
+  "price": 18460000,
+  "sale_price": 18800000,
+  "colors": [
+    "Xanh dương",
+    "Bạc",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-vertix-2s-10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_coros_vertix_2s_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_coros_vertix_2s_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-vertix-2s_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-vertix-2s_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-vertix-2s_4__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-vertix-2s_5__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-vertix-2s_6__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-vertix-2s_7__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.4,
+      "resolution": "280×280 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 118
+    },
+    "design": {
+      "case_size_mm": "50.3 x 50.3 x 15.7 mm",
+      "weight_g": 91.0,
+      "material": "Nylon"
+    },
+    "special_features": [
+      "Phát nhạc qua Bluetooth",
+      "Hỗ trợ định vị/bản đồ"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-coros-vertix-2s.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Coros",
+  "product_line": null
+}

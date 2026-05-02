@@ -1,0 +1,60 @@
+{
+  "name": "Đồng hồ thông minh OPPO Watch X3",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [
+    "Cam",
+    "Titan"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dhnn_2__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dhnn_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dhnn_1__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_x3_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_x3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_x3_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple_lte_3_60.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/h/dhnn_2__5.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/h/dhnn_5.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/h/dhnn_1__5.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.5,
+      "resolution": "466 × 466 pixel, 310 PPI\nĐộ sáng mặc định toàn màn hình: 600 nit (điển hình)\nKhi kích hoạt ngoài trời nắng: 1500 nit (điển hình)\nĐỉnh cao nhất (chế độ thể thao): 3000 nit",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 646
+    },
+    "design": {
+      "case_size_mm": "Từ 14 – 21 cm",
+      "weight_g": 43.0,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "NFC",
+      "Kiểm tra sức khỏe 60 giây: 14 chỉ số (tim mạch",
+      "giấc ngủ",
+      "tinh thần) + AI phân tích",
+      "Health AI Insight",
+      "Kết nối CGM (đường huyết)",
+      "ECG",
+      "Theo dõi sức khỏe người thân + cảnh báo",
+      "Điều khiển bằng cử chỉ",
+      "Trợ lý giọng nói Xiaobu"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-oppo-watch-x3.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Oppo",
+  "product_line": null
+}

@@ -1,0 +1,74 @@
+{
+  "name": "iPhone 15 Plus 256GB | Chính hãng VN/A",
+  "price": 21290000,
+  "sale_price": 25990000,
+  "colors": [
+    "Xanh dương",
+    "Đen",
+    "Xanh lá",
+    "Vàng",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-plus-256gb_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-plus-series-image-17_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15_5__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-plus-series-image-02_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-plus-series-image-03_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-plus-series-image-04_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-plus-series-image-05_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-plus-series-image-07_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15_6__3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus-256gb_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "2796 x 1290-pixel",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A16 Bionic",
+      "cpu": "CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+      "gpu": "GPU 5 lõi",
+      "ram_gb": 6,
+      "storage_gb": 256,
+      "os": "iOS 17"
+    },
+    "battery": {
+      "capacity_mah": 4383
+    },
+    "design": {
+      "dimensions_mm": "160,9 x 77,8 x 7,80 mm",
+      "weight_g": 201.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "Wi‑Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-15-plus-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 15 SERIES"
+}

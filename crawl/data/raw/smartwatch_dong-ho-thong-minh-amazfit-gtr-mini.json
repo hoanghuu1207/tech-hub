@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thông minh Amazfit GTR mini",
+  "price": 2090000,
+  "sale_price": 3490000,
+  "colors": [
+    "Đen",
+    "Xanh dương",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/m/amazfit.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-05-21t221935.001.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-05-21t222017.805.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-05-21t221951.031.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-05-21t222209.462.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-05-21t222229.079.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-05-21t222034.407.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-05-21t222126.827.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-05-21t222144.655.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/m/amazfit.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.28,
+      "resolution": "416 x 416 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "15 - 20 cm",
+      "weight_g": 36.2,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Nhận dạng thông minh",
+      "Theo dõi chất lượng giấc ngủ",
+      "Chế độ ngủ khi đến giờ nghỉ ngơi",
+      "Khóa màn hình và mật khẩu",
+      "Danh sách nhiệm vụ",
+      "Lời nhắc sự kiện"
+    ]
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-gtr-mini.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

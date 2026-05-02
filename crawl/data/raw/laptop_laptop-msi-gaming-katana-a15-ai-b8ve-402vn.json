@@ -1,0 +1,61 @@
+{
+  "name": "Laptop MSI Gaming Katana A15 AI B8VE-402VN",
+  "price": 25290000,
+  "sale_price": 28990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_gaming_katana_ai_b8ve-402vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_gaming_katana_ai_b8ve-402vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_gaming_katana_ai_b8ve-402vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_45.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_18__5_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__6_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_17__7_20.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_509_15_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_msi_gaming_katana_ai_b8ve-402vn_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD type (30fps@720p)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen R7-8845HS có kiến ​​trúc AMD XDNA",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359 x 259 x 24.9 mm (W x D x H)",
+      "weight_kg": 2.25,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.3",
+      "wifi": "Gb LAN 802.11 ax Wi-Fi 6E"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-gaming-katana-a15-ai-b8ve-402vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "GAMING"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Honor X7a",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/f/dfvdvfrg_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/f/dfvdvfrg_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/f/dfvdvfrg.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-x7a_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-x7a.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-x7a_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/f/dfvdvfrg_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/f/dfvdvfrg_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/f/dfvdvfrg.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor-x7a_1_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Mediatek MT6765H Helio G37 (12 nm)",
+      "cpu": "4x2.3 GHz Cortex-A53 & 4x1.7 GHz Cortex-A53",
+      "gpu": "PowerVR GE8320",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "167,5 x 76,9 x 8,3 mm",
+      "weight_g": 196.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "802.11 a/b/g/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/honor-x7a.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

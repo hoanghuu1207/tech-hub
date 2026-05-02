@@ -1,0 +1,63 @@
+{
+  "name": "Nokia 3210 4G",
+  "price": 1450000,
+  "sale_price": 1490000,
+  "colors": [
+    "Xanh dương",
+    "Vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-3210-4g.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-3210-4g_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-3210-4g_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-3210-4g.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-3210-4g.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-3210-4g_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-3210-4g_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-3210-4g.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-3210-4g_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-3210-4g_2_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 2.4,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 2
+    },
+    "camera_front": {},
+    "performance": {
+      "chipset": "Unisoc T107",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 1450
+    },
+    "design": {
+      "dimensions_mm": "122 x 52 x 13,14 mm",
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nokia-3210-4g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nokia",
+  "product_line": null
+}

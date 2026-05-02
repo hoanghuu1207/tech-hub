@@ -1,0 +1,57 @@
+{
+  "name": "Laptop Dell Alienware M15 R5",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m15-r5-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m15-r5-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m15-r5-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m15-r5-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m15-r5-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m15-r5-6.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-dell-alienware-m15-r5-1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-dell-alienware-m15-r5-1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-dell-alienware-m15-r5-2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-dell-alienware-m15-r5-3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD Webcam (720p Webcam)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 9 5900HX",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 10 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "356 x 272 x 19 mm",
+      "weight_kg": 2.7,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi 802.11 ax"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-alienware-m15-r5.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": null
+}

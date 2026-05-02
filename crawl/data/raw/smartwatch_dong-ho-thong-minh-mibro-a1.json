@@ -1,0 +1,46 @@
+{
+  "name": "Đồng hồ thông minh Mibro A1",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-mibro-a11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-mibro-a1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-mibro-a1_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-a1_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-a11.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-a1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-a1_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-a11.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-a1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-a1_1_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.28,
+      "resolution": "240 x 240 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 42.0,
+      "material": "Kim loại + Nhựa (PA+GF)"
+    },
+    "special_features": [
+      "Màn hình HD"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-mibro-a1.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Mibro",
+  "product_line": null
+}

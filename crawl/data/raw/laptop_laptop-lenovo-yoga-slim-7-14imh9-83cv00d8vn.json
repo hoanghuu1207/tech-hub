@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Lenovo Yoga Slim 7 14IMH9 83CV00D8VN",
+  "price": 24590000,
+  "sale_price": 26990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_yoga_slim_7_14imh9_83cv00d8vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_yoga_slim_7_14imh9_83cv00d8vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_yoga_slim_7_14imh9_83cv00d8vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__9_192.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__8_188.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__6_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__10_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__11_34.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__6_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_350.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD 1080p + IR với màn trập điện tử, cảm biến ToF"
+    },
+    "performance": {
+      "chipset": "Intel AI Boost, up to 11 TOPS",
+      "cpu": "Intel Core Ultra 5 125H, 14 lõi (4P + 8E + 2LPE) / 18 luồng, Max Turbo up to 4.5GHz, 18MB",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home Single Language, English + Microsoft 365 Basic + Office Home 2024"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "312 x 221 x 14.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.39,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-yoga-slim-7-14imh9-83cv00d8vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "YOGA"
+}

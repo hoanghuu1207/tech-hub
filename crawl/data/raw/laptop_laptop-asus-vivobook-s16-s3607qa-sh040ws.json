@@ -1,0 +1,62 @@
+{
+  "name": "Laptop ASUS Vivobook S16 S3607QA-SH040WS",
+  "price": 19090000,
+  "sale_price": 23490000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s16_s3607qa-sh040ws_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s16_s3607qa-sh040ws_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s16_s3607qa-sh040ws_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_252.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_294.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_285.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__4_226.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__4_254.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_241.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__6_221.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FHD 1080p; Có màn trập camera"
+    },
+    "performance": {
+      "chipset": "Qualcomm Hexagon NPU up to 45TOPS",
+      "cpu": "Snapdragon X X1 26 100 (30MB Cache, up to 2.97GHz, 8 lõi, 8 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home + Microsoft Office Home 2024 + Microsoft 365 Basic"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.70 x 25.07 x 1.59 ~ 1.79 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.74,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E(802.11ax) (Triple band) 2*2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-s16-s3607qa-sh040ws.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK S"
+}

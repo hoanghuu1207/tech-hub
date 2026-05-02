@@ -1,0 +1,57 @@
+{
+  "name": "Laptop Lenovo 100E Gen 2 Celeron",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_100e_gen_2_celeron_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_219_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_176_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_190_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_200_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_lenovo_100e_gen_2_celeron_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_219_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/_/5_176_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_190_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_200_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.6,
+      "resolution": "1366 x 768 pixels",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD Webcam(720p Webcam)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Celeron N4020 1.1 GHz (Tối đa 2.8 GHz, 2 nhân / 2 luồng, 4 MB Cache)",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Windows 10 Pro"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "290 x 204.7 x 19.9 mm",
+      "weight_kg": 1.21,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "802.11 ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-100e-gen-2-celeron.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": null
+}

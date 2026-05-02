@@ -1,0 +1,57 @@
+{
+  "name": "Apple Watch Ultra 2 49mm (4G) dây cao su | Chính hãng VN/A",
+  "price": 17990000,
+  "sale_price": 21990000,
+  "colors": [
+    "Trắng",
+    "Xanh dương",
+    "Cam"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-ultra-2-49mm-4g-_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-ultra-2-49mm-4g-_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-ultra-2-49mm-4g-_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-ultra-2-49mm-4g-_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-ultra-2-49mm-4g-_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-ultra-2-49mm-4g-_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-ultra-2-49mm-4g-_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-ultra-2-49mm-4g-_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-ultra-2-49mm-4g-_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-ultra-2-49mm-4g-_11_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.92,
+      "resolution": "410 x 502 Pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {
+      "usage_hours": 36
+    },
+    "design": {
+      "case_size_mm": "49 x 44 x 14.4 mm",
+      "weight_g": 61.4,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Thao tác chạm hai lần",
+      "Gọi khẩn cấp",
+      "Đo độ sâu",
+      "Trợ lý ảo Siri",
+      "Điều khiển Homepod",
+      "Thanh toán với Apple Pay"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-ultra-2-49mm-4g.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

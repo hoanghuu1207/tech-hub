@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Sennheiser Accentum Open",
+  "price": 2350000,
+  "sale_price": 2690000,
+  "colors": [
+    "Đen",
+    "Be"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-open_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-open_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-open_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-open_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-open_11_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-open_13_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-open_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-open_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-open_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-open_12_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 6
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-sennheiser-accentum-open.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sennheiser",
+  "product_line": null
+}

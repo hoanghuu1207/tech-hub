@@ -1,0 +1,63 @@
+{
+  "name": "Laptop MSI Crosshair 15 B12UEZ-460VN",
+  "price": 26990000,
+  "sale_price": 34990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_crosshair_15_b12uez-460vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/e/gearvn-laptop-gaming-msi-crosshair-15-b12uez-460vn-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/e/gearvn-laptop-gaming-msi-crosshair-15-b12uez-460vn-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/e/gearvn-laptop-gaming-msi-crosshair-15-b12uez-460vn-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/e/gearvn-laptop-gaming-msi-crosshair-15-b12uez-460vn-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_20_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_msi_crosshair_15_b12uez-460vn.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/e/gearvn-laptop-gaming-msi-crosshair-15-b12uez-460vn-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/e/gearvn-laptop-gaming-msi-crosshair-15-b12uez-460vn-3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/e/gearvn-laptop-gaming-msi-crosshair-15-b12uez-460vn-5.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "2560x1440 (Quad HD)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD type (30fps@720p)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-12700H 14 nhân 24 luồng, Tốc độ CPU 3.50 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home"
+    },
+    "battery": {
+      "capacity_wh": 53.5
+    },
+    "design": {
+      "dimensions_cm": "359 x 259 x 26.9 mm",
+      "weight_kg": 2.3,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.2",
+      "wifi": "802.11 ax Wi-Fi 6"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-gaming-crosshair-15-b12uez-460vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "GAMING"
+}

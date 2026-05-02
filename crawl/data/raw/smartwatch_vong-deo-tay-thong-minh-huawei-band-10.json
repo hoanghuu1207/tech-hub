@@ -1,0 +1,53 @@
+{
+  "name": "Vòng đeo tay thông minh Huawei Band 10",
+  "price": 620000,
+  "sale_price": 990000,
+  "colors": [
+    "Đen",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_10_-_1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_10_-_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_10_-_3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_32__7_31_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_31__7_34_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_30__8_28_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_33__9_27_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_28__8_31_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_27__8_22_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_29__9_31_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.47,
+      "resolution": "194 × 368 pixel, PPI 282",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 13 - 21 cm",
+      "weight_g": 14.0,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Dữ Liệu Bơi Lội Cực Kỳ Chính Xác",
+      "Nhận lời nhắc theo thời gian thực",
+      "Không Làm Phiền",
+      "Mật Khẩu Khóa Màn Hình",
+      "Truyền Dữ Liệu Nhịp Tim"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vong-deo-tay-thong-minh-huawei-band-10.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

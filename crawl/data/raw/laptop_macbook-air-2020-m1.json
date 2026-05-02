@@ -1,0 +1,65 @@
+{
+  "name": "Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt Nam",
+  "price": 15990000,
+  "sale_price": 22990000,
+  "colors": [
+    "Bạc",
+    "Xám",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/mac_air_ksp.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-2020-m1_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-2020-m1_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-2020-m1_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-2020-m1_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-2020-m1_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-2020-m1_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_macbook-air-gallery1-20201110_geo_us.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0003_macbook-air-gallery4-20201110.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbookm1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.3,
+      "resolution": "2560 x 1600 pixels (2K)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "8 nhân với 4 nhân hiệu năng cao và 4 nhân tiết kiệm điện",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "macOS Big Sur"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "1.61 cm x 30.41 cm x 21.24 cm",
+      "weight_kg": 1.29,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0",
+      "wifi": "802.11ax Wi-Fi 6 wireless networking"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-air-2020-m1.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK AIR"
+}

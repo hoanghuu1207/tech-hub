@@ -1,0 +1,63 @@
+{
+  "name": "Laptop ASUS ZenBook S 14 UX5406AA SU415WS",
+  "price": 48590000,
+  "sale_price": 52990000,
+  "colors": [
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_zenbook_s_14_ux5406aa_su415ws_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_zenbook_s_14_ux5406aa_su415ws_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_zenbook_s_14_ux5406aa_su415ws_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_133.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_78.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_74.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_69.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_61.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_55.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_8_54.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FHD tích hợp chức năng hồng ngoại, hỗ trợ Windows Hello"
+    },
+    "performance": {
+      "chipset": "Intel NPU up to 50TOPS",
+      "cpu": "Intel Core Ultra 9 386H 2.1 GHz (18MB Cache, up to 4.9 GHz, 16 lõi, 16 luồng)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 512,
+      "os": "Windows 11 Home + Microsoft Office Home 2024 + Microsoft 365 Basic"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "31.03 x 21.47 x 1.19 ~ 1.29 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.2,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0",
+      "wifi": "Wi-Fi 7(802.11be) (Triple band) 2*2"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-zenbook-s-14-ux5406aa-su415ws.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "ZENBOOK"
+}

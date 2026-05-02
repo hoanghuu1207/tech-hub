@@ -1,0 +1,61 @@
+{
+  "name": "OPPO Reno12 F 4G 8GB 256GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-oppo-reno-12f-4g_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-oppo-reno-12f-4g_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-oppo-reno-12f-4g_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-oppo-reno-12f-4g_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-reno-12f-4g_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-reno-12f-4g_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-reno-12f-4g_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-reno-12f-4g_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-reno-12f-4g_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-reno-12f-4g_2_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Qualcomm® KryoTM 685",
+      "cpu": "8 nhân",
+      "gpu": "AdrenoTM 610@1.26GHz",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163.1mm x 75.8mm x 7.69mm",
+      "weight_g": 187.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi 5 (802.11ac), 802.11 a/b/g/n/\nWLAN 2.4G/WLAN 5G"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-oppo-reno-12f-4g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "RENO SERIES"
+}

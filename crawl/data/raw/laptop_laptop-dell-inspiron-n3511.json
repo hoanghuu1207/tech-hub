@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Dell Inspiron N3511",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_503.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_480.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_393.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_435.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_290.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_204.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_341.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_503.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_480.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_393.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD Webcam (720p Webcam)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i3 1115G4",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 256,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "18.9 x 358.5 x 258 mm",
+      "weight_kg": 1.73,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11 ac"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-inspiron-n3511.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "INSPIRON"
+}

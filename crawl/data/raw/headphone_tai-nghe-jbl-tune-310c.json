@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe có dây JBL Tune 310C",
+  "price": 575000,
+  "sale_price": 590000,
+  "colors": [
+    "Đỏ",
+    "Xanh",
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-jbl-tune-310c-ksp.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/0/204_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/1/210_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-jbl-tune-310c-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-jbl-tune-310c-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-jbl-tune-310c-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-jbl-tune-310c-_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-jbl-tune-310c-_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-jbl-tune-310c-_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-jbl-tune-310c-_8_.png"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {},
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-jbl-tune-310c.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "JBL",
+  "product_line": null
+}

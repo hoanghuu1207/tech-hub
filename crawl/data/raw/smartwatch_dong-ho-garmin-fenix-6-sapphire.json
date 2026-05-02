@@ -1,0 +1,46 @@
+{
+  "name": "Đồng hồ thông minh Garmin Fenix 6 Sapphire",
+  "price": 18990500,
+  "sale_price": 19990000,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-garmin-fenix-6-sapphire-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/e/fenix6-sapphire_of_1000_vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/e/fenix-6-sapphire-carbon-gray-image-05.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/e/fenix-6-sapphire-carbon-gray-image-02.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/e/fenix-6-sapphire-carbon-gray-image-04.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/e/fenix6-sapphire_of_1000_vn.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-garmin-fenix-6-sapphire-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/e/fenix6-sapphire_of_1000_vn.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/e/fenix-6-sapphire-carbon-gray-image-05.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/e/fenix-6-sapphire-carbon-gray-image-02.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "260 x 260 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 36
+    },
+    "design": {
+      "case_size_mm": "47 x 47 x 14.7 (mm)",
+      "weight_g": 83.0,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-garmin-fenix-6-sapphire.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Dell Vostro 5568",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-vostro-5568-10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-vostro-5568_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-vostro-5568_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-vostro-5568.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-vostro-5568_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-vostro-5568_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-vostro-5568_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-vostro-5568_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-vostro-5568_6_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-dell-vostro-5568_8_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1366 x 768 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 1
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5 Kabylake - 7200U",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 1024,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": null,
+      "weight_kg": 1.98,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v4.0",
+      "wifi": "802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-vostro-5568.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": null
+}

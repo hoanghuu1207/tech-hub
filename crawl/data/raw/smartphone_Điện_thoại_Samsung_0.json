@@ -1,0 +1,71 @@
+{
+  "name": "Samsung Galaxy S26 Ultra 12GB 256GB",
+  "price": 29990000,
+  "sale_price": 36990000,
+  "colors": [
+    "Đen Classic",
+    "Tím Cobalt",
+    "Trắng Classic",
+    "Xanh Sky Blue"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-ultra_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-ultra-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-ultra-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-plus_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-ultra-11.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-ultra-12.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-ultra-13.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-ultra-14.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-ultra-15.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-ultra-16.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.9,
+      "resolution": "3120 x 1440 pixels (Quad HD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite Gen 5 dành cho Galaxy (3nm)",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163.6 x 78.1 x 7.9mm",
+      "weight_g": 214.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Có",
+      "wifi": "Có"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-ultra.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY S26 SERIES"
+}

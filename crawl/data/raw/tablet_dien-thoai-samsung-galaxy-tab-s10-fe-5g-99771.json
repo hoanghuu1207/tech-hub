@@ -1,0 +1,54 @@
+{
+  "name": "Samsung Galaxy Tab S10 FE 5G",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2025-02-05t192728.589.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2025-02-05t192836.713.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2025-02-05t192805.959.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_-_2025-02-05t192728.589.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_-_2025-02-05t192836.713.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_-_2025-02-05t192805.959.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_-_2025-02-05t192728.589.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_-_2025-02-05t192836.713.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_-_2025-02-05t192805.959.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": null,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": null,
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-tab-s10-fe-5g-99771.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

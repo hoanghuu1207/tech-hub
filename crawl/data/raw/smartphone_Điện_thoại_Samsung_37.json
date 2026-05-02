@@ -1,0 +1,72 @@
+{
+  "name": "Samsung Galaxy S26 12GB 512GB",
+  "price": 25990000,
+  "sale_price": 31990000,
+  "colors": [
+    "Xanh Sky Blue",
+    "Trắng Classic",
+    "Tím Cobalt",
+    "Đen Classic"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-12gb-256gb_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-12gb-256gb-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-plus-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-plus_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-7_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-4_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.3,
+      "resolution": "2340 x 1080-pixel",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Exynos 2600 (2nm)",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 4300
+    },
+    "design": {
+      "dimensions_mm": "149.6 x 71.7 x 7.2mm",
+      "weight_g": 167.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Có",
+      "wifi": "Có"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-12gb-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY S26 SERIES"
+}

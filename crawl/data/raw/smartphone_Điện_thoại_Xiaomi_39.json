@@ -1,0 +1,68 @@
+{
+  "name": "Xiaomi 17 5G 12GB 512GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-17-12gb-512gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-17-12gb-512gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-17-12gb-512gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-17-12gb-512gb.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-17-12gb-512gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-17-12gb-512gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-17-12gb-512gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-17-12gb-512gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-17-12gb-512gb.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-17-12gb-512gb-2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.3,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 50
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 8 Elite Gen 5 (3 nm)",
+      "cpu": "8 nhân (2x4.6 GHz & 6x3.62 GHz)",
+      "gpu": "Adreno 840",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "Android 16, HyperOS 3.0"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "design": {
+      "dimensions_mm": "151.1 x 71.8 x 8.1 mm",
+      "weight_g": 191.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4, A2DP, LE, aptX HD, aptX Adaptive, LHDC 5",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band hoặc tri-band, Wi-Fi Direct"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-17-12gb-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "XIAOMI 17 SERIES"
+}

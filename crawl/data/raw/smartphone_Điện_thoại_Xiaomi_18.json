@@ -1,0 +1,63 @@
+{
+  "name": "Xiaomi 15 Ultra 5G 16GB 1TB",
+  "price": 28990000,
+  "sale_price": 38250000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-15-ultra-5g.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-15-ultra-5g-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-15-ultra-5g-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-15-ultra-5g-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-15-ultra-5g-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2025-04-16_11-45-37.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2025-04-16_11-46-01.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2025-04-16_11-45-57.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2025-04-16_11-46-04.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2025-04-16_11-45-51.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.73,
+      "resolution": "3200 x 1440 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite (Tiến trình sản xuất 3nm)",
+      "cpu": "2 x Lõi Prime, tốc độ tối đa 4,32GHz\n6 x Lõi hiệu suất, lên đến 3,53GHz",
+      "gpu": "Adreno GPU",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Xiaomi HyperOS 2"
+    },
+    "battery": {
+      "capacity_mah": 5410
+    },
+    "design": {
+      "dimensions_mm": "161.3 x 75.3 x 9.35mm (Đen, Trắng)\n(Bạc Chrome): 161.3 x 75.3 x 9.48mm",
+      "weight_g": 226.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0",
+      "wifi": "Hỗ trợ Wi-Fi 7"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-15-ultra-1tb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "XIAOMI 15 SERIES"
+}

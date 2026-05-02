@@ -1,0 +1,53 @@
+{
+  "name": "Đồng hồ thông minh Amazfit Active 2 Square Premium",
+  "price": 2990000,
+  "sale_price": 3990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_active_2_square_premium_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_active_2_square_premium_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_active_2_square_premium_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/o/lo1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/o/lo3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/re1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/re2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/re_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/re3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/r/frame_1_12_4.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.75,
+      "resolution": "390 x 450 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 260
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 31.4,
+      "material": "Da"
+    },
+    "special_features": [
+      "Trợ lý ảo Zepp Flow",
+      "Dự đoán thành tích cuộc đua (Race Achievement Predictions)",
+      "Cập nhật buổi sáng (Morning Updates)",
+      "Chế độ DND (Không làm phiền)"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-active-2-square-premium.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

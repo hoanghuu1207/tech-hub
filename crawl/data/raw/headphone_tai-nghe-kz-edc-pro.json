@@ -1,0 +1,40 @@
+{
+  "name": "Tai nghe KZ EDC Pro",
+  "price": 190000,
+  "sale_price": 290000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_355_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_340_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_249_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_296_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_370_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz-edc-pro.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz-edc-pro-08.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz-edc-pro-11.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/e/d/edc-pro.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_355_1.jpg"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {
+      "earbuds_dimensions_mm": "75 x 75 x 30mm"
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Cookies được sử dụng nhằm ghi nhận các thiết lập cần thiết để website hoạt động ổn định và hỗ trợ trải nghiệm mua sắm. Việc sử dụng cookies không làm gián đoạn trải nghiệm và giúp quá trình mua hàng diễn ra thuận tiện hơn.",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-kz-edc-pro.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "KZ",
+  "product_line": null
+}

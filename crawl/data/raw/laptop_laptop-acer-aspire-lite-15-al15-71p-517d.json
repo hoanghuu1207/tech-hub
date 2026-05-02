@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Acer Aspire Lite 15 AL15-71P-517D",
+  "price": 14790000,
+  "sale_price": 16190000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_15_al15-71p-517d_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_15_al15-71p-517d_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_15_al15-71p-517d_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__7_60.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__6_57.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__8_26.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_54.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__8_52.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__2_231.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FHD"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-12450H (8 lõi / 12 luồng, up to 4.40 GHz, 12 MB)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "357.5 x 229.1 x 19.9 mm",
+      "weight_kg": 1.79,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.1",
+      "wifi": "Intel Wireless Wi-Fi 6 AX201"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-15-al15-71p-517d.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "ASPIRE"
+}

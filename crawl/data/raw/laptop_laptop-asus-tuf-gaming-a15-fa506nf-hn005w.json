@@ -1,0 +1,61 @@
+{
+  "name": "Laptop ASUS TUF Gaming A15 FA506NF-HN005W",
+  "price": 15490000,
+  "sale_price": 19990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_tuf_gaming_a15_fa506nf-hn005w.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-tuf-gaming-a15-fa506nf-hn005w-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-tuf-gaming-a15-fa506nf-hn005w-1_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-tuf-gaming-a15-fa506nf-hn005w-1_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-tuf-gaming-a15-fa506nf-hn005w-1_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-tuf-gaming-a15-fa506nf-hn005w-1_4_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_509_2__1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_asus_tuf_gaming_a15_fa506nf-hn005w.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-tuf-gaming-a15-fa506nf-hn005w-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-tuf-gaming-a15-fa506nf-hn005w-1_1_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "720P HD camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen™ 5 7535HS Processor 3.3GHz (19MB Cache, up to 4.55 GHz, 6 Nhân, 12 Luồng)",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.9 x 25.6 x 2.28 ~ 2.45 cm (W x D x H)",
+      "weight_kg": 2.3,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6 (802.11ax) (Dual band) 2*2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-a15-fa506nf-hn005w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "TUF"
+}

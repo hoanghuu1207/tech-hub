@@ -1,0 +1,63 @@
+{
+  "name": "TECNO SPARK 30 5G 6GB 128GB",
+  "price": 3290000,
+  "sale_price": 4410000,
+  "colors": [
+    "Trắng",
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-spark-30-5g_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-spark-30-5g_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-spark-30-5g.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno_spark_30_5g_8gb_128gb_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno_spark_30_5g_8gb_128gb_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-spark-30-5g_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-spark-30-5g_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno_spark_30_5g_8gb_128gb_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-spark-30-5g_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-spark-30-5g_2_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": null,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {},
+    "performance": {
+      "chipset": "MediaTek D6300",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-tecno-spark-30-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Tecno",
+  "product_line": "SPARK"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Đồng hồ thông minh Xiaomi Watch S4",
+  "price": 3440000,
+  "sale_price": 4290000,
+  "colors": [
+    "Bạc",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_297.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h__4_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_1__1_23.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__6_65.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__7_67.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__8_38.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__4_216.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__2_219.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__4_224.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__4_180.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.43,
+      "resolution": "466 x 466 pixels, 326 PPI",
+      "technology": null
+    },
+    "performance": {
+      "os": "HyperOS 2.0"
+    },
+    "battery": {
+      "capacity_mah": 486
+    },
+    "design": {
+      "case_size_mm": "Từ 14 - 21 cm",
+      "weight_g": 44.5,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Chức năng NFC",
+      "Trợ lý giọng nói bạn cùng lớp Tiểu Ái",
+      "Thanh toán mã quét Alipay",
+      "Thẻ xe buýt NFC",
+      "Ghi âm",
+      "Tích hợp widget",
+      "Cử chỉ nhanh: Búng ngón tay",
+      "lật cổ tay",
+      "lắc cổ tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-xiaomi-watch-s4.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

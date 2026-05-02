@@ -1,0 +1,60 @@
+{
+  "name": "Masstel Fami 8 4G",
+  "price": 570000,
+  "sale_price": null,
+  "colors": [
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-fami-8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-fami-8-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-fami-8-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-fami-8-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-fami-8-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel_fami_8_4g-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel_fami_8_4g-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel_fami_8_4g.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel_fami_8_4g-4.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-masstel-fami-8-1_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 1.77,
+      "resolution": "128 x 160 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": "UNISOC T107",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 1400
+    },
+    "design": {
+      "dimensions_mm": "115 x 53 x 14.9 mm",
+      "weight_g": 92.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "V5.1",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-masstel-fami-8.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Masstel",
+  "product_line": null
+}

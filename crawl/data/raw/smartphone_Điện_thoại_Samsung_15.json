@@ -1,0 +1,72 @@
+{
+  "name": "Samsung Galaxy S25 Plus 256GB",
+  "price": 20990000,
+  "sale_price": 26500000,
+  "colors": [
+    "Xanh lá",
+    "Xanh da trời",
+    "Xám bạc",
+    "Xanh navy"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s25_plus_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s25_plus_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s25_plus_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s25_plus_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s25_plus_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-plus_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-plus_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-plus_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-plus_1__4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy_9_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "3120 x 1440 pixels (Quad HD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite dành cho Galaxy (3nm)",
+      "cpu": "Tốc độ CPU: 4.47GHz, 3.5GHz\n8 nhân",
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 4900
+    },
+    "design": {
+      "dimensions_mm": "Dài 158.4mm - Ngang 75.8mm - Dày 7.3mm",
+      "weight_g": 190.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.4",
+      "wifi": "802.11a/b/g/n/ac/ax/be 2.4GHz+5GHz+6GHz, EHT320, MIMO, 4096-QAM"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s25-plus.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY S25 SERIES"
+}

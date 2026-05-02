@@ -1,0 +1,61 @@
+{
+  "name": "Samsung Galaxy S8 Chính hãng",
+  "price": 15990000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s8-black.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s8-blue.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s8-gold.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s8-gray.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s8-silver.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s8-black-back.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s8-blue-back.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s8-gold-back.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s8-gray-back.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s8-silver-back.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 5.8,
+      "resolution": "1440 x 2960 pixels (QHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Samsung Exynos 9 Octa 8895",
+      "cpu": "4x 2.3 GHz Exynos M2 Mongoose & 4x 1.7 GHz ARM Cortex-A53",
+      "gpu": "Mali-G71 MP20",
+      "ram_gb": null,
+      "storage_gb": 64,
+      "os": "7.0 (Nougat)"
+    },
+    "battery": {
+      "capacity_mah": 3000
+    },
+    "design": {
+      "dimensions_mm": "148.9 x 68.1 x 8 mm (5.86 x 2.68 x 0.31 in)",
+      "weight_g": 155.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE, aptX",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/galaxy-s8-cty.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY S"
+}

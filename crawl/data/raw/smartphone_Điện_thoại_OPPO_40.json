@@ -1,0 +1,61 @@
+{
+  "name": "Oppo A31",
+  "price": 4190000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a31-den.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a31-trang.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a31__0004_layer_3_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a31__0005_layer_2_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a31__0001_layer_6_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a31__0002_layer_5_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/0/100143447_100_01.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/o/p/oppo-a31-den.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/o/p/oppo-a31-trang.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/o/p/oppo_a31__0004_layer_3_1_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.5,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "MediaTek Helio P35 8 nhân",
+      "cpu": "4 nhân 2.3 GHz & 4 nhân 1.8 GHz",
+      "gpu": "PowerVR GE8320",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 9.0 (Pie); ColorOS 6.1"
+    },
+    "battery": {
+      "capacity_mah": 4230
+    },
+    "design": {
+      "dimensions_mm": "163.9 x 75.5 x 8.3 mm",
+      "weight_g": 180.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "LE, A2DP, v5.0",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-a31-2020.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": null
+}

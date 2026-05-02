@@ -1,0 +1,37 @@
+{
+  "name": "Đồng hồ thông minh Samsung Galaxy Watch 5 Active",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-watch-4-44mm-den-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-watch-4-44mm-den-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-watch-4-44mm-den-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": null,
+      "resolution": null,
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-watch-5-active.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Xiaomi POCO F8 Pro 5G 12GB 256GB",
+  "price": 14490000,
+  "sale_price": 16990000,
+  "colors": [
+    "Bạc",
+    "Đen",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-f8-pro.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-f8-pro-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-f8-pro-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-f8-pro-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-f8-pro-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/o/poco-f8-pro.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/o/poco-f8-pro-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/o/poco-f8-pro-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/o/poco-f8-pro-2_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/o/poco-f8-pro-3_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.59,
+      "resolution": "2510 x 1156 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 20
+    },
+    "performance": {
+      "chipset": "Snapdragon® 8 Elite",
+      "cpu": "8 nhân",
+      "gpu": "Adreno™",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Xiaomi HyperOS 3"
+    },
+    "battery": {
+      "capacity_mah": 6210
+    },
+    "design": {
+      "dimensions_mm": "157.49 × 75.25 × 8 mm",
+      "weight_g": 199.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "Wi-Fi 7 / Wi-Fi 6 / Wi-Fi 5 / Wi-Fi 4, hỗ trợ Multi-Link Operation, 2x2 MIMO, 8x8 Sounding MU-MIMO, Wi-Fi Direct, Miracast"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-poco-f8-pro-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "POCO SERIES"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Vòng đeo tay thông minh Xiaomi Mi Band 9 Pro",
+  "price": 1590000,
+  "sale_price": 1990000,
+  "colors": [
+    "Bạc",
+    "Đen",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_1__1_10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_2__1_10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_3__1_10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_6__1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_5__1_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__7_26.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__7_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__6_15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__8_15.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.74,
+      "resolution": "360 × 480 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 350
+    },
+    "design": {
+      "case_size_mm": "Từ 13.5 - 20.5 cm",
+      "weight_g": 24.5,
+      "material": "Nhựa TPU"
+    },
+    "special_features": [
+      "Đèn pin",
+      "La bàn"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vong-deo-tay-thong-minh-xiaomi-mi-band-9-pro.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

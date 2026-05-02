@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Lenovo LOQ 15ARP9 83JC00LVVN",
+  "price": 24390000,
+  "sale_price": 27490000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15arp9_83jc00lvvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15arp9_83jc00lvvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15arp9_83jc00lvvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__8_138.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__10_156.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__8_133.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__9_304.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__5_111.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__7_215.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__10_121.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD 720p với E-shutter"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 5 7235HS (4 lõi / 8 luồng, 3.2 / 4.2GHz, 2MB L2 / 8MB L3)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359.86 x 258.7 x 21.9–23.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.38,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-loq-15arp9-83jc00lvvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LOQ"
+}

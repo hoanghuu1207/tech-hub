@@ -1,0 +1,60 @@
+{
+  "name": "Laptop ASUS Gaming ROG Zephyrus G15 GA502IV-AZ079T",
+  "price": 35490000,
+  "sale_price": 39990000,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-g15-ryzen-9-ram-16gb-240hz_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-g15-ryzen-9-ram-16gb-240hz_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-g15-ryzen-9-ram-16gb-240hz_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-g15-ryzen-9-ram-16gb-240hz_6_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-g15-ryzen-9-ram-16gb-240hz_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-g15-ryzen-9-ram-16gb-240hz_5_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-g15-ryzen-9-ram-16gb-240hz_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-g15-ryzen-9-ram-16gb-240hz_4_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-g15-ryzen-9-ram-16gb-240hz_3_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-g15-ryzen-9-ram-16gb-240hz_6_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 9 4900HS 3.0GHz up to 4.3GHz 12MB",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 10 Home 64"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "36 x 25.2 x 1.99 ~ 1.99 cm",
+      "weight_kg": 2.1,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Intel Wi-Fi 6 with Gig+ performance (802.11AX) (2*2 AX)"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-gaming-rog-zephyrus-g15-ryzen-9-ram-16gb-240hz.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "GAMING"
+}

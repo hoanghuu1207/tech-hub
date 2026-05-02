@@ -1,0 +1,54 @@
+{
+  "name": "Đồng hồ thông minh Kieslect KS",
+  "price": 650000,
+  "sale_price": 990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_kieslect_ks_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/sansung_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__98.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_kieslect_ks_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__96.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_kieslect_ks_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__1_69.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__1_82.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__2_58.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__2_60.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.78,
+      "resolution": "368 x 448 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 330
+    },
+    "design": {
+      "case_size_mm": "44.2 x 35.9 x 11.8 mm",
+      "weight_g": null,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Tìm điện thoại",
+      "Bật đèn",
+      "Trợ lý giọng nói",
+      "Chia đôi màn hình",
+      "Điều khiển chụp ảnh"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-kieslect-ks.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Kieslect",
+  "product_line": null
+}

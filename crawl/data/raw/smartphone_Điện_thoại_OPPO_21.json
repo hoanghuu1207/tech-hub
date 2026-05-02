@@ -1,0 +1,70 @@
+{
+  "name": "OPPO A58 8GB 128GB",
+  "price": 4500000,
+  "sale_price": 5490000,
+  "colors": [
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58-8gb-128gb.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-huawei-matepad-se-11-inchmay-tinh-bang-huawei-matepad-pro-13-2-inch_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-huawei-matepad-se-11-inchmay-tinh-bang-huawei-matepad-pro-13-2-inch_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58-8gb-128gb_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58-8gb-128gb_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58-8gb-128gb_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58-8gb-128gb_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58-8gb-128gb_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-huawei-matepad-se-11-inchmay-tinh-bang-huawei-matepad-pro-13-2-inch_6_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/o/p/oppo-a58-8gb-128gb.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.72,
+      "resolution": "1080 x 2412 pixels",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G85 8 nhân",
+      "cpu": "2.0 GHz",
+      "gpu": "Mali-G52 MP2",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "165.65 x 75.98 x 7.99 mm",
+      "weight_g": 192.0,
+      "material": "Hợp kim"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-a58-8gb-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "A SERIES"
+}

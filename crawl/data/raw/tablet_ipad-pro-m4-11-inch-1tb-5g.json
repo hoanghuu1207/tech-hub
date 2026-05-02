@@ -1,0 +1,62 @@
+{
+  "name": "iPad Pro M4 11 inch 5G 1TB | Chính hãng Apple Việt Nam",
+  "price": 44990000,
+  "sale_price": 51490000,
+  "colors": [
+    "Đen",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_100_1_2__3_1_1_1_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-11-inch-5g_1__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-11-inch-5g_3__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-11-inch-5g_4__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-11-inch-5g_5__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-11-inch-5g_6__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-11-inch-5g_7__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-11-inch-5g_8__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-11-inch-5g_9__2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/r/frame_100_1_2__3_1_1_1_1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "2420x1668 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple M4",
+      "cpu": "CPU 10 lõi với 4 lõi hiệu năng và 6 lõi tiết kiệm điện",
+      "gpu": "Apple GPU 10 nhân",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "iPadOS 17"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "24.97 x 17.75 x 5.3 mm",
+      "weight_g": 446.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 6E (802.11ax) với 4x4 MIMO5"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã ZA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/ipad-pro-m4-11-inch-1tb-5g.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD PRO"
+}

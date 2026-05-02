@@ -1,0 +1,44 @@
+{
+  "name": "Tai nghe Bluetooth thể thao JBL Sense Lite",
+  "price": 2590000,
+  "sale_price": null,
+  "colors": [
+    "Xanh",
+    "Tím",
+    "Trắng",
+    "Be",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-jbl-sence-lite_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-jbl-sence-lite_19__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-jbl-sence-lite_17__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-jbl-sence-lite_18__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-jbl-sence-lite_13__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-jbl-sence-lite_12__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-jbl-sence-lite_16__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-jbl-sence-lite_15__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-jbl-sence-lite_14__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-jbl-sence-lite_11__1.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 8
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-the-thao-jbl-sence-lite.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "JBL",
+  "product_line": null
+}

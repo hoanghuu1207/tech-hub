@@ -1,0 +1,61 @@
+{
+  "name": "Samsung Galaxy A71 5G 8GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a71-thumblo_n-tra_ng-600x600_1_2_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/a/xanh_78l4-a2_1_2_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/0/600_samsung-galaxy-a71_1_1_2_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/7/a71_bac_3_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-a71-thumblo_n-tra_ng-600x600_1_2_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/a/xanh_78l4-a2_1_2_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/0/600_samsung-galaxy-a71_1_1_2_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/7/a71_bac_3_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-a71-thumblo_n-tra_ng-600x600_1_2_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/a/xanh_78l4-a2_1_2_1_1_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 64
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 730",
+      "cpu": "2 Nhân 2.2Ghz,6 nhân 1.8Ghz",
+      "gpu": "Adreno 618",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 10"
+    },
+    "battery": {
+      "capacity_mah": 4500
+    },
+    "design": {
+      "dimensions_mm": "163.6 x 76 x 7.7 mm",
+      "weight_g": 179.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-a71-5g-8gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY A"
+}

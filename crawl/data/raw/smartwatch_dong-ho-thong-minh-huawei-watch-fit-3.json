@@ -1,0 +1,54 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch Fit 3",
+  "price": 2090000,
+  "sale_price": 2990000,
+  "colors": [
+    "Đen",
+    "Hồng",
+    "Xanh lá",
+    "Trắng be"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_1__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_3_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_3_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_3_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-huawei-watch-fit-3_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_1_3__4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_1_2__4_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_1_1__8_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-huawei-watch-fit-3_6_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-huawei-watch-fit-3_4_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.82,
+      "resolution": "480 x 408 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 400
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 26.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Nhật ký ăn kiêng",
+      "Theo dõi dinh dưỡng"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-fit-3.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

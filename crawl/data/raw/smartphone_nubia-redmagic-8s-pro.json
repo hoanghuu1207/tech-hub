@@ -1,0 +1,65 @@
+{
+  "name": "Nubia RedMagic 8S Pro 5G 12GB 256GB",
+  "price": 18990000,
+  "sale_price": 19990000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/u/nubia_redmagic_8s_pro_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/u/nubia_redmagic_8s_pro_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/u/nubia_redmagic_8s_pro_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/u/nubia_redmagic_8s_pro_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/u/nubia_redmagic_8s_pro_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/u/nubia_redmagic_8s_pro_-_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/u/nubia_redmagic_8s_pro_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/u/nubia_redmagic_8s_pro_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/u/nubia-redmagic-8s-pro_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/_/t_i_xu_ng_33__2_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.8,
+      "resolution": "1116 x 2480 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 2",
+      "cpu": "1 x 3.00GHz Cortex-X2 3 x 2.50 GHz Cortex-A710 4 x 1.80 GHz Cortex-A510",
+      "gpu": "Adreno 730",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "163.9 x 76.35 x 9.47mm",
+      "weight_g": 228.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "Wi-Fi 7 802.11b/g/n/ac/ax/be"
+    },
+    "special_features": [
+      "Hỗ trợ 5G"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nubia-redmagic-8s-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nubia",
+  "product_line": "NUBIA"
+}

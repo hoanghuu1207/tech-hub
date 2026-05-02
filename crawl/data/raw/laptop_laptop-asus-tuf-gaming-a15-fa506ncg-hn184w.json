@@ -1,0 +1,61 @@
+{
+  "name": "Laptop ASUS TUF Gaming A15 FA506NCG-HN184W",
+  "price": 21990000,
+  "sale_price": 23690000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_tuf_gaming_a15_fa506ncg-hn184w_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_tuf_gaming_a15_fa506ncg-hn184w_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_tuf_gaming_a15_fa506ncg-hn184w_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__9_136.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__5_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__8_28.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__8_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__10_35.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__8_26.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__7_169.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "720P HD camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 7 7445HS 3.2GHz (22MB Cache, up to 4.7GHz, 6 lõi, 12 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.9 x 25.6 x 2.28 ~ 2.45 cm (Dải x Rộng x Dày)",
+      "weight_kg": 2.3,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6(802.11ax) (Dual band) 2*2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-a15-fa506ncg-hn184w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "TUF"
+}

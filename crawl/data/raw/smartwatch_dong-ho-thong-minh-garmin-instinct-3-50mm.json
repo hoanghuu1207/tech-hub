@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thông minh Garmin Instinct 3 50mm",
+  "price": 10759000,
+  "sale_price": 13690000,
+  "colors": [
+    "Đen than",
+    "Xanh nhiệt đới"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_4__1_11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_1__1_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_3__1_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_36__6_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_2__1_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_37__6_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_38__6_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_40__6_14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_41__2_31.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_39__6_14.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "416 x 416 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 40
+    },
+    "design": {
+      "case_size_mm": "Phù hợp với cổ tay có chu vi từ 14.1 - 21.3 cm",
+      "weight_g": 59.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Garmin Pay",
+      "Điều khiển từ xa VIRB",
+      "Tương thích với ứng dụng Garmin Messenger",
+      "Ghép nối với Garmin Connect Mobile",
+      "Tính năng theo dõi hoạt động của trẻ em"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-instinct-3-50mm.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

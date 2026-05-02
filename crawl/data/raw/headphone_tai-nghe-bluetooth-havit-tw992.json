@@ -1,0 +1,46 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Havit TW992",
+  "price": 399000,
+  "sale_price": 430000,
+  "colors": [
+    "Đen",
+    "Xám",
+    "Tím",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-havit-tw992_41_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-havit-tw992_30_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-havit-tw992_31_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-havit-tw992_32_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-havit-tw992_36_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-havit-tw992_35_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-havit-tw992_34_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-havit-tw992_33_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-havit-tw992_39_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-havit-tw992_37_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {
+      "earbuds_weight_g": 5.0,
+      "total_weight_g": 34.0
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-havit-tw992.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Havit",
+  "product_line": null
+}

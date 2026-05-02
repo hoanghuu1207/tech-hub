@@ -1,0 +1,61 @@
+{
+  "name": "Nokia HMD 105 4G",
+  "price": 690000,
+  "sale_price": null,
+  "colors": [
+    "Hồng",
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-hmd-105-4g_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-hmd-105-4g_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-hmd-105-4g_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-hmd-105-4g.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-hmd-105-4g_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-hmd-105-4g_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-hmd-105-4g_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-hmd-105-4g_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-hmd-105-4g.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-hmd-105-4g_3_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 2.4,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": "Unisoc 8910 & T127",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 1450
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nokia-hmd-105-4g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nokia",
+  "product_line": null
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Laptop ASUS ZenBook 14 UX3405CA-ST648W",
+  "price": 37090000,
+  "sale_price": 41990000,
+  "colors": [
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_zenbook_14_ux3405ca-st648w_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_zenbook_14_ux3405ca-st648w_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_zenbook_14_ux3405ca-st648w_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_29__9_22_1_2_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_31__7_27_1_2_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_30__8_21_1_2_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_36__6_25_1_2_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_35__8_26_1_2_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_25__7_37_1_2_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_33__9_24_1_2_2_1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FHD với chức năng hồng ngoại hỗ trợ Windows Hello, có màn trập camera"
+    },
+    "performance": {
+      "chipset": "Intel AI Boost NPU up to 13TOPS",
+      "cpu": "Intel Core Ultra 9 285H 2.9 GHz (24MB Cache, up to 5.4 GHz, 16 lõi, 16 luồng)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "31.24 x 22.01 x 1.49 ~ 1.49 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.2,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7(802.11be) (Tri-band)2*2"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-zenbook-14-ux3405ca-st648w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "ZENBOOK"
+}

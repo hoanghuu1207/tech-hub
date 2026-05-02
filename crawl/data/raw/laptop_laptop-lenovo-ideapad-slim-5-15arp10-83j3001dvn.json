@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Lenovo IdeaPad Slim 5 15ARP10 83J3001DVN",
+  "price": 24490000,
+  "sale_price": 30990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_5_15arp10_83j3001dvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_5_15arp10_83j3001dvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_5_15arp10_83j3001dvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_106_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_181.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_185.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__4_203.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_226.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_226.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_174.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.1,
+      "resolution": "2560 x 1600 (WQXGA)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD 1080p + IR với Màn trập riêng tư, Cảm biến ToF"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 7 7735HS (8 lõi / 16 luồng, 3.2 / 4.75GHz, 4MB L2 / 16MB L3)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "339.33 x 236 x 15.6 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.49,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-15arp10-83j3001dvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "IDEAPAD"
+}

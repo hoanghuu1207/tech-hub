@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Lenovo Yoga Slim 7 14ITL05 82A30075VN",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_451.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_426.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_347.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_385.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_300.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_257.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_183.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_130.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_451.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_426.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "720p + IR + ToF"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel® Core™ I7-1165G7",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 10 Home 64"
+    },
+    "battery": {
+      "capacity_wh": 60.7
+    },
+    "design": {
+      "dimensions_cm": "321.6 x 208 x 15.4mm",
+      "weight_kg": 1.5,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "WiFi 5 (802.11 ac 2x2)"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-yoga-slim-7-14itl05-82a30075vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "YOGA"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "iPhone 12 Pro Max 128GB I Chính hãng VN/A",
+  "price": 28990000,
+  "sale_price": null,
+  "colors": [
+    "Xanh dương",
+    "Vàng",
+    "Xám",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_251_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_185_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_240_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_223_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone12_3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0005_iphone-12-pro-max-nonlogo-17_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0004_iphone-12-pro-max-nonlogo-12_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002_iphone-12-pro-max-nonlogo-10_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001_iphone-12-pro-max-nonlogo-6_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0003_iphone-12-pro-max-nonlogo-11_1_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1284 x 2778 pixels",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 12,
+      "optical_zoom": "2x"
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A14 Bionic (5 nm)",
+      "cpu": "Hexa-core",
+      "gpu": "Apple GPU (4-core graphics)",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "iOS 14.1 hoặc cao hơn (Tùy vào phiên bản phát hành)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "160.8 x 78.1 x 7.4 mm",
+      "weight_g": null,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-12-pro-max.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": null
+}

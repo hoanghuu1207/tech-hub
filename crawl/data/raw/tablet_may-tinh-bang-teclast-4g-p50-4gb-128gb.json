@@ -1,0 +1,63 @@
+{
+  "name": "Máy tính bảng Teclast 4G P50 4GB 128GB",
+  "price": 3490000,
+  "sale_price": 3990000,
+  "colors": [
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/_/m_y_t_nh_b_ng_teclast_4g_p50_8gb_128gb_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-teclast-p50-4g_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-teclast-p50-4g-1_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-teclast-p50-4g-3_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-teclast-p50-4g-2_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-teclast-p50-4g-5_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-teclast-p50-4g-6_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-teclast-p50-4g-4_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-teclast-p50-4g-9_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-teclast-p50-4g-7_4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "1280 x 800 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Unisoc T606",
+      "cpu": "8-core",
+      "gpu": "Mali-G57",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 7000
+    },
+    "design": {
+      "dimensions_mm": "258.1 x 169.4 x 8 mm",
+      "weight_g": 525.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "WIFI 2.4G + 5G"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-teclast-4g-p50-4gb-128gb.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Teclast",
+  "product_line": null
+}

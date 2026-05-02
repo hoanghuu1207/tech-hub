@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Acer Gaming Nitro V 16S Propanel ANV16S-71-58WQ",
+  "price": 39990000,
+  "sale_price": null,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_v_16s_propanel_anv16s-71-58wq_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_v_16s_propanel_anv16s-71-58wq_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_v_16s_propanel_anv16s-71-58wq_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_48.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_47.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_45.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_39.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_89.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_38.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__96.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 pixel (2K)",
+      "refresh_rate_hz": 180,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "720p HD"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core 5 210H (8 lõi / 12 luồng, 1.6 GHz - 4.8 GHz, 12 MB Intel Smart Cache)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "357.7 x 264 x 13.9/19.95 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.1,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Killer Wi-Fi 6 AX 1650i"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-16s-propanel-anv16s-71-58wq.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "NITRO V"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Máy tính bảng Lenovo Idea Tab Plus Matte Edition Wifi 8GB 128GB ZAG70981VN kèm bút, bàn phím",
+  "price": 9890000,
+  "sale_price": null,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-lenovo-idea-tab-plus-wifi-8gb-128gb-zag70981vn.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/e/lenovo-idea-tab-plus-wifi-8gb-128gb-zag70981vn-kem-but-ban-phim.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-lenovo-idea-tab-plus-wifi-8gb-128gb-zag70981vn-kem-but-ban-phim.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-lenovo-idea-tab-plus-wifi-8gb-128gb-zag70981vn-kem-but-ban-phim-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-lenovo-idea-tab-plus-wifi-8gb-128gb-zag70981vn-kem-but-ban-phim-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-lenovo-idea-tab-plus-wifi-8gb-128gb-zag70981vn-kem-but-ban-phim-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-lenovo-idea-tab-plus-wifi-8gb-128gb-zag70981vn-kem-but-ban-phim-4.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/e/lenovo-idea-tab-plus-wifi-8gb-128gb-zag70981vn-kem-but-ban-phim.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-lenovo-idea-tab-plus-wifi-8gb-128gb-zag70981vn.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/e/lenovo-idea-tab-plus-wifi-8gb-128gb-zag70981vn-kem-but-ban-phim.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 12.1,
+      "resolution": "2560 x 1600 pixels (2.5K)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 6400",
+      "cpu": "8C, 2x A76 @2.5GHz + 6x A55@2.0GHz",
+      "gpu": "Arm Mali-G57 MC2",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android™ 15 trở lên"
+    },
+    "battery": {
+      "capacity_mah": 10200
+    },
+    "design": {
+      "dimensions_mm": "278,8 x 181,05 x 6,29mm",
+      "weight_g": 530.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "BT5.2",
+      "wifi": "Wi-Fi® 5, 802.11ac 1x1"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-lenovo-idea-tab-plus-wifi-8gb-128gb-zag70981vn-kem-but-ban-phim.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LENOVO IDEA TAB SERIES"
+}

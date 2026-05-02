@@ -1,0 +1,61 @@
+{
+  "name": "Honor Magic 4",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/c/ccdv_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/c/ccdv_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/c/ccdv_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/c/ccdv_7_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/c/ccdv_6_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/c/ccdv_3_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/c/ccdv_5_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/c/ccdv_4_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/c/ccdv_7_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/c/ccdv_6_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.81,
+      "resolution": "1224 x 2664 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm)",
+      "cpu": "1x3.00 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510",
+      "gpu": "Adreno 730",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 4800
+    },
+    "design": {
+      "dimensions_mm": "163,6 x 74,5 x 8,8 mm",
+      "weight_g": 199.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11 a/b/g/n/ac/6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/honor-magic-4.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

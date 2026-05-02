@@ -1,0 +1,65 @@
+{
+  "name": "iMac M4 2024 24 inch 10CPU 10GPU 16GB 256GB | Chính hãng Apple Việt Nam",
+  "price": 37190000,
+  "sale_price": 39990000,
+  "colors": [
+    "Xanh",
+    "Bạc",
+    "Xanh lá",
+    "Vàng",
+    "Hồng",
+    "Tím",
+    "Cam"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/imac_m4_pro_chip_4-port_24-in_green_pdp_image_position_1__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/imac_m4_pro_chip_4-port_24-in_green_pdp_image_position_2__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/imac_m4_pro_chip_4-port_24-in_green_pdp_image_position_3__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/imac_m4_pro_chip_4-port_24-in_green_pdp_image_position_4__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/imac_m4_pro_chip_4-port_24-in_green_pdp_image_position_5__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/imac_m4_pro_chip_4-port_24-in_green_pdp_image_position_6__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/imac_m4_pro_chip_4-port_24-in_green_pdp_image_position_7__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/imac_m4_pro_chip_4-port_24-in_green_pdp_image_position_8__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/imac_m4_pro_chip_4-port_24-in_green_pdp_image_position_9__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_3__6.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 24.0,
+      "resolution": "4480 x 2520 (4.5K)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Apple M4 10 lõi với 4 lõi hiệu năng và 6 lõi tiết kiệm điện\nNeural Engine 16 lõi",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 256,
+      "os": "macOS"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "Rộng: 54.7 cm - Cao: 46.1 cm - Độ dày chân đế: 14.7 cm",
+      "weight_kg": 4.44,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E (802.11ax)"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/imac-m4-2024-24-inch-10cpu-10gpu-16gb-256gb.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "IMAC"
+}

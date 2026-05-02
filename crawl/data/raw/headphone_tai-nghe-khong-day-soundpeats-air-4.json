@@ -1,0 +1,45 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless SoundPEATS Air 4",
+  "price": 950000,
+  "sale_price": 1590000,
+  "colors": [
+    "Trắng trong suốt",
+    "Đen trong suốt",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-4-ksp.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-4_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-4_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-4_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-4_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-4_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-4_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-4_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-4-ksp.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-4_8_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {
+      "earbuds_dimensions_mm": "18.3 x 19.1 x 34.4mm",
+      "case_dimensions_mm": "53.5 x 24 x 58mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-soundpeats-air-4.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Soundpeats",
+  "product_line": null
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch GT4 dây thép",
+  "price": 5390000,
+  "sale_price": 9490000,
+  "colors": [
+    "41mm bạc",
+    "46mm xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-09-27t162808.991.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-09-27t162631.389.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/i/siuuuuu.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-huawei-watch-gt-4_2__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-huawei-watch-gt-4_5__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-huawei-watch-gt-4_4__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/w/hw_gt4_-_suc_khoe_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-huawei-watch-gt-4_1__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-huawei-watch-gt-4_6__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-09-27t162843.220.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.43,
+      "resolution": "466 × 466 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "45.9 mm x 45.9 mm x 11 mm",
+      "weight_g": 42.6,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Phân tích rối loạn nhịp tin",
+      "Theo dõi chu kỹ kinh nguyệt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-gt-4-day-thep.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

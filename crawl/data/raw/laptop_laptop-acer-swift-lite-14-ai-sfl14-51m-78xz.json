@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Acer Swift Lite 14 AI SFL14-51M-78XZ",
+  "price": 20990000,
+  "sale_price": 22990000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_44__2_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_45__4_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_46__3_15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_41__2_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_43__4_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_42__3_21.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_2__2_8.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_44__2_16.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_45__4_4.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_46__3_15.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FHD"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core Ultra 7 155U (12 lõi / 14 luồng, 3.8 GHz, 4.8 GHz, 12 MB Intel Smart Cache)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "314.4 x 221.9 x 17.5 mm (W x D x H)",
+      "weight_kg": 1.27,
+      "material": "Vỏ nhựa - nắp lưng kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.1",
+      "wifi": "Intel Wireless Wi-Fi 6 AX201"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-swift-lite-14-ai-sfl14-51m-78xz.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "ACER SWIFT"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Laptop HP 15S-DU1040TX 8RE77PA",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/1/31320_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/1/31320_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/1/31320_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/1/31320_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/1/31320_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/1/31320_3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/1/31320_4.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/1/31320_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/1/31320_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/1/31320_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1366 x 768 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD Camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7 - 10510U",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "Windows 10 Home Single Language 64"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "358.5 x 242 x 19.9 mm",
+      "weight_kg": 1.74,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth® 4.2 Combo",
+      "wifi": "Realtek 802.11 a/b/g/n/ac (1x1) Wi-Fi®"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-15s-du1040tx-8re77pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "HP CƠ BẢN"
+}

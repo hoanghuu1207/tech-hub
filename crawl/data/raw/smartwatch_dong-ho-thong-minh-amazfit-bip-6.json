@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thông minh Amazfit Bip 6",
+  "price": 1990000,
+  "sale_price": 2390000,
+  "colors": [
+    "Đỏ",
+    "Đen",
+    "Nâu",
+    "Xám",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_bip_6_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_bip_6_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_bip_6_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__4_124.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__9_116.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__4_135.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__6_123.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_138.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__7_84.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__8_60.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.97,
+      "resolution": "390 x 450 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 340
+    },
+    "design": {
+      "case_size_mm": "Từ 13 - 19.5 cm",
+      "weight_g": 27.9,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Hệ thống đánh giá sức khỏe PAI",
+      "Trợ lý AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-bip-6.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

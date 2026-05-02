@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe không dây Xiaomi Buds 5 Pro",
+  "price": 5090000,
+  "sale_price": 5190000,
+  "colors": [
+    "Trắng",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_276_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/12_47_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_399_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_718_31.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_690_27.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_174_12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_483_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/9/_/9_115_13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_557_30.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_629_34.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 8
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-xiaomi-buds-5-pro.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

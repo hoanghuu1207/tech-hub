@@ -1,0 +1,71 @@
+{
+  "name": "Samsung Galaxy A36 5G 8GB 128GB",
+  "price": 7490000,
+  "sale_price": 8140000,
+  "colors": [
+    "Xanh",
+    "Tím",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a36_5g_8gb_128gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a36_5g_8gb_128gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a36_5g_8gb_128gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a36_5g_8gb_128gb_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a36_5g_8gb_128gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a36.2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a36_2__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a36_1__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a36_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a36_3_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1080 x 2340 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 0
+    },
+    "camera_front": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "Snapdragon 6 Gen 3",
+      "cpu": "8 nhân 2.4GHz, 1.8GHz",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "162.9 x 78.2 x 7.4 mm",
+      "weight_g": 195.0,
+      "material": "Kính"
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "802.11a/b/g/n/ac/ax 2.4GHz+5GHz, HE80, MIMO, 1024-QAM"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a36.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY A"
+}

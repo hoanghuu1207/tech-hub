@@ -1,0 +1,67 @@
+{
+  "name": "MacBook Air M4 13 inch 2025 10CPU 8GPU 16GB 256GB Sạc 70W | Chính hãng Apple Việt Nam",
+  "price": 25490000,
+  "sale_price": 27990000,
+  "colors": [
+    "Xanh da trời",
+    "Bạc",
+    "Đêm xanh thẳm",
+    "Ánh sao"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_14_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_25_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_82_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__8_83_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__3_12_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__3_11_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__5_12_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__7_21.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_16_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__6_10_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.6,
+      "resolution": "2560 x 1664 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "CPU 10 lõi với 4 lõi hiệu năng và 6 lõi tiết kiệm điện",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 256,
+      "os": "macOS"
+    },
+    "battery": {
+      "usage_hours": 18
+    },
+    "design": {
+      "dimensions_cm": "Cao: 1.13 cm x Rộng: 30.41 cm x Dài: 21.5 cm",
+      "weight_kg": 1.24,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm được Apple Việt Nam phân phối chính thức",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-macbook-air-13-m4-10cpu-8gpu-16gb-256gb-2025-sac-70w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK AIR"
+}

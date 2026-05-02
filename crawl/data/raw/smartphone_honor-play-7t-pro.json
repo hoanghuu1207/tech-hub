@@ -1,0 +1,60 @@
+{
+  "name": "Honor Play 7T Pro",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/d/sdwsdsw_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/d/sdwsdsw.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/d/sdwsdsw_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/d/sdwsdsw_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/d/sdwsdsw.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/d/sdwsdsw_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/d/sdwsdsw_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/d/sdwsdsw.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/d/sdwsdsw_2_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1080 x 2388 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Mediatek Dimensity 6020 (7 nm)",
+      "cpu": "2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55",
+      "gpu": "Mali-G57 MC2",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 4000
+    },
+    "design": {
+      "dimensions_mm": "162.9 x 74.5 x 7.4 mm",
+      "weight_g": 175.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.1, A2DP, LE",
+      "wifi": "802.11 a/b/g/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/honor-play-7t-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

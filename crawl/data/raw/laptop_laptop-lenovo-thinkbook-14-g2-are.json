@@ -1,0 +1,57 @@
+{
+  "name": "Laptop Lenovo Thinkbook 14 G2 ARE",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkbook_14_g2_are.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_243.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_210.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_222.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_192.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_169.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_124.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_90.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_lenovo_thinkbook_14_g2_are.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_243.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD Webcam (720p Webcam)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 7 4700U 2.00 GHz (tối đa 4.10 GHz) / 8 nhân / 8 luồng / 8 MB",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "Windows 10 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "323 x 217.5 x 17.9",
+      "weight_kg": null,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "802.11 ax"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-14-g2-are.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "THINKBOOK"
+}

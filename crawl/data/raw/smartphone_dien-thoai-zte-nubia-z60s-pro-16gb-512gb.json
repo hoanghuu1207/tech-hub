@@ -1,0 +1,71 @@
+{
+  "name": "ZTE Nubia Z60S Pro 16GB 512GB",
+  "price": 10990000,
+  "sale_price": 12000000,
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-zte-nubia-z60s-pro-16gb-512tb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-zte-nubia-z60s-pro-16gb-512tb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-zte-nubia-z60s-pro-16gb-512tb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-zte-nubia-z60s-pro-16gb-512tb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-zte-nubia-z60s-pro-16gb-512tb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-zte-nubia-z60s-pro_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-zte-nubia-z60s-pro_10__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-zte-nubia-z60s-pro_4__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-zte-nubia-z60s-pro_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-zte-nubia-z60s-pro_2__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": "2160 x 1440 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 2 (4 nm)",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "design": {
+      "dimensions_mm": "163,63 x 75,98 x 8,7 mm",
+      "weight_g": 220.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "Wi-Fi 6, 802.11a/b/g/n/ac/ax(2*2MIMO)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-zte-nubia-z60s-pro-16gb-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nubia",
+  "product_line": "NUBIA"
+}

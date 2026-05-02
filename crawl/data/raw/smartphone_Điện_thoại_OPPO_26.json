@@ -1,0 +1,69 @@
+{
+  "name": "OPPO A18 4GB 128GB",
+  "price": 3190000,
+  "sale_price": 3990000,
+  "colors": [
+    "Xanh dương",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a18_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a18_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a18_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a18_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a18_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a18_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a18-xanh.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a18-den.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a18_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a18_3_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.56,
+      "resolution": "720 x 1612 (HD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G85 8 nhân",
+      "cpu": "8 cores, up to 2.0GHz",
+      "gpu": "Mali G52 MP2",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163.74 x 75.03 x 8.16 mm",
+      "weight_g": 188.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "2.4G/5G, 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-a18.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": null
+}

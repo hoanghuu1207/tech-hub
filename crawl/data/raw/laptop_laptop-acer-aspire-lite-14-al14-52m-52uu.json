@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Acer Aspire Lite 14 AL14-52M-52UU",
+  "price": 18990000,
+  "sale_price": 19990000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_14_al14-52m-52uu_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_14_al14-52m-52uu_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_14_al14-52m-52uu_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssscs_3__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssscs_2__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssscs_1__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssscs_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssscs_6__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssscs_4__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssscs_5__3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "2240 x 1400 pixels",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 2
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-1335U (10 lõi / 12 luồng, Tần số Turbo tối đa của E-core : 3.4 GHz, Tần số Turbo tối đa của P-core : 4.6 GHz, 12 MB Intel Smart Cache)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "313.3 x 218 x 16.9/16.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.5,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.1",
+      "wifi": "Intel Wireless Wi-Fi 6 AX201"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-14-al14-52m-52uu.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "ASPIRE"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thông minh Xiaomi Watch 5",
+  "price": 8380000,
+  "sale_price": 9990000,
+  "colors": [
+    "Xanh lá",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_2__18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_1__15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_6__1_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_4__1_11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_3__12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_5__11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_14__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_11__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_13__5.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.54,
+      "resolution": "480 × 480 pixels | 312 PPI\nĐộ sáng 1500 nits",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 930
+    },
+    "design": {
+      "case_size_mm": "Từ 13.5 – 20.5 cm",
+      "weight_g": 56.0,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Trợ lý giọng nói Xiao Ai",
+      "Xiaomi Super Island",
+      "Trung tâm điều khiển trên cổ tay 2.0",
+      "Nhận diện cử chỉ chính xác",
+      "Hỗ trợ tương tác bằng cử chỉ tiện lợi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-xiaomi-watch-5.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

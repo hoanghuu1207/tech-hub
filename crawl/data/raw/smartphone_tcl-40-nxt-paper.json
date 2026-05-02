@@ -1,0 +1,66 @@
+{
+  "name": "TCL 40 NXT PAPER 8GB 256GB",
+  "price": 4490000,
+  "sale_price": null,
+  "colors": [
+    "Trắng",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_40_nxt_paper_8gb_256gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_40_nxt_paper_8gb_256gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_40_nxt_paper_8gb_256gb_-_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_40_nxt_paper_8gb_256gb_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_40_nxt_paper_8gb_256gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_40_nxt_paper_8gb_256gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_40_nxt_paper_8gb_256gb_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_40_nxt_paper_8gb_256gb_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_40_nxt_paper_8gb_256gb_-_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl-40-nxt-paper_3_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": "2460x1080 pixels",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Mediatek Helio G88 (MT6769)",
+      "cpu": "2 x 2.0 GHz Cortex-A75 & 6 x 1.8 GHz Cortex-A55",
+      "gpu": "Mali-G52 MC2",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5010
+    },
+    "design": {
+      "dimensions_mm": "168.16 x 75.53 x 7.89 mm",
+      "weight_g": 195.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "802.11a/b/g/n/ac, 2.4GHz&5GHz"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tcl-40-nxt-paper.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại TCL",
+  "product_line": null
+}

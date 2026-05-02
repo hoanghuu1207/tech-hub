@@ -1,0 +1,44 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Edifier X1 Lite",
+  "price": 365000,
+  "sale_price": 590000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-x1-lite-26.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-x1-lite-10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-x1-lite-9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-x1-lite-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-x1-lite-11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-x1-lite-12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-x1-lite-13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-x1-lite-14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-x1-lite-15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-x1-lite-17.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 7
+    },
+    "design": {
+      "earbuds_dimensions_mm": "21.79 x 18.07 x 19.12mm",
+      "case_dimensions_mm": "56.98 x 49.79 x 26.45mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-edifier-x1-lite.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Edifier",
+  "product_line": null
+}

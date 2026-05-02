@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Dell 16 Plus DB16250 DB6U5387W1",
+  "price": 31790000,
+  "sale_price": 33990000,
+  "colors": [
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_16_plus_db16250_db6u5387w1_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_16_plus_db16250_db6u5387w1_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_16_plus_db16250_db6u5387w1_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_134.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__105.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__99.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__94.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__75.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__88.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__62.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 pixels (2.5K)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Có"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core Ultra 5 226V (40 TOPS NPU, 8 lõi, up to 4.5 GHz)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home, Single Language English + Office Home & Student 2024"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "356.78 x 250.60 x 16.99 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.87,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-16-plus-db16250-db6u5387w1.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL PRO / PRO PLUS"
+}

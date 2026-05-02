@@ -1,0 +1,54 @@
+{
+  "name": "Đồng hồ thông minh Garmin Fenix 8",
+  "price": 26490000,
+  "sale_price": 29990000,
+  "colors": [
+    "Titan",
+    "Xám Carbon"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_fenix_8_47mm_vi_n_th_p_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_fenix_8_47mm_vi_n_th_p_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_fenix_8_47mm_vi_n_th_p_-_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_32__2_23.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__6_95.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__6_76.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_34__3_23.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__7_79.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__5_89.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__2_123.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.4,
+      "resolution": "454 x 454 Pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 47
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 73.0,
+      "material": "Titanium"
+    },
+    "special_features": [
+      "Trợ lý giọng nói",
+      "Garmin Share",
+      "Loa và micro tích hợp",
+      "Đèn pin"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-fenix-8.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

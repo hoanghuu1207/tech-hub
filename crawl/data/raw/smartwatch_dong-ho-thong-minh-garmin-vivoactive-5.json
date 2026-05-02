@@ -1,0 +1,51 @@
+{
+  "name": "Đồng hồ thông minh Garmin Vivoactive 5",
+  "price": 5790000,
+  "sale_price": 6990000,
+  "colors": [
+    "Trắng",
+    "Đen",
+    "Xanh",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_vivoactive_5_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_vivoactive_5_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_vivoactive_5_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-vivoactive-5_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-vivoactive-5_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-vivoactive-5_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin-vivoactive-5-day-silicone-1-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin-vivoactive-5-day-silicone-den-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin-vivoactive-5-day-silicone-tim-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin-vivoactive-5-day-silicone-xanh-1_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 30.4,
+      "resolution": "390 x 390 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {
+      "usage_hours": 21
+    },
+    "design": {
+      "case_size_mm": "42.2 x 42.2 x 11.1 mm",
+      "weight_g": 36.0,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-vivoactive-5.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

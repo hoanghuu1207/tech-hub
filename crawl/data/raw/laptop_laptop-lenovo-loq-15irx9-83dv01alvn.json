@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Lenovo LOQ 15IRX9 83DV01ALVN",
+  "price": 31990000,
+  "sale_price": 33990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15irx9_83dv01alvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15irx9_83dv01alvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15irx9_83dv01alvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__8_47.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__10_61.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__8_47.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__8_36.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_253.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__5_46.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__7_175.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD 720p với E-shutter"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-13650HX, 14 lõi (6P + 8E) / 20 luồng, P-core 2.6 / 4.9GHz, E-core 1.9 / 3.6GHz, 24MB",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359.86 x 258.7 x 21.9-23.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.38,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-loq-15irx9-83dv01alvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LOQ"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "MacBook Pro 14 M3 Pro 18GB - 1TB | Chính hãng Apple Việt Nam",
+  "price": 47990000,
+  "sale_price": 59990000,
+  "colors": [
+    "Bạc",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-14-inch-m3-pro-2023_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-14-inch-m3-pro-2023_4__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-14-inch-m3-pro-2023_5__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-14-inch-m3-pro-2023_8__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-14-inch-m3-pro-2023_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-14-inch-m3-pro-2023_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-14-inch-m3-pro-2023_10__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-14-inch-m3-pro-2023_7__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_7_6_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-14-inch-m3-pro-2023_9__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.2,
+      "resolution": "3024 x 1964 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD 1080p"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Apple M3 Pro 12 nhân",
+      "gpu": null,
+      "ram_gb": 18,
+      "storage_gb": 1024,
+      "os": null
+    },
+    "battery": {
+      "capacity_wh": 72.4
+    },
+    "design": {
+      "dimensions_cm": "Cao 1,55 - Rộng 31,26 - Dài 22,12 cm",
+      "weight_kg": 1.55,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-pro-14-inch-m3-pro-2023-18gb-1tb.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK PRO"
+}

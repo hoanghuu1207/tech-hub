@@ -1,0 +1,67 @@
+{
+  "name": "Điện thoại Meizu Mblu 22 Pro NFC 6GB 256GB",
+  "price": 2990000,
+  "sale_price": 3090000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-mblu-22-pro-6gb-256gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-mblu-22-pro-6gb-256gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-mblu-22-pro-6gb-256gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-mblu-22-pro-6gb-256gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-mblu-22-pro-6gb-256gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_meizu_mblu_22_pro_nfc_4gb_128gb_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_meizu_mblu_22_pro_nfc_4gb_128gb_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_meizu_mblu_22_pro_nfc_4gb_128gb-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_meizu_mblu_22_pro_nfc_4gb_128gb-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_meizu_mblu_22_pro_nfc_4gb_128gb-2_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.79,
+      "resolution": "720 x 1640 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G81",
+      "cpu": "Octa-core",
+      "gpu": "Mali-G52 MP2",
+      "ram_gb": 6,
+      "storage_gb": 256,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "170,75 x 77,5 x 8,5 mm",
+      "weight_g": 212.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "802.11 a/b/g/n/ac (Wi-Fi 5, dual-band)"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-meizu-mblu-22-pro-6gb-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Meizu",
+  "product_line": null
+}

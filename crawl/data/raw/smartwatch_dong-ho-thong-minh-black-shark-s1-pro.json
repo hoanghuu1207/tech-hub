@@ -1,0 +1,47 @@
+{
+  "name": "Đồng hồ thông minh Black Shark S1 Pro",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-black-shark-s1-pro_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-black-shark-s1-pro_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-black-shark-s1-pro_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-black-shark-s1-pro_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-black-shark-s1-pro.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-black-shark-s1-pro_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-black-shark-s1-pro_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-black-shark-s1-pro_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-black-shark-s1-pro_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-black-shark-s1-pro_1_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.43,
+      "resolution": "466*466",
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "special_features": [
+      "Hỗ trợ trò chuyện GPT",
+      "Chế độ theo dõi sức khỏe khi chơi game"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-black-shark-s1-pro.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Black Shark",
+  "product_line": null
+}

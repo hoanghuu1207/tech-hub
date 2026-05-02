@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Lenovo ThinkBook 14 G8 IAL 21SJ00EAVN",
+  "price": 24490000,
+  "sale_price": 26999000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkbook_14_g8_ial_21sj00eavn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkbook_14_g8_ial_21sj00eavn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkbook_14_g8_ial_21sj00eavn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_52.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_56.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_96.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_11__1_13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_50.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_44.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_43.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera lai FHD 1080p + hồng ngoại với màn che riêng tư"
+    },
+    "performance": {
+      "chipset": "Intel AI Boost, up to 11 TOPS",
+      "cpu": "Intel Core Ultra 5 135H, 14 lõi (4P + 8E + 2LPE) / 18 luồng, Max Turbo up to 4.6GHz, 18MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English (US) / English (UK)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "313.5 x 224 x 17.5 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.36,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-14-g8-ial-21sj00eavn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "THINKBOOK"
+}

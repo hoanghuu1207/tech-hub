@@ -1,0 +1,40 @@
+{
+  "name": "Tai nghe KZ ZSN Pro",
+  "price": 550000,
+  "sale_price": 590000,
+  "colors": [
+    "Tím",
+    "Xanh dương",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000__.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002__.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001__.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz_zsn_pro_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz_zsn_pro_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_192_4.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0000__.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0002__.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0001__.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/k/z/kz_zsn_pro_2.png"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {},
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-kz-zsn-pro.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "KZ",
+  "product_line": null
+}

@@ -1,0 +1,68 @@
+{
+  "name": "vivo T1X 8GB 128GB",
+  "price": 5990000,
+  "sale_price": null,
+  "colors": [
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/1/t1x_01_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/1/t1x_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/gallery-pc-img1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/gallery-pc-img4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/gallery-pc-img5_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/gallery-pc-img3_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/1/t1x_01_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/1/t1x_01_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/1/t1x_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/gallery-pc-img1_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.58,
+      "resolution": "1080 x 2408 pixels",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Snapdragon 680",
+      "cpu": "2x2.4 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55",
+      "gpu": "Mali-G68 MC4",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 12, FunTouchOS 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164.26×76.08×8.00mm",
+      "weight_g": 182.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "2.4GHz / 5GHz"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vivo-t1x-8gb-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại vivo",
+  "product_line": null
+}

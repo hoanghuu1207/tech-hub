@@ -1,0 +1,67 @@
+{
+  "name": "Điện thoại Masstel S7 4GB 128GB",
+  "price": 1990000,
+  "sale_price": 2490000,
+  "colors": [
+    "Vàng",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-s7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-s7-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-s7-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-s7-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-s7-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-s7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-s7_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-s7_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-s7_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-s7_3_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.745,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 0
+    },
+    "camera_front": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "Unisoc SC9863A",
+      "cpu": "Octa-Core, 8 nhân, 1.6 GHz",
+      "gpu": "GE8322",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 14 Go"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "165 x 76.1 x 8.8 mm",
+      "weight_g": 195.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v4.2",
+      "wifi": "802.11 b/g/n"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-masstel-s7.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Masstel",
+  "product_line": null
+}

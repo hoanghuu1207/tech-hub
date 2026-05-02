@@ -1,0 +1,71 @@
+{
+  "name": "Xiaomi Redmi Note 13 Pro Plus 5G 8GB 256GB",
+  "price": 6490000,
+  "sale_price": 10990000,
+  "colors": [
+    "Trắng (độc quyền)",
+    "Tím",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_13_pro_plus_5g_8gb_256gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_13_pro_plus_5g_8gb_256gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_13_pro_plus_5g_8gb_256gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_13_pro_plus_5g_8gb_256gb_-_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_13_pro_plus_5g_8gb_256gb_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_13_pro_plus_5g_8gb_256gb_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_13_pro_plus_5g_8gb_256gb_-_10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_13_pro_plus_5g_8gb_256gb_-_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_13_pro_plus_5g_8gb_256gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_13_pro_plus_5g_8gb_256gb_-_4.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1220 x 2712 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Mediatek Dimensity 7200 Ultra (4 nm)",
+      "cpu": "2x2.8 GHz Cortex-A715 & 6x2.0 GHz Cortex-A510",
+      "gpu": "Mali-G610 MC4",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "161.4 x 74.2 x 8.9 mm",
+      "weight_g": 204.5,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "A2DP\nLE\nv5.2",
+      "wifi": "Wi-Fi MIMO\nWi-Fi Direct\nWi-Fi 802.11 a/b/g/n/ac\nWi-Fi hotspot\nDual-band (2.4 GHz/5 GHz)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-redmi-note-13-pro-plus.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

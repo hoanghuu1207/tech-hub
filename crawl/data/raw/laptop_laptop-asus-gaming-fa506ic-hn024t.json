@@ -1,0 +1,50 @@
+{
+  "name": "Laptop ASUS Gaming FA506IC-HN024T",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/1/61bx2ixogol._ac_sx679_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/1/61bx2ixogol._ac_sx679_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/1/61bx2ixogol._ac_sx679_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1080 x 1920 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Ryzen 7 4800U",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 512,
+      "os": "Windows 10"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": null,
+      "weight_kg": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-gaming-fa506ic-hn024t.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "GAMING"
+}

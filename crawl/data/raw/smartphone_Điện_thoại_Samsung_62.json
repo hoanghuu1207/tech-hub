@@ -1,0 +1,68 @@
+{
+  "name": "Samsung Galaxy A23 4G",
+  "price": 3600000,
+  "sale_price": 5690000,
+  "colors": [
+    "Cam",
+    "Xanh dương",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a23-cam-thumb-600x600_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/din-thoi-samsung-galaxy-a23-a235f-5g-blue-dm_a5be6dfe_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a23-den-122.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a23-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a23-cam-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a23-cam-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a23-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a23-cam-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a23-cam-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a23-cam-5.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.6,
+      "resolution": "1080 x 2408 pixels",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Snapdragon 680 8 nhân",
+      "cpu": "4 nhân 2.4 GHz & 4 nhân 1.9 GHz",
+      "gpu": "Adreno 610",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "165.4 x 76.9 x 8.4 mm",
+      "weight_g": 195.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11 a/b/g/n/ac 2.4G+5GHz"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Hàng mới, nguyên seal, đã kích hoạt vào 15/7/2023",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-a23.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY A"
+}

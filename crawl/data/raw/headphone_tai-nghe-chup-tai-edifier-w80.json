@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai Edifier W80",
+  "price": 1990000,
+  "sale_price": 3000000,
+  "colors": [
+    "Trắng ngà",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-edifier-w80_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-edifier-w80_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-edifier-w80_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-edifier-w80_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-edifier-w80_12_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-edifier-w80_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-edifier-w80_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-edifier-w80_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-edifier-w80_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-edifier-w80_10_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 40
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-edifier-w80.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Edifier",
+  "product_line": null
+}

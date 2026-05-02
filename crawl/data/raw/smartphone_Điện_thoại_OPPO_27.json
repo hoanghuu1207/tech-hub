@@ -1,0 +1,67 @@
+{
+  "name": "OPPO A5i 6GB 128GB",
+  "price": 4490000,
+  "sale_price": null,
+  "colors": [
+    "Tím",
+    "Đỏ"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a5i_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a5i-1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a5i-2_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a5i-3_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a5i-4_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a5i-4gb-128gb-do-tim_2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a5i-4gb-128gb-do_2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1409_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1408_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1410_3_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "720 x 1604 (HD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 6s 4G Gen1",
+      "cpu": "8 nhân",
+      "gpu": "Adreno 610 @ 1050MHz",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "ColorOS 14.0 (nền Android)"
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "design": {
+      "dimensions_mm": "165.77 x 76.08 x 7.68 mm",
+      "weight_g": 186.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0, hỗ trợ BLE, codec SBC/AAC/aptX",
+      "wifi": "2.4GHz & 5GHz 2.4G/5G, 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-oppo-a5i-6gb-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "A SERIES"
+}

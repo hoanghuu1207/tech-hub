@@ -1,0 +1,52 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch D2",
+  "price": 7740000,
+  "sale_price": 9990000,
+  "colors": [
+    "Vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h__4_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_2__1_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_3__1_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_4__1_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_1__1_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__6_111.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__5_117.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__6_129.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__6_112.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.82,
+      "resolution": "480 × 408 pixels, PPI 347",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "13 - 21 cm",
+      "weight_g": 40.0,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Hỗ trợ Loa và Micro",
+      "Chụp ảnh màn hình",
+      "Nhắc nhở thông minh",
+      "Báo cáo huyết áp hàng tuần"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-d2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

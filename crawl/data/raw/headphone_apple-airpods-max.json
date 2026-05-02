@@ -1,0 +1,46 @@
+{
+  "name": "Tai nghe chụp tai chống ồn Apple AirPods Max 2024 | Chính hãng Apple Việt Nam",
+  "price": 13390000,
+  "sale_price": 14990000,
+  "colors": [
+    "Đen",
+    "Trắng/Vàng",
+    "Tím",
+    "Xanh dương",
+    "Cam"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-airpods-max-1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-airpods-max-2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-airpods-max-3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-airpods-max-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-airpods-max-5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-airpods-max-6_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-airpods-max-7_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-airpods-max-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-airpods-max-9_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple-airpods-max-1_1.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 20
+    },
+    "design": {
+      "earbuds_dimensions_mm": "168.6 x 187.3 x 83.4 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Hàng chính hãng Apple Việt Nam, Mới",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-airpods-max.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Apple",
+  "product_line": null
+}

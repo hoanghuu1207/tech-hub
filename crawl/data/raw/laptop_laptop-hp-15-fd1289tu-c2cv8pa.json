@@ -1,0 +1,61 @@
+{
+  "name": "Laptop HP 15-FD1289TU C2CV8PA",
+  "price": 24490000,
+  "sale_price": 24990000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_15-fd1289tu_c2cv8pa_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_15-fd1289tu_c2cv8pa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_15-fd1289tu_c2cv8pa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_61.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__51.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__55.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__50.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_744_1_96.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_15-fd1289tu_c2cv8pa_-_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_15-fd1289tu_c2cv8pa_-_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera HP True Vision 720p HD có chức năng giảm nhiễu tạm thời và micrô kỹ thuật số mảng kép tích hợp"
+    },
+    "performance": {
+      "chipset": "Intel AI Boost (11 NPU TOPS)",
+      "cpu": "Intel Core Ultra 7 155H (up to 4.8 GHz with Intel Turbo Boost Technology, 24 MB L3 cache,16 lõi, 22 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.98 x 23.6 x 1.86 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.65,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Realtek Wi-Fi 6 (2x2)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-15-fd1289tu-c2cv8pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "HP CƠ BẢN"
+}

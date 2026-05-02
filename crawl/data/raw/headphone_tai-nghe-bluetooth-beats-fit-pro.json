@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe không dây Beats Fit Pro",
+  "price": 4690000,
+  "sale_price": null,
+  "colors": [
+    "Xám",
+    "Trắng",
+    "Tím",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-beats-fit-pro-9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-beats-fit-pro-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-beats-fit-pro-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-beats-fit-pro-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-beats-fit-pro-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-beats-fit-pro-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-beats-fit-pro-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-beats-fit-pro-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-beats-fit-pro-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-beats-fit-pro-10.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 6
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-beats-fit-pro.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Beats",
+  "product_line": null
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Laptop HP Omnibook X Flip 14-FM0088TU BZ7Q2PA",
+  "price": 30390000,
+  "sale_price": 33990000,
+  "colors": [
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_x_flip_14-fm0088tu_bz7q2pa_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_x_flip_14-fm0088tu_bz7q2pa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_x_flip_14-fm0088tu_bz7q2pa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_68.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__58.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__54.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__53.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__49.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_823_5.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_omnibook_x_flip_14-fm0088tu_bz7q2pa_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Intel AI Boost (40 NPU TOPS)",
+      "cpu": "Intel Core Ultra 5 226V (lên đến 4.5 GHz với Công nghệ Intel Turbo Boost, bộ nhớ đệm L3 8 MB, 8 lõi, 8 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home + Office"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "31.3 x 21.85 x 1.46 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.38,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Intel Wi-Fi 6E AX211 (2x2)"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Màn hình cảm ứng",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-omnibook-x-flip-14-fm0088tu-bz7q2pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "OMNIBOOK"
+}

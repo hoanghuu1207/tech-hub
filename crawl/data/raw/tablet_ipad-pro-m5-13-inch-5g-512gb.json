@@ -1,0 +1,64 @@
+{
+  "name": "iPad Pro chip M5 13 inch 5G 512GB | Chính hãng Apple Việt Nam",
+  "price": 50690000,
+  "sale_price": 51190000,
+  "colors": [
+    "Bạc",
+    "Đen Không Gian"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-2_1_1_3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5_1_1_3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-9_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-8_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-7_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-6_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-5_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-4_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-3_3_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-pro-m5_1_1_3_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.0,
+      "resolution": "2420x1668 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple M5",
+      "cpu": "9 lõi (3 hiệu năng + 6 tiết kiệm điện)",
+      "gpu": "10 lõi",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "iPadOS 26"
+    },
+    "battery": {
+      "usage_hours": 10
+    },
+    "design": {
+      "dimensions_mm": "249.7 x 177.5 x 5.3 mm",
+      "weight_g": 582.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi-Fi 7 (802.11be) 2x2 MIMO"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã ZA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/ipad-pro-m5-13-inch-5g-512gb.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD PRO"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Oppo Reno4 SE",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-reno-4-se.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/o/p/oppo-reno-4-se.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/o/p/oppo-reno-4-se.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.4,
+      "resolution": "1176 x 2400 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "MediaTek MT6873 Dimensity 800 5G (7 nm)",
+      "cpu": "Octa-core (4x2.0 GHz Cortex-A76 & 4x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G57 MP4",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 10, ColorOS 7.2"
+    },
+    "battery": {
+      "capacity_mah": 4300
+    },
+    "design": {
+      "dimensions_mm": "160.1 x 73.8 x 7.5 mm",
+      "weight_g": 164.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-reno-4-se.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": null
+}

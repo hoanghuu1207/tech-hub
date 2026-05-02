@@ -1,0 +1,68 @@
+{
+  "name": "HONOR Magic V Flip 2",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-magic-v-flip-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-magic-v-flip-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-magic-v-flip-2-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-magic-v-flip-2-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-magic-v-flip-2-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-magic-v-flip-2-5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-magic-v-flip-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-magic-v-flip-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-magic-v-flip-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-magic-v-flip-2-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.82,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {
+      "resolution_mp": 50
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 3",
+      "cpu": "8 nhân",
+      "gpu": "Adreno 750",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "MagicOS 9.0.1 (Android 15)"
+    },
+    "battery": {
+      "capacity_mah": 5200
+    },
+    "design": {
+      "dimensions_mm": "Khi mở: 167.1 × 75.6 × 6.9 mm\nKhi gập: 86.2 × 75.6 × 15.5 mm",
+      "weight_g": 204.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": "Wi-Fi 7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-magic-v-flip-2.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

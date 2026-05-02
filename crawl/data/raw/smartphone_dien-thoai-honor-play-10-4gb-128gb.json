@@ -1,0 +1,70 @@
+{
+  "name": "HONOR Play 10 4GB 128GB",
+  "price": 2590000,
+  "sale_price": 2690000,
+  "colors": [
+    "Đen Bóng Đêm",
+    "Xanh Đại Dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-play-10-4gb-128gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-play-10-4gb-128gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-play-10-4gb-128gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-play-10-4gb-128gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-play-10-4gb-128gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-play-10-4gb-128gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-play-10-4gb-128gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-play-10-4gb-128gb.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-honor-play-10-4gb-128gb.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-honor-play-10-4gb-128gb-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.74,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G81",
+      "cpu": "8 nhân",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "167.69 mm x 77.69 mm x 8.55 mm",
+      "weight_g": 189.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.1",
+      "wifi": "Wi-Fi hotspot\nWi-Fi Direct\nWi-Fi 5\nDual-band (2.4 GHz/5 GHz)"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-play-10-4gb-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

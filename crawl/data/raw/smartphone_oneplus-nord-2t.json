@@ -1,0 +1,58 @@
+{
+  "name": "OnePlus Nord 2T",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/4/44_1_22.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/5/45_1_18.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/6/46_1_19.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/4/44_1_22.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/5/45_1_18.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/6/46_1_19.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/4/44_1_22.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/5/45_1_18.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/6/46_1_19.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.43,
+      "resolution": null,
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {},
+    "performance": {
+      "chipset": "Dimensity 1300",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": "OxygenOS 12, Android 12"
+    },
+    "battery": {
+      "capacity_mah": 500
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bao test 30 ngày, bảo hành 3 tháng 1 đổi 1 nếu có lỗi từ nhà sản xuất Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oneplus-nord-2t.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OnePlus",
+  "product_line": null
+}

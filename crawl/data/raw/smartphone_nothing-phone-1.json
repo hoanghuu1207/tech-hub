@@ -1,0 +1,61 @@
+{
+  "name": "Nothing Phone 1",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing-phone-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing-phone-1_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing-phone-1_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing-phone-1_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing-phone-1_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing-phone-1_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing-phone-1_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing-phone-1_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nothing-phone-1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nothing-phone-1_5_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.55,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 778G+ 5G (6 nm)",
+      "cpu": "1x2.5 GHz Cortex-A78 & 3x2.4 GHz Cortex-A78 & 4x1.8 GHz Cortex-A55",
+      "gpu": "Adreno 642L",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 500
+    },
+    "design": {
+      "dimensions_mm": "159.2 x 75.8 x 8.3 mm",
+      "weight_g": 193.5,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11 a/b/g/n/ac/6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nothing-phone-1.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nothing Phone",
+  "product_line": null
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Huawei P20 Pro Chính hãng",
+  "price": 14990000,
+  "sale_price": 16990000,
+  "colors": [
+    "Đen",
+    "Hồng",
+    "Xanh dương",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/2/p20-pro.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/2/p20-pro-black-back.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/2/p20-pro-blue-back_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/2/p20-pro-pink-back.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/2/p20-pro-purple-back.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/p/2/p20-pro.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/p/2/p20-pro-black-back.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/p/2/p20-pro-blue-back_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/p/2/p20-pro-pink-back.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/p/2/p20-pro-purple-back.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "1080 x 2244 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 40
+    },
+    "camera_front": {
+      "resolution_mp": 24
+    },
+    "performance": {
+      "chipset": "Hisilicon Kirin 970",
+      "cpu": "4x 2.36 GHz Cortex-A73 & 4x 1.84 GHz Cortex-A53",
+      "gpu": "Mali-G72 MP12",
+      "ram_gb": null,
+      "storage_gb": 128,
+      "os": "8.1 (Oreo)"
+    },
+    "battery": {
+      "capacity_mah": 4000
+    },
+    "design": {
+      "dimensions_mm": "155 x 73.9 x 7.8 mm (6.10 x 2.91 x 0.31 in)",
+      "weight_g": 180.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "4.2, A2DP, LE, EDR, aptX HD",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/huawei-p20-pro-chinh-hang.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Huawei",
+  "product_line": null
+}

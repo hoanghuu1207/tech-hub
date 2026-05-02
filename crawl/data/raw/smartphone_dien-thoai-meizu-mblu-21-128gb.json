@@ -1,0 +1,65 @@
+{
+  "name": "Điện thoại Meizu Mblu 21 6GB 128GB",
+  "price": 2690000,
+  "sale_price": 2990000,
+  "colors": [
+    "Xanh",
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-mblu-21_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-mblu-21_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-mblu-21_4__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-mblu-21_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-mblu-21_6__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-mblu-21_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_meizu_mblu_21_4gb_64gb_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_meizu_mblu_21_4gb_64gb_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_meizu_mblu_21_4gb_64gb_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-meizu-mblu-21_3__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.79,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Spreadtrum T606",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 4900
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "WiFi 2.4G/5G"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-meizu-mblu-21-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Meizu",
+  "product_line": null
+}

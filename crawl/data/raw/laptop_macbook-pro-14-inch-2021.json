@@ -1,0 +1,65 @@
+{
+  "name": "MacBook Pro 14 inch 2021 | Chính hãng Apple Việt Nam",
+  "price": 39990000,
+  "sale_price": 52990000,
+  "colors": [
+    "Bạc",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/r/pro_2021.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-2021-02.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-2021-06.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-2021-001_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-2021-005_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-2021-004_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-2021-006_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-2021-007_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-2021-003_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/5/1533-1024.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.2,
+      "resolution": "3024 x 1964 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "1080p Camera, FaceTime"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "M1 Pro/M1 Max",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "MacOS"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "1.6 kg",
+      "weight_kg": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11ax Wi-Fi 6"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-pro-14-inch-2021.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": null
+}

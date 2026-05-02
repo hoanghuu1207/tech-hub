@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Lenovo Gaming Legion 5 15IMH05 82AU00G9VN",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_33_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_gaming_legion_5_15imh05_82au00g9vn_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_54_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_17_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_40_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_27_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_74_6.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_33_5.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_lenovo_gaming_legion_5_15imh05_82au00g9vn_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_54_6.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-10750H (2.6 GHz - 5.0 GHz / 12MB / 6 nhân, 12 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "36.3 x 25.9 x 2.35 cm",
+      "weight_kg": 2.3,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0",
+      "wifi": "WiFi 802.11ax (Wifi 6)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-gaming-legion-5-15imh05-82au00g9vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LEGION"
+}

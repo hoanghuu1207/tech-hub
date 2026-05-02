@@ -1,0 +1,51 @@
+{
+  "name": "Đồng hồ thông minh Samsung Galaxy Watch8 Classic 46mm",
+  "price": 9000000,
+  "sale_price": 12990000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_samsung_galaxy_watch8_classic.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/l/classic-den3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/l/classic-den1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/l/classic-den4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/l/classic-den.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/l/classic-den5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/l/classic-den2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/l/classic-w3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/l/classic-w1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/l/classic-w4.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.34,
+      "resolution": "438 x 438 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "WearOS"
+    },
+    "battery": {
+      "capacity_mah": 445
+    },
+    "design": {
+      "case_size_mm": "Không công bố",
+      "weight_g": 63.5,
+      "material": "Da"
+    },
+    "special_features": [
+      "Một số tính năng chỉ khả dụng với một số điện thoại thông minh Samsung Galaxy nhất định"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-samsung-galaxy-watch-8-classic.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

@@ -1,0 +1,69 @@
+{
+  "name": "OPPO A3 8GB 256GB",
+  "price": 5780000,
+  "sale_price": 6490000,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__4_102.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__4_106.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__2_104.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a38_13__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a38_12__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/v/avatar-b4__product_images__starlight_white__side__cmyk_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/v/avatar-b4__product_images__starlight_white__top_bottom__cmyk_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a38_10__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a38_9__2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/v/avatar-b4__product_images__starry_purple__top_bottom__rgb_1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "720 x 1604 (HD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Snapdragon 6s 4G Gen1, tối đa 2.1GHz",
+      "cpu": null,
+      "gpu": "Adreno 610",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "ColorOS 14, nền tảng Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "design": {
+      "dimensions_mm": "165.7 x 76 x 7.68 mm",
+      "weight_g": 186.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0, BLE",
+      "wifi": "2.4G/5G, 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-oppo-a3-8gb-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "A SERIES"
+}

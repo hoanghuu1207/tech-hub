@@ -1,0 +1,48 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch GT6 Dây Milanese",
+  "price": 6410000,
+  "sale_price": 6990000,
+  "colors": [
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_gt6_d_y_milanese_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_gt6_d_y_milanese_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_gt6_d_y_milanese_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple_lte_1__1_17.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.32,
+      "resolution": "466 × 466 pixel, PPI 352",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 13 - 19 cm",
+      "weight_g": 37.5,
+      "material": "Thép"
+    },
+    "special_features": [
+      "Chụp ảnh màn hình đồng hồ"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-gt6-day-milanese.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

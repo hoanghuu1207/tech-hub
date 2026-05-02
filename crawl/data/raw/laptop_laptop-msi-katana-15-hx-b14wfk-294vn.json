@@ -1,0 +1,61 @@
+{
+  "name": "Laptop MSI Katana 15 HX B14WFK-294VN",
+  "price": 40990000,
+  "sale_price": 46990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_katana_15_hx_b14wfk-294vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_katana_15_hx_b14wfk-294vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_katana_15_hx_b14wfk-294vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_242_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_291_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_238_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__8_123_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__7_137_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_199_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__6_218_1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "2560 x 1440 pixels (2K)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD type (30fps@720p)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i9-14900HX (Tốc độ CPU (Base): 1.6Ghz / Tốc độ CPU Tối đa (Turbo Boost): 5.8GHz / Bộ nhớ đệm: 36MB)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home SEA"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359 x 262 x 25.5 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.4,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5",
+      "wifi": "Intel Wi-Fi 6E"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-katana-15-hx-b14wfk-294vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "KATANA / SWORD"
+}

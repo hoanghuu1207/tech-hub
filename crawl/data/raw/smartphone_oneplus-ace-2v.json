@@ -1,0 +1,60 @@
+{
+  "name": "OnePlus Ace 2V",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/f/sfdgf5_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/f/sfdgf5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/f/sfdgf5_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfdgf5_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfdgf5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfdgf5_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfdgf5_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfdgf5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfdgf5_2_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.74,
+      "resolution": "1240 x 2772 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Snapdragon 8+ Gen 1 (4 nm)",
+      "cpu": "1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510",
+      "gpu": "Adreno 730",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163.4 x 74.3 x 8.7 mm",
+      "weight_g": 204.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11 a/b/g/n/ac/6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oneplus-ace-2v.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OnePlus",
+  "product_line": null
+}

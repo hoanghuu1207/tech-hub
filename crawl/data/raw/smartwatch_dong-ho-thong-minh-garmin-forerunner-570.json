@@ -1,0 +1,53 @@
+{
+  "name": "Đồng hồ thông minh Garmin Forerunner 570 47mm",
+  "price": 12990000,
+  "sale_price": 14690000,
+  "colors": [
+    "Ngọc Lam",
+    "Tím",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_forerunner_570_47mm_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_forerunner_570_47mm_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_forerunner_570_47mm_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_117.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_115.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_167.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__4_136.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_173.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__4_152.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__6_141.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.4,
+      "resolution": "454 x 454 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 13.5 - 20.5 cm",
+      "weight_g": 50.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Thanh toán Garmin",
+      "Lưu trữ nhạc",
+      "Thực hiện cuộc gọi và gửi tin nhắn bằng giọng nói",
+      "Hỗ trợ gọi điện thoại BLUETOOTH và trợ lý giọng nói"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-forerunner-570.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Xiaomi Redmi A4",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-a3_2__3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-a3_2__3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-a3_2__3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.71,
+      "resolution": "1650x720 pixels",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {},
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 18 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-a4.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": null
+}

@@ -1,0 +1,64 @@
+{
+  "name": "iPad Pro M4 13 inch Wifi 1TB Nano I Chính hãng Apple Việt Nam",
+  "price": 43990000,
+  "sale_price": 57490000,
+  "colors": [
+    "Bạc",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_100_1_2__2_1_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch_1__2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch_3__2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch_4__2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch_5__2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch_6__2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch_7__2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch_8__2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch_9__2_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/r/frame_100_1_2__2_1_1_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.0,
+      "resolution": "2752x2064 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple M4",
+      "cpu": null,
+      "gpu": "Apple GPU 10 nhân",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "iPadOS 17"
+    },
+    "battery": {
+      "capacity_wh": 38.99
+    },
+    "design": {
+      "dimensions_mm": "281.6 x 215.5 x 5.1 mm",
+      "weight_g": 579.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 6E (802.11ax) với MIMO"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/ipad-pro-m4-13-inch-1tb-nano.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD PRO"
+}

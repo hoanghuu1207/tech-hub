@@ -1,0 +1,66 @@
+{
+  "name": "Xiaomi Redmi Note 13 Pro 5G",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-13-pro-4g_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-13-pro-4g_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-13-pro-4g.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-13-pro-4g_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-13-pro-4g_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-13-pro-4g_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-13-pro-4g_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-13-pro-4g_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-13-pro-4g_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-13-pro-4g_1__1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G99-Ultra 8 nhân",
+      "cpu": "2.2 GHz",
+      "gpu": "Mali-G57 MC2",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "161.1 x 74.95 x 7.98 mm",
+      "weight_g": 188.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "Wi-Fi hotspot\nWi-Fi 802.11 a/b/g/n/ac\nDual-band (2.4 GHz/5 GHz)"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-redmi-note-13-pro-4g-77602.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

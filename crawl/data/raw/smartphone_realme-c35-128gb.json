@@ -1,0 +1,64 @@
+{
+  "name": "realme C35 4GB 128GB",
+  "price": 4990000,
+  "sale_price": null,
+  "colors": [
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame3934-640x640_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame3935-640x640_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/6/1646633295536.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c35-3-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c35-3-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c35-2-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c35-1-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c35-1-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/r/frame3935-640x640_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/r/frame3934-640x640_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.6,
+      "resolution": "1080 x 2408 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Unisoc T616 8 nhân",
+      "cpu": "Octa-Core 2.0 GHz",
+      "gpu": "Mali-G57",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 11"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164.4 x 75.6 x 8.1 mm",
+      "weight_g": 189.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Dual-band (2.4 GHz/5 GHz)"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/realme-c35-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": "C SERIES"
+}

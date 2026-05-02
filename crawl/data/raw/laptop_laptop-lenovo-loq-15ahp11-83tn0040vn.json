@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Lenovo LOQ 15AHP11 83TN0040VN",
+  "price": 42990000,
+  "sale_price": null,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15ahp11_83tn0040vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15ahp11_83tn0040vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15ahp11_83tn0040vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_104.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_117.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_176.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_78.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_85.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_9__73.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_8__91.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.3,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "AMD Ryzen AI, up to 16 TOPS",
+      "cpu": "AMD Ryzen 7 250 (8 lõi / 16 luồng, 3.3 / 5.1GHz, 8MB L2 / 16MB L3)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "344.9 x 254.83 x 20.9-23.25 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.1,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-loq-15ahp11-83tn0040vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LOQ"
+}

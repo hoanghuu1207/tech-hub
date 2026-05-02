@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Acer Aspire Lite 16 GEN 2 AL16-52P-76DU",
+  "price": 18790000,
+  "sale_price": 19990000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_16_gen_2_al16-52p-76du_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_16_gen_2_al16-52p-76du_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_16_gen_2_al16-52p-76du_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__2_234.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__4_210.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__4_219.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__2_213.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__4_174.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__5_177.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__5_170.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Full HD Webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7 Raptor Lake - 1355U (10 lõi / 12 luồng, 1.7GHz, Turbo Boost 5.0 GHz)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "357.6 x 247 x 18.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.7,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.1",
+      "wifi": "Wi-Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-16-gen-2-al16-52p-76du.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "ASPIRE"
+}

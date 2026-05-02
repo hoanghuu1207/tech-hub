@@ -1,0 +1,44 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Alpha Works Curve 100",
+  "price": 280000,
+  "sale_price": 390000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2024-12-21t093950.614.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2024-12-21t093925.237.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2024-12-21t094009.643.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2024-12-21t093955.161.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2024-12-21t094002.589.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2024-12-21t093938.027.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2024-12-21t093930.420.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_174_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_629_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/0/10_91_2.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 16
+    },
+    "design": {
+      "earbuds_dimensions_mm": "56x56x23 mm",
+      "case_dimensions_mm": "33x8x17 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-alpha-works-curve-100.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Alpha Works",
+  "product_line": null
+}

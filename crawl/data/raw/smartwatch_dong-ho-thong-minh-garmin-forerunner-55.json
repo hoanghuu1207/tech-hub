@@ -1,0 +1,51 @@
+{
+  "name": "Đồng hồ thông minh Garmin Forerunner 55",
+  "price": 2690000,
+  "sale_price": 3490000,
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Xanh",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_forerunner_55_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_forerunner_55_-_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_forerunner_55_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-forerunner-55-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-forerunner-55-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-forerunner-55-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_forerunner_55_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_forerunner_55_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_forerunner_55_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_forerunner_55_-_7.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.04,
+      "resolution": "208 x 208 Pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 20
+    },
+    "design": {
+      "case_size_mm": "Từ 12 - 20 cm",
+      "weight_g": 37.0,
+      "material": "Cao Su"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Áp dụng cho sản phẩm mua từ ngày 1/1/2024. Bảo hành chính hãng 2 năm, 1 đổi 1 trong 15 ngày nếu có lỗi từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-forerunner-55.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

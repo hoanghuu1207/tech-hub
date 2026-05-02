@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Acer Aspire Lite 15 AL15-46P-R73C",
+  "price": 14490000,
+  "sale_price": null,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_15_al15-46p-r73c_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_15_al15-46p-r73c_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_lite_15_al15-46p-r73c_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_4__7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_5__7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_6__6.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD Camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 3 5400U (4 lõi / 8 luồng, Base Clock Speed: 2.6 GHz, Turbo Boost Speed: Up to 4.0 GHz, Cache 8 MB)",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "360.66 x 234.8 x 16.95/16.95 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.45,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6 802.11a/b/g/n/ac+ax"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-15-al15-46p-r73c.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "ASPIRE"
+}

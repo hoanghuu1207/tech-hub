@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai Marshall Major 5",
+  "price": 3800000,
+  "sale_price": 4220000,
+  "colors": [
+    "Xanh bóng đêm",
+    "Kem",
+    "Nâu",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-marshall-major-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-marshall-major-5_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-marshall-major-5_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-marshall-major-5_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-marshall-major-5-_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-marshall-major-5-_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-marshall-major-5-_11_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-marshall-major-5-_12_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-marshall-major-5-_13_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-marshall-major-5-_14_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 100
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, Marshall chính hãng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-marshall-major-5.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Marshall",
+  "product_line": null
+}

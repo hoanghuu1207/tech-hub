@@ -1,0 +1,44 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Sony WF-1000XM5",
+  "price": 5375000,
+  "sale_price": 6990000,
+  "colors": [
+    "Hồng khói",
+    "Đen",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/m/xm5-01.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/m/xm5-02.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/m/xm5-03.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/m/xm5-04.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/m/xm5-05.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-sony-wf-1000xm5-6_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-sony-wf-1000xm5-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-sony-wf-1000xm5-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-sony-wf-1000xm5-9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-sony-wf-1000xm5-10.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 6
+    },
+    "design": {
+      "earbuds_dimensions_mm": "64.6 x 40 x 26.5 mm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-sony-wf-1000xm5.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sony",
+  "product_line": null
+}

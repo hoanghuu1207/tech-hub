@@ -1,0 +1,65 @@
+{
+  "name": "Samsung Galaxy A07 5G 4GB 128GB",
+  "price": 4390000,
+  "sale_price": 4590000,
+  "colors": [
+    "Đen",
+    "Xanh ngọc bích",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-a07-5g-4gb-128gb_2_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-a07-5g-4gb-128gb-6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-a07-5g-4gb-128gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-a07-5g-4gb-128gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-a07-5g-4gb-128gb-4_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a07-5g-1_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a07-5g-2_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a07-5g_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a07-5g-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a07-5g.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 6300 5G",
+      "cpu": "8 nhân, 2.4GHz, 2GHz",
+      "gpu": "Mali-G57",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "167.4 x 77.4 x 8.2 mm",
+      "weight_g": 199.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11a/b/g/n/ac (2.4GHz + 5GHz)"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a07-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY A"
+}

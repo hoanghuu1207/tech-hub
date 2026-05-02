@@ -1,0 +1,62 @@
+{
+  "name": "Laptop HP Omnibook 7 Aero 13-BG1087AU BZ7S1PA",
+  "price": 27990000,
+  "sale_price": 29790000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_7_aero_13-bg1087au_bz7s1pa.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_7_aero_13-bg1087au_bz7s1pa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_7_aero_13-bg1087au_bz7s1pa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_65.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__57.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__53.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__52.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__48.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_2__13_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_omnibook_7_aero_13-bg1087au_bz7s1pa.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.3,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "AMD Ryzen AI (50 NPU TOPS)",
+      "cpu": "AMD Ryzen AI 5 340 (up to 4.8 GHz max boost clock,16 MB L3 cache, 6 lõi,12 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home + Office"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "29.73 x 21.12 x 1.65 - 1.74 cm (Dài x Rộng x Dày)",
+      "weight_kg": null,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "MediaTek Wi-Fi 6E MT7922 (2x2)"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-omnibook-7-aero-13-bg1087au-bz7s1pa-ryzen-ai-5.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "OMNIBOOK"
+}

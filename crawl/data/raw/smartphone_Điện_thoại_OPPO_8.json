@@ -1,0 +1,70 @@
+{
+  "name": "OPPO Find N3 16GB 512GB",
+  "price": 26990000,
+  "sale_price": 44990000,
+  "colors": [
+    "Đen",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_n3_fold_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_n3_fold_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_n3_fold_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_n3_fold_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_n3_fold_-_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_n3_fold_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_n3_fold_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_n3_fold_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_n3_fold_-_10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_n3_fold_-_9.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 7.82,
+      "resolution": "2268 x 2440 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 20
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 2 8 nhân",
+      "cpu": "1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
+      "gpu": "Adreno 740",
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 4805
+    },
+    "design": {
+      "dimensions_mm": "Màu Vàng\nKhi mở: 153.4 x 143.1 x 5.9 (màn hình ngoài)/5.8 (mặt lưng) mm\nKhi gập: 153.4 x 73.3 x 11.7 mm\nMàu Đen\nKhi mở: 153.4 x 143.1 x 5.9 (màn hình ngoài)/6.0 (mặt lưng) mm\nKhi gập: 153.4 x 73.3 x 11.9 mm\"",
+      "weight_g": 245.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11 a/b/g/n/ac/6/7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-find-n3.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "FIND N SERIES"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "HONOR 600 5G 12GB 256GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-600-pro_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-600-pro_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-600-pro_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.57,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": null,
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 9000
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-600-12gb-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Tai nghe bluetooth Sony WI-SP510",
+  "price": 1490000,
+  "sale_price": 1890000,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/h/8h01_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/4/54d95ac1c01284e42d0954d530ea8cd5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/5/c54ada211c238eebc1d977b7a8e7e102.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/c/cccb65d952b06bb40446649574e331ad.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/6/f61c84b77eed3cc79238fa33839fdce0.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/f/4f9aec8b1aeeb11ba53de641c1500943.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/1/5139b9001d431a00fd287fef40cb0367.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/8/h/8h01_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/4/54d95ac1c01284e42d0954d530ea8cd5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/5/c54ada211c238eebc1d977b7a8e7e102.jpg"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 15
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-sony-wi-sp510.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sony",
+  "product_line": null
+}

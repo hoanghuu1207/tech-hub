@@ -1,0 +1,61 @@
+{
+  "name": "Nokia 7.2",
+  "price": 6190000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia_7.2_den.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia_7.2_xanh.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637032128083860467_nokia-72-blue-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/a/daredevil_rationals_charcoal_rhs_jpg.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/a/daredevil_rationals_cyan_green_rhs_jpg.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/a/daredevil_rationals_ice_rhs_jpg.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/a/daredevil_rationals_charcoal_back_jpg_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/a/daredevil_rationals_cyan_green_back_jpg_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637032128084016453_nokia-72-blue-3_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia_7.2_den.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.3,
+      "resolution": "1080 x 2340 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 20
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 660 8 nhân",
+      "cpu": "4 nhân 2.2 GHz & 4 nhân 1.8 GHz",
+      "gpu": "Adreno 512",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Android 9.0 (Pie)"
+    },
+    "battery": {
+      "capacity_mah": 3500
+    },
+    "design": {
+      "dimensions_mm": "Dài 159.88 mm - Ngang 75.11 mm - Dày 8.25 mm",
+      "weight_g": 180.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "LE, A2DP, v5.0",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nokia-72.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nokia",
+  "product_line": null
+}

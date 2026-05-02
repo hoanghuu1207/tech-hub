@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Baseus Bass BS1 NC",
+  "price": 550000,
+  "sale_price": 890000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-baseus-bass-bs1-nc-_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-baseus-bass-bs1-nc-black_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-baseus-bass-bs1-nc-black_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-baseus-bass-bs1-nc-black_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-baseus-bass-bs1-nc-black_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-baseus-bass-bs1-nc-black_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-baseus-bass-bs1-nc-black_8_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-baseus-bass-bs1-nc-white_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-baseus-bass-bs1-nc-white_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-baseus-bass-bs1-nc-white_5_.jpg"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 7
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "6.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-true-wireless-baseus-bass-bs1-nc.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Baseus",
+  "product_line": null
+}

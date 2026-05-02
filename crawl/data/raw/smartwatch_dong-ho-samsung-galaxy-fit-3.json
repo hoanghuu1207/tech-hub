@@ -1,0 +1,52 @@
+{
+  "name": "Đồng hồ Samsung Galaxy Fit 3",
+  "price": 870000,
+  "sale_price": 1360000,
+  "colors": [
+    "Bạc",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-samsung-galaxy-fit-3_7__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-samsung-galaxy-fit-3_6__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-samsung-galaxy-fit-3_5__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-samsung-galaxy-fit-3_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-samsung-galaxy-fit-3_4__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-samsung-galaxy-fit-3_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-r390_002_front2_gray.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-r390_003_l_perspective_gray.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-r390_001_front_gray.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-r390_002_front2_silver.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.6,
+      "resolution": "256 x 402 Pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 208
+    },
+    "design": {
+      "case_size_mm": "42.9 x 28.8 x 9.9 mm",
+      "weight_g": 18.5,
+      "material": "Nhôm"
+    },
+    "special_features": [
+      "Hệ điều hành FreeRTOS",
+      "Một số tính năng chỉ khả dụng với một số điện thoại thông minh Samsung Galaxy nhất định"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-samsung-galaxy-fit-3.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

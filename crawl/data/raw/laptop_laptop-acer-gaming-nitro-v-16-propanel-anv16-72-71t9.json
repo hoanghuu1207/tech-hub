@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Acer Gaming Nitro V 16 Propanel ANV16-72-71T9",
+  "price": 40990000,
+  "sale_price": null,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_v_16_propanel_anv16-72-71t9_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_v_16_propanel_anv16-72-71t9_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_v_16_propanel_anv16-72-71t9_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_87.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_47.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_46.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_44.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_38.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_37.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__95.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 180,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "720p HD"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core 7 240H (10 lõi / 16 luồng, 1.8 GHz - 5.2 GHz, 24 MB Intel Smart Cache)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "360.0 x 274.5 x 16.1/24.5 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.4,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Killer Wi-Fi 6 AX 1650i"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-16-propanel-anv16-72-71t9.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "NITRO V"
+}

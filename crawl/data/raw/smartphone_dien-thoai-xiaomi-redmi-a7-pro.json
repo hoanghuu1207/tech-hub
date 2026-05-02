@@ -1,0 +1,65 @@
+{
+  "name": "Xiaomi Redmi A7 Pro 4GB 128GB",
+  "price": 4140000,
+  "sale_price": 4490000,
+  "colors": [
+    "Xanh lá",
+    "Xanh dương",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-a7-pro_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-a7-pro-2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-a7-pro-1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-a7-pro_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-a7-pro_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-a7-pro-2_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-a7-pro-1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-a7-pro_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-a7-pro-2_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-a7-pro-1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.9,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Unisoc T7250",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 16"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-a7-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

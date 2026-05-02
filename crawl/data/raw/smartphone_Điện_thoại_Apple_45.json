@@ -1,0 +1,73 @@
+{
+  "name": "iPhone 13 Pro Max 512GB I Chính hãng VN/A",
+  "price": 31590000,
+  "sale_price": 33990000,
+  "colors": [
+    "Vàng",
+    "Xanh lá",
+    "Bạc",
+    "Xám",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pro_max_512gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pro_max_128gb_-_4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pro_max_128gb_-_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pro_max_128gb_-_5_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pro_max_128gb_-_3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pro_max_128gb_-_7_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pro_max_128gb_-_9_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pro_max_128gb_-_8_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pro_max_128gb_-_6_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_51_1_9.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "2778 x 1284 pixel",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A15 Bionic 6 nhân",
+      "cpu": "3.22 GHz",
+      "gpu": "GPU 5 nhân",
+      "ram_gb": 6,
+      "storage_gb": 512,
+      "os": "iOS15"
+    },
+    "battery": {
+      "capacity_mah": 352
+    },
+    "design": {
+      "dimensions_mm": "160.8 x 78.1 x 7.65mm",
+      "weight_g": 240.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi MIMO, Wi-Fi hotspot, Wi-Fi 802.11 a/b/g/n/ac/ax, Dual-band (2.4 GHz/5 GHz)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-13-pro-max-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": null
+}

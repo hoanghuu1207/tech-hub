@@ -1,0 +1,44 @@
+{
+  "name": "Đồng hồ Huawei Watch D",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-huawei-watch-d.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_563_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-huawei-watch-d_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-huawei-watch-d_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-huawei-watch-d.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_563_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-huawei-watch-d_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-huawei-watch-d.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_563_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-huawei-watch-d_2_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.64,
+      "resolution": "456 x 280 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "51 x 38 x 13.6 mm",
+      "weight_g": 40.9,
+      "material": "Dây chất đàn hồi fluoro"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-huawei-watch-d.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

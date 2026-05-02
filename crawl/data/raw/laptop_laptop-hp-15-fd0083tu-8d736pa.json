@@ -1,0 +1,61 @@
+{
+  "name": "Laptop HP 15-FD0083TU 8D736PA",
+  "price": 20790000,
+  "sale_price": 22490000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_15-fd0083tu_8d736pa_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_15-fd0083tu_8d736pa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_15-fd0083tu_8d736pa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_124.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__4_110.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__4_102.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__6_98.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__9_91.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_116.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_744_1_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera HP True Vision 720p HD có chức năng giảm nhiễu tạm thời và micrô kỹ thuật số mảng kép tích hợp"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-1355U (lên đến 5,0 GHz với Công nghệ Intel Turbo Boost, bộ nhớ đệm L3 12 MB, 10 lõi, 12 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.98 x 23.6 x 1.86 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.59,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Realtek Wi-Fi 6 (2x2)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-15-fd0083tu-8d736pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "HP CƠ BẢN"
+}

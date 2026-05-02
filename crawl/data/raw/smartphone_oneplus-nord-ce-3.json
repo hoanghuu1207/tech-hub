@@ -1,0 +1,61 @@
+{
+  "name": "OnePlus Nord CE 3",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/o/n/oneplus-nord-ce-3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/o/n/oneplus-nord-ce-3_1_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "2412 x 1080 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Snapdragon 782G (6 nm)",
+      "cpu": "1x2.7 GHz Cortex-A78 & 3x2.4 GHz Cortex-A78 & 4x1.8 GHz Cortex-A55",
+      "gpu": "Adreno 642L",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "162.7 x 75.5 x 8.2 mm",
+      "weight_g": 184.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2, A2DP, LE, aptX HD, aptX Adaptive",
+      "wifi": "802.11 a/b/g/n/ac/6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oneplus-nord-ce-3.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OnePlus",
+  "product_line": null
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Acer Gaming Nitro ProPanel ANV15-42-R5EF",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_974_10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_975_10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_propanel_anv15-42-r5ef_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_38.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__23.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__24.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__23.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_128_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_190_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_8__99_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 180,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 5 7640HS (6 lõi / 12 luồng, Base Clock: 4.3 GHz, Max. Boost Clock: Up to 5 GHz, 16 MB)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "362.3 x 239.89 x 23.5 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.1,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E Wireless LAN"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-propanel-anv15-42-r5ef.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "NITRO PROPANEL"
+}

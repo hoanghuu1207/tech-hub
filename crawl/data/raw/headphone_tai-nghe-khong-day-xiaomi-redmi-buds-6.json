@@ -1,0 +1,45 @@
+{
+  "name": "Tai nghe không dây Xiaomi Redmi Buds 6",
+  "price": 1080000,
+  "sale_price": 1490000,
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai_nghe_kh_ng_d_y_xiaomi_redmi_buds_6_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-redmi-buds-6_18_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-redmi-buds-6_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-redmi-buds-6_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-redmi-buds-6_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-redmi-buds-6_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-redmi-buds-6_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-redmi-buds-6_11_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-redmi-buds-6_12_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-redmi-buds-6_13_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 10
+    },
+    "design": {
+      "earbuds_dimensions_mm": "31.13x21.34x23.5 mm",
+      "case_dimensions_mm": "61.01x51.71x24.80 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-xiaomi-redmi-buds-6.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

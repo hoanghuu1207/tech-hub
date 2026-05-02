@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Acer Gaming Nitro ProPanel AN16S-61-R9CN",
+  "price": 53990000,
+  "sale_price": null,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_propanel_an16s-61-r9cn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_propanel_an16s-61-r9cn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_propanel_an16s-61-r9cn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_4__11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_5__11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_6__10.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 pixel (2K)",
+      "refresh_rate_hz": 180,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FHD + camera hồng ngoại với kính màu xanh lam"
+    },
+    "performance": {
+      "chipset": "798 TOPS",
+      "cpu": "AMD Ryzen AI 7 350 (8 lõi / 16 luồng, Base Clock: 2 GHz, Max. Boost Clock: Up to 5 GHz, Max Zen5c Clock: Up to 3.5 GHz, Bộ nhớ đệm L2: 8 MB; L3: 16 MB)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "356.78 x 275.5 x 12.14/19.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.18,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E Wireless LAN"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-propanel-an16s-61-r9cn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "NITRO PROPANEL"
+}

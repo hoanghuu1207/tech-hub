@@ -1,0 +1,63 @@
+{
+  "name": "Laptop ASUS Vivobook S14 S5406SA-PP168WS",
+  "price": 25990000,
+  "sale_price": 28490000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s14_s5406sa-pp168ws_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s14_s5406sa-pp168ws_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s14_s5406sa-pp168ws_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__10_127.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__10_100.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__5_93.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__8_113.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__8_110.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__8_75.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__5_80.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FHD có chức năng IR hỗ trợ Windows Hello, có màn trập camera"
+    },
+    "performance": {
+      "chipset": "Intel AI Boost NPU up to 40TOPS",
+      "cpu": "Intel Core Ultra 5 226V 16GB 2.1 GHz (8MB Cache, up to 4.5 GHz, 8 lõi, 8 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home + Microsoft Office Home 2024 + Microsoft 365 Basic"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "31.05 x 22.19 x 1.39 ~ 1.59 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.3,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7(802.11be) (Tri-band)2*2"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-s14-s5406sa-pp168ws.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK S"
+}

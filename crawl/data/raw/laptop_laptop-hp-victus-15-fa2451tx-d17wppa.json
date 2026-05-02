@@ -1,0 +1,63 @@
+{
+  "name": "Laptop HP Victus 15-FA2451TX D17WPPA",
+  "price": 28790000,
+  "sale_price": 29990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_victus_15-fa2451tx_d17wppa_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_victus_15-fa2451tx_d17wppa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_victus_15-fa2451tx_d17wppa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_116.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_60.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_64.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_57.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_51.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_8_50.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_victus_15-fa2451tx_d17wppa_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera HP Wide Vision HD và hệ thống micro đa kênh"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-13420H (8 lõi) - Max Turbo Frequency: 4.60 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language 64-bit"
+    },
+    "battery": {
+      "capacity_wh": 70.07
+    },
+    "design": {
+      "dimensions_cm": "35.8 x 25.5 x 2.35 cm (Dài x Rộng x Dày)",
+      "weight_kg": 2.2,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "802.11 ax"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-victus-15-fa2451tx-d17wppa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "VICTUS"
+}

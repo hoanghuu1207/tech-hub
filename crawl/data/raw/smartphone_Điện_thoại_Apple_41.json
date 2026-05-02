@@ -1,0 +1,71 @@
+{
+  "name": "iPhone 16 Pro 1TB | Chính hãng VN/A",
+  "price": 35990000,
+  "sale_price": 43990000,
+  "colors": [
+    "Titan Đen",
+    "Titan Sa Mạc",
+    "Titan Trắng",
+    "Titan Tự Nhiên"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-2_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-3_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-4_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-5_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-6_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-7_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-8_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-9_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-10_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.3,
+      "resolution": "2622 x 1206 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A18 Pro",
+      "cpu": "CPU 6 lõi mới với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+      "gpu": "GPU 6 lõi mới",
+      "ram_gb": null,
+      "storage_gb": 1024,
+      "os": "iOS 18"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "Rộng: 71,5 mm Cao: 149,6 mm Dày: 8,25 mm",
+      "weight_g": 199.0,
+      "material": "Titanium"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 7 (802.11be) với 2x2 MIMO7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-16-pro-1tb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 16 SERIES"
+}

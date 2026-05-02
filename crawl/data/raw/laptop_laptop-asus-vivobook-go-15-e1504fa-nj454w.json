@@ -1,0 +1,62 @@
+{
+  "name": "Laptop ASUS Vivobook GO 15 E1504FA-NJ454W",
+  "price": 13990000,
+  "sale_price": 14490000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_go_15_e1504fa-nj454w_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_go_15_e1504fa-nj454w_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_go_15_e1504fa-nj454w_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6_25.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__4_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__4_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__3_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__1_14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__3_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__4_17.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "720p HD với màn trập camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 5 7520U (4 lõi / 8 luồng, 4MB cache, up to 4.3 GHz max boost)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "36.03 x 23.25 x 1.79 ~ 1.79 cm (W x H x D)",
+      "weight_kg": 1.8,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5",
+      "wifi": "Wi-Fi 6E(802.11ax) (Dual band) 1*1"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-go-15-e1504fa-nj454w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK"
+}

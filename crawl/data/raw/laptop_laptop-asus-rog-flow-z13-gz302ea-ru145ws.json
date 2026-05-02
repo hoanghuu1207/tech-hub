@@ -1,0 +1,62 @@
+{
+  "name": "Laptop ASUS ROG Flow Z13 GZ302EA-RU145WS",
+  "price": 90990000,
+  "sale_price": 94990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_flow_z13_gz302ea-ru145ws_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_flow_z13_gz302ea-ru145ws_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_flow_z13_gz302ea-ru145ws_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__9_90.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_214.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_267.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_18__7_58.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_20__5_117.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_19__5_50.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_17__8_158.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.4,
+      "resolution": "2560 x 1600 (WQXGA)",
+      "refresh_rate_hz": 180,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "AMD XDNA lên tới 50TOPS",
+      "cpu": "AMD Ryzen AI MAX+ 395 3.0GHz (80MB Cache, up to 5.1GHz, 16 lõi, 32 luồng)",
+      "gpu": null,
+      "ram_gb": 128,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home + Microsoft Office Home 2024 + Microsoft 365 Basic"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "30.0 x 20.4 x 1.30 ~ 1.49 cm (Dài x Rộng x Dày)\nKích thước bàn phím: 30.0 x 20.6 x 0.55 cm",
+      "weight_kg": 1.2,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7(802.11ab) (Triple band) 2*2"
+    },
+    "special_features": [
+      "Màn hình cảm ứng",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-rog-flow-z13-gz302ea-ru145ws.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "ROG"
+}

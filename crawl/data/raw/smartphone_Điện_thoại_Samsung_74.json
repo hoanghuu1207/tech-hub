@@ -1,0 +1,62 @@
+{
+  "name": "Samsung Galaxy Note 20 Ultra 5G 512GB",
+  "price": 32990000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note_20_ultra_gold_6_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/l/black_final_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/y/e/yellow_final_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-n985_986_galaxynote20ultra_front_pen_mysticwhite_200529_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/note_20_ultra_gold_6_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/b/l/black_final_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/y/e/yellow_final_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/m/sm-n985_986_galaxynote20ultra_front_pen_mysticwhite_200529_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/note_20_ultra_gold_6_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/b/l/black_final_1_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.9,
+      "resolution": "1440 x 3088 pixels (QHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 108,
+      "optical_zoom": "5x"
+    },
+    "camera_front": {
+      "resolution_mp": 10
+    },
+    "performance": {
+      "chipset": "Exynos 990 (7 nm+)",
+      "cpu": "Octa-core (2x2.73 GHz Mongoose M5 & 2x2.50 GHz Cortex-A76 & 4x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G77 MP11",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 10, One UI 2.1"
+    },
+    "battery": {
+      "capacity_mah": 4500
+    },
+    "design": {
+      "dimensions_mm": "164.8 x 77.2 x 8.1 mm",
+      "weight_g": 208.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE, aptX",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-note-20-ultra-5g-512-gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": null
+}

@@ -1,0 +1,63 @@
+{
+  "name": "HONOR Power 2",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-power-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-power-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-power-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-power-2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.79,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 8500 Elite",
+      "cpu": "Tám lõi, 1x A725 @3.4GHz+3x A725 @3.2GHz+4x A725 @2.2GHz",
+      "gpu": "Mali-G720 MC8",
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": "MagicOS 10 (dựa trên Android 16)"
+    },
+    "battery": {
+      "capacity_mah": 10080
+    },
+    "design": {
+      "dimensions_mm": "162,1 x 76,3 x 7,98 mm",
+      "weight_g": 216.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0",
+      "wifi": "Hỗ trợ Wi-Fi 6 (802.11 ax) và 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-power-2.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

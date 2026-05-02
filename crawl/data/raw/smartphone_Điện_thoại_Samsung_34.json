@@ -1,0 +1,61 @@
+{
+  "name": "Samsung Galaxy Note 10+ (Plus)",
+  "price": 26990000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note_10_plus_hn_1123_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note_10_plus_hcm_1123_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note_10_plus_den_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note_10_plus_trang_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note10xanh.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm_n975_davinci2_back_aurablack_190528.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm_n975_davinci2_back_auraglow_190531.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm_n976_davinci2_back_aurawhite_190529.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm_n975_davinci2_back_pen_aurablack_190528.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm_n975_galaxynote10__back_aurablue.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.8,
+      "resolution": "3040 x 1440 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 16
+    },
+    "camera_front": {
+      "resolution_mp": 10
+    },
+    "performance": {
+      "chipset": "Samsung Exynos 9825",
+      "cpu": "2 nhân 2.7 GHz, 2 nhân 2.3 GHz và 4 nhân 1.9 GHz",
+      "gpu": "Mali-G76",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 9.0 (Pie)"
+    },
+    "battery": {
+      "capacity_mah": 4300
+    },
+    "design": {
+      "dimensions_mm": "77.2 mm x 162.3 mm x 7.9 mm",
+      "weight_g": 196.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "LE, apt-X, A2DP, v5.0",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-note-10-plus.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": null
+}

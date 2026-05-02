@@ -1,0 +1,42 @@
+{
+  "name": "Tai nghe chụp tai Beats Studio 3",
+  "price": 7990000,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Xám",
+    "Đỏ",
+    "Trắng",
+    "Đen/Đỏ"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/4/1446_a_beats_studio_3__red_limited_songlongmedia.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/6/565_beats_studio3_wireless_headphone_black_songlongmedia_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/6/565_beats_studio3_wireless_headphone_white_songlongmedia_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/6/565_beats_studio3_wireless_headphone_gray_songlongmedia_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/6/565_beats_studio3_wireless_headphone_red_songlongmedia_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/4/1446_a_beats_studio_3__red_limited_songlongmedia.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/6/565_beats_studio3_wireless_headphone_black_songlongmedia_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/6/565_beats_studio3_wireless_headphone_white_songlongmedia_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/6/565_beats_studio3_wireless_headphone_gray_songlongmedia_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/6/565_beats_studio3_wireless_headphone_red_songlongmedia_1_.jpg"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {},
+    "connectivity": {
+      "bluetooth": "Bluetooth 4.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-beats-studio-3.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Beats",
+  "product_line": null
+}

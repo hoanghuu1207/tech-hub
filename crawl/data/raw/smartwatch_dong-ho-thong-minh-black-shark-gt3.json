@@ -1,0 +1,53 @@
+{
+  "name": "Đồng hồ thông minh Black Shark GT3",
+  "price": 690000,
+  "sale_price": 990000,
+  "colors": [
+    "Đen",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_black_shark_gt3_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_black_shark_gt3_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_black_shark_gt3_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__8_82.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_24.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__9_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_81.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__3_11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__3_10.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.96,
+      "resolution": "410 x 502 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 250
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 37.5,
+      "material": null
+    },
+    "special_features": [
+      "Mặt đồng hồ 150+",
+      "Mặt đồng hồ AI",
+      "Trợ lý giọng nói AI Shark GPT"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-black-shark-gt3.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Black Shark",
+  "product_line": null
+}

@@ -1,0 +1,64 @@
+{
+  "name": "OPPO A3X 6GB 128GB",
+  "price": 4210000,
+  "sale_price": 4690000,
+  "colors": [
+    "Đỏ",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a3x.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a3x-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a3x-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a3x-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a3x-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-oppo-a3x_4__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-oppo-a3x_5__2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-a3x_4__2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-oppo-a3x.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-oppo-a3x-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "720 x 1604 (HD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Qualcomm® Snapdragon® 6s 4G Gen1",
+      "cpu": "8 nhân",
+      "gpu": "Adreno 610@1050MHz",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "ColorOS 14.0"
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "design": {
+      "dimensions_mm": "165.77 x 76.08 x 7.68 mm",
+      "weight_g": 186.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi 5"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-oppo-a3x-6gb-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "A SERIES"
+}

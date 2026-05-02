@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Lenovo V14 G5 IRL 83HD0033VN",
+  "price": 21490000,
+  "sale_price": 22990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_v14_g5_irl_83hd0033vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_v14_g5_irl_83hd0033vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_v14_g5_irl_83hd0033vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_84.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_88.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_147.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_78.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_69.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_62.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__119.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Độ phân giải HD 720p với màn trập camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core 5 210H, 8 lõi (4P + 4E) / 12 luồng, P-core 2.2 / 4.8GHz, E-core 1.6 / 3.6GHz, 12MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English (US) / English (UK)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "324.2 x 215.2 x 17.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.37,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-v14-g5-irl-83hd0033vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "V SERIES"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch GT 5 Dây Vải",
+  "price": 3990000,
+  "sale_price": 5990000,
+  "colors": [
+    "46mm Xanh",
+    "41mm Nâu"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h__4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_1__1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_2__1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_5__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_23__2_51.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_24__2_46.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_25__2_43.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_26__2_40.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_27__3_34.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_28__4_31.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 46.0,
+      "resolution": "46mm: 466 × 466 pixel, PPI 326\n41mm: 466 × 466 pixel, PPI 352",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "46mm: Từ 14 - 21 cm\n41mm: Từ 12 -19 cm (Vàng: 13 ~ 19 cm)",
+      "weight_g": 48.0,
+      "material": "Vải"
+    },
+    "special_features": [
+      "HUAWEI TruSense cho bạn biết cảm xúc của mình theo thời gian thực",
+      "Phân Tích Rối Loạn Nhịp Tim",
+      "Chụp ảnh màn hình đồng hồ",
+      "Nhập văn bản bằng bàn phím Celia"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-gt-5-day-vai.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

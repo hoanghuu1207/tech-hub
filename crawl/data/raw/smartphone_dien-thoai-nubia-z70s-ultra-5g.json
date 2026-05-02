@@ -1,0 +1,69 @@
+{
+  "name": "Điện thoại Nubia Z70S Ultra 5G 12GB 256GB",
+  "price": 19990000,
+  "sale_price": 20990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-z70s-ultra.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-z70s-ultra-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-z70s-ultra-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-z70s-ultra-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-z70s-ultra-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-z70s-ultra-5g_8__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-z70s-ultra-5g_1__3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-z70s-ultra-5g_2__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-z70s-ultra-5g_3__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-z70s-ultra-5g_4__1_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": null,
+      "resolution": null,
+      "refresh_rate_hz": 144
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite (3nm)",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Nebula AIOS - Android 15"
+    },
+    "battery": {
+      "capacity_mah": 600
+    },
+    "design": {
+      "dimensions_mm": "164.3 x 77.1 x 8.6 mm",
+      "weight_g": 228.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "WiFi 7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-nubia-z70s-ultra-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nubia",
+  "product_line": "NUBIA"
+}

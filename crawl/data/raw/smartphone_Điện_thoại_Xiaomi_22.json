@@ -1,0 +1,71 @@
+{
+  "name": "Xiaomi POCO X7 5G 12GB 512GB",
+  "price": 8190000,
+  "sale_price": 9350000,
+  "colors": [
+    "Đen",
+    "Xanh lá",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-x7-5g_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-x7-5g_1_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-x7-5g-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-x7-5g-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-x7-5g-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-x7-5g.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_594.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_596_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-x7-5g_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_592.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "2712 x 1220 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 20
+    },
+    "performance": {
+      "chipset": "Powerful Dimensity 7300-Ultra",
+      "cpu": "Octa-core CPU, up to 2.5GHz",
+      "gpu": "Mali-G615 MC2",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "Xiaomi HyperOS"
+    },
+    "battery": {
+      "capacity_mah": 5110
+    },
+    "design": {
+      "dimensions_mm": "162.33 x 74.42 x 8.4mm",
+      "weight_g": 185.5,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "Wi-Fi 6/Wi-Fi 5/Wi-Fi 4/802.11a/b/g\nHỗ trợ Wi-Fi 2,4 GHz/ Wi-Fi 5 GHz\nHỗ trợ 1x1, Wi-Fi Direct"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-poco-x7-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "POCO SERIES"
+}

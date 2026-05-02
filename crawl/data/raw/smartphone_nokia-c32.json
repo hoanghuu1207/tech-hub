@@ -1,0 +1,69 @@
+{
+  "name": "Nokia C32 4GB 128GB",
+  "price": 2390000,
+  "sale_price": 3290000,
+  "colors": [
+    "Xanh lá",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-32-111.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-32-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-32-722.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-32-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-32-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-32-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-32-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c32_3__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c32_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c32_4_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.52,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Unisoc SC9863A (28nm)",
+      "cpu": "Octa-Core xung nhịp lên đến 1.6 GHz",
+      "gpu": "IMG8322",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5050
+    },
+    "design": {
+      "dimensions_mm": "164.6mm x 75.9mm x 8.55mm |",
+      "weight_g": 199.4,
+      "material": "Kính"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11 b/g/n"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nokia-c32.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nokia",
+  "product_line": null
+}

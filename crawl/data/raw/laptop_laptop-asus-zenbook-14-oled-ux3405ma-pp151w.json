@@ -1,0 +1,61 @@
+{
+  "name": "Laptop ASUS Zenbook 14 Oled UX3405MA-PP151W",
+  "price": 25490000,
+  "sale_price": 28990000,
+  "colors": [
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_zenbook_14_oled_ux3405ma-pp151w_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-zenbook-14-oled-ux3405ma-ultra-5-pp151w-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-zenbook-14-oled-ux3405ma-ultra-5-pp151w-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-zenbook-14-oled-ux3405ma-ultra-5-pp151w-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-zenbook-14-oled-ux3405ma-ultra-5-pp151w-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-zenbook-14-oled-ux3405ma-ultra-5-pp151w-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-zenbook-14-oled-ux3405ma-ultra-5-pp151w-6.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_565_36_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_asus_zenbook_14_oled_ux3405ma-pp151w_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/s/asus-zenbook-14-oled-ux3405ma-ultra-5-pp151w-3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD IR / 3DNR / ACS camera - nhận diện khuôn mặt"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel® Core™ Ultra 5 125H 1.2 GHz (18MB Cache, tối đa 4.5 GHz, 14 nhân, 18 luồng); Intel® AI Boost NPU",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "31.24 x 22.01 x 1.49 ~ 1.49 cm",
+      "weight_kg": 1.2,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth® 5.3",
+      "wifi": "Wi-Fi 6E(802.11ax) (Dual band) 2*2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-zenbook-14-oled-ux3405ma-pp151w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": null
+}

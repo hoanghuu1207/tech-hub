@@ -1,0 +1,47 @@
+{
+  "name": "Đồng hồ thông minh Mibro C3",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-mibro-c3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-mibro-c3_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-mibro-c3_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-mibro-c3_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-c3_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-c3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-c3_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-c3_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-c3_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/o/dong-ho-thong-minh-mibro-c3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.85,
+      "resolution": "240 x 284 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "47 x 39.5 x 11.8mm",
+      "weight_g": 43.5,
+      "material": "Kim loại + Nhựa\nChất liệu dây đeo Silica + Dệt"
+    },
+    "special_features": [
+      "GPU 2.5D",
+      "Tốc độ làm mới cải thiện 60Hz"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-mibro-c3.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Mibro",
+  "product_line": null
+}

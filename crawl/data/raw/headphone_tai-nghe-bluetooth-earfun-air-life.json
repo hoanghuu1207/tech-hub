@@ -1,0 +1,42 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless EarFun Air Life",
+  "price": 350000,
+  "sale_price": 590000,
+  "colors": [
+    "Trắng",
+    "Tím",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-earfun-air-life_1__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-earfun-air-life_2__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-earfun-air-life_11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-earfun-air-life_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-earfun-air-life_7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-earfun-air-life_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-earfun-air-life_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-earfun-air-life_5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-earfun-air-life_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-earfun-air-life_6.jpg"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 11
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-earfun-air-life.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "EarFun",
+  "product_line": null
+}

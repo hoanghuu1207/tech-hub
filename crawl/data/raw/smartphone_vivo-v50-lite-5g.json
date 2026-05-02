@@ -1,0 +1,69 @@
+{
+  "name": "vivo V50 LITE 5G 12GB 256GB",
+  "price": 10990000,
+  "sale_price": null,
+  "colors": [
+    "Đen/Tím",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-vivo-v50-lite-5g_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-vivo-v50-lite-5g-1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-vivo-v50-lite-5g-2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-vivo-v50-lite-5g-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-vivo-v50-lite-5g-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-v50-lite-5g.1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-v50-lite-5g_1__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-v50-lite-5g_9__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-v50-lite-5g_8__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-v50-lite-5g_7__1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.77,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Dimensity 6300",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "design": {
+      "dimensions_mm": "Dày 7.79mm",
+      "weight_g": 196.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vivo-v50-lite-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại vivo",
+  "product_line": "V SERIES"
+}

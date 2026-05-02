@@ -1,0 +1,62 @@
+{
+  "name": "Laptop ASUS ExpertBook B1402CVA-NK0157W",
+  "price": 13990000,
+  "sale_price": 18490000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_expertbook_b1402cva-nk0157w_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_expertbook_b1402cva-nk0157w_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_expertbook_b1402cva-nk0157w_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2024-04-09t205746.880.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2024-04-09t205752.016.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2024-04-09t205803.183.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2024-04-09t205815.259.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2024-04-09t205824.166.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2024-04-09t205833.554.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2024-04-09t205846.157.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "720p HD với màn trập camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-1355U (1.7 GHz, 12M Cache, up to 5.0 GHz, 10 lõi)",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "32.69 x 21.45 x 1.99 cm (W x H x D)",
+      "weight_kg": 1.46,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-expertbook-b1402cva-nk0157w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": null
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Nokia 130",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-130.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-130_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-130_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-130.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-130_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-130_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-130.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-130_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-130_1_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 1.8,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": null,
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 1020
+    },
+    "design": {
+      "dimensions_mm": "111.5 x 48.4 x 14.2mm",
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v3.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nokia-130.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nokia",
+  "product_line": null
+}

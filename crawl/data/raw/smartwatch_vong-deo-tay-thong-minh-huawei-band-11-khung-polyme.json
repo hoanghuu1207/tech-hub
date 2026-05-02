@@ -1,0 +1,52 @@
+{
+  "name": "Vòng đeo tay thông minh Huawei Band 11 khung Polyme",
+  "price": 890000,
+  "sale_price": 990000,
+  "colors": [
+    "Tím",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_11_khung_polyme_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_11_khung_polyme_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_11_khung_polyme_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_5_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.62,
+      "resolution": "286 × 482 pixel, PPI 347",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {
+      "capacity_mah": 300
+    },
+    "design": {
+      "case_size_mm": "42.6×28.2×8.99mm",
+      "weight_g": 16.0,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Phân Tích Rối Loạn Nhịp Tim Qua Sóng Mạch",
+      "Chế độ dành riêng cho người dùng xe lăn"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vong-deo-tay-thong-minh-huawei-band-11-khung-polyme.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

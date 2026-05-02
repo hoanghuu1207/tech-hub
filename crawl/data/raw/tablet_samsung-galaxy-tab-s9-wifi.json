@@ -1,0 +1,64 @@
+{
+  "name": "Samsung Galaxy Tab S9 Wifi 8GB 128GB",
+  "price": 13490000,
+  "sale_price": 19630000,
+  "colors": [
+    "Xám",
+    "Kem"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_-_31.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_-_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_-_3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_13_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_-_5_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_18_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_15_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_-_20_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_38_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s9-wifi-12gb-256gb_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "2560x1600 pixel (QHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 2",
+      "cpu": "8 nhân 3.36 GHz, 2.8GHz, 2GHz",
+      "gpu": "Adreno 740",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 8400
+    },
+    "design": {
+      "dimensions_mm": "165.8 x 254.3 x 5.9mm",
+      "weight_g": 498.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11a/b/g/n/ac/ax 2.4GHz+5GHz+6GHz, HE160, MIMO, 1024-QAM"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-tab-s9-wifi.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": "SAMSUNG GALAXY TAB S9 SERIES"
+}

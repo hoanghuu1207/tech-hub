@@ -1,0 +1,65 @@
+{
+  "name": "Laptop Lenovo IdeaPad Flex 5 14ABR8 82XX00FWVN",
+  "price": 19490000,
+  "sale_price": 19990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_flex_5_14abr8_82xx00fwvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_flex_5_14abr8_82xx00fwvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_flex_5_14abr8_82xx00fwvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__8_85_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__7_98_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_174_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_126_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_180_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__4_159_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__4_143_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD 1080p với màn trập camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 7 5825U (8 lõi / 16 luồng, 2.0 / 4.5GHz, 4MB L2 / 16MB L3)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English"
+    },
+    "battery": {
+      "capacity_wh": 52.5
+    },
+    "design": {
+      "dimensions_cm": "313.1 x 224.9 x 17.8 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.55,
+      "material": "Nhựa + 40% GF"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Màn hình cảm ứng",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-flex-5-14abr8-82xx00fwvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "IDEAPAD"
+}

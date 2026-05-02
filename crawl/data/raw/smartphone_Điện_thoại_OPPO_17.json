@@ -1,0 +1,70 @@
+{
+  "name": "OPPO A79 5G 8GB 256GB",
+  "price": 7060000,
+  "sale_price": 7490000,
+  "colors": [
+    "Tím",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a79_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a79_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a79_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a79_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_a79_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a79-den.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a79-tim.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a79_5__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a79_4__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a79_2__2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.72,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 6020 5G 8 nhân",
+      "cpu": "2 nhân 2.2 GHz & 6 nhân 2.0 GHz",
+      "gpu": "Mali-G57 MC2",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "Dài 165.6 mm - Ngang 76 mm - Dày 7.99 mm (Đen) | 8.04 mm (Tím)",
+      "weight_g": 193.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "Dual-band (2.4 GHz/5 GHz)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-a79.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "A SERIES"
+}

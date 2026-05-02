@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Lenovo Legion 5 15IPH11 83RW0023VN",
+  "price": 60990000,
+  "sale_price": null,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_6__22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__37.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_60.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_7__24.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_12__7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_5__24.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_4__26.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__35.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__35.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_11__7.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.3,
+      "resolution": "2560 x 1600 (WQXGA)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "Up to 50 TOPS",
+      "cpu": "Intel Core Ultra 7 356H, 16 lõi (4P + 8E + 4LPE) / 16 luồng, Max Turbo up to 4.7GHz, 18MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English + Office Home 2024 + Lenovo AI Now"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "344 x 244.5 x 18.95-19.95 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.87,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7, 802.11be 2x2"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15iph11-83rw0023vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LEGION"
+}

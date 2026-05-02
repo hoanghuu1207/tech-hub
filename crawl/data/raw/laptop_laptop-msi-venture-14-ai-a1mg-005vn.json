@@ -1,0 +1,64 @@
+{
+  "name": "Laptop MSI Venture 14 AI A1MG-005VN",
+  "price": 21490000,
+  "sale_price": 24490000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_venture_14_ai_a1mg-005vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_venture_14_ai_a1mg-005vn_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_venture_14_ai_a1mg-005vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_26__6_72.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_27__8_38.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_25__7_67.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_42__3_47.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_38__6_31.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_35__8_36.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_28__8_46.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD type (30fps@720p)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core Ultra 5 125H",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {
+      "capacity_wh": 55.2
+    },
+    "design": {
+      "dimensions_cm": "315.6 x 235.5 x 19.3-21.6 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.7,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.3",
+      "wifi": "Intel Wi-Fi 6E AX211"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Màn hình Oled"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-venture-14-ai-a1mg-005vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "VENTURE"
+}

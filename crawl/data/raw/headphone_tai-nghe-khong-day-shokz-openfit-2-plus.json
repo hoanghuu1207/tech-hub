@@ -1,0 +1,42 @@
+{
+  "name": "Tai nghe không dây Shokz OpenFit 2 Plus",
+  "price": 5590000,
+  "sale_price": null,
+  "colors": [
+    "Xám",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/sli-opfit2plus.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/6/i6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/7/i7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/1/i12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/9/i9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/1/i11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/1/i10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/8/i8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/o/box.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/i/li_2.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 48,
+      "case_hours": 48
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-shokz-openfit-2-plus.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Shokz",
+  "product_line": null
+}

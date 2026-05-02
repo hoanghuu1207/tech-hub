@@ -1,0 +1,70 @@
+{
+  "name": "iPhone 17 Pro Max 512GB | Chính hãng",
+  "price": 42990000,
+  "sale_price": 44490000,
+  "colors": [
+    "Cam Vũ Trụ",
+    "Xanh Đậm",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-cam_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-max_1_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-max-1_5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-max-2_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-max-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-max-4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-max-5_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-max-6_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-max-7_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-max-8_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.9,
+      "resolution": "2868 x 1320 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 18
+    },
+    "performance": {
+      "chipset": "Chip A19 Pro",
+      "cpu": "CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+      "gpu": "GPU 6 lõi với Neural Accelerator",
+      "ram_gb": null,
+      "storage_gb": 512,
+      "os": "iOS 26"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "163,4 x 78,0 x 8,75 mm",
+      "weight_g": 231.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi‑Fi 7 (802.11be) với 2x2 MIMO11"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-17-pro-max-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 17 SERIES"
+}

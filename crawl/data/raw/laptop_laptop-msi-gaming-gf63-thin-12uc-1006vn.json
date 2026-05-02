@@ -1,0 +1,61 @@
+{
+  "name": "Laptop MSI Gaming GF63 THIN 12UC-1006VN",
+  "price": 16990000,
+  "sale_price": 19990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-msi-gaming-gf63-thin-12uc-1006vn-11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-msi-gaming-gf63-thin-12uc-1006vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-msi-gaming-gf63-thin-12uc-1006vn_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-msi-gaming-gf63-thin-12uc-1006vn_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-msi-gaming-gf63-thin-12uc-1006vn_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-msi-gaming-gf63-thin-12uc-1006vn_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_509_29_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-msi-gaming-gf63-thin-12uc-1006vn-11.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-msi-gaming-gf63-thin-12uc-1006vn.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-msi-gaming-gf63-thin-12uc-1006vn_1_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD 720p DualAryMic"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-12450H (2 GHz, up to 4.4 GHz, 8 lõi / 12 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359 x 254 x 21.7 mm",
+      "weight_kg": 1.86,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wifi 6 AX201"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-gaming-gf63-thin-12uc-1006vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "GAMING"
+}

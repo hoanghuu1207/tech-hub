@@ -1,0 +1,75 @@
+{
+  "name": "iPhone 13 128GB | Chính hãng VN/A",
+  "price": 11990000,
+  "sale_price": 13990000,
+  "colors": [
+    "Trắng",
+    "Đen",
+    "Đỏ",
+    "Xanh lá",
+    "Hồng",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-13_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pdp_position-1b_color_midnight__vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pdp_position-2_size_comparison__vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pdp_position-3_camera__vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pdp_position-4_design__vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pdp_position-5_colors__vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pdp_position-6_cinematic_mode__vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pdp_position-7_features_specs__vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pdp_position-8_accessory__vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_pdp_position-9_typec_lightning_cable__vn.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "2532 x 1170 pixels",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A15",
+      "cpu": "3.22 GHz",
+      "gpu": "Apple GPU 4 nhân",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "iOS 15"
+    },
+    "battery": {
+      "capacity_mah": 3240
+    },
+    "design": {
+      "dimensions_mm": "146,7 x 71,5 x 7,65mm",
+      "weight_g": 173.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi‑Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-13.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 13 SERIES"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Vòng đeo tay thông minh Xiaomi Mi Band 10 Vàng",
+  "price": 2460000,
+  "sale_price": 2690000,
+  "colors": [
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_xiaomi_mi_band_10_v_ng_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_xiaomi_mi_band_10_v_ng_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_xiaomi_mi_band_10_v_ng_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/u/buds2-black-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/u/buds2-black-2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/u/buds2-black_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/u/buds2-black-1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/u/buds2-black_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/r/frame_285.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_xiaomi_mi_band_10_v_ng_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.72,
+      "resolution": "212 x 520 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "HyperOS 2.0"
+    },
+    "battery": {
+      "capacity_mah": 233
+    },
+    "design": {
+      "case_size_mm": "135–210mm",
+      "weight_g": 15.95,
+      "material": "Kim loại"
+    },
+    "special_features": [
+      "Truyền phát nhịp tim",
+      "La bàn"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vong-deo-tay-thong-minh-xiaomi-mi-band-10-vang.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

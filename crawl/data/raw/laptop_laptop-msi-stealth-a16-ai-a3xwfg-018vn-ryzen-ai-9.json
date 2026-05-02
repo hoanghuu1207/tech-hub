@@ -1,0 +1,65 @@
+{
+  "name": "Laptop MSI Stealth A16 AI+ A3XWFG-018VN",
+  "price": 58990000,
+  "sale_price": 63690000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_stealth_a16_ai_a3xwfg-018vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_stealth_a16_ai_a3xwfg-018vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_stealth_a16_ai_a3xwfg-018vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_236.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_290.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_241.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__4_222.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_281.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__4_250.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__8_104.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 pixels (2.5K)",
+      "refresh_rate_hz": 240,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "IR FHD type (30fps@1080p) hỗ trợ HDR"
+    },
+    "performance": {
+      "chipset": "AMD Ryzen AI - 50 AI TOPS",
+      "cpu": "AMD Ryzen AI 9 HX 370 (Tốc độ CPU (Base): 2Ghz / Tốc độ CPU Tối đa (Turbo Boost): 5.1GHz / Bộ nhớ đệm: 24MB)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home SEA"
+    },
+    "battery": {
+      "capacity_wh": 99.9
+    },
+    "design": {
+      "dimensions_cm": "355.8 x 259.7 x 19.95 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.1,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5",
+      "wifi": "Intel Wi-Fi 7"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-stealth-a16-ai-a3xwfg-018vn-ryzen-ai-9.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "GAMING"
+}

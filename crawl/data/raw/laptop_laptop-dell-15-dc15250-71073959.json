@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Dell 15 DC15250 71073959",
+  "price": 22590000,
+  "sale_price": 23990000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15250_71073959_-_1_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15250_71073959_-_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15250_71073959_-_3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__10_54.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__8_42.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__8_43.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__10_39.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__5_42.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__5_34.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_744_1_122.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-1355U",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home + Microsoft Office Home 2024 + Microsoft 365 Basic đăng ký 1 năm 634-CHLVMcAfee LiveSafe 1 năm (5 thiết bị)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "358.50 x 235.56 x 18.99 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.66,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.3",
+      "wifi": "Wi-Fi 11ax"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-15-dc15250-71073959.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL 15"
+}

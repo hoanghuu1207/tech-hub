@@ -1,0 +1,59 @@
+{
+  "name": "Cảm biến chạy bộ Coros Pod 2",
+  "price": 2590000,
+  "sale_price": 2650000,
+  "colors": [
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__1_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__3_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__1_15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__3_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__4_15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__3_20.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_6__1_17.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_6__1_17.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_9__3_17.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_7__1_15.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": null,
+      "resolution": null,
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {
+      "usage_hours": 28
+    },
+    "design": {
+      "case_size_mm": "27.1 x 33.9 x 8.6 mm",
+      "weight_g": 5.6,
+      "material": "Nhựa"
+    },
+    "special_features": [
+      "Cự ly",
+      "Guồng chân",
+      "Chiều dài sải chân",
+      "Nhiệt độ môi trường",
+      "Độ cao",
+      "Độ dốc",
+      "Cân bằng Trái/Phải",
+      "Thời gian tiếp đất",
+      "Chiều cao sải chân",
+      "Tỉ lệ sải chân"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/cam-bien-chay-bo-coros-pod-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Coros",
+  "product_line": null
+}

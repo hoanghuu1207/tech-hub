@@ -1,0 +1,59 @@
+{
+  "name": "Đồng hồ thông minh Coros Pace 3 dây cao su",
+  "price": 5490000,
+  "sale_price": 6180000,
+  "colors": [
+    "Xanh lá",
+    "Vàng",
+    "Trắng",
+    "Xanh dương",
+    "Tím",
+    "Đỏ",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/a/pace_3_black_silicone_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-pace-3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/a/pace_3_white_silicone_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-pace-3_1__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-pace-3_3__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-pace-3_2__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-pace-3_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-pace-3_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-pace-3_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-coros-pace-3_3_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.2,
+      "resolution": "240 x 240 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 38
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 30.3,
+      "material": "Nhựa"
+    },
+    "special_features": [
+      "Dẫn đường theo lộ trình cho trước",
+      "cảnh báo điều hướng",
+      "dẫn đường quay lại nơi xuất phát",
+      "hiển thị checkpoint"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-coros-pace-3.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Coros",
+  "product_line": null
+}

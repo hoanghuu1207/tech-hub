@@ -1,0 +1,60 @@
+{
+  "name": "Samsung Galaxy A21s 6GB",
+  "price": 4690000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/2/a21s_0001_layer_2_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/2/a21s_0002_layer_1_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/2/a21s_0000_layer_3_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/2/a21s_0001_layer_2_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/2/a21s_0002_layer_1_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/2/a21s_0000_layer_3_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/2/a21s_0001_layer_2_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/2/a21s_0002_layer_1_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/2/a21s_0000_layer_3_2_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.5,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "Exynos 850",
+      "cpu": "Octa-core (4x2.0 GHz & 4x2.0 GHz)",
+      "gpu": "Mali-G71 MP2",
+      "ram_gb": 6,
+      "storage_gb": 64,
+      "os": "Android 10, One UI 2.0"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163.6 x 75.3 x 8.9 mm",
+      "weight_g": 192.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-a21s-6gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY A"
+}

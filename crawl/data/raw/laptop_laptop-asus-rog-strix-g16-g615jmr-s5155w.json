@@ -1,0 +1,63 @@
+{
+  "name": "Laptop ASUS ROG Strix G16 G615JMR-S5155W",
+  "price": 45990000,
+  "sale_price": 46990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_strix_g16_g615jmr-s5155w_-_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_strix_g16_g615jmr-s5155w_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_strix_g16_g615lr-s5238w_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asusus_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asusus_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asusus_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asusus_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asusus_4__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asusus_5__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asusus_7__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 (WQXGA)",
+      "refresh_rate_hz": 240,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "1080P FHD IR Camera for Windows Hello"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7 14650HX 2.2 GHz (30MB Cache, up to 5.2 GHz, 16 lõi, 24 luồng)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.4 x 26.8 x 2.28 ~ 3.08 cm (Dài x Rộng x Dày)",
+      "weight_kg": 2.65,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7(802.11be) (Triple band) 2*2"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt",
+      "Wi-Fi 7",
+      "MUX Switch"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g615jmr-s5155w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "ROG"
+}

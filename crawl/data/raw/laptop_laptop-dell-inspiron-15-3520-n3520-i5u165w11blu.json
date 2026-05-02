@@ -1,0 +1,57 @@
+{
+  "name": "Laptop Dell Inspiron 15 3520 N3520-I5U165W11BLU",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_43__4_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_42__3_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_33__3_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_34__3_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_37__2_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_35__3_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_36__2_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_40__2_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_38__2_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_39__2_18.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD camera (1280 x 720)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-1235U (12MB Cache, up to 4.4 GHz)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language English + Microsoft Office Home and Student 2021"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "16.96 - 18.99 x 358.50 x 235.56 mm (H x W x D)",
+      "weight_kg": 1.9,
+      "material": "Tấm nền WVA"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0",
+      "wifi": "Wi-Fi 5 (802.11ac)"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-inspiron-15-3520-n3520-i5u165w11blu.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "INSPIRON"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Lenovo IdeaPad Slim 3 14IPH11 83UQ002GVN",
+  "price": 30990000,
+  "sale_price": null,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__32.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__31.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__31.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_5__20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_4__21.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_54.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_16_35.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/s/sssxs_1__32.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/s/sssxs_2__31.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/s/sssxs_3__31.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD 1080p + IR với màn trập camera"
+    },
+    "performance": {
+      "chipset": "Up to 49 TOPS",
+      "cpu": "Intel Core Ultra 7 355, 8 lõi (4P + 4LPE) / 8 luồng, Max Turbo up to 4.7GHz, 12MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "314.4 x 222.1 x 16.9-17.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.43,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-14iph11-83uq002gvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": null
+}

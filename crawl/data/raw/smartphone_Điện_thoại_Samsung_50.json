@@ -1,0 +1,74 @@
+{
+  "name": "Samsung Galaxy Z Flip5 256GB",
+  "price": 25990000,
+  "sale_price": null,
+  "colors": [
+    "Tím",
+    "Kem",
+    "Xám",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_z_flip5_256gb_-_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_z_flip5_-_6_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_z_flip5_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_z_flip5_-_4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_z_flip5_-_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_z_flip5_-_8_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_z_flip5_-_7_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_z_flip5_-_5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-z-flip5-kem-4_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-z-lip5_3_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1080 x 2640 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 10
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 2 for Galaxy",
+      "cpu": "1 nhân 3.36 GHz, 4 nhân 2.8 GHz & 3 nhân 2 GHz",
+      "gpu": "Adreno 740",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 3700
+    },
+    "design": {
+      "dimensions_mm": "Mở: 165.1 x 71.9 x 6.9mm\nGập: 85.1 x 71.9 x 15.1mm",
+      "weight_g": 187.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "Dual-band (2.4 GHz/5 GHz)\nWi-Fi 802.11 a/b/g/n/ac/ax\nWi-Fi MIMO"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-z-flip-5-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": null
+}

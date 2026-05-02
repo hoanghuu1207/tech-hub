@@ -1,0 +1,61 @@
+{
+  "name": "Honor Pad 9 Pro",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-honor-pad-9-pro.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-honor-pad-9-pro_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-honor-pad-9-pro_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-honor-pad-9-pro_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-honor-pad-9-pro.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-honor-pad-9-pro.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-honor-pad-9-pro_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-honor-pad-9-pro_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-honor-pad-9-pro_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-honor-pad-9-pro.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 12.1,
+      "resolution": "2560 x 1600 pixels (2K)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 8100",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 10050
+    },
+    "design": {
+      "dimensions_mm": "Độ dày 6.64mm",
+      "weight_g": 589.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "Wi-Fi 6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-honor-pad-9-pro.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

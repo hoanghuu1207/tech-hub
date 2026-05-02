@@ -1,0 +1,72 @@
+{
+  "name": "iPhone 16 Plus 128GB | Chính hãng VN/A",
+  "price": 23990000,
+  "sale_price": 25990000,
+  "colors": [
+    "Đen",
+    "Xanh Mòng Két",
+    "Xanh Lưu Ly",
+    "Hồng",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-plus-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-plus-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-plus-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-plus-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-plus-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-plus-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-plus-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-plus-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-plus-9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-plus-10.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "2796 x 1290-pixel",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A18",
+      "cpu": "CPU 6 lõi mới với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+      "gpu": "GPU 5 lõi mới",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "iOS 18"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "160,9 x 77,8 x 7,80 mm",
+      "weight_g": 199.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 7 (802.11be) với 2x2 MIMO7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-16-plus.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 16 SERIES"
+}

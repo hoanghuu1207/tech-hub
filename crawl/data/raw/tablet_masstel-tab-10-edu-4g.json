@@ -1,0 +1,64 @@
+{
+  "name": "Masstel Tab 10 Edu 4G 3GB 32GB",
+  "price": 1490000,
+  "sale_price": 2490000,
+  "colors": [
+    "Xanh dương",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-tab10-edu-4g.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-tab10-edu-4g-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-tab10-edu-4g-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-tab10-edu-4g-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-tab10-edu-4g-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-tab-10-edu-4g_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-tab-10-edu-4g_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-tab-10-edu-4g_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-tab-10-edu-4g.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-tab-10-edu-4g_4_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 10.1,
+      "resolution": "800 x 1280 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 5
+    },
+    "camera_front": {
+      "resolution_mp": 2
+    },
+    "performance": {
+      "chipset": "MediaTek 8765WA",
+      "cpu": "4 nhân",
+      "gpu": "Mali-G57",
+      "ram_gb": 3,
+      "storage_gb": 32,
+      "os": "Android 11"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "257 * 172.8 * 12 (mm)",
+      "weight_g": 624.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11 a/b/g/n/ac - 2.4GHz, 5GHz"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/masstel-tab-10-edu-4g.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Nubia",
+  "product_line": null
+}

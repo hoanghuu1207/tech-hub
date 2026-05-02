@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe không dây ANKER SOUNDCORE A30I",
+  "price": 490000,
+  "sale_price": 699000,
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Hồng",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/254_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/255_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/256_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/257_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/258_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/259_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/6/260_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/6/261_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/6/262_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/r/frame_359_1_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 24
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "Có",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-anker-soundcore-a30i.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Anker",
+  "product_line": null
+}

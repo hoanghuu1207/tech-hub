@@ -1,0 +1,64 @@
+{
+  "name": "Samsung Galaxy Tab S9 Plus Wifi 12GB 512GB",
+  "price": 20890000,
+  "sale_price": 27990000,
+  "colors": [
+    "Kem",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_1_11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_2_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_8_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_4_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_3_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_5_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_9_1__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_6_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_7_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_plus_-_10_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 12.4,
+      "resolution": "1752 x 2800 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 2 for Galaxy",
+      "cpu": "1 nhân 3.36 GHz, 4 nhân 2.8 GHz & 3 nhân 2 GHz",
+      "gpu": "Adreno 740",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 90
+    },
+    "design": {
+      "dimensions_mm": "285.4 x 185.4 x 5.7 mm",
+      "weight_g": 581.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "Wi-Fi Direct\nMIMO\nWi-Fi 802.11 a/b/g/n/ac/ax\nDual-band"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-tab-s9-plus-wifi-512gb.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

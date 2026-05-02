@@ -1,0 +1,44 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless QCY Ailybuds Lite (T29)",
+  "price": 350000,
+  "sale_price": 450000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-qcy-airlybuds-lite-spa.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-qcy-airlybuds-lite-_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-qcy-airlybuds-lite-_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-qcy-airlybuds-lite-_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-qcy-airlybuds-lite-_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-qcy-airlybuds-lite-_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-qcy-airlybuds-lite-_6_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_15_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_16_2_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_26_1_1.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {
+      "earbuds_dimensions_mm": "20.1 x 17.4 x 34.9 mm",
+      "case_dimensions_mm": "48.8 x 26.7 x 52 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-qcy-airlybuds-lite.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "QCY",
+  "product_line": null
+}

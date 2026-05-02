@@ -1,0 +1,64 @@
+{
+  "name": "Laptop MSI Prestige 16 AI+ Evo B2VMG-016VN",
+  "price": 45290000,
+  "sale_price": 45990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_prestige_16_ai_evo_b2vmg-016vn_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_prestige_16_ai_evo_b2vmg-016vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_prestige_16_ai_evo_b2vmg-016vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__7_52.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__6_29.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__8_27.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__7_32.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_27.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_29.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_msi_prestige_16_ai_evo_b2vmg-016vn_-_1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "3840 x 2400 pixel (4K)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Up to 48 NPU TOPS (120 total platform TOPS)",
+      "cpu": "Intel Core Ultra 9 288V",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home"
+    },
+    "battery": {
+      "capacity_wh": 99.9
+    },
+    "design": {
+      "dimensions_cm": "358.4 x 254.4 x 16.85 - 18.95 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.5,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.4",
+      "wifi": "Intel Killer Wi-Fi 7 BE1750"
+    },
+    "special_features": [
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-prestige-16-ai-evo-b2vmg-016vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "PRESTIGE"
+}

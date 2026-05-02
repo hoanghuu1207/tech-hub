@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Dell 15 DC15255 DC5R5802W1",
+  "price": 18390000,
+  "sale_price": 18990000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15255_dc5r5802w1_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15255_dc5r5802w1_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15255_dc5r5802w1_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__10_145.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__8_123.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__8_125.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__10_113.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__5_103.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__8_85.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__5_90.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Ryzen 5 7530U Tốc độ CPU (Base): 2.0 GHz Tốc độ CPU tối đa (turbo boost): 4.5 GHz Bộ nhớ đệm: 12 MB",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language English + Microsoft Office Home & Student 2024 + Microsoft 365 Basic (1 năm)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "358.50 x 235.56 x 18.99 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.63,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0",
+      "wifi": "Wi-Fi 5"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-15-dc15255-dc5r5802w1.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL 15"
+}

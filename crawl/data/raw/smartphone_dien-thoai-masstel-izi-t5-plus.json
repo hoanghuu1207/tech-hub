@@ -1,0 +1,61 @@
+{
+  "name": "Masstel izi T5 plus 4G",
+  "price": 530000,
+  "sale_price": null,
+  "colors": [
+    "Xanh",
+    "Đen/Đỏ",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-izi-t5-plus-4g.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-izi-t5-plus-4g-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-masstel-izi-t5-plus-4g-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel_izi_t5_plus_4g.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel_izi_t5_plus_4g_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel_izi_t5_plus_4g-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel_izi_t5_plus_4g-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/masstel_izi_t5_plus_4g.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-masstel-izi-t5-plus-4g.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-masstel-izi-t5-plus-4g-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 2.4,
+      "resolution": "240 x 320 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": "UNISOC T107",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 2300
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Có",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-masstel-izi-t5-plus.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Masstel",
+  "product_line": null
+}

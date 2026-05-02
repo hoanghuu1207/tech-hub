@@ -1,0 +1,64 @@
+{
+  "name": "TCL 408 4GB 128GB",
+  "price": 2390000,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_408_128_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_408_64_-_4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_408_128_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_408_64_-_33_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_408_64_-_233_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl_408_64_-_5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl-408_5__2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl-408_4__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl-408_2__3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/c/tcl-408_6__2_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.6,
+      "resolution": "720 x 1612 (HD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "MTK MT6762",
+      "cpu": "4 x A53 2.0GHz + 4 x A53 1.5GHz",
+      "gpu": "MG GE8320 650 MHz",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164.66 x 75.4 x 8.99 mm",
+      "weight_g": 190.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "802.11a/b/g/n/ac, 2.4GHz&5GHz"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tcl-408-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại TCL",
+  "product_line": null
+}

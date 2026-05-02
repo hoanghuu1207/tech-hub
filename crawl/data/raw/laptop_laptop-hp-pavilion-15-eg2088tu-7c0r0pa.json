@@ -1,0 +1,63 @@
+{
+  "name": "Laptop HP Pavilion 15-EG2088TU 7C0R0PA",
+  "price": 18490000,
+  "sale_price": 25290000,
+  "colors": [
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1_9_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__1_16_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__1_17_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__1_20_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__1_18_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_7__17.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_7__17.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_1_9_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_3__1_16_1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HP Wide Vision 720p HD với micrô kỹ thuật số dãy kép tích hợp"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-1260P, 12 nhân / 16 luồng, 18MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home 64bit"
+    },
+    "battery": {
+      "capacity_mah": 3440
+    },
+    "design": {
+      "dimensions_cm": "36.02 x 23.4 x 1.79 cm (W x D x H)",
+      "weight_kg": 1.75,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0 Combo",
+      "wifi": "Wifi Realtek RTL8822CE 802.11a/b/g/n/ac (2x2)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg2088tu-7c0r0pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "PAVILION"
+}

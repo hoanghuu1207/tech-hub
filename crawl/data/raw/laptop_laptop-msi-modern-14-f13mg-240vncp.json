@@ -1,0 +1,64 @@
+{
+  "name": "Laptop MSI Modern 14 F13MG-240VNCP",
+  "price": 16290000,
+  "sale_price": 18990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_modern_14_f13mg-240vncp_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_modern_14_f13mg-240vncp_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_modern_14_f13mg-240vncp_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_297.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_273.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_322.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__8_140.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__8_116.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_19__6_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_18__8_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "WebCam HD (màn trập riêng tư) với micro mảng"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-1335U (Up to 4.6GHz, 10 lõi, 12 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language 64-bit"
+    },
+    "battery": {
+      "capacity_wh": 46.8
+    },
+    "design": {
+      "dimensions_cm": "32.39 x 21.72 x 1.99 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.5,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 802.11 ax"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-modern-14-f13mg-240vncp.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "MODERN"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Đồng hồ thông minh Garmin Fenix 7 Pro",
+  "price": 15490000,
+  "sale_price": 23490000,
+  "colors": [
+    "Xám",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_fenix_7_pro_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_fenix_7_pro_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_fenix_7_pro_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__1_58.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__3_37.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__1_50.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_17__1_43.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_18__1_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_19__39.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_21__39.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "260 x 260 Pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 57
+    },
+    "design": {
+      "case_size_mm": "Từ 12.5 - 20.8 cm",
+      "weight_g": 73.0,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-fenix-7-pro.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Đồng hồ thông minh Amazfit GTR 4",
+  "price": 3790000,
+  "sale_price": 4990000,
+  "colors": [
+    "Đen",
+    "Vải Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_46_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_375.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_352.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_294.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_259.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/m/amazfit_gtr_4_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/m/amazfit_gtr_4_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/m/amazfit_gtr_4_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/m/amazfit_gtr_4_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/m/amazfit_gtr_4_-_5.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.43,
+      "resolution": "466 x 466 Pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 15 - 25 cm",
+      "weight_g": 34.0,
+      "material": "Cao Su"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-gtr-4.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

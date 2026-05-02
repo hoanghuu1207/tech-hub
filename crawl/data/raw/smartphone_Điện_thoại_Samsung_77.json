@@ -1,0 +1,61 @@
+{
+  "name": "Samsung Galaxy S20 Ultra 5G 512GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637170935875912528_ss-s20-ultra-den-1_4_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637170935875393356_ss-s20-ultra-den-3_1_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637170935336423061_ss-s20-ultra-xam-1_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637170935336142934_ss-s20-ultra-xam-3_1_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/3/637170935875912528_ss-s20-ultra-den-1_4_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/3/637170935875393356_ss-s20-ultra-den-3_1_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/3/637170935336423061_ss-s20-ultra-xam-1_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/3/637170935336142934_ss-s20-ultra-xam-3_1_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/3/637170935875912528_ss-s20-ultra-den-1_4_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/3/637170935875393356_ss-s20-ultra-den-3_1_1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.9,
+      "resolution": "3200 x 1440 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 40
+    },
+    "performance": {
+      "chipset": "Exynos 990 (7 nm+)",
+      "cpu": "Octa-core (2x2.73 GHz Mongoose M5 & 2x2.60 GHz Cortex-A76 & 4x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G77 MP11",
+      "ram_gb": 12,
+      "storage_gb": 128,
+      "os": "Android 10.0; One UI 2"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "166.9 x 76 x 8.8 mm",
+      "weight_g": 222.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE, aptX",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac/ax, dual-band, Wi-Fi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-s20-ultra-5g-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY S"
+}

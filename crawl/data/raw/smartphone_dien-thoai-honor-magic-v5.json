@@ -1,0 +1,72 @@
+{
+  "name": "HONOR Magic V5 16GB 512GB",
+  "price": 41990000,
+  "sale_price": 44990000,
+  "colors": [
+    "Vàng Bình Minh",
+    "Trắng Ánh Trăng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-magic-v5-4_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-magic-v5-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-magic-v5-2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-magic-v5-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-magic-v5-4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-magic-v5_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-magic-v5-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-magic-v5-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-magic-v5-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-magic-v5-5.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.43,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 20
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 8 Elite",
+      "cpu": "Tám nhân (2×Prime 4,32 GHz+6×Performance 3,53 GHz)",
+      "gpu": "Adreno 830",
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "MagicOS 9.0.1 (Dựa trên Android 15)"
+    },
+    "battery": {
+      "capacity_mah": 5820
+    },
+    "design": {
+      "dimensions_mm": "Chiều cao 156,8 mm\nChiều rộng: Gập: 74,3 mm Mở ra: 145,9 mm\nĐộ dày: Gập: 9 mm Mở ra: 4,2 mm\nPhiên bản Trắng Ánh Trăng: Gập: 8,8 mm, Mở ra: 4,1 mm",
+      "weight_g": 217.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "6.0SBC, AAC, LDAC, aptX, aptX HD, aptX Adaptive, LC3",
+      "wifi": "Wifi 7 802.11 a/b/g/n/ac/ax/be, 2x2 MIMO\n2.4GHz/5GHz/6GHz"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-magic-v5.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

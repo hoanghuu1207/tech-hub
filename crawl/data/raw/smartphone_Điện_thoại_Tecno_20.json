@@ -1,0 +1,60 @@
+{
+  "name": "Tecno Spark 10C",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/f/sfer45533_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/f/sfer45533_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/f/sfer45533.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfer45533_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfer45533_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfer45533.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfer45533_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfer45533_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sfer45533.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.6,
+      "resolution": "720 x 1612 (HD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 16
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Dimensity 9200 Plus",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 128,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163.84 x 75.49 x 8.50 mm",
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "2.4GHz+5GHz"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tecno-spark-10c.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Tecno",
+  "product_line": "SPARK"
+}

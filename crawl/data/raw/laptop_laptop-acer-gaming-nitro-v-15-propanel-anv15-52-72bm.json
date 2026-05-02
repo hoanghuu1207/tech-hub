@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Acer Gaming Nitro ProPanel ANV15-52-72BM",
+  "price": 34490000,
+  "sale_price": 39990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_974_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_975_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_v_15_propanel_anv15-52-72bm_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_32.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_317_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_223_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_306_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 180,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Video HD 720p ở tốc độ 30 khung hình/giây với tính năng Giảm nhiễu theo thời gian"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-13620H (10 lõi / 16 luồng, Tần số Turbo tối đa của E-core: 3.6 GHz, Tần số Turbo tối đa của P-core: 4.9 GHz, 24 MB Intel Smart Cache)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "362.3 x 239.89 x 15.7/23.5 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.1,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "802.11a/b/g/n/ac+ax wireless LAN"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-propanel-anv15-52-72bm.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "NITRO PROPANEL"
+}

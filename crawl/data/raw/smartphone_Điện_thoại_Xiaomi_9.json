@@ -1,0 +1,72 @@
+{
+  "name": "Xiaomi Redmi Note 15 Pro 5G 12GB 256GB",
+  "price": 10690000,
+  "sale_price": 11490000,
+  "colors": [
+    "Đen",
+    "Xám",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-pro-5g-12gb-256gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-pro-5g-12gb-256gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-pro-5g-12gb-256gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-pro-5g-12gb-256gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-pro-5g-12gb-256gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-note-15-pro-5g-vang.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-note-15-pro-5g-den.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-note-15-pro-5g-tim.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-note-15-pro-5g-vang-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-note-15-pro-5g-vang-3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.83,
+      "resolution": "2772 x 1280 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {
+      "resolution_mp": 20
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 7400-Ultra",
+      "cpu": "8 nhân lên đến 2.6 GHz",
+      "gpu": "Mali-G615",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Xiaomi HyperOS 2"
+    },
+    "battery": {
+      "capacity_mah": 6580
+    },
+    "design": {
+      "dimensions_mm": "163.61 x 78.09 x 7.96mm",
+      "weight_g": 210.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 802.11a/b/g/n/ac/ax (2.4GHz & 5GHz)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-15-pro-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

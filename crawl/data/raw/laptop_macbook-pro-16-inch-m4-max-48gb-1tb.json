@@ -1,0 +1,64 @@
+{
+  "name": "MacBook Pro 16 M4 Max 16CPU 40GPU 48GB 1TB | Chính hãng Apple Việt Nam",
+  "price": 98990000,
+  "sale_price": 103740000,
+  "colors": [
+    "Đen",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__6_142.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_14_inch_m4_pro_or_max_chip_silver_pdp_image_position_2__1_1_1_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_16_inch_m4_pro_or_max_chip_silver_pdp_image_position_3__1_1_1_1_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_16_inch_m4_pro_or_max_chip_silver_pdp_image_position_4__1_1_1_1_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_16_inch_m4_pro_or_max_chip_silver_pdp_image_position_5__1_1_1_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_16_inch_m4_pro_or_max_chip_silver_pdp_image_position_6__1_1_1_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_16_inch_m4_pro_or_max_chip_silver_pdp_image_position_7__1_1_1_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_16_inch_m4_pro_or_max_chip_silver_pdp_image_position_8__1_1_1_1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_3__8.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_1__6_142.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.2,
+      "resolution": "3456 x 2234 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Apple M4 Max 16 lõi với 12 lõi hiệu năng và 4 lõi tiết kiệm điện",
+      "gpu": null,
+      "ram_gb": 48,
+      "storage_gb": 1024,
+      "os": "macOS"
+    },
+    "battery": {
+      "usage_hours": 21
+    },
+    "design": {
+      "dimensions_cm": "Dài: 24.81 cm x Rộng: 35.57 cm x Cao: 1.68 cm",
+      "weight_kg": 2.15,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 6E (802.11ax)"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-pro-16-inch-m4-max-48gb-1tb.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK PRO"
+}

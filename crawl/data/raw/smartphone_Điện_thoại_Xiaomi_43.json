@@ -1,0 +1,61 @@
+{
+  "name": "Xiaomi Redmi Note 14 Pro",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2025-02-11t154312.254.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2025-02-11t154203.059.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2025-02-11t154241.024.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2025-02-11t154123.900.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2025-02-11t154021.398.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_-_2025-02-11t154014.873.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_-_2025-02-11t154312.254.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_-_2025-02-11t154312.254.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_-_2025-02-11t154203.059.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_-_2025-02-11t154241.024.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G100-Ultra 8 nhân",
+      "cpu": "2 nhân 2.2 GHz & 6 nhân 2.0 GHz",
+      "gpu": "Mali-G57 MC2",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Xiaomi HyperOS (Android 14)"
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "design": {
+      "dimensions_mm": "162.16 x 74.92 x 8.24 mm",
+      "weight_g": 180.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac\nDual-band (2.4 GHz/5 GHz)"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-14-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

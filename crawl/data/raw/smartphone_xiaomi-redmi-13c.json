@@ -1,0 +1,68 @@
+{
+  "name": "Xiaomi Redmi 13C 6GB 128GB",
+  "price": 2990000,
+  "sale_price": 3490000,
+  "colors": [
+    "Xanh dương",
+    "Xanh lá",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_13c_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_13c_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_13c_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_13c_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_13c_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_13c_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_13c_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-13c_21__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-13c_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-13c_23_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.74,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G85 8 nhân",
+      "cpu": "8 nhân Cortex A53 xung nhịp 2.0 Ghz",
+      "gpu": "Mali-G52 MC2",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "168 x 78 x 8.09 mm",
+      "weight_g": 192.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "Wi-Fi Direct\nWi-Fi 802.11 a/b/g/n/ac\nWi-Fi hotspot\nDual-band (2.4 GHz/5 GHz)"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-redmi-13c.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": null
+}

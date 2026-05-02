@@ -1,0 +1,70 @@
+{
+  "name": "OPPO Find X5 Pro 5G 12GB 256GB",
+  "price": 12990000,
+  "sale_price": 15990000,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_x5_pro_12gb_256gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_x5_pro_12gb_256gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_x5_pro_12gb_256gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_x5_pro_12gb_256gb_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_find_x5_pro_12gb_256gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/download_1__6_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-find-x5-pro-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-find-x5-pro-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-find-x5-pro-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/download_3__4_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1440 x 3216 pixels (QHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 8 Gen 1",
+      "cpu": "MariSilicon X Imaging NPU",
+      "gpu": "Adreno 730 @818MHz",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "ColorOS 12.1 dựa trên Android 12"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "163.7 x 73.9 x 8.5 mm",
+      "weight_g": 218.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "5.2",
+      "wifi": "Wi-Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-find-x5-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "FIND X SERIES"
+}

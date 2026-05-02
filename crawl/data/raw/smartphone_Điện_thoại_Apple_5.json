@@ -1,0 +1,71 @@
+{
+  "name": "iPhone 16 Pro Max 512GB | Chính hãng VN/A",
+  "price": 38490000,
+  "sale_price": 40990000,
+  "colors": [
+    "Titan Đen",
+    "Titan Sa Mạc",
+    "Titan Trắng",
+    "Titan Tự Nhiên"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-max_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-max-2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-max-3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-max-4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-max-5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-max-6_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-max-7_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-max-8_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-max-9_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-pro-max-10_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.9,
+      "resolution": "2868 x 1320 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A18 Pro",
+      "cpu": "CPU 6 lõi mới với 2 lõi hiệu năng và 4 lõi hiệu suất",
+      "gpu": "GPU 6 lõi mới",
+      "ram_gb": null,
+      "storage_gb": 512,
+      "os": "iOS 18"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "163 x 77,6 x 8,25 mm",
+      "weight_g": 227.0,
+      "material": "Titanium"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 7 (802.11be) với 2x2 MIMO7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-16-pro-max-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 16 SERIES"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Nubia Neo 3 GT 12GB 256GB",
+  "price": 6890000,
+  "sale_price": 6990000,
+  "colors": [
+    "Xám",
+    "Trắng (kèm tay cầm chơi game)",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-3-gt.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-3-gt-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-3-gt-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-3-gt-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-3-gt-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-neo-3-gt-12gb-256gb.1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-neo-3-gt-12gb-256gb_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-neo-3-gt-12gb-256gb_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-neo-3-gt-12gb-256gb_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-neo-3-gt-12gb-256gb_3_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.8,
+      "resolution": "1080 x 2392 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Unisoc T9100",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "Wi-Fi 2.4Ghz + 5Ghz"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-nubia-neo-3-gt-12gb-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nubia",
+  "product_line": "NUBIA"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Apple MacBook Pro 13 Touch Bar M1 256GB 2020 I Chính hãng Apple Việt Nam",
+  "price": 27590000,
+  "sale_price": 35990000,
+  "colors": [
+    "Xám",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/b/mbp-silver-gallery3-202011-removebg-preview.png.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/b/mbp-spacegray-select-202011.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/b/mbp-silver-select-202011.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/b/mbp-silver-gallery4-202011-removebg-preview.png.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001_macbook_pro_13-in_space_gray_with_intel_processor_pure_side_left_screen__usen_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_macbook_pro_13-in_silver_with_intel_processor_pure_side_left_screen__usen_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_1__1_11.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mbp-silver-gallery3-202011-removebg-preview.png.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mbp-spacegray-select-202011.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mbp-silver-select-202011.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.3,
+      "resolution": "2560 x 1600 pixel (2K)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "8 nhân với 4 nhân hiệu năng cao và 4 nhân tiết kiệm điện",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "macOS Big Sur"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "1.56 cm x 30.41 cm x 21.24 cm",
+      "weight_kg": 1.4,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0",
+      "wifi": "802.11ax Wi-Fi 6"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-pro-2020-13-inch-touch-bar-m1.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": null
+}

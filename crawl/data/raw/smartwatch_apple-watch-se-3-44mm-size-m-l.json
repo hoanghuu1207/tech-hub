@@ -1,0 +1,54 @@
+{
+  "name": "Apple Watch SE 3 44mm (GPS) Viền Nhôm Dây Cao Su Size M/L | Chính hãng Apple Việt Nam",
+  "price": 7290000,
+  "sale_price": 7840000,
+  "colors": [
+    "Ánh sao - Dây trắng",
+    "Đêm xanh thẳm - Dây đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-se-3-1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-se-3-2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-se-3-3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-se-3-4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-se-3-5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-se-3-6_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-se-3-7_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-se-3-8_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple-se-3-44_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple-watch-se-3-1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": null,
+      "resolution": "368 x 448 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Vừa với cổ tay cỡ 16 – 21 cm",
+      "weight_g": 32.9,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "SOS Khẩn Cấp",
+      "Phát Hiện Va Chạm",
+      "Phát Hiện Ngã",
+      "Giám sát tiếng ồn",
+      "Quay Về",
+      "Cử chỉ lắc cổ tay"
+    ]
+  },
+  "features": [],
+  "description": "Hàng chính hãng Apple Việt Nam, Mới",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-se-3-44mm-size-m-l.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

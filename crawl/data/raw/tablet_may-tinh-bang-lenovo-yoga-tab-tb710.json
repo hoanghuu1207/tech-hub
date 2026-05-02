@@ -1,0 +1,63 @@
+{
+  "name": "Máy tính bảng Lenovo Yoga Tab Wifi 12GB 256GB TB710 ZAG60105VN kèm bàn phím, bút",
+  "price": 17990000,
+  "sale_price": null,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/e/lenovo-yoga-tab-tb710-8_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/e/lenovo-yoga-tab-tb710-7_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/e/lenovo-yoga-tab-tb710-6_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/e/lenovo-yoga-tab-tb710-9_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/e/lenovo-yoga-tab-tb710-11.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/e/lenovo-yoga-tab-tb710-10.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/e/lenovo-yoga-tab-tb710-12.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/e/lenovo-yoga-tab-tb710-13.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/e/lenovo-yoga-tab-tb710-14.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/e/lenovo-yoga-tab-tb710-15.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.1,
+      "resolution": "3200 x 2000 pixel (3.2K)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "Qualcomm® Snapdragon® 8 Gen 3",
+      "cpu": "6 nhân (1x Cortex-X4 3.3GHz + 4x Cortex-A720 2.95GHz + 1x Cortex-A520 2.1GHz)",
+      "gpu": "Qualcomm® Adreno™ 750",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android™ 15"
+    },
+    "battery": {
+      "capacity_mah": 8860
+    },
+    "design": {
+      "dimensions_mm": "255.52 × 165.84 × 6.2 mm",
+      "weight_g": 458.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "Wi-Fi® 7 (802.11be) 2x2"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-lenovo-yoga-tab-tb710.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": null
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Bluetooth Apple AirPods 2 | Chính hãng Apple Việt Nam",
+  "price": 2290000,
+  "sale_price": 3990000,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-airpods-2-ksp-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_169_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/i/airpods2-s-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/i/airpods2-s-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/i/airpods2-s-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/i/airpods2-s-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/i/airpods2-s-5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/i/airpods2-s-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/z/azaudio-tai-nghe-bluetooth-apple-airpod-2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/maxresdefault_1_2.jpg"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {
+      "earbuds_dimensions_mm": "16.5 x 18.0 x 40.5 mm",
+      "case_dimensions_mm": "44.3 x 21.3 x 53.5 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Hàng chính hãng Apple Việt Nam, Mới",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-airpods-2.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Apple",
+  "product_line": null
+}

@@ -1,0 +1,60 @@
+{
+  "name": "realme Narzo 50",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/a/xanh_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/v/fvdcs.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/a/xanh_5.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/v/fvdcs.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/a/xanh_5.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/v/fvdcs.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.6,
+      "resolution": "1080 x 2412 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Mediatek Helio G96 (12 nm)",
+      "cpu": "2x2,05 GHz Cortex-A76 & 6x2,0 GHz Cortex-A55",
+      "gpu": "Mali-G57 MC2",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Android 11, Realme UI 2.0"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164,1 x 75,5 x 8,5 mm",
+      "weight_g": 194.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.1, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 a / b / g / n / ac, băng tần kép, điểm phát sóng"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/realme-narzo-50.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": null
+}

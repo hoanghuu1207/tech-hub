@@ -1,0 +1,72 @@
+{
+  "name": "Xiaomi 14T Pro 12GB 512GB",
+  "price": 12990000,
+  "sale_price": 17670000,
+  "colors": [
+    "Xanh",
+    "Xám",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_14t_pro_12gb_512gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_14t_pro_12gb_512gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_14t_pro_12gb_512gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_14t_pro_12gb_512gb_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_14t_pro_12gb_512gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_14t_pro_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_14t_pro_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_14t_pro.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/3/234_10__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_14t_pro_14_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1220 x 2712 pixels",
+      "refresh_rate_hz": 144
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 9300+",
+      "cpu": "1 x Cortex-X4, tối đa 3,4GHz; 3 x Cortex-X4, lên đến 2,85GHz; 4 x Cortex-A720, lên đến 2.0GHz",
+      "gpu": "Immortalis-G720 MC12",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "160,4 x 75,1 x 8,39 mm",
+      "weight_g": 209.0,
+      "material": "Hợp kim"
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "Wi-Fi 7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-14t-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "XIAOMI 14 SERIES"
+}

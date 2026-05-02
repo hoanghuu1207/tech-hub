@@ -1,0 +1,65 @@
+{
+  "name": "Laptop HP Omnibook 5 AI 16-AF1046TU BZ7Q8PA",
+  "price": 26690000,
+  "sale_price": 28190000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_5_ai_16-af1046tu_bz7q8pa_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_5_ai_16-af1046tu_bz7q8pa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_5_ai_16-af1046tu_bz7q8pa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__10_20_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__8_18_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__8_18_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__10_16_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_866_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_omnibook_5_ai_16-af1046tu_bz7q8pa_-_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_omnibook_5_ai_16-af1046tu_bz7q8pa_-_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera IR HP True Vision FHD (màn trập riêng tư) với micrô mảng"
+    },
+    "performance": {
+      "chipset": "Intel AI Boost",
+      "cpu": "Intel Core Ultra 5 225U (12 lõi) - Max Turbo Frequency: 4. 80 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language 64-bit + Office Home 2024"
+    },
+    "battery": {
+      "capacity_wh": 59.16
+    },
+    "design": {
+      "dimensions_cm": "35.77 x 25.48 x 1.79 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.734,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "802.11 ax"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Màn hình cảm ứng",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-omnibook-5-ai-16-af1046tu-bz7q8pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "OMNIBOOK"
+}

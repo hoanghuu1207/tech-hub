@@ -1,0 +1,44 @@
+{
+  "name": "Tai nghe Bluetooth thể thao Edifier Comfo C",
+  "price": 1190000,
+  "sale_price": 1390000,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-edifier-comfo-c-18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-edifier-comfo-c-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-edifier-comfo-c-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-edifier-comfo-c-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-edifier-comfo-c-16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-edifier-comfo-c-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-edifier-comfo-c-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-edifier-comfo-c-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-edifier-comfo-c-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-edifier-comfo-c-8.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 7
+    },
+    "design": {
+      "earbuds_dimensions_mm": "29 x 17 x 30 mm",
+      "case_dimensions_mm": "67 x 30 x 55 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-the-thao-edifier-comfo-c.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Edifier",
+  "product_line": null
+}

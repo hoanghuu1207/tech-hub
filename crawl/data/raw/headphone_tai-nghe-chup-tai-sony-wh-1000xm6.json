@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai Sony WH-1000XM6",
+  "price": 10390000,
+  "sale_price": 11990000,
+  "colors": [
+    "Hồng Khói",
+    "Đen",
+    "Xanh",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-sony-wh-1000xm6-_1__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-sony-wh-1000xm6-.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wh-1000xm6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wh-1000xm6-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wh-1000xm6-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wh-1000xm6-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wh-1000xm6-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wh-1000xm6-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wh-1000xm6-7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wh-1000xm6-6.jpg"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 40
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-sony-wh-1000xm6.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sony",
+  "product_line": null
+}

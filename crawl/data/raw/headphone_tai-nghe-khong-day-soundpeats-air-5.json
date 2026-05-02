@@ -1,0 +1,45 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless SoundPeats Air 5",
+  "price": 1340000,
+  "sale_price": 2190000,
+  "colors": [
+    "Be",
+    "Đen",
+    "Trắng",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai_nghe_bluetooth_true_wireless_soundpeats_air_5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-5_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/-/1-1_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/0/10_1_1_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-5-_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-5-_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-5-_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_658_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai_nghe_bluetooth_true_wireless_soundpeats_air_5_1.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {
+      "earbuds_dimensions_mm": "56 x51 x 26mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-soundpeats-air-5.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Soundpeats",
+  "product_line": null
+}

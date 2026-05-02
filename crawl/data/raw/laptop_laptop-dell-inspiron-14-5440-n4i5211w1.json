@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Dell Inspiron 14 5440 N4I5211W1",
+  "price": 21890000,
+  "sale_price": 23690000,
+  "colors": [
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_inspiron_14_5440_n4i5211w1_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_inspiron_14_5440_n4i5211w1_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_inspiron_14_5440_n4i5211w1_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_29__9_9_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_25__7_12_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_26__6_18_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_24__3_12_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_28__8_7_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_27__7_10_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_744_1_67.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Có"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel CORE 5-120U",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home, Single Langua ge English + Office Home & Student 2021"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "314 x 226.15 x 18.07 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.67,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6 (WiFi 802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-inspiron-14-5440-n4i5211w1.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "INSPIRON"
+}

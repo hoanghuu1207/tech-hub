@@ -1,0 +1,57 @@
+{
+  "name": "Đồng hồ thông minh Suunto Race",
+  "price": 11990000,
+  "sale_price": 13490000,
+  "colors": [
+    "Xanh Đen",
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_suunto_race_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_suunto_race_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_suunto_race_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_182.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__8_41.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__7_42.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_24__3_54.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_22__4_65.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_23__3_60.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_25__7_52.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.43,
+      "resolution": "466 x 466 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 12.5 - 17.5 cm (dây đeo phụ kiện -21.5 cm)",
+      "weight_g": 83.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Khóa màn hình cảm ứng",
+      "Có thể nâng cấp phần mềm",
+      "Khóa nút khi tập thể dục",
+      "Lưu trữ bản đồ ngoại tuyến ngoài trời 16GB",
+      "La bàn",
+      "Độ cao GPS",
+      "Huấn luyện viên AI",
+      "Trainingpeaks miễn phí"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-suunto-race.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "SUUNTO",
+  "product_line": null
+}

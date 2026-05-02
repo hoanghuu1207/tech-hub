@@ -1,0 +1,64 @@
+{
+  "name": "Laptop ASUS ROG Zephyrus G14 GA403WW-QS145WS",
+  "price": 82490000,
+  "sale_price": 84990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_zephyrus_g14_ga403ww-qs145ws_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_zephyrus_g14_ga403ww-qs145ws_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_zephyrus_g14_ga403ww-qs145ws_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_103.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__81.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__78.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__75.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__58.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__69.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_7__40.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera hồng ngoại FHD 1080P dành cho Windows Hello"
+    },
+    "performance": {
+      "chipset": "AMD XDNA NPU up to 50TOPS",
+      "cpu": "AMD Ryzen AI 9 HX 370 2.0GHz (36MB Cache, up to 5.1GHz, 12 lõi, 24 luồng)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 2048,
+      "os": "Windows 11 Home + Microsoft Office Home 2024 + Microsoft 365 Basic"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "31.1 x 22.0 x 1.59 ~ 1.83 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.57,
+      "material": "Tấm nền Oled"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7(802.11be) (Triple band) 2*2"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7",
+      "MUX Switch"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-rog-zephyrus-g14-ga403ww-qs145ws-ryzen-ai-9.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "ROG"
+}

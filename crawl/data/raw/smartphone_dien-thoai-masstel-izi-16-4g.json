@@ -1,0 +1,60 @@
+{
+  "name": "Masstel izi 16 4G",
+  "price": 450000,
+  "sale_price": null,
+  "colors": [
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_5_2024-09-10_16-58-46.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-16-1-19.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-16-1_6__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-16-1-10.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-16-1_5__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/z/izi_16_black_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/z/izi_16_blue_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-masstel-izi-16-4g.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/p/h/photo_5_2024-09-10_16-58-46.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/masstel-16-1-19.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 1.77,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": "Unisoc UMS9117",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 1000
+    },
+    "design": {
+      "dimensions_mm": "112 x 47 x 14mm",
+      "weight_g": 68.8,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-masstel-izi-16-4g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Masstel",
+  "product_line": null
+}

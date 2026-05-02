@@ -1,0 +1,68 @@
+{
+  "name": "realme C33 4GB 64GB",
+  "price": 2190000,
+  "sale_price": 3990000,
+  "colors": [
+    "Xanh",
+    "Đen",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/s/1sdcsc_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/s/3sdcsc_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/s/2sdcsc_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/3/13_25.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_295.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_283.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_78.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_155.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_270.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_191.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.5,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Unisoc T612",
+      "cpu": "Octa-core, 12nm, lên đến 1.82GHz",
+      "gpu": "ARM Mali-G57",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "164,2 x 75,7 x 8,3 mm",
+      "weight_g": 187.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "2.4GHz"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/realme-c33-4gb-64gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": "C SERIES"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth nhét tai Tronsmart Sounfii R4",
+  "price": 290000,
+  "sale_price": 590000,
+  "colors": [
+    "Đen",
+    "Trắng be"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-nhet-tai-tronsmart-soundfii-r4_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-nhet-tai-tronsmart-soundfii-r4_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-nhet-tai-tronsmart-soundfii-r4_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-nhet-tai-tronsmart-soundfii-r4_12_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-nhet-tai-tronsmart-soundfii-r4_16_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-nhet-tai-tronsmart-soundfii-r4_18_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-nhet-tai-tronsmart-soundfii-r4_14_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-nhet-tai-tronsmart-soundfii-r4_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-nhet-tai-tronsmart-soundfii-r4_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-nhet-tai-tronsmart-soundfii-r4_11_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 7
+    },
+    "design": {
+      "earbuds_dimensions_mm": "63 x 29 x 50 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-nhet-tai-tronsmart-soundfii-r4.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Tronsmart",
+  "product_line": null
+}

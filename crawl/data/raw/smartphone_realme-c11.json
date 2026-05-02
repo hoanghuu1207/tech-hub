@@ -1,0 +1,67 @@
+{
+  "name": "Realme C11",
+  "price": 2790000,
+  "sale_price": null,
+  "colors": [
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c11_0001_layer_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c11_0000_layer_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c11_0003_layer_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c11_0002_layer_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/realme_c11_0003_layer_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/realme_c11_0001_layer_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/realme_c11_0000_layer_4.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/realme_c11_0003_layer_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/realme_c11_0002_layer_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/realme_c11_0001_layer_3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.5,
+      "resolution": "750 x 1560 pixel",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G35 (12 nm)",
+      "cpu": "Octa-core 2.3 GHz Cortex-A53",
+      "gpu": "PowerVR GE8320 (680 MHz)",
+      "ram_gb": 2,
+      "storage_gb": 32,
+      "os": "Android 10, realme UI 1.0"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164.4 x 75.9 x 9.1 mm",
+      "weight_g": 196.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE, aptX",
+      "wifi": "Wi-Fi 802.11 b/g/n, hotspot"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Bảo hành chính hãng 12 tháng tại trung tâm bảo hành ủy quyền, 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ NSX. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/realme-c11.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": null
+}

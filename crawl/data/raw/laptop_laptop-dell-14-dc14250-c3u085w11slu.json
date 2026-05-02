@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Dell 14 DC14250 C3U085W11SLU",
+  "price": 17990000,
+  "sale_price": null,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_14_dc14250_c3u085w11slu_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_14_dc14250_c3u085w11slu_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_14_dc14250_c3u085w11slu_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_136.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__106.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__100.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__95.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__63.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_7__53.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_8__42.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "1280 x 720 (HD) at 30 fps"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core 3 100U (12MB Cache, up to 4.7 GHz)",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "Windows 11 Home + Office Home 2024 + 1 năm sử dụng Microsoft 365 Basic (miễn phí 1 năm, hết phải gia hạn)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "314.00 x 226.15 x 16.69 - 18.07 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.65,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-14-dc14250-c3u085w11slu.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL 14"
+}

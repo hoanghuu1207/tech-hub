@@ -1,0 +1,69 @@
+{
+  "name": "OPPO Find X9 16GB 512GB",
+  "price": 25990000,
+  "sale_price": 26990000,
+  "colors": [
+    "Đen",
+    "Đỏ"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-x9-12gb-256gb-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-x9-12gb-256gb_5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-x9-12gb-256gb-3_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-x9-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-x9-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/9/x9-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/9/x9_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/9/x9_1-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/9/x9_1-6_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/9/x9_1-2_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.59,
+      "resolution": "1256 x 2760 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Dimensity 9500 5G",
+      "cpu": "8 nhân",
+      "gpu": "Arm Mali Drage MC12",
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "ColorOS 16, nền tảng Android 16"
+    },
+    "battery": {
+      "capacity_mah": 7025
+    },
+    "design": {
+      "dimensions_mm": "156.98 × 73.93 × 7.99 mm",
+      "weight_g": 203.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v6.0",
+      "wifi": "Wi-Fi 6, Wi-Fi 2.4G/5G, 802.11 a/b/g/n/ac/ax"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-oppo-find-x9-16gb-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "FIND X SERIES"
+}

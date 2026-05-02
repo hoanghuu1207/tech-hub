@@ -1,0 +1,51 @@
+{
+  "name": "Vòng đeo tay thông minh Xiaomi Mi Band 10 Gốm trắng",
+  "price": 1530000,
+  "sale_price": 1790000,
+  "colors": [
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_xiaomi_mi_band_10_g_m_tr_ng_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_xiaomi_mi_band_10_g_m_tr_ng_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_xiaomi_mi_band_10_g_m_tr_ng_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_272_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_219_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__9_96_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__8_86_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__8_101_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__9_135_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_169_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.72,
+      "resolution": "212 x 520 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "HyperOS 2.0"
+    },
+    "battery": {
+      "capacity_mah": 233
+    },
+    "design": {
+      "case_size_mm": "135–210mm",
+      "weight_g": 23.05,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Truyền phát nhịp tim",
+      "La bàn"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vong-deo-tay-thong-minh-xiaomi-mi-band-10-gom-trang.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

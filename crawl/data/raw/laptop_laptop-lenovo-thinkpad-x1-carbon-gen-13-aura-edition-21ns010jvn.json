@@ -1,0 +1,64 @@
+{
+  "name": "Laptop Lenovo ThinkPad X1 Carbon Gen 13 Aura Edition 21NS010JVN",
+  "price": 61290000,
+  "sale_price": 63190000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_x1_carbon_gen_13_aura_edition_21ns010jvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_x1_carbon_gen_13_aura_edition_21ns010jvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_x1_carbon_gen_13_aura_edition_21ns010jvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_42.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_10__44.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_41.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_44.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_81.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__92.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_34.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD 1080p + IR Discrete với màn trập camera"
+    },
+    "performance": {
+      "chipset": "Intel AI Boost, up to 47 TOPS",
+      "cpu": "Intel Core Ultra 7 258V, 8 lõi (4P + 4LPE) / 8 luồng, Max Turbo up to 4.8GHz, 12MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Pro, English (US) / English (UK)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "312.80 x 214.75 x 8.08 / 14.37 (trước/sau), 16.95 (tối đa) mm",
+      "weight_kg": 0.986,
+      "material": "Magiê"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4, vPro",
+      "wifi": "Intel Wi-Fi 7 BE201, 802.11be 2x2"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-x1-carbon-gen-13-aura-edition-21ns010jvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "THINKPAD"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Đồng hồ thông minh Black Shark GS3",
+  "price": 1390000,
+  "sale_price": 1990000,
+  "colors": [
+    "Xanh lá",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_black_shark_gs3_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_black_shark_gs3_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_black_shark_gs3_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/d/id_photos_-_gs3_black_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/d/id_photos_-_gs3_black_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/d/id_photos_-_gs3_black_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/d/id_photos_-_gs3_black_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/d/id_photos_-_gs3_black_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/d/id_photos_-_gs3_green_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/d/id_photos_-_gs3_green_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.43,
+      "resolution": "466 x 466 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 400
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 44.9,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Trợ lý giọng nói AI Shark GPT",
+      "Mặt đồng hồ AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-black-shark-gs3.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Black Shark",
+  "product_line": null
+}

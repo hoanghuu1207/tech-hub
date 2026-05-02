@@ -1,0 +1,62 @@
+{
+  "name": "iPad Pro chip M5 11 inch Wifi 1TB Nano | Chính hãng Apple Việt Nam",
+  "price": 49590000,
+  "sale_price": null,
+  "colors": [
+    "Bạc",
+    "Đen Không Gian"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_100_1_2__3_1_1_1_1_1_2_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_100_6__1_1_1_1_1_1_1_2_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-11-inch-5g_1__2_1_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-11-inch-5g_2__2_1_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-11-inch-5g_3__2_1_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-chip-m5-11-inch-5g-1tb-nano_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-chip-m5-11-inch-5g-1tb-nano-2_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-chip-m5-11-inch-5g-1tb-nano-1_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-chip-m5-11-inch-5g-1tb-nano-3_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-chip-m5-11-inch-5g-1tb-nano-4_4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "2420x1668 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple M5",
+      "cpu": "10 lõi với 4 lõi hiệu năng và 6 lõi tiết kiệm điện",
+      "gpu": "Apple GPU 10 lõi",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "iPadOS 26"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "249,7 x 177,5 x 5.3 mm",
+      "weight_g": 444.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi‑Fi 7 (802.11be) với 2x2 MIMO6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/ipad-pro-chip-m5-11-inch-wifi-1tb-nano.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD PRO"
+}

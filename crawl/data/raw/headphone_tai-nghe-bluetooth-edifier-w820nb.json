@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai Edifier W820NB",
+  "price": 690000,
+  "sale_price": 1440000,
+  "colors": [
+    "Xám",
+    "Trắng",
+    "Đen",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-w820nb-ksp-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edifier_w820nb_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edifier_w820nb_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edifier_w820nb_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edifier_w820nb_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edifier_w820nb_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-w820nb-02.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-w820nb-01.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/e/d/edifier_w820nb.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-w820nb-ksp-2.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 49
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-edifier-w820nb.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Edifier",
+  "product_line": null
+}

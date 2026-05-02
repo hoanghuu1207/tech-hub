@@ -1,0 +1,70 @@
+{
+  "name": "Samsung Galaxy A17 8GB 128GB",
+  "price": 4990000,
+  "sale_price": 5390000,
+  "colors": [
+    "Xám",
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-a17.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-a17-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-a17-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-a17-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-a17-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a17-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a17.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a17-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a17-17_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a17-15_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1080 x 2340 pixels (FullHD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G99",
+      "cpu": "8 nhân (2 nhân 2.2GHz & 6 nhân 2.0GHz)",
+      "gpu": "Mali-G57",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164.4 × 77.9 × 7.5 mm",
+      "weight_g": 190.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11 a/b/g/n/ac 2.4GHz+5GHz, WiFi Direct"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a17.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY A"
+}

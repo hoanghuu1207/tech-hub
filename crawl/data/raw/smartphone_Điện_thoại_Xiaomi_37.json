@@ -1,0 +1,67 @@
+{
+  "name": "Xiaomi Redmi 9A",
+  "price": 1850000,
+  "sale_price": 2490000,
+  "colors": [
+    "Xanh lá",
+    "Xanh dương",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi_9a_0000_layer_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi_9a_0004_background.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi_9a_0005_background.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi_9a_0002_layer_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi_9a_0001_layer_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/redmi_9a_0005_background.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/redmi_9a_0000_layer_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/redmi_9a_0004_background.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/redmi_9a_0005_background.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/redmi_9a_0002_layer_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.53,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G25 (12 nm)",
+      "cpu": "Octa-core 2.0 GHz Cortex-A53",
+      "gpu": "PowerVR GE8320 (650 MHz)",
+      "ram_gb": 2,
+      "storage_gb": 32,
+      "os": "Android 10, MIUI 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164.9 x 77.07 x 9.0mm",
+      "weight_g": 194.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 b/g/n, hotspot"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-redmi-9a.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

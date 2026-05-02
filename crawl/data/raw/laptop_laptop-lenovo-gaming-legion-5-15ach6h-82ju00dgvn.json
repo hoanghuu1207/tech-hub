@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Lenovo Gaming Legion 5 15ACH6H 82JU00DGVN",
+  "price": 36990000,
+  "sale_price": 40200000,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001_63923_laptop_lenovo_legion_5_7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0004_63923_laptop_lenovo_legion_5_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_63923_laptop_lenovo_legion_5_8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0003_63923_laptop_lenovo_legion_5_5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002_63923_laptop_lenovo_legion_5_6.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/_/5.7_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0001_63923_laptop_lenovo_legion_5_7.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0004_63923_laptop_lenovo_legion_5_4.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0000_63923_laptop_lenovo_legion_5_8.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0003_63923_laptop_lenovo_legion_5_5.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD 720p"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 7-5800H",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "Windows 11 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "362.56 x 260.61 x 22.5-25.75 mm",
+      "weight_kg": 2.4,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-gaming-legion-5-15ach6h-82ju00dgvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LEGION"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch GT 6 Pro",
+  "price": 6610000,
+  "sale_price": 8490000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_gt_6_pro_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_gt_6_pro_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_gt_6_pro_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/t/atum_pro_black_product_image_left_30_en_jpg_20250813_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/t/atum_pro_black_product_image_front_en_jpg_20250712_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/t/atum_pro_black_product_image_right_30_en_jpg_20250819_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/t/atum_pro_black_product_image_left_en_jpg_20250826_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/t/atum_pro_black_product_image_back_30_en_jpg_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_298_1__1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_gt_6_pro_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.47,
+      "resolution": "466 × 466 pixel\nPPI 317",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {
+      "usage_hours": 40
+    },
+    "design": {
+      "case_size_mm": "140 - 210 mm",
+      "weight_g": 54.7,
+      "material": "Cao Su"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-gt-6-pro.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

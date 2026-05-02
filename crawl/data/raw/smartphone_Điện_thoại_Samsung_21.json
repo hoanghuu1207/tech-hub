@@ -1,0 +1,67 @@
+{
+  "name": "Samsung Galaxy M55 12GB 256GB",
+  "price": 7990000,
+  "sale_price": 10990000,
+  "colors": [
+    "Xanh lá",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_m55_12gb_256gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_m55_12gb_256gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_m55_12gb_256gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_m55_12gb_256gb_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_m55_12gb_256gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-m55.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-m55_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_m55_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_m55.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-m55.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 50
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 7 Gen 1 (4 nm)",
+      "cpu": "1x2.4 GHz Cortex-A710 & 3x2.36 GHz Cortex-A710 & 4x1.8 GHz Cortex-A510",
+      "gpu": "Adreno 644",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163.9 x 76.5 x 7.8 mm",
+      "weight_g": 180.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2, A2DP, LE",
+      "wifi": "802.11 a/b/g/n/ac/6"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-m55.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY M"
+}

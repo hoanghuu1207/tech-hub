@@ -1,0 +1,75 @@
+{
+  "name": "iPhone 14 128GB | Chính hãng VN/A",
+  "price": 13990000,
+  "sale_price": 14990000,
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Xanh",
+    "Đỏ",
+    "Vàng",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-14_2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_blue_pdp_image_position-1b_blue_color_vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_blue_pdp_image_position-2_design_vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_blue_pdp_image_position-3_camera_vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_blue_pdp_image_position-4_lineup_vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_blue_pdp_image_position-5_colors__vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_blue_pdp_image_position-6_size_comparison__vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_blue_pdp_image_position-7_features_specs__vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_blue_pdp_image_position-8_accessory_vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_blue_pdp_image_position-9_typec_lightning_cable_vn.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "2532 x 1170 pixels",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A15 Bionic 6 nhân",
+      "cpu": "3.22 GHz",
+      "gpu": "Apple GPU 5 nhân",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "iOS 16"
+    },
+    "battery": {
+      "capacity_mah": 279
+    },
+    "design": {
+      "dimensions_mm": "146.7 x 71.5 x 7.8 mm",
+      "weight_g": 172.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3, A2DP, LE",
+      "wifi": "Wi-Fi MIMO, Dual-band (2.4 GHz/5 GHz), Wi-Fi 802.11 a/b/g/n/ac/ax, Wi-Fi hotspot"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-14.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 14 SERIES"
+}

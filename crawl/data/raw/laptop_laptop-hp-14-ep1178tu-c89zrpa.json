@@ -1,0 +1,63 @@
+{
+  "name": "Laptop HP 14-EP1178TU C89ZRPA",
+  "price": 18690000,
+  "sale_price": 19690000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_14-ep1178tu_c89zrpa_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_14-ep1178tu_c89zrpa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_14-ep1178tu_c89zrpa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_92.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__70.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__74.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__68.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__62.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_744_1_104.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_14-ep1178tu_c89zrpa_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera HP True Vision HD (màn trập riêng tư) với micrô mảng"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core 5 120U (10 cores) - Max Turbo Frequency: 5.00 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home Single Language 64-bit"
+    },
+    "battery": {
+      "capacity_wh": 41.04
+    },
+    "design": {
+      "dimensions_cm": "32.4 x 21.5 x 1.79 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.4,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "802.11 ax"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-14-ep1178tu-c89zrpa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "HP CƠ BẢN"
+}

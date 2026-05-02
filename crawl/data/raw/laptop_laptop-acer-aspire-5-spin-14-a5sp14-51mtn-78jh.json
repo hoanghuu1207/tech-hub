@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Acer Aspire 5 Spin 14 A5SP14-51MTN-78JH",
+  "price": 14990000,
+  "sale_price": 19990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_5_spin_14_a5s.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_5_spin_14_a5s_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_aspire_5_spin_14_a5s_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__3_12_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__3_14_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__4_12_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__4_13_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__5_11_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_846.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_acer_aspire_5_spin_14_a5s.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "1080p HD"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-1355U (3.7 Ghz, up to 5.0 GHz, 24MB cache)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Win 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "318.2 x 225.5 x 17.99 mm (W x D x H)",
+      "weight_kg": 1.6,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5",
+      "wifi": "Wi-Fi 6E, 802.11a/b/g/n/ac/ax"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Màn hình cảm ứng",
+      "Xoay gập 360 độ (2 in 1)"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-5-spin-14-a5sp14-51mtn-78jh.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "ASPIRE"
+}

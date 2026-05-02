@@ -1,0 +1,68 @@
+{
+  "name": "TECNO CAMON 30 8GB 256GB",
+  "price": 4590000,
+  "sale_price": 6380000,
+  "colors": [
+    "Nâu",
+    "Xanh dương",
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-camon-30-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-camon-30-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-camon-30-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-camon-30-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-camon-30-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-camon-30_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-camon-30-6_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-camon-30-9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-camon-30-10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-camon-30-11.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": "1080 x 2436 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 50
+    },
+    "performance": {
+      "chipset": "Helio G99 Ultimate(6nm)",
+      "cpu": "Lõi CPU: 8 lõi\nCông nghệ CPU: 6 nm\nTốc độ tối đa của CPU: 2.2 GHz\nKiến trúc CPU: 64-bit\nVi kiến trúc: 2x 2.2 GHz – Cortex-A76, 6x 2.0 GHz – Cortex-A55\nLoại bộ nhớ: LPDDR4X",
+      "gpu": "ARM Mali-G57 MC2",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 14 (Upside Down Cake)"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "165.3 x 75.3 x 7.7 mm",
+      "weight_g": null,
+      "material": "Mạ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11/b/a/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tecno-camon-30.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Tecno",
+  "product_line": "CAMON"
+}

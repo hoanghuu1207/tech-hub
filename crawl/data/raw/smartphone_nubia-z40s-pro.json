@@ -1,0 +1,61 @@
+{
+  "name": "Nubia Z40S Pro",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/v/dvf_5__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/v/dvf_7_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/v/dvf_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/v/dvf_3__3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/v/dvf_6_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/v/dvf_2__3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/v/dvf_4__1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/v/dvf_5__1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/v/dvf_7_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/v/dvf_4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.66,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 64
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Snapdragon 8+ Gen 1 (4 nm)",
+      "cpu": "1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510",
+      "gpu": "Adreno 730",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "161.3 x 74 x 8.1 mm",
+      "weight_g": 205.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11 a/b/g/n/ac/6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nubia-z40s-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nubia",
+  "product_line": "NUBIA"
+}

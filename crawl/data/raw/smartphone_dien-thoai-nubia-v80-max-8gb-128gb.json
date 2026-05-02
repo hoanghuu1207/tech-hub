@@ -1,0 +1,64 @@
+{
+  "name": "Nubia V80 Max 8GB 128GB",
+  "price": 3890000,
+  "sale_price": 3990000,
+  "colors": [
+    "Đen",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-v80-max-8gb-128gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-v80-max-8gb-128gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-v80-max-8gb-128gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-v80-max-8gb-128gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-v80-max-8gb-128gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-max-8gb-128gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-max-8gb-128gb-7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-max-8gb-128gb-14.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-max-8gb-128gb-26.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-max-8gb-128gb-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.9,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Unisoc T7250",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-nubia-v80-max-8gb-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nubia",
+  "product_line": "NUBIA"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Đồng hồ thông minh trẻ em Mykid 4G Lite V2",
+  "price": 1360000,
+  "sale_price": 1490000,
+  "colors": [
+    "Đen",
+    "Xanh dương",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_tr_em_mykid_4g_lite_v2_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_tr_em_mykid_4g_lite_v2_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_tr_em_mykid_4g_lite_v2_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_22__4_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_21__4_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__6_78.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_20__5_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_17__8_26.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_18__6_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_104.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.4,
+      "resolution": "240 x 240 Pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "ThreadX OS"
+    },
+    "battery": {
+      "capacity_mah": 680
+    },
+    "design": {
+      "case_size_mm": "Không công bố",
+      "weight_g": 52.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Video call",
+      "Gọi khẩn cấp SOS",
+      "Danh bạ",
+      "SMS",
+      "Tin nhắn thoại",
+      "Lịch sử cuộc gọi",
+      "Quay video",
+      "Ghi âm",
+      "Trình nghe nhạc",
+      "Chế độ lớp học",
+      "Kết bạn",
+      "Tìm kiếm thiết bị",
+      "Thiết lập vùng an toàn",
+      "Định vị và lịch sử hành trình",
+      "chặn số lạ"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-tre-em-mykid-4g-lite-v2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Viettel",
+  "product_line": null
+}

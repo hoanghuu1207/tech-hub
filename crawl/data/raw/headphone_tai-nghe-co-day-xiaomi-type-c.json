@@ -1,0 +1,39 @@
+{
+  "name": "Tai nghe có dây Xiaomi Type-C",
+  "price": 160000,
+  "sale_price": 190000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-co-day-xiaomi-type-c_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-co-day-xiaomi-type-c_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-co-day-xiaomi-type-c_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-co-day-xiaomi-type-c_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-co-day-xiaomi-type-c.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-co-day-xiaomi-type-c_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-co-day-xiaomi-type-c_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-co-day-xiaomi-type-c_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-co-day-xiaomi-type-c_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-co-day-xiaomi-type-c_7_.png"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {},
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-co-day-xiaomi-type-c.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thông minh Xiaomi Redmi Watch 5 Lite",
+  "price": 1070000,
+  "sale_price": 1390000,
+  "colors": [
+    "Vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_7__1_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_8__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_10__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_9__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_21__3_51.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_23__2_53.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_32__2_30.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_22__3_49.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_33__4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_25__2_44.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.96,
+      "resolution": "410 x 502 pixels, mật độ điểm ảnh 332 PPI",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Hãng không công bố",
+      "weight_g": null,
+      "material": "Nhựa TPU"
+    },
+    "special_features": [
+      "Chế độ màn hình AOD",
+      "150+ chế độ thể thao",
+      "Trợ lý giọng nói Alexa",
+      "Cuộc gọi khẩn cấp SOS",
+      "Loa và mic tích hợp",
+      "Che để tắt màn hình",
+      "Chạm để đánh thức màn hình"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-xiaomi-redmi-watch-5-lite.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

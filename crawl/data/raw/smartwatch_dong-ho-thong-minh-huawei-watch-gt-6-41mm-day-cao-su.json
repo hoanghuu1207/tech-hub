@@ -1,0 +1,49 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch GT 6",
+  "price": 4230000,
+  "sale_price": 5490000,
+  "colors": [
+    "Đen - 46mm",
+    "Tím - 41mm"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_gt_6_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_gt_6_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_gt_6_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/t/atum_black_product_image_front_en_jpg_20250712.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/t/atum_black_product_image_back_30_en_jpg_20250828.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/t/atum_black_product_image_right_cn_jpg_20250821.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/t/atum_black_product_image_left_cn_jpg_20250820.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/o/konsu_purple_product_image_front_en_jpg_20250718_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/o/konsu_purple_product_image_left_30_en_jpg_20250813_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/o/konsu_purple_product_image_right_30_en_jpg_20250819_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 46.0,
+      "resolution": "46mm: 466 × 466 pixel, PPI 317\n41mm: 466 × 466 pixel, PPI 352",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {
+      "usage_hours": 40
+    },
+    "design": {
+      "case_size_mm": "46mm: 140-210 mm\n41mm: 120-180 mm",
+      "weight_g": 51.3,
+      "material": "Cao Su"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-gt-6-41mm-day-cao-su.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

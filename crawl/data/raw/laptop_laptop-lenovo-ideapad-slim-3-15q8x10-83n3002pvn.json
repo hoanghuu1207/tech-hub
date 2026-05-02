@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Lenovo IdeaPad Slim 3 15Q8X10 83N3002PVN",
+  "price": 21490000,
+  "sale_price": 25990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_3_15q8x10_83n3002pvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_3_15q8x10_83n3002pvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_3_15q8x10_83n3002pvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__8_91.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__10_119.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__8_134.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__8_131.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__10_154.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__5_109.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__5_96.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.3,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD 720p tích hợp, có màn che bảo mật (Privacy Shutter)"
+    },
+    "performance": {
+      "chipset": "Qualcomm Hexagon NPU, up to 45 TOPS",
+      "cpu": "Snapdragon X X1-26-100, 8C, Max Turbo up to 3.0GHz, 30MB",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language (on ARM), English + Microsoft 365 Basic + Office Home 2024"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "343.4 x 239.5 x 16.9–17.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.55,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-15q8x10-83n3002pvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "IDEAPAD"
+}

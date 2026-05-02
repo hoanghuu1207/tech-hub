@@ -1,0 +1,61 @@
+{
+  "name": "OPPO Reno12 F 5G 12GB-256GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/rectangle_68_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__6_75.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__5_82.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_reno12_f_5g_12gb-256gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/2/22_5_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-m55dien-thoai-infinix-note-40-pro_8__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_reno12_f_5g_12gb-256gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_reno12_f_5g_12gb-256gb_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-m55dien-thoai-infinix-note-40-pro_9__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_reno12_f_5g_12gb-256gb_-_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Dimensity 6300 6nm",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-oppo-reno12-f-12gb-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "RENO SERIES"
+}

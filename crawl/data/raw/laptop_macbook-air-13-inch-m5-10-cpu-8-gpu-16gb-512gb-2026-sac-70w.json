@@ -1,0 +1,67 @@
+{
+  "name": "MacBook Air M5 13 inch 2026 10CPU 8GPU 16GB 512GB Sạc 70W | Chính hãng Apple Việt Nam",
+  "price": 30620000,
+  "sale_price": null,
+  "colors": [
+    "Ánh sao",
+    "Xanh da trời",
+    "Đêm xanh thẳm",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/1/01_6_4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/2/02_2__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macboo_4_10.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/made4e_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/ma2ce2_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/ma883f_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macboo_2_11.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macboo_1_11.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/mae7d7_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_13_17_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.6,
+      "resolution": "2560 x 1664 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Chip Apple M5\nCPU 10 lõi với 4 lõi siêu xử lý và 6 lõi tiết kiệm điện",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "macOS"
+    },
+    "battery": {
+      "usage_hours": 18
+    },
+    "design": {
+      "dimensions_cm": "1.13 x 30.41 cm x 21.5 cm (Dày x Rộng x Dài)",
+      "weight_kg": 1.23,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi-Fi 7 (802.11be)"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-air-13-inch-m5-10-cpu-8-gpu-16gb-512gb-2026-sac-70w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK AIR"
+}

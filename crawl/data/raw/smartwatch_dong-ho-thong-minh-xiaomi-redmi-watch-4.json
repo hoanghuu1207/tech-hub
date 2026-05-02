@@ -1,0 +1,49 @@
+{
+  "name": "Đồng hồ thông minh Xiaomi Redmi Watch 4",
+  "price": 1650000,
+  "sale_price": 2690000,
+  "colors": [
+    "Bạc",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_xiaomi_redmi_watch_4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_25__1_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/6/n65-black-front_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/6/n65-black-left_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/6/n65-black-frontright45_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/6/n65-black-right_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomiii.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_ng_h_th_ng_minh_xiaomi_redmi_watch_4_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_25__1_9.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/6/n65-black-front_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.97,
+      "resolution": "390 x 450 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 470
+    },
+    "design": {
+      "case_size_mm": "47,5 x 41,1 x 10,5mm",
+      "weight_g": 31.5,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-xiaomi-redmi-watch-4.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

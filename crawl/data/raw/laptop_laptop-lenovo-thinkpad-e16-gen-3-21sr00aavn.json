@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Lenovo ThinkPad E16 Gen 3 21SR00AAVN",
+  "price": 26490000,
+  "sale_price": 27990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_e16_gen_3_21sr00aavn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_e16_gen_3_21sr00aavn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_e16_gen_3_21sr00aavn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__104.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_47.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_119.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_8__72.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_7__87.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_62.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_66.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera lai FHD 1080p + hồng ngoại với màn che riêng tư"
+    },
+    "performance": {
+      "chipset": "Intel AI Boost, up to 11 TOPS",
+      "cpu": "Intel Core Ultra 5 135H, 14 lõi (4P + 8E + 2LPE) / 18 luòng, Max Turbo up to 4.6GHz, 18MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English (US) / English (UK)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "356 x 249 x 10.1/17.05 (trước/sau), 21.15 (tối đa) mm",
+      "weight_kg": 1.63,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Intel Wi-Fi 6E AX211, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e16-gen-3-21sr00aavn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "THINKPAD"
+}

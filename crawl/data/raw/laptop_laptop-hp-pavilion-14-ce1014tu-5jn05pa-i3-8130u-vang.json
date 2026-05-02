@@ -1,0 +1,57 @@
+{
+  "name": "Laptop HP Pavilion 14-ce1014TU 5JN05PA",
+  "price": 13490000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/5/d580cbde465a2493f63115cdf6af2acf.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/3/733329293eb51bca07e91da8ed203e66.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/f/6ff947232036cc11209e550d3b22bac5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/a/2a17f397deee3be8d7390791a324c137.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/5/d580cbde465a2493f63115cdf6af2acf.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/7/3/733329293eb51bca07e91da8ed203e66.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/f/6ff947232036cc11209e550d3b22bac5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/a/2a17f397deee3be8d7390791a324c137.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/5/d580cbde465a2493f63115cdf6af2acf.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/7/3/733329293eb51bca07e91da8ed203e66.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core I3 8145U 2.1 GHz",
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": 500,
+      "os": "Windows 10"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "32.4 x 22.76 x 1.99 cm",
+      "weight_kg": 1.53,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "802.11ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-pavilion-14-ce1014tu-5jn05pa-i3-8130u-vang.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "PAVILION"
+}

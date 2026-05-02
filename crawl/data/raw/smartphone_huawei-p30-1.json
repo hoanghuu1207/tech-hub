@@ -1,0 +1,60 @@
+{
+  "name": "Huawei P30",
+  "price": 17990000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-p30-600x600_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/l/elle_aurora_rear_rgb-500x500-_2__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/l/elle_aurora_rear_rgb-500x500_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/u/huawei-p30-600x600_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/e/l/elle_aurora_rear_rgb-500x500-_2__1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/e/l/elle_aurora_rear_rgb-500x500_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/u/huawei-p30-600x600_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/e/l/elle_aurora_rear_rgb-500x500-_2__1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/e/l/elle_aurora_rear_rgb-500x500_1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "1080 x 2340 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 40
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "HiSilicon Kirin 980",
+      "cpu": "8 nhân (2 nhân Cortex-A76 2,6GHz+ 2 nhân Cortex-A76 1,92GHz + 4 nhân Cortex-A55 1,8GHz)",
+      "gpu": "Mali-G76 MP10",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android v9.0 (Pie)"
+    },
+    "battery": {
+      "capacity_mah": 3650
+    },
+    "design": {
+      "dimensions_mm": "149.1 mm - 71.36 mm - 7.57 mm",
+      "weight_g": 165.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "Wi-Fi 802.11, b/g/n"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Cookies được sử dụng nhằm ghi nhận các thiết lập cần thiết để website hoạt động ổn định và hỗ trợ trải nghiệm mua sắm. Việc sử dụng cookies không làm gián đoạn trải nghiệm và giúp quá trình mua hàng diễn ra thuận tiện hơn.",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/huawei-p30-1.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Huawei",
+  "product_line": null
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thể thao định vị Suunto Race viền titanium",
+  "price": 14990000,
+  "sale_price": 16490000,
+  "colors": [
+    "Tím",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_1__16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_4__1_12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_3__13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_2__19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_9__7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_5__12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_6__1_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_10__7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_8__8.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.43,
+      "resolution": "466 x 466 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 12.5- 17.5 cm (dây đeo phụ kiện - 21.5 cm)",
+      "weight_g": 69.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Nhắc nhở sạc thông minh",
+      "Bản đồ địa hình ngoài trời và bản đồ vệ tinh",
+      "Bản đồ nhiệt toàn cầu cho 20 môn thể thao",
+      "Chia sẻ bài tập lên mạng xã hội",
+      "Đánh giá và bình luận về bài tập",
+      "Bản đồ ngoại tuyến miễn phí",
+      "Huấn luyện viên AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-suunto-race-vien-titanium.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "SUUNTO",
+  "product_line": null
+}

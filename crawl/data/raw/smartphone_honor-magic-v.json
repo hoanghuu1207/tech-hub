@@ -1,0 +1,61 @@
+{
+  "name": "Honor Magic V",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s88f888egr78_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s88f888egr78_6_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s88f888egr78_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s88f888egr78.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s88f888egr78_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/8/s88f888egr78_4_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/8/s88f888egr78_5_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/8/s88f888egr78_6_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/8/s88f888egr78_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/8/s88f888egr78.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 7.9,
+      "resolution": "1984 x 2272 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 42
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 1 (4 nm)",
+      "cpu": "1 × Cortex-X2 2.995GHz + 3 × Cortex-A710 2.496GHz + 4 × Cortex-A510 1.785GHz",
+      "gpu": "Adreno 730",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 4750
+    },
+    "design": {
+      "dimensions_mm": "Khi mở ra: 160.4 x 141.1 x 6.7 mm\nKhi gập lại: 160,4 x 72,7 x 14,3 mm",
+      "weight_g": 288.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11 a/b/g/n/ac/6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/honor-magic-v.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

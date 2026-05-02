@@ -1,0 +1,60 @@
+{
+  "name": "Laptop Asus VivoBook A515EP-BQ194T",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-vivobook-a515ep-i5-bq194t-2-org.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-vivobook-a515ep-i5-bq194t-4-org.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-vivobook-a515ep-i5-bq194t-1-org.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-vivobook-a515ep-i5-bq194t-5-org.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-vivobook-a515ep-i5-bq194t-6-org.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/s/asus-vivobook-a515ep-i5-bq194t-2-org.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/s/asus-vivobook-a515ep-i5-bq194t-4-org.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/s/asus-vivobook-a515ep-i5-bq194t-1-org.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/s/asus-vivobook-a515ep-i5-bq194t-5-org.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/s/asus-vivobook-a515ep-i5-bq194t-6-org.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5 Tiger Lake - 1135G7",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359 x 235 x 17.9 mm",
+      "weight_kg": 1.8,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-a515ep-bq194t.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK"
+}

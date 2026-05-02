@@ -1,0 +1,35 @@
+{
+  "name": "Tai nghe Sony MH1C",
+  "price": 550000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/_/0_4_11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_27_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_9_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/0/_/0_4_11.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_27_9.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_9_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/0/_/0_4_11.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_27_9.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_9_2.png"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {},
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/sony-mh1c.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sony",
+  "product_line": null
+}

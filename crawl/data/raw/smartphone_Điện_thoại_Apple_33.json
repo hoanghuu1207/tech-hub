@@ -1,0 +1,73 @@
+{
+  "name": "iPhone 15 Pro 256GB | Chính hãng VN/A",
+  "price": 24990000,
+  "sale_price": 31990000,
+  "colors": [
+    "Titan Trắng",
+    "Titan Tự Nhiên",
+    "Titan Xanh",
+    "Titan Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-256gb.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-256gb_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-256gb_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-256gb_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-256gb_6_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-256gb_7_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-256gb_8_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-256gb_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-256gb_9_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-256gb.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "2556 x 1179 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A17 Pro 6 nhân",
+      "cpu": "CPU 6 lõi mới với 2 lõi hiệu năng và 4 lõi hiệu suất",
+      "gpu": "GPU 6 nhân mới",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "iOS 17"
+    },
+    "battery": {
+      "capacity_mah": 3274
+    },
+    "design": {
+      "dimensions_mm": "146,6 x 70,6 x 8,25 mm",
+      "weight_g": 187.0,
+      "material": "Titanium"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": "Wi‑Fi 6E (802.11ax)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-15-pro-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 15 SERIES"
+}

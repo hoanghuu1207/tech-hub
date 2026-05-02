@@ -1,0 +1,60 @@
+{
+  "name": "Huawei P30 Lite",
+  "price": 7490000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1232-500x500_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1233-500x500_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1231-500x500_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/1232-500x500_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/1233-500x500_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/1231-500x500_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/1232-500x500_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/1233-500x500_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/1231-500x500_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.15,
+      "resolution": "1080 x 2312 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 24
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Kirin 710",
+      "cpu": "8 nhân (4 x Cortex-A73 2,2GHz + 4 x Cortex-A53 1,7GHz)",
+      "gpu": "Mali-G51 1GHz",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android v9.0 (Pie)"
+    },
+    "battery": {
+      "capacity_mah": 4300
+    },
+    "design": {
+      "dimensions_mm": "72,7mm - 152,9mm - 7,4mm",
+      "weight_g": 159.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "BT4.2, BLE, aptX, HWA và aptX HD",
+      "wifi": "2.4G: 802.11b/g/n 5G: 802.11 a/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Cookies được sử dụng nhằm ghi nhận các thiết lập cần thiết để website hoạt động ổn định và hỗ trợ trải nghiệm mua sắm. Việc sử dụng cookies không làm gián đoạn trải nghiệm và giúp quá trình mua hàng diễn ra thuận tiện hơn.",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/huawei-p30-lite-1.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Huawei",
+  "product_line": null
+}

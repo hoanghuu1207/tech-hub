@@ -1,0 +1,57 @@
+{
+  "name": "Laptop Lenovo Ideapad Slim 3 15IML05 81WB01DYVN",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_3_15iml05_81wb01dyvn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0004_45183_ideapad_slim_3i_15_grey_ha_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0003_45183_ideapad_slim_3i_15_grey_ha_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001_45183_ideapad_slim_3i_15_grey_ha.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_lenovo-ideapad-3-15iml05-i3-81wb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002_45183_ideapad_slim_3i_15_grey_ha_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_3_15iml05_81wb01dyvn.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_3_15iml05_81wb01dyvn.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0004_45183_ideapad_slim_3i_15_grey_ha_3_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0003_45183_ideapad_slim_3i_15_grey_ha_2_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD 720p"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i3-10110U, 2 nhân 4 luồng, 2.10 GHz (tối đa 4.1 GHz), 4 MB",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 256,
+      "os": "Windows 11 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "362.2 x 253.4 x 19.9 mm",
+      "weight_kg": 1.7,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11ac, 2x2"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-15iml05-81wb01dyvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "IDEAPAD"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Đồng hồ định vị trẻ em Masstel Super Hero",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_nh_v_tr_em.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_355.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_334.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_302.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_280.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_248.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_219.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_nh_v_tr_em.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_355.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_334.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 45.0,
+      "resolution": "240 x 240 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 440
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": null,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Nghe gọi trên đồng hồ",
+      "Chặn số lạ gọi đến",
+      "Chụp ảnh",
+      "Kết nối bạn bè",
+      "Kể truyện",
+      "Thay mặt đồng hồ",
+      "Trò chơi",
+      "Định vị trẻ em",
+      "Đồng hồ bấm giờ",
+      "Đồng hồ đếm ngược",
+      "Lộ trình đường đi"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-dinh-vi-tre-em-masstel-super-hero.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Masstel",
+  "product_line": null
+}

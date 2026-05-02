@@ -1,0 +1,57 @@
+{
+  "name": "Mac mini M2 Pro 2023 (10 CPU - 16 GPU 16GB 512GB)",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/mac-mini-3_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/mac-mini-1_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/mac-mini-m2-pro-4-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/mac-mini-2_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/mac-mini-3_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/mac-mini-1_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/mac-mini-m2-pro-4-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/mac-mini-2_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/mac-mini-3_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/mac-mini-1_1_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": null,
+      "resolution": null,
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": null,
+      "weight_kg": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/mac-mini-m2-pro-20231.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": null
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Tai nghe không dây HUAWEI FreeClip 2",
+  "price": 3990000,
+  "sale_price": 4490000,
+  "colors": [
+    "Hồng",
+    "Trắng",
+    "Đen",
+    "Xanh dương",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freeclip_2_12_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freeclip_2_14_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freeclip_2_39_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freeclip_2_20_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freeclip_2_13_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freeclip_2_15_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freeclip_2_16_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freeclip_2_17_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freeclip_2_19_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freeclip_2_18_.png"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {},
+    "connectivity": {
+      "bluetooth": "6.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-huawei-freeclip-2.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

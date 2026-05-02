@@ -1,0 +1,71 @@
+{
+  "name": "Infinix Note 40 Pro 8GB 256GB",
+  "price": 5790000,
+  "sale_price": 5990000,
+  "colors": [
+    "Vàng",
+    "Xám",
+    "Đen",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/n/infinix_note_40_pro_8gb_256gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/n/infinix_note_40_pro_8gb_256gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/n/infinix_note_40_pro_8gb_256gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/n/infinix_note_40_pro_8gb_256gb_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/n/infinix_note_40_pro_8gb_256gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-infinix-note-40-pro_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-m55dien-thoai-infinix-note-40-pro.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/0/108_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-m55dien-thoai-infinix-note-40-pro_4_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": "1080 x 2436 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G99 Ultimate",
+      "cpu": "2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55",
+      "gpu": "Mali-G57 MC2",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "XOS 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164.35 x 74.6 x 7.75 mm",
+      "weight_g": 190.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11 (a/b/g/n/ac)\n2.4/5GHz"
+    },
+    "special_features": [
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-infinix-note-40-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Infinix",
+  "product_line": null
+}

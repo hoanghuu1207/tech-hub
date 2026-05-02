@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Lenovo Yoga Slim 7 14AGP11 83QS001DVN",
+  "price": 37990000,
+  "sale_price": null,
+  "colors": [
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_4__22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_6__19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__32.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__32.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__34.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_55.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_5__21.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_9__9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_11__4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_10__5.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "AMD Ryzen AI, up to 50 TOPS",
+      "cpu": "AMD Ryzen AI 7 445 (6C / 12T, 2 / 4.6GHz, 6MB L2 / 8MB L3)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English + Microsoft 365 Basic + Office Home 2024"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "312 x 221 x 13.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.15,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7, 802.11be 2x2"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-yoga-slim-7-14agp11-83qs001dvn-ryzen-ai-7.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "YOGA"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Tecno Camon 19",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/s/csca.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/d/cdef.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/z/x/zxanh.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/s/csca.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/d/cdef.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/z/x/zxanh.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/s/csca.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/d/cdef.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/z/x/zxanh.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.8,
+      "resolution": "2460x1080 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 64
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G85 (12nm)",
+      "cpu": "2x2,0 GHz Cortex-A75 & 6x1,8 GHz Cortex-A55",
+      "gpu": "Mali-G52 MC2",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 12, HIOS 8.6"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "166,6 x 74,4 x 8,3 mm",
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Có",
+      "wifi": null
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tecno-camon-19.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Tecno",
+  "product_line": null
+}

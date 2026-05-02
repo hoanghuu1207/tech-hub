@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Dell 14 DC14255 DC4AI5278W1",
+  "price": 23290000,
+  "sale_price": null,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_14_dc14255_dc4ai5278w1_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_14_dc14255_dc4ai5278w1_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_14_dc14255_dc4ai5278w1_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_127.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__98.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__96.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__91.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__60.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_7__51.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_8__41.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Có"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen AI 5 330 (50 TOPS NPU, 4 lõi, up to 4.5 Ghz)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home, Single Language English + Office Home & Student 2024"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "314 x 226.15 x 18.07 mm",
+      "weight_kg": 1.67,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-14-dc14255-dc4ai5278w1-ryzen-ai-5.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL 14"
+}

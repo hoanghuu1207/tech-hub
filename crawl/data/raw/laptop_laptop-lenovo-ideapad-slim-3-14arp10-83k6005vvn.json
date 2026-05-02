@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Lenovo IdeaPad Slim 3 14ARP10 83K6005VVN",
+  "price": 18090000,
+  "sale_price": 22990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_3_14arp10_83k6005vvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_3_14arp10_83k6005vvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_3_14arp10_83k6005vvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__47.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__44.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_51.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__45.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__40.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__43.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_744_1_91.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD 720p với Màn trập camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 5 7535HS (6 lõi / 12 luồng, 3.3 / 4.55GHz, 3MB L2 / 16MB L3)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "314.4 x 222.1 x 16.9-17.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.39,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-14arp10-83k6005vvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "IDEAPAD"
+}

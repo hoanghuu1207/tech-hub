@@ -1,0 +1,65 @@
+{
+  "name": "Xiaomi POCO F8 Ultra 12GB 256GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f8-ultra.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f8-ultra-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f8-ultra.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f8-ultra.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f8-ultra-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f8-ultra.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f8-ultra-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.9,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Snapdragon® 8 Elite Gen 5",
+      "cpu": "8 lõi, 2 x Prime Core, lên đến 4,6GHz\n6 x Performance Core, lên đến 3,6GHz",
+      "gpu": "Adreno™",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Xiaomi HyperOS 3"
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "design": {
+      "dimensions_mm": "163,33 × 77,82 × 7,9 mm (màu đen), 8.3 mm (màu xanh demin)",
+      "weight_g": 218.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "6.0",
+      "wifi": "Wi-Fi 7 / Wi-Fi 6 / Wi-Fi 5 / Wi-Fi 4, hỗ trợ Multi-Link Operation, 2x2 MIMO, 8x8 Sounding MU-MIMO, Wi-Fi Direct, Miracast"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-poco-f8-ultra.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "POCO SERIES"
+}

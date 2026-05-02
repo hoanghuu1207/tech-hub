@@ -1,0 +1,70 @@
+{
+  "name": "iPhone 17 Pro 1TB | Chính hãng",
+  "price": 46290000,
+  "sale_price": 47990000,
+  "colors": [
+    "Cam Vũ Trụ",
+    "Xanh Đậm",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_17_pro_512gb_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-1_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-2_1_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-3_1_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-4_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-5_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-6_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-7_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-pro-8_1_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.3,
+      "resolution": "2622 x 1206 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 18
+    },
+    "performance": {
+      "chipset": "Chip A19 Pro",
+      "cpu": "CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+      "gpu": "GPU 6 lõi với Neural Accelerator",
+      "ram_gb": null,
+      "storage_gb": 1024,
+      "os": "iOS 26"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "150 x 71.9 x 8.75 mm",
+      "weight_g": 204.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi‑Fi 7 (802.11be) với 2x2 MIMO11"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-17-pro-1tb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 17 SERIES"
+}

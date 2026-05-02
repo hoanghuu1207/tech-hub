@@ -1,0 +1,44 @@
+{
+  "name": "Tai nghe Bluetooth Soundpeats Clear Pods",
+  "price": 490000,
+  "sale_price": 790000,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai_nghe_bluetooth_soundpeals_clear_pods.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1326.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1322_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1325.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_117_1_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai_nghe_bluetooth_soundpeals_clear_pods.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_1326.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_1322_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/image_1325.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai_nghe_bluetooth_soundpeals_clear_pods.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 7
+    },
+    "design": {
+      "earbuds_dimensions_mm": "21 x 24 x 33 mm",
+      "case_dimensions_mm": "57 x 30 x 50.2 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-soundpeats-clear-pods.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Soundpeats",
+  "product_line": null
+}

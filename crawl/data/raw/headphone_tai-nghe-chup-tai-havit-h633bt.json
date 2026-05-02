@@ -1,0 +1,42 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai Havit H633BT",
+  "price": 330000,
+  "sale_price": 590000,
+  "colors": [
+    "Vàng Beige",
+    "Đen",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-havit-h633bt-ksp-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit_h633bt_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit_h633bt_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit_h633bt_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit_h633bt_5.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_16_1__1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai-nghe-chup-tai-havit-h633bt-ksp-1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/a/havit_h633bt_3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/a/havit_h633bt_4.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/a/havit_h633bt_2.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 22
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.1",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-havit-h633bt.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Havit",
+  "product_line": null
+}

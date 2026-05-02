@@ -1,0 +1,70 @@
+{
+  "name": "Điện thoại Nubia Z70 Ultra 5G 12GB 256GB",
+  "price": 16990000,
+  "sale_price": 19990000,
+  "colors": [
+    "Vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-z70-ultra-5g-12gb-256gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-z70-ultra-5g-12gb-256gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-z70-ultra-5g-12gb-256gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-z70-ultra-5g-12gb-256gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-z70-ultra-5g-12gb-256gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-z70s-ultra-5g_11__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-z70s-ultra-5g_12__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-z70s-ultra-5g_13__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-z70s-ultra-5g_17__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-z70s-ultra-5g_16__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.85,
+      "resolution": null,
+      "refresh_rate_hz": 144
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite (3 nm)",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 6150
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "WiFi 6, WiFi 802.11 a/b/g/n/ac/ax (2x2 MIMO)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-zte-z70-ultra-12gb-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nubia",
+  "product_line": "NUBIA"
+}

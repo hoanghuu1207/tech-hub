@@ -1,0 +1,65 @@
+{
+  "name": "Samsung Galaxy Tab S10 Lite 5G",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-lite-5g.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-lite-5g-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-lite-5g-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-lite-5g-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-lite-5g-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_tab_s10_lite_5g_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-lite-5g.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-lite-5g-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-lite-5g-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-lite-5g-3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 10.9,
+      "resolution": null,
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Exynos 1380 (5 nm)",
+      "cpu": "Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G68 MP5",
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": "Android 15, One UI 7"
+    },
+    "battery": {
+      "capacity_mah": 8000
+    },
+    "design": {
+      "dimensions_mm": "254.3 x 165.8 x 6 mm",
+      "weight_g": 497.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Nhận diện khuôn mặt",
+      "Đi kèm bút cảm ứng"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-samsung-galaxy-tab-s10-lite-5g.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Laptop MSI Vector 16 HX AI A2XWHG-010VN",
+  "price": 62990000,
+  "sale_price": 67490000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_vector_16_hx_ai_a2xwhg-010vn_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_vector_16_hx_ai_a2xwhg-010vn_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_vector_16_hx_ai_a2xwhg-010vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_160.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_17__8_76.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_18__6_60.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_121.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_19__4_62.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_6_55.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_msi_vector_16_hx_ai_a2xwhg-010vn_-_1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 pixels (2.5K)",
+      "refresh_rate_hz": 240,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Loại IR FHD (30fps@1080p) với HDR; Giảm nhiễu 3D+ (3DNR+)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core Ultra 7 255HX với Intel AI Boost (NPU), 20 lõi (8 P-cores + 12 E-cores), 20 luồng, 36MB cache, Max Turbo Frequency 5.2 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "357 x 284 x 22.20-28.55 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.7,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.3",
+      "wifi": "Intel Wi-Fi 6E AX211,"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-vector-16-hx-ai-a2xwhg-010vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "GAMING"
+}

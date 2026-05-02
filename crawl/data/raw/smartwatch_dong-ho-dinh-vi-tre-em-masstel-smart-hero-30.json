@@ -1,0 +1,54 @@
+{
+  "name": "Đồng hồ định vị trẻ em Masstel Smart Hero 30",
+  "price": 1950000,
+  "sale_price": 2190000,
+  "colors": [
+    "Đen",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_nh_v_tr_em_masstel_smart_hero_30_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_nh_v_tr_em_masstel_smart_hero_30_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_nh_v_tr_em_masstel_smart_hero_30_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__4_181.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_208.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__9_21.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_21__4_81.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_162.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_19__5_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_17__8_113.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.8,
+      "resolution": "240 x 296 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 700
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "special_features": [
+      "Gọi khẩn cấp",
+      "Cài đặt vùng an toàn",
+      "Gọi video",
+      "Chế độ lớp học"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-dinh-vi-tre-em-masstel-smart-hero-30.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Masstel",
+  "product_line": null
+}

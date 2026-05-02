@@ -1,0 +1,56 @@
+{
+  "name": "Laptop Dell Vostro 3405 70227396",
+  "price": 15490000,
+  "sale_price": 16290000,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001_18338-dell-vostro-3405-70227396-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_18338-dell-vostro-3405-70227396-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002_18338-dell-vostro-3405-70227396-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0001_18338-dell-vostro-3405-70227396-3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0000_18338-dell-vostro-3405-70227396-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0002_18338-dell-vostro-3405-70227396-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0001_18338-dell-vostro-3405-70227396-3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0000_18338-dell-vostro-3405-70227396-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0002_18338-dell-vostro-3405-70227396-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen™ R7-3700U Processor, 2.30GHz up to 4.00GHz, 4 nhân 8 luồng, 4MB Cache",
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": 512,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "328.70 mm x 239.50 mm x 18.10 mm ~ 19.90 mm",
+      "weight_kg": 1.59,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "WiFi 802.11ac 1x1"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-vostro-3405.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "VOSTRO"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Laptop HP ProBook 450 G7 9GQ40PA",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002_screenshot_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_uynx-hhofs_z6cuujuat6tsbtmiz_nz.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001__v1mhmppyinouy39_qgzou5lgl1f7sfc.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0003_screenshot_3_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0002_screenshot_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0000_uynx-hhofs_z6cuujuat6tsbtmiz_nz.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0001__v1mhmppyinouy39_qgzou5lgl1f7sfc.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0003_screenshot_3_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0002_screenshot_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0000_uynx-hhofs_z6cuujuat6tsbtmiz_nz.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-10210U 1.60 GHz 4.20 GHz, 6MB",
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": 256,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "36.50 x 25.68 x 1.91 cm",
+      "weight_kg": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11ax (Wifi 6)"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-probook-450-g7.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "PROBOOK"
+}

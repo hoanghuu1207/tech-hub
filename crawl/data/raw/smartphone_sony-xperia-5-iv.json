@@ -1,0 +1,61 @@
+{
+  "name": "Sony Xperia 5 IV",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_245.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_235.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_180.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_218.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_124.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_84.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_152.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/9/_/9_43.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/0/10_30.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/1/11_31_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Qualcomm SM8450 Snapdragon 8 thế hệ 1 (4 nm)",
+      "cpu": "1x3.00 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510",
+      "gpu": "Adreno 730",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "156 x 67 x 8,2 mm",
+      "weight_g": 172.0,
+      "material": "Kính"
+    },
+    "connectivity": {
+      "bluetooth": "5.2, A2DP, aptX HD, LE",
+      "wifi": "Wi-Fi 802.11 a / b / g / n / ac / 6e, ba băng tần, Wi-Fi Direct, DLNA, điểm phát sóng"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/sony-xperia-5-iv.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Sony",
+  "product_line": null
+}

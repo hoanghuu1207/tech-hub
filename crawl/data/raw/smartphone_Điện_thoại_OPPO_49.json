@@ -1,0 +1,67 @@
+{
+  "name": "OPPO A57 4GB 128GB",
+  "price": 3790000,
+  "sale_price": 4990000,
+  "colors": [
+    "Vàng",
+    "Đen",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/0/2041033240.jpeg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a57.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/combo_a57_-_blue_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/j/i/jikb212d9xgatxgg_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/d/3d1x6kwpyxldb2bh_1__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/e/2e_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/d/2d_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/c/2c_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/b/2b_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a57-4g-600x600_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.56,
+      "resolution": "720 x 1612 (HD+)",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G35",
+      "cpu": "2x2,4 GHz Cortex-A76 & 6x2,0 GHz Cortex-A55",
+      "gpu": "IMG GE8320 @ 680 MHz",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "ColorOS 12.1, nền tảng Android 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163.7 x 75 x 7.99 mm",
+      "weight_g": 187.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2, A2DP, LE, aptX HD",
+      "wifi": "802.11 ac/a/b/g/n/"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-a57-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": null
+}

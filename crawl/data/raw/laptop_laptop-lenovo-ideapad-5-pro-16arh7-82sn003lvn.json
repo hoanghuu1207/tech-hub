@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Lenovo Ideapad 5 Pro 16ARH7",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_5_pro_16arh7_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_189.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_172.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_165.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_151.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_130.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_94_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_68_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_lenovo_ideapad_5_pro_16arh7_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_189.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 (WQXGA)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "ToF, FHD 1080p & IR"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 5 6600HS Creator Edition",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "356 x 251 x 16,9 mm",
+      "weight_kg": 1.95,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "2x2 + BT5.2",
+      "wifi": "Wi-Fi 6 11ax"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-5-pro-16arh7-82sn003lvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "IDEAPAD"
+}

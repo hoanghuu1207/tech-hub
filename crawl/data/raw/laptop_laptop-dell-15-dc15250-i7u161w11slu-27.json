@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Dell 15 DC15250 I7U161W11SLU-27",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15250_i7u161w11slu-27_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15250_i7u161w11slu-27_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15250_i7u161w11slu-27_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_170.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_101.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_109.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_76.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__133.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_92.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_83.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "1280 x 720 (HD) at 30 fps"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-1355U (12 MB cache, 10 lõi, 12 luồng, up to 5.00 GHz)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home + Office Home 2024 + 1 năm sử dụng Microsoft 365 Basic (miễn phí 1 năm, hết phải gia hạn)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "235.56 x 358.50 x 16.96 - 18.99 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.9,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-15-dc15250-i7u161w11slu-27.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL 15"
+}

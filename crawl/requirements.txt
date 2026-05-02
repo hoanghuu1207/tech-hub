@@ -1,0 +1,7 @@
+playwright
+beautifulsoup4
+aiohttp
+psycopg2-binary
+sqlalchemy
+python-dotenv
+tqdm

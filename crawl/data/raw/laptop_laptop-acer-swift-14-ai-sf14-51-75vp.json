@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Acer Swift 14 AI SF14-51-75VP",
+  "price": 37790000,
+  "sale_price": 39990000,
+  "colors": [
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_swift_14_ai_sf14-51-75vp_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_swift_14_ai_sf14-51-75vp_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_swift_14_ai_sf14-51-75vp_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__7_20_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_10_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__6_11_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__7_14_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__8_11_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__2_174_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__2_163_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": 90,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Độ phân giải 2560 x 1440\nVideo QHD 1440p ở tốc độ 30 khung hình/giây với Giảm nhiễu theo thời gian"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core Ultra 7 258V (8 lõi / 8 luồng, 3.7 GHz - 4.8 GHz, 12 MB Intel Smart Cache)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "312.4 x 221.2 x 9.7 - 15.95 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.26,
+      "material": "Vỏ nhựa - nắp lưng kim loại"
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "Killer Wi-Fi 7 Wireless LAN 802.11 a/b/g/n/ac/ax/be"
+    },
+    "special_features": [
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-swift-14-ai-sf14-51-75vp.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "ACER SWIFT"
+}

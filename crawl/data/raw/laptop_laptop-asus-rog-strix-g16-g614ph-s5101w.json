@@ -1,0 +1,62 @@
+{
+  "name": "Laptop ASUS ROG Strix G16 G614PH-S5101W",
+  "price": 44990000,
+  "sale_price": 47990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_strix_g16_g614ph-s5101w_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_strix_g16_g614ph-s5101w_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_rog_strix_g16_g614ph-s5101w_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__72.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__76.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__64.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_14__8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_8__27.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_10__23.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 (WQXGA)",
+      "refresh_rate_hz": 240,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "1080P FHD camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 9 8940HX 2.4GHz (80MB Cache, up to 5.3GHz, 16 lõi, 32 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.4 x 26.4 x 2.26 ~ 3.04 cm (Dài x Rộng x Dày)",
+      "weight_kg": 2.5,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E(802.11ax) (Triple band) 2*2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "MUX Switch"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g614ph-s5101w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "ROG"
+}

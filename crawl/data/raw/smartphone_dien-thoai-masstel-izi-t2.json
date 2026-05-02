@@ -1,0 +1,60 @@
+{
+  "name": "Masstel izi T2 4G",
+  "price": 500000,
+  "sale_price": null,
+  "colors": [
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel_izi_t2_4g_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel_izi_t2_4g_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel_izi_t2_4g_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-izi-t2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-izi-t2_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-izi-t2_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-izi-t2_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-masstel-izi-t2_3__1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-masstel-izi-t2_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/masstel_izi_t2_4g_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 2.4,
+      "resolution": "240 x 320 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": "Unisoc T107",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 1800
+    },
+    "design": {
+      "dimensions_mm": "131.4 x 54 x 13.8 mm",
+      "weight_g": 114.3,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Có",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-masstel-izi-t2.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Masstel",
+  "product_line": null
+}

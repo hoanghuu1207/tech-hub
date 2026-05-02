@@ -1,0 +1,69 @@
+{
+  "name": "Xiaomi 17 Ultra 5G 16GB 1TB",
+  "price": 33990000,
+  "sale_price": 42990000,
+  "colors": [
+    "Xanh lá",
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-17-ultra_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-17-ultra-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-17-ultra-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-17-ultra_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-17-ultra-4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-17-ultra-den_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-17-ultra-den-trang_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-17-ultra-den-xanhla_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-17-ultra-trang_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-17-ultra-den-1_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.9,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {
+      "resolution_mp": 50
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 8 Elite Gen 5",
+      "cpu": "8 nhân",
+      "gpu": "Adreno 840",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Android 16 với HyperOS"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "162.9 × 77.6 × 8.5 mm",
+      "weight_g": 230.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "Wi-Fi 7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-17-ultra-16gb-1tb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "XIAOMI 17 SERIES"
+}

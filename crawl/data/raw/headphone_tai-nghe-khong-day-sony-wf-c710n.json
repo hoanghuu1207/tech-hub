@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Sony WF-C710N",
+  "price": 1985000,
+  "sale_price": 2490000,
+  "colors": [
+    "Hồng",
+    "Trắng",
+    "Đen",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/landing_page_wfc710n_01.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/landing_page_wfc710n_02.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/landing_page_wfc710n_03.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/landing_page_wfc710n_04.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wf-c710n-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wf-c710n-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wf-c710n-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wf-c710n-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wf-c710n.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wf-c710n-6.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 8
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-sony-wf-c710n.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sony",
+  "product_line": null
+}

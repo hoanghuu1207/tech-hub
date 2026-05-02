@@ -1,0 +1,65 @@
+{
+  "name": "Samsung Galaxy Tab S9 FE Plus WIFI 8GB 128GB",
+  "price": 9690000,
+  "sale_price": 13740000,
+  "colors": [
+    "Bạc",
+    "Xám",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_fe_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_fe_128_-_2_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_fe_128_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_fe_wifi_-_4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_fe_wifi_-_6_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_fe_wifi_-_7_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_fe_wifi_-_3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_fe_128_-_28_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s9-fe-plus-bac-12_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxxy-tab-s9-fe-plus-xam-12_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 12.4,
+      "resolution": "2560 x 1600 (WQXGA)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Exynos 1380",
+      "cpu": "8 nhân, 2.4GHz, 2GHz",
+      "gpu": "Mali-G68 MP5",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 90
+    },
+    "design": {
+      "dimensions_mm": "285.4 x 185.4 x 6.5 mm",
+      "weight_g": 627.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11 a/b/g/n/ac/ax 2.4G+5GHz, HE80, MIMO, 1024-QAM"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-tab-s9-fe-plus-wifi.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

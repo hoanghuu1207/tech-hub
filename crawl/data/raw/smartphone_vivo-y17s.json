@@ -1,0 +1,69 @@
+{
+  "name": "vivo Y17s 4GB 128GB",
+  "price": 3790000,
+  "sale_price": null,
+  "colors": [
+    "Tím",
+    "Xanh Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y17s_-_111.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y17s_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y17s_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y17s_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y17s_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y17s_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y17s_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/y/1/y17s_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-y17s_2_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-y17s_4__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.56,
+      "resolution": "1612x720 (HD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G85",
+      "cpu": "2.0GHz*2 + 1.8GHz*6",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163.74 × 75.43 × 8.09 mm",
+      "weight_g": 186.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11, b/g/n, 2.4GHz /5GHz"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vivo-y17s.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại vivo",
+  "product_line": "Y SERIES"
+}

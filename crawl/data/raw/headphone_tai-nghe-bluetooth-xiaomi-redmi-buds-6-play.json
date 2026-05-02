@@ -1,0 +1,46 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Xiaomi Redmi Buds 6 Play",
+  "price": 290000,
+  "sale_price": 360000,
+  "colors": [
+    "Hồng",
+    "Đen",
+    "Trắng",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai_nghe_bluetooth_true_wireless_xiaomi_redmi_buds_6_play.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-xiaomi-redmi-buds-6-play-box_front.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-xiaomi-redmi-buds-6-play-caseopen.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-xiaomi-redmi-buds-6-play-caseopen_top.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-xiaomi-redmi-buds-6-play-earphone_top.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-xiaomi-redmi-buds-6-play-earback.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-xiaomi-redmi-buds-6-play-earside.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-xiaomi-redmi-buds-6-play-box_front_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-xiaomi-redmi-buds-6-play-caseopen_top_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-xiaomi-redmi-buds-6-play-caseopen_1.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {
+      "earbuds_dimensions_mm": "29.5 x 21.4 x 23.5mm",
+      "case_dimensions_mm": "61 x 50 x 24.6mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-xiaomi-redmi-buds-6-play.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

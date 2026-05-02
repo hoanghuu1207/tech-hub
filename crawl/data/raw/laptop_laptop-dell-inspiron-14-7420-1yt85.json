@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Dell Inspiron 14 7420 1YT85",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/y/1yt85-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-inspiron-14-7420-1yt85-10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/y/1yt85-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/y/1yt85-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/y/1yt85-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/gaming_003_13_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/y/1yt85-6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/y/1yt85-5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/y/1yt85-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-dell-inspiron-14-7420-1yt85-10.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-1255U ( 1.7 GHz - 4.7GHz / 12MB / 10 nhân, 12 luồng )",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home SL + Office Home & Student 2021"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "31.4 x 22.75 x 1.79 cm",
+      "weight_kg": 1.6,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "WiFi 802.11ax (Wifi 6) ,"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-inspiron-14-7420-1yt85.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "INSPIRON"
+}

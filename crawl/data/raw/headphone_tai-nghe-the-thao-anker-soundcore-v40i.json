@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Bluetooth thể thao Anker Soundcore V40i (A3878)",
+  "price": 990000,
+  "sale_price": 1500000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundcore_v40i-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/4/v40-b_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/4/v40-w_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_983_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_984_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_985.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_986.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_987.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/r/frame_352_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/soundcore_v40i-1.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 6
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-the-thao-anker-soundcore-v40i.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Anker",
+  "product_line": null
+}

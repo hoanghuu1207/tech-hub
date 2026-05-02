@@ -1,0 +1,72 @@
+{
+  "name": "Xiaomi 15 Ultra 5G 16GB 512GB",
+  "price": 26990000,
+  "sale_price": 34360000,
+  "colors": [
+    "Đen",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_15_ultra_5g_16gb_512gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_15_ultra_5g_16gb_512gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_15_ultra_5g_16gb_512gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_15_ultra_5g_16gb_512gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_15_ultra_5g_16gb_512gb_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-15-ultra.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-15-ultra_12_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-15-ultra_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-15-ultra_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-15-ultra_9_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.73,
+      "resolution": "3200 x 1440 pixel",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite (Tiến trình sản xuất 3nm)",
+      "cpu": "2 x Lõi Prime, tốc độ tối đa 4,32GHz\n6 x Lõi hiệu suất, lên đến 3,53GHz",
+      "gpu": "Adreno GPU",
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Xiaomi HyperOS 2"
+    },
+    "battery": {
+      "capacity_mah": 5410
+    },
+    "design": {
+      "dimensions_mm": "161.3 x 75.3 x 9.35mm (Đen, Trắng)\n(Bạc Chrome): 161.3 x 75.3 x 9.48mm",
+      "weight_g": 226.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0",
+      "wifi": "Hỗ trợ Wi-Fi 7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-15-ultra.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "XIAOMI 15 SERIES"
+}

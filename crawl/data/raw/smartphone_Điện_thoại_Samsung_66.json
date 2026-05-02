@@ -1,0 +1,68 @@
+{
+  "name": "Samsung Galaxy S25 Edge 5G 12GB 256GB",
+  "price": 21490000,
+  "sale_price": 29450000,
+  "colors": [
+    "Đen",
+    "Bạc",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-edge.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-edge-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-edge-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-edge.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-edge.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-edge-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-edge-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-edge.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-edge-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-edge-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "3120 x 1440 pixels (Quad HD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 0
+    },
+    "camera_front": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "8 nhân",
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android"
+    },
+    "battery": {
+      "capacity_mah": 3900
+    },
+    "design": {
+      "dimensions_mm": "158.2 x 75.6 x 5.8 mm",
+      "weight_g": 163.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "802.11a/b/g/n/ac/ax/be 2.4GHz+5GHz+6GHz, Wi-Fi Direct"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s25-edge.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY S25 SERIES"
+}

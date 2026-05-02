@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Gaming Asus Rog Cetra SpeedNova",
+  "price": 4490000,
+  "sale_price": 4990000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-asus-rog-cetra-tws-speednova_11_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-asus-rog-cetra-tws-speednova_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-asus-rog-cetra-tws-speednova_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-asus-rog-cetra-tws-speednova_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-asus-rog-cetra-tws-speednova_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-asus-rog-cetra-tws-speednova.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-asus-rog-cetra-tws-speednova_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-asus-rog-cetra-tws-speednova_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-asus-rog-cetra-tws-speednova_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-asus-rog-cetra-tws-speednova_6_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-asus-rog-cetra-tws-speednova.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": null
+}

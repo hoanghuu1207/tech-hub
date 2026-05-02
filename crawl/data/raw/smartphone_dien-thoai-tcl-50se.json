@@ -1,0 +1,61 @@
+{
+  "name": "TCL 50SE",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tcl-50se-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tcl-50se-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tcl-50se-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tcl-50se-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tcl-50se-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tcl-50se_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tcl-50se_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tcl-50se_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-tcl-50se-1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-tcl-50se-2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": "1080x2460 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Mediatek Helio G88 (12nm)",
+      "cpu": "2xA75@ 2.0GHz+6xA55@ 1.8 GHz Octa-core",
+      "gpu": "Mali-G52 MC2",
+      "ram_gb": 6,
+      "storage_gb": 256,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5010
+    },
+    "design": {
+      "dimensions_mm": "168.16 x 75.53 x 8.09 mm",
+      "weight_g": 195.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "802.11a/b/g/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-tcl-50se.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại TCL",
+  "product_line": null
+}

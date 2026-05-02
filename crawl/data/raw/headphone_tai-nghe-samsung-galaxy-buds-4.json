@@ -1,0 +1,42 @@
+{
+  "name": "Tai nghe Samsung Galaxy Buds 4",
+  "price": 4490000,
+  "sale_price": 4990000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/u/buds4_1200x670_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_buds4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_buds4_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_buds4_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_buds4_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_buds4_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_buds4_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_buds4_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_buds4_11_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_buds4_12_.png"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {
+      "earbuds_dimensions_mm": "18.3x19.3x30.5mm",
+      "case_dimensions_mm": "51x51x28.3mm"
+    },
+    "connectivity": {
+      "bluetooth": "6.1",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-samsung-galaxy-buds-4.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

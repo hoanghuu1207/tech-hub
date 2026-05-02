@@ -1,0 +1,61 @@
+{
+  "name": "Xiaomi Pad 8 Pro 12GB 512GB Wifi",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-xiaomi-pad-8-8gb-256gb-1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-xiaomi-pad-8-8gb-256gb_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-xiaomi-pad-8-8gb-256gb-2_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-xiaomi-pad-8-8gb-256gb-1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-xiaomi-pad-8-8gb-256gb-1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-xiaomi-pad-8-8gb-256gb_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-xiaomi-pad-8-8gb-256gb-2_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-xiaomi-pad-8-8gb-256gb-1_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-xiaomi-pad-8-8gb-256gb_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-xiaomi-pad-8-8gb-256gb-2_1_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.2,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "cpu": "8 nhân, xung tối đa 4.32 GHz",
+      "gpu": "Adreno",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "HyperOS 3 (trên nền Android 16)"
+    },
+    "battery": {
+      "capacity_mah": 9200
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": "Wi-Fi 7"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-xiaomi-pad-8-pro-12gb-512gb.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

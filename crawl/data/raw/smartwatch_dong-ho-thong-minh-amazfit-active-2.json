@@ -1,0 +1,53 @@
+{
+  "name": "Đồng hồ thông minh Amazfit Active 2",
+  "price": 2490000,
+  "sale_price": 2790000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_active_2_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_active_2_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_active_2_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_32__7_32.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_38__6_27.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_34__7_32.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_30__8_29.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_36__6_30.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_40__6_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_31__7_35.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.32,
+      "resolution": "466 x 466 pixels, 353 PPI",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 270
+    },
+    "design": {
+      "case_size_mm": "Từ 13.5- 19.5 cm",
+      "weight_g": 29.5,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Trợ lý AI Zepp Flow",
+      "Zepp Pay (chỉ chọn địa điểm và ngân hàng ở Châu Âu)",
+      "Ghi âm giọng nói",
+      "Bản tin buổi sáng"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-active-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

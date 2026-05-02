@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Asus Gaming ROG Zephyrus DUO 16 GX650PZ-NM031W",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-duo-16-gx650pz-nm031w.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-duo-16-gx650pz-nm031w-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-duo-16-gx650pz-nm031w-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-duo-16-gx650pz-nm031w-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-duo-16-gx650pz-nm031w-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-duo-16-gx650pz-nm031w-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-duo-16-gx650pz-nm031w-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-duo-16-gx650pz-nm031w-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-duo-16-gx650pz-nm031w-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-zephyrus-duo-16-gx650pz-nm031w-10.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 pixel (2K)",
+      "refresh_rate_hz": 240,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD 1080P 30FPS"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 9 7945HX (64MB L3 cache, up to 5.4GHz, 16 lõi / 32 luồng)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.5 x 26.6 x 2.05 ~ 2.97 cm (W x H x D)",
+      "weight_kg": 2.67,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6E(802.11ax) (Triple band) 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-gaming-rog-zephyrus-duo-16-gx650pz-nm031w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "GAMING"
+}

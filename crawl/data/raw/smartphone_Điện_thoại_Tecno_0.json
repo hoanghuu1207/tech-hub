@@ -1,0 +1,65 @@
+{
+  "name": "TECNO CAMON 40 8GB 128GB",
+  "price": 4990000,
+  "sale_price": 5890000,
+  "colors": [
+    "Trắng",
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-tecno-camon-40-8gb-128gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-tecno-camon-40-8gb-128gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-tecno-camon-40-8gb-128gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-tecno-camon-40-8gb-128gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-tecno-camon-40-8gb-128gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-camon-40_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-camon-40_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-camon-40_1__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-camon-40_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-camon-40.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Mediatek Helio G100 Ultimate",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 5200
+    },
+    "design": {
+      "dimensions_mm": "163,91 x 74,63 x 7,34mm",
+      "weight_g": 177.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "BT 5.2",
+      "wifi": "Wifi 2.4"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 13 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-tecno-camon-40.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Tecno",
+  "product_line": "CAMON"
+}

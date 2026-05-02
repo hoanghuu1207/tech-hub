@@ -1,0 +1,54 @@
+{
+  "name": "Đồng hồ thông minh Amazfit T-Rex Ultra 2",
+  "price": 12990000,
+  "sale_price": 16990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_1__17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_5__13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_4__1_13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_6__1_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_7__8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_10__8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_11__6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_9__9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_8__9.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.5,
+      "resolution": "480 x 480 pixels, PPI: 322",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 870
+    },
+    "design": {
+      "case_size_mm": "48mm: 14.5 - 21 cm\n44mm: 14 - 20.5 cm",
+      "weight_g": 89.2,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Bản đồ ngoại tuyến",
+      "Định tuyến lại tự động",
+      "Đánh dấu các vị trí quan trọng",
+      "Nhắc bạn kiểm tra nồng độ oxy trong máu khi leo dốc",
+      "Chế độ Nhiệt độ Thấp động ngay cả khi nhiệt độ giảm xuống -30°C"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-t-rex-ultra-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

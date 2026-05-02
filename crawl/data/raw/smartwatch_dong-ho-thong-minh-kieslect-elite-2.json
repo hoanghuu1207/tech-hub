@@ -1,0 +1,52 @@
+{
+  "name": "Đồng hồ thông minh Kieslect Elite 2",
+  "price": 1990000,
+  "sale_price": 2490000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_kieslect_elite_2_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_kieslect_elite_2_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_kieslect_elite_2_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_1__9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_2__12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_3__7.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/m/amazfit_2_15.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_ng_h_th_ng_minh_kieslect_elite_2_-_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_ng_h_th_ng_minh_kieslect_elite_2_-_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.46,
+      "resolution": "480 × 480 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Kstyle OS"
+    },
+    "battery": {
+      "capacity_mah": 500
+    },
+    "design": {
+      "case_size_mm": "Từ 13.5 – 23.5 cm",
+      "weight_g": 42.5,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Điều khiển bằng giọng nói",
+      "Tích hợp trợ lý AI",
+      "Gọi khẩn cấp SOS"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-kieslect-elite-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Kieslect",
+  "product_line": null
+}

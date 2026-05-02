@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Dell Inspiron 14 5441 N4O10441W1",
+  "price": 27990000,
+  "sale_price": 30390000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_inspiron_14_5441_n4o10441w1_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_inspiron_14_5441_n4o10441w1_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_inspiron_14_5441_n4o10441w1_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__8_90_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__9_86_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__8_77_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_264_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_20__5_116_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_17__8_156_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_212_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Snapdragon X Plus X1P-64-100, 10 cores up to 3.4GHz, NPU up to 45 TOPS",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home, Copilot+ PC Microsoft Office Home 2024 + Microsoft 365 Basic 1 year subscription"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "314 x 223.75 x 17.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.53,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Qualcomm FastConnect 7800 Wi-Fi 7"
+    },
+    "special_features": [
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-inspiron-14-5441-n4o10441w1.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "INSPIRON"
+}

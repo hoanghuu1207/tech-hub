@@ -1,0 +1,66 @@
+{
+  "name": "Xiaomi Redmi Note 8 Pro 128GB",
+  "price": 5990000,
+  "sale_price": null,
+  "colors": [
+    "Xám",
+    "Xanh lá",
+    "Xanh dương",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637060435932431657_xiaomi-redmi-note-8-pro-xanh-1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637060441292208256_xiaomi-redmi-note-8-pro-den-1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637060441292078270_xiaomi-redmi-note-8-pro-trang-1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/s/gsmarena_001_1_8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637060435931971362_xiaomi-redmi-note-8-pro-xanh-3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637060441290718374_xiaomi-redmi-note-8-pro-den-3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637060441292608245_xiaomi-redmi-note-8-pro-trang-3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637060520800358291_xiaomi-redmi-note-8-pro-trang-5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637060444576009721_xiaomi-redmi-note-8-pro-xanh-5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637060465256933289_xiaomi-redmi-note-8-pro-den-5_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.53,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 64
+    },
+    "camera_front": {
+      "resolution_mp": 20
+    },
+    "performance": {
+      "chipset": "Helio G90T",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 9.0 (Pie)"
+    },
+    "battery": {
+      "capacity_mah": 4500
+    },
+    "design": {
+      "dimensions_mm": "Đang cập nhật",
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-redmi-note-8-pro-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": null
+}

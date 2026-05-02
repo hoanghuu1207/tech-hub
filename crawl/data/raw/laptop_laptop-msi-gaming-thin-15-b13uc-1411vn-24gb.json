@@ -1,0 +1,63 @@
+{
+  "name": "Laptop MSI Gaming Thin 15 B13UC-1411VN V2",
+  "price": 21990000,
+  "sale_price": 22990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_gaming_thin_15_b13uc-1411vn_-_1_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_gaming_thin_15_b13uc-1411vn_-_2_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_gaming_thin_15_b13uc-1411vn_-_3_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_35__8_10_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_38__6_9_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_37__6_7_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_36__6_9_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_40__6_5_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_39__6_5_3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_2__2_24_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD type (30fps@720p)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-13620H",
+      "gpu": null,
+      "ram_gb": 24,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {
+      "capacity_wh": 52.4
+    },
+    "design": {
+      "dimensions_cm": "359 x 254 x 21.7 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.86,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.3",
+      "wifi": "802.11 ax Wi-Fi 6E"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-gaming-thin-15-b13uc-1411vn-24gb.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "THIN / GF"
+}

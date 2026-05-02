@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Sony MDR-EX155AP",
+  "price": 290000,
+  "sale_price": 390000,
+  "colors": [
+    "Trắng",
+    "Xanh dương",
+    "Đen",
+    "Vàng",
+    "Xanh lá",
+    "Đỏ"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_8_93_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_8_75_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_10_57_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_7_46_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_6_34_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_4_23_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_2_22_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_27_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_8_93_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_8_75_2.jpg"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {},
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-sony-mdr-ex155ap.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sony",
+  "product_line": null
+}

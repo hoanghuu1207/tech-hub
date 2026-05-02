@@ -1,0 +1,46 @@
+{
+  "name": "Đồng hồ thông minh Amazfit Stratos 3",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stratos3_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stratos3_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/o/lol_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stratos3_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/t/stratos3_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/t/stratos3_4.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/o/lol_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/t/stratos3_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/t/stratos3_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/t/stratos3_4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "320 x 320 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {
+      "usage_hours": 70
+    },
+    "design": {
+      "case_size_mm": "48.6 x 48.6 x 13.5 (mm)",
+      "weight_g": 40.4,
+      "material": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-stratos-3.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

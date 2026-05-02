@@ -1,0 +1,65 @@
+{
+  "name": "Samsung Galaxy Tab S10 FE Plus Wifi 8GB 128GB",
+  "price": 12500000,
+  "sale_price": 15700000,
+  "colors": [
+    "Xám",
+    "Xanh",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-fe-plus-wifi-8gb-128gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-fe-plus-wifi-8gb-128gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-fe-plus-wifi-8gb-128gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-fe-plus-wifi-8gb-128gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s10-fe-plus-wifi-8gb-128gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-s10-fe-plus_20_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-s10-fe-plus_19_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-s10-fe-plus_18_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-s10-fe-plus.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-s10-fe-plus_2_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.1,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 0
+    },
+    "camera_front": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "Exynos 1580 (4 nm)",
+      "cpu": "2.9GHz,2.6GHz,1.9GHz",
+      "gpu": "Xclipse 540",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 90
+    },
+    "design": {
+      "dimensions_mm": "194.7 x 300.6 x 6.0 mm",
+      "weight_g": 664.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11a/b/g/n/ac/ax 2.4GHz+5GHz, HE80, MIMO, 1024-QAM"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-samsung-galaxy-tab-s10-fe-plus-wifi.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

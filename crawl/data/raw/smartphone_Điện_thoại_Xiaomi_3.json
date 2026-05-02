@@ -1,0 +1,70 @@
+{
+  "name": "Xiaomi 15T 5G 12GB 512GB",
+  "price": 12990000,
+  "sale_price": 14990000,
+  "colors": [
+    "Đen",
+    "Vàng Hồng",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-15t-5g-12gb-512gb-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-15t-5g-12gb-512gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-15t-5g-12gb-512gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-15t-5g-12gb-512gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-15t-5g-12gb-512gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-15t-5g-22.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-15t-5g-11.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-15t-5g-12.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-15t-5g-13.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-15t-5g-14.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.83,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 8400-Ultra",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "Xiaomi HyperOS 2, tích hợp Xiaomi HyperAI & Google Gemini"
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "design": {
+      "dimensions_mm": "163.2 x 78.0 x 7.50 mm",
+      "weight_g": 194.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "Wi-Fi 6E"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-15t-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "XIAOMI 15 SERIES"
+}

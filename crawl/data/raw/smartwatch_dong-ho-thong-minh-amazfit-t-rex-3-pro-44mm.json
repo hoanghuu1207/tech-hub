@@ -1,0 +1,61 @@
+{
+  "name": "Đồng hồ thông minh Amazfit T-Rex 3 Pro 44mm",
+  "price": 8690000,
+  "sale_price": 13990000,
+  "colors": [
+    "Đen/Vàng",
+    "Đen",
+    "Vàng/Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_t-rex_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_t-rex_3_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_t-rex_3_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_11__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_17__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_13__4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_15__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_7__6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_9__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_5__8.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.35,
+      "resolution": "466 x 466 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 500
+    },
+    "design": {
+      "case_size_mm": "Từ 14 - 21 cm",
+      "weight_g": 46.8,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Trợ lý độ cao",
+      "Chế độ nhiệt độ cực thấp",
+      "Hỗ trợ Màn hình ban đêm",
+      "La bàn",
+      "Mặt trời mọc & Mặt trời lặn",
+      "Hiển thị thủy triều",
+      "Trợ lý AI Zepp Flow",
+      "Ghi âm giọng nói",
+      "Hỗ trợ Lưu trữ nhạc",
+      "Khóa màn hình & Mật khẩu"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-t-rex-3-pro-44mm.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

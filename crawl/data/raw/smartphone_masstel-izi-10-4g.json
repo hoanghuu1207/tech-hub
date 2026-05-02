@@ -1,0 +1,53 @@
+{
+  "name": "Masstel Izi 10 4G",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/5/6566_3__2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-izi-10-4g-xanh-thumb-600x600_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/5/6566_3__2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/masstel-izi-10-4g-xanh-thumb-600x600_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/5/6566_3__2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/masstel-izi-10-4g-xanh-thumb-600x600_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 1.77,
+      "resolution": "128 x 160 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": "Unisoc UMS9117",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 1000
+    },
+    "design": {
+      "dimensions_mm": "121 x 50 x 12.8mm",
+      "weight_g": 75.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v4.2",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/masstel-izi-10-4g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Masstel",
+  "product_line": null
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Acer Gaming Nitro ProPanel ANV16S-41-R337",
+  "price": 40790000,
+  "sale_price": 46990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_974_13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_975_13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_acer_gaming_nitro_v_16s_propanel_anv16s-41-r337_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_45.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__28.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__27.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__27.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__6_12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__6_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__10_10.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 180,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "720p HD"
+    },
+    "performance": {
+      "chipset": "440 TOPs",
+      "cpu": "AMD Ryzen 7 260 (8 lõi / 16 luồng, Base Clock: 3.8 GHz, 8MB L2 Cache; 16MB L3 Cache)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "357.7 x 264 x 13.9/19.95 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.1,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E Wireless LAN"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-16s-propanel-anv16s-41-r337.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "NITRO PROPANEL"
+}

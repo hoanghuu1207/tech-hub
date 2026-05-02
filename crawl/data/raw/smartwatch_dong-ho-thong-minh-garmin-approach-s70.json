@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thông minh Garmin Approach S70",
+  "price": 15020000,
+  "sale_price": 16990000,
+  "colors": [
+    "Xám",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-07-04t233537.688.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-07-04t233517.955.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-07-04t233820.829.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-07-04t233736.012.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_approach_s70_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_approach_s70_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_approach_s70_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_approach_s70_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_approach_s70_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_approach_s70_-_6.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.4,
+      "resolution": "454 x 454 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 20
+    },
+    "design": {
+      "case_size_mm": "13 - 20.5 cm",
+      "weight_g": 56.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Theo dõi lượng nước uống",
+      "Theo dõi sức khỏe phụ nữ",
+      "Thống kê sức khỏe",
+      "Cố vấn JETLAG",
+      "La bàn"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-approach-s70.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

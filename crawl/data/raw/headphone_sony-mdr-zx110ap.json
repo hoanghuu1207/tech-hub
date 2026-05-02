@@ -1,0 +1,39 @@
+{
+  "name": "Tai nghe chụp tai Sony MDR-ZX110AP",
+  "price": 380000,
+  "sale_price": 590000,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-mdr-zx110ap-ksp-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/r/tr_ng-1_9_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/e/_en-1_10_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/img_2102.u2470.d20170317.t123842.981168.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/e/gearvn_sony_zx110ap_1_54bf4730604b4e03b619bf43327ea3d0.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_189_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony-mdr-zx110ap-ksp-1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/r/tr_ng-1_9_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/e/_en-1_10_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/m/img_2102.u2470.d20170317.t123842.981168.jpg"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {},
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/sony-mdr-zx110ap.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sony",
+  "product_line": null
+}

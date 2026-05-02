@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Lenovo LOQ 15IRX10 83JE01AGVN",
+  "price": 34790000,
+  "sale_price": 38490000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15irx10_83je01agvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15irx10_83je01agvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_loq_15irx10_83je01agvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_93.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_100.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_156.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_69.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_8__87.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_10__58.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_76.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-13645HX, 14 lõi (6P + 8E) / 20 luồng, P-core up to 4.9GHz, E-core up to 3.5GHz, 24MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359.86 x 258.7 x 21.9-23.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.4,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-loq-15irx10-83je01agvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LOQ"
+}

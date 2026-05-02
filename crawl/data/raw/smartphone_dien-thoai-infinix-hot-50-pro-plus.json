@@ -1,0 +1,66 @@
+{
+  "name": "Infinix Hot 50 Pro Plus 8GB 256GB",
+  "price": 4790000,
+  "sale_price": 4990000,
+  "colors": [
+    "Xanh lá",
+    "Đen",
+    "Xám",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-infinix-hot-50-pro-plus_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-infinix-hot-50-pro-plus_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-infinix-hot-50-pro-plus_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-infinix-hot-50-pro-plus_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1262702446.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-infinix-hot-50-pro-plus_11_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-infinix-hot-50-pro-plus_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-infinix-hot-50-pro-plus_12_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-infinix-hot-50-pro-plus_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-infinix-hot-50-pro-plus_7_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": "1080 x 2436 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G100",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-infinix-hot-50-pro-plus.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Infinix",
+  "product_line": null
+}

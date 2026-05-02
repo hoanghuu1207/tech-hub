@@ -1,0 +1,64 @@
+{
+  "name": "Điện thoại Sony Xperia 10 V",
+  "price": 7490000,
+  "sale_price": 12490000,
+  "colors": [
+    "Tím",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-10-v-27-03-2024-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-10-v-27-03-2024-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-10-v-27-03-2024-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-10-v-27-03-2024-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-10-v-27-03-2024-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-10-v_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-10-v.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-10-v_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-10-v_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-10-v_5_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "1080 x 2520 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Snapdragon 695 5G",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "155 x 68 x 8 ,3 mm",
+      "weight_g": 159.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "IEEE802.11a/b/g/n/ac, 2,4/5 GHz"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/sony-xperia-10-v.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Sony",
+  "product_line": null
+}

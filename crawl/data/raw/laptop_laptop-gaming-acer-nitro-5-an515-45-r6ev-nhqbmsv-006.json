@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Gaming Acer Nitro 5 AN515-45-R6EV NH.QBMSV.006",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-gaming-acer-nitro-5-an515-45-r6ev-nhqbmsv-006.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_339.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_288.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_267.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_208.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_236.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-gaming-acer-nitro-5-an515-45-r6ev-nhqbmsv-006.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_339.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_288.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_267.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 5 - 5600H",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "Dài 363.4 mm - Rộng 255 mm - Dày 23.9 mm",
+      "weight_kg": 2.2,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-5-an515-45-r6ev-nhqbmsv-006.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": null
+}

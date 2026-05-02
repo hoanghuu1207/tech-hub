@@ -1,0 +1,67 @@
+{
+  "name": "Laptop HP Omnibook X Flip 14-FM0076TU BZ7P6PA",
+  "price": 38390000,
+  "sale_price": 40890000,
+  "colors": [
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_x_flip_14-fm0076tu_bz7p6pa_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_x_flip_14-fm0076tu_bz7p6pa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_x_flip_14-fm0076tu_bz7p6pa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_68_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__58_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__54_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__53_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__49_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_823_6.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_omnibook_x_flip_14-fm0076tu_bz7p6pa_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Intel AI Boost",
+      "cpu": "Intel Core Ultra 7 258V (8 lõi) - Max Turbo Frequency: 4. 80 GHz",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language 64-bit + Office Home 2024"
+    },
+    "battery": {
+      "capacity_wh": 59.16
+    },
+    "design": {
+      "dimensions_cm": "31.30 x 21.85 x 1.46 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.504,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E 802.11 ax"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6",
+      "Màn hình cảm ứng",
+      "Xoay gập 360 độ (2 in 1)",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-omnibook-x-flip-14-fm0076tu-bz7p6pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "OMNIBOOK"
+}

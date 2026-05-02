@@ -1,0 +1,52 @@
+{
+  "name": "Đồng hồ thông minh Garmin Forerunner 965",
+  "price": 12959000,
+  "sale_price": 12990000,
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_forerunner_965_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_forerunner_965_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_forerunner_965_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin-forerunner-965-den-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin-forerunner-965-trang-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin-forerunner-965-vang-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/garminnn_965.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/garmin_forerunner_965_-_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/garmin_forerunner_965_-_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/garmin_forerunner_965_-_6.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.4,
+      "resolution": "454 x 454 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 31
+    },
+    "design": {
+      "case_size_mm": "Từ 13.5 - 20 cm",
+      "weight_g": 53.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Trả lời nhanh tin nhắn có sẵn"
+    ]
+  },
+  "features": [],
+  "description": "Áp dụng cho sản phẩm mua từ ngày 1/1/2024. Bảo hành chính hãng 2 năm, 1 đổi 1 trong 15 ngày nếu có lỗi từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-forerunner-965.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

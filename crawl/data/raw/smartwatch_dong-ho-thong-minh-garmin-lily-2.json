@@ -1,0 +1,51 @@
+{
+  "name": "Đồng hồ thông minh Garmin lily 2 dây da",
+  "price": 6690000,
+  "sale_price": 8490000,
+  "colors": [
+    "Tím",
+    "Nâu"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-lily-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-lily-2_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-lily-2_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-lily-2_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-lily-2_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-lily-2_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6_36.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__4_26.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__4_24.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__3_26.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.0,
+      "resolution": "240 x 201 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "35.4 x 35.4 x 10.1 mm",
+      "weight_g": 21.4,
+      "material": "Da"
+    },
+    "special_features": [
+      "Trả lời tin nhắn/Từ chối cuộc gọi",
+      "Hỗ trợ GARMIN PAY",
+      "Ghi lại lượng nước uống hàng ngày"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-lily-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

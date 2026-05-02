@@ -1,0 +1,60 @@
+{
+  "name": "Honor Pad X8 Lite",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/3/e3edd3edc_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/w/1wedxsc.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/d/2dc_bb_mj.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/e/3/e3edd3edc_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/w/1wedxsc.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/d/2dc_bb_mj.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/e/3/e3edd3edc_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/w/1wedxsc.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/d/2dc_bb_mj.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 9.7,
+      "resolution": "800 x 1280 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 5
+    },
+    "camera_front": {
+      "resolution_mp": 2
+    },
+    "performance": {
+      "chipset": "MediaTek MT8786",
+      "cpu": "2×Cortex A75 2.0GHz + 6×Cortex A55 1.8GHz",
+      "gpu": null,
+      "ram_gb": 3,
+      "storage_gb": 32,
+      "os": "Android S + MagicUI 6.1"
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "design": {
+      "dimensions_mm": "240,2 x 159 x 7,55mm",
+      "weight_g": 460.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "802.11 a / b / g / n / ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/honor-pad-x8-lite.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

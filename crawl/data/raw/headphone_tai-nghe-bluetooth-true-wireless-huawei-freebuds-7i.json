@@ -1,0 +1,45 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Huawei Freebuds 7i",
+  "price": 1490000,
+  "sale_price": 1990000,
+  "colors": [
+    "Đen",
+    "Hồng",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-huawei-freebuds-7i-_22_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-huawei-freebuds-7i-_13_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-huawei-freebuds-7i-_11_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-huawei-freebuds-7i-_12_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-huawei-freebuds-7i-_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-huawei-freebuds-7i-_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-huawei-freebuds-7i-_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-huawei-freebuds-7i-_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-huawei-freebuds-7i-_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-true-wireless-huawei-freebuds-7i-_21_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 8
+    },
+    "design": {
+      "earbuds_dimensions_mm": "31.9 x 21 x 24.6 mm",
+      "case_dimensions_mm": "57.8 x 57.8 x 27.8 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-true-wireless-huawei-freebuds-7i.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Infinix Smart 9 3GB 64GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-infinix-smart-9.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-infinix-smart-9.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-infinix-smart-9.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-infinix-smart-9.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Mediatek Helio G81",
+      "cpu": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.7 GHz Cortex-A55)",
+      "gpu": "Mali-G52 MC2",
+      "ram_gb": 3,
+      "storage_gb": 64,
+      "os": "Android 14, XOS 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "165,7 x 77,1 x 8,4 mm",
+      "weight_g": 188.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-infinix-smart-9.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Infinix",
+  "product_line": null
+}

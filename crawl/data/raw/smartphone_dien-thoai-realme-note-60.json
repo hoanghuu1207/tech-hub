@@ -1,0 +1,69 @@
+{
+  "name": "realme Note 60 4GB 64GB",
+  "price": 2490000,
+  "sale_price": 3090000,
+  "colors": [
+    "Đen",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-realme-note-60-4gb-64gb_6__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-realme-note-60-4gb-64gb_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-realme-note-60-4gb-64gb_7__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-realme-note-60-4gb-64gb_8__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-realme-note-60-4gb-64gb_4__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-realme-note-60-4gb-64gb_5__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-realme-note-60-4gb-64gb_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-realme-note-60-4gb-64gb_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-realme-note-60-4gb-64gb_1__1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-realme-note-60-4gb-64gb_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.74,
+      "resolution": "1600 x 720 pixels (HD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 32
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "UNISOC T612",
+      "cpu": "2*A75 @1.8 GHz，6*A55 @1.8 GHz",
+      "gpu": "Mali-G57",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "167.26 x 76.67 x 7.84mm",
+      "weight_g": 188.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "2.4GHz, 5GHz"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-realme-note-60.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": null
+}

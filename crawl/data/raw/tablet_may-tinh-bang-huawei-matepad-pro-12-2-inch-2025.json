@@ -1,0 +1,63 @@
+{
+  "name": "Máy tính bảng Huawei MatePad Pro 12.2 2025 12GB 512GB kèm bàn phím",
+  "price": 22990000,
+  "sale_price": 23990000,
+  "colors": [
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-huawei-pro.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-huawei-pro-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-huawei-pro-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-huawei-pro-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-huawei-pro-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-pro-12-2-inch_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-pro-12-2-inch-1_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-pro-12-2-inch-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-pro-12-2-inch-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-pro-12-2-inch-4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 12.2,
+      "resolution": "2800 x 1840 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "HarmonyOS 4.3"
+    },
+    "battery": {
+      "capacity_mah": 100
+    },
+    "design": {
+      "dimensions_mm": "271.25 × 182.53 × 5.5 mm",
+      "weight_g": 508.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2, hỗ trợ BLE, AAC, LDAC",
+      "wifi": "Wi-Fi 7, băng tần 2.4 GHz & 5 GHz"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-huawei-matepad-pro-12-2-inch-2025.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

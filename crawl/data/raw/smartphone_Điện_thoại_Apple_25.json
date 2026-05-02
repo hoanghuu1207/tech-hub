@@ -1,0 +1,71 @@
+{
+  "name": "iPhone 16e 256GB | Chính hãng VN/A",
+  "price": 14490000,
+  "sale_price": 19990000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16e-256gb.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16e-256gb_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16e-256gb_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16e-256gb_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16e-256gb_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16e-256gb_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16e-256gb_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16e-256gb_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16e-256gb_8_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16e-256gb.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "2532 x 1170 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Chip A18",
+      "cpu": "CPU 6 lõi mới với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+      "gpu": "GPU 4 lõi mới\nNeural Engine 16 lõi mới",
+      "ram_gb": null,
+      "storage_gb": 256,
+      "os": "iOS 18"
+    },
+    "battery": {
+      "usage_hours": 26
+    },
+    "design": {
+      "dimensions_mm": "Rộng: 71.5 mm - Cao: 146.7 mm - Dày: 7.80 mm",
+      "weight_g": 167.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 6 (802.11ax) với 2x2 MIMO"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-16e-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 16 SERIES"
+}

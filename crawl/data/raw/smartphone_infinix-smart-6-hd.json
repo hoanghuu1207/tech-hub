@@ -1,0 +1,61 @@
+{
+  "name": "Infinix Smart 6 HD",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/d/fdffg_6_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/d/fdffg_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/d/fdffg_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/d/fdffg_4_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/d/fdffg_6_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/d/fdffg_3_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/d/fdffg_5_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/d/fdffg_4_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/d/fdffg_6_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/d/fdffg_3_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.6,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Unisoc SC9863A (28nm)",
+      "cpu": "4x1,6 GHz Cortex-A55 & 4x1,2 GHz Cortex-A55",
+      "gpu": "IMG8322",
+      "ram_gb": 2,
+      "storage_gb": 32,
+      "os": "Android 11"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "802.11b/g/n"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/infinix-smart-6-hd.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Infinix",
+  "product_line": null
+}

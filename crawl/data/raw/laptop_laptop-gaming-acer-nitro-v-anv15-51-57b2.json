@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Gaming Acer Nitro V ANV15-51-57B2",
+  "price": 23290000,
+  "sale_price": 26990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gaming_acer_nitro_v_anv15-51-57b2_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gaming_acer_nitro_v_anv15-51-57b2_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gaming_acer_nitro_v_anv15-51-57b2_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__4_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__4_21.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__5_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__4_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__6_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__1_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__3_24.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-13420H (8 nhân/12 luồng, Turbo Boost 4.6 GHz, 12 MB)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 64 Bit"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "362.3 x 239.89 x 22.9 mm (W x D x H)",
+      "weight_kg": 2.1,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.1",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-v-anv15-51-57b2.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "NITRO V"
+}

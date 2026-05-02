@@ -1,0 +1,72 @@
+{
+  "name": "Samsung Galaxy S25 512GB",
+  "price": 20090000,
+  "sale_price": 26010000,
+  "colors": [
+    "Xanh da trời",
+    "Xanh lá",
+    "Xanh navy",
+    "Xám bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s25_256gb_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s25_256gb_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s25_256gb_-_4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s25_256gb_-_5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s25_256gb_-_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25_1__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25_16__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.2,
+      "resolution": "2340 x 1080-pixel",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite dành cho Galaxy (3nm)",
+      "cpu": "Tốc độ CPU 4.47GHz, 3.5GHz\n8 nhân",
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 4000
+    },
+    "design": {
+      "dimensions_mm": "162g",
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.4",
+      "wifi": "802.11a/b/g/n/ac/ax/be 2.4GHz+5GHz+6GHz, EHT320, MIMO, 4096-QAM"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s25-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY S"
+}

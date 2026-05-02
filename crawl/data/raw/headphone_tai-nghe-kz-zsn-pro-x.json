@@ -1,0 +1,39 @@
+{
+  "name": "Tai nghe KZ ZSN Pro X",
+  "price": 500000,
+  "sale_price": 690000,
+  "colors": [
+    "Vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz_zsn_pro_x_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz_zsn_pro_x_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz_zsn_pro_x_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz_zsn_pro_x_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz_zsn_pro_x_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz_zsn_pro_x_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz_zsn_pro_x_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/z/kz_zsn_pro_x_9.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_192_1__2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/k/z/kz_zsn_pro_x_6.png"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {},
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-kz-zsn-pro-x.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "KZ",
+  "product_line": null
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Anker Soundcore P41i (A3937)",
+  "price": 1160000,
+  "sale_price": 1954000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/0/i0_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/1/i1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15_117.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/3/i3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/4/i4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/i/life0.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/i/life_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/i/life1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/i/life2.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 12
+    },
+    "design": {
+      "earbuds_dimensions_mm": "59.4 x 29.6 x 75.4 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 18 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-anker-soundcore-p41l.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Anker",
+  "product_line": null
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Samsung Galaxy A06 4GB 128GB",
+  "price": 2790000,
+  "sale_price": 3430000,
+  "colors": [
+    "Xanh dương",
+    "Xanh lá",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a06_4gb_128gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a06_4gb_128gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a06_4gb_128gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a06_4gb_128gb_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a06_4gb_128gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a06_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a06_1__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a06_2__3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a06_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a06_8_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 0
+    },
+    "camera_front": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G85",
+      "cpu": "8 nhân 2GHz, 1.8GHz",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "167.3 x 77.3 x 8.0 mm",
+      "weight_g": 189.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11a/b/g/n/ac 2.4GHz+5GHz, VHT80"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a06.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY A"
+}

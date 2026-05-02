@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thông minh Xiaomi Watch S4 41mm Dây Da",
+  "price": 4230000,
+  "sale_price": 4990000,
+  "colors": [
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_xiaomi_watch_s4_41mm_d_y_da_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_xiaomi_watch_s4_41mm_d_y_da_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_xiaomi_watch_s4_41mm_d_y_da_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/o/lo6_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__7_223.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__9_315.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_307.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__8_196.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__9_175.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__8_167.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.32,
+      "resolution": "466 x 466 pixel, 352 PPI",
+      "technology": null
+    },
+    "performance": {
+      "os": "HyperOS 3"
+    },
+    "battery": {
+      "capacity_mah": 320
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 32.0,
+      "material": "Da"
+    },
+    "special_features": [
+      "Pet Park: Nuôi thú cưng bằng cách đốt cháy calo hoặc bước chân",
+      "Pet Watch Faces 2.0",
+      "Chức năng NFC",
+      "Thẻ xe buýt NFC",
+      "Ghi âm",
+      "Tích hợp widget"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-xiaomi-watch-s4-41mm-day-da.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

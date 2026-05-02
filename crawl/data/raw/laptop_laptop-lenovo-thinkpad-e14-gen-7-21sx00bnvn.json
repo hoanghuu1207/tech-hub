@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Lenovo ThinkPad E14 Gen 7 21SX00BNVN",
+  "price": 25990000,
+  "sale_price": 26990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_e14_gen_7_21sx00bnvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_e14_gen_7_21sx00bnvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_e14_gen_7_21sx00bnvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_98.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_155.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_92.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_84.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_68.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_75.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__123.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera lai FHD 1080p + hồng ngoại với màn trập camera"
+    },
+    "performance": {
+      "chipset": "Intel AI Boost, up to 11 TOPS",
+      "cpu": "Intel Core Ultra 5 135H, 14 lõi (4P + 8E + 2LPE) / 18 luồng, Max Turbo up to 4.6GHz, 18MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English (US) / English (UK)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "313 x 220.3 x 10.1/15.25 (trước/sau), 19.7 (tối đa) mm",
+      "weight_kg": 1.34,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Intel Wi-Fi 6E AX211, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e14-gen-7-21sx00bnvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "THINKPAD"
+}

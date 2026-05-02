@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Dell 15 DC15255 G8MK9 - Nhập khẩu chính hãng",
+  "price": 18990000,
+  "sale_price": 19990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15255_g8mk9_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15255_g8mk9_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15255_g8mk9_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_121_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__93_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__95_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__88_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__69_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__82_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__58_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera HD RGB (1280 x 720 (HD) ở tốc độ 30 khung hình/giây), 0.92 megapixel"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 7 7730U",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "235.56 x 358.50 x 16.96 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.9,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0 hoặc 5.3",
+      "wifi": "Realtek RTL8821CE hoặc Realtek RTL8852BE"
+    },
+    "special_features": [
+      "Màn hình cảm ứng"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-15-dc15255-g8mk9.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL 15"
+}

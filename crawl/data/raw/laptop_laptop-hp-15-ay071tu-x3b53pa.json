@@ -1,0 +1,57 @@
+{
+  "name": "Laptop HP 15-AY071TU X3B53PA",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_180.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_225.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_195.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_251_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_206.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/_/5_180.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_225.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_195.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_251_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_206.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1366 x 768 pixels (HD+)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HP TrueVision Webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Pentium - N3710",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 500,
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "Dày 24.3 cm",
+      "weight_kg": 2.19,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-15-ay071tu-x3b53pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "HP CƠ BẢN"
+}

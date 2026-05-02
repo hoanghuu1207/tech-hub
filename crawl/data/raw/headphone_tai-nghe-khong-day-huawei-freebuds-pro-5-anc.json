@@ -1,0 +1,45 @@
+{
+  "name": "Tai nghe không dây Huawei Freebuds Pro 5 (ANC)",
+  "price": 4490000,
+  "sale_price": 4990000,
+  "colors": [
+    "Xám bạc",
+    "Vàng gold",
+    "Xanh Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-huawei-freebuds-pro-5-anc-_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freebuds_pro_5_anc_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freebuds_pro_5_anc_23_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freebuds_pro_5_anc_22_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freebuds_pro_5_anc_21_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freebuds_pro_5_anc_20_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freebuds_pro_5_anc_19_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freebuds_pro_5_anc_17_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freebuds_pro_5_anc_18_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei_freebuds_pro_5_anc_1_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 9
+    },
+    "design": {
+      "earbuds_dimensions_mm": "29.1 x 21.8 x 23.7 mm",
+      "case_dimensions_mm": "65.5 x 46.7 x 22.98 mm"
+    },
+    "connectivity": {
+      "bluetooth": "6.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-huawei-freebuds-pro-5-anc.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

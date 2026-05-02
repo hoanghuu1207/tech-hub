@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai JBL Tune 530BT",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Beige",
+    "Trắng",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-530bt_17_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-530bt_11_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-530bt_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-530bt_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-530bt_14_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-530bt_22_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-530bt_19__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-530bt_25_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-530bt_28_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-530bt_31_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 76
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "6.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-chup-tai-jbl-tune-530bt.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "JBL",
+  "product_line": null
+}

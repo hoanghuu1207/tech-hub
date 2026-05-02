@@ -1,0 +1,69 @@
+{
+  "name": "Vivo Y100",
+  "price": 7690000,
+  "sale_price": null,
+  "colors": [
+    "Xanh",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y100_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y100_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y100_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y100_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y100_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-y100_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-y100.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-y100_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-y100_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-y100_3_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Snapdragon 685 8 nhân",
+      "cpu": "4 × 2.8 GHz + 4 × 1.9 GHz",
+      "gpu": "Adreno 610",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 14, Funtouch OS 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "Pha Lê Đen: 163.17 × 75.81 × 7.79 mm\nKim Cương Xanh: 163.17 × 75.81 × 7.95 mm",
+      "weight_g": 186.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "2.4GHz /5GHz"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vivo-y100.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại vivo",
+  "product_line": "Y SERIES"
+}

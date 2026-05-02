@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Dell Vostro 3530 2H1TPI7",
+  "price": 19990000,
+  "sale_price": 20990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_vostro_3530_2h1tpi7_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_vostro_3530_2h1tpi7_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_vostro_3530_2h1tpi7_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_52__3_12_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_54__3_16_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_53__3_19_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_55__2_22_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_56__2_19_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_57__1_18_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_10__1_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD - 1280 x 720 (HD) ở tốc độ 30 khung hình/giây - Công nghệ cảm biến CMOS"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-1355U thế hệ thứ 13 / 10 nhân 12 luồng / 1.20 GHz to 5.0GHz, 12MB",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Free OS"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "1.69 x 35.8 x 23.5 mm",
+      "weight_kg": 1.66,
+      "material": "Carbon"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0",
+      "wifi": "Realtek Wi-Fi 5 RTL8821CE, 802.11ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-vostro-3530-2h1tpi7.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "VOSTRO"
+}

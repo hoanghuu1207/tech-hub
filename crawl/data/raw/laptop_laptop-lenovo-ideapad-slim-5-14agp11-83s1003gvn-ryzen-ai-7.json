@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Lenovo IdeaPad Slim 5 14AGP11 83S1003GVN",
+  "price": 33490000,
+  "sale_price": null,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_5_14agp11_83s1003gvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_5_14agp11_83s1003gvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_ideapad_slim_5_14agp11_83s1003gvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_4__4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_5__4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__5.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_9_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FHD 1080p + hồng ngoại với màn che riêng tư, cảm biến ToF."
+    },
+    "performance": {
+      "chipset": "AMD Ryzen AI, up to 50 TOPS",
+      "cpu": "AMD Ryzen AI 7 445 (6 lõi / 12 luồng, 2.0 / 4.6GHz, 6MB L2 / 8MB L3)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home Single Language, English"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "313.4 x 222 x 16.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.37,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7, 802.11be 2x2"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-14agp11-83s1003gvn-ryzen-ai-7.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": null
+}

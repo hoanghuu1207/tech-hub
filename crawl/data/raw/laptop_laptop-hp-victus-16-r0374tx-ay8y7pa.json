@@ -1,0 +1,64 @@
+{
+  "name": "Laptop HP Victus 16-R0374TX AY8Y7PA",
+  "price": 23690000,
+  "sale_price": 30990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_victus_16-r0374tx_ay8y7pa_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_victus_16-r0374tx_ay8y7pa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_victus_16-r0374tx_ay8y7pa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__10_23.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__8_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__8_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__10_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__5_21.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_7_79.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_victus_16-r0374tx_ay8y7pa_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.1,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera HP TrueVision FHD (màn trập riêng tư) với micrô mảng"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-13500HX (14 lõi) - Max Turbo Frequency: 4.70 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language 64-bit"
+    },
+    "battery": {
+      "capacity_wh": 70.07
+    },
+    "design": {
+      "dimensions_cm": "36.9 x 25.94 x 2.39 cm (Dài x Rộng x Dày)",
+      "weight_kg": 2.334,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "802.11 ax"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-victus-16-r0374tx-ay8y7pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": null
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Apple Watch SE 2 2024 44mm (GPS) Viền Nhôm Dây Cao Su | Chính hãng Apple Việt Nam",
+  "price": 5590000,
+  "sale_price": 6790000,
+  "colors": [
+    "Bạc",
+    "Trắng vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__6_89_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__7_83_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple__4_18.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/ap2ae5_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/ap60be_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple__1_1_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple__2_14.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple_lte_3_2_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_4__6_89_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_5__7_83_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": null,
+      "resolution": "368 x 448 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {
+      "usage_hours": 18
+    },
+    "design": {
+      "case_size_mm": "14 - 19 cm",
+      "weight_g": 32.9,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "SOS Khẩn Cấp",
+      "Apple Pay"
+    ]
+  },
+  "features": [],
+  "description": "Hàng chính hãng Apple Việt Nam, Mới",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-se-2-2024-44mm-vien-nhom-day-cao-su.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

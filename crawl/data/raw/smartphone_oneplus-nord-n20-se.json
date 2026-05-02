@@ -1,0 +1,57 @@
+{
+  "name": "OnePlus Nord N20 SE",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/g/gg.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/h/hh.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/g/gg.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/h/hh.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/g/gg.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/h/hh.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.56,
+      "resolution": "720 x 1612 (HD+)",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Helio G35 (12 nm)",
+      "cpu": "4x2,3 GHz Cortex-A53 & 4x1,8 GHz Cortex-A53",
+      "gpu": "PowerVR GE8320",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163,8 x 75 x 8 mm",
+      "weight_g": 187.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE, aptX HD",
+      "wifi": "Wi-Fi 802.11 a / b / g / n / ac, băng tần kép, Wi-Fi Direct, điểm phát sóng"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oneplus-nord-n20-se.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OnePlus",
+  "product_line": null
+}

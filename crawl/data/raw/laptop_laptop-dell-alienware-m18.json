@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Dell Alienware M18",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m18-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m18-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m18-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m18-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m18-9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m18-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m18-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m18-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m18-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-m18-10.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 18.0,
+      "resolution": "2560 x 1600 pixels (2K)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i9-13980HX",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "40.89 x 32 x 2.67 cm",
+      "weight_kg": 4.04,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": [
+      "Công nghệ Intel Gaming"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-alienware-m18.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": null
+}

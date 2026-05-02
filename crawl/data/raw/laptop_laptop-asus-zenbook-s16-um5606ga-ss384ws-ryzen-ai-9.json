@@ -1,0 +1,63 @@
+{
+  "name": "Laptop ASUS ZenBook S16 UM5606GA-SS384WS",
+  "price": 48490000,
+  "sale_price": 52990000,
+  "colors": [
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_zenbook_s16_um5606ga-ss384ws_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_zenbook_s16_um5606ga-ss384ws_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_zenbook_s16_um5606ga-ss384ws_-_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_82.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__93.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_45.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_44.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_42.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_35.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_36.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FHD tích hợp chức năng hồng ngoại, hỗ trợ Windows Hello"
+    },
+    "performance": {
+      "chipset": "AMD XDNA NPU up to 50TOPS",
+      "cpu": "CPU AMD Ryzen AI 9 465 (2.0 GHz - 5.0 GHz/ 24MB/ 10 nhân, 20 luồng)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.36 x 24.30 x 1.19 ~ 1.29 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.5,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7(802.11be) (Tri-band)2*2"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-zenbook-s16-um5606ga-ss384ws-ryzen-ai-9.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "ZENBOOK"
+}

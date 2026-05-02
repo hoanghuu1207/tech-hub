@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai Baseus Bowie H1S",
+  "price": 650000,
+  "sale_price": 1150000,
+  "colors": [
+    "Đen",
+    "Trắng be"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai_nghe_bluetooth_ch_p_tai_baseus_bowie_h1s.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-baseus-bowie-h1s_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-baseus-bowie-h1s_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-baseus-bowie-h1s_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-baseus-bowie-h1s_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-baseus-bowie-h1s_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-baseus-bowie-h1s_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-baseus-bowie-h1s-trang_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-baseus-bowie-h1s-trang_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-baseus-bowie-h1s-trang_5_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 60
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-baseus-bowie-h1s.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Baseus",
+  "product_line": null
+}

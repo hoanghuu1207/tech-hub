@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth Sony WI-C100",
+  "price": 480000,
+  "sale_price": 650000,
+  "colors": [
+    "Trắng",
+    "Kem",
+    "Xanh dương",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/1/c100-g-removebg-preview_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/i/wi-_c100-removebg-preview_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai_nghe_bluetooth_sony_wi-c100.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/5/45_1_39.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/8/48_1_38.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_wi-c100_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/6/46_1_38.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/7/47_1_42.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_187_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/1/c100-g-removebg-preview_1_1.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 25
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-sony-wi-c100.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sony",
+  "product_line": null
+}

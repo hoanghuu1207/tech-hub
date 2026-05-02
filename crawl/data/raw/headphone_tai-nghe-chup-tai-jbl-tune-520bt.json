@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai JBL Tune 520BT",
+  "price": 990000,
+  "sale_price": 1360000,
+  "colors": [
+    "Xanh dương",
+    "Đen",
+    "Tím",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-jbl-tune-520bt-ksp-1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-jbl-tune-520bt_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-jbl-tune-520bt_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-jbl-tune-520bt_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-jbl-tune-520bt_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-jbl-tune-520bt_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-jbl-tune-520bt_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-jbl-tune-520bt_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-jbl-tune-520bt_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-jbl-tune-520bt_9_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 57
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-jbl-tune-520bt.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "JBL",
+  "product_line": null
+}

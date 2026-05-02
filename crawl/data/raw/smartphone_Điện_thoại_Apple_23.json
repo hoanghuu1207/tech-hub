@@ -1,0 +1,74 @@
+{
+  "name": "iPhone 14 Pro Max 256GB | Chính hãng VN/A",
+  "price": 27990000,
+  "sale_price": 32990000,
+  "colors": [
+    "Vàng",
+    "Bạc",
+    "Tím",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_pro_max_256gb.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_pro_max_512gb_-_10_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_pro_max_512gb_-_9_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_pro_max_512gb_-_2_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_pro_max_512gb_-_6_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_pro_max_512gb_-_3_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_pro_max_512gb_-_8_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_pro_max_512gb_-_5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_pro_max_512gb_-_11_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_14_pro_max_512gb_-_4_1__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "2796 x 1290-pixel",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 48,
+      "optical_zoom": "3x"
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A16 Bionic 6 nhân",
+      "cpu": "3.46 GHz",
+      "gpu": "Apple GPU 5 nhân",
+      "ram_gb": 6,
+      "storage_gb": 256,
+      "os": "iOS 16"
+    },
+    "battery": {
+      "capacity_mah": 4323
+    },
+    "design": {
+      "dimensions_mm": "160.7 x 77.6 x 7.9 mm",
+      "weight_g": 240.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "A2DP, LE, v5.3",
+      "wifi": "Dual-band (2.4 GHz/5 GHz), Wi-Fi 802.11 a/b/g/n/ac/ax, Wi-Fi hotspot, Wi-Fi MIMO"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-14-pro-max-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 14 SERIES"
+}

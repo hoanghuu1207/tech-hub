@@ -1,0 +1,46 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless SoundPEATS C30",
+  "price": 590000,
+  "sale_price": 790000,
+  "colors": [
+    "Trắng",
+    "Đen",
+    "Cam",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/g/ngang_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats_c30_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats_c30_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats_c30.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats_c30_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats_c30_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai-nghe-nhet-tai-soundpeats-c30-_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/g/ngang_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/soundpeats_c30_3__1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/soundpeats_c30_2_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 10
+    },
+    "design": {
+      "earbuds_dimensions_mm": "31.6 x 21.1 x 25 mm",
+      "case_dimensions_mm": "60.8 x 51.6 x 34 mm"
+    },
+    "connectivity": {
+      "bluetooth": "6.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-nhet-tai-soundpeats-c30.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Soundpeats",
+  "product_line": null
+}

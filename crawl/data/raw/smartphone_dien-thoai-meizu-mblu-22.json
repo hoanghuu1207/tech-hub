@@ -1,0 +1,68 @@
+{
+  "name": "Điện thoại Meizu Mblu 22 3GB 64GB",
+  "price": 2290000,
+  "sale_price": 2490000,
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-mblu-22-3gb-64gb_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-mblu-22-3gb-64gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-mblu-22-3gb-64gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-mblu-22-3gb-64gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-mblu-22-3gb-64gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-mblu-22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-mblu-22-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-mblu-22.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-mblu-22-7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-mblu-22-8.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.79,
+      "resolution": null,
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Unisoc SC9863A(28 nm)",
+      "cpu": null,
+      "gpu": "IMG8322",
+      "ram_gb": 3,
+      "storage_gb": 64,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "77,5 x 170,75 x 8,9 mm",
+      "weight_g": 200.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "4.2",
+      "wifi": "WLAN 2,4 GHz; Wi-Fi 4 (802.11b/g/n)"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-meizu-mblu-22.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Meizu",
+  "product_line": null
+}
