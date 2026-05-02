@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Samsung Galaxy Chromebook Go XE340XDA-KA1VN",
+  "price": 6790000,
+  "sale_price": 7290000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_samsung_galaxy_chromebook_go_xe340xda-ka1vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_samsung_galaxy_chromebook_go_xe340xda-ka1vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_samsung_galaxy_chromebook_go_xe340xda-ka1vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__27_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_27_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__27_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__25_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__27_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__27_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__20_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1366 x 768 pixels",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "720p HD Camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Celeron N4500 (1.10 Ghz, tốc độ tối đa 2.80 Ghz 4 MB L3 Cache)",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 32,
+      "os": "Windows 11 Pro"
+    },
+    "battery": {
+      "capacity_wh": 42.3
+    },
+    "design": {
+      "dimensions_cm": "327.1 x 225.6 x 15.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.145,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.1",
+      "wifi": "Wi-Fi 6 (Gig+), 802.11 ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-samsung-galaxy-chromebook-go-xe340xda-ka1vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

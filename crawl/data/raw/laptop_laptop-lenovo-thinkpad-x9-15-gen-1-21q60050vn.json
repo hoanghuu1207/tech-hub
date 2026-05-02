@@ -1,0 +1,64 @@
+{
+  "name": "Laptop Lenovo ThinkPad X9-15 Gen 1 Aura Edition 21Q60050VN",
+  "price": 44490000,
+  "sale_price": 47990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_x9-15_gen_1_aura_edition_21q60050vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_x9-15_gen_1_aura_edition_21q60050vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkpad_x9-15_gen_1_aura_edition_21q60050vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__31.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__31.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__31.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__34.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_34.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_8__20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__23.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.3,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "Intel AI Boost, up to 40 TOPS",
+      "cpu": "Intel Core Ultra 5 228V, 8C (4P + 4LPE) / 8T, Max Turbo up to 4.5GHz, 8MB",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 512,
+      "os": "Windows 11 Pro, English (US) / English (UK) + Lenovo AI Now + Bộ hiệu suất kết nối Intel"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "339.55 x 228.5 x 12.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.4,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Intel Wi-Fi 7 BE201, 802.11be 2x2"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-x9-15-gen-1-21q60050vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "THINKPAD"
+}

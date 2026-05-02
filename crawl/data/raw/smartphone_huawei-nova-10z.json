@@ -1,0 +1,61 @@
+{
+  "name": "Huawei Nova 10z",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/d/cd_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/3/43r1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/_/x_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/1/11edc_zz.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/x/2x_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/d/cd_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/3/43r1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/_/x_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/1/11edc_zz.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/x/2x_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.6,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 64
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": 128,
+      "os": "HarmonyOS 2.0"
+    },
+    "battery": {
+      "capacity_mah": 4000
+    },
+    "design": {
+      "dimensions_mm": "160,7 x 73,3 x 8,4 mm",
+      "weight_g": 179.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.1, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 a / b / g / n / ac, băng tần kép, Wi-Fi Direct, điểm phát sóng"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/huawei-nova-10z.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Huawei",
+  "product_line": null
+}

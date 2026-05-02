@@ -1,0 +1,57 @@
+{
+  "name": "Infinix Note 30 Pro",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/n/infinix-note-30-pro_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/n/infinix-note-30-pro.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/n/infinix-note-30-pro_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/n/infinix-note-30-pro.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/n/infinix-note-30-pro_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/n/infinix-note-30-pro.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": "1080x2460 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Mediatek Helio G99 (6nm)",
+      "cpu": "2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55",
+      "gpu": "Mali-G57 MC2",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "168.5 x 76.5 x 8.5 mm",
+      "weight_g": 205.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11 a/b/g/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/infinix-note-30-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Infinix",
+  "product_line": null
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Samsung Galaxy Watch 3 45mm dây thép",
+  "price": 5500000,
+  "sale_price": 9990000,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-watch-3-45mm-day-thep.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-watch-3-45mm-day-thep.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-watch-3-45mm-day-thep.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.4,
+      "resolution": "360 x 360 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Tizen OS"
+    },
+    "battery": {
+      "capacity_mah": 340
+    },
+    "design": {
+      "case_size_mm": "41.0 x 42.5 x 11.3 mm",
+      "weight_g": 48.2,
+      "material": "Kim loại"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-watch-3-45mm-day-thep.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

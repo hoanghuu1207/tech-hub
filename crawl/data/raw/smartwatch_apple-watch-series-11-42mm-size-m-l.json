@@ -1,0 +1,63 @@
+{
+  "name": "Apple Watch Series 11 42mm (GPS) Viền Nhôm Dây Cao Su Size M/L | Chính hãng Apple Việt Nam",
+  "price": 9190000,
+  "sale_price": 11490000,
+  "colors": [
+    "Bạc - Dây tím",
+    "Vàng Hồng - Dây hồng",
+    "Đen bóng - Dây đen",
+    "Xám không gian - Dây đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/hong_3_13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/w/aw_1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/w/aw_1__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/w/aw_2__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/w/aw_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/w/aw_4__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/w/aw_5__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/w/aw_6__1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple_lte_3_22.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/hong_3_13.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": null,
+      "resolution": "374 x 446 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {
+      "usage_hours": 24
+    },
+    "design": {
+      "case_size_mm": "Vừa với cổ tay cỡ 15 – 20 cm",
+      "weight_g": 30.3,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "SOS Khẩn Cấp",
+      "Phát Hiện Va Chạm",
+      "Phát Hiện Ngã",
+      "Giám sát tiếng ồn",
+      "Quay Về",
+      "Lắc cổ tay để Tắt tiếng cuộc gọi đến",
+      "tắt chuông hẹn giờ",
+      "bỏ qua thông báo",
+      "...",
+      "Cử chỉ chạm hai lần",
+      "Siri"
+    ]
+  },
+  "features": [],
+  "description": "Hàng chính hãng Apple Việt Nam, Mới",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-series-11-42mm-size-m-l.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

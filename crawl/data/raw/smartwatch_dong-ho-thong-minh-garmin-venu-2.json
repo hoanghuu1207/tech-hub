@@ -1,0 +1,57 @@
+{
+  "name": "Đồng hồ thông minh Garmin Venu 2",
+  "price": 6490000,
+  "sale_price": 10490000,
+  "colors": [
+    "Xanh dương",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_26_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-venu-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-venu-2-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2_-_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2_-_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "416 x 416 Pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 8
+    },
+    "design": {
+      "case_size_mm": "Từ 13.5 - 20 cm",
+      "weight_g": 49.0,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Báo giờ mặt trời mọc",
+      "mặt trời lặn",
+      "Huấn luyện viên ảo Garmin Coach",
+      "La bàn",
+      "Rung thông báo",
+      "Lưu trữ lên đến 650 bài hát",
+      "Trả lời nhanh tin nhắn có sẵn"
+    ]
+  },
+  "features": [],
+  "description": "Áp dụng cho sản phẩm mua từ ngày 1/1/2024. Bảo hành chính hãng 2 năm, 1 đổi 1 trong 15 ngày nếu có lỗi từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-venu-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

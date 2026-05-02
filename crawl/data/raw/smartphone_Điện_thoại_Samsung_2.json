@@ -1,0 +1,72 @@
+{
+  "name": "Samsung Galaxy S26 12GB 256GB",
+  "price": 19990000,
+  "sale_price": 25990000,
+  "colors": [
+    "Đen Classic",
+    "Tím Cobalt",
+    "Xanh Sky Blue",
+    "Trắng Classic"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-12gb-256gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-12gb-256gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-plus.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-s26-plus-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s26-4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.3,
+      "resolution": "2340 x 1080-pixel",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Exynos 2600 (2nm)",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 4300
+    },
+    "design": {
+      "dimensions_mm": "149.6 x 71.7 x 7.2mm",
+      "weight_g": 167.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Có",
+      "wifi": "Có"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY S26 SERIES"
+}

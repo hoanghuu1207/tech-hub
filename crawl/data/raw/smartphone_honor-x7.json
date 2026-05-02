@@ -1,0 +1,61 @@
+{
+  "name": "Honor X7",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-x7_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-x7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-x7_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-x7_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-x7_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor-x7_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor-x7.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor-x7_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor-x7_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor-x7_3_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.74,
+      "resolution": "720 x 1612 (HD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "Snapdragon 680",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 11"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "802.11ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/honor-x7.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

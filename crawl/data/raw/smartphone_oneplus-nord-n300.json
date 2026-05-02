@@ -1,0 +1,60 @@
+{
+  "name": "Oneplus Nord N300",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/c/xcamams_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/c/xcamams_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/c/xcamams_3_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/c/xcamams_4_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/c/xcamams_5_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/c/xcamams_3_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/c/xcamams_4_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/c/xcamams_5_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/c/xcamams_3_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.56,
+      "resolution": "720 x 1612 (HD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "MediaTek MT6833P Mật độ 810 (6 nm)",
+      "cpu": "2x2,4 GHz Cortex-A76 & 6x2,0 GHz Cortex-A55",
+      "gpu": "Mali-G57 MC2",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163,8 x 75,1 x 8 mm",
+      "weight_g": 190.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.3, A2DP, LE",
+      "wifi": "802.11 a / b / g / n / ac, băng tần kép, điểm phát sóng"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oneplus-nord-n300.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OnePlus",
+  "product_line": null
+}

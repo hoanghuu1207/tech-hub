@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Xiaomi Buds 3T Pro",
+  "price": 1490000,
+  "sale_price": 2120000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-buds-3t-pro-ksp_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/u/buds_3t_pro_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/u/buds_3t_pro_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_12_20_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-buds-5t-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-buds-5t-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-buds-3t-pro.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-buds-3t-pro_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-buds-3t-pro_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-buds-3t-pro_2_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 6
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.2",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-xiaomi-buds-3t-pro.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

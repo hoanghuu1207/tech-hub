@@ -1,0 +1,61 @@
+{
+  "name": "ASUS ZenFone Max Pro M2 3GB",
+  "price": 5290000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/max_pro_m2__ag01_darkblue-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/z/f/zfmaxpro_m2__front_tigray.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/z/f/zfmaxpro_m2__front_darkblue.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/z/e/zenfone_max_pro_m2__zb631klzb631kl_product_shot_cosmic_titanium_02.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/max_pro_m2__ag02_darkblue.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/z/e/zenfone_max_pro_m2__zb631klzb631kl_product_shot_cosmic_titanium_08.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/max_pro_m2__ag13_darkblue.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/z/e/zenfone_max_pro_m2__zb631klzb631kl_product_shot_cosmic_titanium_13.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/max_pro_m2__ag12_darkblue.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/max_pro_m2__ag01_darkblue-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.3,
+      "resolution": "1080 x 2280 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "Snapdragon 660 AIE 14nm",
+      "cpu": "Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+      "gpu": "Adreno 512",
+      "ram_gb": null,
+      "storage_gb": 32,
+      "os": "Android 8.1 (Oreo)"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "157.9 x 75.5 x 8.5 mm",
+      "weight_g": 175.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/asus-zenfone-max-pro-m2-3-gb-ram-chinh-hang.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại ASUS",
+  "product_line": null
+}

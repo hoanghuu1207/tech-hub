@@ -1,0 +1,61 @@
+{
+  "name": "Xiaomi Poco Pad M1 Wifi 8GB 256GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-pad-m1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-pad-m1-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-pad-m1-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-pad-m1-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-poco-pad-m1-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-xiaomi-poco-pad-m1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-xiaomi-poco-pad-m1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-xiaomi-poco-pad-m1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-xiaomi-poco-pad-m1-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-xiaomi-poco-pad-m1-2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 12.1,
+      "resolution": "1600 x 2560 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Snapdragon® 7s Gen 4 Mobile Platform",
+      "cpu": "8 nhân, lên đến 2.7GHz",
+      "gpu": "Adreno™ GPU",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Xiaomi HyperOS 2"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "279.80 x 181.65 x 7.5mm",
+      "weight_g": 610.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": "Wi-Fi 6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-xiaomi-poco-pad-m1.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Đồng hồ thông minh Xiaomi Watch 2",
+  "price": 2910000,
+  "sale_price": 4690000,
+  "colors": [
+    "Đen",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-xiaomi-watch-2-main.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-xiaomi-watch-2_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-xiaomi-watch-2_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-xiaomi-watch-2_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-xiaomi-watch-2_5__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-xiaomi-watch-2_6__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-xiaomi-watch-2_4__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-xiaomi-watch-2_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-xiaomi-watch-2_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-xiaomi-watch-2_6_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.43,
+      "resolution": "466 x 466 Pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "WearOS"
+    },
+    "battery": {
+      "usage_hours": 65
+    },
+    "design": {
+      "case_size_mm": "47,5 mm*45,9 mm*11,8 mm",
+      "weight_g": 36.8,
+      "material": "Nhựa TPU"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-xiaomi-watch-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Samsung Galaxy S22 Ultra 12GB 256GB đã kích hoạt online",
+  "price": 18990000,
+  "sale_price": 33990000,
+  "colors": [
+    "Trắng",
+    "Xanh",
+    "Đỏ",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-s22-ultra-12gb-256gb.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_green_211119_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_phantomwhite_211119_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-s908_galaxys22ultra_devicepenfrontl30_green_211119_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-s908_galaxys22ultra_devicebackl30_green_211119_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-s908_galaxys22ultra_devicebackr30_green_211119_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-s908_galaxys22ultra_devicepenbackr30_burgundy_211119_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-s908_galaxys22ultra_devicepenbackl30_phantomblack_211119_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-s908_galaxys22ultra_devicepenfrontl30_phantomblack_211119_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.8,
+      "resolution": "1440 x 3088 pixels (QHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 40
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 1 (4 nm)",
+      "cpu": "1x3.00 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510",
+      "gpu": "Adreno 730",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163.3 x 77.9 x 8.9 mm",
+      "weight_g": 228.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "5.2, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct, hotspot"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Hàng nguyên seal, đã kích hoạt online, bảo hành chính hãng từ 24/5/2024-23/5/2025",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-s22-ultra-12gb-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY S"
+}

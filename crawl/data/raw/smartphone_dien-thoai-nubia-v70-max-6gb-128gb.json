@@ -1,0 +1,65 @@
+{
+  "name": "Nubia V70 Max 6GB 128GB",
+  "price": 2590000,
+  "sale_price": null,
+  "colors": [
+    "Xanh lá",
+    "Xám",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-v70-max-6gb-128gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-v70-max-6gb-128gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-v70-max-6gb-128gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-v70-max-6gb-128gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-nubia-v70-max-6gb-128gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v70-max-4gb-128gb_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v70-max-4gb-128gb_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v70-max-4gb-128gb_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v70-max-4gb-128gb_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v70-max-4gb-128gb_4__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.9,
+      "resolution": "720 x 1640 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "Unisoc T606",
+      "cpu": null,
+      "gpu": "Mali-G57 MP1",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "171.8 x 78.4 x 8.3 mm",
+      "weight_g": 218.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11 b/g/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-nubia-v70-max-6gb-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nubia",
+  "product_line": "NUBIA"
+}

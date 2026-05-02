@@ -1,0 +1,63 @@
+{
+  "name": "Máy tính bảng Lenovo Idea Tab Wifi 8GB 256GB ZAFR0402VN kèm bút",
+  "price": 7190000,
+  "sale_price": 7790000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-pro-wifi-8gb-256gb-zafr0402vn.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-pro-wifi-8gb-256gb-zafr0402vn-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-pro-wifi-8gb-256gb-zafr0402vn_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-pro-wifi-8gb-256gb-zafr0402vn-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-pro-wifi-8gb-256gb-zafr0402vn-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1562.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1563.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1564.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1565.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1566.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "2560 x 1600 pixels (2.5K)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 0
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 6300",
+      "cpu": "8C, 2x A76 @2.4 GHz + 6x A55@2.0 GHz",
+      "gpu": "Arm Mali-G57 MC2",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 15 trở lên"
+    },
+    "battery": {
+      "capacity_mah": 7040
+    },
+    "design": {
+      "dimensions_mm": "254.59 x 166.15 x 6.99 mm",
+      "weight_g": 480.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-lenovo-idea-tab-wifi-zafr0402vn-kem-but.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LENOVO IDEA TAB SERIES"
+}

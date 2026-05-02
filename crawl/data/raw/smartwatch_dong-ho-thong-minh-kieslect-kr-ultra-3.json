@@ -1,0 +1,48 @@
+{
+  "name": "Đồng hồ thông minh Kieslect KR Ultra 3",
+  "price": 1690000,
+  "sale_price": 2190000,
+  "colors": [
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_kieslect_kr_ultra_3_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_kieslect_kr_ultra_3_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_kieslect_kr_ultra_3_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/r/kru1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/r/kru.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/u/ku2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/u/ku3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/u/ku4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/u/ku5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/u/ku6.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.5,
+      "resolution": "466*466 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 500
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 40.0,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-kieslect-kr-ultra-3.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Kieslect",
+  "product_line": null
+}

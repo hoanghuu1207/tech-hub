@@ -1,0 +1,60 @@
+{
+  "name": "Laptop LG Gram 2020 15ZD90N-V.AX56A5",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_383.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_358.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_265.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_123.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_168.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/9/_/9_83.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_232.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_300.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_327.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_383.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD Webcam with Dual Mic"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel® Core™ i5-1035G7",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "FreeDos"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "357.6 x 225.3 x 16.8 mm",
+      "weight_kg": 1.12,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Intel Wifi 6 AX201D2W"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lg-gram-2020-15zd90n-vax56a5.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "LG",
+  "product_line": null
+}

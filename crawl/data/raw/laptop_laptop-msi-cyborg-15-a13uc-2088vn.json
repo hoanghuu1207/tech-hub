@@ -1,0 +1,61 @@
+{
+  "name": "Laptop MSI Cyborg 15 A13UC-2088VN",
+  "price": 23990000,
+  "sale_price": 25690000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_cyborg_15_a13uc-2088vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_cyborg_15_a13uc-2088vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_cyborg_15_a13uc-2088vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_30.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__29.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__29.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__32.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__27.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__29.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_d_i_8_12.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD type (30fps@720p)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-13420H (8 lõi) - Max Turbo Frequency: 4.60 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359.36 x 250.34 x 21.95 - 22.9 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.98,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.3",
+      "wifi": "Intel Wi-Fi 6E AX211"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-cyborg-15-a13uc-2088vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "CYBORG"
+}

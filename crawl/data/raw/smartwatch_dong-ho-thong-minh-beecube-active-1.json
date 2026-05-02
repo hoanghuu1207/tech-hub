@@ -1,0 +1,54 @@
+{
+  "name": "Đồng hồ thông minh BeeCube BeeWatch Active 1",
+  "price": 1590000,
+  "sale_price": null,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dhnn_7__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__101.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_131.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__97.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__92.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__86.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__73.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/i/ai.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/h/chong_nuoc_3atm.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/e/deo_thoai_mai.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.43,
+      "resolution": "466 x 466 dpi",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 400
+    },
+    "design": {
+      "case_size_mm": "Không công bố",
+      "weight_g": null,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Có A.I Phân tích sức khoẻ dựa vào thông số thu nhận",
+      "Bản đồ Realtime",
+      "Trợ lý AI",
+      "Tính năng đo độ cao phù hợp leo núi",
+      "trekking hoặc chạy bộ địa hình (Trail Running)"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-beecube-active-1.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Beecube",
+  "product_line": "Beecube"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Dell Insprion N3505",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_501.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_478.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_433.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_391.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_339.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_501.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_478.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_433.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_391.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/_/5_339.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD Webcam (720p Webcam)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 5 3450U",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Windows 10 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "363.96 x 249 x 18 ~ 19.90 mm",
+      "weight_kg": 1.98,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v4.2",
+      "wifi": "802.11 a/b/g/n"
+    },
+    "special_features": [
+      "Màn hình cảm ứng"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-insprion-n3505.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "INSPIRON"
+}

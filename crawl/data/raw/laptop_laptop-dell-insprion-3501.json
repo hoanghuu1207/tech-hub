@@ -1,0 +1,57 @@
+{
+  "name": "Laptop Dell Inspiron N3501",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-insprion-3501-10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_27.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_40.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_33.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_74_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-dell-insprion-3501-10.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/_/5_27.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_40.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_33.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_74_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": null,
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core I3-1125G4, 2 nhân 4 luồng, tối đa 4.10GHz, 6MB bộ nhớ đệm",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 256,
+      "os": "Win10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "363.96 x 249 x 18 -19.90 (mm)",
+      "weight_kg": 1.91,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 4.2",
+      "wifi": "802.11ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-insprion-3501.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "INSPIRON"
+}

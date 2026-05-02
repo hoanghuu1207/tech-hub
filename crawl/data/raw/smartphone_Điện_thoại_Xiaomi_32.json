@@ -1,0 +1,67 @@
+{
+  "name": "Xiaomi Redmi 14C 4GB 128GB",
+  "price": 2850000,
+  "sale_price": 3240000,
+  "colors": [
+    "Đen",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_14c_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_392.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_392_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_14c_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_14c_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_14c.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_14c_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_14c_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_14c_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_14c_6_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.88,
+      "resolution": "720 x 1640 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G81-Ultra",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 5160
+    },
+    "design": {
+      "dimensions_mm": "171,88mm x 77,80mm x 8,22mm",
+      "weight_g": 211.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-14c.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

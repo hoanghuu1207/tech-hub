@@ -1,0 +1,64 @@
+{
+  "name": "iPad Air 11 inch M4 5G 256GB 2026 | Chính hãng",
+  "price": 23690000,
+  "sale_price": null,
+  "colors": [
+    "Xám không gian",
+    "Ánh sao",
+    "Titan",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/1/01_6_3_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/2/02_4_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/3/03_7_3_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/4/04_6_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/5/05_4_2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/6/06_4_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/7/07_4_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/8/08_4_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/9/09_6_3_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/1/010_1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "2360 x 1640 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Chip Apple M4",
+      "cpu": "8 lõi với 3 lõi hiệu năng và 5 lõi tiết kiệm điện",
+      "gpu": "GPU 9 lõi\nNeural Engine 16 lõi\nCông nghệ dò tia tốc độ cao bằng phần cứng",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "iPadOS 26"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "247,6 x 178,5 x 6,1 mm",
+      "weight_g": 465.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi-Fi 7 (802.11be) với 2x2 MIMO5"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-ipad-air-m4-11-inch-256gb-5g.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD AIR"
+}

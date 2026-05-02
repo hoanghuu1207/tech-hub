@@ -1,0 +1,62 @@
+{
+  "name": "Laptop ASUS VivoBook S 16 OLED S5606MA-MX051W",
+  "price": 26990000,
+  "sale_price": 29990000,
+  "colors": [
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s_16_oled_s5606ma-mx051w_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s_16_oled_s5606ma-mx051w_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_s_16_oled_s5606ma-mx051w_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__7_105.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__6_111.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__6_128.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__6_110.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__5_116.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__2_147.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__2_135.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "3200 x 2000 pixel (WQHD+)",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FHD có chức năng IR hỗ trợ Windows Hello\nMàn trập camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core Ultra 7 155H 1.4 GHz (24MB Cache, up to 4.8 GHz, 16 lõi, 22 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.36 x 24.69 x 1.39 ~ 1.59 cm (13.92\" x 9.72\" x 0.55\" ~ 0.63\")",
+      "weight_kg": 1.5,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E(802.11ax) (Dual band) 2*2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Màn hình Oled"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-s-16-oled-s5606ma-mx051w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK"
+}

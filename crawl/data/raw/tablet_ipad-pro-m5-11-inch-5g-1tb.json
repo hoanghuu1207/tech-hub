@@ -1,0 +1,64 @@
+{
+  "name": "iPad Pro chip M5 11 inch 5G 1TB | Chính hãng Apple Việt Nam",
+  "price": 52390000,
+  "sale_price": null,
+  "colors": [
+    "Đen Không Gian",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-2_1_1_2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5_1_1_2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-9_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-8_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-7_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-6_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-5_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-4_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-3_2_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-pro-m5_1_1_2_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "2420x1668 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple M5",
+      "cpu": "10 lõi với 4 lõi hiệu năng và 6 lõi tiết kiệm điện",
+      "gpu": "10 lõi",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "iPadOS 26"
+    },
+    "battery": {
+      "usage_hours": 10
+    },
+    "design": {
+      "dimensions_mm": "249.7 x 177.5 x 5.3 mm",
+      "weight_g": 446.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi-Fi 7 (802.11be) 2x2 MIMO"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/ipad-pro-m5-11-inch-5g-1tb.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD PRO"
+}

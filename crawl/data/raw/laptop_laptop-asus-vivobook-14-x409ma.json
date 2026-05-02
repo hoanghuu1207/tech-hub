@@ -1,0 +1,57 @@
+{
+  "name": "Laptop ASUS VivoBook 14 X409MA-BV260T",
+  "price": 7990000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_x409ma-bv260t_2__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_x409ma-bv260t_5__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_x409ma-bv260t_6__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_x409ma-bv260t_4__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_x409ma-bv260t_1__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_x409ma-bv260t_3__1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_asus_x409ma-bv260t_2__1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_asus_x409ma-bv260t_5__1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_asus_x409ma-bv260t_6__1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_asus_x409ma-bv260t_4__1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Pentium Silver N5030 Processor (4 x 1.10 GHz)",
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": 256,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "32.5 x 21.6 x 2.29 cm (W x D x H)",
+      "weight_kg": 1.413,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0",
+      "wifi": "802.11 ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-14-x409ma.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK"
+}

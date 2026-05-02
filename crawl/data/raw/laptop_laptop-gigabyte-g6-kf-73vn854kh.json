@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Gigabyte G6 KF-73VN854KH",
+  "price": 25690000,
+  "sale_price": 28290000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gigabyte_g6_kf-73vn854kh_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gigabyte_g6_kf-73vn854kh_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gigabyte_g6_kf-73vn854kh_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__9_126.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_163.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_160.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_207.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_205.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15_91.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__9_148.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Webcam IR HD (720p)\nMicrô tích hợp"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-13700H (14 cores) - Max Turbo Frequency: 5.00 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home Single Language 64-bit"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.95 x 26.38 x 2.51 ~ 2.60 cm (Dài x Rộng x Dày)",
+      "weight_kg": 2.299,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth V5.2",
+      "wifi": "Intel Wi-Fi 6E (802.11ax 2x2)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-gigabyte-g6-kf-73vn854kh.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Gigabyte",
+  "product_line": null
+}

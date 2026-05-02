@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     QDRANT_API_KEY: str
 
     # AI Config
-    OPENAI_API_KEY: str
+    GEMINI_API_KEY: str
 
     # Payment config
     PAYOS_CLIENT_ID: str

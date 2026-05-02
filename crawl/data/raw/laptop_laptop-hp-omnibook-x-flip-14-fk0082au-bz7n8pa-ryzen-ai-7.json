@@ -1,0 +1,65 @@
+{
+  "name": "Laptop HP Omnibook X Flip 14-FK0082AU BZ7N8PA",
+  "price": 38890000,
+  "sale_price": 40890000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_x_flip_14-fk0082au_bz7n8pa_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_x_flip_14-fk0082au_bz7n8pa_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_x_flip_14-fk0082au_bz7n8pa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_70.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__59.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__55.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__50.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__54.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__43.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "AMD Ryzen AI (50 NPU TOPS)",
+      "cpu": "AMD Ryzen AI 7 350 (up to 5.0 GHz max boost clock,16 MB L3 cache, 8 lõi,16 luồng)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home Single Language + Office"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "31.3 x 21.85 x 1.46 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.39,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "MediaTek Wi-Fi 6E MT7922 (2x2)"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6",
+      "Màn hình cảm ứng",
+      "Xoay gập 360 độ (2 in 1)",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-omnibook-x-flip-14-fk0082au-bz7n8pa-ryzen-ai-7.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "OMNIBOOK"
+}

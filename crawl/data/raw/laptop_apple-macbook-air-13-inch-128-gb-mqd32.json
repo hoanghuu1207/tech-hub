@@ -1,0 +1,57 @@
+{
+  "name": "Apple MacBook Air 13 inch 128GB MQD32",
+  "price": 20600000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-mqd32.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-mqd32-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-mqd32-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-mqd32-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-mqd32-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-mqd32-5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-air-mqd32.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-air-mqd32-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-air-mqd32-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-air-mqd32-3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.3,
+      "resolution": "900 x 1440 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5 Dual-core 1.8 GHz, Turbo Boost lên đến 2.9 GHz, 3 MB L3 cache",
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": "OS X Sierra"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "32.5 x 22.7 x 1.7 cm (12.8 x 8.94 x 0.68 in)",
+      "weight_kg": 1.35,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "4.0",
+      "wifi": "Wi-Fi 802.11 b/g/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-macbook-air-13-inch-128-gb-mqd32.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK AIR"
+}

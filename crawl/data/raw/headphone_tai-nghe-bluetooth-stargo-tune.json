@@ -1,0 +1,40 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless StarGO Tune",
+  "price": 189000,
+  "sale_price": 270000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stargo-tune-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stargo-tune-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stargo-tune_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stargo-tune-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stargo-tune-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stargo-tune-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stargo-tune-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stargo-tune-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stargo-tune-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/t/stargo-tune-10.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 4
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-stargo-tune.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "StarGO",
+  "product_line": null
+}

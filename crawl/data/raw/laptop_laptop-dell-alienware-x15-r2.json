@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Dell Alienware X15 R2",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-07-19t110021.996.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-07-19t110218.826_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-07-19t110255.753.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-07-19t110354.749.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/h/thi_t_k_ch_a_c_t_n_87_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/h/thi_t_k_ch_a_c_t_n_88_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/h/thi_t_k_ch_a_c_t_n_90_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/h/thi_t_k_ch_a_c_t_n_91_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/h/thi_t_k_ch_a_c_t_n_89_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_-_2023-07-19t110021.996.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "2560 x 1440 pixels",
+      "refresh_rate_hz": 240,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera Alienware HD (độ phân giải 1280x720)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i9-12900H (up to 5.0 GHz, 14 lõi / 20 luồng, 24MB Cache)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Pro"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359.7 x 277.33 x 15.9 mm",
+      "weight_kg": 2.27,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Có",
+      "wifi": "Wi - Fi 6"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-alienware-x15-r2.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": null
+}

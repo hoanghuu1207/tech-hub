@@ -1,0 +1,52 @@
+{
+  "name": "Đồng hồ thông minh COROS Pace Pro",
+  "price": 9280000,
+  "sale_price": 9990000,
+  "colors": [
+    "Xanh dương",
+    "Xám",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_1__1_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_2__1_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_4__1_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_3__1_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__7_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_576.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_25__7_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_27__7_13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_26__6_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__7_19.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "416 x 416 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "14 - 22 cm",
+      "weight_g": 37.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Điều khiển Camera hành động (Hỗ trợ một số camera GoPro và Insta360)",
+      "Người chạy bộ ảo",
+      "La bàn 3D"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-coros-pace-pro.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Coros",
+  "product_line": null
+}

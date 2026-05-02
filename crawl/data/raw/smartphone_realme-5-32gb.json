@@ -1,0 +1,60 @@
+{
+  "name": "Realme 5 32GB",
+  "price": 3690000,
+  "sale_price": null,
+  "colors": [
+    "Xanh dương",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_5_tim_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_5_xanh_7.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/realme_5_tim_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/realme_5_xanh_7.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/realme_5_tim_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/r/e/realme_5_xanh_7.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.5,
+      "resolution": "1600 x 720 pixels (HD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 665 AIE",
+      "cpu": "Octa-core CPU 11nm process technology Up to 2.0GHz clock speed",
+      "gpu": null,
+      "ram_gb": 3,
+      "storage_gb": 32,
+      "os": "Android 9.0 (Pie)"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164.4 mm - 75.6 mm - 9.3 mm",
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "802.11ac Wi-Fi"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/realme-5-32gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": null
+}

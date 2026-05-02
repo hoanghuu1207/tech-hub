@@ -1,0 +1,64 @@
+{
+  "name": "Samsung Galaxy Tab A11 Plus 5G 6GB 128GB",
+  "price": 7490000,
+  "sale_price": 8690000,
+  "colors": [
+    "Bạc",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-tab-a11-plus.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-a11-plus-wifi-8_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-a11-plus-wifi-7_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-a11-plus-wifi-11_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-a11-plus-wifi-9_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-a11-plus-wifi-10_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-a11-plus-wifi-13_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-a11-plus-wifi-12_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-a11-plus-wifi-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-a11-plus-wifi_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek 7300",
+      "cpu": "4 nhân 2.5 GHz & 4 nhân 2 GHz",
+      "gpu": "Mali-G615 MP2",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 16"
+    },
+    "battery": {
+      "capacity_mah": 7040
+    },
+    "design": {
+      "dimensions_mm": "168.7 × 257.1 × 6.9 mm",
+      "weight_g": 482.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.3",
+      "wifi": "802.11 a/b/g/n/ac, 2.4GHz + 5GHz, VHT80, Wi-Fi Direct"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-samsung-galaxy-tab-a11-plus-5g.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

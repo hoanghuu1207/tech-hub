@@ -1,0 +1,42 @@
+{
+  "name": "Tai nghe Bluetooth chống ồn SENNHEISER Accentum True Wireless",
+  "price": 5390000,
+  "sale_price": 5990000,
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-true-wireless_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-true-wireless-19_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-true-wireless-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-true-wireless-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-true-wireless-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-true-wireless-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-true-wireless-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-true-wireless-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-true-wireless-5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-sennheiser-accentum-true-wireless-8.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 8
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-sennheiser-accentum-true-wireless.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sennheiser",
+  "product_line": null
+}

@@ -1,0 +1,63 @@
+{
+  "name": "HONOR Pad X7 Wifi 4GB 64GB",
+  "price": 3290000,
+  "sale_price": null,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-honor-pad-x7-wifi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-honor-pad-x7-wifi_5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-honor-pad-x7-wifi-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-honor-pad-x7-wifi-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-honor-pad-x7-wifi-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-honor-pad-x7-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-honor-pad-x7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-honor-pad-x7-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-honor-pad-x7-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-honor-pad-x7-4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 8.7,
+      "resolution": "800 x 1340 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Qualcomm® Snapdragon® 680 (6nm)",
+      "cpu": "8 lõi, 4×Cortex-A73 2.4GHz + 4×Cortex-A53 1.9GHz",
+      "gpu": "Adreno",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 7020
+    },
+    "design": {
+      "dimensions_mm": "211,8 x 124,8 x 7,99 mm",
+      "weight_g": 365.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "BT 5.0",
+      "wifi": "WIFI 5, 802.11 a/b/g/n/ac, 2.4GHz và 5GHz"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-honor-pad-x7.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

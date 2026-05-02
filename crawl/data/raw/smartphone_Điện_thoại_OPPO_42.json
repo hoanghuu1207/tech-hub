@@ -1,0 +1,71 @@
+{
+  "name": "OPPO Find X8 16GB 512GB",
+  "price": 19490000,
+  "sale_price": 22990000,
+  "colors": [
+    "Xám",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-x8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-x8-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-x8-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-x8-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-x8-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-oppo-find-x8-xam-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-oppo-find-x8-xam_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-oppo-find-x8-xam_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-oppo-find-x8-xam_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-oppo-find-x8-xam_2_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.59,
+      "resolution": "1256 x 2760 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 9400",
+      "cpu": "8 nhân",
+      "gpu": "Immortalis G925 MC12",
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "ColorOS 15, nền tảng Android 15"
+    },
+    "battery": {
+      "capacity_mah": 5630
+    },
+    "design": {
+      "dimensions_mm": "157.35 x 74.33 x 7.85 mm",
+      "weight_g": 193.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.4 BLE",
+      "wifi": null
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-oppo-find-x8.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "FIND X SERIES"
+}

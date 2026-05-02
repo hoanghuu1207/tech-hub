@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Sony MDR E9LP",
+  "price": 149000,
+  "sale_price": 199000,
+  "colors": [
+    "Xanh",
+    "Hồng",
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_mdr_e9lp_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_mdr_e9lp_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_mdr_e9lp_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_mdr_e9lp_3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_27_1__1_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony_mdr_e9lp_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony_mdr_e9lp_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony_mdr_e9lp_4.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony_mdr_e9lp_3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony_mdr_e9lp_2.png"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {},
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/sony-mdr-e9lp.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sony",
+  "product_line": null
+}

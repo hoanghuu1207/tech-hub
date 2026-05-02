@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe truyền dẫn xương Shokz Openmove",
+  "price": 2020000,
+  "sale_price": 2240000,
+  "colors": [
+    "Xanh",
+    "Hồng",
+    "Xám",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openmove-ksp.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0006_blue3_bbbf6df9-200f-4cbe-9890-74_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_51wkdchkxfl._ac_sl1500_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0003_51-kuc4g4jl._ac_sl1500_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001_517xn3tzq4l._ac_sl1500_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002_612xxdwzzbl._ac_sl1500_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0004_blue2_0ccee0e2-d6ab-45c0-83b5-54_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0005_blue4_edf15c19-15d1-4e4e-8a4e-b5_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openmove_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openmove.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 6
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.1",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-truyen-dan-xuong-shokz-openmove.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Shokz",
+  "product_line": null
+}

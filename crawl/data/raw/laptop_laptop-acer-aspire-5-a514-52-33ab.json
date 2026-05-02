@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Acer Aspire 5 A514-52-33AB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_385.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_360.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_329.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_267.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_302.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_234.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_169.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_385.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_360.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_329.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i3-10110U Comet Lake",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 256,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "328.8 x 236 x 17.95 mm",
+      "weight_kg": 1.5,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-5-a514-52-33ab.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "ASPIRE"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Đồng hồ thông minh Garmin fēnix 5S Sapphire",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/s/5ssph_den.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/s/5ssph_trang.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/s/5ssph_hong.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/s/5sph_xanh.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/s/5ssph_den.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/s/5ssph_trang.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/s/5ssph_hong.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/s/5sph_xanh.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/s/5ssph_den.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/s/5ssph_trang.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.1,
+      "resolution": "218 x 218 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 12
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": null,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-garmin-fenix-5s-sapphire.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

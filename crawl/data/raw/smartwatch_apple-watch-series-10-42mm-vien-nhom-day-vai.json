@@ -1,0 +1,57 @@
+{
+  "name": "Apple Watch Series 10 42mm (GPS) Viền Nhôm - Dây Vải | Chính hãng Apple Việt Nam",
+  "price": 7990000,
+  "sale_price": 10790000,
+  "colors": [
+    "Xanh nhạt",
+    "Màu mận"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_240.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_237.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple__4_24.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/ap5c8e_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apcd69_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple__2_18.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple__1_1_9.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/ap9e1d_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple__3_1_5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple_lte_1__1_11.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 989.0,
+      "resolution": "374 x 446 Pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {
+      "usage_hours": 18
+    },
+    "design": {
+      "case_size_mm": "42 x 9.7 x 36 mm",
+      "weight_g": 30.0,
+      "material": "Vải"
+    },
+    "special_features": [
+      "Loa",
+      "Phát nhạc",
+      "SOS Khẩn Cấp",
+      "Phát Hiện Va Chạm",
+      "AssistiveTouch",
+      "Bộ Lọc Màu",
+      "Tự Động Trả Lời Cuộc Gọi"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-series-10-42mm-vien-nhom-day-vai.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

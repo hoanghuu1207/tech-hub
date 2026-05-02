@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Dell Inspiron N3511 P112F001DBL",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_502.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_479.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_434.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_392.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_340.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_289.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_203.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_502.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_479.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_434.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5 Tiger Lake - 1135G7",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 512,
+      "os": "Windows 11 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "358.5 - 235.5 - 18.9 mm",
+      "weight_kg": 1.7,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-inspiron-n3511-p112f001dbl.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "INSPIRON"
+}

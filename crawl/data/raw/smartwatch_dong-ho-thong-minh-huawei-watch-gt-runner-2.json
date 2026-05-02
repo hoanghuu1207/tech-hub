@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch GT Runner 2",
+  "price": 7590000,
+  "sale_price": 8990000,
+  "colors": [
+    "Cam",
+    "Xanh dương",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_28.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_1__23.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_2__24.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_3__18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_4__1_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_5__18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_6__1_14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_9__10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_8__10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_7__11.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.32,
+      "resolution": "466 × 466 pixel, PPI 352",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 32
+    },
+    "design": {
+      "case_size_mm": "Từ 12 - 19 cm",
+      "weight_g": 34.5,
+      "material": "Vải"
+    },
+    "special_features": [
+      "Chế độ Marathon thông minh",
+      "Trợ lý sự kiện",
+      "Dự đoán hiếu suất tập luyện",
+      "Phân tích ECG"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-gt-runner-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

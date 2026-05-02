@@ -1,0 +1,56 @@
+{
+  "name": "Đồng hồ thông minh Amazfit Balance 2",
+  "price": 6990000,
+  "sale_price": 7990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_balance_2_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_balance_2_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_balance_2_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_308.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__8_138.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_225.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__4_252.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_293.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__9_122.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_242.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.5,
+      "resolution": "480 x 480 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 658
+    },
+    "design": {
+      "case_size_mm": "Từ 14 - 21 cm",
+      "weight_g": 43.0,
+      "material": "Nhôm"
+    },
+    "special_features": [
+      "Kết nối với các thiết bị tập luyện ngoại vi: Đai đo nhịp tim",
+      "Máy đo công suất chạy bộ",
+      "Máy đo công suất đạp xe",
+      "Máy đo tốc độ đạp xe",
+      "Máy đo nhịp đạp xe",
+      "Trợ lý AI: Zepp Flow",
+      "Alexa"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-balance-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

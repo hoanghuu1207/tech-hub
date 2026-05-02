@@ -1,0 +1,46 @@
+{
+  "name": "Tai nghe Bluetooth Edifier W110T",
+  "price": 275000,
+  "sale_price": 490000,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_557_31.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_483_23.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_718_41.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_691.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_629_35.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/9/_/9_115_14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_399_21.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/0/10_91_11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/1/11_60_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_174_15.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 26,
+      "earbuds_hours": 26,
+      "case_hours": 26
+    },
+    "design": {
+      "earbuds_dimensions_mm": "35x 20 x 20mm",
+      "case_dimensions_mm": "45 x 55 x 25mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-edifier-w110t.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Edifier",
+  "product_line": null
+}

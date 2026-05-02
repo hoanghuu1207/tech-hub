@@ -1,0 +1,58 @@
+{
+  "name": "Apple Watch Series 10 42mm (GPS) Viền Nhôm Dây Cao Su Size M/L | Chính hãng Apple Việt Nam",
+  "price": 7990000,
+  "sale_price": 10990000,
+  "colors": [
+    "Bạc",
+    "Hồng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-10-42mm_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-10-42mm_9__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-10-42mm_8__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-10-42mm_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-10-42mm_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-10-42mm_4__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-10-42mm_5__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-10-42mm_7__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-10-42mm_6__1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_604_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 989.0,
+      "resolution": "374 x 446 Pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {
+      "usage_hours": 18
+    },
+    "design": {
+      "case_size_mm": "42 x 9.7 x 36 mm",
+      "weight_g": 30.0,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Loa",
+      "Phát nhạc",
+      "SOS Khẩn Cấp",
+      "Phát Hiện Va Chạm",
+      "AssistiveTouch",
+      "Bộ Lọc Màu",
+      "Tự Động Trả Lời Cuộc Gọi"
+    ]
+  },
+  "features": [],
+  "description": "Hàng chính hãng Apple Việt Nam, Mới",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-series-10-42mm-size-m-l.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

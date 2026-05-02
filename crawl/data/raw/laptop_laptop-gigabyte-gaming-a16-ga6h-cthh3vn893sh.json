@@ -1,0 +1,64 @@
+{
+  "name": "Laptop Gigabyte Gaming A16 GA6H-CTHH3VN893SH",
+  "price": 29090000,
+  "sale_price": 31490000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gigabyte_gaming_a16_ga6h-cthh3vn893sh_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gigabyte_gaming_a16_ga6h-cthh3vn893sh_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gigabyte_gaming_a16_ga6h-cthh3vn893sh_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__10_32.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__9_238.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__8_25.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__8_27.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__10_23.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_244.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__7_168.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera HD Gigabyte với micro mảng"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-13420H (8 lõi) - Max Turbo Frequency: 4.60 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language 64-bit"
+    },
+    "battery": {
+      "capacity_wh": 76.1
+    },
+    "design": {
+      "dimensions_cm": "35.83 x 26.25 x 1.945 ~ 2.299 cm (Dài x Rộng x Dày)",
+      "weight_kg": 2.227,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.2",
+      "wifi": "Intel Wi-Fi 6E (802.11ax 2x2)"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "MUX Switch"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-gigabyte-gaming-a16-ga6h-cthh3vn893sh.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Gigabyte",
+  "product_line": null
+}

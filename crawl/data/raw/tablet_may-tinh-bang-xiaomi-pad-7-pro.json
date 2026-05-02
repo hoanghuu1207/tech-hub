@@ -1,0 +1,65 @@
+{
+  "name": "Xiaomi Pad 7 Pro 8GB 256GB",
+  "price": 12490000,
+  "sale_price": 13740000,
+  "colors": [
+    "Xám",
+    "Xanh dương",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-pad-7-pro.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-pad-7-pro-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-pad-7-pro-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-pad-7-pro-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-pad-7-pro-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7_4__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7_5__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7_1__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.2,
+      "resolution": "2136 x 3200 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Qualcomm SM8635 Snapdragon 8s Gen 3",
+      "cpu": "1x2.8 GHz Cortex-X4 & 4x2.6 GHz Cortex-A720 & 3x1.9 GHz Cortex-A520",
+      "gpu": "Adreno 735",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 15, Xiaomi HyperOS 2"
+    },
+    "battery": {
+      "capacity_mah": 8850
+    },
+    "design": {
+      "dimensions_mm": "251.2 x 173.4 x 6.2 mm",
+      "weight_g": 500.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "Wi-Fi 7, Wi-Fi Direct, 2x2 MIMO, 8x8 cho MU-MIMO"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-xiaomi-pad-7-pro.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

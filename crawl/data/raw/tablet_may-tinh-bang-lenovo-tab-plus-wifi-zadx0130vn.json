@@ -1,0 +1,63 @@
+{
+  "name": "Máy tính bảng Lenovo Tab Plus Wifi 8GB 256GB ZADX0130VN - Kèm bao da",
+  "price": 6490000,
+  "sale_price": 7990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-tab-plus-wifi-8gn-256gb-zadx0130vn.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-tab-plus-wifi-8gn-256gb-zadx0130vn-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-tab-plus-wifi-8gn-256gb-zadx0130vn_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-tab-plus-wifi-8gn-256gb-zadx0130vn-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-tab-plus-wifi-8gn-256gb-zadx0130vn-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-lenovo-tab-plus-wifi-zadx0130vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-lenovo-tab-plus-wifi-zadx0130vn_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-lenovo-tab-plus-wifi-zadx0130vn_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-lenovo-tab-plus-wifi-zadx0130vn_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-lenovo-tab-plus-wifi-zadx0130vn_5_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.5,
+      "resolution": "1200 x 2000 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 0
+    },
+    "camera_front": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G99",
+      "cpu": "8C, 2x A76 @2.2GHz + 6x A55 @2.0GHz",
+      "gpu": "Integrated Arm Mali-G57 MC2 GPU",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 8600
+    },
+    "design": {
+      "dimensions_mm": "268.3 x 174.25 x 7.77-13.58 mm",
+      "weight_g": 650.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "BT5.2",
+      "wifi": "Wi-Fi 5, 802.11ac 1x1"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-lenovo-tab-plus-wifi-zadx0130vn.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LENOVO TAB"
+}

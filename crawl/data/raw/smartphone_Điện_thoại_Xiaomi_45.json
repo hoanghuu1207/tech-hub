@@ -1,0 +1,61 @@
+{
+  "name": "Xiaomi 14 Ultra 12GB 512GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-14-ultra_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-14-ultra_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-14-ultra-8gb-256gb_1__4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-14-ultra-8gb-256gb_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-14-ultra-8gb-256gb_2__4.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-14-ultra_1__1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-14-ultra_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-14-ultra_1__1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-14-ultra-8gb-256gb_1__4.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-14-ultra-8gb-256gb_4.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.73,
+      "resolution": "1440 x 3200 pixels (QHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 8 Gen 3 (4 nm)",
+      "cpu": null,
+      "gpu": "Adreno 750",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5300
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-14-ultra-12gb-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "XIAOMI 14 SERIES"
+}

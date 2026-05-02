@@ -1,0 +1,66 @@
+{
+  "name": "HONOR X7c 8GB 256GB",
+  "price": 4300000,
+  "sale_price": 5400000,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x7c-8gb-256gb_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x7c-8gb-256gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x7c-8gb-256gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x7c-8gb-256gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x7c-8gb-256gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_honor_x7c_8gb_256gb-4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_honor_x7c_8gb_256gb-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/256gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/256gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/256gb-3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.77,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 685",
+      "cpu": "4xA73 2.8GHz + 4xA53 1.9GHz",
+      "gpu": "ARM Mail G52 MC2",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "MagicOS 8.0, dựa trên Android 14"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "166,9 x 76,8 x 8,09 mm",
+      "weight_g": 194.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "BT5.0",
+      "wifi": "802.11 a/b/g/n/ac (2.4 GHz và 5 GHz)"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-x7c.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

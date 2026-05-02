@@ -1,0 +1,75 @@
+{
+  "name": "iPhone 13 256GB | Chính hãng VN/A",
+  "price": 14990000,
+  "sale_price": 16990000,
+  "colors": [
+    "Đỏ",
+    "Xanh lá",
+    "Đen",
+    "Xanh dương",
+    "Trắng",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_256gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_128gb_-_2_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_128gb_-_4_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_128gb_-_8_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_128gb_-_3_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_128gb_-_7_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_128gb_-_5_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_13_128gb_-_6_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/1/11_3_12_2_1_6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/4/14_1_9_2_10.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "2532 x 1170 pixels",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A15",
+      "cpu": "3.22 GHz",
+      "gpu": "Apple GPU 4 nhân",
+      "ram_gb": 4,
+      "storage_gb": 256,
+      "os": "iOS 15"
+    },
+    "battery": {
+      "capacity_mah": 3240
+    },
+    "design": {
+      "dimensions_mm": "146,7 x 71,5 x 7,65mm",
+      "weight_g": 174.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi‑Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-13-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 13 SERIES"
+}

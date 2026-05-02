@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Dell 16 DC16251 DC6C7557W1",
+  "price": 30290000,
+  "sale_price": 31490000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_16_dc16251_dc6c7557w1_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_16_dc16251_dc6c7557w1_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_16_dc16251_dc6c7557w1_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_133.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__104.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__98.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__93.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__87.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__74.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__61.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Có"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core 7 150U (10 lõi, up to 5.4 GHz)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home, Single Language English + Office Home & Student 2024"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "356.78 x 249.52 x 19.05 mm (Dài x Rộng x Dày)",
+      "weight_kg": null,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-16-dc16251-dc6c7557w1.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL 16"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch Fit 4 Pro Dây Nylon",
+  "price": 2990000,
+  "sale_price": 5990000,
+  "colors": [
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_4_pro_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_4_pro_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_4_pro_-_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__6_127.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__4_126.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_140.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__4_138.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__7_86.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__9_118.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/m/smart_band_3__1_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.82,
+      "resolution": "480 × 408 pixels, PPI 347\nĐộ sáng tối đa 3000 nit",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 130 - 210 mm",
+      "weight_g": 30.4,
+      "material": "Nylon"
+    },
+    "special_features": [
+      "Bản đồ sân Golf",
+      "Đo khoảng cách thông minh",
+      "Bảng điểm kỹ thuật số",
+      "Phân tích sau trận Golf",
+      "Phân tích sức khỏe",
+      "Theo dõi cảm xúc",
+      "Ghi chú bằng giọng nói",
+      "Chụp ảnh màn hình"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-fit-4-pro-day-nylon.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

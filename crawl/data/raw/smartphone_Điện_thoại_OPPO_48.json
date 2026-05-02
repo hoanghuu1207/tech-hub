@@ -1,0 +1,67 @@
+{
+  "name": "Điện thoại OPPO A55 (4GB - 64GB)",
+  "price": 3490000,
+  "sale_price": 3690000,
+  "colors": [
+    "Đen",
+    "Xanh",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/combo_a55_-_en_-_cmyk.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a55_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/3/23.133.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/2/22.433_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/2/22.555.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/2/22.255.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/2/22.255-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/2/22.655_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/a/parker-b__product_images__rainbow_blue__top_bottom_rgb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a55-xanh-01.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.51,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G35",
+      "cpu": "4 nhân 2.3 GHz & 4 nhân 1.8 GHz",
+      "gpu": "IMG PowerVR GE8320",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Android 11, ColorOS 11.1"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "163.9 x 75.7 x 8.4 mm",
+      "weight_g": 193.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi 5 (802.11ac), 802.11a/b/g/n/\nWi-Fi 2.4G/5.1G/5.8G"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-a55.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": null
+}

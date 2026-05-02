@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Dell Alienware X17",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-x17-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-x17-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-x17-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-x17-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-x17-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-dell-alienware-x17-6.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-dell-alienware-x17-1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-dell-alienware-x17-1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-dell-alienware-x17-2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-dell-alienware-x17-3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 17.3,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 480,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Máy ảnh Camera Alienware HD (độ phân giải 1280x720) với micrô hai dải và hỗ trợ Windows Hello IR"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel® Core™ i9-12900HK thế hệ thứ 12 (bộ nhớ đệm 24 MB, 14 lõi, 20 luồng, Turbo lên đến 5,00 GHz)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home, Tiếng Anh"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "20.9 x 39.9 x 30 cm",
+      "weight_kg": 3.2,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "Wi-Fi 6E AX1675, 2x2, 802.11ax"
+    },
+    "special_features": [
+      "Công nghệ Intel Gaming"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-alienware-x17.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": null
+}

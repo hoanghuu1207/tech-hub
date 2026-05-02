@@ -1,0 +1,71 @@
+{
+  "name": "HONOR X9d 5G 12GB 512GB",
+  "price": 12190000,
+  "sale_price": 12990000,
+  "colors": [
+    "Vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x9d-12gb-512gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x9d-12gb-512gb-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x9d-12gb-512gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x9d-12gb-512gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x9d-12gb-512gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-x9d-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-x9d-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-x9d-10_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-x9d-6_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-x9d-11_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.79,
+      "resolution": "1200 x 2640 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Snapdragon 6 Gen 4",
+      "cpu": "8 nhân (1× A720 2.3GHz + 3× A720 2.2GHz + 4× A520 1.8GHz)",
+      "gpu": "Adreno A810",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "MagicOS 9.0 (Dựa trên Android 15）"
+    },
+    "battery": {
+      "capacity_mah": 8300
+    },
+    "design": {
+      "dimensions_mm": "161.9 × 76.1 × 7.76 mm",
+      "weight_g": 193.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2 (BLE, SBC, AAC, LDAC, aptX, aptX HD, AptX Adaptive)",
+      "wifi": "Wi-Fi 6 (802.11 ax) và 802.11 a/b/g/n/ac, 1024 QAM, 80MHz, 2.4GHz và 5GHz"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-x9d.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Đồng hồ định vị trẻ em myALO K64",
+  "price": 1590000,
+  "sale_price": 1690000,
+  "colors": [
+    "Xanh lá",
+    "Hồng",
+    "Đen",
+    "Xanh dương",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_7__1_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_8__1_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_9__1_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__2_197.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__7_42.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__4_152.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__4_195.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__6_38.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__5_148.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__2_186.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "240 x 240dpi",
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 600
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "special_features": [
+      "Kết bạn với đồng hồ cùng loại từ xa",
+      "Thiết lập 5 vùng an toàn",
+      "Xem lịch sử di chuyển trong 3 tháng",
+      "Nút khẩn cấp SOS",
+      "Thiết lập 20 lịch học",
+      "Trò chơi Toán học",
+      "Calenda",
+      "Theo dõi vận động",
+      "Xem lịch thi",
+      "Xem thời khóa biểu"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-dinh-vi-tre-em-myalo-k64.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "myalo",
+  "product_line": null
+}

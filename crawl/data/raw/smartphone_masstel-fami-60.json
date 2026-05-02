@@ -1,0 +1,57 @@
+{
+  "name": "masstel fami 60",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/_/c_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ngc_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/a/xanh_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-fami-60_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-fami-60_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-fami-60_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-fami-60_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-fami-60.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-fami-60_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/_/c_2_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 2.0,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": "Unisoc UIS8910",
+      "cpu": null,
+      "gpu": "RAM 16MB, ROM 24MB",
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 2000
+    },
+    "design": {
+      "dimensions_mm": "57.1 x 15.3 x 125.9 mm",
+      "weight_g": 146.2,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v4.2",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/masstel-fami-60.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Masstel",
+  "product_line": null
+}

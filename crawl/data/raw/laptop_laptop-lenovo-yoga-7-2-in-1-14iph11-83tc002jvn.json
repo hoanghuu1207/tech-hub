@@ -1,0 +1,65 @@
+{
+  "name": "Laptop Lenovo Yoga 7 2-in-1 14IPH11 83TC002JVN",
+  "price": 54990000,
+  "sale_price": null,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_yoga_7_2-in-1_14iph11_83tc002jvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_yoga_7_2-in-1_14iph11_83tc002jvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_yoga_7_2-in-1_14iph11_83tc002jvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_15_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_11_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_13_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_9_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "Up to 49 TOPS",
+      "cpu": "Intel Core Ultra 7 355, 8 lõi (4P + 4LPE) / 8 luồng, Max Turbo up to 4.7GHz, 12MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home Single Language, English + Microsoft 365 Basic + Office Home 2024 + Lenovo AI Now"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "317 x 228 x 15.45 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.38,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7, 802.11be 2x2"
+    },
+    "special_features": [
+      "Màn hình cảm ứng",
+      "Xoay gập 360 độ (2 in 1)",
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-yoga-7-2-in-1-14iph11-83tc002jvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "YOGA"
+}

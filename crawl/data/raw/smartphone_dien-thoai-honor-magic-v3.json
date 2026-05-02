@@ -1,0 +1,59 @@
+{
+  "name": "Honor Magic V3",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor_magic_v3_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor_magic_v3_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor_magic_v3_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor_magic_v3_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor_magic_v3_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor_magic_v3_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor_magic_v3_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor_magic_v3_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor_magic_v3_3_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor_magic_v3_2_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 7.92,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {},
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5150
+    },
+    "design": {
+      "dimensions_mm": "Mở ra: 4,4 mm\nGập vào: 9,3 mm",
+      "weight_g": 226.0,
+      "material": "Da thuần chay"
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-magic-v3.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

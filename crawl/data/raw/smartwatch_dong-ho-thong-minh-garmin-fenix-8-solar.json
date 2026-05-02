@@ -1,0 +1,57 @@
+{
+  "name": "Đồng hồ thông minh Garmin Fenix 8 Solar",
+  "price": 26490000,
+  "sale_price": 29990000,
+  "colors": [
+    "Xám Carbon"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_fenix_8_solar_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_fenix_8_solar_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_fenix_8_solar_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_65.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_38.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_17__7_41.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_18__5_34.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_19__3_35.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_20__4_48.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_21__3_40.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "390 x 390 Pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 95
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 80.0,
+      "material": "Titanium"
+    },
+    "special_features": [
+      "Micro kép & loa",
+      "Đèn pin LED tích hợp",
+      "Lựa chọn bảng đồ nhanh",
+      "GARMIN SHARE",
+      "Ứng dụng MESSENGER",
+      "GARMIN PAY",
+      "Điều khiển bằng giọng nói",
+      "Ghi âm"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-fenix-8-solar.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

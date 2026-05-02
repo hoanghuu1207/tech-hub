@@ -1,0 +1,64 @@
+{
+  "name": "Apple MacBook Air M2 2024 8CPU 8GPU 16GB 256GB I Chính hãng Apple Việt Nam",
+  "price": 19490000,
+  "sale_price": 24990000,
+  "colors": [
+    "Bạc",
+    "Xám",
+    "Trắng vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/n/vn0d33_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/n/vnb70f_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/n/vn_mac_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/n/vn_mac_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/n/vn380f_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/n/vne2da_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/n/vn7269_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/n/vn_mac_3_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/n/vn1dc1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/n/vn_mac_4_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.6,
+      "resolution": "2560 x 1664 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "1080p FaceTime HD camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Apple M2 8 nhân",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 256,
+      "os": "MacOS"
+    },
+    "battery": {
+      "capacity_wh": 52.6
+    },
+    "design": {
+      "dimensions_cm": "Dày: 1,13cm - Chiều dài: 30,41cm Chiều rộng: 21,5cm",
+      "weight_kg": 1.27,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "802.11ax Wi-Fi 6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm được Apple Việt Nam phân phối chính thức",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-air-m2-2022-16gb.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK AIR"
+}

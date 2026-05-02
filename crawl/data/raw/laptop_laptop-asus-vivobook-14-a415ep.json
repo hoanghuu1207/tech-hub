@@ -1,0 +1,57 @@
+{
+  "name": "Laptop ASUS VivoBook A415EP-EB116T",
+  "price": 17790000,
+  "sale_price": 18390000,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-vivobook-14-a415ep_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-vivobook-14-a415ep_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-vivobook-14-a415ep_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-vivobook-14-a415ep_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-vivobook-14-a415ep_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-vivobook-14-a415ep_6_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-14-a415ep_5_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-14-a415ep_4_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-14-a415ep_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-14-a415ep_1_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel® Core I5-1135G7, upto 4.20GHz, 4 cores 8 threads, 8MB Cache",
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": 512,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "324.9 x 215 x 17.9 mm (WxDxH)",
+      "weight_kg": 1.45,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth® 5.0",
+      "wifi": "Tích hợp Wi-Fi 5 (802.11 ac)"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-14-a415ep.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK"
+}

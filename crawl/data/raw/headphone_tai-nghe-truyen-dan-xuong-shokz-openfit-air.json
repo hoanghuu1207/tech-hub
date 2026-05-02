@@ -1,0 +1,42 @@
+{
+  "name": "Tai nghe bluetooth Shokz Openfit Air",
+  "price": 2740000,
+  "sale_price": 3230000,
+  "colors": [
+    "Hồng",
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openfit-air-ksp.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openfit-air-_27__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openfit-air-_26__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openfit-air-_22__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openfit-air-_23__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openfit-air-_24__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openfit-air-_28__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openfit-air-_21__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openfit-air-_20__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openfit-air-_25__1.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 6
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.2",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-truyen-dan-xuong-shokz-openfit-air.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Shokz",
+  "product_line": null
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Đồng hồ định vị trẻ em Myalo KS72C",
+  "price": 1490000,
+  "sale_price": 1690000,
+  "colors": [
+    "Đen",
+    "Xanh",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_nh_v_tr_em_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/m/_myalo-ks72c.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/c/screenshot_1_7_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/c/screenshot_2_5_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/c/screenshot_3_5_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/c/screenshot_4_6_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_nh_v_tr_em_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_nh_v_tr_em_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/m/_myalo-ks72c.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/c/screenshot_1_7_1_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "240 x 240 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 47.0,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-dinh-vi-tre-em-myalo-ks72c.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "myalo",
+  "product_line": null
+}

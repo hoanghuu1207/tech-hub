@@ -1,0 +1,57 @@
+{
+  "name": "Honor 80 Pro",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/f/sffg_1__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-80-600x600_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/f/sffg_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-80-pro-plus-600x600_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/f/sffg_2__1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sffg_1__1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor-80-600x600_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sffg_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor-80-pro-plus-600x600_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/f/sffg_2__1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": null,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {},
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 1",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/honor-80-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

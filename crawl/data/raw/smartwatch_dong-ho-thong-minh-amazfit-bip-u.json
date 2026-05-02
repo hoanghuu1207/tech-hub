@@ -1,0 +1,57 @@
+{
+  "name": "Đồng hồ thông minh Amazfit Bip U",
+  "price": 930000,
+  "sale_price": 1190000,
+  "colors": [
+    "Xanh lá",
+    "Đen",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomiviet.vn-dong-ho-thong-minh-xiaomi-amazfit-bip-u-xiaomi-amazfit-bip-u-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomiviet.vn-dong-ho-thong-minh-xiaomi-amazfit-bip-u-xiaomi-amazfit-bip-u-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomiviet.vn-dong-ho-thong-minh-xiaomi-amazfit-bip-u-xiaomi-amazfit-bip-u.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/garmin_67_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomiviet.vn-dong-ho-thong-minh-xiaomi-amazfit-bip-u-xiaomi-amazfit-bip-u-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomiviet.vn-dong-ho-thong-minh-xiaomi-amazfit-bip-u-xiaomi-amazfit-bip-u-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomiviet.vn-dong-ho-thong-minh-xiaomi-amazfit-bip-u-xiaomi-amazfit-bip-u.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomiviet.vn-dong-ho-thong-minh-xiaomi-amazfit-bip-u-xiaomi-amazfit-bip-u-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomiviet.vn-dong-ho-thong-minh-xiaomi-amazfit-bip-u-xiaomi-amazfit-bip-u-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomiviet.vn-dong-ho-thong-minh-xiaomi-amazfit-bip-u-xiaomi-amazfit-bip-u.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.55,
+      "resolution": "354 x 306 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Hãng không công bố",
+      "weight_g": 19.5,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Hệ thống đánh giá sức khỏe PAI",
+      "Đa dạng hình thức luyện tập",
+      "Theo dõi chu kì kinh nguyệt",
+      "Danh sách việc cần làm",
+      "Nâng cổ tay sáng màn hình",
+      "Màn hình cảm ứng",
+      "Từ chối cuộc gọi bằng tin nhắn soạn sẵn (chỉ hoạt động trên Android)",
+      "Nhắc"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-bip-u.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

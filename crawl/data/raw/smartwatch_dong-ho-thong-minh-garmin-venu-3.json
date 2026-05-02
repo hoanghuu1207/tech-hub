@@ -1,0 +1,49 @@
+{
+  "name": "Đồng hồ thông minh Garmin Venu 3",
+  "price": 9830000,
+  "sale_price": 12290000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_3_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_3_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_3_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3_of_1000-01_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3_of_2000-01_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3_of_1002-17_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3_of_1001-01_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3_of_2002-12_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3_of_2001-01_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_3_-_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.4,
+      "resolution": "454 x 454 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 26
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 30.0,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-venu-3.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

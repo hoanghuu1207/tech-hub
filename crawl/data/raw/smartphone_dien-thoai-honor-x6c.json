@@ -1,0 +1,66 @@
+{
+  "name": "HONOR X6c 6GB 128GB",
+  "price": 4190000,
+  "sale_price": 4290000,
+  "colors": [
+    "Đen",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x6c-6gb-128gb_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x6c-6gb-128gb-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x6c-6gb-128gb-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x6c-6gb-128gb-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x6c-6gb-128gb-4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_honor_x6c_6gb_128gb.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/i/_i_n_tho_i_honor_x6c_6gb_128gb.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-honor-x6c-6gb-128gb_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-honor-x6c-6gb-128gb-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/l/slider-honor-x6c-6gb-128gb-2_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.6,
+      "resolution": "720 x 1604 (HD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G81 Ultra",
+      "cpu": "2xA75 *2.0Ghz + 6xA55 *1.7Ghz",
+      "gpu": "ARM Mail G52 MC2",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "MagicOS 9.0 (Trên nền tảng Android 15）"
+    },
+    "battery": {
+      "capacity_mah": 5300
+    },
+    "design": {
+      "dimensions_mm": "163.95 x 75.6 x 8.39 mm",
+      "weight_g": 199.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "BT5.1",
+      "wifi": "802.11 a/b/g/n/ac 2.4 GHz và 5 GHz\nWLAN Hotspot\nWi-Fi Direct"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-x6c.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

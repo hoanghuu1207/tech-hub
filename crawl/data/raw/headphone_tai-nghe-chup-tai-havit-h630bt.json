@@ -1,0 +1,42 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai Havit H630BT",
+  "price": 390000,
+  "sale_price": 470000,
+  "colors": [
+    "Kem",
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-havit-h630bt-ksp-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_179.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_209.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_145.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_266.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_278.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_251.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai-nghe-chup-tai-havit-h630bt-0_1_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai-nghe-chup-tai-havit-h630bt-ksp-1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/_/5_179.jpg"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 55
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-havit-h630bt.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Havit",
+  "product_line": null
+}

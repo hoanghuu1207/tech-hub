@@ -1,0 +1,49 @@
+{
+  "name": "Đồng hồ thông minh Mibro Watch Lite 3",
+  "price": 1190000,
+  "sale_price": 1690000,
+  "colors": [
+    "Xám",
+    "Vàng Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_5__1_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_6__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_7__1_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_8__1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_9__1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__7_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__5_124.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__5_120.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__4_121.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__4_164.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "360 x 360 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 400
+    },
+    "design": {
+      "case_size_mm": "Không công bố",
+      "weight_g": 53.2,
+      "material": "Da"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-mibro-watch-3-lite.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Mibro",
+  "product_line": null
+}

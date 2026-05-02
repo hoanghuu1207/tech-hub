@@ -1,0 +1,49 @@
+{
+  "name": "Đồng hồ thông minh Garmin Forerunner 165",
+  "price": 3990000,
+  "sale_price": 4990000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_forerunner_165_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_forerunner_165_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_forerunner_165_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2024-03-07t223511.209.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/o/forerunner-165-black-cf-lg.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/o/forerunner-165-black-pd-01-lg.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/o/forerunner-165-white-cf-lg.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/o/forerunner-165-white-pd-01-lg.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/o/forerunner-165-white-pd-02-lg.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/o/forerunner-165-white-pd-03-lg.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.2,
+      "resolution": "390 x 390 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 19
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 39.0,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-forerunner-165.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

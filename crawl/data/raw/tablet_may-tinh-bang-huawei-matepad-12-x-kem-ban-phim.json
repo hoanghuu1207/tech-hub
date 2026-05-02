@@ -1,0 +1,64 @@
+{
+  "name": "Máy tính bảng Huawei MatePad 12 X 12GB 256GB kèm bàn phím",
+  "price": 14990000,
+  "sale_price": 15490000,
+  "colors": [
+    "Xanh lá",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-12-x.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-12-x-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-12-x-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-12-x-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-12-x-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-12-x-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-12-x.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-12-x-5-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-matepad-12-x-5-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-huawei-matepad-12-x-kem-ban-phim-13.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 12.0,
+      "resolution": "2800 x 1840 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "HarmonyOS 4.3"
+    },
+    "battery": {
+      "capacity_mah": 100
+    },
+    "design": {
+      "dimensions_mm": "183 × 270 × 5.9 mm",
+      "weight_g": 555.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "5.2, Hỗ trợ BLE, SBC, AAC, LDAC và L2HC",
+      "wifi": "2,4 GHz và 5 GHz"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-huawei-matepad-12-x-kem-ban-phim.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

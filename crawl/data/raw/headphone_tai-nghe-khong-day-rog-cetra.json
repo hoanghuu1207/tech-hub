@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Gaming ROG Cetra",
+  "price": 1570000,
+  "sale_price": 2190000,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-rog-cetra-ksp-1_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/o/rog_cetra_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/o/rog_cetra_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/o/rog_cetra_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/o/rog_cetra_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/o/rog_cetra_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-rog-cetra-14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-rog-cetra-11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-rog-cetra-12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-rog-cetra-15.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-rog-cetra.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": null
+}

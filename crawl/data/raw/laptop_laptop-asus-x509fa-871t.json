@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Asus Vivobook X509FA EJ871T",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/lap_n_troi.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/123.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/122_1__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/122_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/lap_n_troi.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/123.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/122_1__2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/122_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/lap_n_troi.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/123.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Không"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "8145U\nIntel Core i3",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 512,
+      "os": "Windows 10 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "36.0 x 23.5 x 2.29 ~ 2.29 cm",
+      "weight_kg": 1.9,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v4.1",
+      "wifi": "802.11ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-x509fa-871t.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK"
+}

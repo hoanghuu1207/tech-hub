@@ -1,0 +1,64 @@
+{
+  "name": "Nokia C21 Plus 3GB 32GB",
+  "price": 2990000,
+  "sale_price": null,
+  "colors": [
+    "Xám",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c21-plus-600x600_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/1/a1-3754-1646036035_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/9/6/960x0_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c21-plus_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-c21-plus-600x600_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-c21-plus-600x600_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/1/a1-3754-1646036035_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/9/6/960x0_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-c21-plus_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-c21-plus-600x600_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.5,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Spreadtrum SC9863A 8 nhân",
+      "cpu": "4x1.6 GHz Cortex-A55 & 4x1.2 GHz Cortex-A55",
+      "gpu": "IMG PowerVR GE8322",
+      "ram_gb": 3,
+      "storage_gb": 32,
+      "os": "Android 11 (Go edition)"
+    },
+    "battery": {
+      "capacity_mah": 5050
+    },
+    "design": {
+      "dimensions_mm": "164.8 x 75.9 x 8.55 mm",
+      "weight_g": 191.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v4.2, A2DP",
+      "wifi": "Wi-Fi 802.11 b/g/n, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nokia-c21-plus-32gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nokia",
+  "product_line": null
+}

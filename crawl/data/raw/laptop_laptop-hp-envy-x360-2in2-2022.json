@@ -1,0 +1,60 @@
+{
+  "name": "Laptop HP Envy X360 2IN2 2022",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_333.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_301.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_279.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_247.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_218.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_333.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_301.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_279.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/_/5_247.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/_/6_218.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": null,
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen™ 5 5625U 6 Cores 12 Threads up to 4.0 GHz",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": null,
+      "weight_kg": 1.77,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": [
+      "Màn hình cảm ứng",
+      "Xoay gập 360 độ (2 in 1)"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-envy-x360-2in2-2022.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "ENVY"
+}

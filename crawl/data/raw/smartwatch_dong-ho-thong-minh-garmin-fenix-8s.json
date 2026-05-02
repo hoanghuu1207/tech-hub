@@ -1,0 +1,44 @@
+{
+  "name": "Đồng hồ thông minh Garmin Fenix 8s",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/e/fenix7s_silvergraphite_1-500x500.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/e/fenix7s_silvergraphite_9-500x500.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/e/fenix7s_silvergraphite_3-500x500.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/e/fenix7s_silvergraphite_11-500x500.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/e/fenix7s_silvergraphite_1-500x500.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/e/fenix7s_silvergraphite_9-500x500.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/e/fenix7s_silvergraphite_3-500x500.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/e/fenix7s_silvergraphite_11-500x500.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/e/fenix7s_silvergraphite_1-500x500.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/e/fenix7s_silvergraphite_9-500x500.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": null,
+      "resolution": null,
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-fenix-8s.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

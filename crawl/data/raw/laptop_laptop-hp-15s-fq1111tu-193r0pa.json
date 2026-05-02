@@ -1,0 +1,59 @@
+{
+  "name": "Laptop HP 15S FQ1111TU 193R0PA",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_266_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_242.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_221.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_209.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_266_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_242.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_221.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_209.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_266_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_242.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "VGA Webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i3 Ice Lake - 1005G1",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 256,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "358.5 - 242- 18 mm",
+      "weight_kg": 1.69,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v4.2",
+      "wifi": "802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-15s-fq1111tu-193r0pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "HP CƠ BẢN"
+}

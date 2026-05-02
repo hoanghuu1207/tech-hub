@@ -1,0 +1,61 @@
+{
+  "name": "Đồng hồ thông minh Garmin Venu SQ 2 Music",
+  "price": 5090000,
+  "sale_price": 7690000,
+  "colors": [
+    "Xám",
+    "Đen",
+    "Kem"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_36_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_242.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_sq_2_music_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_sq_2_music_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_sq_2_music_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_231.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_214.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_149.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/9/_/9_41.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_121.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.41,
+      "resolution": "320 x 360 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 26
+    },
+    "design": {
+      "case_size_mm": "Dài 40.6 mm - Ngang 37 mm - Dày 11.1 mm",
+      "weight_g": 38.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Chấm điểm giấc ngủ",
+      "Theo dõi chu kì kinh nguyệt",
+      "Chế độ tiết kiệm năng lượng",
+      "Tự động tiết kiệm ánh sáng vào ban ngày",
+      "Báo giờ mặt trời mọc",
+      "mặt trời lặn",
+      "Màn hình cảm ứng",
+      "Huấn luyện viên ảo Garmin Coach",
+      "La bàn",
+      "Rung thông báo"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-venu-sq-2-music.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

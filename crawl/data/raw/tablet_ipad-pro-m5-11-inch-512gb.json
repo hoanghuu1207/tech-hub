@@ -1,0 +1,64 @@
+{
+  "name": "iPad Pro chip M5 11 inch Wifi 512GB | Chính hãng Apple Việt Nam",
+  "price": 34190000,
+  "sale_price": 35590000,
+  "colors": [
+    "Bạc",
+    "Đen Không Gian"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m5-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_pro_13-in_m5_wifi_space_black_pdp_image_position_3__vn-vi_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_pro_13-in_m5_wifi_space_black_pdp_image_position_4__vn-vi_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_pro_13-in_m5_wifi_space_black_pdp_image_position_6__vn-vi_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_pro_13-in_m5_wifi_space_black_pdp_image_position_5__vn-vi_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_pro_13-in_m5_wifi_space_black_pdp_image_position_7__vn-vi_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_pro_13-in_m5_wifi_space_black_pdp_image_position_8__vn-vi_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_pro_13-in_m5_wifi_space_black_pdp_image_position_9__vn-vi_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-pro-m5_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "2420x1668 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple M5",
+      "cpu": "CPU 9 lõi với 3 lõi hiệu năng và 6 lõi tiết kiệm điện",
+      "gpu": "Apple GPU 10 nhân",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "iPadOS 26"
+    },
+    "battery": {
+      "capacity_wh": 31.29
+    },
+    "design": {
+      "dimensions_mm": "24.97 x 17.75 x 0.53 cm",
+      "weight_g": 444.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi‑Fi 7 (802.11be) với 2x2 MIMO"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã ZA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/ipad-pro-m5-11-inch-512gb.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD PRO"
+}

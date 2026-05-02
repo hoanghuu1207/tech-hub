@@ -1,0 +1,71 @@
+{
+  "name": "Xiaomi Redmi Note 14 6GB 128GB",
+  "price": 4390000,
+  "sale_price": 4900000,
+  "colors": [
+    "Xanh lá",
+    "Tím",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_14_6gb_128gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_14_6gb_128gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_14_6gb_128gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_14_6gb_128gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_redmi_note_14_6gb_128gb_-_4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-note-14_2__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-note-14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-note-14_3__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/a/camera-redmi-note-14-gia-re-50mp_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/h/thiet-ke-nut-nhan-redmi-note-14-chinh-hang_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 20
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G99-Ultra",
+      "cpu": "8 nhân, lên đến 2.2GHz",
+      "gpu": "Mali-G57 MC2",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5500
+    },
+    "design": {
+      "dimensions_mm": "163.25mm x 76.55mm x 8.16mm",
+      "weight_g": 196.5,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": "Wi-Fi hotspot, Wi-Fi Direct, Wi-Fi 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-14.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

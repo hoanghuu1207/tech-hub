@@ -1,0 +1,70 @@
+{
+  "name": "iPhone 11 64GB | Chính hãng VN/A",
+  "price": 8490000,
+  "sale_price": 9990000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_130.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_242.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_158.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_187.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_253.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-11-do-21_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-11-do-3-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-11-trang_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-11-trang-3-1_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "1792 x 828 pixel",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "A13 Bionic",
+      "cpu": "Hexa-core",
+      "gpu": "Apple GPU",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "iOS 13 hoặc cao hơn (Tùy vào phiên bản phát hành)"
+    },
+    "battery": {
+      "capacity_mah": 3110
+    },
+    "design": {
+      "dimensions_mm": "150.9mm - 75.7mm - 8.3mm",
+      "weight_g": 194.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "802.11ax Wi‑Fi 6 with 2x2 MIMO"
+    },
+    "special_features": [
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-11.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": null
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Tai nghe không dây thể thao Sony Clip WF-LC900",
+  "price": 4990000,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Tím",
+    "Kem",
+    "Xanh mint"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/h/thumbnail_5_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-sony-clip-wf-lc900-_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-sony-clip-wf-lc900-_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-sony-clip-wf-lc900-_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-sony-clip-wf-lc900-.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/i/linkbudsclip_black_caseclose_w_shadow-mid.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/i/linkbudsclip_black_caseopen2-mid.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/i/linkbudsclip_black_caseopen-mid.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/i/linkbudsclip_black_kv-mid.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/i/linkbudsclip_black_front_l-mid.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 9
+    },
+    "design": {
+      "earbuds_dimensions_mm": "50.4x50.4x32.6mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-sony-clip-wf-lc900.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sony",
+  "product_line": null
+}

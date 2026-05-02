@@ -1,0 +1,58 @@
+{
+  "name": "Đồng hồ thể thao định vị Suunto Run",
+  "price": 5990000,
+  "sale_price": 6490000,
+  "colors": [
+    "Xám",
+    "Cam",
+    "Đen",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15_145.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__10_49.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__13_63.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__10_41.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__12_39.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__7_32.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__7_28.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__11_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__11_16.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/m/amazfit_2_18.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.32,
+      "resolution": "466 x 466 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 12.5 - 17.5 cm (dây đeo phụ kiện -21.5 cm)",
+      "weight_g": 36.0,
+      "material": "Nylon"
+    },
+    "special_features": [
+      "Đo cường độ vận động",
+      "điểm căng thẳng luyện tập (TSS) và hiển thị các chỉ số CTL",
+      "TSB",
+      "TSS",
+      "Nhắc nhở sạc thông minh",
+      "Độ cao khí áp",
+      "Hỗ trợ POD cho bàn chân",
+      "Gửi các câu trả lời được định sẵn cho các tin nhắn đến từ đồng hồ (Chỉ dành cho Android)"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-suunto-run.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "SUUNTO",
+  "product_line": null
+}

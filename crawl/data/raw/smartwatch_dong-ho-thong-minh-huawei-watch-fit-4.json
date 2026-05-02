@@ -1,0 +1,54 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch Fit 4",
+  "price": 2390000,
+  "sale_price": 3090000,
+  "colors": [
+    "Đen",
+    "Tím",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_4_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_4_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_4_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__9_63.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__8_61.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_202.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__8_70.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_250.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_17__8_148.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__6_124.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.82,
+      "resolution": "480 × 408 pixels, PPI 347\nĐộ sáng tối đa 2000 nit",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Tím: 120-190 mm\nXám, Trắng và Đen: 130-210 mm",
+      "weight_g": 27.0,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Theo dõi cảm xúc",
+      "Huấn luyện viên quản lý cân nặng thông minh",
+      "Ghi chú bằng giọng nói",
+      "Chụp ảnh màn hình",
+      "Phân tích tư thế chạy"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-fit-4.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

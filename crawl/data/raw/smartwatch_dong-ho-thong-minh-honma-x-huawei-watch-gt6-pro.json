@@ -1,0 +1,46 @@
+{
+  "name": "Đồng hồ thông minh HONMA X Huawei Watch GT6 Pro",
+  "price": 8880000,
+  "sale_price": 9490000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_honma_x_huawei_watch_gt6_pro_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_honma_x_huawei_watch_gt6_pro_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_honma_x_huawei_watch_gt6_pro_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_2__13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_1__11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_3__8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honmaxhuawei_gt_6_pro_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honmaxhuawei_gt_6_pro_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honmaxhuawei_gt_6_pro_2_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.47,
+      "resolution": "466 × 466 pixel\nPPI 317",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 14 - 21 cm",
+      "weight_g": 54.7,
+      "material": "Cao Su"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-honma-x-huawei-watch-gt6-pro.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

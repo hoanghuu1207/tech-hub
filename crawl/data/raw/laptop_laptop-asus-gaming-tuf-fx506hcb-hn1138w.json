@@ -1,0 +1,57 @@
+{
+  "name": "Laptop ASUS Gaming TUF FX506HCB-HN1138W",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_254.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_233.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_203.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_176.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_221.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_278_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_130.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_254.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_233.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/_/5_203.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5 11400H",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359 x 256 x 24.4 mm",
+      "weight_kg": 2.3,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11 ax"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-gaming-tuf-fx506hcb-hn1138w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "GAMING"
+}

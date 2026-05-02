@@ -1,0 +1,49 @@
+{
+  "name": "Đồng hồ thông minh Coros Vertix 2",
+  "price": 17490000,
+  "sale_price": 17990000,
+  "colors": [
+    "Đen",
+    "Cam"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_coros_vertix_2_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_coros_vertix_2_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_coros_vertix_2_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/4/44_1_7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/5/45_1_7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/6/46_1_8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/1/41_1_9.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/2/42_1_7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/3/43_1_8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/coros-vertix-2-2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.4,
+      "resolution": "280 x 280 pixels (64 màu)",
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {
+      "usage_hours": 140
+    },
+    "design": {
+      "case_size_mm": "50.3 x 50.3 x 15.7 mm",
+      "weight_g": 91.0,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-coros-vertix-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Coros",
+  "product_line": null
+}

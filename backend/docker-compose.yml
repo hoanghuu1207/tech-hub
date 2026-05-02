@@ -32,6 +32,7 @@ services:
       - postgres
     volumes:
       - .:/app # Mount local folder để auto-reload source code ở dev mode
+      - ../crawl/data:/app/data  # Mount crawl data để import sản phẩm
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
     networks:
       - techshop_network

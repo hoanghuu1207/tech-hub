@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai EarFun Wave Life",
+  "price": 950000,
+  "sale_price": 1490000,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-earfun-wave-life_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-earfun-wave-life_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-earfun-wave-life_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-earfun-wave-life_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-earfun-wave-life_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-earfun-wave-life_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-earfun-wave-life_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-earfun-wave-life_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-wave-life.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-wave-life-1.jpg"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 60
+    },
+    "design": {
+      "earbuds_dimensions_mm": "163.1 x 198.2 x 82.8 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-earfun-wave-life.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "EarFun",
+  "product_line": null
+}

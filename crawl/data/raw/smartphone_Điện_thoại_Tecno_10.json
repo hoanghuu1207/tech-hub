@@ -1,0 +1,72 @@
+{
+  "name": "TECNO Spark Go 2 4GB 64GB",
+  "price": 2290000,
+  "sale_price": 2590000,
+  "colors": [
+    "Trắng",
+    "Xanh",
+    "Xám (Camo)",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-tecno-spark-go-2-4gb-64gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-tecno-spark-go-2-4gb-64gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-tecno-spark-go-2-4gb-64gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-tecno-spark-go-2-4gb-64gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-tecno-spark-go-2-4gb-64gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-spark-go-2-black.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-spark-go-2-black-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-spark-go-2-black-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-spark-go-2-black-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-spark-go-2-black-4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Unisoc T7250",
+      "cpu": "8 nhân",
+      "gpu": "Mali-G57 MP1 @ 850MHz",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Android 15 Go edition"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "165.66 x 77 x 8.25 mm",
+      "weight_g": 188.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11 a/b/g/n/ac, Dual-band (2.4GHz/5GHz)"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-tecno-spark-go-2.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Tecno",
+  "product_line": "SPARK"
+}

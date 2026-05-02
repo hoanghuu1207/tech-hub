@@ -1,0 +1,51 @@
+{
+  "name": "Đồng hồ thông minh Samsung Galaxy Watch8",
+  "price": 8190000,
+  "sale_price": 9990000,
+  "colors": [
+    "Bạc",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_samsung_galaxy_watch8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l320_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l320_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l320_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l320_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l320_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l320_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/8/w8-sil4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/8/w8-sil2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/8/w8-sil5.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.34,
+      "resolution": "438 x 438 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "WearOS"
+    },
+    "battery": {
+      "capacity_mah": 325
+    },
+    "design": {
+      "case_size_mm": "Không công bố",
+      "weight_g": 30.1,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Một số tính năng chỉ khả dụng với một số điện thoại thông minh Samsung Galaxy nhất định"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-samsung-galaxy-watch-8.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

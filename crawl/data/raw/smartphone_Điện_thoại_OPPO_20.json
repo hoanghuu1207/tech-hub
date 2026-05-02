@@ -1,0 +1,67 @@
+{
+  "name": "OPPO A5i 4GB 128GB",
+  "price": 3690000,
+  "sale_price": null,
+  "colors": [
+    "Đỏ",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a5i.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a5i-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a5i-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a5i-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-a5i-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1408_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1409_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1410_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1411_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1412_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "720 x 1604 (HD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 6s 4G Gen1",
+      "cpu": "8 nhân",
+      "gpu": "Adreno 610 @ 1050MHz",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "ColorOS 14.0 (nền Android)"
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "design": {
+      "dimensions_mm": "165.77 x 76.08 x 7.68 mm",
+      "weight_g": 186.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0, hỗ trợ BLE, codec SBC/AAC/aptX",
+      "wifi": "Wi-Fi 5 (802.11a/b/g/n/ac), 2.4GHz & 5GHz"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-oppo-a5i-4gb-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "A SERIES"
+}

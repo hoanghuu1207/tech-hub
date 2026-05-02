@@ -1,0 +1,54 @@
+{
+  "name": "Apple Watch SE 3 40mm (GPS) Viền Nhôm Dây Cao Su Size M/L | Chính hãng Apple Việt Nam",
+  "price": 6390000,
+  "sale_price": 6990000,
+  "colors": [
+    "Ánh sao - Dây trắng",
+    "Đêm xanh thẳm - Dây đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/hong_3_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1257_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/se_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/se_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/se_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/se_4__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/se_5__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/se_6__1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple_lte_3_47.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/hong_3_2_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": null,
+      "resolution": "324 x 394 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Vừa với cổ tay cỡ 15 – 20 cm",
+      "weight_g": 26.3,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "SOS Khẩn Cấp",
+      "Phát Hiện Va Chạm",
+      "Phát Hiện Ngã",
+      "Giám sát tiếng ồn",
+      "Quay Về",
+      "Cử chỉ lắc cổ tay"
+    ]
+  },
+  "features": [],
+  "description": "Hàng chính hãng Apple Việt Nam, Mới",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-se-3-40mm-size-m-l.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

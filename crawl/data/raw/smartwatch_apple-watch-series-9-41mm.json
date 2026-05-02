@@ -1,0 +1,59 @@
+{
+  "name": "Apple Watch Series 9 41mm (GPS) viền nhôm dây cao su | Chính hãng Apple Việt Nam",
+  "price": 6990000,
+  "sale_price": 10490000,
+  "colors": [
+    "Hồng",
+    "Đỏ",
+    "Đen",
+    "Xanh dương",
+    "Trắng vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-9-41mm.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-9-41mm_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-9-41mm_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-9-41mm_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-9-41mm_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-9-41mm_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-9-41mm_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-9-41mm_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-9-41mm_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-9-41mm_9_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.6,
+      "resolution": "352 x 430 Pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {
+      "usage_hours": 18
+    },
+    "design": {
+      "case_size_mm": "41 x 35 x 10.7 mm",
+      "weight_g": 31.9,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Gọi khẩn cấp",
+      "Thao tác chạm hai lần",
+      "Thanh toán với Apple Pay",
+      "Tìm iPhone",
+      "Trợ lý ảo Siri",
+      "Điều khiển Homepod"
+    ]
+  },
+  "features": [],
+  "description": "1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-series-9-41mm.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

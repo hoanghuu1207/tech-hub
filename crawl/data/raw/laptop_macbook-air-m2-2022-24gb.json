@@ -1,0 +1,59 @@
+{
+  "name": "Apple Macbook Air M2 2022 24GB 256GB I Chính hãng Apple Việt Nam",
+  "price": 29990000,
+  "sale_price": 45990000,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_air_m2_3_1_1_5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_air_m2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_air_m2_1_1_1_7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_air_m2_4_1_1_5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_air_m2_2_1_1_6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_air_m2_5_1_1_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_74_10_2_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_54_9_2_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_40_7_2_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_33_8_2_4.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.6,
+      "resolution": "2560 x 1664 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "1080p FaceTime HD camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Apple M2",
+      "gpu": null,
+      "ram_gb": 24,
+      "storage_gb": 256,
+      "os": "MacOS"
+    },
+    "battery": {
+      "capacity_wh": 52.6
+    },
+    "design": {
+      "dimensions_cm": "Dày: 1,13cm - Chiều dài: 30,41cm Chiều rộng: 21,5cm",
+      "weight_kg": 1.27,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "802.11ax Wi-Fi 6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-air-m2-2022-24gb.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK AIR"
+}

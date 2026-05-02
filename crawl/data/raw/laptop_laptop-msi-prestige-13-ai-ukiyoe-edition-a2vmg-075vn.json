@@ -1,0 +1,64 @@
+{
+  "name": "Laptop MSI Prestige 13 AI+ Ukiyoe Edition A2VMG-075VN",
+  "price": 50990000,
+  "sale_price": 51990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_prestige_13_ai_ukiyoe_edition_a2vmg-075vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_prestige_13_ai_ukiyoe_edition_a2vmg-075vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_prestige_13_ai_ukiyoe_edition_a2vmg-075vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__12_61.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__9_56.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__11_44.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__12_50.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__6_47.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__6_42.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__10_41.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.3,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Intel AI Boost",
+      "cpu": "Intel Core Ultra 9 288V (8 lõi) - Max Turbo Frequency: 5.10 GHz",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 2048,
+      "os": "Windows 11 Home Single Language 64-bit"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "29.9 x 21.0 x 1.69 cm (Dài x Rộng x Dày)",
+      "weight_kg": 0.976,
+      "material": "MgAl"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7 802.11 be"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-prestige-13-ai-ukiyoe-edition-a2vmg-075vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "PRESTIGE"
+}

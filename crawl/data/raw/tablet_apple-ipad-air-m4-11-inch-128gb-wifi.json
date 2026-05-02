@@ -1,0 +1,64 @@
+{
+  "name": "iPad Air 11 inch M4 Wifi 128GB 2026 | Chính hãng",
+  "price": 16390000,
+  "sale_price": 16690000,
+  "colors": [
+    "Xám",
+    "Xanh dương",
+    "Trắng vàng",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_1__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_1__1_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_630_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_558_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_485_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_1__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_277_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_174_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/9/_/9_115_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/0/20260302-225231.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "2360 x 1640 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Chip Apple M4",
+      "cpu": "8 lõi với 3 lõi hiệu năng và 5 lõi tiết kiệm điện",
+      "gpu": "GPU 9 lõi\nNeural Engine 16 lõi\nCông nghệ dò tia tốc độ cao bằng phần cứng",
+      "ram_gb": 12,
+      "storage_gb": 128,
+      "os": "iPadOS 26"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "247.6 x 178.5 x 6.1 mm",
+      "weight_g": 464.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi-Fi 7 (802.11be) với 2x2 MIMO5"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-ipad-air-m4-11-inch-128gb-wifi.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD AIR"
+}

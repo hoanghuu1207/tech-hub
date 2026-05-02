@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Gigabyte AERO X16 EG61H-1VH93VNC94AH",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gigabyte_aero_x16_eg61h-1vh93vnc94ah_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gigabyte_aero_x16_eg61h-1vh93vnc94ah_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gigabyte_aero_x16_eg61h-1vh93vnc94ah_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_177.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_96.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_106.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_9__74.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_79.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_86.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_118.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 pixels (QHD+)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Webcam hồng ngoại FHD (1080p)\nMicrophone tích hợp\nHỗ trợ xác thực khuôn mặt Windows Hello"
+    },
+    "performance": {
+      "chipset": "50 TOPS",
+      "cpu": "AMD Ryzen Al 7 350 (8 x 2.00 GHz) - Max. Boost Clock: Up to 5.00 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home Single Language 64-bit"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.50 x 25.07 x (1.675~1.999) cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.9,
+      "material": "Vỏ nhôm với cấu trúc nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth V5.2",
+      "wifi": "WIFI 6E (802.11ax 2x2)"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Nhận diện khuôn mặt",
+      "MUX Switch"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-gigabyte-aero-x16-eg61h-1vh93vnc94ah-ryzen-ai-7.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Gigabyte",
+  "product_line": null
+}

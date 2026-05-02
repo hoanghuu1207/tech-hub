@@ -1,0 +1,45 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless QCY T13 ANC2 (HT09)",
+  "price": 410000,
+  "sale_price": 550000,
+  "colors": [
+    "Xanh dương",
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-qcy-t13-spa_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_483_26.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/9/_/9_115_15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_276_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_557_33.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_174_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_399_24.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_629_38.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/0/10_91_12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/q/c/qcy-t13-2.jpg"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 7
+    },
+    "design": {
+      "earbuds_dimensions_mm": "21.4 x 32.4 x 23.4 mm",
+      "case_dimensions_mm": "57.5 x 52.6 x 28.8 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-qcy-t13.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "QCY",
+  "product_line": null
+}

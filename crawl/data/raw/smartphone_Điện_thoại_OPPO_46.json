@@ -1,0 +1,68 @@
+{
+  "name": "OPPO Reno10 5G 8GB 256GB",
+  "price": 8490000,
+  "sale_price": 10990000,
+  "colors": [
+    "Xanh",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_reno10_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_reno10_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_reno10_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_reno_10_-_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_reno10_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_reno10_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo_reno10_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/reno10_5g_-_combo_product_-_blue_-_copy.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/reno10_5g_-_combo_product_-_grey.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/reno10-5g-860_720.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1080 x 2412 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 64
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 7050 5G 8 nhân",
+      "cpu": "8 cores",
+      "gpu": "ARM Mail-G68 MC4",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "162.4 x 74.2 x 7.99 mm",
+      "weight_g": 185.0,
+      "material": "Hợp kim"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": "Wi-Fi MIMO\nWi-Fi 6\nWi-Fi Direct\nWi-Fi hotspot\nDual-band (2.4 GHz/5 GHz)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-reno10.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "RENO SERIES"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "vivo T1X",
+  "price": 4490000,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/1/t1x_01.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/1/t1x.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/gallery-pc-img5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/gallery-pc-img4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/gallery-pc-img3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/gallery-pc-img1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/1/t1x_01.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/1/t1x_01.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/1/t1x.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/gallery-pc-img5.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.58,
+      "resolution": "1080 x 2408 pixels",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 680",
+      "cpu": "4 nhân 2.4 GHz & 4 nhân 1.9 GHz",
+      "gpu": "Adreno 610",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Android 12, FunTouchOS 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164.26×76.08×8.00mm",
+      "weight_g": 182.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "2.4GHz / 5GHz, 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vivo-t1x.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại vivo",
+  "product_line": null
+}

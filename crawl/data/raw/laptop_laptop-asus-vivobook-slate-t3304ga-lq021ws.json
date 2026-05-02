@@ -1,0 +1,62 @@
+{
+  "name": "Laptop ASUS Vivobook Slate OLED T3304GA-LQ021WS",
+  "price": 12990000,
+  "sale_price": 19990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_slate_oled_t3304ga-lq021ws.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/t/rtytu_9_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/t/rtytu.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/t/rtytu_6_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/t/rtytu_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/t/rtytu_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/t/rtytu_7_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/t/rtytu_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/t/rtytu_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/t/rtytu_2_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.3,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "1080p FHD camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel® Core™ i3-N300 Processor 0.8 GHz (6MB Cache, up to 3.8 GHz, 8 cores, 8 Threads)",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "30.99 x 19.00 x 0.89 ~ 0.89 cm",
+      "weight_kg": 0.82,
+      "material": "Tấm nền OLED/AMOLED"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi 6(802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Màn hình Oled"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-slate-t3304ga-lq021ws.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK"
+}

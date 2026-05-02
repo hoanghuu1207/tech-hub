@@ -1,0 +1,56 @@
+{
+  "name": "Đồng hồ thông minh Amazfit Active 3 Premium",
+  "price": 3990000,
+  "sale_price": 5990000,
+  "colors": [
+    "Xanh dương",
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_4__1_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_3__19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dhnn_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dhnn_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dhnn_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dhnn_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_2__25.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_30.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dhnn_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dhnn_5_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.32,
+      "resolution": "466 x 466 pixels, 353 PPI\nĐộ sáng lên đến 3.000 nits",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 365
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 38.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Hỗ trợ BioCharge",
+      "Tìm kiếm điểm tham quan",
+      "Định tuyến lại tự động",
+      "Lập kế hoạch tuyến đường từ điểm này đến điểm khác",
+      "Lưu trữ các podcast yêu thích"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-active-3-premium.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

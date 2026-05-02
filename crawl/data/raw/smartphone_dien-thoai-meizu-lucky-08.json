@@ -1,0 +1,70 @@
+{
+  "name": "Meizu Lucky 08 5G 12GB 256GB",
+  "price": 5490000,
+  "sale_price": 6490000,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-lucky-08_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-lucky-08-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-lucky-08-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-lucky-08-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-meizu-lucky-08-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-lucky-08_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-lucky-08_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-lucky-08_1__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-lucky-08_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-meizu-lucky-08_3_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": "2780 × 1264 pixel",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Snapdragon 7s Gen 2",
+      "cpu": "Tốc độ xung nhịp lên đến 2.4GHz",
+      "gpu": "Adreno™ 710",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "77.49 x 162.99 x 8.60mm",
+      "weight_g": 202.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.1",
+      "wifi": "2.4/5GHz, Wi-Fi 5 (802.11a/b/g/n/ac)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-meizu-lucky-08.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Meizu",
+  "product_line": null
+}

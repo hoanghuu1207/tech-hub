@@ -1,0 +1,57 @@
+{
+  "name": "Laptop Lenovo Gaming Legion 5P 15IMH05 82AY003FVN",
+  "price": 27490000,
+  "sale_price": 31490000,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-lenovo-gaming-legion-5p-i7_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-lenovo-gaming-legion-5p-i7_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-lenovo-gaming-legion-5p-i7_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-lenovo-gaming-legion-5p-i7_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-lenovo-gaming-legion-5p-i7_3_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-lenovo-gaming-legion-5p-i7_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-lenovo-gaming-legion-5p-i7_4_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-lenovo-gaming-legion-5p-i7_5_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-lenovo-gaming-legion-5p-i7_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-lenovo-gaming-legion-5p-i7_3_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-10750H 2.6GHz up to 5.0GHz 12MB",
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": 512,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "363.06 x 259.61 x 23.57 (mm)",
+      "weight_kg": 2.3,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11ax 2x2"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-gaming-legion-5p-i7.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LEGION"
+}

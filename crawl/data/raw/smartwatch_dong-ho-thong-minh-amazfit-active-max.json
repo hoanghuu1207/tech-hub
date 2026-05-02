@@ -1,0 +1,54 @@
+{
+  "name": "Đồng hồ thông minh Amazfit Active Max",
+  "price": 3990000,
+  "sale_price": 5190000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_active_max_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_active_max_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_active_max_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_4__1_10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_1__14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_5__10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_2__17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_3__11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_20__6_34.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.5,
+      "resolution": "480 x 480 pixels\nPPI: 323\nĐộ sáng tối đa: Lên đến 3.000 nits",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 658
+    },
+    "design": {
+      "case_size_mm": "Không công bố",
+      "weight_g": 39.5,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "BioCharge",
+      "Hệ thống đánh giá sức khỏe PAI",
+      "Phục hồi nhịp tim",
+      "Trợ lý AI: Zepp Flow",
+      "Điều khiển camera qua Bluetooth (chỉ dành cho iOS)"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-active-max.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

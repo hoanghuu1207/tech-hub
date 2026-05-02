@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Dell Pro 13 Plus PB13250-236V-16512W",
+  "price": 34490000,
+  "sale_price": 35090000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_pro_13_plus_pb13250-236v-16512w_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_pro_13_plus_pb13250-236v-16512w_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_pro_13_plus_pb13250-236v-16512w_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_92.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_51.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_49.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_47.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_8__67.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_7__82.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__98.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.3,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD RGB"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core Ultra 5 236V vPro",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "300 x 207.5 x 19.79 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.34,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7 BE201"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-pro-13-plus-pb13250-236v-16512w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL PRO / PRO PLUS"
+}

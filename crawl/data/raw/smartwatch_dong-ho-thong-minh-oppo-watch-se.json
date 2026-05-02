@@ -1,0 +1,44 @@
+{
+  "name": "Đồng hồ thông minh OPPO Watch SE",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/template_dongho_final_copy.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/v/dvfdvu.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/v/dvfdvu_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/v/dvfdvu.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/template_dongho_final_copy.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/v/dvfdvu.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/v/dvfdvu_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/template_dongho_final_copy.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/v/dvfdvu.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/v/dvfdvu_2_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.75,
+      "resolution": "372×430 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": null,
+      "weight_g": null,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-oppo-watch-se.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Oppo",
+  "product_line": null
+}

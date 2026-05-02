@@ -1,0 +1,64 @@
+{
+  "name": "MacBook Air M3 15 inch 2024 8CPU 10GPU 16GB 256GB Sạc 35W | Chính hãng Apple Việt Nam",
+  "price": 26990000,
+  "sale_price": 32990000,
+  "colors": [
+    "Bạc",
+    "Xám",
+    "Trắng vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-15-inch-2024_1__3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-15-inch-2024_4__3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-15-inch-2024_5__3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-15-inch-2024_8__3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-15-inch-2024_2__3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-15-inch-2024_3__3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-15-inch-2024_9__3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-15-inch-2024_7__3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-15-inch-2024_6__3_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_23__2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.3,
+      "resolution": null,
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FaceTime HD 1080p"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "CPU Apple M3 8 Lõi\nNeural Engine 16 lõi",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 256,
+      "os": "MacOS"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": null,
+      "weight_kg": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "Wi-Fi 6E"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-air-15-m3-16-256gb-2024-sac-35w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK AIR"
+}

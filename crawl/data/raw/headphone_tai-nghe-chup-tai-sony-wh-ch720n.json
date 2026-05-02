@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai Sony WH-CH720N",
+  "price": 2190000,
+  "sale_price": 2990000,
+  "colors": [
+    "Trắng",
+    "Hồng",
+    "Xanh dương",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/1/01_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/2/02_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_wh-ch720n_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_wh-ch720n_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_wh-ch720n_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_wh-ch720n_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-wh-ch720n-0.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/h/wh-ch720_black05_m.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/h/wh-ch720_black06_m.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/h/wh-ch720_black02_m.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 35
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.2",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-sony-wh-ch720n.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sony",
+  "product_line": null
+}

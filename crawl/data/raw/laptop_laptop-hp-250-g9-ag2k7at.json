@@ -1,0 +1,63 @@
+{
+  "name": "Laptop HP 250 G9 AG2K7AT",
+  "price": 16990000,
+  "sale_price": 19190000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_250_g9_ag2k7at_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_250_g9_ag2k7at_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_250_g9_ag2k7at_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2025-02-18_11-36-08_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2025-02-18_11-36-08_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2025-02-18_11-36-08_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2025-02-18_11-36-08_6_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2025-02-18_11-36-08_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__12_70.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__9_79.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera HP TrueVision HD có micrô mảng"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel CoreTM i5-1235U (10 lõi) - Max Turbo Frequency: 4.40 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language 64-bit"
+    },
+    "battery": {
+      "capacity_wh": 41.04
+    },
+    "design": {
+      "dimensions_cm": "35.8 x 24.2 x 1.99 cm",
+      "weight_kg": 1.696,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "802.11 ax"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-250-g9-ag2k7at.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "HP CƠ BẢN"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "MacBook Air M4 15 inch 2025 10CPU 10GPU 16GB 512GB | Chính hãng Apple Việt Nam",
+  "price": 34590000,
+  "sale_price": 36990000,
+  "colors": [
+    "Đêm xanh thẳm",
+    "Xanh da trời",
+    "Ánh sao",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_15_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_26_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_83_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__8_84_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__3_13_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__3_12_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__5_13_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_18__6_61_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_17_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__6_11_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.3,
+      "resolution": "2880 x 1864 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "CPU 10 lõi với 4 lõi hiệu năng và 6 lõi tiết kiệm điện",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "macOS"
+    },
+    "battery": {
+      "usage_hours": 18
+    },
+    "design": {
+      "dimensions_cm": "Cao: 1.15 cm x Rộng: 34.04 cm x Dài: 23.76 cm",
+      "weight_kg": 1.51,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-macbook-air-15-m4-10cpu-10gpu-16gb-512gb-2025.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK AIR"
+}

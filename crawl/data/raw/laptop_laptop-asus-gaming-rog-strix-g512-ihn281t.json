@@ -1,0 +1,57 @@
+{
+  "name": "Laptop ASUS Gaming ROG Strix G512-IAL013T",
+  "price": 28990000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_gaming_rog_strix_g512-ial013t.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-strix-g512-i7-10870h-1_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-strix-g512-i7-10870h-2_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-strix-g512-i7-10870h-3_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-gaming-rog-strix-g512-i7-10870h-4_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_asus_gaming_rog_strix_g512-ial013t.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-gaming-rog-strix-g512-i7-10870h-1_4.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-gaming-rog-strix-g512-i7-10870h-2_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-gaming-rog-strix-g512-i7-10870h-3_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-gaming-rog-strix-g512-i7-10870h-4_3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "720p HD"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5 10300H",
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": 512,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "360 (W) x 275 (D) x 24.9 (H) mm",
+      "weight_kg": 2.4,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11ac 2×2 Wi-Fi 6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-gaming-rog-strix-g512-ihn281t.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "GAMING"
+}

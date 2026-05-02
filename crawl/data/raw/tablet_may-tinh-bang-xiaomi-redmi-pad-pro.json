@@ -1,0 +1,65 @@
+{
+  "name": "Xiaomi Redmi Pad Pro wifi 8GB 128GB",
+  "price": 7050000,
+  "sale_price": 7850000,
+  "colors": [
+    "Xanh dương",
+    "Xanh bạc hà",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f6_23_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f6_22_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f6_30_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f6_29_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f6_25_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f6_27_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f6_26_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f6_28_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f6_31_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-xiaomi-poco-f6_35_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 12.1,
+      "resolution": "2560 x 1600 pixel (2K)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Snapdragon 7s Gen 2",
+      "cpu": "Octa-core core, xung nhịp 2.4GHz",
+      "gpu": "Qualcomm® Adreno™ GPU",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Xiaomi HyperOS, Android U"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "280.0mm x 181.85mm x 7.52mm",
+      "weight_g": 571.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "Wi-Fi 6, 802.11a/b/g\nWi-Fi 2,4 GHz | Wi-Fi 5 GHz\nHỗ trợ 2x2 MIMO, Wi-Fi Direct, Miracast, MU-MIMO"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-xiaomi-redmi-pad-pro.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

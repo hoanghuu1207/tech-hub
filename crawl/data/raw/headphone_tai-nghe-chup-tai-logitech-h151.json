@@ -1,0 +1,40 @@
+{
+  "name": "Tai nghe chụp tai Logitech H151",
+  "price": 310000,
+  "sale_price": 379000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/o/logitech-h151.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0004_h151-gallery-01.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001_h151-gallery-03.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002_h151-gallery-04.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0003_h151-gallery-05.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_h151-gallery-02.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/o/logitech-h151.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/o/logitech-h151.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0004_h151-gallery-01.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0001_h151-gallery-03.jpg"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {
+      "earbuds_dimensions_mm": "200 x 245 x 65 mm"
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-logitech-h151.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Logitech",
+  "product_line": null
+}

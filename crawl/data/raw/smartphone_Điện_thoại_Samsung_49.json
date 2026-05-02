@@ -1,0 +1,68 @@
+{
+  "name": "Samsung Galaxy A05S 4GB 128GB",
+  "price": 3350000,
+  "sale_price": 3990000,
+  "colors": [
+    "Xanh",
+    "Đen",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_a05s_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_a05s_-_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_a05s_-_2_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_a05s_-_4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_a05s_-_6_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_a05s_-_5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_a05s_-_8_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_a05s_-_7_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a05s_1__1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-a05s_1_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "Snapdragon 680 8 nhân",
+      "cpu": "4 nhân 2.4 GHz & 4 nhân 1.9 GHz",
+      "gpu": "Adreno 610",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "168 x 77.8 x 8.8 mm",
+      "weight_g": 194.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "802.11 a/b/g/n/ac 2.4G+5GHz, VHT80"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-a05s.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY A"
+}

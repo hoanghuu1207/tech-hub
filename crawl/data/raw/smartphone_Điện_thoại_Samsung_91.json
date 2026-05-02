@@ -1,0 +1,61 @@
+{
+  "name": "Samsung Galaxy A21",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637049168074788366_ss-a20s-den-3_4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637049168849121650_ss-a20s-xanh-3_4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637049176592603932_ss-a20s-do-3_4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637049168073998446_ss-a20s-den-5_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637049168848152311_ss-a20s-xanh-5_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637049176592403918_ss-a20s-do-5_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637049168075038350_ss-a20s-den-1_2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637049176593363823_ss-a20s-do-1_2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637049168849441623_ss-a20s-xanh-1_2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/9/796615360_1.jpeg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.5,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 450",
+      "cpu": "8 nhân 64-bit, 1.8 GHz",
+      "gpu": "Adreno 506",
+      "ram_gb": 3,
+      "storage_gb": 32,
+      "os": "Android 9.0 (Pie)"
+    },
+    "battery": {
+      "capacity_mah": 4000
+    },
+    "design": {
+      "dimensions_mm": "Dài 158.4 mm - Ngang 74.7 mm - Dày 7.8 mm",
+      "weight_g": 169.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, Wi-Fi hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-a21.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY A"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "iPad Pro M4 13 inch 5G 2TB I Chính hãng Apple Việt Nam",
+  "price": 49990000,
+  "sale_price": 71990000,
+  "colors": [
+    "Đen",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_100_1_2__2_1_1_1_1_1_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch-2tb-5g_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch-2tb-5g_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch-2tb-5g_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch-2tb-5g_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch-2tb-5g_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch-2tb-5g_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch-2tb-5g_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-pro-m4-13-inch-2tb-5g_9_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/r/frame_100_1_2__2_1_1_1_1_1_1_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.0,
+      "resolution": "2752x2064 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple M4",
+      "cpu": "CPU 10 lõi với 4 lõi hiệu năng và 6 lõi tiết kiệm điện",
+      "gpu": "Apple GPU 10 nhân",
+      "ram_gb": 16,
+      "storage_gb": 2048,
+      "os": "iPadOS 17"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "28.16 x 21.55 x 5.1 mm",
+      "weight_g": 582.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 6E (802.11ax) với 4x4 MIMO5"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã ZA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/ipad-pro-m4-13-inch-2tb-5g.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD PRO"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "iPad A16 Wifi 128GB 2025 | Chính hãng Apple Việt Nam",
+  "price": 9290000,
+  "sale_price": 9990000,
+  "colors": [
+    "Vàng",
+    "Hồng",
+    "Xanh",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-a16-11-inch_10_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-a16-11-inch_6__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-a16-11-inch_2__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-a16-11-inch_3__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-a16-11-inch_4__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-a16-11-inch_7__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-a16-11-inch_8__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-a16-11-inch_9_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-a16-11-inch_10_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-a16-11-inch_10_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "2360 x 1640 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Chip A16",
+      "cpu": "CPU 5 lõi",
+      "gpu": "GPU 4 lõi\nNeural Engine 16 lõi",
+      "ram_gb": null,
+      "storage_gb": 128,
+      "os": "iPadOS 18"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "248,6 x 179,5 x 7 mm",
+      "weight_g": 477.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "Wi-Fi 6 (802.11ax) với 2x2 MIMO"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã ZA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/ipad-a16-11-inch.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD A16"
+}

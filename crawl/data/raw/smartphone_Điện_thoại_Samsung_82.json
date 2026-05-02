@@ -1,0 +1,57 @@
+{
+  "name": "Samsung Galaxy S10 5G 512GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/1/s10_tr1_6_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/1/s10_dn1_7_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/1/s10_xl1_6_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/1/s10_dn2_5_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/1/s10_tr2_5_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/1/s10_xl2_5_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/636863643187455627_ss-galaxy-s10-trang-1_3_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/636863621214675213_ss-galaxy-s10-den-1_3_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/636863653373578468_ss-galaxy-s10-xanh-1_3_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/1/s10_tr1_6_1_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "1440 x 2960 pixels (QHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": "Exynos 9820 8 nhân 64 bit",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": 128,
+      "os": "9.0 (Pie)"
+    },
+    "battery": {
+      "capacity_mah": 3400
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "EDR, LE, A2DP, apt-X, v5.0",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, Dual-band, DLNA, Wi-Fi Direct, Wi-Fi hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-s10-5g-512-gb-chinh-hang.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY S"
+}

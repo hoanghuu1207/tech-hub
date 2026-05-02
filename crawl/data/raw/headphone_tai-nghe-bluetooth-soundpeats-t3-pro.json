@@ -1,0 +1,45 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless SoundPeats T3 Pro (ANC)",
+  "price": 290000,
+  "sale_price": 500000,
+  "colors": [
+    "Đen",
+    "Be",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai_nghe_bluetooth_true_wireless_soundpeats_t3_pro_-_ch_c_t_i_cellphone_s.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-soundpeats-t3-pro-new_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-soundpeats-t3-pro-new_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-soundpeats-t3-pro-new_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-soundpeats-t3-pro-new_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-soundpeats-t3-pro-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-soundpeats-t3-pro-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-soundpeats-t3-pro-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-soundpeats-t3-pro_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-soundpeats-t3-pro_2_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 7
+    },
+    "design": {
+      "earbuds_dimensions_mm": "33.4x22x25mm",
+      "case_dimensions_mm": "64.7x49.15x32.1mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-soundpeats-t3-pro.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Soundpeats",
+  "product_line": null
+}

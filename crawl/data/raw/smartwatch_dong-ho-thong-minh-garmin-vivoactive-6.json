@@ -1,0 +1,59 @@
+{
+  "name": "Đồng hồ thông minh Garmin Vivoactive 6",
+  "price": 7320000,
+  "sale_price": 8290000,
+  "colors": [
+    "Vàng",
+    "Đen",
+    "Xanh lá",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_vivoactive_6_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_vivoactive_6_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_vivoactive_6_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_16__6_163.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__8_23.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_15__7_209.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__8_23.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__7_30.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__9_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_64.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.2,
+      "resolution": "390 x 390 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 21
+    },
+    "design": {
+      "case_size_mm": "Từ 12.5 - 19 cm",
+      "weight_g": 23.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Garmin Pay",
+      "Lưu trữ nhạc",
+      "Chế độ xe lăn",
+      "Cảnh báo phát hiện sự cố trên điện thoại cho thiết bị đeo",
+      "Vật lý trị liệu TrueUp",
+      "Garmin AutoShot",
+      "Nhận hướng dẫn bằng âm thanh cho các hoạt động chạy và đi bộ"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-vivoactive-6.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

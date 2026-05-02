@@ -1,0 +1,65 @@
+{
+  "name": "realme C51 4GB 128GB",
+  "price": 2390000,
+  "sale_price": 3490000,
+  "colors": [
+    "Đen",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c51_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c51_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c51_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c51_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c51_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c51_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c51_-_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_c51_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c51-den-011.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c51_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.74,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {},
+    "performance": {
+      "chipset": "Unisoc UNISOC T612",
+      "cpu": "12nm process, Octa-core, Up to 1.82GHz",
+      "gpu": "Mali-G57",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "realme UI T Edition - Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "167.2mm x 76.7mm x 7.99mm*",
+      "weight_g": 186.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "2.4/5GHz Wi-Fi"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/realme-c51.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": "C SERIES"
+}

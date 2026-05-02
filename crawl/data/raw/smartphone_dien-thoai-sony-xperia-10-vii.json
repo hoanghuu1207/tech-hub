@@ -1,0 +1,70 @@
+{
+  "name": "Sony Xperia 10 VII 8GB 128GB",
+  "price": 11190000,
+  "sale_price": 13490000,
+  "colors": [
+    "Xanh lá",
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-sony-xperia-10-vii.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-sony-xperia-10-vii-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-sony-xperia-10-vii-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-sony-xperia-10-vii-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-sony-xperia-10-vii-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-sony-xperia-10-vii-7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-sony-xperia-10-vii.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-sony-xperia-10-vii-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-sony-xperia-10-vii-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-sony-xperia-10-vii-3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "1080 x 2340 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Snapdragon® 6 Thế hệ 3",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android™ 15"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "153 × 72 × 8,3 mm",
+      "weight_g": 168.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v.5.",
+      "wifi": "Wi-Fi 4/5/6/6E (IEEE802.11a/b/g/n/ac/ax, 2.4/5/6GHz)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-sony-xperia-10-vii.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Sony",
+  "product_line": null
+}

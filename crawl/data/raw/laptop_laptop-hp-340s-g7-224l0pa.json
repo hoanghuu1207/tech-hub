@@ -1,0 +1,59 @@
+{
+  "name": "Laptop HP 340S G7 224L0PA",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_340s_g7_224l0pa_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_340s_g7_224l0pa_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_340s_g7_224l0pa_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_340s_g7_224l0pa.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_340s_g7_224l0pa_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_340s_g7_224l0pa_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_340s_g7_224l0pa_4.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_340s_g7_224l0pa_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_340s_g7_224l0pa.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_340s_g7_224l0pa_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1366 x 768 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HP TrueVision HD Camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i3-1005G1",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 512,
+      "os": "Windows 10 Home 64-bit"
+    },
+    "battery": {
+      "capacity_wh": 41.04
+    },
+    "design": {
+      "dimensions_cm": "32.4 x 22.5 x 1.79 cm",
+      "weight_kg": 1.337,
+      "material": "Tấm nền TN"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0",
+      "wifi": "802.11 ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-340s-g7-224l0pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": null
+}

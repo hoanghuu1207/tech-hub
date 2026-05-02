@@ -1,0 +1,64 @@
+{
+  "name": "iPad Air 13 inch M4 Wifi 256GB 2026 | Chính hãng",
+  "price": 24890000,
+  "sale_price": null,
+  "colors": [
+    "Xám",
+    "Xanh dương",
+    "Trắng vàng",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_720_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_692_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_630_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_558_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_485_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_400_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_277_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_174_22_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/9/_/9_1__3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/0/20260302-225231_3_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.0,
+      "resolution": "2732 x 2048 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Chip Apple M4",
+      "cpu": "8 lõi với 3 lõi hiệu năng và 5 lõi tiết kiệm điện",
+      "gpu": "GPU 9 lõi\nNeural Engine 16 lõi\nCông nghệ dò tia tốc độ cao bằng phần cứng",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "iPadOS 26"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "280,6 x 214,9 x 6,1 mm",
+      "weight_g": 616.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi-Fi 7 (802.11be) với 2x2 MIMO5"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-ipad-air-m4-13-inch-256gb-wifi.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD AIR"
+}

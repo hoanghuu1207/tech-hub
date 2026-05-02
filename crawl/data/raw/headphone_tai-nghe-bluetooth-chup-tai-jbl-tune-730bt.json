@@ -1,0 +1,32 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai JBL Tune 730BT",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Beige",
+    "Xanh dương",
+    "Trắng"
+  ],
+  "images": [],
+  "specs": {
+    "battery": {
+      "usage_hours": 76
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "6.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-chup-tai-jbl-tune-730bt.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "JBL",
+  "product_line": null
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Samsung Galaxy Tab S11 Ultra 5G 12GB 256GB",
+  "price": 29290000,
+  "sale_price": 34990000,
+  "colors": [
+    "Bạc",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s11-ultra-5g-12gb-128gb_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s11-ultra-5g-12gb-128gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s11-ultra-5g-12gb-128gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s11-ultra-5g-12gb-128gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-samsung-galaxy-tab-s11-ultra-5g-12gb-128gb-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-s11-ultra-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-s11-ultra.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-s11-ultra-6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-s11-ultra-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-s11-ultra-3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.6,
+      "resolution": "1848 x 2960 Pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 9400+",
+      "cpu": "8 nhân",
+      "gpu": "ARM Immortalis-G925",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 16"
+    },
+    "battery": {
+      "capacity_mah": 11600
+    },
+    "design": {
+      "dimensions_mm": "208.5 x 326.3 x 5.1 mm",
+      "weight_g": 695.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "Wi-Fi 7 (802.11a/b/g/n/ac/ax/be, MIMO, 2.4GHz + 5GHz + 6GHz)"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-samsung-galaxy-tab-s11-ultra.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": "SAMSUNG GALAXY TAB S11 SERIES"
+}

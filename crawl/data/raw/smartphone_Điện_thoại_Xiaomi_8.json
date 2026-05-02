@@ -1,0 +1,68 @@
+{
+  "name": "Xiaomi Redmi Note 15 Pro 12GB 256GB",
+  "price": 8790000,
+  "sale_price": 10090000,
+  "colors": [
+    "Đen",
+    "Xanh dương",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-pro_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-pro-1_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-pro-6_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-pro-7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-pro-4_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-note-15-series-8_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-note-15-series-7_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-note-15-series-6_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-note-15-pro-2_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-note-15-pro-19_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.77,
+      "resolution": "1080 x 2392 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G200-Ultra",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Xiaomi HyperOS 2"
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "design": {
+      "dimensions_mm": "163.22 x 76.29 x 7.96 mm",
+      "weight_g": 195.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "2.4GHz | 5GHz"
+    },
+    "special_features": [
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-15-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

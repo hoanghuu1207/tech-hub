@@ -1,0 +1,61 @@
+{
+  "name": "Red Magic 7S Pro",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/p/_p_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/p/_p_bgh.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/h/th.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/n/gnhj_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/t/dthuj.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/b/gbhj.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/p/_p_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/p/_p_bgh.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/h/th.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/n/gnhj_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.8,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 64
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Snapdragon 8+ thế hệ 1 (4 nm)",
+      "cpu": "1x3,19 GHz Cortex-X2 & 3x2,75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510",
+      "gpu": "Adreno 730",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "166,3 x 77,1 x 10 mm",
+      "weight_g": 235.0,
+      "material": "Kính"
+    },
+    "connectivity": {
+      "bluetooth": "5.2, A2DP, aptX, LE",
+      "wifi": "Wi-Fi 802.11 a / b / g / n / ac / 6e, băng tần kép, Wi-Fi Direct, điểm phát sóng"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nubia-red-magic-7s-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nubia",
+  "product_line": "NUBIA"
+}

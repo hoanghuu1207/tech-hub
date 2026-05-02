@@ -1,0 +1,42 @@
+{
+  "name": "Tai nghe chụp tai Sennheiser HDB 630",
+  "price": 14900000,
+  "sale_price": null,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/sennheiser_hdb_630_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/sennheiser_hdb_630_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/sennheiser_hdb_630.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/sennheiser_hdb_630_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/sennheiser_hdb_630_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/sennheiser_hdb_632.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/e/sennheiser_hdb_631.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/q/u/qua-tang_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/q/u/qua-tang.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/r/frame_334.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 60
+    },
+    "design": {
+      "earbuds_dimensions_mm": "180 x 195 x 51 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.2",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Cookies được sử dụng nhằm ghi nhận các thiết lập cần thiết để website hoạt động ổn định và hỗ trợ trải nghiệm mua sắm. Việc sử dụng cookies không làm gián đoạn trải nghiệm và giúp quá trình mua hàng diễn ra thuận tiện hơn.",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-sennheiser-hdb-630.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Sennheiser",
+  "product_line": null
+}

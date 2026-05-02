@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai Edifier WH950NB",
+  "price": 2290000,
+  "sale_price": 3210000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-wh950nb-ksp-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edifier_wh950nb_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edifier_wh950nb_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edifier_wh950nb_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edifier_wh950nb_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edifier_wh950nb_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edifier_wh950nb_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-wh950nb-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-wh950nb-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-edifier-wh950nb-2.png"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {
+      "earbuds_dimensions_mm": "193 x 169 x 82 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-edifier-wh950nb.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Edifier",
+  "product_line": null
+}

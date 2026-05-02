@@ -1,0 +1,73 @@
+{
+  "name": "Samsung Galaxy S24 Plus 12GB 256GB",
+  "price": 16090000,
+  "sale_price": 18650000,
+  "colors": [
+    "Đen",
+    "Tím",
+    "Xám",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s24_256gb_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s24_256gb_-_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s24_256gb_-_7_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s24_256gb_-_6_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s24_256gb_-_5_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s24_256gb_-_9_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s24_256gb_-_3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s24_plus_256gb_-_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/2/s24plus256.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_s24_256gb_-_8_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "3120 x 1440 pixels (Quad HD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Exynos 2400",
+      "cpu": "3.2GHz,2.9GHz,2.6GHz,1.95GHz",
+      "gpu": "Adreno 750",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 14, One UI 6.1"
+    },
+    "battery": {
+      "capacity_mah": 900
+    },
+    "design": {
+      "dimensions_mm": "158.5 x 75.9 x 7.75mm",
+      "weight_g": 196.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "802.11a/b/g/n/ac/ax 2.4GHz+5GHz+6GHz, HE160, MIMO, 1024-QAM"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-s24-plus.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY S"
+}

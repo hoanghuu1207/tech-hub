@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thông minh Samsung Galaxy Watch Ultra",
+  "price": 12100000,
+  "sale_price": 16990000,
+  "colors": [
+    "Xám",
+    "Trắng",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/a/watch_ultra_-_onepage.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l705_001_front_titanium_silve.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l705_002_front2_titanium_silv.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l705_003_l_perspective_titani_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l705_004_dynamic_titanium_sil.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l705_006_front3_titanium_silv.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1075_1_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l705_002_front2_titanium_gray.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l705_003_l_perspective_titani.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l705_004_dynamic_titanium_gra.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.5,
+      "resolution": "480 x 480 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "WearOS"
+    },
+    "battery": {
+      "capacity_mah": 590
+    },
+    "design": {
+      "case_size_mm": "Không công bố",
+      "weight_g": 94.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Một số tính năng chỉ khả dụng với một số điện thoại thông minh Samsung Galaxy nhất định",
+      "Cử chỉ tay (Chạm ngón trỏ và ngón cái",
+      "lắc cổ tay",
+      "\"\"gõ cửa\"\")"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-watch-ultra.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

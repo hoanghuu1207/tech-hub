@@ -1,0 +1,57 @@
+{
+  "name": "Laptop ASUS Vivobook S530UA-BQ072T",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_213_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_188.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_171_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_164_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_150_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_129_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_213_5.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_188.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_171_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_164_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD Webcam (720p Webcam)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i3 8130U",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 1024,
+      "os": "Windows 10"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "361 x 243 x 18 mm",
+      "weight_kg": 1.8,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v4.2",
+      "wifi": "802.11 a/b/g/n"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-s530ua-bq072t.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK"
+}

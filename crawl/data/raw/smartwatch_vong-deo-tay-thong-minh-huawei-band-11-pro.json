@@ -1,0 +1,53 @@
+{
+  "name": "Vòng đeo tay thông minh Huawei Band 11 Pro khung kim loại",
+  "price": 1590000,
+  "sale_price": 1790000,
+  "colors": [
+    "Đen",
+    "Xanh dương",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_11_pro_khung_kim_lo_i_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_11_pro_khung_kim_lo_i_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_11_pro_khung_kim_lo_i_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_15_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_12_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_13_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_19_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_14_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_17_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_16_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.62,
+      "resolution": "286 × 482 pixel, PPI 347",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {
+      "capacity_mah": 300
+    },
+    "design": {
+      "case_size_mm": "43.5×28.2×8.99",
+      "weight_g": 18.0,
+      "material": "Nylon"
+    },
+    "special_features": [
+      "Phân Tích Rối Loạn Nhịp Tim Qua Sóng Mạch",
+      "Tạo Bản Đồ Hành Trình Khi Bạn Di Chuyển"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vong-deo-tay-thong-minh-huawei-band-11-pro.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

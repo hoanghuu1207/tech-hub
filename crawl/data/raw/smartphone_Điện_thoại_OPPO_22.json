@@ -1,0 +1,69 @@
+{
+  "name": "OPPO A58 4G 6GB 128GB",
+  "price": 4090000,
+  "sale_price": 4990000,
+  "colors": [
+    "Xanh bạc hà",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58-den.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58-xanh.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2_2024-08-19_10-56-58.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_1_2024-08-19_10-56-58.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_3_2024-08-19_10-56-58.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_4_2024-08-19_10-56-58.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58-4g-500x500.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a58_1_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.72,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Helio G85, tối đa 2.0GHz",
+      "cpu": "2x2,2 GHz Cortex-A76 & 6x2,0 GHz Cortex-A55",
+      "gpu": "Mali G52 MP2",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "ColorOS 13.1, nền tảng Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "165.65 x 75.98 x 7.99 mm",
+      "weight_g": 192.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": "2.4G/5G, 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-a58.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": null
+}

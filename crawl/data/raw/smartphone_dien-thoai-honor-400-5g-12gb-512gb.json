@@ -1,0 +1,71 @@
+{
+  "name": "HONOR 400 5G 12GB 512GB",
+  "price": 13230000,
+  "sale_price": 14230000,
+  "colors": [
+    "Đen",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-5g-12gb-512gb_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-5g-12gb-512gb-2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-5g-12gb-512gb-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-5g-12gb-512gb-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-5g-12gb-512gb-4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_honor_400_5g_12gb_256gb_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-400-5g-12gb-512gb_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-x5b_6_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-x5b-1_4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-x5b-2_4_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.55,
+      "resolution": "2736 × 1264 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {
+      "resolution_mp": 50
+    },
+    "performance": {
+      "chipset": "Snapdragon 7 Gen 3",
+      "cpu": "8 lõi",
+      "gpu": "Adreno 720",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "MagicOS 9.0 (Dựa trên Android 15)"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "156.5 × 74.6 × 7.3 mm",
+      "weight_g": 184.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "802.11 a/b/g/n/ac/ax, 2x2 MIMO, Wi-Fi Hotspot, Wi-Fi Direct"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-400-5g-12gb-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

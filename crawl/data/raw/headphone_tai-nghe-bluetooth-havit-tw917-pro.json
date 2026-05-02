@@ -1,0 +1,44 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Havit TW917 Pro",
+  "price": 349000,
+  "sale_price": 650000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit-tw917-pro.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit-tw917-pro-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit-tw917-pro-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit-tw917-pro-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit-tw917-pro-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit-tw917-pro-6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit-tw917-pro-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit-tw917-pro-8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit-tw917-pro-9.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/a/havit-tw917-pro-7.jpg"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {
+      "earbuds_dimensions_mm": "36.5 x 23.3 x 25.2 mm",
+      "case_dimensions_mm": "65.4 x 50.6 x 28.4 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-havit-tw917-pro.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Havit",
+  "product_line": null
+}

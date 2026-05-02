@@ -1,0 +1,63 @@
+{
+  "name": "Laptop MSI Stealth 16 AI+ B3WF-007VN",
+  "price": 77590000,
+  "sale_price": 79990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_stealth_16_ai_b3wf-007vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_stealth_16_ai_b3wf-007vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_stealth_16_ai_b3wf-007vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_138.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_81.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_77.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_10__52.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_9__64.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_16__10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_14__18.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 pixels (QHD+)",
+      "refresh_rate_hz": 240,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Loại IR FHD (30fps@1080p) với HDR & Khử nhiễu 3D+ (3DNR+)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core Ultra 9 386H, 16 lõi (4 P-cores + 8 E-cores + 4 Low Power E-cores), 16 luồng, 18MB Intel Smart Cache, Max Turbo Frequency 4.9 GHz",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "354 x 246 x 16.65 - 19.99 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.99,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v6",
+      "wifi": "Intel Wi-Fi 7 BE213"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-stealth-16-ai-b3wf-007vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "GAMING"
+}

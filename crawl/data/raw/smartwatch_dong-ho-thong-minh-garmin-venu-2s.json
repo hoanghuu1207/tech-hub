@@ -1,0 +1,60 @@
+{
+  "name": "Đồng hồ thông minh Garmin Venu 2S",
+  "price": 6490000,
+  "sale_price": 10490000,
+  "colors": [
+    "Vàng Hồng",
+    "Xám sương mờ",
+    "Xám đá phiến",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_31_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-venu-2_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-venu-2-3_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-venu-2-1_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-garmin-venu-2-2_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2s_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2s_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2s_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2s_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_2s_-_6.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.1,
+      "resolution": "360 x 360 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Hãng không công bố",
+      "weight_g": 49.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Theo dõi chu kì kinh nguyệt",
+      "Báo giờ mặt trời mọc",
+      "mặt trời lặn",
+      "Màn hình cảm ứng",
+      "Theo dõi chu kì kinh nguyệt",
+      "Huấn luyện viên ảo Garmin Coach",
+      "La bàn",
+      "Rung thông báo",
+      "Lưu trữ lên đến 650 bài hát",
+      "Nghe nhạc với tai nghe Bluetooth"
+    ]
+  },
+  "features": [],
+  "description": "Áp dụng cho sản phẩm mua từ ngày 1/1/2024. Bảo hành chính hãng 2 năm, 1 đổi 1 trong 15 ngày nếu có lỗi từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-venu-2s.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

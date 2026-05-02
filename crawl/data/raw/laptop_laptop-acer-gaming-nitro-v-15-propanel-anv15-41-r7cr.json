@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Acer Gaming Nitro ProPanel ANV15-41-R7CR",
+  "price": 28490000,
+  "sale_price": 32990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_974.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/r/group_975.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_gaming_acer_nitro_v_15_propanel_anv15-41-r7cr_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_26.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__13.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_4__12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_5__12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_6__11.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 180,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Video HD 720p ở tốc độ 30 khung hình/giây với tính năng Giảm nhiễu theo thời gian"
+    },
+    "performance": {
+      "chipset": "194 TOPs",
+      "cpu": "AMD Ryzen 5 7535HS (6 lõi / 12 luồng / Base Clock: 3.3 GHz / Max. Boost Clock: Up to 4.55 GHz / 3MB L2 Cache; 16MB L3 Cache)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "362.3 x 239.89 x 23.5 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.1,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Có",
+      "wifi": "802.11a/b/g/n/ac+ax wireless LAN"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-propanel-anv15-41-r7cr.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": "NITRO PROPANEL"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Xiaomi 13T 12GB 256GB",
+  "price": 10590000,
+  "sale_price": 12990000,
+  "colors": [
+    "Xanh dương",
+    "Đen",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_13t_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_13t_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_13t_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_13t_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_13t_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_13t_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_13t_-_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi_13t_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiami-13t-den-01.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-13t_1_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1220 x 2712 pixels",
+      "refresh_rate_hz": 144
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 20
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 8200-Ultra",
+      "cpu": "1 nhân 3.1 GHz, 3 nhân 3 GHz & 4 nhân 2 GHz",
+      "gpu": "Mali-G610",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "162.2 x 75.7 x 8.49 mm (Kính) | 8.62 mm (Da)",
+      "weight_g": 197.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "Wifi 6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-13t.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": null
+}

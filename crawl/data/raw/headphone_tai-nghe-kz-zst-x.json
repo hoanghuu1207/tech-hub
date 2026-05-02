@@ -1,0 +1,39 @@
+{
+  "name": "Tai nghe KZ ZST X",
+  "price": 490000,
+  "sale_price": 650000,
+  "colors": [
+    "Tím",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0004__01.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0005__02.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001__04.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002__05.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0003___8.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_192_2_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0004__01.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0005__02.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0001__04.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0002__05.jpg"
+  ],
+  "specs": {
+    "battery": {},
+    "design": {},
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-kz-zst-x.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "KZ",
+  "product_line": null
+}

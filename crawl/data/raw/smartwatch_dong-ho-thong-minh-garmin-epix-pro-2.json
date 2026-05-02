@@ -1,0 +1,53 @@
+{
+  "name": "Đồng hồ thông minh Garmin Epix Pro 2 47mm",
+  "price": 19990000,
+  "sale_price": 25990000,
+  "colors": [
+    "Bạc",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_epix_pro_2_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_epix_pro_2_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_epix_pro_2_-_5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__3_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__3_15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__2_28.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__2_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__118.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__115.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "416 x 416 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 42
+    },
+    "design": {
+      "case_size_mm": "Từ 12.5 - 20.8 cm",
+      "weight_g": 78.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Tải xuống các bài hát",
+      "Thanh toán Garmin",
+      "Theo dõi cổ phiếu"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-epix-pro-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Đồng hồ thông minh Xiaomi Watch S4 Cầu Vồng",
+  "price": 3510000,
+  "sale_price": 4590000,
+  "colors": [
+    "Cầu vồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_xiaomi_watch_s4_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_xiaomi_watch_s4_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_xiaomi_watch_s4_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__7_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__6_167.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__5_175.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__5_185.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_574_1__3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_ng_h_th_ng_minh_xiaomi_watch_s4_-_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_ng_h_th_ng_minh_xiaomi_watch_s4_-_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.43,
+      "resolution": "466 x 466 pixels, 326 PPI",
+      "technology": null
+    },
+    "performance": {
+      "os": "HyperOS 2.0"
+    },
+    "battery": {
+      "capacity_mah": 486
+    },
+    "design": {
+      "case_size_mm": "Từ 14 - 21 cm",
+      "weight_g": 44.5,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Chức năng NFC",
+      "Trợ lý giọng nói bạn cùng lớp Tiểu Ái",
+      "Thanh toán mã quét Alipay",
+      "Thẻ xe buýt NFC",
+      "Ghi âm",
+      "Tích hợp widget",
+      "Cử chỉ nhanh: Búng ngón tay",
+      "lật cổ tay",
+      "lắc cổ tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-xiaomi-watch-s4-cau-vong.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

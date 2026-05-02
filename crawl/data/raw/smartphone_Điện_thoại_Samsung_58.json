@@ -1,0 +1,71 @@
+{
+  "name": "Samsung Galaxy A35 5G 8GB 128GB",
+  "price": 8290000,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Vàng",
+    "Xanh nhạt"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a55_5g_8gb_128gb_-_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a35_5g_8gb_128gb_-_3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a35_5g_8gb_128gb_-_4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a35_5g_8gb_128gb_-_5_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a35_5g_8gb_128gb_-_7_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_a35_5g_8gb_128gb_-_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/m/amsung-galaxy-a35_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/m/amsung-galaxy-a35_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/m/amsung-galaxy-a35.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-a356_galaxy_a35_awesome_iceblue_ui.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.6,
+      "resolution": "1080 x 2340 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "Exynos 1380",
+      "cpu": "4 nhân 2.4 GHz & 4 nhân 2.0 GHz",
+      "gpu": "Mali-G68 MP5",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "161.7 x 78.0 x 8.2 mm",
+      "weight_g": 209.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11 a/b/g/n/ac/ax\n2.4GHz+5GHz\nWiFi Direct"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-a35.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY A"
+}

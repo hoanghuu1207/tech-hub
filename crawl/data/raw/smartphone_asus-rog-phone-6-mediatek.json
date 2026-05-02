@@ -1,0 +1,61 @@
+{
+  "name": "ASUS ROG Phone 6 Mediatek",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/o/rog_phone_6_512gb_-_4_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/o/rog_phone_6_512gb_-_3_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/o/rog_phone_6_512gb_-_5_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/o/rog_phone_6_512gb_-_6_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/o/rog_phone_6_512gb_-_7_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-rog-phone-6-12gb-256gb_1_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/b/fbhgjj_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/f/vfb_1_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/f/vf_1__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/v/dvf_1__2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": "1080 x 2448 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 7000 Series",
+      "cpu": null,
+      "gpu": "Adreno ™ 730",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "173 x 77x 10,4 mm",
+      "weight_g": 239.0,
+      "material": "Kính"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "WiFi 6E * (802.11a / b / g / n / ac / ax, 2x2 MIMO)"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/asus-rog-phone-6-mediatek.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại ASUS",
+  "product_line": null
+}

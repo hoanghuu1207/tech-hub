@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Lenovo Legion 5 15AHP11 83Q7001JVN",
+  "price": 58990000,
+  "sale_price": null,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_legion_5_15ahp11_83q7001jvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_legion_5_15ahp11_83q7001jvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_legion_5_15ahp11_83q7001jvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_117.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__145.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_89.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_202.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_131.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_7__121.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_98.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.1,
+      "resolution": "2560 x 1600 (WQXGA)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "AMD Ryzen AI, up to 16 TOPS",
+      "cpu": "AMD Ryzen 7 250 (8 lõi / 16 luồng, 3.3 / 5.1GHz, 8MB L2 / 16MB L3)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English + Office Home 2024 + Lenovo AI Now"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "344 x 244.5 x 18.95-19.95 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.87,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7, 802.11be 2x2"
+    },
+    "special_features": [
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15ahp11-83q7001jvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LEGION"
+}

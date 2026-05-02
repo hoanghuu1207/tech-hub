@@ -1,0 +1,51 @@
+{
+  "name": "Apple Watch Series 6 40mm (4G) Viền Thép Dây Cao Su | Chính Hãng VN/A",
+  "price": 10990000,
+  "sale_price": 19990000,
+  "colors": [
+    "Xanh dương",
+    "Vàng",
+    "Bạc",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-6-40mm-4g-vien-thep-day-cao-su_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-6-40mm-4g-vien-thep-day-cao-su-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-6-40mm-4g-vien-thep-day-cao-su-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-6-40mm-4g-vien-thep-day-cao-su-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-6-40mm-4g-vien-thep-day-cao-su-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-6-40mm-4g-vien-thep-day-cao-su-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple-watch-series-6-40mm-4g-vien-thep-day-cao-su.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple-watch-series-6-40mm-4g-vien-thep-day-cao-su_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple-watch-series-6-40mm-4g-vien-thep-day-cao-su-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple-watch-series-6-40mm-4g-vien-thep-day-cao-su-3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.78,
+      "resolution": "448 x 368 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {
+      "usage_hours": 18
+    },
+    "design": {
+      "case_size_mm": "40 x 34 x 10.4 mm",
+      "weight_g": 39.7,
+      "material": "Cao Su"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-series-6-40mm-4g-vien-thep-day-cao-su.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

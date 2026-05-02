@@ -1,0 +1,62 @@
+{
+  "name": "Laptop HP Gaming OMEN 16-AM0176TX BX9D3PA",
+  "price": 42990000,
+  "sale_price": 45990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_gaming_omen_16-am0176tx_bx9d3pa_-_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_gaming_omen_16-am0176tx_bx9d3pa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_gaming_omen_16-am0176tx_bx9d3pa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_10__5_209.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__4_262.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_293.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_251.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__5_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__6_229.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__9_204.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera HP True Vision 1080p FHD với chức năng giảm nhiễu theo thời gian và micrô kỹ thuật số mảng kép tích hợp"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core Ultra 7 255H (up to 5.1 GHz with Intel Turbo Boost Technology, 24 MB L3 cache, 16 lõi, 16 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.75 x 26.9 x 2.37 cm (Mặt trước)\n35.75 x 26.9 x 2.54 cm (Mặt sau)",
+      "weight_kg": 2.43,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Intel Wi-Fi 6E AX211 (2x2)"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-gaming-omen-16-am0176tx-bx9d3pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": null
+}

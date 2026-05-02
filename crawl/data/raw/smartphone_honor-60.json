@@ -1,0 +1,61 @@
+{
+  "name": "Honor 60",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/d/cdvv_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor-60-1-600x600.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/d/cdvv_2__1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/d/cdvv_1__1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/d/cdvv_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor-60-1-600x600.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/d/cdvv_2__1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/d/cdvv_1__1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/d/cdvv_3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/o/honor-60-1-600x600.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.66,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 32
+    },
+    "performance": {
+      "chipset": "Qualcomm SM7325 Snapdragon 778G 5G (6 nm)",
+      "cpu": "1x2,4 GHz Cortex-A78 & 3x2,2 GHz Cortex-A78 & 4x1,9 GHz Cortex-A55",
+      "gpu": "Adreno 642L",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 11"
+    },
+    "battery": {
+      "capacity_mah": 4800
+    },
+    "design": {
+      "dimensions_mm": "161,4 x 73,3 x 8 mm",
+      "weight_g": 179.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11 a/b/g/n/ac/6"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/honor-60.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

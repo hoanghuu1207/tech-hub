@@ -1,0 +1,63 @@
+{
+  "name": "Laptop ASUS TUF Gaming A14 FA401GM-RG013W",
+  "price": 53490000,
+  "sale_price": 57990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_tuf_gaming_a14_fa401gm-rg013w_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_tuf_gaming_a14_fa401gm-rg013w_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_tuf_gaming_a14_fa401gm-rg013w_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_54.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_51.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_49.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_95.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_43.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_42.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__100.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "2560 x 1600 pixels (2.5K)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera hồng ngoại FHD 1080P dành cho Windows Hello"
+    },
+    "performance": {
+      "chipset": "AMD XDNA NPU up to 50TOPS",
+      "cpu": "AMD Ryzen AI 9 465 2.0GHz (34MB Cache, up to 5.0GHz, 10 lõi, 20 luồng)",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "31.1 x 22.7 x 1.69 ~ 1.99 cm (Dài x Rộng x Dày)",
+      "weight_kg": 1.46,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6E(802.11ax) (Triple band) 2*2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Nhận diện khuôn mặt",
+      "MUX Switch"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-a14-fa401gm-rg013w-ryzen-ai-9.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "TUF"
+}

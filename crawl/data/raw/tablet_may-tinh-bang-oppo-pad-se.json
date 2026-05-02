@@ -1,0 +1,58 @@
+{
+  "name": "OPPO Pad SE",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-oppo-pad-se.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/may-tinh-bang-oppo-pad-se-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-oppo-pad-se.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-oppo-pad-se.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-oppo-pad-se-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-oppo-pad-se.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/may-tinh-bang-oppo-pad-se-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "1920 x 1200 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 5
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G100",
+      "cpu": "8 nhân",
+      "gpu": "Arm Mali-G57 MC2",
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": "ColorOS 15.0.1"
+    },
+    "battery": {
+      "capacity_mah": 9098
+    },
+    "design": {
+      "dimensions_mm": "254.91 × 166.46 × 7.39mm",
+      "weight_g": 530.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth® 5.4, Low Energy, BLE Audio",
+      "wifi": "Wi-Fi 5 (802.11ac), 802.11 a/b/g/n/, WLAN Hiển Thị, WLAN mạng phủ"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-oppo-pad-se.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "OPPO",
+  "product_line": null
+}

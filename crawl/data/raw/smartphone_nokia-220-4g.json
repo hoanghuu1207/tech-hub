@@ -1,0 +1,60 @@
+{
+  "name": "Nokia 220 4G",
+  "price": 980000,
+  "sale_price": 1000000,
+  "colors": [
+    "Cam",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-220-4g_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-220-4g_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-220-4g-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-220-4g-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-220-4g_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-220-4g_11_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-220-4g_6_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-220-4g_6_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-220-4g_9_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/n/o/nokia-220-4g-2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 2.8,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": "Unisoc T107",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": "S30+"
+    },
+    "battery": {
+      "capacity_mah": 1450
+    },
+    "design": {
+      "dimensions_mm": "127mm*54.2mm*11.63mm",
+      "weight_g": null,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nokia-220-4g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nokia",
+  "product_line": null
+}

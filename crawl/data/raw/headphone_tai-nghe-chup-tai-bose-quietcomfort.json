@@ -1,0 +1,49 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai Bose QuietComfort",
+  "price": 6349000,
+  "sale_price": 7349000,
+  "colors": [
+    "Xám ánh trăng",
+    "Xanh chạng vạng",
+    "Hồng",
+    "Xanh băng",
+    "Xanh đá",
+    "Sa thạch",
+    "Xanh lam",
+    "Đen",
+    "Trắng",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-bose-quietcomfort-000.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-bose-quietcomfort-.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-bose-quietcomfort-_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-bose-quietcomfort-_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-bose-quietcomfort-_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-bose-quietcomfort-_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-bose-quietcomfort-_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-bose-quietcomfort-_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-bose-quietcomfort-_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-bose-quietcomfort-_10_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 24
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.1",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-bose-quietcomfort.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Bose",
+  "product_line": null
+}

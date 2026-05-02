@@ -1,0 +1,71 @@
+{
+  "name": "TECNO Spark 40 Pro+ 8GB 256GB",
+  "price": 4890000,
+  "sale_price": 5690000,
+  "colors": [
+    "Xanh lá",
+    "Đen",
+    "Titan"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-spark-40-pro-plus_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-spark-40-pro-plus-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-spark-40-pro-plus-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-spark-40-pro-plus-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-spark-40-pro-plus-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-spark-40__1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno_spark_40_pro_plus-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno_spark_40_pro_plus-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno_spark_40_pro_plus-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-tecno-spark-40-pro-plus-9.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.78,
+      "resolution": null,
+      "refresh_rate_hz": 144
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G200",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 5200
+    },
+    "design": {
+      "dimensions_mm": "163.9 x 75.8 x 6.49 mm",
+      "weight_g": 160.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Có",
+      "wifi": "b/g/n/ac (2.4GHz & 5GHz)"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-tecno-spark-40-pro-plus.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Tecno",
+  "product_line": "SPARK"
+}

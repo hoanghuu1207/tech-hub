@@ -1,0 +1,61 @@
+{
+  "name": "Laptop MSI Cyborg 15 B13WFKG-658VN",
+  "price": 36490000,
+  "sale_price": 40490000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_cyborg_15_b13wfkg-658vn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_cyborg_15_b13wfkg-658vn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_msi_cyborg_15_b13wfkg-658vn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_32_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__33_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__30_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__30_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__28_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__30_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_7__20_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Độ phân giải HD (30 khung hình/giây ở độ phân giải 720p) với tính năng giảm nhiễu 3D (3DNR)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-13620H (10 lõi) - Max Turbo Frequency: 4.90 GHz",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359.3 x 245.25 x 22.15 - 23.15 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.1,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth v5.3",
+      "wifi": "Intel Wi-Fi 6E AX211"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-cyborg-15-b13wfkg-658vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "CYBORG"
+}

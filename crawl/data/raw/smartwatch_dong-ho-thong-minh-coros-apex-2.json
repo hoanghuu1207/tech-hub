@@ -1,0 +1,51 @@
+{
+  "name": "Đồng hồ thông minh Coros Apex 2 dây nylon",
+  "price": 9790000,
+  "sale_price": 9990000,
+  "colors": [
+    "Đen",
+    "Xám",
+    "Hồng",
+    "Cam"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/coros_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/download_2__4_11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_gray.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/download_1__7_21.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/coros_apex_2_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/coros_apex_2_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/coros_apex_2_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/coros_apex_2_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/coros_apex_2_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/coros_apex_2_-_7.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.2,
+      "resolution": "240 x 240 Pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 45
+    },
+    "design": {
+      "case_size_mm": "Từ 17 - 20 cm",
+      "weight_g": 42.0,
+      "material": "Silicone"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 24 tháng chính hãng, 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-coros-apex-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Coros",
+  "product_line": null
+}

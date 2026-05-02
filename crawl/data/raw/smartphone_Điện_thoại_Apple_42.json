@@ -1,0 +1,74 @@
+{
+  "name": "iPhone 11 128GB | Chính hãng VN/A",
+  "price": 9590000,
+  "sale_price": 13990000,
+  "colors": [
+    "Tím",
+    "Trắng",
+    "Đen",
+    "Vàng",
+    "Xanh lá",
+    "Đỏ"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-11-128gb.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_253_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_242_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_158_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_130_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_225_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001_iphone_11_purple_hero_alt_horizontal_cropped_us-en_print.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_iphone_11_red_rosette_vertical_us-en_print.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-11_2__4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-11_1__4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "1792 x 828 pixel",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "A13 Bionic",
+      "cpu": "Hexa-core",
+      "gpu": "Apple GPU",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "iOS 13 hoặc cao hơn (Tùy vào phiên bản phát hành)"
+    },
+    "battery": {
+      "capacity_mah": 3110
+    },
+    "design": {
+      "dimensions_mm": "150.9mm - 75.7mm - 8.3mm",
+      "weight_g": 194.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "802.11ax Wi‑Fi 6 with 2x2 MIMO"
+    },
+    "special_features": [
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-11-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": null
+}

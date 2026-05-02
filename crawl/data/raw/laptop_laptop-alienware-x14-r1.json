@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Alienware X14 R1",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-alienware-x14-r1-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-alienware-x14-r1-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-alienware-x14-r1-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-alienware-x14-r1-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-alienware-x14-r1-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-alienware-x14-r1-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-alienware-x14-r1-4.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_509_85_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-alienware-x14-r1-2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-alienware-x14-r1-3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 144,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD RGB camera, có hỗ trợ nhận diện khuôn mặt"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-12700H (14 nhân 20 luồng, xung nhịp tối đa có thể đạt tới 4.7GHz với Turbo Boost, 24 MB Intel® Smart Cache)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11"
+    },
+    "battery": {
+      "capacity_wh": 80.5
+    },
+    "design": {
+      "dimensions_cm": "32.1 x 26.2 x 1.45 cm",
+      "weight_kg": 1.84,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "Wi-Fi 6"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-alienware-x14-r1.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": null
+}

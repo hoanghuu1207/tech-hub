@@ -1,0 +1,62 @@
+{
+  "name": "Laptop ASUS VivoBook X1502ZA-BQ127W",
+  "price": 13990000,
+  "sale_price": 16500000,
+  "colors": [
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/gaming_003_8__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0005_w800.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002_w800_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0004_w800_5_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_w800_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0003_w800_4_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001_w800_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/gaming_003_8__2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/a/gaming_003_8__2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/0/_0005_w800.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "720P"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-1240P",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "Windows 11 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.97 x 23.25 x 1.99 ~ 1.99 cm",
+      "weight_kg": 1.7,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi 6(802.11ax) (Dual band) 2*2"
+    },
+    "special_features": [
+      "Viền màn hình siêu mỏng",
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-x1502za-bq127w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK"
+}

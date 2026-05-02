@@ -1,0 +1,59 @@
+{
+  "name": "Laptop MSI Gaming GF63 Thin 10SC-480VN",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_69_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_50.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_35.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_24.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_29.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_69_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_50.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_35.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/_/5_24.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7 Comet Lake - 10750H",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "359 x 254 x 21.7 mm",
+      "weight_kg": 1.86,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.1",
+      "wifi": "6 (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-msi-gaming-gf63-thin-10sc-480vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "MSI",
+  "product_line": "GAMING"
+}

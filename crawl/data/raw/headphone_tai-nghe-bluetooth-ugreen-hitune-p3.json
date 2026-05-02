@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless Ugreen Hitune P3 - WS207",
+  "price": 380000,
+  "sale_price": 690000,
+  "colors": [
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/s/ws207.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/s/ws207-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/s/ws207-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/s/ws207-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/s/ws207-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/s/ws207-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_483_14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/s/ws207-2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/w/s/ws207-0.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/w/s/ws207.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5,
+      "case_hours": 5
+    },
+    "design": {
+      "earbuds_dimensions_mm": "49 x 25.6 x 66 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-ugreen-hitune-p3.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Ugreen",
+  "product_line": null
+}

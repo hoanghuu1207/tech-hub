@@ -1,0 +1,66 @@
+{
+  "name": "realme 11 8GB 128GB",
+  "price": 4590000,
+  "sale_price": 7390000,
+  "colors": [
+    "Vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_-_10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_-_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-11-vang-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.4,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Chip Helio G99",
+      "cpu": "Lõi tám nhân, 2*A76 2.2 GHz，6*A55 2.0 GHz",
+      "gpu": "ARM G57 MC2",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "realme UI 4.0 Trên nền tảng Android 13"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "159.9mm x 73.3mm x 7.95mm",
+      "weight_g": 178.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 5, Wi-Fi 4 & 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/realme-11.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": null
+}

@@ -1,0 +1,64 @@
+{
+  "name": "iPad mini 7 2024 Wifi 256GB | Chính hãng Apple Việt Nam",
+  "price": 16290000,
+  "sale_price": 16490000,
+  "colors": [
+    "Trắng vàng",
+    "Tím",
+    "Xám",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_mini_blue_pdp_image_position_2_cellular__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_mini_blue_pdp_image_position_3_cellular__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_mini_blue_pdp_image_position_4_cellular__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_mini_blue_pdp_image_position_5_cellular__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_mini_blue_pdp_image_position_6_cellular__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_mini_blue_pdp_image_position_7_cellular__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_mini_blue_pdp_image_position_8_cellular__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_mini_blue_pdp_image_position_9_cellular__vn-vi.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad_mini_blue_pdp_image_position_10_cellular__vn-vi.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 8.3,
+      "resolution": "2266 x 1488 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Chip A17 Pro",
+      "cpu": "CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+      "gpu": "GPU 5 lõi\nNeural Engine 16 lõi",
+      "ram_gb": null,
+      "storage_gb": 256,
+      "os": "iPadOS 18"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "195.4 x 134.8 x 6.3 mm",
+      "weight_g": 293.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 6E (802.11ax) với 2x2 MIMO"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã ZA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/ipad-mini-7-256gb.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "iPad",
+  "product_line": "IPAD MINI"
+}

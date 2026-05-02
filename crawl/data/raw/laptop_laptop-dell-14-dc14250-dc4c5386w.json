@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Dell 14 DC14250 DC4C5386W",
+  "price": 20990000,
+  "sale_price": null,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_14_dc14250_dc4c5386w_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_14_dc14250_dc4c5386w_-_2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_14_dc14250_dc4c5386w_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_125.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__97.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__90.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__95.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__59.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_7__50.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_8__40.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Có"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core 5 120U (Up to 5Ghz, 12Mb Cache)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home, Single Language English + Office Home & Student 2024"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "314 x 226.15 x 18.07 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.67,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.2",
+      "wifi": "Wi-Fi 6"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-14-dc14250-dc4c5386w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL 14"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Laptop Dell 15 DC15255 HV1N4 - Nhập khẩu chính hãng",
+  "price": 17490000,
+  "sale_price": 17990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15255_hv1n4_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15255_hv1n4_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_15_dc15255_hv1n4_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_121.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__93.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__95.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__88.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__69.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__82.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__58.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD RGB camera (1280 x 720 (HD) at 30 fps), 0.92 megapixel"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 5 7530U",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "358.50 x 235.56 x 18.99 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.9,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0 hoặc 5.3",
+      "wifi": "Realtek RTL8821CE hoặc Realtek RTL8852BE"
+    },
+    "special_features": [
+      "Màn hình cảm ứng"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-15-dc15255-hv1n4.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL 15"
+}

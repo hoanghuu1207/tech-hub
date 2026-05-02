@@ -1,0 +1,44 @@
+{
+  "name": "Tai nghe Bluetooth Samsung Galaxy Buds Core (ANC)",
+  "price": 1190000,
+  "sale_price": null,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-samsung-galaxy-buds-core-ksp-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/_/c_4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/3/h3-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/2/c2_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/3/c3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/3/h3-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/1/c1_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/1/b1_2_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/3/b3_1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/2/b2_1_2.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {
+      "earbuds_dimensions_mm": "19.2 x 17.1 x 22.2 mm",
+      "case_dimensions_mm": "50.0 x 50.0 x 27.7 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-samsung-galaxy-buds-core.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

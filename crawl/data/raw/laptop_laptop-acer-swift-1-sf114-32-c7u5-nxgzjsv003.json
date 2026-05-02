@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Acer Swift 1 SF114-32-C7U5 NX.GZJSV.003",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_490.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_467.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_422.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_380.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_329.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_280.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_490.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_467.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_422.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_380.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD Webcam (720p Webcam)"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Celeron N4000",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Windows 10 Home Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": null,
+      "weight_kg": 1.3,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-acer-swift-1-sf114-32-c7u5-nxgzjsv003.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Acer",
+  "product_line": null
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Lenovo Yoga Slim 7 Carbon 13IAP7 82U90044VN",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_yoga_slim_7_carbon_13iap7_82u90044vn.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/3/43_1_61_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/2/42_1_58_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/8/38_2_13_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/9/39_4_11_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/0/40_1_61_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/1/41_1_65_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/4/44_5_6_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/5/45_1_52_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/6/46_1_48_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.3,
+      "resolution": "2560 x 1600 pixels (2K)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "ToF, HD 720p & IR với màn trập E-privacy"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-1240P, 12 lõi/16 luồng, P-core 1.7/4.4GHz, E-core 1.2/3.3GHz, 12MB",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home 64 Single Language"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "300.98 x 206.03 x 14.8 mm (W x D x H)",
+      "weight_kg": 0.968,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.1",
+      "wifi": "Wi-Fi 6E 11ax, 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-yoga-slim-7-carbon-13iap7-82u90044vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "YOGA"
+}

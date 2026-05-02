@@ -1,0 +1,63 @@
+{
+  "name": "Surface Pro 12 inch",
+  "price": 34490000,
+  "sale_price": 39990000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/u/surface_pro_12_inch_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/u/surface_pro_12_inch_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/u/surface_pro_12_inch_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_2__13_102.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/u/surface_pro_12_inch_-_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/u/surface_pro_12_inch_-_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 12.0,
+      "resolution": "2196 x 1464 pixels",
+      "refresh_rate_hz": 90,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 10
+    },
+    "performance": {
+      "chipset": "Qualcomm Hexagon 45 TOPS",
+      "cpu": "Snapdragon Xplus (8 lõi, 8 luồng, → 3.20 GHz, 42MB Cache)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "274 x 190 x 7.8 mm (Dài x Rộng x Dày)",
+      "weight_kg": 0.686,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7"
+    },
+    "special_features": [
+      "Màn hình cảm ứng",
+      "Nhận diện khuôn mặt",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-surface-pro-12-inch-x-plus-16gb-512gb.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Microsoft Surface",
+  "product_line": null
+}

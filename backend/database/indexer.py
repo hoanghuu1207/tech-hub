@@ -13,7 +13,7 @@ import uuid
 import logging
 from typing import Optional
 
-from openai import AsyncOpenAI
+import google.generativeai as genai
 from qdrant_client.models import PointStruct, FilterSelector, Filter, FieldCondition, MatchValue
 
 from app.db.qdrant import qdrant_client
@@ -22,18 +22,19 @@ from app.core.config import settings
 logger = logging.getLogger(__name__)
 
 COLLECTION_NAME = "products"
-EMBEDDING_MODEL = "text-embedding-3-small"
-EMBEDDING_DIM = 1536
+EMBEDDING_MODEL = "models/gemini-embedding-2"
+EMBEDDING_DIM = 3072
 
 
 class ProductIndexer:
     """
     Lớp quản lý việc đồng bộ dữ liệu sản phẩm từ PostgreSQL lên Qdrant Cloud.
-    Mỗi product (không phải variant) = 1 vector point trong Qdrant.
+    Mỗi product = 1 vector point trong Qdrant.
     """
 
     def __init__(self):
-        self.openai_client = AsyncOpenAI(api_key=settings.OPENAI_API_KEY)
+        # Cấu hình Gemini API
+        genai.configure(api_key=settings.GEMINI_API_KEY)
 
     # ────────────────────────────────────────────────────────
     # PUBLIC METHODS
@@ -314,33 +315,30 @@ class ProductIndexer:
         }
 
     async def _create_embedding(self, text: str) -> list[float]:
-        """Tạo embedding vector cho 1 đoạn text qua OpenAI."""
-        response = await self.openai_client.embeddings.create(
+        """Tạo embedding vector cho 1 đoạn text qua Gemini."""
+        result = genai.embed_content(
             model=EMBEDDING_MODEL,
-            input=text,
+            content=text
         )
-        return response.data[0].embedding
+        return result['embedding']
 
     async def _create_embeddings_batch(self, texts: list[str]) -> list[list[float]]:
         """
-        Tạo embedding vectors cho nhiều đoạn text cùng lúc.
-        OpenAI hỗ trợ batch input tối đa ~8000 tokens/request.
+        Tạo embedding vectors cho nhiều đoạn text cùng lúc qua Gemini.
+        Gemini hỗ trợ tốt việc pass list các chuỗi.
         """
-        # Chia thành batch 100 items để tránh vượt limit
         all_vectors = []
-        batch_size = 100
+        batch_size = 100 # Chia batch nhỏ để an toàn
 
         for i in range(0, len(texts), batch_size):
             batch = texts[i:i + batch_size]
-            response = await self.openai_client.embeddings.create(
+            result = genai.embed_content(
                 model=EMBEDDING_MODEL,
-                input=batch,
+                content=batch
             )
-            batch_vectors = [item.embedding for item in response.data]
-            all_vectors.extend(batch_vectors)
+            all_vectors.extend(result['embedding'])
 
         return all_vectors
-
 
 def _append(parts: list[str], value: Optional[str]) -> None:
     """Helper: append non-None, non-empty value to parts list."""

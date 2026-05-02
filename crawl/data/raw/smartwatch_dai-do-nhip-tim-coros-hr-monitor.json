@@ -1,0 +1,54 @@
+{
+  "name": "Đai đo nhịp tim Coros HR Monitor",
+  "price": 2090000,
+  "sale_price": 2150000,
+  "colors": [
+    "Xanh lá",
+    "Cam",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/e/heart-rate-monitor_5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/a/dai-do-nhip-tim-coros-hr-monitor_3__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/a/dai-do-nhip-tim-coros-hr-monitor_2__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/a/dai-do-nhip-tim-coros-hr-monitor_1__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/a/dai-do-nhip-tim-coros-hr-monitor_4__2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/e/heart-rate-monitor_5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/e/heart-rate-monitor_5.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/a/dai-do-nhip-tim-coros-hr-monitor_3__2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/a/dai-do-nhip-tim-coros-hr-monitor_2__2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/a/dai-do-nhip-tim-coros-hr-monitor_1__2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": null,
+      "resolution": null,
+      "technology": null
+    },
+    "performance": {
+      "os": null
+    },
+    "battery": {
+      "usage_hours": 38
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 19.0,
+      "material": "Vải"
+    },
+    "special_features": [
+      "Kết nối với đồng hồ Coros hoặc các dòng đồng hồ khác thông qua Bluetooth",
+      "Kết nối tối đa lên đến 3 thiết bị",
+      "Tự động tắt nguồn khi tháo đai"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dai-do-nhip-tim-coros-hr-monitor.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Coros",
+  "product_line": null
+}

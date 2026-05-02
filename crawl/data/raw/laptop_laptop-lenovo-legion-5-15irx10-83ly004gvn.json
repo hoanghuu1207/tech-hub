@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Lenovo Legion 5 15IRX10 83LY004GVN",
+  "price": 47490000,
+  "sale_price": 51490000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_legion_5_15irx10_83ly004gvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_legion_5_15irx10_83ly004gvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_legion_5_15irx10_83ly004gvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_210.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_219.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_266.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_260.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_8__6_205.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__4_208.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__9_182.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.1,
+      "resolution": "2560 x 1600 (WQXGA)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7-14700HX, 20 lõi (8P + 12E) / 28 luồng, P-core 2.1 / 5.5GHz, E-core 1.5 / 3.9GHz, 33MB",
+      "gpu": null,
+      "ram_gb": 24,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home Single Language, English + Office Home 2024 + Lenovo AI Now"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "344.9 x 255.35 x 19.95-21.54 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.9,
+      "material": "PC-ABS + 15% Talc"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7, 802.11be 2x2"
+    },
+    "special_features": [
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15irx10-83ly004gvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LEGION"
+}

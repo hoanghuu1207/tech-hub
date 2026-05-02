@@ -1,0 +1,63 @@
+{
+  "name": "Máy tính bảng Lenovo Idea Tab 5G 8GB 256GB ZAFM0711VN kèm bút",
+  "price": 7990000,
+  "sale_price": 8190000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-5g.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-5g-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-5g-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-5g-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-5g-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1546.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1547.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1549.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1550.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1548.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "2560 x 1600 pixels (2.5K)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 0
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 6300",
+      "cpu": "8C, 2x A76 @2.4 GHz + 6x A55@2.0 GHz",
+      "gpu": "Arm Mali-G57 MC2",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 15 trở lên"
+    },
+    "battery": {
+      "capacity_mah": 7040
+    },
+    "design": {
+      "dimensions_mm": "254.59 x 166.15 x 6.99 mm",
+      "weight_g": 480.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-lenovo-idea-tab-5g-zafm0711vn-kem-but.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LENOVO IDEA TAB SERIES"
+}

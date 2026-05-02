@@ -1,0 +1,72 @@
+{
+  "name": "Huawei Mate X7 16GB 512GB",
+  "price": 54990000,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Đỏ"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-mate-x7_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-mate-x7-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-mate-x7-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-mate-x7-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-mate-x7-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-mate-x7-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-mate-x7-6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-huawei-mate-x7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-huawei-mate-x7_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-huawei-mate-x7-3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 8.0,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "EMUI 15.0"
+    },
+    "battery": {
+      "capacity_mah": 5600
+    },
+    "design": {
+      "dimensions_mm": "Chiều dài: 156.8 mm\nChiều rộng: Khi gập lại: 73.8 mm, Khi mở ra: 144.2 mm\nĐộ dày: Khi gập lại: 9.5 mm, Khi mở ra: 4.5 mm",
+      "weight_g": 236.0,
+      "material": "Titanium"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0, hỗ trợ BLE, SBC, AAC, LDAC và L2HC",
+      "wifi": "Wi-Fi 2.4 GHz & 5 GHz, a/b/g/n/ac/ax/be, 2×2 MIMO, HE160, MU-MIMO"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-huawei-mate-x7.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Huawei",
+  "product_line": null
+}

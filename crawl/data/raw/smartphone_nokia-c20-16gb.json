@@ -1,0 +1,64 @@
+{
+  "name": "Nokia C20 2GB 16GB",
+  "price": 2290000,
+  "sale_price": null,
+  "colors": [
+    "Xanh",
+    "Vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c20-2_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c20-1_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c20-12_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c20-11_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c20-13_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c20-14_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c20-16_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c20-17_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c20-18_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia-c20-15_3.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.52,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 5
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Unisoc SC9863A",
+      "cpu": "8 nhân (4x1.6 GHz Cortex-A55 & 4x1.2 GHz Cortex-A55)",
+      "gpu": "Mali-G52 MC2",
+      "ram_gb": 2,
+      "storage_gb": 16,
+      "os": null
+    },
+    "battery": {
+      "capacity_mah": 2950
+    },
+    "design": {
+      "dimensions_mm": "169.9 x 77.9 x 8.8 mm",
+      "weight_g": 191.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "4.2, A2DP",
+      "wifi": "Wi-Fi 802.11 b/g/n, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/nokia-c20-16gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nokia",
+  "product_line": null
+}

@@ -1,0 +1,66 @@
+{
+  "name": "HONOR X5b 4GB 64GB",
+  "price": 2160000,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x5b-4gb-64gb_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x5b-4gb-64gb-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x5b-4gb-64gb-2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x5b-4gb-64gb-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-x5b-4gb-64gb-4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_honor_x5b_4gb_64gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_honor_x5b_4gb_64gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/i/_i_n_tho_i_honor_x5b_plus_4gb_128gb-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-spark-go-4-mirage_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno-spark-go-4-gray_1_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.56,
+      "resolution": "720 x 1612 (HD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G36",
+      "cpu": "4*Cortex-A53 lên đến 2.2Ghz+4*Cortex-A53 lên đến 1.6Ghz",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "MagicOS 8.0 (Dựa trên Android 14)"
+    },
+    "battery": {
+      "capacity_mah": 5200
+    },
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": 194.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "BT5.1, Hỗ trợ BLE, SBC, AAC, LDAC, aptX, aptX HD",
+      "wifi": "802.11 a/b/g/n/ac (2.4GHz & 5GHz)"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-x5b.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

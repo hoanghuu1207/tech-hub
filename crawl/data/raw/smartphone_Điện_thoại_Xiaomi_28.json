@@ -1,0 +1,68 @@
+{
+  "name": "Xiaomi Redmi Note 11 128GB",
+  "price": 4090000,
+  "sale_price": 4990000,
+  "colors": [
+    "Xanh",
+    "Xanh/Trắng",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/0/800x800-640x640-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/1/11_4_34.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note-pro-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-11_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4.2_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4.4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4.1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4.5_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/0/4096-2731-max_2__1_8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4.3_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.43,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "Snapdragon 680 8 nhân",
+      "cpu": "2.4 GHz",
+      "gpu": "Adreno 610",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 11, MIUI 12.5"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "159,87 x 73,87 x 8,09 mm",
+      "weight_g": 179.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-redmi-note-11-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

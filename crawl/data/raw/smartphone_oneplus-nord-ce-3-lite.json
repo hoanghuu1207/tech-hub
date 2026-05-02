@@ -1,0 +1,67 @@
+{
+  "name": "OnePlus Nord CE 3 Lite",
+  "price": 5690000,
+  "sale_price": 6190000,
+  "colors": [
+    "Đen",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3-lite-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3-lite-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3-lite-2_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3-lite-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3-lite-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3-lite-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edobfefy.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edobfefy_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/d/edobfefy_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/n/oneplus-nord-ce-3-lite-4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.72,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Snapdragon 695 5G",
+      "cpu": "2x2.2 GHz Kryo 660 Gold & 6x1.7 GHz Kryo 660 Silver",
+      "gpu": "Adreno 619",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "165.5 x 76 x 8.3 mm",
+      "weight_g": 195.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, 2.4G/5G"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oneplus-nord-ce-3-lite.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OnePlus",
+  "product_line": null
+}

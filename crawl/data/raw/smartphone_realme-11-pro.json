@@ -1,0 +1,68 @@
+{
+  "name": "realme 11 Pro (8GB - 256GB)",
+  "price": 7790000,
+  "sale_price": 11990000,
+  "colors": [
+    "Trắng",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_pro-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_pro-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_pro-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_pro-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_pro-6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_pro-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_pro-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_11_pro-8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-11-pro_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-11-pro.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1080 x 2412 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 100
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Mediatek Dimensity 7050 5G",
+      "cpu": "TSMC 6nm Process, Octa-core, Up to 2.6Ghz",
+      "gpu": "Mali-G68",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "Màu kem/xanh: 161.6 x 73.9 x 8.7 mm\nMàu đen: 161.6 x 73.9 x 8.2mm",
+      "weight_g": 191.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2, A2DP, LE, aptX HD",
+      "wifi": "802.11 a/b/g/n/ac/6"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/realme-11-pro.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": null
+}

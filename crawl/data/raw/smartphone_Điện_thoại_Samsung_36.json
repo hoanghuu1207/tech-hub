@@ -1,0 +1,61 @@
+{
+  "name": "Samsung Galaxy S20",
+  "price": 21490000,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637170927330366186_ss-s20-hong-1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637170927329786229_ss-s20-hong-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ss-s20-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637171036390892501_ss-s20-hong-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637170929984611739_ss-s20-xam-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637170929985093259_ss-s20-xam-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637171034663047461_ss-s20-xam-5.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/3/637170927330366186_ss-s20-hong-1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/3/637170927329786229_ss-s20-hong-3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/s/ss-s20-2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.2,
+      "resolution": "3200 x 1440 pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 12
+    },
+    "camera_front": {
+      "resolution_mp": 10
+    },
+    "performance": {
+      "chipset": "Exynos 990 (7 nm+)",
+      "cpu": "Octa-core (2x2.73 GHz Mongoose M5 & 2x2.60 GHz Cortex-A76 & 4x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G77 MP11",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Android 10.0; One UI 2"
+    },
+    "battery": {
+      "capacity_mah": 4000
+    },
+    "design": {
+      "dimensions_mm": "151.7 x 69.1 x 7.9 mm",
+      "weight_g": 163.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0, A2DP, LE, aptX",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac/ax, dual-band, Wi-Fi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-s20.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": null
+}

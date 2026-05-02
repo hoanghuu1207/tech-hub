@@ -1,0 +1,74 @@
+{
+  "name": "iPhone 17 256GB | Chính hãng",
+  "price": 24390000,
+  "sale_price": 24990000,
+  "colors": [
+    "Xanh Lá Xô Thơm",
+    "Đen",
+    "Trắng",
+    "Xanh Lam Khói",
+    "Tím Oải Hương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_17_256gb-3_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-256gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-256gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-256gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-256gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-256gb-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-256gb-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-256gb-6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-256gb-7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-17-256gb-8.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.3,
+      "resolution": "2622 x 1206 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 18
+    },
+    "performance": {
+      "chipset": "Apple A19",
+      "cpu": "6 lõi (2 hiệu năng + 4 tiết kiệm điện)",
+      "gpu": "GPU 5 lõi với Neural Accelerator",
+      "ram_gb": null,
+      "storage_gb": 256,
+      "os": "iOS 26"
+    },
+    "battery": {
+      "usage_hours": 30
+    },
+    "design": {
+      "dimensions_mm": "149.6 × 71.5 × 7.95 mm",
+      "weight_g": 177.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi‑Fi 7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-17-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 17 SERIES"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Đồng hồ thông minh Amazfit T-Rex 3 Pro",
+  "price": 9490000,
+  "sale_price": 13990000,
+  "colors": [
+    "Vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_t-rex_3_pro_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_t-rex_3_pro_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_amazfit_t-rex_3_pro_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_2__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_4__1_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_7__4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_8__4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_10__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_11__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.5,
+      "resolution": "480 x 480 pixels, 322 PPI, độ sáng 3000 nits",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 700
+    },
+    "design": {
+      "case_size_mm": "Từ 14.5 - 21 cm",
+      "weight_g": 52.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Trợ lý độ cao",
+      "Chế độ nhiệt độ cực thấp",
+      "Hỗ trợ Màn hình ban đêm",
+      "La bàn",
+      "Mặt trời mọc & Mặt trời lặn",
+      "Hiển thị thủy triều",
+      "Trợ lý AI Zepp Flow",
+      "Ghi âm giọng nói",
+      "Hỗ trợ Lưu trữ nhạc",
+      "Khóa màn hình & Mật khẩu"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-amazfit-t-rex-3-pro.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huami",
+  "product_line": null
+}

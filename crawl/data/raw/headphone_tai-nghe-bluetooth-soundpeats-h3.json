@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless SoundPEATS H3",
+  "price": 2390000,
+  "sale_price": 2990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-soundpeats-h3_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-h3-ung-dung.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-h3-pin.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-h3-chong-on-dam-thoai.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-h3-chong-on.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-h3-am-thanh.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-h3-driver.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-h3-thiet-ke.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_1__2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-soundpeats-h3_7_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 7
+    },
+    "design": {
+      "earbuds_dimensions_mm": "25.64 x 22.16 x 25.97 mm",
+      "case_dimensions_mm": "70.88 x 48.18 x 31 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-soundpeats-h3.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Soundpeats",
+  "product_line": null
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Apple MacBook Pro 15 inch Touch Bar 256GB MPTR2",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/b/mbp15touch-gray_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-mptr2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-mptr2-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-mptr2-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-mptr2-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-mptr2-3.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/b/mbp15touch-gray_4.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-pro-mptr2_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-pro-mptr2-2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook-pro-mptr2-4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.4,
+      "resolution": "2880 x 1800 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i7 Dual-core 2.8 GHz, Turbo Boost lên đến 3.8 GHz, 6 MB L3 cache",
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": "OS X Sierra"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "34.93 x 24.07 x 1.55 cm (13.75 x 9.48 x 0.61 in)",
+      "weight_kg": 1.83,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "4.2",
+      "wifi": "Wi-Fi 802.11 b/g/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-macbook-pro-15-inch-touch-bar-256-gb-mptr2.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK PRO"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Laptop HP 14-DQ0005DX",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_496.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_473.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_428.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_386.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_496.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_473.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_428.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_386.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_496.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_473.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1366 x 768 pixels (HD+)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD 720p DualAryMic"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Celeron N4020",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Windows 10 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "324 x 225 x 17.9mm",
+      "weight_kg": 1.47,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11 a/b/g/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-14-dq0005dx.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "HP CƠ BẢN"
+}

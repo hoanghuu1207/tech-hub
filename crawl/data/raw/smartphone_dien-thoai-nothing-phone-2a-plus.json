@@ -1,0 +1,68 @@
+{
+  "name": "Nothing Phone 2A Plus 5G 12GB 256GB",
+  "price": 7990000,
+  "sale_price": 11490000,
+  "colors": [
+    "Đen",
+    "Ghi"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing_phone_2a_plus_12gb_256gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing_phone_2a_plus_12gb_256gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing_phone_2a_plus_12gb_256gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing_phone_2a_plus_12gb_256gb_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nothing_phone_2a_plus_12gb_256gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nothing-phone-2a-plus_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nothing-phone-2a-plus_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nothing-phone-2a-plus_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nothing-phone-2a-plus_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nothing-phone-2a-plus.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1080 x 2412 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 50
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 7350 Pro 5G",
+      "cpu": "Up to 3.0 GHz",
+      "gpu": "ARM Mali G610 MC4",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "161.7 x 76.3 x 8.5 mm",
+      "weight_g": 190.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11 a/b/g/n/ac or ax (Wi-Fi 6)\n2.4 GHz / 5 GHz"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-nothing-phone-2a-plus.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nothing Phone",
+  "product_line": null
+}

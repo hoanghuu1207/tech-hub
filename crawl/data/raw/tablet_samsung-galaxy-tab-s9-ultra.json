@@ -1,0 +1,70 @@
+{
+  "name": "Samsung Galaxy Tab S9 Ultra 12GB 256GB",
+  "price": 19590000,
+  "sale_price": 32990000,
+  "colors": [
+    "Kem",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_256gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_8.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_10.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.6,
+      "resolution": "1848 x 2960 Pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 2 for Galaxy",
+      "cpu": "1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
+      "gpu": "Adreno 740",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 11200
+    },
+    "design": {
+      "dimensions_mm": "326.4 x 208.6 x 5.5 mm",
+      "weight_g": 737.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": "Wi-Fi Direct\nMIMO\nWi-Fi 802.11 a/b/g/n/ac/ax\nDual-band"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Đi kèm bút cảm ứng"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-tab-s9-ultra.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

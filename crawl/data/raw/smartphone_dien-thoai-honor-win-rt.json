@@ -1,0 +1,62 @@
+{
+  "name": "HONOR Win RT",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-win-rt.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-win-rt.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-win-rt.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-win-rt.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.83,
+      "resolution": null,
+      "refresh_rate_hz": 144
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 50
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Elite",
+      "cpu": "Tám lõi, 2×Prime 4.32GHz+6×Hiệu suất 3.53GHz",
+      "gpu": "Adreno 830",
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": "MagicOS 10 (dựa trên Android 16)"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "163,1 x 76,6 x 8,3 mm",
+      "weight_g": 225.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6.0",
+      "wifi": "Wi-Fi 7 (802.11 be), Wi-Fi 6 (802.11 ax) và 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-win-rt.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

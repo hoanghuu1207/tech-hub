@@ -1,0 +1,67 @@
+{
+  "name": "realme C53 8GB 256GB",
+  "price": 3750000,
+  "sale_price": 4790000,
+  "colors": [
+    "Vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c53-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c53-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c53-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c53-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c53-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c53_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c53.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c53_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c53-den-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-c53-vang-1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.74,
+      "resolution": "720 x 1600 pixel",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Unisoc Tiger T612",
+      "cpu": "12nm, lên tới 1.82GHz",
+      "gpu": "ARM Mali-G57",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "167.3 x 76.7 x 7.49 mm",
+      "weight_g": 182.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "2.4/5GHz"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/realme-c53.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": "C SERIES"
+}

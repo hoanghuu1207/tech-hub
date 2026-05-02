@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth truyền dẫn xương Shokz Openrun",
+  "price": 3080000,
+  "sale_price": 3490000,
+  "colors": [
+    "Đen",
+    "Xanh dương",
+    "Xám",
+    "Đỏ"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openrun-0.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0000_51y5keqekjl._ac_sl1441.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0003_61lmpkvhpjl._ac_sl1441.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0002_51rezr7rssl._ac_sl1441.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0001_61q0ii2ggil._ac_sl1441.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0004_black3_600x.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0005_website_pop_features_coloredaero.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/0/_0006_71-hwytfxil._ac_sl1500.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/g/r/group_228_1_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai-nghe-truyen-dan-xuong-shokz-openrun-0.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 8
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.1",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-truyen-dan-xuong-shokz-openrun.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Shokz",
+  "product_line": null
+}

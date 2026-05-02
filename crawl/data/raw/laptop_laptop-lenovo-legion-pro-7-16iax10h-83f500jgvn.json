@@ -1,0 +1,62 @@
+{
+  "name": "Laptop Lenovo Legion Pro 7 16IAX10H 83F500JGVN",
+  "price": 83990000,
+  "sale_price": 85990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_legion_pro_7_16iax10h_83f500jgvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_legion_pro_7_16iax10h_83f500jgvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_legion_pro_7_16iax10h_83f500jgvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_34.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_72.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_37.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__88.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_10__42.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_34.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_11__1_9.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "2560 x 1600 (WQXGA)",
+      "refresh_rate_hz": 240,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "Intel AI Boost, up to 13 TOPS",
+      "cpu": "Intel Core Ultra 9 275HX, 24 lõi (8P + 16E) / 24 luồng, Max Turbo up to 5.4GHz, 36MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home Single Language, English + Office Trial + Lenovo AI Now"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "364.38 x 275.94 x 21.9-26.65 mm (Dài x Rộng x Dày)",
+      "weight_kg": 2.57,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7, 802.11be 2x2"
+    },
+    "special_features": [
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-legion-pro-7-16iax10h-83f500jgvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LEGION"
+}

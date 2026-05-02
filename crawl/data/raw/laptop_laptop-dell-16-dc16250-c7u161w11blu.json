@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Dell 16 DC16250 C7U161W11BLU",
+  "price": 27990000,
+  "sale_price": 29990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_16_dc16250_c7u161w11blu_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_16_dc16250_c7u161w11blu_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_dell_16_dc16250_c7u161w11blu_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_141.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__108.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__102.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__97.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__78.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__91.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__65.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "1280 x 720 (HD) at 30 fps"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core 7 150U (12MB Cache, 1.80GHz and up to 5.4 GHz)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home, Single Language + Microsoft Office Home 2024 + Microsoft 365 Basic 1 year subscription"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "357.30 x 250.60 x 16.74 - 18.23 mm (Dài x Rộng x Dày)",
+      "weight_kg": null,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi-Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Màn hình cảm ứng",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-16-dc16250-c7u161w11blu.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": "DELL 16"
+}

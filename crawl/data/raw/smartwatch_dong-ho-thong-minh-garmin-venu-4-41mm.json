@@ -1,0 +1,53 @@
+{
+  "name": "Đồng hồ thông minh Garmin Venu 4 41mm",
+  "price": 14240000,
+  "sale_price": 14990000,
+  "colors": [
+    "Trắng ngà",
+    "Đen",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_venu_4_41mm_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_venu_4_41mm_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_garmin_venu_4_41mm_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_7_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_8_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_10_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_9_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/h/dh_1_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.2,
+      "resolution": "390 x 390 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 11 - 17.5 cm",
+      "weight_g": 33.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Garmin PAY",
+      "Điều khiển máy tập thông minh",
+      "Thực hiện cuộc gọi và kết nối trợ lý giọng nói qua Bluetooth",
+      "Thông báo bằng giọng nói"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-venu-4-41mm.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Apple Watch Series 11 42mm (5G) Viền Titan Dây Cao Su Size S/M | Chính hãng Apple Việt Nam",
+  "price": 18490000,
+  "sale_price": 20990000,
+  "colors": [
+    "Titan Tự Nhiên - Dây xám",
+    "Titan Đen - Dây đen",
+    "Titan Vàng - Dây hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1201_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1202_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1208_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1207_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1206_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1203_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1205_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1204_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple_lte_3_31.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/1201_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": null,
+      "resolution": "374 x 446 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {
+      "usage_hours": 24
+    },
+    "design": {
+      "case_size_mm": "Vừa với cổ tay cỡ 13 – 18 cm",
+      "weight_g": 34.6,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "SOS Khẩn Cấp",
+      "Phát Hiện Va Chạm",
+      "Phát Hiện Ngã",
+      "Giám sát tiếng ồn",
+      "Quay Về",
+      "Lắc cổ tay để Tắt tiếng cuộc gọi đến",
+      "tắt chuông hẹn giờ",
+      "bỏ qua thông báo",
+      "...",
+      "Cử chỉ chạm hai lần",
+      "Siri"
+    ]
+  },
+  "features": [],
+  "description": "Hàng chính hãng Apple Việt Nam, Mới",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-series-11-42mm-5g-vien-titan-day-cao-su-s-m.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

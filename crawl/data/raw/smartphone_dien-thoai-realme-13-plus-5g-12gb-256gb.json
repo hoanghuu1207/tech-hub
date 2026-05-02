@@ -1,0 +1,67 @@
+{
+  "name": "realme 13+ 5G 12GB 256GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_13_5g_-_1_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_13_5g_-_2_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_13_5g_-_4_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_13_5g_-_3_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme_13_5g_-_5_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-13-plus-5g_4__3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-13-plus-5g_6__2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-13-plus-5g_2__2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/realme-13-plus-5g_1__2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/2/223_1__1_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Dimensity 7300 Energy 5G",
+      "cpu": "Lõi tám nhân 4*A78 @2.5 GHz，4*A55 @2.5 GHz",
+      "gpu": "Arm® Mali-G615",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "161.7 x 74.7 x 7.6 mm",
+      "weight_g": 185.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "2.4/5GHz Wi-Fi\nWi-Fi 6"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-realme-13-plus-5g-12gb-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": null
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Laptop ASUS Vivobook A515EA -BN1360T",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/k/fk.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/v/bv_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_177_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_170_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_156_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_135_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_99_2_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/k/fk.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/b/v/bv_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_177_2_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i3-1115G4",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Windows 10"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": null,
+      "weight_kg": 1.8,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-Fi 6 (802.11ax)"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-a515ea-bn1360t.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK"
+}

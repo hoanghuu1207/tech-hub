@@ -1,0 +1,60 @@
+{
+  "name": "Sony Xperia X Compact",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-x-compact_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-x-compact_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony-xperia-x-compact.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony-xperia-x-compact_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony-xperia-x-compact_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony-xperia-x-compact.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony-xperia-x-compact_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony-xperia-x-compact_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/o/sony-xperia-x-compact.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 4.6,
+      "resolution": "720 x 1280 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 23
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Snapdragon 650",
+      "cpu": "2 nhân 1.8 GHz & 4 nhân 1.44 GHz",
+      "gpu": "Adreno 510",
+      "ram_gb": 3,
+      "storage_gb": 32,
+      "os": "Android 8.0"
+    },
+    "battery": {
+      "capacity_mah": 2700
+    },
+    "design": {
+      "dimensions_mm": "129 x 65 x 9.5 mm",
+      "weight_g": 135.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v4.2, A2DP, aptX, LE",
+      "wifi": "802.11 a/b/g/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/sony-xperia-x-compact.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Sony",
+  "product_line": null
+}

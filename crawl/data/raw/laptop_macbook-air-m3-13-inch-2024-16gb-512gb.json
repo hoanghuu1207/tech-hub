@@ -1,0 +1,64 @@
+{
+  "name": "MacBook Air M3 13 inch 2024 16GB - 512GB | Chính hãng Apple Việt Nam",
+  "price": 26990000,
+  "sale_price": 32990000,
+  "colors": [
+    "Xám",
+    "Bạc",
+    "Đen",
+    "Trắng vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-13-inch-2024_1__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-13-inch-2024_4__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-13-inch-2024_5__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-13-inch-2024_8__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__4_72.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-13-inch-2024_3__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-13-inch-2024_9__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-13-inch-2024_7__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-air-m3-13-inch-2024_6__5.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_11_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.6,
+      "resolution": null,
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera FaceTime HD 1080p"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "CPU Apple M3 8 Lõi\nNeural Engine 16 lõi",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "MacOS"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": null,
+      "weight_kg": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "Wi-Fi 6E"
+    },
+    "special_features": [
+      "Wi-Fi 6"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-air-m3-13-inch-2024-16gb-512gb.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK AIR"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Samsung Galaxy Tab S6 Lite 2024 - Đã Kích Hoạt",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite_5__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite-1_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637232551444550138_ss-tab-s6-lite-xanh-3_2_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637232551443230101_ss-tab-s6-lite-xanh-4_2_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637232548612807613_ss-tab-s6-lite-xam-3_2_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637232548612227617_ss-tab-s6-lite-xam-4_2_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite_2__1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite_3__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite_4__1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 10.4,
+      "resolution": "1200 x 2000 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Exynos 1280 8 nhân",
+      "cpu": "2 nhân 2.4 GHz & 6 nhân 2 GHz",
+      "gpu": "Mali-G68",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 40
+    },
+    "design": {
+      "dimensions_mm": "244.5 x 154.3 x 7 mm",
+      "weight_g": 467.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-tab-s6-lite-dkh.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

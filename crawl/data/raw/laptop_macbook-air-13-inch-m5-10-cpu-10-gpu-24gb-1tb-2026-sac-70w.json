@@ -1,0 +1,67 @@
+{
+  "name": "MacBook Air M5 13 inch 2026 10CPU 10GPU 24GB 1TB Sạc 70W | Chính hãng Apple Việt Nam",
+  "price": 41490000,
+  "sale_price": null,
+  "colors": [
+    "Đêm xanh thẳm",
+    "Ánh sao",
+    "Bạc",
+    "Xanh da trời"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/1/01_6_4_1_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/0/2/02_2__1_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macboo_4_1_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/made4e_1_1_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/ma2ce2_1_1_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/ma883f_1_1_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macboo_2_1_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macboo_1_1_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/mae7d7_1_1_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_2__1_6_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 13.6,
+      "resolution": "2560 x 1664 pixels",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Chip Apple M5\nCPU 10 lõi với 4 lõi siêu xử lý và 6 lõi tiết kiệm điện",
+      "gpu": null,
+      "ram_gb": 24,
+      "storage_gb": 1024,
+      "os": "macOS"
+    },
+    "battery": {
+      "usage_hours": 18
+    },
+    "design": {
+      "dimensions_cm": "1.13 x 30.41 cm x 21.5 cm (Dày x Rộng x Dài)",
+      "weight_kg": 1.23,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi-Fi 7 (802.11be)"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-air-13-inch-m5-10-cpu-10-gpu-24gb-1tb-2026-sac-70w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": "MACBOOK AIR"
+}

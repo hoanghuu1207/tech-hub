@@ -1,0 +1,66 @@
+{
+  "name": "Nubia V80 Design 4GB 128GB",
+  "price": 3490000,
+  "sale_price": 3990000,
+  "colors": [
+    "Vàng",
+    "Đen",
+    "Cam",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-design_6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-design-14_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/u/nubia-v80-design_1_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-design-7_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-design-1_5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-design-2_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-design-3_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-design-4_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-design-5_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nubia-v80-design-6_4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.75,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Unisoc T7280",
+      "cpu": "Octa-core (2x2.2 GHz Cortex-A75 & 6x2.0 GHz Cortex-A55)",
+      "gpu": "Mali-G57 MP1",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 16"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "166 x 79 x 7.7 mm",
+      "weight_g": 191.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.2, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-nubia-v80-design-4gb-128gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Nubia",
+  "product_line": "NUBIA"
+}

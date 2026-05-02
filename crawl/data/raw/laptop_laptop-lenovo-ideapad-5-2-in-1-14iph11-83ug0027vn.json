@@ -1,0 +1,64 @@
+{
+  "name": "Laptop Lenovo IdeaPad 5 2-in-1 14IPH11 83UG0027VN",
+  "price": 37990000,
+  "sale_price": null,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_57.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_11__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_12__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_7__22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_6__20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_8__19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_5__22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_4__24.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__33.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__33.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "FHD 1080p + IR với màn trập camera"
+    },
+    "performance": {
+      "chipset": "Up to 49 TOPS",
+      "cpu": "Intel Core Ultra 7 355, 8 lõi (4P + 4LPE) / 8 luồng, Max Turbo up to 4.7GHz, 12MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "311.6 x 224.9 x 17.4 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.54,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7, 802.11be 2x2"
+    },
+    "special_features": [
+      "Màn hình cảm ứng",
+      "Xoay gập 360 độ (2 in 1)",
+      "Nhận diện khuôn mặt",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-5-2-in-1-14iph11-83ug0027vn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": null
+}

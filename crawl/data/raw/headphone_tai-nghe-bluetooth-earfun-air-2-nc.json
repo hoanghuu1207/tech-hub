@@ -1,0 +1,43 @@
+{
+  "name": "Tai nghe Bluetooth EarFun Air 2 NC",
+  "price": 990000,
+  "sale_price": 1490000,
+  "colors": [
+    "Trắng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-air-2-nc-7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-air-2-nc-6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-air-2-nc-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-air-2-nc-9.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-air-2-nc-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-air-2-nc-8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-air-2-nc.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-air-2-nc-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-air-2-nc-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai-nghe-bluetooth-earfun-air-2-nc_1_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 9
+    },
+    "design": {
+      "earbuds_dimensions_mm": "62.1 x 47.5 x 25 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-earfun-air-2-nc.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "EarFun",
+  "product_line": null
+}

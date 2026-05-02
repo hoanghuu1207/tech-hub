@@ -1,0 +1,63 @@
+{
+  "name": "Đồng hồ định vị trẻ em myALO K74",
+  "price": 1990000,
+  "sale_price": 2490000,
+  "colors": [
+    "Xanh dương",
+    "Đen",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_tr_em_myalo_k74_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_tr_em_myalo_k74_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_tr_em_myalo_k74_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_1_2__2_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_1_1__5_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_1_7_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/f/r/frame_371.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_ng_h_th_ng_minh_tr_em_myalo_k74_-_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_ng_h_th_ng_minh_tr_em_myalo_k74_-_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/_/n/_ng_h_th_ng_minh_tr_em_myalo_k74_-_3.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.3,
+      "resolution": "240x240 dpi",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 600
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 57.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Cài đặt thông tin cho bé",
+      "Chế độ bận học",
+      "Cấm gọi Video",
+      "Chặn cuộc gọi lạ",
+      "Tích điểm thưởng cho bé",
+      "Giờ giám sát",
+      "Khởi động từ xa",
+      "Gọi điện thoại",
+      "Video call & Voice call",
+      "Chat bằng tin nhắn thoại",
+      "text",
+      "ảnh chụp & emoji"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-dinh-vi-tre-em-myalo-k74.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "myalo",
+  "product_line": null
+}

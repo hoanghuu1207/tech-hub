@@ -1,0 +1,50 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch GT4 dây da",
+  "price": 3990000,
+  "sale_price": 6490000,
+  "colors": [
+    "41mm Trắng",
+    "46mm Nâu"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/w/a/watch_gt4_d_y_da.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/dong-ho-thong-minh-huawei-watch-gt-4_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/w/hw_gt4_-_suc_khoe.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-09-27t165911.227.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-09-27t165848.071.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-09-27t165835.936.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-09-27t170007.380.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-09-27t165923.997.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-09-27t165934.882.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_-_2023-09-27t165945.380.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.32,
+      "resolution": "466 × 466 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "120 - 190 cm",
+      "weight_g": 37.0,
+      "material": "Da"
+    },
+    "special_features": [
+      "Cá Nhân Hóa Mặt Đồng Hồ",
+      "3 vòng hoạt động"
+    ]
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng chính hãng 1 đổi 1 trong 15 ngày nếu có lỗi phần cứng từ NSX. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-gt-4.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

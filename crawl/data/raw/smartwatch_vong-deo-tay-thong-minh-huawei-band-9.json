@@ -1,0 +1,51 @@
+{
+  "name": "Vòng đeo tay thông minh Huawei Band 9",
+  "price": 670000,
+  "sale_price": 1090000,
+  "colors": [
+    "Hồng",
+    "Trắng",
+    "Vàng",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_9_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_9_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_huawei_band_9_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/o/vong-deo-tay-thong-minh-huawei-band-9__1_-removebg-preview_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/o/vong-deo-tay-thong-minh-huawei-band-9__2_-removebg-preview_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/o/vong-deo-tay-thong-minh-huawei-band-9__3_-removebg-preview_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/download_36_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/download_1__15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/download_2__14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/o/download_3__11_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.47,
+      "resolution": "194 × 368 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "43.45 × 24.86 × 8.99 mm",
+      "weight_g": 14.0,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Hệ điều hành Harmony OS"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vong-deo-tay-thong-minh-huawei-band-9.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

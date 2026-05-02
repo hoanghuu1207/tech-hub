@@ -1,0 +1,73 @@
+{
+  "name": "iPhone Air 1TB | Chính hãng",
+  "price": 34990000,
+  "sale_price": 44990000,
+  "colors": [
+    "Xanh Da Trời",
+    "Trắng Mây",
+    "Vàng Nhạt",
+    "Đen Không Gian"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone_air-3_4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-air-256gb_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-air-256gb-1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-air-256gb-2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-air-256gb-3_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-air-256gb-4_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-air-256gb-5_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-air-256gb-6_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-air-256gb-7_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-air-256gb-8_2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.5,
+      "resolution": "2736 x 1260 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 18
+    },
+    "performance": {
+      "chipset": "Chip A19 Pro",
+      "cpu": "6 lõi (2 hiệu năng + 4 tiết kiệm điện)",
+      "gpu": "GPU 5 lõi với Neural Accelerator",
+      "ram_gb": null,
+      "storage_gb": 1024,
+      "os": "iOS 26"
+    },
+    "battery": {
+      "usage_hours": 27
+    },
+    "design": {
+      "dimensions_mm": "156.2 × 74.7 × 5.6 mm",
+      "weight_g": 165.0,
+      "material": "Titanium"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 6",
+      "wifi": "Wi‑Fi 7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-air-1tb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE AIR"
+}

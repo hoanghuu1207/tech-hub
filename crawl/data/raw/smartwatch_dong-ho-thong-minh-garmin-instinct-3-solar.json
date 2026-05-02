@@ -1,0 +1,55 @@
+{
+  "name": "Đồng hồ thông minh Garmin Instinct 3 Solar",
+  "price": 8639000,
+  "sale_price": 10990000,
+  "colors": [
+    "Xám",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_5__1_11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_6__1_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_8__1_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_7__1_10.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_48__3_24.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_49__3_14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_50__3_14.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_52__3_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_53__3_22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_51__4_14.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 0.9,
+      "resolution": "176 x 176 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "usage_hours": 40
+    },
+    "design": {
+      "case_size_mm": "Phù hợp với cổ tay có chu vi từ 13.7 - 20.4 cm",
+      "weight_g": 52.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Garmin Pay",
+      "Điều khiển từ xa VIRB",
+      "Tương thích với ứng dụng Garmin Messenger",
+      "Ghép nối với Garmin Connect Mobile",
+      "Tính năng theo dõi hoạt động của trẻ em"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-instinct-3-solar.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

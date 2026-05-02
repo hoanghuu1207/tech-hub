@@ -1,0 +1,57 @@
+{
+  "name": "iPhone 15 Pro Max 2TB | Chính hãng VN/A",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-max_2__4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-max_4__4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-max_5__4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-max_6__4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-max_7__4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-max_8__4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-max_9__4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-max_1__4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-15-pro-max_10__4_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-max_2__4_1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "2796 x 1290-pixel",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {},
+    "performance": {
+      "chipset": "A17 Pro",
+      "cpu": "CPU 6 lõi mới với 2 lõi hiệu năng và 4 lõi hiệu suất",
+      "gpu": "GPU 6 nhân mới",
+      "ram_gb": null,
+      "storage_gb": 1024,
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": 187.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": "Wi‑Fi 6E (802.11ax)"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-15-pro-max-2tb-68865.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 15 SERIES"
+}

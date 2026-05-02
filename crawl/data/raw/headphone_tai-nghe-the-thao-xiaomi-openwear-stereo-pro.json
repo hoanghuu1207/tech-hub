@@ -1,0 +1,45 @@
+{
+  "name": "Tai nghe Bluetooth thể thao Xiaomi OpenWear Stereo Pro",
+  "price": 4490000,
+  "sale_price": 4990000,
+  "colors": [
+    "Vàng",
+    "Xám Titan",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-xiaomi-openwear-stereo-pro-0_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_289_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/u/buds2-black_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_290.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_293.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/u/buds2-black_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_291_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-xiaomi-openwear-stereo-pro-_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-xiaomi-openwear-stereo-pro-_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-the-thao-xiaomi-openwear-stereo-pro-_2_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 5
+    },
+    "design": {
+      "earbuds_dimensions_mm": "50.8 x 34.9 x 16.7 mm",
+      "case_dimensions_mm": "68 x 68 x 26.3 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-the-thao-xiaomi-openwear-stereo-pro.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

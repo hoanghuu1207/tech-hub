@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Lenovo ThinkBook 14 G9 AHP 21V0005NVN",
+  "price": 22990000,
+  "sale_price": 24990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkbook_14_g9_ahp_21v0005nvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkbook_14_g9_ahp_21v0005nvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkbook_14_g9_ahp_21v0005nvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_82.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__1_87.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_146.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__1_61.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__118.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_11__1_20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_10__56.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera lai FHD 1080p + hồng ngoại với màn trập camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 5 220 (6 lõi / 12 luồng, 3.2 / 4.9GHz, 6MB L2 / 16MB L3)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English (US) / English (UK)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "313.5 x 224 x 17.5 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.36,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7, 802.11be 2x2"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-14-g9-ahp-21v0005nvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "THINKBOOK"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Apple Watch Series 11 46mm (5G) Viền Titan Dây Thép Size M/L | Chính hãng Apple Việt Nam",
+  "price": 21590000,
+  "sale_price": 23990000,
+  "colors": [
+    "Titan Tự Nhiên - Dây tự nhiên",
+    "Titan Đen - Dây đen",
+    "Titan Vàng - Dây vàng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1221_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1214_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1220_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1219_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1218_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1215_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1217_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/2/1216_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple_lte_3_36.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/2/1221_5.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": null,
+      "resolution": "416 x 496 pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {
+      "usage_hours": 24
+    },
+    "design": {
+      "case_size_mm": "Vừa với cổ tay cỡ 15 – 20 cm",
+      "weight_g": 43.1,
+      "material": "Thép"
+    },
+    "special_features": [
+      "SOS Khẩn Cấp",
+      "Phát Hiện Va Chạm",
+      "Phát Hiện Ngã",
+      "Giám sát tiếng ồn",
+      "Quay Về",
+      "Lắc cổ tay để Tắt tiếng cuộc gọi đến",
+      "tắt chuông hẹn giờ",
+      "bỏ qua thông báo",
+      "...",
+      "Cử chỉ chạm hai lần",
+      "Siri"
+    ]
+  },
+  "features": [],
+  "description": "Hàng chính hãng Apple Việt Nam, Mới",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-series-11-46mm-5g-vien-titan-day-thep-size-m-l.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

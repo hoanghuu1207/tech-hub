@@ -1,0 +1,55 @@
+{
+  "name": "Vòng đeo tay thông minh Xiaomi Mi Band 9 Active",
+  "price": 630000,
+  "sale_price": 690000,
+  "colors": [
+    "Xanh lá",
+    "Trắng",
+    "Đen",
+    "Hồng",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_xiaomi_mi_band_9_active_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_xiaomi_mi_band_9_active_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_eo_tay_th_ng_minh_xiaomi_mi_band_9_active_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__7_28.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__6_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__7_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_7__2_167.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_9__4_178.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__2_179.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.47,
+      "resolution": "172 x 320 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 300
+    },
+    "design": {
+      "case_size_mm": "Từ 13.5 - 21.5 cm",
+      "weight_g": 16.5,
+      "material": "Nhựa TPU"
+    },
+    "special_features": [
+      "Đèn pin",
+      "Sự kiện"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vong-deo-tay-thong-minh-xiaomi-mi-band-9-active.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

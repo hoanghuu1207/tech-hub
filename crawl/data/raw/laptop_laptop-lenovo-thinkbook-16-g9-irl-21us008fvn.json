@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Lenovo ThinkBook 16 G9 IRL 21US008FVN",
+  "price": 21990000,
+  "sale_price": 26990000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkbook_16_g9_irl_21us008fvn_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkbook_16_g9_irl_21us008fvn_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_lenovo_thinkbook_16_g9_irl_21us008fvn_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__1_63.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__1_60.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2_120.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_10__49.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_9__60.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__1_54.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__106.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera lai FHD 1080p + hồng ngoại với màn trập camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5-13420H, 8 lõi (4P + 4E) / 12 luồng, P-core up to 4.6GHz, E-core up to 3.4GHz, 12MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home Single Language, English (US) / English (UK)"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "356 x 253.5 x 17.5 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.7,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Intel Wi-Fi 6E AX211, 802.11ax 2x2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-16-g9-irl-21us008fvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "THINKBOOK"
+}

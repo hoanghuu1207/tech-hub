@@ -1,0 +1,57 @@
+{
+  "name": "Apple iPhone 5S 16GB",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/a/bacjc_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/a/vangfd.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/b/a/bacjc_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/v/a/vangfd.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/b/a/bacjc_2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/v/a/vangfd.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 4.0,
+      "resolution": "640 x 1136 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 2
+    },
+    "performance": {
+      "chipset": "Apple A7 APL0698",
+      "cpu": "2x 1.3 GHz Cyclone (nền tảng ARM v8)",
+      "gpu": "PowerVR G6430 (4 lõi đồ họa)",
+      "ram_gb": null,
+      "storage_gb": 16,
+      "os": "11"
+    },
+    "battery": {
+      "capacity_mah": 1560
+    },
+    "design": {
+      "dimensions_mm": "123.8 x 58.6 x 7.6 mm (4.87 x 2.31 x 0.30 in)",
+      "weight_g": 112.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "4.0, A2DP",
+      "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-5s-16-gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": null
+}

@@ -1,0 +1,64 @@
+{
+  "name": "MacBook Pro 14 M4 Pro 12CPU 16GPU 24GB 512GB Sạc 96W | Chính hãng Apple Việt Nam",
+  "price": 50990000,
+  "sale_price": 52490000,
+  "colors": [
+    "Bạc",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__6_138_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_14_inch_m4_pro_or_max_chip_silver_pdp_image_position_2__7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_16_inch_m4_pro_or_max_chip_silver_pdp_image_position_3__1_7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_16_inch_m4_pro_or_max_chip_silver_pdp_image_position_4__1_7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_16_inch_m4_pro_or_max_chip_silver_pdp_image_position_5__7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_14_inch_m4_chip_silver_pdp_image_position_6_vn_vi_2_6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_16_inch_m4_pro_or_max_chip_silver_pdp_image_position_7__7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook_pro_14_inch_m4_pro_or_max_chip_silver_pdp_image_position_8__8.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_9__4_6.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_1__6_138_6.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.2,
+      "resolution": "3024 x 1964 pixels",
+      "refresh_rate_hz": 120,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Apple M4 Pro 12 lõi với 8 lõi hiệu năng và 4 lõi tiết kiệm điện",
+      "gpu": null,
+      "ram_gb": 24,
+      "storage_gb": 512,
+      "os": "macOS"
+    },
+    "battery": {
+      "usage_hours": 22
+    },
+    "design": {
+      "dimensions_cm": "Dài: 22.12 cm x Cao: 1.55 cm x Rộng: 31.26 cm",
+      "weight_kg": 1.6,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 6E (802.11ax)"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã SA/A (được Apple Việt Nam phân phối chính thức).",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/macbook-pro-14-inch-m4-pro-12-cpu-16-gpu-24gb-512gb-sac-96w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Mac",
+  "product_line": null
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Xiaomi Redmi Pad 2 9.7 inch 4GB 64GB",
+  "price": 4990000,
+  "sale_price": null,
+  "colors": [
+    "Xám",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-2-9-7-inch.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-2-9-7-inch-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-2-9-7-inch-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-2-9-7-inch-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-2-9-7-inch-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-2-9-7-inch-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-2-9-7-inch-6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-2-9-7-inch-7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-2-9-7-inch-8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-2-9-7-inch-11.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 9.7,
+      "resolution": "2408 x 1080 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Snapdragon® 6s 4G Gen 2",
+      "cpu": "8 nhân",
+      "gpu": "Adreno 610",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Xiaomi HyperOS 3"
+    },
+    "battery": {
+      "capacity_mah": 7600
+    },
+    "design": {
+      "dimensions_mm": "226.51 x 147.97 x 7.4 mm",
+      "weight_g": 406.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "2.4GHz | 5GHz"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-xiaomi-redmi-pad-2-9-7-inch.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

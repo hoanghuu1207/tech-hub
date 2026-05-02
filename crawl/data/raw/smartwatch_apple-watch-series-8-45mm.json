@@ -1,0 +1,54 @@
+{
+  "name": "Apple Watch Series 8 45mm GPS viền nhôm | Chính hãng VN/A",
+  "price": 6490000,
+  "sale_price": 12990000,
+  "colors": [
+    "Trắng vàng",
+    "Đen",
+    "Đỏ",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple_watch_s8_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/p/apple_gps_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_268.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_255.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_239.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_199.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_169.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_137.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_90.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/_/8_65.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.9,
+      "resolution": "430 x 352 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "WatchOS"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "140-190mm",
+      "weight_g": 32.0,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Chấm điểm giấc ngủ",
+      "Ước tính ngày rụng trứng",
+      "Theo dõi chu kì kinh nguyệt",
+      "Cảm biến nhiệt độ"
+    ]
+  },
+  "features": [],
+  "description": "1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple: CareS.vn Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/apple-watch-series-8-45mm.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Apple watch",
+  "product_line": null
+}

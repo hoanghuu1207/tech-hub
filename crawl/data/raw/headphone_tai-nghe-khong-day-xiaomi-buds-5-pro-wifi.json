@@ -1,0 +1,40 @@
+{
+  "name": "Tai nghe không dây Xiaomi Buds 5 Pro Wifi",
+  "price": 5690000,
+  "sale_price": 5880000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-xiaomi-buds-5-pro-wifi-spa-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/0/20_5_3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/2/22_5_5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/8/18_10_7_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/9/19_9_5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/1/21_7_5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/3/23_2_7_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-buds-5-pro-wifi_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-buds-5-pro-wifi-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-buds-5-pro-wifi-3.jpg"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 8
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-xiaomi-buds-5-pro-wifi.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

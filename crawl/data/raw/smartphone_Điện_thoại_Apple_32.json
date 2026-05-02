@@ -1,0 +1,72 @@
+{
+  "name": "iPhone 16 256GB | Chính hãng VN/A",
+  "price": 22490000,
+  "sale_price": 25990000,
+  "colors": [
+    "Trắng",
+    "Xanh Mòng Két",
+    "Xanh Lưu Ly",
+    "Đen",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-2_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-6_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-7_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-8_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-9_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-16-10_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.1,
+      "resolution": "2556 x 1179 pixels",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A18",
+      "cpu": "CPU 6 lõi mới với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+      "gpu": "GPU 5 lõi mới",
+      "ram_gb": null,
+      "storage_gb": 256,
+      "os": "iOS 18"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": "147,6 x 71,6 x 7,80 mm",
+      "weight_g": 170.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "Wi‑Fi 7 (802.11be) với 2x2 MIMO7"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-16-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 16 SERIES"
+}

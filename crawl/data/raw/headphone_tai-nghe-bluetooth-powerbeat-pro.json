@@ -1,0 +1,42 @@
+{
+  "name": "Tai nghe Bluetooth PowerBeats Pro",
+  "price": 4590000,
+  "sale_price": 5990000,
+  "colors": [
+    "Xanh dương",
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/p/pp-global-producttilev2-black.png.large.1x.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/p/pp-global-producttilev2-ivory.png.large.1x.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/3/2312_powerbeats_pro_black_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/p/pp-global-producttilev2-moss.png.large.1x.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/p/pp-global-producttilev2-navy.png.large.1x.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/i/file_1_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/_/n.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/_/h_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/4/140_1_2.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 9
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "Class 1",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-powerbeat-pro.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Apple",
+  "product_line": null
+}

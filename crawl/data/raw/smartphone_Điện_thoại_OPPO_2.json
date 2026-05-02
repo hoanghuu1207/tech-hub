@@ -1,0 +1,70 @@
+{
+  "name": "OPPO Reno15 5G 12GB 256GB",
+  "price": 16490000,
+  "sale_price": 16990000,
+  "colors": [
+    "Trắng",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-reno15-5g-12gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-reno15-5g.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-reno15-5g-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-reno15-5g-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-reno15-5g-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-reno15-5g-9.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-reno15-5g-15.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-reno15-5g-14.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-reno15-5g-13.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-reno15-5g-12.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.59,
+      "resolution": "1256 x 2760 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 50
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 7 Gen4 5G",
+      "cpu": "8 nhân",
+      "gpu": "Adreno 722",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "ColorOS 16.0"
+    },
+    "battery": {
+      "capacity_mah": 6500
+    },
+    "design": {
+      "dimensions_mm": "Trắng: 158 x 74.83 x 7.89mm\nXanh: 158 x 74.83 x 7.77mm",
+      "weight_g": 197.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "Wi-Fi 6, 2.4GHz / 5GHz, 802.11 a/b/g/n/ac/ax"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-oppo-reno15.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "RENO SERIES"
+}

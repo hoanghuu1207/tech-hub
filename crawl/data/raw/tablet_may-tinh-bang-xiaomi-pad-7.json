@@ -1,0 +1,65 @@
+{
+  "name": "Xiaomi Pad 7 8GB 128GB",
+  "price": 9490000,
+  "sale_price": 10300000,
+  "colors": [
+    "Xanh lá",
+    "Xám",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7_4_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7_2_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-pad-7_6_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-pad-7_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-pad-7_4_.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-pad-7_5_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.2,
+      "resolution": "2136 x 3200 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Snapdragon® 7+ Gen 3 Mobile Platform",
+      "cpu": "8 lõi, tốc độ đến 2,8GHz (tiến trình 4nm)",
+      "gpu": "Adreno™ GPU",
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "os": "Xiaomi HyperOS 2"
+    },
+    "battery": {
+      "capacity_mah": 8850
+    },
+    "design": {
+      "dimensions_mm": "251,22 x 173,42 x 6,18 mm",
+      "weight_g": 500.0,
+      "material": "Hợp kim nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.4, AAC/LDAC/LHDC 5.0",
+      "wifi": "Wi-Fi 6E, 2x2 MIMO, 8x8 cho MU-MIMO, Wi-Fi Direct, Miracast"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-xiaomi-pad-7.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

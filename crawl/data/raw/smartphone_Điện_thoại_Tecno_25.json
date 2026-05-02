@@ -1,0 +1,60 @@
+{
+  "name": "Tecno Pova Neo 5G",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno_pova_neo_5g_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno_pova_neo_5g.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/tecno_pova_neo_5g_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/tecno_pova_neo_5g_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/tecno_pova_neo_5g.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/tecno_pova_neo_5g_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/tecno_pova_neo_5g_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/tecno_pova_neo_5g.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/tecno_pova_neo_5g_2_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.8,
+      "resolution": "2460x1080 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "MediaTek MT6833P Mật độ 810 (6 nm)",
+      "cpu": "2x2,4 GHz Cortex-A76 & 6x2,0 GHz Cortex-A55",
+      "gpu": "Mali-G57 MC2",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "170,8 x 77,9 x 9,5 mm",
+      "weight_g": null,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0, A2DP, LE",
+      "wifi": "Wi-Fi 802.11 a / b / g / n / ac, băng tần kép, điểm phát sóng"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tecno-pova-neo-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Tecno",
+  "product_line": null
+}

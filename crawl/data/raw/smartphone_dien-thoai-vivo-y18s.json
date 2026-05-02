@@ -1,0 +1,69 @@
+{
+  "name": "vivo Y18S 6GB 128GB",
+  "price": 4190000,
+  "sale_price": null,
+  "colors": [
+    "Nâu đỏ",
+    "Trắng Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/y/1/y18s_1__2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y18s_6gb_128gb_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-y18s-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y18s_6gb_128gb_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y18s_6gb_128gb_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y18s_6gb_128gb_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_y18s_6gb_128gb_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-y18s-6_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-y18s-5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-y18s-4.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.56,
+      "resolution": "1612 × 720 pixel",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Helio G85",
+      "cpu": "8 nhân 12nm 2×2.0GHz + 6×1.8GHz",
+      "gpu": "Mali-G52 MC2",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "Nâu đỏ: 163.63 × 75.58 × 8.39mm\nTrắng xanh: 163.63 × 75.58 × 8.53mm",
+      "weight_g": 185.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.0",
+      "wifi": "2.4GHz, 5GHz"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-vivo-y18s.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại vivo",
+  "product_line": "Y SERIES"
+}

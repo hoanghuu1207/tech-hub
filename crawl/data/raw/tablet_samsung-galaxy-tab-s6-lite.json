@@ -1,0 +1,65 @@
+{
+  "name": "Samsung Galaxy Tab S6 Lite 2024",
+  "price": 5690000,
+  "sale_price": 7360000,
+  "colors": [
+    "Hồng",
+    "Xám",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite_5_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637232551444550138_ss-tab-s6-lite-xanh-3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637232551443230101_ss-tab-s6-lite-xanh-4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637232548612807613_ss-tab-s6-lite-xam-3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637232548612227617_ss-tab-s6-lite-xam-4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite_2__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite_3_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-tab-s6-lite_4_.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 10.4,
+      "resolution": "1200 x 2000 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Exynos 1280 8 nhân",
+      "cpu": "2 nhân 2.4 GHz & 6 nhân 2 GHz",
+      "gpu": "Mali-G68",
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "os": "Android 14"
+    },
+    "battery": {
+      "capacity_mah": 40
+    },
+    "design": {
+      "dimensions_mm": "244.5 x 154.3 x 7 mm",
+      "weight_g": 467.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11a/b/g/n/ac 2.4GHz+5GHz, VHT80 MIMO"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-tab-s6-lite.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

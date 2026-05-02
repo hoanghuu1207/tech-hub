@@ -1,0 +1,72 @@
+{
+  "name": "Sony Xperia 1 VII 12GB 256GB",
+  "price": 26190000,
+  "sale_price": 34990000,
+  "colors": [
+    "Xanh Rêu",
+    "Tím",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-sony-xperia-1-vii_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-sony-xperia-1-vii.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-sony-xperia-1-vii-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-sony-xperia-1-vii-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-sony-xperia-1-vii-12gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-sony-xperia-1-vii.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-sony-xperia-1-vii_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_xperia_1_vii_12gb_256gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_xperia_1_vii_12gb_256gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/sony_xperia_1_vii_12gb_256gb-1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.5,
+      "resolution": "1080 x 2340 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 52
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Snapdragon® 8 Elite",
+      "cpu": "Kryo",
+      "gpu": "Adreno",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 15"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "162 x 74 x 8.2 mm",
+      "weight_g": 197.0,
+      "material": "Kính"
+    },
+    "connectivity": {
+      "bluetooth": "6.0, LE Audio, SBC, AAC, aptX Adaptive, Auracast™",
+      "wifi": "Wi-Fi 6/6E/7 (IEEE802.11a/b/g/n/ac/ax/be, 2.4/5/6 GHz)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-sony-xperia-1-vii.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Sony",
+  "product_line": null
+}

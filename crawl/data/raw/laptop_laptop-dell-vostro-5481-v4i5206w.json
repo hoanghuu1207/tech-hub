@@ -1,0 +1,59 @@
+{
+  "name": "Laptop Dell Vostro 5481 V4I5206W",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_498.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_475.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_430.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_336.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_388.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_286.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_498.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_475.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_430.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/_/5_336.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Core i5 8265U 1.6Ghz-6Mb",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Windows 10 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "34.2 x 24.6 x 2.1cm",
+      "weight_kg": 1.66,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v4.0",
+      "wifi": "802.11ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-dell-vostro-5481-v4i5206w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Dell",
+  "product_line": null
+}

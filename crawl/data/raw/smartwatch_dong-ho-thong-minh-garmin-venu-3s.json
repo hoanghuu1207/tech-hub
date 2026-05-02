@@ -1,0 +1,50 @@
+{
+  "name": "Đồng hồ thông minh Garmin Venu 3S",
+  "price": 9830000,
+  "sale_price": 12290000,
+  "colors": [
+    "Xanh/xám",
+    "Xám",
+    "Xám/Vàng",
+    "Trắng ngà",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3s_of_1000-01.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3s_of_5000-01.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3s_of_3000-01.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu_3s.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3s_of_2000-01.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3s_of_1001-01.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3s_of_2001-01.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3s_of_3001-01.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/e/venu3s_of_5001-01.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/garmin_venu_3s_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.2,
+      "resolution": "454 x 454 Pixel",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 38.0,
+      "material": "Kính cường lực"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Áp dụng cho sản phẩm mua từ ngày 1/1/2024. Bảo hành chính hãng 2 năm, 1 đổi 1 trong 15 ngày nếu có lỗi từ nhà sản xuất. Xem chi tiết",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-garmin-venu-3s.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Garmin",
+  "product_line": null
+}

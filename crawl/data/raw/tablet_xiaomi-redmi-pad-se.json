@@ -1,0 +1,65 @@
+{
+  "name": "Xiaomi Redmi Pad SE Wifi (6GB 128GB)",
+  "price": 3490000,
+  "sale_price": 5400000,
+  "colors": [
+    "Xanh lá",
+    "Xám",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-pad-se-slider_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi_pad_se_-_6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi_pad_se_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi_pad_se_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-pad-se-slider-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi_pad_se_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi_pad_se_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-pad-se_1_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-se-xanh.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-pad-se-den.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "1920 x 1200 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "Qualcomm SM6225 Snapdragon 680 (6 nm)",
+      "cpu": "8 lõi, lên đến 2,4 GHz",
+      "gpu": "Qualcomm® Adreno",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 13, MIUI Pad 14"
+    },
+    "battery": {
+      "capacity_mah": 0
+    },
+    "design": {
+      "dimensions_mm": "255.53 x 167.08 x 7.36 mm",
+      "weight_g": 478.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Wi-fi: 2.4GHz | 5GHz"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-redmi-pad-se.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Xiaomi",
+  "product_line": null
+}

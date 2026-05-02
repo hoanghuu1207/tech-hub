@@ -1,0 +1,74 @@
+{
+  "name": "Samsung Galaxy Z Flip6 12GB 256GB",
+  "price": 19990000,
+  "sale_price": 28470000,
+  "colors": [
+    "Đen - Chỉ có tại CPS",
+    "Vàng",
+    "Xám",
+    "Xanh dương",
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_z_flip_6_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_z_flip_6_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_z_flip_6_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_z_flip_6_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_z_flip_6_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_167_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_168_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_242_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_243.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/f/r/frame_244.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "1080 x 2640 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 0
+    },
+    "camera_front": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 3 for Galaxy Tăng lên 42% AI",
+      "cpu": "8 nhân 3.39 GHz, 3.1GHz, 2.9GHz, 2.2GHz",
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android"
+    },
+    "battery": {
+      "capacity_mah": 4000
+    },
+    "design": {
+      "dimensions_mm": "Kích thước: 165.1 x 71.9 x 6.9 mm\nKích thước gập: 85.1 x 71.9 x 14.9 mm",
+      "weight_g": 187.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "Wi-Fi 802.11a/b/g/n/ac/ax\n2.4GHz+5GHz+6GHz"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-z-flip-6.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY Z"
+}

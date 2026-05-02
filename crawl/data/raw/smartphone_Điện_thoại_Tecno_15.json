@@ -1,0 +1,61 @@
+{
+  "name": "Tecno Phantom V Fold",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/d/sdwe32466_2_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/d/sdwe32466.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/d/sdwe32466_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/d/sdwe32466_3_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/d/sdwe32466_4_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/d/sdwe32466_2_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/d/sdwe32466.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/d/sdwe32466_1_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/d/sdwe32466_3_.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/d/sdwe32466_4_.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": null,
+      "resolution": null,
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Mediatek Dimensity 9000+ (4 nm)",
+      "cpu": "1x3.20 GHz Cortex-X2 & 3x2.85 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510",
+      "gpu": "Mali-G710 MC10",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "Khi mở ra: 159,4 x 140,4 x 6,9 mm\nKhi gập lại: 159,4 x 72 x 14,2-14,5 mm",
+      "weight_g": 299.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11 a/b/g/n/ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tecno-phantom-v-fold.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Tecno",
+  "product_line": "PHANTOM"
+}

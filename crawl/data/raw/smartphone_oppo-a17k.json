@@ -1,0 +1,64 @@
+{
+  "name": "OPPO A17K",
+  "price": 2290000,
+  "sale_price": 3290000,
+  "colors": [
+    "Vàng",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/7/37-oppo-a17k.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/7/37.137-oppo-a17k.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/7/37.5-oppo-a17k.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/7/37.3-oppo-a17k.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/7/37.4-oppo-a17k.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/_/t_i_xu_ng_58_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/_/t_i_xu_ng_44_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/_/t_i_xu_ng_62__1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/combo_a17k_-_navy_-_cmyk.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a17k.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.56,
+      "resolution": "720 x 1612 (HD+)",
+      "refresh_rate_hz": 60
+    },
+    "camera_rear": {
+      "main_mp": 8
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Helio G35 8 nhân",
+      "cpu": "8 nhân, lên đến 2.3GHz",
+      "gpu": "IMG GE8320 @ 680MHz",
+      "ram_gb": 3,
+      "storage_gb": 64,
+      "os": "Android 12"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164.2 x 75.6 x 8.3 mm",
+      "weight_g": 189.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "Wi-Fi 5 (802.11ac), 802.11a/b/g/n"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-a17k.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": null
+}

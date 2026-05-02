@@ -1,0 +1,69 @@
+{
+  "name": "Samsung Galaxy Tab S9 Ultra 16GB 1TB",
+  "price": 29990000,
+  "sale_price": 38990000,
+  "colors": [
+    "Xám",
+    "Kem"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_1tb_-_21.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_2_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_4_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_3_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_5_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_7_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_6_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_9_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_8_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/a/galaxy_tab_s9_ultra_-_10_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.6,
+      "resolution": "1848 x 2960 Pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 2",
+      "cpu": "3.36 GHz, 2.8GHz, 2GHz",
+      "gpu": "Adreno 740",
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 11200
+    },
+    "design": {
+      "dimensions_mm": "208.6 x 326.4 x 5.5 mm",
+      "weight_g": 737.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.3",
+      "wifi": "802.11 a/b/g/n/ac/ax 2.4G+5GHz+6GHz, HE160, MIMO, 1024-QAM"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Kháng nước",
+      "kháng bụi",
+      "Đi kèm bút cảm ứng"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-tab-s9-ultra-1tb.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Samsung",
+  "product_line": null
+}

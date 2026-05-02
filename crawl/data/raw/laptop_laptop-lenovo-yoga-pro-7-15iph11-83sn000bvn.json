@@ -1,0 +1,63 @@
+{
+  "name": "Laptop Lenovo Yoga Pro 7 15IPH11 83SN000BVN",
+  "price": 77990000,
+  "sale_price": null,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_9__11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_13__7.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_12__6.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_8__20.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_59.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_1__36.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_2__34.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_3__34.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_4__25.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/sssxs_5__23.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.3,
+      "resolution": "2560 x 1600 (WQXGA)",
+      "refresh_rate_hz": 165,
+      "technology": null
+    },
+    "webcam": {
+      "resolution_mp": 0
+    },
+    "performance": {
+      "chipset": "Up to 50 TOPS",
+      "cpu": "Intel Core Ultra 7 356H, 16 lõi (4P + 8E + 4LPE) / 16 luồng, Max Turbo up to 4.7GHz, 18MB Intel Smart Cache",
+      "gpu": null,
+      "ram_gb": 32,
+      "storage_gb": 1024,
+      "os": "Windows 11 Home Single Language, English + Microsoft 365 Basic + Office Home 2024 + Lenovo AI Now"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "347 x 242 x 16.7 mm (Dài x Rộng x Dày)",
+      "weight_kg": 1.59,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 7, 802.11be 2x2"
+    },
+    "special_features": [
+      "Nhận diện khuôn mặt",
+      "Màn hình Oled",
+      "Wi-Fi 7"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-lenovo-yoga-pro-7-15iph11-83sn000bvn.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "YOGA"
+}

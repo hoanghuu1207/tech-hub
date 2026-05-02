@@ -1,0 +1,70 @@
+{
+  "name": "vivo V29E 8GB 256GB",
+  "price": 8990000,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_v29e_-_11.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_v29e_-_19.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_v29e_-_12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_v29e_-_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_v29e_-_15.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_v29e_-_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo_v29e_-_17.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-v29e_12_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/i/vivo-v29e_3__1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/2/v29e.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 64
+    },
+    "camera_front": {
+      "resolution_mp": 50
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 695",
+      "cpu": "2*2.2GHz+6*1.8GHz",
+      "gpu": null,
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 4800
+    },
+    "design": {
+      "dimensions_mm": "162.35 × 74.85 × 7.69 mm",
+      "weight_g": 190.0,
+      "material": "Kính"
+    },
+    "connectivity": {
+      "bluetooth": "v5.1",
+      "wifi": "2.4GHz /5GHz"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/vivo-v29e.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại vivo",
+  "product_line": "V SERIES"
+}

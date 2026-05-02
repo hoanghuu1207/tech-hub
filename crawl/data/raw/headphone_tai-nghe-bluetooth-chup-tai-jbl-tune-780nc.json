@@ -1,0 +1,44 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai JBL Tune 780NC",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Trắng",
+    "Xanh dương",
+    "Beige",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-780nc_54_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-780nc_6_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-780nc_12_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-780nc_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-780nc_17_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-780nc_22_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-780nc_48_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-780nc_33_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-780nc_43_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-bluetooth-chup-tai-jbl-tune-780nc_38_.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 76
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "6.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-bluetooth-chup-tai-jbl-tune-780nc.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "JBL",
+  "product_line": null
+}

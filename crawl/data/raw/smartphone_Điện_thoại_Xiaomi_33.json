@@ -1,0 +1,70 @@
+{
+  "name": "Xiaomi Redmi Note 12 4GB 128GB",
+  "price": 3790000,
+  "sale_price": 4990000,
+  "colors": [
+    "Xanh dương",
+    "Xanh lá",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note-12-total-113.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note_12-2-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note_12-3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note_12-5_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/note_12-4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/7/_76666_6_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/g/rgt76878_1_.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/i/xiaomi-redmi-note-12_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/t/gtt_7766_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/t/gtt_7766_4__1.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 13
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 685",
+      "cpu": "2X Cortex-A78 @ 2.0GHz ; 6X Cortex-A55 @ 1.8GHz",
+      "gpu": "Adreno™ 610",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "165.66 x 75.96 x 7.85 mm",
+      "weight_g": 183.5,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5",
+      "wifi": "802.11a/b/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/xiaomi-redmi-note-12.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

@@ -1,0 +1,70 @@
+{
+  "name": "HONOR 400 Lite 5G 12GB 256GB",
+  "price": 7630000,
+  "sale_price": 8830000,
+  "colors": [
+    "Xanh lá"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-lite-5g-12gb-256gb_1_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-lite-5g-12gb-256gb_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-lite-5g-12gb-256gb-2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-lite-5g-12gb-256gb-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-lite-5g-12gb-256gb-4_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor_400_lite_5g_12gb_256gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor_400_lite_5g_12gb_256gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor_400_lite_5g_12gb_256gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor_400_lite_5g_12gb_256gb-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor_400_lite_5g_12gb_256gb-4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "2412 x 1080 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 7025-Ultra",
+      "cpu": "8 nhân, 2xA78 2.5GHz + 6xA55 2.0Ghz",
+      "gpu": "IMG BXM-8-256",
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "os": "MagicOS 9.0 (Dựa trên Android 15)"
+    },
+    "battery": {
+      "capacity_mah": 5230
+    },
+    "design": {
+      "dimensions_mm": "161 × 74.55 × 7.29 mm",
+      "weight_g": 171.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11 a/b/g/n/ac, 2.4GHz & 5GHz, Wi-Fi Hotspot, Wi-Fi Direct"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-400-lite-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

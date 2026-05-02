@@ -1,0 +1,74 @@
+{
+  "name": "iPhone 14 Pro Max 128GB | Chính hãng VN/A",
+  "price": 25590000,
+  "sale_price": 29990000,
+  "colors": [
+    "Tím",
+    "Đen",
+    "Vàng",
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/x/_/x_m_24.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_18.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-14-pro_2__5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/b/_/b_c_1_9.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/2522.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/8/9/896_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/25.9_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/25.7_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/25.10_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/5/25.6_5.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "2796 x 1290-pixel",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 48,
+      "optical_zoom": "3x"
+    },
+    "camera_front": {
+      "resolution_mp": 12
+    },
+    "performance": {
+      "chipset": "Apple A16 Bionic 6-core",
+      "cpu": "CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+      "gpu": "Apple GPU (5-core graphics)",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "iOS 16"
+    },
+    "battery": {
+      "capacity_mah": 323
+    },
+    "design": {
+      "dimensions_mm": "160.7 x 77.6 x 7.9 mm",
+      "weight_g": 240.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3, A2DP, LE",
+      "wifi": "Wi-Fi MIMO, Dual-band (2.4 GHz/5 GHz), Wi-Fi 802.11 a/b/g/n/ac/ax, Wi-Fi hotspot"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/iphone-14-pro-max.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Apple",
+  "product_line": "IPHONE 14 SERIES"
+}

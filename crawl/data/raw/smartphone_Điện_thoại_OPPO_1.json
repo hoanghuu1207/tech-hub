@@ -1,0 +1,69 @@
+{
+  "name": "OPPO Find N6 16GB 512GB",
+  "price": 63990000,
+  "sale_price": 64990000,
+  "colors": [
+    "Titan",
+    "Cam"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/k/s/ksp.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-n6-16gb-512gb.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-n6-16gb-512gb-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-n6-16gb-512gb-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-oppo-find-n6-16gb-512gb-chip.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-find-n6-0.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-find-n6-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-find-n6.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-find-n6-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-find-n6-2.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 8.12,
+      "resolution": null,
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {
+      "resolution_mp": 20
+    },
+    "performance": {
+      "chipset": "Snapdragon® 8 Elite Gen 5",
+      "cpu": "7 nhân",
+      "gpu": "Adreno 840",
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "ColorOS 16.0"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "Gập: 159.87 × 74.12 × 8.93 mm\nMở: 159.87 × 145.58 × 4.21 mm",
+      "weight_g": 225.0,
+      "material": "Hợp kim nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v6.0",
+      "wifi": "Wi-Fi 7, Wi-Fi 6, Wi-Fi 5, 2×2 MIMO"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-oppo-find-n6.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": "FIND N SERIES"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Samsung Galaxy M30s",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-m20-m205f-1_1_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-m20-m205f-3_1_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/0/600_samsung-galaxy-m30s.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-m20-m205f-1_1_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-m20-m205f-3_1_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/0/600_samsung-galaxy-m30s.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-m20-m205f-1_1_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-m20-m205f-3_1_2_2.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/6/0/600_samsung-galaxy-m30s.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.3,
+      "resolution": "1080 x 2340 pixels (FullHD+)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 13
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Exynos 7904 Octa (14 nm)",
+      "cpu": "8 Nhân (2x1.8 GHz Cortex A73 & 6x1.6 GHz Cortex A53)",
+      "gpu": "Mali-G71 MP2",
+      "ram_gb": null,
+      "storage_gb": 32,
+      "os": "Android 8.1 (Oreo)"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "156.4 x 74.5 x 8.8 mm",
+      "weight_g": 186.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Củ sạc,cáp sạc,sách hdsd,que chọc sim,tai nghe",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-m30s.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": null
+}

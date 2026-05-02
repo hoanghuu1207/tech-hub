@@ -1,0 +1,72 @@
+{
+  "name": "Samsung Galaxy Z Fold6 12GB 512GB",
+  "price": 31990000,
+  "sale_price": 47990000,
+  "colors": [
+    "Xanh dương",
+    "Hồng",
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_z_fold_6_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_z_fold_6_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_z_fold_6_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_z_fold_6_-_4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung_galaxy_z_fold_6_-_5.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1170_1_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1173_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1174_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1175_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1177_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 7.6,
+      "resolution": "2160 x 1856 (QXGA+)",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 0
+    },
+    "camera_front": {
+      "resolution_mp": 10
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 3 for Galaxy Tăng lên 42% AI",
+      "cpu": "8 nhân 3.39 GHz, 3.1GHz, 2.9GHz, 2.2GHz",
+      "gpu": null,
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "Android"
+    },
+    "battery": {
+      "capacity_mah": 4400
+    },
+    "design": {
+      "dimensions_mm": "Kích thước: 153.5 x 132.6 x 5.6 mm\nKích thước gập: 153.5 x 68.1 x 12.1 mm",
+      "weight_g": 239.0,
+      "material": "Nhôm"
+    },
+    "connectivity": {
+      "bluetooth": "v5.3",
+      "wifi": "802.11a/b/g/n/ac/ax\n2.4GHz+5GHz+6GHz"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/samsung-galaxy-z-fold-6-512gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Samsung",
+  "product_line": "GALAXY Z"
+}

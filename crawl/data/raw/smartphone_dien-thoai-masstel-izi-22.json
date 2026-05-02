@@ -1,0 +1,58 @@
+{
+  "name": "Masstel izi 22",
+  "price": 470000,
+  "sale_price": null,
+  "colors": [
+    "Đen",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-izi-22-8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-izi-22-9.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-izi-22-10.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-izi-22-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-izi-22-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-izi-22-5.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-izi-22.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-izi-22-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-izi-22-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/masstel-izi-22-6.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 1.77,
+      "resolution": "128 x 160 pixels",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {},
+    "camera_front": {},
+    "performance": {
+      "chipset": "ASR Platform",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": null,
+      "storage_gb": null,
+      "os": null
+    },
+    "battery": {},
+    "design": {
+      "dimensions_mm": null,
+      "weight_g": null,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-masstel-izi-22.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Masstel",
+  "product_line": null
+}

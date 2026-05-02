@@ -1,0 +1,56 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch Fit 4 Pro",
+  "price": 2990000,
+  "sale_price": 5990000,
+  "colors": [
+    "Xanh dương",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_4_pro_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_4_pro_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_fit_4_pro_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__9_88.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__9_64.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_147.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14_43.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__7_92.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__9_154.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_14__9_66.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.82,
+      "resolution": "480 × 408 pixels, PPI 347\nĐộ sáng tối đa 3000 nit",
+      "technology": null
+    },
+    "performance": {
+      "os": "HarmonyOS"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 130 - 210 mm",
+      "weight_g": 30.4,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Bản đồ sân Golf",
+      "Đo khoảng cách thông minh",
+      "Bảng điểm kỹ thuật số",
+      "Phân tích sau trận Golf",
+      "Phân tích sức khỏe",
+      "Theo dõi cảm xúc",
+      "Ghi chú bằng giọng nói",
+      "Chụp ảnh màn hình"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-fit-4-pro.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

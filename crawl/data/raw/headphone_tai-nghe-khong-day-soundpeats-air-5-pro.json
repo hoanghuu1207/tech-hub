@@ -1,0 +1,44 @@
+{
+  "name": "Tai nghe Bluetooth True Wireless SoundPEATS Air 5 Pro",
+  "price": 1590000,
+  "sale_price": 2290000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-soundpeats-air-5-pro-ksp.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-air-5-pro-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-air-5-pro-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-air-5-pro.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-air-5-pro-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-air-5-ultr10.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-air-5-pro-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-air-5-pro.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-air-5-pro-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/o/soundpeats-air-5-pro-1_1.png"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 7
+    },
+    "design": {
+      "earbuds_dimensions_mm": "6 x 19.87 x 23.5 mm",
+      "case_dimensions_mm": "66.88 x 48.33 x 26.92 mm"
+    },
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-khong-day-soundpeats-air-5-pro.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "Soundpeats",
+  "product_line": null
+}

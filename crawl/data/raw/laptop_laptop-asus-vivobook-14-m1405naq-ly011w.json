@@ -1,0 +1,62 @@
+{
+  "name": "Laptop ASUS Vivobook 14 M1405NAQ-LY011W",
+  "price": 18790000,
+  "sale_price": 21690000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_14_m1405naq-ly011w_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_14_m1405naq-ly011w_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_asus_vivobook_14_m1405naq-ly011w_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_97.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__78.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__72.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__75.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__66.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_5__55.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_6__45.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 14.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": 60,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera HD 720p; Có màn trập camera"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "AMD Ryzen 7 170 3.2GHz (20MB Cache, up to 4.75 GHz, 8 lõi, 16 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "31.71 x 22.20 x 1.99 ~ 1.99 cm (Dài x Rộng x Dày))",
+      "weight_kg": 1.6,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.4",
+      "wifi": "Wi-Fi 6(802.11ax) (Dual band) 2*2"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-14-m1405naq-ly011w.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": "VIVOBOOK"
+}

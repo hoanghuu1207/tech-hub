@@ -1,0 +1,58 @@
+{
+  "name": "Đồng hồ thông minh Huawei Watch Ultimate 2",
+  "price": 17990000,
+  "sale_price": 19990000,
+  "colors": [
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_ultimate_2_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_ultimate_2_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_th_ng_minh_huawei_watch_ultimate_2_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-ultimate-2-2-b.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-ultimate-2-4-b.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-ultimate-2-b.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-ultimate-2-1-b.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-ultimate-2-5-b.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/u/huawei-ultimate-2-3-b.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/h/u/huawei-watch-ultimate-2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.5,
+      "resolution": "466 × 466 pixels\nPPI 310\nĐộ sáng 3500 nits",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {},
+    "design": {
+      "case_size_mm": "Từ 14 – 21 cm",
+      "weight_g": 80.5,
+      "material": "Cao Su"
+    },
+    "special_features": [
+      "Giao tiếp dưới nước bằng sóng siêu âm",
+      "Khử tiếng ồn AI",
+      "SOS dưới nước",
+      "Dữ liệu lặn trực quan như độ sâu",
+      "thời gian",
+      "tốc độ",
+      "NDL",
+      "PO2",
+      "...",
+      "Xem lại lịch sử nhắn tin dưới nước",
+      "Thanh toán từ cổ tay"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-ultimate-2.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Huawei",
+  "product_line": null
+}

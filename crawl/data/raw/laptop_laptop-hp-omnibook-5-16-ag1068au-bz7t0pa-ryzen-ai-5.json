@@ -1,0 +1,62 @@
+{
+  "name": "Laptop HP Omnibook 5 16-AG1068AU BZ7T0PA",
+  "price": 26690000,
+  "sale_price": 28190000,
+  "colors": [
+    "Bạc"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_5_16-ag1068au_bz7t0pa_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_5_16-ag1068au_bz7t0pa_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop_hp_omnibook_5_16-ag1068au_bz7t0pa_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_63_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_2__52_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1__56_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_3__51_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_4__47_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_2__13_19.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop_hp_omnibook_5_16-ag1068au_bz7t0pa_-_1.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 16.0,
+      "resolution": "1920 x 1200 pixels (WUXGA)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "Camera IR HP True Vision 1080p FHD có chức năng giảm nhiễu theo thời gian và micrô kỹ thuật số mảng kép tích hợp"
+    },
+    "performance": {
+      "chipset": "AMD Ryzen AI (50 NPU TOPS)",
+      "cpu": "AMD Ryzen AI 5 340 (up to 4.8 GHz max boost clock,16 MB L3 cache, 6 lõi,12 luồng)",
+      "gpu": null,
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "os": "Windows 11 Home + Office"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "35.77 x 25.48 x 1.79 - 1.86 cm (Dài x Rộng x Dài)",
+      "weight_kg": 1.79,
+      "material": "Tấm nền IPS"
+    },
+    "connectivity": {
+      "bluetooth": "Bluetooth 5.3",
+      "wifi": "MediaTek Wi-Fi 6E MT7922 (2x2)"
+    },
+    "special_features": [
+      "Wi-Fi 6",
+      "Màn hình cảm ứng"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-omnibook-5-16-ag1068au-bz7t0pa-ryzen-ai-5.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "OMNIBOOK"
+}

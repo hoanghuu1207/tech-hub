@@ -1,0 +1,50 @@
+{
+  "name": "Đồng hồ định vị trẻ em Wonlex KT34",
+  "price": 1590000,
+  "sale_price": 1790000,
+  "colors": [
+    "Đen",
+    "Xanh dương",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_nh_v_tr_em_wonlex_kt34_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_nh_v_tr_em_wonlex_kt34_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/_/n/_ng_h_nh_v_tr_em_wonlex_kt34_-_3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_12__5_174.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_13__6_166.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_1__9_56.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_11__5_184.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__7_61.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__2_242.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__6_64.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.91,
+      "resolution": "240 x 280 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Android 8.1"
+    },
+    "battery": {
+      "capacity_mah": 800
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": 51.8,
+      "material": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-dinh-vi-tre-em-wonlex-kt34.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Beecube",
+  "product_line": "myFirst"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Tai nghe Bluetooth chụp tai EarFun Tune Pro",
+  "price": 990000,
+  "sale_price": 1590000,
+  "colors": [
+    "Đen",
+    "Trắng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-tune-pro-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-tune-pro-9.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-tune-pro-8.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-tune-pro-10.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-tune-pro-7.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-tune-pro-11.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-tune-pro.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-tune-pro-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-tune-pro-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/e/a/earfun-tune-pro-3.jpg"
+  ],
+  "specs": {
+    "battery": {
+      "usage_hours": 120
+    },
+    "design": {},
+    "connectivity": {
+      "bluetooth": "5.4",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/tai-nghe-chup-tai-earfun-tune-pro.html",
+  "category": "headphone",
+  "status": "new",
+  "brand": "EarFun",
+  "product_line": null
+}

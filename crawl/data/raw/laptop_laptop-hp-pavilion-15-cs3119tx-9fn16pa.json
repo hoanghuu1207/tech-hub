@@ -1,0 +1,57 @@
+{
+  "name": "Laptop HP Pavilion 15-CS3119TX 9FN16PA",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_71_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_52.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_31.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_38.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_16.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_25.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_71_1.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_52.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_31.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/3/_/3_38.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 15.6,
+      "resolution": "1920 x 1080 pixels (FullHD)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": "HD webcam"
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Core i5 Ice Lake - 1035G1",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 256,
+      "os": "Windows 10 Home SL"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "361.6 x 245.6 x 17.9 mm",
+      "weight_kg": 1.755,
+      "material": "Vỏ kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "5.0",
+      "wifi": null
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-cs3119tx-9fn16pa.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "HP",
+  "product_line": "PAVILION"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Realme 9 SE 5G",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/0/50_1_16.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/9/49_1_14.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/0/50_1_16.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/9/49_1_14.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/0/50_1_16.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/9/49_1_14.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.6,
+      "resolution": "2412 x 1080 pixels",
+      "refresh_rate_hz": 144
+    },
+    "camera_rear": {
+      "main_mp": 48
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Qualcomm SM7325 Snapdragon 778G 5G (6 nm)",
+      "cpu": "Octa-core (4x2.4 GHz Kryo 670 & 4x1.9 GHz Kryo 670)",
+      "gpu": "Adreno 642L",
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Android 11, Realme UI 2.0"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "164.4 x 75.8 x 8.5 mm",
+      "weight_g": 199.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "5.2, A2DP, LE, aptX HD",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay"
+    ]
+  },
+  "features": [],
+  "description": "Cookies được sử dụng nhằm ghi nhận các thiết lập cần thiết để website hoạt động ổn định và hỗ trợ trải nghiệm mua sắm. Việc sử dụng cookies không làm gián đoạn trải nghiệm và giúp quá trình mua hàng diễn ra thuận tiện hơn.",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/realme-9-se.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại realme",
+  "product_line": null
+}

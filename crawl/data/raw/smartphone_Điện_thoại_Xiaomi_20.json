@@ -1,0 +1,71 @@
+{
+  "name": "Xiaomi Redmi Note 13 Pro 5G 8GB 256GB",
+  "price": 6290000,
+  "sale_price": 9300000,
+  "colors": [
+    "Đen",
+    "Xanh lá",
+    "Tím"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2024-12-23_10-19-45_-_copy.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2024-12-23_10-19-49_-_copy.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2024-12-23_10-19-51_-_copy.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2024-12-23_10-19-54.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2024-12-23_10-20-02.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2024-12-20_17-05-54_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2024-12-20_17-03-54_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/0/20241135_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2024-12-23_10-19-43_-_copy.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2024-12-23_10-19-30.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.67,
+      "resolution": "1220 x 2712 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {
+      "resolution_mp": 16
+    },
+    "performance": {
+      "chipset": "Snapdragon 7s Gen 2 8 nhân",
+      "cpu": "4 nhân 2.4 GHz & 4 nhân 1.95 GHz",
+      "gpu": "Adreno 710",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5100
+    },
+    "design": {
+      "dimensions_mm": "161.15 x 74.24 x 7.98 mm",
+      "weight_g": 187.0,
+      "material": "Nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "Wi-Fi 802.11 a/b/g/n/ac\nDual-band (2.4 GHz/5 GHz)"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-13-pro-5g-8gb-256gb.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}

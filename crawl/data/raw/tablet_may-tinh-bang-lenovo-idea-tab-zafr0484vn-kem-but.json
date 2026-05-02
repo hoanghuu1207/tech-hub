@@ -1,0 +1,63 @@
+{
+  "name": "Máy tính bảng Lenovo Idea Tab Wifi 4GB 128GB ZAFR0484VN kèm bút",
+  "price": 5590000,
+  "sale_price": 5790000,
+  "colors": [
+    "Xám"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-pro-wifi-4gb-128gb-zafr0484vn.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-pro-wifi-4gb-128gb-zafr0484vn-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-pro-wifi-4gb-128gb-zafr0484vn_3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-pro-wifi-4gb-128gb-zafr0484vn-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-may-tinh-bang-lenovo-idea-tab-pro-wifi-4gb-128gb-zafr0484vn-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1425_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1426_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1427_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1428_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/m/image_1429_2.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.0,
+      "resolution": "2560 x 1600 pixels (2.5K)",
+      "refresh_rate_hz": null
+    },
+    "camera_rear": {
+      "main_mp": 0
+    },
+    "camera_front": {
+      "resolution_mp": 5
+    },
+    "performance": {
+      "chipset": "MediaTek Dimensity 6300",
+      "cpu": "8C, 2x A76 @2.4 GHz + 6x A55@2.0 GHz",
+      "gpu": "Arm Mali-G57 MC2",
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Android 15 trở lên"
+    },
+    "battery": {
+      "capacity_mah": 7040
+    },
+    "design": {
+      "dimensions_mm": "254.59 x 166.15 x 6.99 mm",
+      "weight_g": 480.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.2",
+      "wifi": "802.11ac"
+    },
+    "special_features": []
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/may-tinh-bang-lenovo-idea-tab-zafr0484vn-kem-but.html",
+  "category": "tablet",
+  "status": "new",
+  "brand": "Lenovo",
+  "product_line": "LENOVO IDEA TAB SERIES"
+}

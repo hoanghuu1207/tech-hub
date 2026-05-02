@@ -1,0 +1,58 @@
+{
+  "name": "Đồng hồ định vị trẻ em Masstel Smart Hero 16",
+  "price": 1490000,
+  "sale_price": 1690000,
+  "colors": [
+    "Đen",
+    "Xanh",
+    "Hồng"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_4__8_41.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_2__10_52.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_3__8_40.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/a/p/apple_gps_1_3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_4__8_41.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_2__10_52.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_3__8_40.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_4__8_41.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_2__10_52.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:58:58/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_3__8_40.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_mm": 1.83,
+      "resolution": "240 x 284 pixels",
+      "technology": null
+    },
+    "performance": {
+      "os": "Khác"
+    },
+    "battery": {
+      "capacity_mah": 820
+    },
+    "design": {
+      "case_size_mm": null,
+      "weight_g": null,
+      "material": "Silicone"
+    },
+    "special_features": [
+      "Gọi video",
+      "Chế độ lớp học",
+      "Chế độ kết bạn",
+      "Chụp ảnh",
+      "Xem lịch sử hành trình",
+      "Cuộc gọi SOS",
+      "Tin nhắn thoại"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dong-ho-dinh-vi-tre-em-masstel-smart-hero-16.html",
+  "category": "smartwatch",
+  "status": "new",
+  "brand": "Masstel",
+  "product_line": null
+}

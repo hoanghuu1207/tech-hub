@@ -1,0 +1,72 @@
+{
+  "name": "HONOR 400 Pro 5G 12GB 512GB",
+  "price": 14990000,
+  "sale_price": 18660000,
+  "colors": [
+    "Xám",
+    "Đen"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-pro-5g-4_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-pro-5g.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-pro-5g-1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-pro-5g-3_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-honor-400-pro-5g-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor_400_pro_5g_12gb_512gb-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/h/o/honor_400_pro_5g_12gb_512gb_1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-400-pro-5g-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-400-pro-5g-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-honor-400-pro-5g.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.7,
+      "resolution": "2800 x 1280 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 200
+    },
+    "camera_front": {
+      "resolution_mp": 50
+    },
+    "performance": {
+      "chipset": "Snapdragon 8 Gen 3",
+      "cpu": "8 nhân",
+      "gpu": "Adreno 750",
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "os": "MagicOS 9.0 (Android 15)"
+    },
+    "battery": {
+      "capacity_mah": 6000
+    },
+    "design": {
+      "dimensions_mm": "160.8 × 76.1 × 8.1 mm",
+      "weight_g": 205.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": "v5.4",
+      "wifi": "Wi-Fi 6E / Wi-Fi 7 (802.11 a/b/g/n/ac/ax/be), 2x2 MIMO"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Sạc không dây",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi",
+      "Điện thoại AI"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-honor-400-pro-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "HONOR",
+  "product_line": null
+}

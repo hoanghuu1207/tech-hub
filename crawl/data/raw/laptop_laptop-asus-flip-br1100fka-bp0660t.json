@@ -1,0 +1,60 @@
+{
+  "name": "Laptop ASUS Flip BR1100FKA-BP0660T",
+  "price": NaN,
+  "sale_price": null,
+  "colors": [],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/_/2_255.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/4/_/4_222.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/5/_/5_204.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_279_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/_/6_177.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/7/_/7_131.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/3/_/3_234.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/2/_/2_255.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/4/_/4_222.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/5/_/5_204.png"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 11.6,
+      "resolution": "1366 x 768 pixels (HD+)",
+      "refresh_rate_hz": null,
+      "technology": null
+    },
+    "webcam": {
+      "raw": ""
+    },
+    "performance": {
+      "chipset": null,
+      "cpu": "Intel Pentium N6000",
+      "gpu": null,
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "os": "Windows 10 Home"
+    },
+    "battery": {},
+    "design": {
+      "dimensions_cm": "296.9 x 204.7 x 20 mm",
+      "weight_kg": 1.4,
+      "material": "Vỏ nhựa"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "802.11 ax"
+    },
+    "special_features": [
+      "Màn hình cảm ứng",
+      "Xoay gập 360 độ (2 in 1)"
+    ]
+  },
+  "features": [],
+  "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất\nBảo hành pin và bộ sạc 12 tháng",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/laptop-asus-flip-br1100fka-bp0660t.html",
+  "category": "laptop",
+  "status": "new",
+  "brand": "Asus",
+  "product_line": null
+}

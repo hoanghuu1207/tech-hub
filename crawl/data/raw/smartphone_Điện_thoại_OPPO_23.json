@@ -1,0 +1,69 @@
+{
+  "name": "OPPO A78 4G 8GB 256GB",
+  "price": 5490000,
+  "sale_price": 6990000,
+  "colors": [
+    "Đen",
+    "Xanh"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/7/a78-12.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/7/a78-2_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/7/a78-22.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/7/a78-6_1_.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/7/a78-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/7/a78-4.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-a78.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/o/combo_a78_-_blue_-_rgb.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/u/muses__product_images__black__side_cmyk.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/u/muses__product_images__black__45_front_right_45_cmyk.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.43,
+      "resolution": "1080 x 2400 pixels (FullHD+)",
+      "refresh_rate_hz": 90
+    },
+    "camera_rear": {
+      "main_mp": 50
+    },
+    "camera_front": {
+      "resolution_mp": 8
+    },
+    "performance": {
+      "chipset": "Qualcomm Snapdragon 680, tối đa 2.4GHz",
+      "cpu": "4 nhân 2.4 GHz & 4 nhân 1.9 GHz",
+      "gpu": "Adreno 610",
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "os": "ColorOS 13.1.1, nền tảng Android 13"
+    },
+    "battery": {
+      "capacity_mah": 5000
+    },
+    "design": {
+      "dimensions_mm": "Đen: 160 x 73.23 x 7.93 mm\nXanh: 160 x 73.23 x 7.99 mm",
+      "weight_g": 180.0,
+      "material": "Kim loại"
+    },
+    "connectivity": {
+      "bluetooth": "v5.0",
+      "wifi": "Dual-band (2.4 GHz/5 GHz)\nWi-Fi hotspot\nWi-Fi Direct\nWi-Fi 802.11 a/b/g/n/ac"
+    },
+    "special_features": [
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/oppo-a78.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại OPPO",
+  "product_line": null
+}

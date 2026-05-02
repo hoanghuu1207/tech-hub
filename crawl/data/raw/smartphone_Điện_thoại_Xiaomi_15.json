@@ -1,0 +1,71 @@
+{
+  "name": "Xiaomi Redmi Note 15 5G 6GB 128GB",
+  "price": 6290000,
+  "sale_price": 7490000,
+  "colors": [
+    "Tím",
+    "Đen",
+    "Xanh dương"
+  ],
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-5g.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-5g-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-5g-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-5g-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/l/slider-xiaomi-redmi-note-15-5g-4.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-note-15-series-4_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-note-15-series-3_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-note-15-series-5_2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-note-15-5g.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/r/e/redmi-note-15-5g-4.jpg"
+  ],
+  "specs": {
+    "screen": {
+      "size_inch": 6.77,
+      "resolution": "1080 x 2392 pixels",
+      "refresh_rate_hz": 120
+    },
+    "camera_rear": {
+      "main_mp": 108
+    },
+    "camera_front": {
+      "resolution_mp": 20
+    },
+    "performance": {
+      "chipset": "Snapdragon® 6 Gen 3",
+      "cpu": null,
+      "gpu": null,
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "os": "Xiaomi HyperOS 2"
+    },
+    "battery": {
+      "capacity_mah": 5520
+    },
+    "design": {
+      "dimensions_mm": "164 × 75.42 × 7.35 mm / 7.40 mm",
+      "weight_g": 178.0,
+      "material": null
+    },
+    "connectivity": {
+      "bluetooth": null,
+      "wifi": "2.4GHz / 5GHz"
+    },
+    "special_features": [
+      "Hỗ trợ 5G",
+      "Bảo mật vân tay",
+      "Nhận diện khuôn mặt",
+      "Kháng nước",
+      "kháng bụi"
+    ]
+  },
+  "features": [],
+  "description": "Mới, đầy đủ phụ kiện từ nhà sản xuất",
+  "rating": null,
+  "rating_count": 0,
+  "url": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-15-5g.html",
+  "category": "smartphone",
+  "status": "new",
+  "brand": "Điện thoại Xiaomi",
+  "product_line": "REDMI SERIES"
+}
