@@ -200,7 +200,7 @@ async def run_index(only_new: bool = False, recreate: bool = False):
 
         logger.info(f"  🔄 Batch {batch_num}/{total_batches} ({len(batch)} sản phẩm)...")
 
-        max_retries = 3
+        max_retries = 5
         for attempt in range(max_retries):
             try:
                 vector_ids = await indexer.reindex_all(batch)
@@ -215,18 +215,43 @@ async def run_index(only_new: bool = False, recreate: bool = False):
             except Exception as e:
                 error_msg = str(e)
                 if "429" in error_msg or "Quota exceeded" in error_msg:
-                    logger.warning(f"     ⚠️ Quá tải API. Đang chờ 35s để thử lại (Attempt {attempt + 1}/{max_retries})...")
-                    await asyncio.sleep(35)
+                    logger.warning(f"     ⚠️ Quá tải API (Attempt {attempt + 1}/{max_retries}).")
+                    
+                    # Thử đổi key. Nếu đổi thành công và đổi sang BACKUP KEY, thử lại ngay
+                    switched = indexer.switch_api_key()
+                    if switched and not indexer.current_key_is_primary:
+                        logger.info("     👉 Đã chuyển sang BACKUP KEY. Thử lại ngay sau 2s...")
+                        await asyncio.sleep(2)
+                        continue
+                    
+                    if switched and indexer.current_key_is_primary:
+                        logger.info("     👉 Đã quay lại KEY CHÍNH (Backup cũng bị limit). Đợi 65s để reset...")
+                        await asyncio.sleep(65)
+                        continue
+                        
+                    # Nếu không có backup key
+                    logger.warning("     👉 Không có Backup Key. Đang chờ 65s để reset quota...")
+                    await asyncio.sleep(65)
                 else:
                     logger.error(f"     ❌ Batch {batch_num} lỗi không xác định: {e}")
                     if attempt == max_retries - 1:
                         logger.error(f"     ⏭️  Bỏ qua batch {batch_num} sau {max_retries} lần thử.")
                     await asyncio.sleep(5)
             
-        # Nghỉ định kỳ 35 giây sau mỗi 2 batch (100 sản phẩm) để tránh chạm trần limit
-        if batch_num % 2 == 0:
-            logger.info("⏳ Tạm nghỉ 35 giây để reset quota Gemini...")
-            await asyncio.sleep(35)
+        # Nghỉ định kỳ để tránh chạm limit
+        # Nếu có 2 key, ta có 200 quota/phút -> nghỉ sau 4 batch (200 sp)
+        batches_before_sleep = 4 if settings.GEMINI_BACKUP_API_KEY else 2
+        
+        if batch_num % batches_before_sleep == 0:
+            logger.info(f"⏳ Tạm nghỉ 65 giây để reset quota Gemini (đã xử lý {batches_before_sleep * BATCH_SIZE} sp)...")
+            await asyncio.sleep(65)
+            if settings.GEMINI_BACKUP_API_KEY:
+                indexer.switch_api_key() # Luân phiên để bắt đầu cycle mới với key kia
+                
+        # Chủ động đổi key sau mỗi 2 batch (100 sp) nếu có backup key
+        elif settings.GEMINI_BACKUP_API_KEY and batch_num % 2 == 0:
+            logger.info("🔄 Tự động đổi API Key để tận dụng quota của key dự phòng...")
+            indexer.switch_api_key()
 
 
     # ── 4. Cập nhật qdrant_vector_id vào PostgreSQL ──

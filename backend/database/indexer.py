@@ -34,7 +34,24 @@ class ProductIndexer:
 
     def __init__(self):
         # Cấu hình Gemini API
+        self.current_key_is_primary = True
         genai.configure(api_key=settings.GEMINI_API_KEY)
+
+    def switch_api_key(self) -> bool:
+        """Chuyển đổi sang backup API key nếu có. Trả về True nếu thành công."""
+        if not settings.GEMINI_BACKUP_API_KEY:
+            return False
+            
+        if self.current_key_is_primary:
+            logger.info("🔄 Đang cấu hình Gemini sang GEMINI_BACKUP_API_KEY...")
+            genai.configure(api_key=settings.GEMINI_BACKUP_API_KEY)
+            self.current_key_is_primary = False
+            return True
+        else:
+            logger.info("🔄 Đang cấu hình Gemini về GEMINI_API_KEY chính...")
+            genai.configure(api_key=settings.GEMINI_API_KEY)
+            self.current_key_is_primary = True
+            return True
 
     # ────────────────────────────────────────────────────────
     # PUBLIC METHODS

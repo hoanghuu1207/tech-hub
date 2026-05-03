@@ -335,11 +335,20 @@ async def run_import(data_dir: str, skip_qdrant: bool = False):
                         logger.info(f"  [+] Auto-created product_line: {line.name} ({line_slug})")
 
             # ── Xử lý giá ──
-            base_price = raw.get("price", 0) or 0
-            sale_price = raw.get("sale_price")
-            # Nếu sale_price > price → swap (crawler có thể lưu ngược)
-            if sale_price and base_price and sale_price > base_price:
-                sale_price = None  # giá gốc cao hơn = không sale
+            # Từ JSON crawler CellphoneS:
+            #   price = giá đang bán (giá KM hiện tại)
+            #   sale_price = giá gốc niêm yết (giá cũ, thường cao hơn)
+            raw_current_price = raw.get("price", 0) or 0
+            raw_original_price = raw.get("sale_price")
+
+            if raw_original_price and raw_current_price and raw_original_price > raw_current_price:
+                # Đang có khuyến mãi: giá gốc > giá bán
+                base_price = raw_original_price     # Giá gốc = giá niêm yết
+                sale_price = raw_current_price       # Giá KM = giá đang bán
+            else:
+                # Không KM, hoặc data thiếu/lỗi
+                base_price = raw_current_price or raw_original_price or 0
+                sale_price = None
 
             # ── Create Product ──
             async with async_session() as session:
