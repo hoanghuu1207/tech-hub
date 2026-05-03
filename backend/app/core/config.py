@@ -23,6 +23,7 @@ class Settings(BaseSettings):
 
     # AI Config
     GEMINI_API_KEY: str
+    GEMINI_BACKUP_API_KEY: str | None = None
 
     # Payment config
     PAYOS_CLIENT_ID: str
