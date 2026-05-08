@@ -55,11 +55,22 @@ class ChatResponseData(BaseModel):
     message: str = Field(..., description="Câu trả lời của chatbot")
     products: Optional[List[ChatProductResult]] = Field(
         None,
-        description="Danh sách sản phẩm (nếu chatbot quyết định tìm kiếm sản phẩm)"
+        description="Danh sách sản phẩm (nếu có)"
     )
     intent_type: str = Field(
         ...,
-        description="Loại ý định: 'product_search', 'general_knowledge', 'greeting', 'unclear'"
+        description=(
+            "Loại ý định: 'product_search', 'product_detail', 'product_compare', "
+            "'add_to_cart', 'get_cart', 'checkout', 'order_status', 'promotions', "
+            "'general_knowledge', 'greeting', 'unclear'"
+        )
+    )
+    action_data: Optional[dict] = Field(
+        None,
+        description=(
+            "Dữ liệu hành động cho Flutter. Chứa 'action' key để app biết chuyển màn hình. "
+            "Ví dụ: {'action': 'navigate_product_detail', 'product_slug': '...'}"
+        )
     )
 
 
