@@ -2,9 +2,10 @@
 Chat Schemas — Request/Response DTOs cho Chatbot API.
 
 Hỗ trợ:
-    - Context-aware conversation (lưu lịch sử theo session_id)
+    - Context-aware conversation (lưu lịch sử DB theo conversation_id)
     - Smart routing: chatbot tự quyết định khi nào tìm sản phẩm, khi nào trả lời kiến thức
     - Trả về cả message text và optional product list
+    - Quản lý conversations (list, get messages, delete)
 """
 
 from typing import Optional, List
@@ -13,12 +14,6 @@ from pydantic import BaseModel, Field
 
 
 # ─── Request DTOs ─────────────────────────────────────────
-
-class ChatMessage(BaseModel):
-    """Một tin nhắn trong cuộc trò chuyện."""
-    role: str = Field(..., description="'user' hoặc 'assistant'")
-    content: str = Field(..., description="Nội dung tin nhắn")
-
 
 class ChatRequest(BaseModel):
     """Request body cho API chatbot."""
@@ -29,9 +24,9 @@ class ChatRequest(BaseModel):
         description="Tin nhắn từ người dùng",
         examples=["Cho tôi xem điện thoại iPhone pin trâu dưới 20 triệu"]
     )
-    session_id: Optional[str] = Field(
+    conversation_id: Optional[str] = Field(
         None,
-        description="ID phiên trò chuyện. Nếu không truyền, server sẽ tạo mới."
+        description="ID cuộc trò chuyện. Nếu không truyền, server sẽ tạo mới."
     )
 
 
@@ -56,7 +51,7 @@ class ChatProductResult(BaseModel):
 
 class ChatResponseData(BaseModel):
     """Dữ liệu trả về từ chatbot."""
-    session_id: str = Field(..., description="ID phiên trò chuyện")
+    session_id: str = Field(..., description="ID cuộc trò chuyện (conversation_id)")
     message: str = Field(..., description="Câu trả lời của chatbot")
     products: Optional[List[ChatProductResult]] = Field(
         None,
@@ -73,4 +68,40 @@ class ChatResponse(BaseModel):
     success: bool = True
     message: str = "OK"
     data: Optional[ChatResponseData] = None
+    error: Optional[str] = None
+
+
+# ─── Conversation Management DTOs ─────────────────────────
+
+class ConversationItem(BaseModel):
+    """Một cuộc trò chuyện trong danh sách."""
+    id: str
+    title: str
+    created_at: Optional[str] = None
+    updated_at: Optional[str] = None
+
+
+class ConversationListResponse(BaseModel):
+    """Response danh sách cuộc trò chuyện."""
+    success: bool = True
+    message: str = "OK"
+    data: Optional[List[ConversationItem]] = None
+    error: Optional[str] = None
+
+
+class MessageItem(BaseModel):
+    """Một tin nhắn trong lịch sử."""
+    id: str
+    role: str
+    content: str
+    intent_type: Optional[str] = None
+    products_data: Optional[list] = None
+    created_at: Optional[str] = None
+
+
+class MessageListResponse(BaseModel):
+    """Response lịch sử tin nhắn."""
+    success: bool = True
+    message: str = "OK"
+    data: Optional[List[MessageItem]] = None
     error: Optional[str] = None
