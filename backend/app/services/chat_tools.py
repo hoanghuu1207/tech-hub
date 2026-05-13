@@ -172,6 +172,31 @@ get_promotions_func = genai.protos.FunctionDeclaration(
     ),
 )
 
+# ── 9. buy_product ──
+buy_product_func = genai.protos.FunctionDeclaration(
+    name="buy_product",
+    description=(
+        "Mua ngay sản phẩm KHÔNG qua giỏ hàng — tạo đơn hàng trực tiếp. YÊU CẦU ĐĂNG NHẬP. "
+        "Cần product_id (UUID lấy từ kết quả search_products hoặc get_product_detail trước đó). "
+        "BẮT BUỘC gọi tool này khi người dùng muốn mua ngay, đặt hàng nhanh một sản phẩm cụ thể. "
+        "Ví dụ: 'mua ngay cái này', 'đặt mua 2 cái iPhone đầu tiên', 'mua luôn sản phẩm thứ 3'."
+    ),
+    parameters=genai.protos.Schema(
+        type=genai.protos.Type.OBJECT,
+        properties={
+            "product_id": genai.protos.Schema(
+                type=genai.protos.Type.STRING,
+                description="UUID của sản phẩm cần mua (lấy từ kết quả search hoặc detail trước đó).",
+            ),
+            "quantity": genai.protos.Schema(
+                type=genai.protos.Type.INTEGER,
+                description="Số lượng muốn mua (mặc định 1).",
+            ),
+        },
+        required=["product_id"],
+    ),
+)
+
 
 # ── Tổng hợp tất cả tools ──
 ALL_TOOLS = genai.protos.Tool(
@@ -184,8 +209,9 @@ ALL_TOOLS = genai.protos.Tool(
         proceed_to_checkout_func,
         get_order_status_func,
         get_promotions_func,
+        buy_product_func,
     ]
 )
 
 # Danh sách tool yêu cầu đăng nhập
-AUTH_REQUIRED_TOOLS = {"add_to_cart", "get_cart", "proceed_to_checkout", "get_order_status"}
+AUTH_REQUIRED_TOOLS = {"add_to_cart", "get_cart", "proceed_to_checkout", "get_order_status", "buy_product"}

@@ -62,7 +62,7 @@ class ChatResponseData(BaseModel):
         description=(
             "Loại ý định: 'product_search', 'product_detail', 'product_compare', "
             "'add_to_cart', 'get_cart', 'checkout', 'order_status', 'promotions', "
-            "'general_knowledge', 'greeting', 'unclear'"
+            "'buy_product', 'general_knowledge', 'greeting', 'unclear'"
         )
     )
     action_data: Optional[dict] = Field(

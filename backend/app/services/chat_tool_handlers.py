@@ -505,6 +505,98 @@ async def handle_get_promotions(args: dict, db, user_id) -> dict:
     }
 
 
+async def handle_buy_product(args: dict, db, user_id) -> dict:
+    """Tool: buy_product — Mua ngay sản phẩm, tạo đơn hàng trực tiếp (không qua giỏ hàng)."""
+    if not user_id:
+        return {
+            "intent_type": "buy_product",
+            "summary": "Người dùng chưa đăng nhập. Vui lòng yêu cầu đăng nhập trước khi mua hàng.",
+            "products": None,
+            "action_data": {"action": "require_login"},
+        }
+
+    product_id = args.get("product_id")
+    quantity = int(args.get("quantity", 1))
+
+    logger.info(f"🔧 [Tool] buy_product(product_id={product_id}, qty={quantity})")
+
+    # Validate product_id
+    try:
+        product_uuid = UUID(product_id)
+    except (ValueError, TypeError):
+        return {
+            "intent_type": "buy_product",
+            "summary": "ID sản phẩm không hợp lệ.",
+            "products": None,
+            "action_data": None,
+        }
+
+    # Kiểm tra sản phẩm tồn tại
+    product = await db.get(Product, product_uuid)
+    if not product or not product.is_active:
+        return {
+            "intent_type": "buy_product",
+            "summary": "Sản phẩm không tồn tại hoặc đã ngừng bán.",
+            "products": None,
+            "action_data": None,
+        }
+
+    # Tính giá
+    from decimal import Decimal
+    unit_price = product.sale_price if product.sale_price else product.base_price
+    subtotal = unit_price * quantity
+    shipping_fee = Decimal("0")
+    total_amount = subtotal + shipping_fee
+
+    # Tạo đơn hàng
+    order = Order(
+        user_id=user_id,
+        status="pending",
+        total_amount=total_amount,
+        discount_amount=Decimal("0"),
+        shipping_fee=shipping_fee,
+        payment_method=None,
+        payment_status="pending",
+        note=f"Đặt hàng nhanh qua TechBot",
+    )
+    db.add(order)
+    await db.flush()  # Lấy order.id
+
+    # Tạo order item
+    order_item = OrderItem(
+        order_id=order.id,
+        product_id=product_uuid,
+        quantity=quantity,
+        unit_price=unit_price,
+        subtotal=subtotal,
+    )
+    db.add(order_item)
+
+    summary = (
+        f"Đã tạo đơn hàng thành công!\n"
+        f"- Mã đơn: #{str(order.id)[:8]}...\n"
+        f"- Sản phẩm: {product.name}\n"
+        f"- Số lượng: {quantity}\n"
+        f"- Đơn giá: {_format_price(unit_price)}\n"
+        f"- Tổng tiền: {_format_price(total_amount)}\n"
+        f"- Trạng thái: Chờ xác nhận"
+    )
+
+    return {
+        "intent_type": "buy_product",
+        "summary": summary,
+        "products": None,
+        "action_data": {
+            "action": "order_created",
+            "order_id": str(order.id),
+            "product_id": str(product.id),
+            "product_name": product.name,
+            "quantity": quantity,
+            "total_amount": float(total_amount),
+        },
+    }
+
+
 # ── Registry: map tool name → handler ──
 TOOL_HANDLERS = {
     "search_products": handle_search_products,
@@ -515,4 +607,5 @@ TOOL_HANDLERS = {
     "proceed_to_checkout": handle_proceed_to_checkout,
     "get_order_status": handle_get_order_status,
     "get_promotions": handle_get_promotions,
+    "buy_product": handle_buy_product,
 }
