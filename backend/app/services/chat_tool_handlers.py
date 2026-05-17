@@ -342,7 +342,7 @@ async def handle_get_cart(args: dict, db, user_id) -> dict:
 
 
 async def handle_proceed_to_checkout(args: dict, db, user_id) -> dict:
-    """Tool: proceed_to_checkout (YÊU CẦU AUTH)"""
+    """Tool: proceed_to_checkout — Thanh toán giỏ hàng qua PayOS (YÊU CẦU AUTH)"""
     if not user_id:
         return {
             "intent_type": "checkout",
@@ -366,15 +366,52 @@ async def handle_proceed_to_checkout(args: dict, db, user_id) -> dict:
             "action_data": None,
         }
 
-    return {
-        "intent_type": "checkout",
-        "summary": f"Giỏ hàng có {count} sản phẩm. Sẵn sàng chuyển sang thanh toán.",
-        "products": None,
-        "action_data": {
-            "action": "navigate_checkout",
-            "cart_items_count": count,
-        },
-    }
+    # Tạo đơn hàng từ giỏ hàng qua PaymentService
+    try:
+        from app.services.payment_service import payment_service
+        from app.models.user import User
+
+        user = await db.get(User, user_id)
+        order_result = await payment_service.create_order_from_cart(user, db)
+
+        summary = (
+            f"Đã tạo đơn hàng từ giỏ hàng ({count} sản phẩm)!\n"
+            f"- Mã đơn: #{order_result.order_code}\n"
+            f"- Tổng tiền: {_format_price(order_result.total_amount)}\n"
+        )
+
+        if order_result.checkout_url:
+            summary += "- Vui lòng thanh toán qua link bên dưới."
+
+        return {
+            "intent_type": "checkout",
+            "summary": summary,
+            "products": None,
+            "action_data": {
+                "action": "open_payment",
+                "order_id": str(order_result.order_id),
+                "order_code": order_result.order_code,
+                "total_amount": order_result.total_amount,
+                "checkout_url": order_result.checkout_url,
+                "qr_code": order_result.qr_code,
+            },
+        }
+
+    except ValueError as e:
+        return {
+            "intent_type": "checkout",
+            "summary": str(e),
+            "products": None,
+            "action_data": None,
+        }
+    except Exception as e:
+        logger.error(f"🔧 [Tool] proceed_to_checkout error: {e}", exc_info=True)
+        return {
+            "intent_type": "checkout",
+            "summary": f"Lỗi khi tạo đơn hàng: {str(e)}",
+            "products": None,
+            "action_data": None,
+        }
 
 
 async def handle_get_order_status(args: dict, db, user_id) -> dict:
@@ -506,7 +543,7 @@ async def handle_get_promotions(args: dict, db, user_id) -> dict:
 
 
 async def handle_buy_product(args: dict, db, user_id) -> dict:
-    """Tool: buy_product — Mua ngay sản phẩm, tạo đơn hàng trực tiếp (không qua giỏ hàng)."""
+    """Tool: buy_product — Mua ngay sản phẩm qua PayOS (không qua giỏ hàng)."""
     if not user_id:
         return {
             "intent_type": "buy_product",
@@ -541,60 +578,61 @@ async def handle_buy_product(args: dict, db, user_id) -> dict:
             "action_data": None,
         }
 
-    # Tính giá
-    from decimal import Decimal
-    unit_price = product.sale_price if product.sale_price else product.base_price
-    subtotal = unit_price * quantity
-    shipping_fee = Decimal("0")
-    total_amount = subtotal + shipping_fee
+    # Tạo đơn hàng qua PaymentService (có PayOS checkout_url)
+    try:
+        from app.services.payment_service import payment_service
+        from app.schemas.order import CreateOrderRequest, OrderItemCreate
+        from app.models.user import User
 
-    # Tạo đơn hàng
-    order = Order(
-        user_id=user_id,
-        status="pending",
-        total_amount=total_amount,
-        discount_amount=Decimal("0"),
-        shipping_fee=shipping_fee,
-        payment_method=None,
-        payment_status="pending",
-        note=f"Đặt hàng nhanh qua TechBot",
-    )
-    db.add(order)
-    await db.flush()  # Lấy order.id
+        # Lấy user object
+        user = await db.get(User, user_id)
 
-    # Tạo order item
-    order_item = OrderItem(
-        order_id=order.id,
-        product_id=product_uuid,
-        quantity=quantity,
-        unit_price=unit_price,
-        subtotal=subtotal,
-    )
-    db.add(order_item)
+        order_request = CreateOrderRequest(
+            items=[OrderItemCreate(product_id=product_uuid, quantity=quantity)],
+            payment_method="payos",
+            note="Đặt hàng nhanh qua TechBot",
+        )
 
-    summary = (
-        f"Đã tạo đơn hàng thành công!\n"
-        f"- Mã đơn: #{str(order.id)[:8]}...\n"
-        f"- Sản phẩm: {product.name}\n"
-        f"- Số lượng: {quantity}\n"
-        f"- Đơn giá: {_format_price(unit_price)}\n"
-        f"- Tổng tiền: {_format_price(total_amount)}\n"
-        f"- Trạng thái: Chờ xác nhận"
-    )
+        result = await payment_service.create_order(order_request, user, db)
 
-    return {
-        "intent_type": "buy_product",
-        "summary": summary,
-        "products": None,
-        "action_data": {
-            "action": "order_created",
-            "order_id": str(order.id),
-            "product_id": str(product.id),
-            "product_name": product.name,
-            "quantity": quantity,
-            "total_amount": float(total_amount),
-        },
-    }
+        unit_price = product.sale_price if product.sale_price else product.base_price
+
+        summary = (
+            f"Đã tạo đơn hàng thành công!\n"
+            f"- Mã đơn: #{result.order_code}\n"
+            f"- Sản phẩm: {product.name}\n"
+            f"- Số lượng: {quantity}\n"
+            f"- Đơn giá: {_format_price(unit_price)}\n"
+            f"- Tổng tiền: {_format_price(result.total_amount)}\n"
+        )
+
+        if result.checkout_url:
+            summary += f"- Vui lòng thanh toán qua link bên dưới."
+
+        return {
+            "intent_type": "buy_product",
+            "summary": summary,
+            "products": None,
+            "action_data": {
+                "action": "open_payment",
+                "order_id": str(result.order_id),
+                "order_code": result.order_code,
+                "product_name": product.name,
+                "quantity": quantity,
+                "total_amount": result.total_amount,
+                "checkout_url": result.checkout_url,
+                "qr_code": result.qr_code,
+            },
+        }
+
+    except Exception as e:
+        logger.error(f"🔧 [Tool] buy_product error: {e}", exc_info=True)
+        return {
+            "intent_type": "buy_product",
+            "summary": f"Lỗi khi tạo đơn hàng: {str(e)}",
+            "products": None,
+            "action_data": None,
+        }
 
 
 # ── Registry: map tool name → handler ──
