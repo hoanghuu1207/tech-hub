@@ -15,7 +15,7 @@ from uuid import UUID
 class AISearchFilters(BaseModel):
     """Bộ lọc tuỳ chọn để thu hẹp kết quả tìm kiếm từ Qdrant payload."""
     category_slug: Optional[str] = Field(None, description="Slug danh mục (vd: 'smartphone', 'laptop')")
-    brand_slug: Optional[str] = Field(None, description="Slug thương hiệu (vd: 'apple', 'samsung')")
+    brand_slugs: Optional[List[str]] = Field(None, description="Danh sách slug thương hiệu (vd: ['apple', 'samsung'])")
     price_min: Optional[float] = Field(None, ge=0, description="Giá tối thiểu (VNĐ)")
     price_max: Optional[float] = Field(None, ge=0, description="Giá tối đa (VNĐ)")
     # Spec filters (trích xuất tự động từ NLP hoặc client truyền)

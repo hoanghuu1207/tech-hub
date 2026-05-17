@@ -52,3 +52,31 @@ async def get_current_user(
         raise HTTPException(status_code=400, detail="Inactive user")
         
     return user
+
+
+async def get_optional_user(
+    db: AsyncSession = Depends(get_db),
+    token: str = Depends(OAuth2PasswordBearer(tokenUrl="/api/v1/auth/swagger-login", auto_error=False)),
+) -> User | None:
+    """
+    Dependency trả về User nếu đã đăng nhập, None nếu là guest.
+    Khác với get_current_user: KHÔNG raise 401 nếu chưa login.
+    """
+    if not token:
+        return None
+
+    try:
+        if token in BLACKLISTED_TOKENS:
+            return None
+
+        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
+        user_id = payload.get("sub")
+        if not user_id or payload.get("refresh"):
+            return None
+
+        result = await db.execute(select(User).where(User.id == user_id))
+        user = result.scalar_one_or_none()
+        return user if user and user.is_active else None
+
+    except JWTError:
+        return None

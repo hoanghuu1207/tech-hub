@@ -260,6 +260,11 @@ class ProductIndexer:
         if sensors and isinstance(sensors, list):
             parts.append(" ".join(sensors))
 
+        # ── Highlight Features (Cực kỳ quan trọng cho các truy vấn như 'pin trâu', 'chụp ảnh đẹp') ──
+        hl_features = product.get("highlight_features")
+        if hl_features and isinstance(hl_features, list):
+            parts.append(" ".join(hl_features))
+
         return " | ".join(filter(None, parts))
 
     # ────────────────────────────────────────────────────────
