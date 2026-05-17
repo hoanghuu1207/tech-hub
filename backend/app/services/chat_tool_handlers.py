@@ -29,6 +29,117 @@ def _format_price(price) -> str:
     return f"{int(price):,}đ".replace(",", ".")
 
 
+async def _load_product_with_variants(db, product_uuid: UUID):
+    """Load product kèm variants (màu, tồn kho)."""
+    stmt = (
+        select(Product)
+        .options(selectinload(Product.variants))
+        .where(Product.id == product_uuid, Product.is_active == True)
+    )
+    result = await db.execute(stmt)
+    return result.scalar_one_or_none()
+
+
+def _build_variant_selection_response(product, intent_type: str) -> dict:
+    """Trả response yêu cầu chọn variant khi product có nhiều màu."""
+    active_variants = [v for v in product.variants if v.is_active]
+    variant_lines = []
+    for i, v in enumerate(active_variants, 1):
+        price = v.sale_price_override or v.price_override or product.sale_price or product.base_price
+        stock_text = f"Còn {v.stock_quantity}" if v.stock_quantity > 0 else "Hết hàng"
+        variant_lines.append(
+            f"{i}. {v.color_name} (id: {v.id}) — {_format_price(price)} — {stock_text}"
+        )
+
+    summary = (
+        f"Sản phẩm \"{product.name}\" có {len(active_variants)} màu:\n"
+        + "\n".join(variant_lines)
+        + "\nBạn muốn chọn màu nào?"
+    )
+
+    return {
+        "intent_type": intent_type,
+        "summary": summary,
+        "products": None,
+        "action_data": {
+            "action": "select_variant",
+            "product_id": str(product.id),
+            "product_name": product.name,
+            "variants": [
+                {
+                    "variant_id": str(v.id),
+                    "color_name": v.color_name,
+                    "color_hex": v.color_hex,
+                    "price": float(v.sale_price_override or v.price_override or product.sale_price or product.base_price),
+                    "stock_quantity": v.stock_quantity,
+                }
+                for v in active_variants
+            ],
+        },
+    }
+
+
+async def _resolve_variant(product, variant_id_str: str | None, quantity: int) -> tuple:
+    """
+    Resolve variant cho product.
+    Returns: (variant, unit_price, error_message)
+    - variant: ProductVariant object hoặc None
+    - unit_price: giá đơn vị
+    - error_message: None nếu OK, str nếu lỗi
+    """
+    active_variants = [v for v in product.variants if v.is_active] if product.variants else []
+    base_price = product.sale_price if product.sale_price else product.base_price
+
+    if not active_variants:
+        # Không có variants → dùng giá base, không check stock
+        return None, base_price, None
+
+    if len(active_variants) == 1 and not variant_id_str:
+        # Chỉ 1 variant → auto-select
+        variant = active_variants[0]
+    elif variant_id_str:
+        # User đã chọn variant — thử match UUID trước
+        variant = None
+        try:
+            vid = UUID(variant_id_str)
+            variant = next((v for v in active_variants if v.id == vid), None)
+        except (ValueError, TypeError):
+            pass
+
+        # Fallback: match bằng color_name (Gemini hay bịa UUID nhưng truyền đúng tên màu)
+        if not variant:
+            variant = next(
+                (v for v in active_variants if v.color_name.lower() == variant_id_str.lower()),
+                None,
+            )
+            # Thử partial match
+            if not variant:
+                variant = next(
+                    (v for v in active_variants if variant_id_str.lower() in v.color_name.lower()),
+                    None,
+                )
+
+        if not variant:
+            available = ", ".join(v.color_name for v in active_variants)
+            return None, None, f"Không tìm thấy màu này. Các màu có sẵn: {available}"
+    else:
+        # Nhiều variants, user chưa chọn → cần trả danh sách
+        return None, None, "NEED_VARIANT_SELECTION"
+
+    # Check stock
+    if variant.stock_quantity < quantity:
+        if variant.stock_quantity == 0:
+            return None, None, f"Màu {variant.color_name} đã hết hàng."
+        else:
+            return None, None, (
+                f"Màu {variant.color_name} chỉ còn {variant.stock_quantity} sản phẩm, "
+                f"bạn yêu cầu {quantity}."
+            )
+
+    unit_price = variant.sale_price_override or variant.price_override or base_price
+    return variant, unit_price, None
+
+
 async def handle_search_products(args: dict, db, user_id) -> dict:
     """Tool: search_products"""
     query = args.get("query", "")
@@ -232,7 +343,7 @@ async def handle_compare_products(args: dict, db, user_id) -> dict:
 
 
 async def handle_add_to_cart(args: dict, db, user_id) -> dict:
-    """Tool: add_to_cart (YÊU CẦU AUTH)"""
+    """Tool: add_to_cart — Thêm sản phẩm vào giỏ hàng (có variant/màu + check stock)."""
     if not user_id:
         return {
             "intent_type": "add_to_cart",
@@ -242,39 +353,55 @@ async def handle_add_to_cart(args: dict, db, user_id) -> dict:
         }
 
     product_id = args.get("product_id")
+    variant_id = args.get("variant_id")
     quantity = int(args.get("quantity", 1))
 
-    logger.info(f"🔧 [Tool] add_to_cart(product_id={product_id}, qty={quantity})")
+    logger.info(f"🔧 [Tool] add_to_cart(product_id={product_id}, variant_id={variant_id}, qty={quantity})")
 
     try:
         product_uuid = UUID(product_id)
     except (ValueError, TypeError):
         return {"intent_type": "add_to_cart", "summary": "ID sản phẩm không hợp lệ.", "products": None, "action_data": None}
 
-    # Kiểm tra sản phẩm tồn tại
-    product = await db.get(Product, product_uuid)
-    if not product or not product.is_active:
+    # Load product kèm variants
+    product = await _load_product_with_variants(db, product_uuid)
+    if not product:
         return {"intent_type": "add_to_cart", "summary": "Sản phẩm không tồn tại hoặc đã ngừng bán.", "products": None, "action_data": None}
 
-    # Kiểm tra đã có trong giỏ chưa
-    stmt = select(CartItem).where(
-        CartItem.user_id == user_id,
-        CartItem.product_id == product_uuid,
-    )
+    # Resolve variant (chọn màu + check stock)
+    variant, unit_price, error = await _resolve_variant(product, variant_id, quantity)
+
+    if error == "NEED_VARIANT_SELECTION":
+        return _build_variant_selection_response(product, "add_to_cart")
+
+    if error:
+        return {"intent_type": "add_to_cart", "summary": error, "products": None, "action_data": None}
+
+    # Kiểm tra đã có trong giỏ chưa (cùng product + variant)
+    conditions = [CartItem.user_id == user_id, CartItem.product_id == product_uuid]
+    if variant:
+        conditions.append(CartItem.variant_id == variant.id)
+    else:
+        conditions.append(CartItem.variant_id.is_(None))
+
+    stmt = select(CartItem).where(*conditions)
     result = await db.execute(stmt)
     existing = result.scalar_one_or_none()
 
+    color_text = f" (màu {variant.color_name})" if variant else ""
+
     if existing:
         existing.quantity += quantity
-        action_text = f"Đã cập nhật số lượng {product.name} trong giỏ hàng (tổng: {existing.quantity})."
+        action_text = f"Đã cập nhật số lượng {product.name}{color_text} trong giỏ hàng (tổng: {existing.quantity})."
     else:
         cart_item = CartItem(
             user_id=user_id,
             product_id=product_uuid,
+            variant_id=variant.id if variant else None,
             quantity=quantity,
         )
         db.add(cart_item)
-        action_text = f"Đã thêm {quantity}x {product.name} vào giỏ hàng. Giá: {_format_price(product.sale_price or product.base_price)}."
+        action_text = f"Đã thêm {quantity}x {product.name}{color_text} vào giỏ hàng. Giá: {_format_price(unit_price)}."
 
     return {
         "intent_type": "add_to_cart",
@@ -283,6 +410,8 @@ async def handle_add_to_cart(args: dict, db, user_id) -> dict:
         "action_data": {
             "action": "cart_updated",
             "product_id": str(product.id),
+            "variant_id": str(variant.id) if variant else None,
+            "color_name": variant.color_name if variant else None,
             "product_name": product.name,
             "quantity": quantity,
         },
@@ -543,7 +672,7 @@ async def handle_get_promotions(args: dict, db, user_id) -> dict:
 
 
 async def handle_buy_product(args: dict, db, user_id) -> dict:
-    """Tool: buy_product — Mua ngay sản phẩm qua PayOS (không qua giỏ hàng)."""
+    """Tool: buy_product — Mua ngay sản phẩm qua PayOS (có variant/màu + check stock)."""
     if not user_id:
         return {
             "intent_type": "buy_product",
@@ -553,9 +682,10 @@ async def handle_buy_product(args: dict, db, user_id) -> dict:
         }
 
     product_id = args.get("product_id")
+    variant_id = args.get("variant_id")
     quantity = int(args.get("quantity", 1))
 
-    logger.info(f"🔧 [Tool] buy_product(product_id={product_id}, qty={quantity})")
+    logger.info(f"🔧 [Tool] buy_product(product_id={product_id}, variant_id={variant_id}, qty={quantity})")
 
     # Validate product_id
     try:
@@ -568,9 +698,9 @@ async def handle_buy_product(args: dict, db, user_id) -> dict:
             "action_data": None,
         }
 
-    # Kiểm tra sản phẩm tồn tại
-    product = await db.get(Product, product_uuid)
-    if not product or not product.is_active:
+    # Load product kèm variants
+    product = await _load_product_with_variants(db, product_uuid)
+    if not product:
         return {
             "intent_type": "buy_product",
             "summary": "Sản phẩm không tồn tại hoặc đã ngừng bán.",
@@ -578,36 +708,47 @@ async def handle_buy_product(args: dict, db, user_id) -> dict:
             "action_data": None,
         }
 
+    # Resolve variant (chọn màu + check stock)
+    variant, unit_price, error = await _resolve_variant(product, variant_id, quantity)
+
+    if error == "NEED_VARIANT_SELECTION":
+        return _build_variant_selection_response(product, "buy_product")
+
+    if error:
+        return {"intent_type": "buy_product", "summary": error, "products": None, "action_data": None}
+
     # Tạo đơn hàng qua PaymentService (có PayOS checkout_url)
     try:
         from app.services.payment_service import payment_service
         from app.schemas.order import CreateOrderRequest, OrderItemCreate
         from app.models.user import User
 
-        # Lấy user object
         user = await db.get(User, user_id)
 
         order_request = CreateOrderRequest(
-            items=[OrderItemCreate(product_id=product_uuid, quantity=quantity)],
+            items=[OrderItemCreate(
+                product_id=product_uuid,
+                variant_id=variant.id if variant else None,
+                quantity=quantity,
+            )],
             payment_method="payos",
             note="Đặt hàng nhanh qua TechBot",
         )
 
         result = await payment_service.create_order(order_request, user, db)
 
-        unit_price = product.sale_price if product.sale_price else product.base_price
-
+        color_text = f" (màu {variant.color_name})" if variant else ""
         summary = (
             f"Đã tạo đơn hàng thành công!\n"
             f"- Mã đơn: #{result.order_code}\n"
-            f"- Sản phẩm: {product.name}\n"
+            f"- Sản phẩm: {product.name}{color_text}\n"
             f"- Số lượng: {quantity}\n"
             f"- Đơn giá: {_format_price(unit_price)}\n"
             f"- Tổng tiền: {_format_price(result.total_amount)}\n"
         )
 
         if result.checkout_url:
-            summary += f"- Vui lòng thanh toán qua link bên dưới."
+            summary += "- Vui lòng thanh toán qua link bên dưới."
 
         return {
             "intent_type": "buy_product",
@@ -618,6 +759,8 @@ async def handle_buy_product(args: dict, db, user_id) -> dict:
                 "order_id": str(result.order_id),
                 "order_code": result.order_code,
                 "product_name": product.name,
+                "variant_id": str(variant.id) if variant else None,
+                "color_name": variant.color_name if variant else None,
                 "quantity": quantity,
                 "total_amount": result.total_amount,
                 "checkout_url": result.checkout_url,

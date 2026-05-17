@@ -120,8 +120,22 @@ class PaymentService:
             variant = None
             if item_req.variant_id:
                 variant = await db.get(ProductVariant, item_req.variant_id)
-                if variant and variant.price_override:
+                if not variant or not variant.is_active:
+                    raise ValueError(f"Variant {item_req.variant_id} không tồn tại hoặc đã ngừng bán.")
+                # Giá variant: ưu tiên sale_price_override > price_override > base
+                if variant.sale_price_override:
+                    unit_price = variant.sale_price_override
+                elif variant.price_override:
                     unit_price = variant.price_override
+                # Check stock
+                if variant.stock_quantity < item_req.quantity:
+                    if variant.stock_quantity == 0:
+                        raise ValueError(f"Sản phẩm \"{product.name}\" (màu {variant.color_name}) đã hết hàng.")
+                    else:
+                        raise ValueError(
+                            f"Sản phẩm \"{product.name}\" (màu {variant.color_name}) "
+                            f"chỉ còn {variant.stock_quantity}, bạn yêu cầu {item_req.quantity}."
+                        )
 
             subtotal = unit_price * item_req.quantity
             total_amount += subtotal
@@ -278,8 +292,15 @@ class PaymentService:
                 logger.warning("💳 [Webhook] Invalid signature!")
                 return {"success": False, "message": "Invalid signature"}
 
-            # Tìm order
-            stmt = select(Order).where(Order.order_code == order_code)
+            # Tìm order kèm items
+            stmt = (
+                select(Order)
+                .options(
+                    selectinload(Order.items).selectinload(OrderItem.variant),
+                    selectinload(Order.items).selectinload(OrderItem.product),
+                )
+                .where(Order.order_code == order_code)
+            )
             result = await db.execute(stmt)
             order = result.scalar_one_or_none()
 
@@ -291,7 +312,20 @@ class PaymentService:
             if code == "00":
                 order.payment_status = "paid"
                 order.status = "confirmed"
-                logger.info(f"💳 [Webhook] ✅ Order #{order_code} PAID")
+
+                # ── Trừ tồn kho (stock deduction) ──
+                for item in order.items:
+                    if item.variant_id and item.variant:
+                        item.variant.stock_quantity = max(0, item.variant.stock_quantity - item.quantity)
+                        logger.info(
+                            f"💳 [Stock] {item.product.name if item.product else 'N/A'} "
+                            f"({item.variant.color_name}) -{item.quantity} → còn {item.variant.stock_quantity}"
+                        )
+                    # Cập nhật sold_count trên Product
+                    if item.product:
+                        item.product.sold_count = (item.product.sold_count or 0) + item.quantity
+
+                logger.info(f"💳 [Webhook] ✅ Order #{order_code} PAID + Stock deducted")
             else:
                 order.payment_status = "failed"
                 order.status = "cancelled"

@@ -84,6 +84,7 @@ add_to_cart_func = genai.protos.FunctionDeclaration(
         "BẮT BUỘC gọi tool này để thêm sản phẩm vào giỏ hàng. KHÔNG ĐƯỢC tự nói 'đã thêm' mà không gọi tool. "
         "Cần product_id (UUID lấy từ kết quả search_products hoặc get_product_detail trước đó). "
         "Khi người dùng nói 'thêm vào giỏ', 'mua cái này', 'cho vào giỏ', 'bỏ vào giỏ hàng' → PHẢI gọi add_to_cart. "
+        "Nếu kết quả trả về yêu cầu chọn màu (action='select_variant'), hãy hỏi người dùng chọn màu rồi gọi lại với variant_id. "
         "Ví dụ: 'thêm sản phẩm đầu tiên vào giỏ', 'mua cái iPhone này', 'cho tôi cái thứ 2'."
     ),
     parameters=genai.protos.Schema(
@@ -92,6 +93,10 @@ add_to_cart_func = genai.protos.FunctionDeclaration(
             "product_id": genai.protos.Schema(
                 type=genai.protos.Type.STRING,
                 description="UUID của sản phẩm cần thêm vào giỏ.",
+            ),
+            "variant_id": genai.protos.Schema(
+                type=genai.protos.Type.STRING,
+                description="UUID hoặc tên màu của variant đã chọn. Bắt buộc nếu sản phẩm có nhiều màu.",
             ),
             "quantity": genai.protos.Schema(
                 type=genai.protos.Type.INTEGER,
@@ -176,9 +181,10 @@ get_promotions_func = genai.protos.FunctionDeclaration(
 buy_product_func = genai.protos.FunctionDeclaration(
     name="buy_product",
     description=(
-        "Mua ngay sản phẩm KHÔNG qua giỏ hàng — tạo đơn hàng trực tiếp. YÊU CẦU ĐĂNG NHẬP. "
+        "Mua ngay sản phẩm KHÔNG qua giỏ hàng — tạo đơn hàng trực tiếp + thanh toán PayOS. YÊU CẦU ĐĂNG NHẬP. "
         "Cần product_id (UUID lấy từ kết quả search_products hoặc get_product_detail trước đó). "
         "BẮT BUỘC gọi tool này khi người dùng muốn mua ngay, đặt hàng nhanh một sản phẩm cụ thể. "
+        "Nếu kết quả trả về yêu cầu chọn màu (action='select_variant'), hãy hỏi người dùng chọn màu rồi gọi lại với variant_id. "
         "Ví dụ: 'mua ngay cái này', 'đặt mua 2 cái iPhone đầu tiên', 'mua luôn sản phẩm thứ 3'."
     ),
     parameters=genai.protos.Schema(
@@ -187,6 +193,10 @@ buy_product_func = genai.protos.FunctionDeclaration(
             "product_id": genai.protos.Schema(
                 type=genai.protos.Type.STRING,
                 description="UUID của sản phẩm cần mua (lấy từ kết quả search hoặc detail trước đó).",
+            ),
+            "variant_id": genai.protos.Schema(
+                type=genai.protos.Type.STRING,
+                description="UUID hoặc tên màu của variant đã chọn. Bắt buộc nếu sản phẩm có nhiều màu.",
             ),
             "quantity": genai.protos.Schema(
                 type=genai.protos.Type.INTEGER,
