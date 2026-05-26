@@ -12,21 +12,32 @@ class ProductService {
     return _instance;
   }
 
-  /// Get trending products
+  /// Get trending/featured products using AI search
+  /// Since backend has no /products endpoint, we use /ai/search with a broad query
   Future<List<Product>> getTrendingProducts() async {
     try {
-      final response = await _apiService.get('/products/trending');
+      final response = await _apiService.post(
+        '/ai/search',
+        body: {
+          'query': 'sản phẩm công nghệ nổi bật bán chạy',
+          'limit': 20,
+        },
+      );
       final data = jsonDecode(response);
-      
-      return (data['results'] as List)
-          .map((item) => Product.fromJson(item as Map<String, dynamic>))
-          .toList();
+
+      if (data['success'] == true && data['data'] != null) {
+        final List<dynamic> results = data['data']['products'] ?? [];
+        return results
+            .map((item) => Product.fromAISearch(item as Map<String, dynamic>))
+            .toList();
+      }
+      return [];
     } catch (e) {
       rethrow;
     }
   }
 
-  /// Get products by category
+  /// Get products by category using AI search with category filter
   Future<List<Product>> getProductsByCategory(
     String categoryName, {
     int page = 1,
@@ -35,82 +46,90 @@ class ProductService {
     String? filterSpecs,
   }) async {
     try {
-      final response = await _apiService.get(
-        '/products',
-        queryParams: {
-          'category': categoryName,
-          'page': page,
+      final response = await _apiService.post(
+        '/ai/search',
+        body: {
+          'query': categoryName,
+          'filters': {
+            'category': categoryName,
+          },
           'limit': limit,
-          if (sortBy != null) 'sort_by': sortBy,
-          if (filterSpecs != null) 'filter_specs': filterSpecs,
         },
       );
 
       final data = jsonDecode(response);
-      return (data['results'] as List)
-          .map((item) => Product.fromJson(item as Map<String, dynamic>))
-          .toList();
+      if (data['success'] == true && data['data'] != null) {
+        final List<dynamic> results = data['data']['products'] ?? [];
+        return results
+            .map((item) => Product.fromAISearch(item as Map<String, dynamic>))
+            .toList();
+      }
+      return [];
     } catch (e) {
       rethrow;
     }
   }
 
-  /// Search products
+  /// Search products using AI semantic search
   Future<List<Product>> searchProducts(
     String query, {
     int page = 1,
     int limit = 20,
   }) async {
     try {
-      final response = await _apiService.get(
-        '/products/search',
-        queryParams: {
-          'q': query,
-          'page': page,
+      final response = await _apiService.post(
+        '/ai/search',
+        body: {
+          'query': query,
           'limit': limit,
         },
       );
 
       final data = jsonDecode(response);
-      return (data['results'] as List)
-          .map((item) => Product.fromJson(item as Map<String, dynamic>))
-          .toList();
+      if (data['success'] == true && data['data'] != null) {
+        final List<dynamic> results = data['data']['products'] ?? [];
+        return results
+            .map((item) => Product.fromAISearch(item as Map<String, dynamic>))
+            .toList();
+      }
+      return [];
     } catch (e) {
       rethrow;
     }
   }
 
-  /// Get product by ID
+  /// Get product by ID - not available in current API, use search by name
   Future<Product> getProductById(String productId) async {
     try {
-      final response = await _apiService.get('/products/$productId');
+      final response = await _apiService.post(
+        '/ai/search',
+        body: {
+          'query': productId,
+          'limit': 1,
+        },
+      );
       final data = jsonDecode(response);
-      
-      return Product.fromJson(data['product']);
+
+      if (data['success'] == true && data['data'] != null) {
+        final List<dynamic> results = data['data']['products'] ?? [];
+        if (results.isNotEmpty) {
+          return Product.fromAISearch(results.first as Map<String, dynamic>);
+        }
+      }
+      throw NotFoundException('Product not found');
     } catch (e) {
       rethrow;
     }
   }
 
-  /// Get product reviews
+  /// Get product reviews - not available in current API
   Future<List<Review>> getProductReviews(
     String productId, {
     int page = 1,
     int limit = 10,
   }) async {
-    try {
-      final response = await _apiService.get(
-        '/products/$productId/reviews',
-        queryParams: {'page': page, 'limit': limit},
-      );
-
-      final data = jsonDecode(response);
-      return (data['results'] as List)
-          .map((item) => Review.fromJson(item as Map<String, dynamic>))
-          .toList();
-    } catch (e) {
-      rethrow;
-    }
+    // API doesn't have reviews endpoint yet
+    return [];
   }
 
   /// Compare products
@@ -127,17 +146,18 @@ class ProductService {
     }
   }
 
-  /// Get categories
+  /// Get categories - derived from AI search results since no dedicated endpoint
+  /// Returns hardcoded categories matching the scraped data
   Future<List<Category>> getCategories() async {
-    try {
-      final response = await _apiService.get('/categories');
-      final data = jsonDecode(response);
-      
-      return (data['results'] as List)
-          .map((item) => Category.fromJson(item as Map<String, dynamic>))
-          .toList();
-    } catch (e) {
-      rethrow;
-    }
+    // Backend doesn't have a /categories endpoint
+    // Return known categories from the scraped product data
+    return [
+      Category(id: 'dien-thoai', name: 'Điện thoại', icon: 'phone', description: 'Smartphone', itemCount: 0),
+      Category(id: 'laptop', name: 'Laptop', icon: 'laptop', description: 'Laptop', itemCount: 0),
+      Category(id: 'tablet', name: 'Tablet', icon: 'tablet', description: 'Máy tính bảng', itemCount: 0),
+      Category(id: 'tai-nghe', name: 'Tai nghe', icon: 'headphone', description: 'Tai nghe', itemCount: 0),
+      Category(id: 'dong-ho', name: 'Đồng hồ', icon: 'watch', description: 'Smartwatch', itemCount: 0),
+      Category(id: 'phu-kien', name: 'Phụ kiện', icon: 'accessory', description: 'Phụ kiện', itemCount: 0),
+    ];
   }
 }

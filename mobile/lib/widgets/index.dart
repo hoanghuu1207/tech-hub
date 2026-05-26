@@ -4,3 +4,5 @@ export 'product_card.dart';
 export 'app_bar.dart';
 export 'rating_bar.dart';
 export 'loading_shimmer.dart';
+export 'premium_home_tab.dart';
+export 'chat_bottom_sheet.dart';
