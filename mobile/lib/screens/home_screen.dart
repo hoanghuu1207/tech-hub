@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../bloc/chat_bloc.dart';
+import '../../bloc/cart_bloc.dart';
 import '../../widgets/premium_home_tab.dart';
 import '../../widgets/chat_bottom_sheet.dart';
 import 'cart_screen.dart';
@@ -16,6 +17,14 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedTab = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      context.read<CartBloc>().add(const CartFetch());
+    });
+  }
 
   // ── Dark theme colors ──
   static const _bgDark = Color(0xFF0F172A);
@@ -39,7 +48,9 @@ class _HomeScreenState extends State<HomeScreen> {
             backgroundColor: _bgDark,
             body: Center(child: Text('Search', style: TextStyle(color: Colors.white))),
           ),
-          const CartScreen(),
+          CartScreen(
+            onContinueShopping: () => setState(() => _selectedTab = 0),
+          ),
           const Scaffold(
             backgroundColor: _bgDark,
             body: Center(child: Text('Orders', style: TextStyle(color: Colors.white))),
@@ -74,7 +85,9 @@ class _HomeScreenState extends State<HomeScreen> {
             backgroundColor: Colors.transparent,
             builder: (_) => BlocProvider.value(
               value: context.read<ChatBloc>(),
-              child: const ChatBottomSheet(),
+              child: ChatBottomSheet(
+                onViewCart: () => setState(() => _selectedTab = 2),
+              ),
             ),
           );
         },
@@ -102,22 +115,26 @@ class _HomeScreenState extends State<HomeScreen> {
       child: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              _buildNavItem(Icons.home_rounded, 'Trang chủ', 0),
-              _buildNavItem(Icons.search_rounded, 'Tìm kiếm', 1),
-              _buildNavItem(Icons.shopping_bag_rounded, 'Giỏ hàng', 2),
-              _buildNavItem(Icons.receipt_long_rounded, 'Đơn hàng', 3),
-              _buildNavItem(Icons.person_rounded, 'Tài khoản', 4),
-            ],
+          child: BlocBuilder<CartBloc, CartState>(
+            builder: (context, cartState) {
+              return Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  _buildNavItem(Icons.home_rounded, 'Trang chủ', 0),
+                  _buildNavItem(Icons.search_rounded, 'Tìm kiếm', 1),
+                  _buildNavItem(Icons.shopping_bag_rounded, 'Giỏ hàng', 2, badgeCount: cartState.cart.itemCount),
+                  _buildNavItem(Icons.receipt_long_rounded, 'Đơn hàng', 3),
+                  _buildNavItem(Icons.person_rounded, 'Tài khoản', 4),
+                ],
+              );
+            },
           ),
         ),
       ),
     );
   }
 
-  Widget _buildNavItem(IconData icon, String label, int index) {
+  Widget _buildNavItem(IconData icon, String label, int index, {int badgeCount = 0}) {
     final isActive = _selectedTab == index;
     return GestureDetector(
       onTap: () => setState(() => _selectedTab = index),
@@ -132,10 +149,41 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(
-              icon,
-              color: isActive ? _primaryColor : _textMuted,
-              size: 24,
+            Stack(
+              clipBehavior: Clip.none,
+              children: [
+                Icon(
+                  icon,
+                  color: isActive ? _primaryColor : _textMuted,
+                  size: 24,
+                ),
+                if (badgeCount > 0)
+                  Positioned(
+                    right: -6,
+                    top: -4,
+                    child: Container(
+                      padding: const EdgeInsets.all(4),
+                      decoration: const BoxDecoration(
+                        color: Color(0xFFF43F5E), // Rose red color
+                        shape: BoxShape.circle,
+                      ),
+                      constraints: const BoxConstraints(
+                        minWidth: 16,
+                        minHeight: 16,
+                      ),
+                      child: Center(
+                        child: Text(
+                          '$badgeCount',
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 9,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+              ],
             ),
             const SizedBox(height: 4),
             Text(

@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import '../bloc/chat_bloc.dart';
+import '../bloc/cart_bloc.dart';
 import '../models/chat_model.dart';
 
 // ── Colors ──
@@ -21,7 +22,8 @@ class _K {
 }
 
 class ChatBottomSheet extends StatefulWidget {
-  const ChatBottomSheet({Key? key}) : super(key: key);
+  final VoidCallback? onViewCart;
+  const ChatBottomSheet({Key? key, this.onViewCart}) : super(key: key);
 
   @override
   State<ChatBottomSheet> createState() => _ChatBottomSheetState();
@@ -162,7 +164,18 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
 
   Widget _buildMessageList() {
     return BlocConsumer<ChatBloc, ChatState>(
-      listener: (context, state) => _scrollToBottom(),
+      listener: (context, state) {
+        _scrollToBottom();
+        if (state.messages.isNotEmpty) {
+          final lastMsg = state.messages.last;
+          if (lastMsg.role == ChatMessageRole.assistant && lastMsg.actionData != null) {
+            final action = lastMsg.actionData!.action;
+            if (action == 'cart_updated' || action == 'show_cart') {
+              context.read<CartBloc>().add(const CartFetch());
+            }
+          }
+        }
+      },
       builder: (context, state) {
         if (state.messages.isEmpty) {
           return _buildEmptyState();
@@ -497,7 +510,9 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
         GestureDetector(
           onTap: () {
             Navigator.pop(context);
-            // Navigate to cart tab (index 2 in HomeScreen)
+            if (widget.onViewCart != null) {
+              widget.onViewCart!();
+            }
           },
           child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),

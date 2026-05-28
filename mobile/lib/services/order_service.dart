@@ -24,7 +24,7 @@ class OrderService {
     try {
       final orderItems = items
           .map((item) => {
-                'product_id': item.product.id,
+                'product_id': item.productId,
                 'quantity': item.quantity,
               })
           .toList();

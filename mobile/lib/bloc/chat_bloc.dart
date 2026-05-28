@@ -78,10 +78,11 @@ class ChatBloc extends Bloc<ChatEvent, ChatState> {
 
       emit(state.copyWith(messages: [...updated, botMsg], isTyping: false));
     } catch (e) {
+      print('❌ ChatBloc error: $e');
       final errorMsg = ChatMessage(
         id: const Uuid().v4(),
         role: ChatMessageRole.assistant,
-        content: 'Xin lỗi, có lỗi xảy ra. Vui lòng thử lại! 😊',
+        content: 'Xin lỗi, có lỗi xảy ra: $e',
         timestamp: DateTime.now(),
       );
       emit(state.copyWith(messages: [...updated, errorMsg], isTyping: false));

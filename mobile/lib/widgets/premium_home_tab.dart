@@ -604,7 +604,15 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
   }
 
   void _onAddToCart(Product product) {
-    context.read<CartBloc>().add(CartAddItemRequested(product, quantity: 1));
+    if (!AuthService().isTokenValid) {
+      // Not logged in — switch to cart tab which shows login UI
+      if (widget.onCartTap != null) widget.onCartTap!();
+      return;
+    }
+    context.read<CartBloc>().add(CartAddItem(
+      productId: product.id,
+      quantity: 1,
+    ));
     AppSnackbars.showSuccess(context, '${product.name} đã thêm vào giỏ');
   }
 

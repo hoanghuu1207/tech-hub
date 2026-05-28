@@ -1,86 +1,114 @@
-import 'product_model.dart';
-
 class CartItem {
   final String id;
-  final Product product;
+  final String productId;
+  final String productName;
+  final String? variantId;
+  final String? colorName;
+  final String? colorHex;
   int quantity;
-  final DateTime addedAt;
+  final double unitPrice;
+  final String? imageUrl;
 
   CartItem({
     required this.id,
-    required this.product,
+    required this.productId,
+    required this.productName,
+    this.variantId,
+    this.colorName,
+    this.colorHex,
     required this.quantity,
-    required this.addedAt,
+    required this.unitPrice,
+    this.imageUrl,
   });
 
-  double get subtotal => product.price * quantity;
-
-  CartItem copyWith({
-    String? id,
-    Product? product,
-    int? quantity,
-    DateTime? addedAt,
-  }) {
-    return CartItem(
-      id: id ?? this.id,
-      product: product ?? this.product,
-      quantity: quantity ?? this.quantity,
-      addedAt: addedAt ?? this.addedAt,
-    );
-  }
+  double get subtotal => unitPrice * quantity;
 
   factory CartItem.fromJson(Map<String, dynamic> json) {
     return CartItem(
-      id: json['id'] as String,
-      product: Product.fromJson(json['product'] as Map<String, dynamic>),
-      quantity: json['quantity'] as int,
-      addedAt: DateTime.parse(json['added_at'] as String),
+      id: json['id'] ?? '',
+      productId: json['product_id'] ?? '',
+      productName: json['product_name'] ?? '',
+      variantId: json['variant_id'],
+      colorName: json['color_name'],
+      colorHex: json['color_hex'],
+      quantity: json['quantity'] ?? 1,
+      unitPrice: (json['unit_price'] as num?)?.toDouble() ?? 0,
+      imageUrl: json['product_image'] ?? json['image_url'],
     );
   }
 
-  Map<String, dynamic> toJson() {
-    return {
-      'id': id,
-      'product': product.toJson(),
-      'quantity': quantity,
-      'added_at': addedAt.toIso8601String(),
-    };
+  CartItem copyWith({int? quantity}) {
+    return CartItem(
+      id: id,
+      productId: productId,
+      productName: productName,
+      variantId: variantId,
+      colorName: colorName,
+      colorHex: colorHex,
+      quantity: quantity ?? this.quantity,
+      unitPrice: unitPrice,
+      imageUrl: imageUrl,
+    );
+  }
+}
+
+class ShippingAddress {
+  final String? id;
+  final String recipientName;
+  final String phone;
+  final String? province;
+  final String? district;
+  final String? ward;
+  final String? street;
+
+  ShippingAddress({
+    this.id,
+    required this.recipientName,
+    required this.phone,
+    this.province,
+    this.district,
+    this.ward,
+    this.street,
+  });
+
+  String get fullAddress {
+    return [street, ward, district, province]
+        .where((s) => s != null && s.isNotEmpty)
+        .join(', ');
+  }
+
+  Map<String, dynamic> toJson() => {
+    'recipient_name': recipientName,
+    'phone': phone,
+    'province': province,
+    'district': district,
+    'ward': ward,
+    'street': street,
+  };
+
+  factory ShippingAddress.fromJson(Map<String, dynamic> json) {
+    return ShippingAddress(
+      id: json['id'],
+      recipientName: json['recipient_name'] ?? '',
+      phone: json['phone'] ?? '',
+      province: json['province'],
+      district: json['district'],
+      ward: json['ward'],
+      street: json['street'],
+    );
   }
 }
 
 class Cart {
   final List<CartItem> items;
-  final DateTime updatedAt;
 
-  Cart({
-    required this.items,
-    required this.updatedAt,
-  });
+  Cart({required this.items});
 
   double get total => items.fold(0, (sum, item) => sum + item.subtotal);
-
   int get itemCount => items.fold(0, (sum, item) => sum + item.quantity);
 
-  Cart addItem(CartItem item) {
-    final existingIndex = items.indexWhere((i) => i.product.id == item.product.id);
-    List<CartItem> updated = List.from(items);
-    
-    if (existingIndex >= 0) {
-      updated[existingIndex] = updated[existingIndex].copyWith(
-        quantity: updated[existingIndex].quantity + item.quantity,
-      );
-    } else {
-      updated.add(item);
-    }
-    
-    return Cart(items: updated, updatedAt: DateTime.now());
-  }
-
   Cart removeItem(String itemId) {
-    return Cart(
-      items: items.where((item) => item.id != itemId).toList(),
-      updatedAt: DateTime.now(),
-    );
+    return Cart(items: items.where((i) => i.id != itemId).toList());
   }
 
   Cart updateQuantity(String itemId, int quantity) {
@@ -88,11 +116,6 @@ class Cart {
       items: items.map((item) {
         return item.id == itemId ? item.copyWith(quantity: quantity) : item;
       }).toList(),
-      updatedAt: DateTime.now(),
     );
-  }
-
-  Cart clear() {
-    return Cart(items: [], updatedAt: DateTime.now());
   }
 }
