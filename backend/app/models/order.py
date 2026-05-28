@@ -1,5 +1,5 @@
 import uuid
-from sqlalchemy import Column, String, Boolean, DateTime, Integer, ForeignKey, Text, Numeric
+from sqlalchemy import Column, String, Boolean, DateTime, Integer, BigInteger, ForeignKey, Text, Numeric
 from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.sql import func
 from sqlalchemy.orm import relationship
@@ -32,6 +32,7 @@ class Order(Base):
     address_id = Column(UUID(as_uuid=True), ForeignKey("addresses.address_id", ondelete="SET NULL"), nullable=True)
     
     status = Column(String(30), default="pending")
+    order_code = Column(BigInteger, unique=True, nullable=True, index=True)  # PayOS order code
     total_amount = Column(Numeric(15, 2), nullable=False)
     discount_amount = Column(Numeric(15, 2), default=0)
     shipping_fee = Column(Numeric(15, 2), default=0)

@@ -51,6 +51,37 @@ class Product {
     );
   }
 
+  /// Factory from AI Search API response (AIProductResult schema)
+  factory Product.fromAISearch(Map<String, dynamic> json) {
+    final basePrice = json['base_price'] != null ? (json['base_price'] as num).toDouble() : 0.0;
+    final salePrice = json['sale_price'] != null ? (json['sale_price'] as num).toDouble() : null;
+    final primaryImage = json['primary_image'] as String? ?? '';
+    final categorySlug = (json['category_slug'] as String? ?? '').toLowerCase();
+
+    ProductCategory cat = ProductCategory.phone;
+    if (categorySlug.contains('laptop')) cat = ProductCategory.laptop;
+    else if (categorySlug.contains('tablet')) cat = ProductCategory.tablet;
+    else if (categorySlug.contains('tai-nghe') || categorySlug.contains('headphone')) cat = ProductCategory.headphone;
+    else if (categorySlug.contains('dong-ho') || categorySlug.contains('watch')) cat = ProductCategory.smartwatch;
+    else if (categorySlug.contains('phu-kien') || categorySlug.contains('accessory')) cat = ProductCategory.accessory;
+
+    return Product(
+      id: json['id'] as String,
+      name: json['name'] as String,
+      description: json['brand_name'] as String? ?? '',
+      price: salePrice ?? basePrice,
+      originalPrice: salePrice != null && salePrice < basePrice ? basePrice : null,
+      rating: json['rating_avg'] != null ? (json['rating_avg'] as num).toDouble() : 4.5,
+      reviewCount: json['sold_count'] as int? ?? 0,
+      stock: 100, // AI search doesn't return stock, assume in stock
+      images: primaryImage.isNotEmpty ? [primaryImage] : [],
+      category: cat,
+      specs: {},
+      sellerId: json['brand_slug'] as String? ?? '',
+      createdAt: DateTime.now(),
+    );
+  }
+
   Map<String, dynamic> toJson() {
     return {
       'id': id,

@@ -1,5 +1,57 @@
 enum ChatMessageRole { user, assistant }
-enum ChatActionType { search, compare, addToCart, checkout }
+
+class ChatVariant {
+  final String variantId;
+  final String colorName;
+  final String colorHex;
+  final double price;
+  final int stockQuantity;
+
+  ChatVariant({
+    required this.variantId,
+    required this.colorName,
+    required this.colorHex,
+    required this.price,
+    required this.stockQuantity,
+  });
+
+  factory ChatVariant.fromJson(Map<String, dynamic> json) {
+    return ChatVariant(
+      variantId: json['variant_id'] ?? '',
+      colorName: json['color_name'] ?? '',
+      colorHex: json['color_hex'] ?? '#888888',
+      price: (json['price'] as num?)?.toDouble() ?? 0,
+      stockQuantity: json['stock_quantity'] ?? 0,
+    );
+  }
+}
+
+class ChatActionData {
+  final String action;
+  final Map<String, dynamic> _raw;
+
+  ChatActionData({required this.action, required Map<String, dynamic> raw}) : _raw = raw;
+
+  factory ChatActionData.fromJson(Map<String, dynamic> json) {
+    return ChatActionData(action: json['action'] ?? '', raw: json);
+  }
+
+  // Helpers
+  List<ChatVariant>? get variants {
+    final list = _raw['variants'] as List?;
+    return list?.map((v) => ChatVariant.fromJson(v as Map<String, dynamic>)).toList();
+  }
+
+  String? get checkoutUrl => _raw['checkout_url'];
+  String? get productName => _raw['product_name'];
+  String? get productId => _raw['product_id'];
+  String? get colorName => _raw['color_name'];
+  int? get orderCode => _raw['order_code'];
+  double? get totalAmount => (_raw['total_amount'] as num?)?.toDouble();
+  int? get totalItems => _raw['total_items'];
+  String? get orderId => _raw['order_id'];
+  int? get quantity => _raw['quantity'];
+}
 
 class ChatMessage {
   final String id;
@@ -7,7 +59,9 @@ class ChatMessage {
   final String content;
   final DateTime timestamp;
   final bool isLoading;
-  final ChatAction? action;
+  final String? intentType;
+  final ChatActionData? actionData;
+  final List<dynamic>? products;
 
   ChatMessage({
     required this.id,
@@ -15,120 +69,21 @@ class ChatMessage {
     required this.content,
     required this.timestamp,
     this.isLoading = false,
-    this.action,
+    this.intentType,
+    this.actionData,
+    this.products,
   });
 
-  factory ChatMessage.fromJson(Map<String, dynamic> json) {
+  ChatMessage copyWith({String? content, bool? isLoading}) {
     return ChatMessage(
-      id: json['id'] as String,
-      role: ChatMessageRole.values.byName(json['role'] as String),
-      content: json['content'] as String,
-      timestamp: DateTime.parse(json['timestamp'] as String),
-      isLoading: json['is_loading'] as bool? ?? false,
-      action: json['action'] != null 
-          ? ChatAction.fromJson(json['action'] as Map<String, dynamic>)
-          : null,
-    );
-  }
-
-  Map<String, dynamic> toJson() {
-    return {
-      'id': id,
-      'role': role.name,
-      'content': content,
-      'timestamp': timestamp.toIso8601String(),
-      'is_loading': isLoading,
-      'action': action?.toJson(),
-    };
-  }
-
-  ChatMessage copyWith({
-    String? id,
-    ChatMessageRole? role,
-    String? content,
-    DateTime? timestamp,
-    bool? isLoading,
-    ChatAction? action,
-  }) {
-    return ChatMessage(
-      id: id ?? this.id,
-      role: role ?? this.role,
-      content: content ?? this.content,
-      timestamp: timestamp ?? this.timestamp,
-      isLoading: isLoading ?? this.isLoading,
-      action: action ?? this.action,
-    );
-  }
-}
-
-class ChatAction {
-  final ChatActionType type;
-  final Map<String, dynamic> params;
-
-  ChatAction({
-    required this.type,
-    required this.params,
-  });
-
-  factory ChatAction.fromJson(Map<String, dynamic> json) {
-    return ChatAction(
-      type: ChatActionType.values.byName(json['type'] as String),
-      params: json['params'] as Map<String, dynamic>,
-    );
-  }
-
-  Map<String, dynamic> toJson() {
-    return {
-      'type': type.name,
-      'params': params,
-    };
-  }
-}
-
-class ChatSession {
-  final String id;
-  final String userId;
-  final List<ChatMessage> messages;
-  final DateTime createdAt;
-  final DateTime updatedAt;
-
-  ChatSession({
-    required this.id,
-    required this.userId,
-    required this.messages,
-    required this.createdAt,
-    required this.updatedAt,
-  });
-
-  ChatSession addMessage(ChatMessage message) {
-    return ChatSession(
       id: id,
-      userId: userId,
-      messages: [...messages, message],
-      createdAt: createdAt,
-      updatedAt: DateTime.now(),
+      role: role,
+      content: content ?? this.content,
+      timestamp: timestamp,
+      isLoading: isLoading ?? this.isLoading,
+      intentType: intentType,
+      actionData: actionData,
+      products: products,
     );
-  }
-
-  factory ChatSession.fromJson(Map<String, dynamic> json) {
-    return ChatSession(
-      id: json['id'] as String,
-      userId: json['user_id'] as String,
-      messages: List<ChatMessage>.from(
-        (json['messages'] as List).map((msg) => ChatMessage.fromJson(msg as Map<String, dynamic>)),
-      ),
-      createdAt: DateTime.parse(json['created_at'] as String),
-      updatedAt: DateTime.parse(json['updated_at'] as String),
-    );
-  }
-
-  Map<String, dynamic> toJson() {
-    return {
-      'id': id,
-      'user_id': userId,
-      'messages': messages.map((msg) => msg.toJson()).toList(),
-      'created_at': createdAt.toIso8601String(),
-      'updated_at': updatedAt.toIso8601String(),
-    };
   }
 }

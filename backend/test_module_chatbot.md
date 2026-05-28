@@ -1,0 +1,3 @@
+- giá rẻ nhất
+- fix phần hỏi đơn hàng, hiện tại đang yêu cầu mã đơn hàng.
+- ở tab cart, các item sẽ có 1 checkbox ở bên trái, bấm vào để chọn sp, nút xóa tất cả thay bằng xóa, nút xóa và đặt hàng & thanh toán chỉ enable khi có ít nhất 1 item được chọn ở checkbox, có một checkbox all nằm ở phía trên cùng của danh sách items. (Lưu ý khi xóa hoặc đặt thì nếu item đó có nhiều quantity sẽ phải xóa hoặt đặt hết số lượng item đó). Hiển thị item cart thêm thông tin màu sắc đã mua.

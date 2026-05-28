@@ -6,6 +6,7 @@ class ApiService {
   static final ApiService _instance = ApiService._internal();
 
   String? _baseUrl;
+  late final HttpClient _httpClient;
 
   String get baseUrl {
     if (_baseUrl == null) {
@@ -21,7 +22,11 @@ class ApiService {
 
   String get wsUrl => baseUrl.replaceFirst('http', 'ws');
 
-  ApiService._internal();
+  ApiService._internal() {
+    _httpClient = HttpClient()
+      ..connectionTimeout = const Duration(seconds: 30)
+      ..idleTimeout = const Duration(seconds: 15);
+  }
 
   factory ApiService() {
     return _instance;
@@ -47,7 +52,7 @@ class ApiService {
           queryParameters:
               queryParams?.map((k, v) => MapEntry(k, v.toString())));
 
-      final response = await HttpClient().getUrl(uri).then((request) {
+      final response = await _httpClient.getUrl(uri).then((request) {
         buildHeaders(token: token).forEach((key, value) {
           request.headers.add(key, value);
         });
@@ -78,12 +83,12 @@ class ApiService {
     try {
       final uri = Uri.parse('$baseUrl$endpoint');
 
-      final request = await HttpClient().postUrl(uri);
+      final request = await _httpClient.postUrl(uri);
       buildHeaders(token: token).forEach((key, value) {
         request.headers.add(key, value);
       });
 
-      request.write(jsonEncode(body));
+      request.add(utf8.encode(jsonEncode(body)));
       final response = await request.close();
 
       if (response.statusCode == 200 || response.statusCode == 201) {
@@ -111,12 +116,12 @@ class ApiService {
     try {
       final uri = Uri.parse('$baseUrl$endpoint');
 
-      final request = await HttpClient().putUrl(uri);
+      final request = await _httpClient.putUrl(uri);
       buildHeaders(token: token).forEach((key, value) {
         request.headers.add(key, value);
       });
 
-      request.write(jsonEncode(body));
+      request.add(utf8.encode(jsonEncode(body)));
       final response = await request.close();
 
       if (response.statusCode == 200 || response.statusCode == 201) {
@@ -140,7 +145,7 @@ class ApiService {
     try {
       final uri = Uri.parse('$baseUrl$endpoint');
 
-      final request = await HttpClient().deleteUrl(uri);
+      final request = await _httpClient.deleteUrl(uri);
       buildHeaders(token: token).forEach((key, value) {
         request.headers.add(key, value);
       });

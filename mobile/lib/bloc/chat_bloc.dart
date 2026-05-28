@@ -1,192 +1,96 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import '../../models/index.dart';
-import '../../services/index.dart';
 import 'package:uuid/uuid.dart';
+import '../../models/chat_model.dart';
+import '../../services/chat_service.dart';
 
-// Events
+// ── Events ──
 abstract class ChatEvent extends Equatable {
   const ChatEvent();
   @override
   List<Object?> get props => [];
 }
 
-class ChatInitializeRequested extends ChatEvent {
-  const ChatInitializeRequested();
-}
-
 class ChatMessageSent extends ChatEvent {
   final String content;
-
   const ChatMessageSent(this.content);
-
   @override
   List<Object?> get props => [content];
-}
-
-class ChatVoiceMessageSent extends ChatEvent {
-  final String audioPath;
-
-  const ChatVoiceMessageSent(this.audioPath);
-
-  @override
-  List<Object?> get props => [audioPath];
-}
-
-class ChatMessageReceived extends ChatEvent {
-  final ChatMessage message;
-
-  const ChatMessageReceived(this.message);
-
-  @override
-  List<Object?> get props => [message];
-}
-
-class ChatLoadHistoryRequested extends ChatEvent {
-  const ChatLoadHistoryRequested();
 }
 
 class ChatClearRequested extends ChatEvent {
   const ChatClearRequested();
 }
 
-// States
-abstract class ChatState extends Equatable {
-  const ChatState();
-  @override
-  List<Object?> get props => [];
-}
-
-class ChatInitial extends ChatState {
-  const ChatInitial();
-}
-
-class ChatLoading extends ChatState {
-  const ChatLoading();
-}
-
-class ChatConnected extends ChatState {
+// ── States ──
+class ChatState extends Equatable {
   final List<ChatMessage> messages;
+  final bool isTyping;
 
-  const ChatConnected(this.messages);
+  const ChatState({this.messages = const [], this.isTyping = false});
 
-  @override
-  List<Object?> get props => [messages];
-}
-
-class ChatMessageAdded extends ChatState {
-  final List<ChatMessage> messages;
-  final ChatMessage newMessage;
-
-  const ChatMessageAdded(this.messages, this.newMessage);
+  ChatState copyWith({List<ChatMessage>? messages, bool? isTyping}) {
+    return ChatState(
+      messages: messages ?? this.messages,
+      isTyping: isTyping ?? this.isTyping,
+    );
+  }
 
   @override
-  List<Object?> get props => [messages, newMessage];
+  List<Object?> get props => [messages, isTyping];
 }
 
-class ChatFailure extends ChatState {
-  final String message;
-
-  const ChatFailure(this.message);
-
-  @override
-  List<Object?> get props => [message];
-}
-
-// BLoC
+// ── BLoC ──
 class ChatBloc extends Bloc<ChatEvent, ChatState> {
   final ChatService _chatService = ChatService();
-  List<ChatMessage> _messages = [];
 
-  ChatBloc() : super(const ChatInitial()) {
-    on<ChatInitializeRequested>(_onChatInitializeRequested);
-    on<ChatMessageSent>(_onChatMessageSent);
-    on<ChatVoiceMessageSent>(_onChatVoiceMessageSent);
-    on<ChatMessageReceived>(_onChatMessageReceived);
-    on<ChatLoadHistoryRequested>(_onChatLoadHistoryRequested);
-    on<ChatClearRequested>(_onChatClearRequested);
+  ChatBloc() : super(const ChatState()) {
+    on<ChatMessageSent>(_onMessageSent);
+    on<ChatClearRequested>(_onClear);
   }
 
-  Future<void> _onChatInitializeRequested(
-    ChatInitializeRequested event,
-    Emitter<ChatState> emit,
-  ) async {
-    emit(const ChatLoading());
-    try {
-      await _chatService.initWebSocket();
-      emit(ChatConnected(_messages));
-    } catch (e) {
-      emit(ChatFailure(e.toString()));
-    }
-  }
+  Future<void> _onMessageSent(ChatMessageSent event, Emitter<ChatState> emit) async {
+    // 1. Add user message
+    final userMsg = ChatMessage(
+      id: const Uuid().v4(),
+      role: ChatMessageRole.user,
+      content: event.content,
+      timestamp: DateTime.now(),
+    );
+    final updated = [...state.messages, userMsg];
+    emit(state.copyWith(messages: updated, isTyping: true));
 
-  Future<void> _onChatMessageSent(
-    ChatMessageSent event,
-    Emitter<ChatState> emit,
-  ) async {
+    // 2. Call REST API
     try {
-      // Add user message locally
-      final userMessage = ChatMessage(
+      final data = await _chatService.sendMessage(event.content);
+
+      final botMsg = ChatMessage(
         id: const Uuid().v4(),
-        role: ChatMessageRole.user,
-        content: event.content,
+        role: ChatMessageRole.assistant,
+        content: data['message'] ?? '',
         timestamp: DateTime.now(),
+        intentType: data['intent_type'],
+        actionData: data['action_data'] != null
+            ? ChatActionData.fromJson(data['action_data'] as Map<String, dynamic>)
+            : null,
+        products: data['products'] as List<dynamic>?,
       );
 
-      _messages.add(userMessage);
-      emit(ChatMessageAdded(_messages, userMessage));
-
-      // Send through WebSocket (AI will respond)
-      _chatService.sendMessage(event.content);
+      emit(state.copyWith(messages: [...updated, botMsg], isTyping: false));
     } catch (e) {
-      emit(ChatFailure(e.toString()));
+      print('❌ ChatBloc error: $e');
+      final errorMsg = ChatMessage(
+        id: const Uuid().v4(),
+        role: ChatMessageRole.assistant,
+        content: 'Xin lỗi, có lỗi xảy ra: $e',
+        timestamp: DateTime.now(),
+      );
+      emit(state.copyWith(messages: [...updated, errorMsg], isTyping: false));
     }
   }
 
-  Future<void> _onChatVoiceMessageSent(
-    ChatVoiceMessageSent event,
-    Emitter<ChatState> emit,
-  ) async {
-    try {
-      _chatService.sendVoiceMessage(event.audioPath);
-    } catch (e) {
-      emit(ChatFailure(e.toString()));
-    }
-  }
-
-  Future<void> _onChatMessageReceived(
-    ChatMessageReceived event,
-    Emitter<ChatState> emit,
-  ) async {
-    _messages.add(event.message);
-    emit(ChatMessageAdded(_messages, event.message));
-  }
-
-  Future<void> _onChatLoadHistoryRequested(
-    ChatLoadHistoryRequested event,
-    Emitter<ChatState> emit,
-  ) async {
-    emit(const ChatLoading());
-    try {
-      final session = await _chatService.getChatHistory();
-      _messages = session.messages;
-      emit(ChatConnected(_messages));
-    } catch (e) {
-      emit(ChatFailure(e.toString()));
-    }
-  }
-
-  Future<void> _onChatClearRequested(
-    ChatClearRequested event,
-    Emitter<ChatState> emit,
-  ) async {
-    _messages = [];
-    emit(ChatConnected(_messages));
-  }
-
-  @override
-  Future<void> close() {
-    _chatService.closeConnection();
-    return super.close();
+  void _onClear(ChatClearRequested event, Emitter<ChatState> emit) {
+    _chatService.resetConversation();
+    emit(const ChatState());
   }
 }

@@ -48,12 +48,12 @@ TechShop là cửa hàng trực tuyến chuyên bán các sản phẩm công ngh
 1. search_products: Tìm sản phẩm trong kho TechShop.
 2. get_product_detail: Xem chi tiết thông số kỹ thuật sản phẩm (cần product_id từ search).
 3. compare_products: So sánh 2+ sản phẩm (cần product_ids từ search).
-4. add_to_cart: Thêm sản phẩm vào giỏ hàng (cần đăng nhập, cần product_id).
+4. add_to_cart: Thêm sản phẩm vào giỏ hàng (cần đăng nhập, cần product_id, có thể cần variant_id).
 5. get_cart: Xem giỏ hàng hiện tại (cần đăng nhập).
 6. proceed_to_checkout: Chuyển sang thanh toán (cần đăng nhập).
 7. get_order_status: Tra cứu đơn hàng (cần đăng nhập).
 8. get_promotions: Xem sản phẩm đang giảm giá.
-9. buy_product: Mua ngay sản phẩm, tạo đơn hàng trực tiếp không qua giỏ hàng (cần đăng nhập, cần product_id, có quantity).
+9. buy_product: Mua ngay sản phẩm, tạo đơn hàng + thanh toán PayOS (cần đăng nhập, cần product_id, có thể cần variant_id, có quantity).
 
 === QUY TẮC BẮT BUỘC ===
 - QUAN TRỌNG NHẤT: Bạn KHÔNG ĐƯỢC TỰ Ý thực hiện bất kỳ hành động nào mà KHÔNG gọi tool tương ứng.
@@ -69,6 +69,15 @@ TechShop là cửa hàng trực tuyến chuyên bán các sản phẩm công ngh
 - TUYỆT ĐỐI KHÔNG được nói "đã thêm vào giỏ hàng" hoặc "đã mua" hoặc "đã đặt hàng" mà không gọi tool. Đó là BỊA ĐẶT.
 - Khi kết quả search trả về, KẾT QUẢ CÓ KÈM ID VÀ SLUG. Hãy nhớ để dùng cho các tool sau.
 - Khi user nói "sản phẩm đầu tiên" / "cái thứ 2" / "2 cái cuối" → lấy đúng product_id từ danh sách trước đó.
+
+=== QUY TẮC CHỌN MÀU (VARIANT) ===
+- Khi gọi add_to_cart hoặc buy_product mà kết quả trả về action='select_variant' kèm danh sách màu/variant:
+  + Hãy hiển thị các màu có sẵn cho người dùng (tên màu, giá, tồn kho).
+  + Hỏi người dùng chọn màu nào.
+  + Khi người dùng trả lời chọn màu, hãy gọi LẠI tool add_to_cart/buy_product với variant_id tương ứng.
+- Nếu sản phẩm hết hàng (stock = 0) ở màu đó, thông báo cho người dùng.
+
+=== QUY TẮC CHUNG ===
 - Khi gọi tool xong, hãy viết câu trả lời tự nhiên dựa trên kết quả tool trả về. KHÔNG liệt kê lại toàn bộ (app sẽ hiển thị).
 - Luôn thân thiện, nhiệt tình, dùng ngôn ngữ tiếng Việt tự nhiên.
 - KHÔNG bịa thông tin về giá, tồn kho, khuyến mãi.
@@ -134,6 +143,7 @@ class ChatService:
             action_data = None
             products_snapshot = None
             last_tool_summary = None  # Lưu summary cuối cùng để persist vào DB
+            assistant_message = None  # Sẽ được set trong loop hoặc sau loop
 
             # Loop: xử lý function calls (tối đa MAX_TOOL_ROUNDS vòng)
             for round_num in range(MAX_TOOL_ROUNDS):
@@ -170,6 +180,11 @@ class ChatService:
                     action_data = tool_result["action_data"]
 
                 # Gửi function response lại cho Gemini
+                # Ngoại trừ: require_login / select_variant → dùng summary trực tiếp, không cần Gemini rephrase
+                if action_data and action_data.get("action") in ("require_login", "select_variant"):
+                    assistant_message = tool_result["summary"]
+                    break
+
                 fn_response = genai.protos.Part(
                     function_response=genai.protos.FunctionResponse(
                         name=tool_name,
@@ -181,8 +196,9 @@ class ChatService:
                     generation_config=genai.GenerationConfig(temperature=0.7, max_output_tokens=512),
                 )
 
-            # Extract final text
-            assistant_message = self._safe_extract_text(response)
+            # Extract final text (nếu chưa set từ early-break ở trên)
+            if not assistant_message:
+                assistant_message = self._safe_extract_text(response)
 
             # Fallback intent detection
             if intent_type == "general_knowledge":

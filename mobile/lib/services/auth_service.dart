@@ -39,6 +39,41 @@ class AuthService {
   bool get isAuthenticated => _isAuthenticated;
   String? get token => _token;
 
+  /// Check if the stored JWT token is still valid (not expired)
+  bool get isTokenValid {
+    if (_token == null) return false;
+    try {
+      // JWT format: header.payload.signature
+      final parts = _token!.split('.');
+      if (parts.length != 3) return false;
+      
+      // Decode the payload (base64url)
+      String payload = parts[1];
+      // Add padding if needed
+      switch (payload.length % 4) {
+        case 2: payload += '=='; break;
+        case 3: payload += '='; break;
+      }
+      final decoded = utf8.decode(base64Url.decode(payload));
+      final data = jsonDecode(decoded) as Map<String, dynamic>;
+      
+      if (data['exp'] == null) return false;
+      final expiry = DateTime.fromMillisecondsSinceEpoch(data['exp'] * 1000);
+      return DateTime.now().isBefore(expiry);
+    } catch (_) {
+      return false;
+    }
+  }
+
+  /// Verify authentication: check token validity + optionally verify with server
+  Future<bool> verifyAuth() async {
+    if (!_isAuthenticated || !isTokenValid) {
+      if (_isAuthenticated) await logout();
+      return false;
+    }
+    return true;
+  }
+
   /// Register new user
   Future<User> register({
     required String email,
