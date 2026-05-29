@@ -48,13 +48,22 @@ class CartClear extends CartEvent {
   const CartClear();
 }
 
+class CartDeleteSelected extends CartEvent {
+  final List<String> itemIds;
+  const CartDeleteSelected(this.itemIds);
+  @override
+  List<Object?> get props => [itemIds];
+}
+
 class CartCheckoutRequested extends CartEvent {
+  final List<CartItem>? items; // if null, checkout all items
   final String? addressId;
   final ShippingAddress? shippingAddress;
   final String? note;
   final String paymentMethod;
 
   const CartCheckoutRequested({
+    this.items,
     this.addressId,
     this.shippingAddress,
     this.note,
@@ -62,7 +71,7 @@ class CartCheckoutRequested extends CartEvent {
   });
 
   @override
-  List<Object?> get props => [addressId, shippingAddress, note, paymentMethod];
+  List<Object?> get props => [items, addressId, shippingAddress, note, paymentMethod];
 }
 
 // ── State ──
@@ -115,6 +124,7 @@ class CartBloc extends Bloc<CartEvent, CartState> {
     on<CartRemoveItem>(_onRemove);
     on<CartUpdateQuantity>(_onUpdateQty);
     on<CartClear>(_onClear);
+    on<CartDeleteSelected>(_onDeleteSelected);
     on<CartCheckoutRequested>(_onCheckout);
   }
 
@@ -172,11 +182,25 @@ class CartBloc extends Bloc<CartEvent, CartState> {
     }
   }
 
+  Future<void> _onDeleteSelected(CartDeleteSelected event, Emitter<CartState> emit) async {
+    emit(state.copyWith(isLoading: true));
+    try {
+      Cart cart = state.cart;
+      for (final id in event.itemIds) {
+        cart = await _cartService.removeCartItem(id);
+      }
+      emit(state.copyWith(cart: cart, isLoading: false));
+    } catch (_) {
+      emit(state.copyWith(isLoading: false));
+    }
+  }
+
   Future<void> _onCheckout(CartCheckoutRequested event, Emitter<CartState> emit) async {
     emit(state.copyWith(isCheckingOut: true, checkoutError: null, checkoutUrl: null));
     try {
+      final checkoutItems = event.items ?? state.cart.items;
       final result = await _cartService.createOrder(
-        items: state.cart.items,
+        items: checkoutItems,
         addressId: event.addressId,
         shippingAddress: event.shippingAddress,
         note: event.note,
@@ -186,8 +210,11 @@ class CartBloc extends Bloc<CartEvent, CartState> {
       final checkoutUrl = result['checkout_url'] as String?;
       final orderId = result['order_id']?.toString();
 
+      // After checkout, re-fetch to get remaining items
+      final updatedCart = await _cartService.getCart();
+
       emit(CartState(
-        cart: Cart(items: []),
+        cart: updatedCart,
         isCheckingOut: false,
         checkoutUrl: checkoutUrl,
         lastOrderId: orderId,
