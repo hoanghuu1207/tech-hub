@@ -50,7 +50,48 @@ def _get_product_image(product) -> str | None:
             return img.image_url
     return product.images[0].image_url if product.images else None
 
+class VariantOut(BaseModel):
+    id: UUID
+    color_name: str
+    color_hex: Optional[str]
+    price: float
+    stock_quantity: int
+
+    class Config:
+        from_attributes = True
+
 # ── Endpoints ──
+
+@router.get("/variants/{product_id}", summary="Lấy danh sách biến thể màu sắc của sản phẩm")
+async def get_product_variants(
+    product_id: UUID,
+    db: AsyncSession = Depends(get_db),
+):
+    product = await db.get(Product, product_id)
+    if not product or not product.is_active:
+        raise HTTPException(status_code=404, detail="Sản phẩm không tồn tại")
+
+    stmt = (
+        select(ProductVariant)
+        .where(ProductVariant.product_id == product_id, ProductVariant.is_active == True)
+        .order_by(ProductVariant.sort_order)
+    )
+    result = await db.execute(stmt)
+    variants = result.scalars().all()
+
+    return {
+        "success": True,
+        "data": [
+            VariantOut(
+                id=v.id,
+                color_name=v.color_name,
+                color_hex=v.color_hex,
+                price=float(v.sale_price_override or v.price_override or product.sale_price or product.base_price),
+                stock_quantity=v.stock_quantity,
+            )
+            for v in variants
+        ],
+    }
 
 @router.get("", response_model=CartResponse, summary="Lấy danh sách giỏ hàng")
 async def get_cart(

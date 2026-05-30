@@ -35,6 +35,25 @@ class CartService {
     }
   }
 
+  /// Get product variants — GET /api/v1/cart/variants/{productId}
+  Future<List<Map<String, dynamic>>> getProductVariants(String productId) async {
+    try {
+      print('🔍 Fetching variants for product: $productId');
+      final response = await _apiService.get('/cart/variants/$productId');
+      print('📦 Variants response: $response');
+      final data = jsonDecode(response) as Map<String, dynamic>;
+      if (data['success'] == true && data['data'] != null) {
+        final variants = List<Map<String, dynamic>>.from(data['data'] as List);
+        print('✅ Found ${variants.length} variants');
+        return variants;
+      }
+      return [];
+    } catch (e) {
+      print('❌ getProductVariants error: $e');
+      return [];
+    }
+  }
+
   /// Add item to backend cart — POST /api/v1/cart
   Future<Cart> addToCart({
     required String productId,

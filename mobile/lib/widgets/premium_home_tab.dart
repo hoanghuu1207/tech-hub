@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:intl/intl.dart';
 import '../bloc/index.dart';
 import '../models/index.dart';
 import '../services/auth_service.dart';
 import '../services/product_service.dart';
+import '../services/cart_service.dart';
 import '../utils/index.dart';
 
 // ── Premium Dark Colors ──
@@ -603,17 +605,44 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
     );
   }
 
-  void _onAddToCart(Product product) {
+  void _onAddToCart(Product product) async {
     if (!AuthService().isTokenValid) {
-      // Not logged in — switch to cart tab which shows login UI
       if (widget.onCartTap != null) widget.onCartTap!();
       return;
     }
-    context.read<CartBloc>().add(CartAddItem(
-      productId: product.id,
-      quantity: 1,
-    ));
-    AppSnackbars.showSuccess(context, '${product.name} đã thêm vào giỏ');
+
+    // Fetch variants
+    final variants = await CartService().getProductVariants(product.id);
+
+    if (variants.isEmpty) {
+      // No variants — add directly
+      if (!mounted) return;
+      context.read<CartBloc>().add(CartAddItem(productId: product.id, quantity: 1));
+      AppSnackbars.showSuccess(context, '${product.name} đã thêm vào giỏ');
+      return;
+    }
+
+    if (!mounted) return;
+    // Show variant picker bottom sheet
+    final selectedVariantId = await showModalBottomSheet<String>(
+      context: context,
+      backgroundColor: Colors.transparent,
+      builder: (_) => _VariantPickerSheet(
+        productName: product.name,
+        variants: variants,
+        productImage: product.images.isNotEmpty ? product.images.first : null,
+      ),
+    );
+
+    if (selectedVariantId != null && mounted) {
+      context.read<CartBloc>().add(CartAddItem(
+        productId: product.id,
+        variantId: selectedVariantId,
+        quantity: 1,
+      ));
+      final picked = variants.firstWhere((v) => v['id'] == selectedVariantId);
+      AppSnackbars.showSuccess(context, '${product.name} (${picked['color_name']}) đã thêm vào giỏ');
+    }
   }
 
   Widget _buildShimmerCard() {
@@ -653,4 +682,145 @@ class _PromoBanner {
   final List<Color> gradient;
   final IconData icon;
   _PromoBanner(this.title, this.subtitle, this.gradient, this.icon);
+}
+
+// ── Variant Picker Bottom Sheet ──
+class _VariantPickerSheet extends StatefulWidget {
+  final String productName;
+  final List<Map<String, dynamic>> variants;
+  final String? productImage;
+
+  const _VariantPickerSheet({
+    required this.productName,
+    required this.variants,
+    this.productImage,
+  });
+
+  @override
+  State<_VariantPickerSheet> createState() => _VariantPickerSheetState();
+}
+
+class _VariantPickerSheetState extends State<_VariantPickerSheet> {
+  int _selectedIndex = 0;
+
+  Color _hex(String? hex) {
+    if (hex == null || hex.isEmpty) return Colors.grey;
+    String h = hex.replaceFirst('#', '');
+    if (h.length == 6) h = 'FF$h';
+    return Color(int.parse(h, radix: 16));
+  }
+
+  String _fmtPrice(double p) => '${NumberFormat('#,###', 'vi_VN').format(p)}đ';
+
+  @override
+  Widget build(BuildContext context) {
+    final v = widget.variants[_selectedIndex];
+    return Container(
+      decoration: const BoxDecoration(
+        color: Color(0xFF1E293B),
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      padding: const EdgeInsets.fromLTRB(20, 12, 20, 24),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          // Handle bar
+          Container(width: 40, height: 4,
+            decoration: BoxDecoration(color: Colors.white24, borderRadius: BorderRadius.circular(2))),
+          const SizedBox(height: 16),
+          // Product info row
+          Row(children: [
+            if (widget.productImage != null)
+              ClipRRect(
+                borderRadius: BorderRadius.circular(12),
+                child: Image.network(widget.productImage!, width: 56, height: 56, fit: BoxFit.cover,
+                  errorBuilder: (_, __, ___) => Container(width: 56, height: 56,
+                    decoration: BoxDecoration(color: const Color(0xFF273548), borderRadius: BorderRadius.circular(12)),
+                    child: const Icon(Icons.devices, color: Color(0xFF64748B), size: 24))),
+              ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(widget.productName, maxLines: 2, overflow: TextOverflow.ellipsis,
+                  style: GoogleFonts.outfit(fontSize: 15, fontWeight: FontWeight.w700, color: const Color(0xFFF8FAFC))),
+                const SizedBox(height: 4),
+                Text(_fmtPrice((v['price'] as num).toDouble()),
+                  style: GoogleFonts.outfit(fontSize: 16, fontWeight: FontWeight.w800, color: const Color(0xFF10B981))),
+              ]),
+            ),
+          ]),
+          const SizedBox(height: 20),
+          // Label
+          Align(
+            alignment: Alignment.centerLeft,
+            child: Text('Chọn màu sắc', style: GoogleFonts.outfit(
+              fontSize: 14, fontWeight: FontWeight.w600, color: const Color(0xFF94A3B8))),
+          ),
+          const SizedBox(height: 12),
+          // Color options
+          Wrap(
+            spacing: 10, runSpacing: 10,
+            children: List.generate(widget.variants.length, (i) {
+              final vr = widget.variants[i];
+              final isSel = i == _selectedIndex;
+              final inStock = (vr['stock_quantity'] as int? ?? 0) > 0;
+              return GestureDetector(
+                onTap: inStock ? () => setState(() => _selectedIndex = i) : null,
+                child: AnimatedContainer(
+                  duration: const Duration(milliseconds: 150),
+                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                  decoration: BoxDecoration(
+                    color: isSel ? const Color(0xFF6366F1).withOpacity(0.15) : const Color(0xFF273548),
+                    borderRadius: BorderRadius.circular(12),
+                    border: Border.all(
+                      color: isSel ? const Color(0xFF6366F1) : const Color(0xFF334155),
+                      width: isSel ? 1.5 : 1,
+                    ),
+                  ),
+                  child: Opacity(
+                    opacity: inStock ? 1.0 : 0.4,
+                    child: Row(mainAxisSize: MainAxisSize.min, children: [
+                      Container(width: 18, height: 18,
+                        decoration: BoxDecoration(
+                          color: _hex(vr['color_hex'] as String?),
+                          shape: BoxShape.circle,
+                          border: Border.all(color: Colors.white24, width: 1.5),
+                        )),
+                      const SizedBox(width: 8),
+                      Text(vr['color_name'] as String,
+                        style: GoogleFonts.outfit(fontSize: 13, fontWeight: FontWeight.w600,
+                          color: isSel ? const Color(0xFFF8FAFC) : const Color(0xFF94A3B8))),
+                      if (!inStock) ...[
+                        const SizedBox(width: 6),
+                        Text('Hết hàng', style: GoogleFonts.outfit(fontSize: 10, color: const Color(0xFFF43F5E))),
+                      ],
+                    ]),
+                  ),
+                ),
+              );
+            }),
+          ),
+          const SizedBox(height: 20),
+          // Confirm button
+          SizedBox(
+            width: double.infinity, height: 50,
+            child: ElevatedButton(
+              onPressed: () => Navigator.pop(context, widget.variants[_selectedIndex]['id'] as String),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFF6366F1),
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+                elevation: 0,
+              ),
+              child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                const Icon(Icons.shopping_cart_rounded, size: 18),
+                const SizedBox(width: 8),
+                Text('Thêm vào giỏ hàng', style: GoogleFonts.outfit(fontSize: 15, fontWeight: FontWeight.w700)),
+              ]),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
 }
