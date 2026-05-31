@@ -29,6 +29,7 @@ class Settings(BaseSettings):
     PAYOS_CLIENT_ID: str
     PAYOS_API_KEY: str
     PAYOS_CHECKSUM_KEY: str
+    PAYMENT_REDIRECT_BASE_URL: str = "http://localhost:8000"
 
     model_config = SettingsConfigDict(
         env_file=".env",

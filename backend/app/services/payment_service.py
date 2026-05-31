@@ -45,6 +45,14 @@ PAYOS_CHECKSUM_KEY = settings.PAYOS_CHECKSUM_KEY
 RETURN_URL = "techshop://payment/success"
 CANCEL_URL = "techshop://payment/cancel"
 
+def _build_return_url(order_id) -> str:
+    base = settings.PAYMENT_REDIRECT_BASE_URL.rstrip("/")
+    return f"{base}/api/v1/payment/result?status=success&orderId={order_id}"
+
+def _build_cancel_url(order_id) -> str:
+    base = settings.PAYMENT_REDIRECT_BASE_URL.rstrip("/")
+    return f"{base}/api/v1/payment/result?status=cancelled&orderId={order_id}"
+
 
 class PaymentService:
     """Service tích hợp PayOS cho thanh toán đơn hàng."""
@@ -201,8 +209,8 @@ class PaymentService:
                     amount=int(total_amount),
                     description=f"TechShop #{order_code}",
                     items=payos_item_list,
-                    returnUrl=RETURN_URL + f"?orderId={order.id}",
-                    cancelUrl=CANCEL_URL + f"?orderId={order.id}",
+                    returnUrl=_build_return_url(str(order.id)),
+                    cancelUrl=_build_cancel_url(str(order.id)),
                     expiredAt=int(time.time()) + 15 * 60,  # 15 phút
                 )
 
@@ -243,15 +251,17 @@ class PaymentService:
                 status="cod_pending",
             ))
 
-        # ── 5. Xóa cart items đã mua (nếu có) ──
-        product_ids = [item.product_id for item in request.items]
-        stmt = select(CartItem).where(
-            CartItem.user_id == user.id,
-            CartItem.product_id.in_(product_ids),
-        )
-        result = await db.execute(stmt)
-        for cart_item in result.scalars().all():
-            await db.delete(cart_item)
+        # ── 5. Xóa cart items đã mua ──
+        # Chỉ xóa ngay cho COD; PayOS sẽ xóa trong webhook khi thanh toán thành công
+        if request.payment_method == "cod":
+            product_ids = [item.product_id for item in request.items]
+            stmt = select(CartItem).where(
+                CartItem.user_id == user.id,
+                CartItem.product_id.in_(product_ids),
+            )
+            result = await db.execute(stmt)
+            for cart_item in result.scalars().all():
+                await db.delete(cart_item)
 
         await db.commit()
 
@@ -324,6 +334,17 @@ class PaymentService:
                     # Cập nhật sold_count trên Product
                     if item.product:
                         item.product.sold_count = (item.product.sold_count or 0) + item.quantity
+
+                # ── Xóa cart items sau khi thanh toán thành công ──
+                product_ids = [item.product_id for item in order.items]
+                cart_stmt = select(CartItem).where(
+                    CartItem.user_id == order.user_id,
+                    CartItem.product_id.in_(product_ids),
+                )
+                cart_result = await db.execute(cart_stmt)
+                for cart_item in cart_result.scalars().all():
+                    await db.delete(cart_item)
+                logger.info(f"💳 [Cart] Cleared {len(product_ids)} cart items after payment")
 
                 logger.info(f"💳 [Webhook] ✅ Order #{order_code} PAID + Stock deducted")
             else:

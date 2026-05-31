@@ -77,6 +77,7 @@ async def http_exception_handler(request: Request, exc: StarletteHTTPException):
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError):
     # Lỗi do input schema JSON sai rules
+    logger.error(f"❌ Validation Error on {request.method} {request.url.path}: {exc.errors()}")
     return error_response(message="Invalid input data base on definitions", status_code=422)
 
 @app.exception_handler(RateLimitExceeded)
