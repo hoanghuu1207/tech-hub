@@ -7,6 +7,8 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../bloc/cart_bloc.dart';
 import '../../models/cart_model.dart';
 import '../../services/auth_service.dart';
+import 'payment_webview_screen.dart';
+import 'payment_result_screen.dart';
 
 // ── Design tokens ──
 class _K {
@@ -67,7 +69,13 @@ class _CartScreenState extends State<CartScreen> {
     return BlocConsumer<CartBloc, CartState>(
       listener: (context, state) {
         if (state.checkoutUrl != null && state.checkoutUrl!.isNotEmpty) {
-          _openCheckoutUrl(state.checkoutUrl!);
+          // PayOS → open WebView
+          Navigator.of(context).push(MaterialPageRoute(
+            builder: (_) => PaymentWebViewScreen(
+              checkoutUrl: state.checkoutUrl!,
+              orderId: state.lastOrderId ?? '',
+            ),
+          ));
         }
         if (state.checkoutError != null) {
           ScaffoldMessenger.of(context).showSnackBar(SnackBar(
@@ -75,9 +83,14 @@ class _CartScreenState extends State<CartScreen> {
             backgroundColor: _K.rose,
           ));
         }
-        if (state.lastOrderId != null && state.checkoutUrl == null) {
-          // COD order success
-          _showOrderSuccessDialog(context, state.lastOrderId!);
+        if (state.lastOrderId != null && state.checkoutUrl == null && !state.isCheckingOut) {
+          // COD → direct success
+          Navigator.of(context).push(MaterialPageRoute(
+            builder: (_) => PaymentResultScreen(
+              isSuccess: true,
+              orderId: state.lastOrderId!,
+            ),
+          ));
         }
       },
       builder: (context, state) {
@@ -586,7 +599,7 @@ class _CartScreenState extends State<CartScreen> {
         controller: controller,
         keyboardType: keyboardType,
         maxLines: maxLines,
-        style: GoogleFonts.outfit(fontSize: 14, color: _K.textPrimary),
+        style: GoogleFonts.outfit(fontSize: 14, color: Colors.black),
         decoration: InputDecoration(
           hintText: hint,
           hintStyle: GoogleFonts.outfit(fontSize: 14, color: _K.textMuted),
@@ -613,12 +626,83 @@ class _CartScreenState extends State<CartScreen> {
 
     final bloc = context.read<CartBloc>();
     final selectedItems = bloc.state.cart.items.where((i) => _selectedIds.contains(i.id)).toList();
+    final selectedTotal = selectedItems.fold<double>(0, (sum, i) => sum + i.subtotal);
 
+    // Show confirm dialog
+    showDialog(
+      context: context,
+      builder: (_) => Dialog(
+        backgroundColor: _K.surface,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+        child: Padding(
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              // Icon
+              Container(
+                width: 64, height: 64,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: _K.primary.withOpacity(0.15),
+                ),
+                child: const Icon(Icons.shopping_bag_outlined, color: _K.primary, size: 32),
+              ),
+              const SizedBox(height: 20),
+              Text('Xác nhận đặt hàng',
+                style: GoogleFonts.outfit(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold)),
+              const SizedBox(height: 12),
+              Text('${selectedItems.length} sản phẩm • ${_formatPrice(selectedTotal)}',
+                style: GoogleFonts.outfit(color: _K.emerald, fontSize: 16, fontWeight: FontWeight.w700)),
+              const SizedBox(height: 8),
+              Text('Thanh toán qua: ${_paymentMethod == "payos" ? "PayOS" : "COD"}',
+                style: GoogleFonts.outfit(color: _K.textSecondary, fontSize: 14)),
+              const SizedBox(height: 24),
+              Row(
+                children: [
+                  Expanded(
+                    child: OutlinedButton(
+                      onPressed: () => Navigator.pop(context),
+                      style: OutlinedButton.styleFrom(
+                        side: BorderSide(color: Colors.white.withOpacity(0.2)),
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                      ),
+                      child: Text('Hủy', style: GoogleFonts.outfit(color: Colors.white70)),
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: ElevatedButton(
+                      onPressed: () {
+                        Navigator.pop(context); // close dialog
+                        _performCheckout(context, selectedItems);
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: _K.primary,
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                      ),
+                      child: Text('Đồng ý',
+                        style: GoogleFonts.outfit(color: Colors.white, fontWeight: FontWeight.w700)),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _performCheckout(BuildContext context, List<CartItem> selectedItems) {
+    final bloc = context.read<CartBloc>();
     bloc.add(CartCheckoutRequested(
       items: selectedItems,
       shippingAddress: ShippingAddress(
-        recipientName: name,
-        phone: phone,
+        recipientName: _nameController.text.trim(),
+        phone: _phoneController.text.trim(),
         province: _provinceController.text.trim(),
         district: _districtController.text.trim(),
         ward: _wardController.text.trim(),
@@ -629,51 +713,6 @@ class _CartScreenState extends State<CartScreen> {
     ));
 
     setState(() => _selectedIds.clear());
-  }
-
-  void _openCheckoutUrl(String url) async {
-    final uri = Uri.parse(url);
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    }
-  }
-
-  void _showOrderSuccessDialog(BuildContext context, String orderId) {
-    showDialog(
-      context: context,
-      builder: (_) => AlertDialog(
-        backgroundColor: _K.surface,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Container(
-              width: 56, height: 56,
-              decoration: BoxDecoration(color: _K.emerald.withOpacity(0.15), shape: BoxShape.circle),
-              child: const Icon(Icons.check_circle_rounded, color: _K.emerald, size: 36),
-            ),
-            const SizedBox(height: 16),
-            Text('Đặt hàng thành công!', style: GoogleFonts.outfit(fontSize: 18, fontWeight: FontWeight.w700, color: _K.textPrimary)),
-            const SizedBox(height: 8),
-            Text('Đơn hàng COD sẽ được giao đến bạn.', textAlign: TextAlign.center,
-              style: GoogleFonts.outfit(fontSize: 13, color: _K.textSecondary)),
-            const SizedBox(height: 20),
-            SizedBox(
-              width: double.infinity,
-              child: ElevatedButton(
-                onPressed: () => Navigator.pop(context),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: _K.primary,
-                  foregroundColor: Colors.white,
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                ),
-                child: Text('Đóng', style: GoogleFonts.outfit(fontWeight: FontWeight.w700)),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
   }
 
   // ── HELPERS ──
@@ -688,3 +727,4 @@ class _CartScreenState extends State<CartScreen> {
     return '${f.format(price)}đ';
   }
 }
+

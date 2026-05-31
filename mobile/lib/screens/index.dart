@@ -6,3 +6,5 @@ export 'cart_screen.dart';
 export 'profile_screen.dart';
 export 'edit_profile_screen.dart';
 export 'change_password_screen.dart';
+export 'payment_webview_screen.dart';
+export 'payment_result_screen.dart';

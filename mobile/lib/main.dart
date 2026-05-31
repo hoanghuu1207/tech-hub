@@ -171,6 +171,13 @@ class MyApp extends StatelessWidget {
       '/profile': (context) => const ProfileScreen(),
       '/edit-profile': (context) => const EditProfileScreen(),
       '/change-password': (context) => const ChangePasswordScreen(),
+      '/payment-result': (context) {
+        final args = ModalRoute.of(context)!.settings.arguments as Map<String, dynamic>;
+        return PaymentResultScreen(
+          isSuccess: args['isSuccess'] as bool,
+          orderId: args['orderId'] as String,
+        );
+      },
     };
   }
 }
