@@ -1,7 +1,10 @@
 from fastapi import APIRouter
-from app.api.v1.endpoints import auth, ai, chat, orders, webhook, cart, payment_redirect
+from app.api.v1.endpoints import auth, ai, chat, orders, webhook, cart, payment_redirect, catalog
 
 api_router = APIRouter()
+
+# Mount Catalog sub-router (Categories, Brands, ProductLines)
+api_router.include_router(catalog.router, prefix="/catalog", tags=["catalog"])
 
 # Mount auth sub-router vào hệ thống
 api_router.include_router(auth.router, prefix="/auth", tags=["auth"])
