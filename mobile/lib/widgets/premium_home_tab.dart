@@ -29,12 +29,14 @@ class PremiumHomeTab extends StatefulWidget {
   final VoidCallback? onProfileTap;
   final VoidCallback? onCartTap;
   final VoidCallback? onSearchTap;
+  final VoidCallback? onProductsTap;
 
   const PremiumHomeTab({
     Key? key,
     this.onProfileTap,
     this.onCartTap,
     this.onSearchTap,
+    this.onProductsTap,
   }) : super(key: key);
 
   @override
@@ -406,7 +408,7 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
             ],
           ),
           GestureDetector(
-            onTap: () => Navigator.of(context).pushNamed('/products'),
+            onTap: widget.onProductsTap ?? () => Navigator.of(context).pushNamed('/products'),
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
               decoration: BoxDecoration(border: Border.all(color: _C.divider), borderRadius: BorderRadius.circular(10)),

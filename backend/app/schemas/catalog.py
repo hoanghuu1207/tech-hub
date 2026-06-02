@@ -119,6 +119,18 @@ class LineProductsData(BaseModel):
     total: int
 
 
+class AllProductsData(BaseModel):
+    products: List[ProductCompact]
+    total: int
+
+
+class AllProductsResponse(BaseModel):
+    """Response cho API lấy tất cả products (không filter)."""
+    success: bool = True
+    message: str = "OK"
+    data: Optional[AllProductsData] = None
+
+
 # Resolve forward references
 CategoryProductsResponse.model_rebuild()
 BrandProductsResponse.model_rebuild()

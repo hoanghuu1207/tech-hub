@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:google_fonts/google_fonts.dart';
+import '../bloc/cart_bloc.dart';
 import 'payment_result_screen.dart';
 
 class PaymentWebViewScreen extends StatefulWidget {
@@ -24,6 +26,9 @@ class _PaymentWebViewScreenState extends State<PaymentWebViewScreen> {
   void _goToResult({required bool isSuccess, String? orderId}) {
     if (_navigated || !mounted) return;
     _navigated = true;
+    if (isSuccess) {
+      context.read<CartBloc>().add(const CartFetch());
+    }
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
         builder: (_) => PaymentResultScreen(
@@ -109,9 +114,13 @@ class _PaymentWebViewScreenState extends State<PaymentWebViewScreen> {
   /// Parse status & orderId from any result URL and navigate
   void _handleResultUrl(String url) {
     final uri = Uri.parse(url);
-    final status = uri.queryParameters['status'] ?? 'cancelled';
+    final statuses = uri.queryParametersAll['status'] ?? [];
+    final isSuccess = statuses.any((s) {
+      final lower = s.toLowerCase();
+      return lower == 'success' || lower == 'paid';
+    });
     final orderId = uri.queryParameters['orderId'] ?? widget.orderId;
-    _goToResult(isSuccess: status == 'success', orderId: orderId);
+    _goToResult(isSuccess: isSuccess, orderId: orderId);
   }
 
   void _onClose() {

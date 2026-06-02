@@ -4,3 +4,4 @@ export 'product_service.dart';
 export 'order_service.dart';
 export 'chat_service.dart';
 export 'cart_service.dart';
+export 'catalog_service.dart';

@@ -3,7 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../bloc/chat_bloc.dart';
 import '../../bloc/cart_bloc.dart';
+import '../../bloc/catalog_bloc.dart';
 import '../../widgets/premium_home_tab.dart';
+import '../../widgets/products_tab.dart';
 import '../../widgets/chat_bottom_sheet.dart';
 import 'cart_screen.dart';
 import 'profile_screen.dart';
@@ -43,10 +45,11 @@ class _HomeScreenState extends State<HomeScreen> {
             onProfileTap: () => setState(() => _selectedTab = 4),
             onCartTap: () => setState(() => _selectedTab = 2),
             onSearchTap: () => Navigator.of(context).pushNamed('/search'),
+            onProductsTap: () => setState(() => _selectedTab = 1),
           ),
-          const Scaffold(
-            backgroundColor: _bgDark,
-            body: Center(child: Text('Search', style: TextStyle(color: Colors.white))),
+          BlocProvider(
+            create: (_) => CatalogBloc()..add(const CatalogStarted()),
+            child: const ProductsTab(),
           ),
           CartScreen(
             onContinueShopping: () => setState(() => _selectedTab = 0),
@@ -121,7 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   _buildNavItem(Icons.home_rounded, 'Trang chủ', 0),
-                  _buildNavItem(Icons.search_rounded, 'Tìm kiếm', 1),
+                  _buildNavItem(Icons.grid_view_rounded, 'Sản phẩm', 1),
                   _buildNavItem(Icons.shopping_bag_rounded, 'Giỏ hàng', 2, badgeCount: cartState.cart.itemCount),
                   _buildNavItem(Icons.receipt_long_rounded, 'Đơn hàng', 3),
                   _buildNavItem(Icons.person_rounded, 'Tài khoản', 4),

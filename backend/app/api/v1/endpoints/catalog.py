@@ -19,9 +19,32 @@ from app.schemas.catalog import (
     CategoryProductsResponse, CategoryProductsData,
     BrandProductsResponse, BrandProductsData,
     LineProductsResponse, LineProductsData,
+    AllProductsResponse, AllProductsData,
 )
 
 router = APIRouter()
+
+
+# ─── 0. Tất cả sản phẩm (không filter) ───────────────────
+
+@router.get(
+    "/products",
+    response_model=AllProductsResponse,
+    summary="Tất cả sản phẩm",
+    description="Lấy tất cả products không phân biệt category/brand. Dùng khi chưa chọn filter nào.",
+)
+async def list_all_products(
+    limit: int = Query(50, ge=1, le=100),
+    offset: int = Query(0, ge=0),
+    db: AsyncSession = Depends(get_db),
+):
+    products = await catalog_service._query_products(db, limit=limit, offset=offset)
+    total = await catalog_service._count_products(db)
+    data = AllProductsData(
+        products=[catalog_service._product_to_compact(p) for p in products],
+        total=total,
+    )
+    return AllProductsResponse(data=data)
 
 
 # ─── 1. Danh sách categories gốc + brands ────────────────
