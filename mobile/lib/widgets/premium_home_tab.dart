@@ -326,7 +326,7 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
         ),
         _isLoadingCategories
             ? SizedBox(
-                height: 44,
+                height: 48,
                 child: ListView.builder(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   scrollDirection: Axis.horizontal,
@@ -339,7 +339,7 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
                 ),
               )
             : SizedBox(
-                height: 44,
+                height: 48,
                 child: ListView.builder(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   scrollDirection: Axis.horizontal,
@@ -364,7 +364,7 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
       },
       child: Container(
         margin: const EdgeInsets.symmetric(horizontal: 4),
-        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 5),
         decoration: BoxDecoration(
           color: isSelected ? _C.primary : _C.surface,
           borderRadius: BorderRadius.circular(12),
@@ -435,7 +435,7 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
         sliver: SliverGrid(
           delegate: SliverChildBuilderDelegate((_, __) => _buildShimmerCard(), childCount: 4),
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, mainAxisSpacing: 12, crossAxisSpacing: 12, childAspectRatio: 0.62,
+            crossAxisCount: 2, mainAxisSpacing: 12, crossAxisSpacing: 12, childAspectRatio: 0.49,
           ),
         ),
       );
@@ -491,7 +491,7 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
           childCount: _products.length,
         ),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2, mainAxisSpacing: 12, crossAxisSpacing: 12, childAspectRatio: 0.62,
+          crossAxisCount: 2, mainAxisSpacing: 12, crossAxisSpacing: 12, childAspectRatio: 0.49,
         ),
       ),
     );
@@ -566,7 +566,13 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
                     const Icon(Icons.star_rounded, size: 14, color: _C.amber),
                     const SizedBox(width: 3),
                     Text(AppFormatters.formatRating(product.rating), style: GoogleFonts.outfit(fontSize: 12, fontWeight: FontWeight.w600, color: _C.textSecondary)),
-                    Text(' (${product.reviewCount})', style: GoogleFonts.outfit(fontSize: 11, color: _C.textMuted)),
+                    Flexible(
+                      child: Text(' (${product.reviewCount})',
+                        style: GoogleFonts.outfit(fontSize: 11, color: _C.textMuted),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
                   ]),
                   const SizedBox(height: 6),
                   Row(

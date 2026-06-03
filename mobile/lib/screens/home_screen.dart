@@ -144,7 +144,7 @@ class _HomeScreenState extends State<HomeScreen> {
       behavior: HitTestBehavior.opaque,
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 200),
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
         decoration: BoxDecoration(
           color: isActive ? _primaryColor.withOpacity(0.15) : Colors.transparent,
           borderRadius: BorderRadius.circular(12),

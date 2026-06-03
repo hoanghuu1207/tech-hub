@@ -80,43 +80,46 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
       snap: true,
       snapSizes: const [0.0, 0.55, 0.92],
       builder: (context, scrollController) {
-        return ClipRRect(
-          borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
-          child: BackdropFilter(
-            filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
-            child: Container(
-              decoration: BoxDecoration(
-                color: _K.bg.withOpacity(0.95),
-                borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
-                border: Border(top: BorderSide(color: _K.primary.withOpacity(0.3), width: 1.5)),
-              ),
-              child: Column(
-                children: [
-                  // ── Drag Handle ──
-                  GestureDetector(
-                    onTap: () => Navigator.pop(context),
-                    child: Container(
-                      width: double.infinity,
-                      padding: const EdgeInsets.only(top: 10, bottom: 6),
-                      child: Center(
-                        child: Container(
-                          width: 40, height: 4,
-                          decoration: BoxDecoration(
-                            color: _K.textMuted.withOpacity(0.5),
-                            borderRadius: BorderRadius.circular(2),
+        return Padding(
+          padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
+          child: ClipRRect(
+            borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
+              child: Container(
+                decoration: BoxDecoration(
+                  color: _K.bg.withOpacity(0.95),
+                  borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+                  border: Border(top: BorderSide(color: _K.primary.withOpacity(0.3), width: 1.5)),
+                ),
+                child: Column(
+                  children: [
+                    // ── Drag Handle ──
+                    GestureDetector(
+                      onTap: () => Navigator.pop(context),
+                      child: Container(
+                        width: double.infinity,
+                        padding: const EdgeInsets.only(top: 10, bottom: 6),
+                        child: Center(
+                          child: Container(
+                            width: 40, height: 4,
+                            decoration: BoxDecoration(
+                              color: _K.textMuted.withOpacity(0.5),
+                              borderRadius: BorderRadius.circular(2),
+                            ),
                           ),
                         ),
                       ),
                     ),
-                  ),
-                  // ── Header ──
-                  _buildHeader(),
-                  Divider(height: 1, color: _K.divider.withOpacity(0.5)),
-                  // ── Messages ──
-                  Expanded(child: _buildMessageList()),
-                  // ── Input ──
-                  _buildInputBar(),
-                ],
+                    // ── Header ──
+                    _buildHeader(),
+                    Divider(height: 1, color: _K.divider.withOpacity(0.5)),
+                    // ── Messages ──
+                    Expanded(child: _buildMessageList()),
+                    // ── Input ──
+                    _buildInputBar(),
+                  ],
+                ),
               ),
             ),
           ),
@@ -197,37 +200,40 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
 
   Widget _buildEmptyState() {
     return Center(
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Container(
-            width: 64, height: 64,
-            decoration: BoxDecoration(
-              color: _K.primary.withOpacity(0.15),
-              shape: BoxShape.circle,
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 16),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              width: 64, height: 64,
+              decoration: BoxDecoration(
+                color: _K.primary.withOpacity(0.15),
+                shape: BoxShape.circle,
+              ),
+              child: const Icon(Icons.psychology_rounded, color: _K.primary, size: 32),
             ),
-            child: const Icon(Icons.psychology_rounded, color: _K.primary, size: 32),
-          ),
-          const SizedBox(height: 16),
-          Text('Xin chào! 👋', style: GoogleFonts.outfit(
-            fontSize: 20, fontWeight: FontWeight.w700, color: _K.textPrimary,
-          )),
-          const SizedBox(height: 8),
-          Text('Tôi là TechBot, trợ lý AI mua sắm.\nHỏi tôi về sản phẩm, đặt hàng, hay bất cứ điều gì!',
-            textAlign: TextAlign.center,
-            style: GoogleFonts.outfit(fontSize: 13, color: _K.textSecondary, height: 1.5),
-          ),
-          const SizedBox(height: 20),
-          Wrap(
-            spacing: 8, runSpacing: 8,
-            alignment: WrapAlignment.center,
-            children: [
-              _buildSuggestionChip('Tìm laptop dưới 20 triệu'),
-              _buildSuggestionChip('iPhone mới nhất giá bao nhiêu?'),
-              _buildSuggestionChip('Xem giỏ hàng'),
-            ],
-          ),
-        ],
+            const SizedBox(height: 16),
+            Text('Xin chào! 👋', style: GoogleFonts.outfit(
+              fontSize: 20, fontWeight: FontWeight.w700, color: _K.textPrimary,
+            )),
+            const SizedBox(height: 8),
+            Text('Tôi là TechBot, trợ lý AI mua sắm.\nHỏi tôi về sản phẩm, đặt hàng, hay bất cứ điều gì!',
+              textAlign: TextAlign.center,
+              style: GoogleFonts.outfit(fontSize: 13, color: _K.textSecondary, height: 1.5),
+            ),
+            const SizedBox(height: 20),
+            Wrap(
+              spacing: 8, runSpacing: 8,
+              alignment: WrapAlignment.center,
+              children: [
+                _buildSuggestionChip('Tìm laptop dưới 20 triệu'),
+                _buildSuggestionChip('iPhone mới nhất giá bao nhiêu?'),
+                _buildSuggestionChip('Xem giỏ hàng'),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -633,20 +639,35 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
           Expanded(
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 14),
-              decoration: BoxDecoration(
-                color: _K.bg,
-                borderRadius: BorderRadius.circular(24),
-                border: Border.all(color: _K.divider),
-              ),
               child: TextField(
                 controller: _controller,
                 focusNode: _focusNode,
-                style: GoogleFonts.outfit(fontSize: 14, color: _K.textPrimary),
+                style: GoogleFonts.outfit(fontSize: 14, color: Colors.white), // black
                 decoration: InputDecoration(
                   hintText: 'Hỏi TechBot bất cứ điều gì...',
                   hintStyle: GoogleFonts.outfit(fontSize: 14, color: _K.textMuted),
-                  border: InputBorder.none,
-                  contentPadding: const EdgeInsets.symmetric(vertical: 12),
+                  filled: true,
+                  fillColor: _K.bg,
+                  contentPadding: const EdgeInsets.symmetric(vertical: 12, horizontal: 6),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(24),
+                    borderSide: BorderSide(
+                      color: _K.divider,
+                    ),
+                  ),
+                   enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(24),
+                    borderSide: BorderSide(
+                      color: _K.divider,
+                    ),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(24),
+                    borderSide: BorderSide(
+                      color: _K.divider,
+                      width: 1.5,
+                    ),
+                  ),
                 ),
                 onSubmitted: (_) => _sendMessage(),
                 textInputAction: TextInputAction.send,

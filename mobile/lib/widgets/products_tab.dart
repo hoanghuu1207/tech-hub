@@ -112,7 +112,7 @@ class ProductsTab extends StatelessWidget {
     return SliverPersistentHeader(
       pinned: true,
       delegate: _FixedHeightDelegate(
-        height: 60,
+        height: 64,
         child: Container(
           color: _C.bg,
           padding: const EdgeInsets.symmetric(vertical: 8),
@@ -162,8 +162,8 @@ class ProductsTab extends StatelessWidget {
       onTap: onTap,
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 200),
-        margin: const EdgeInsets.symmetric(horizontal: 4),
-        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+        margin: const EdgeInsets.symmetric(horizontal: 4, vertical: 4),
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 5),
         decoration: BoxDecoration(
           color: isSelected ? _C.primary : _C.surface,
           borderRadius: BorderRadius.circular(12),
@@ -202,7 +202,7 @@ class ProductsTab extends StatelessWidget {
     return SliverPersistentHeader(
       pinned: true,
       delegate: _FixedHeightDelegate(
-        height: 48,
+        height: 54,
         child: Container(
           color: _C.bg,
           child: ListView.builder(
@@ -267,8 +267,8 @@ class ProductsTab extends StatelessWidget {
       onTap: onTap,
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 200),
-        margin: const EdgeInsets.symmetric(horizontal: 4, vertical: 8),
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+        margin: const EdgeInsets.symmetric(horizontal: 4, vertical: 6),
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
         decoration: BoxDecoration(
           color: isSelected ? _C.primary.withOpacity(0.15) : Colors.transparent,
           borderRadius: BorderRadius.circular(10),
@@ -488,7 +488,7 @@ class ProductsTab extends StatelessWidget {
           crossAxisCount: 2,
           mainAxisSpacing: 12,
           crossAxisSpacing: 12,
-          childAspectRatio: 0.56,
+          childAspectRatio: 0.49,
         ),
       ),
     );
@@ -507,7 +507,7 @@ class ProductsTab extends StatelessWidget {
           crossAxisCount: 2,
           mainAxisSpacing: 12,
           crossAxisSpacing: 12,
-          childAspectRatio: 0.56,
+          childAspectRatio: 0.49,
         ),
       ),
     );
@@ -723,11 +723,15 @@ class _ProductCardWidgetState extends State<ProductCardWidget> {
                           color: _C.textSecondary,
                         ),
                       ),
-                      Text(
-                        ' • Đã bán ${product.soldCount}',
-                        style: GoogleFonts.outfit(
-                          fontSize: 10,
-                          color: _C.textMuted,
+                      Expanded(
+                        child: Text(
+                          ' • Đã bán ${product.soldCount}',
+                          style: GoogleFonts.outfit(
+                            fontSize: 10,
+                            color: _C.textMuted,
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
                         ),
                       ),
                     ],
