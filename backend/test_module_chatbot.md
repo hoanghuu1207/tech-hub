@@ -7,3 +7,6 @@
 - [] Làm carousel hot deal.
 - [] Nghiên cứu phần shipping.
 - [] Làm icon thông báo.
+- [] Check phần hủy đơn hàng. Tự động hủy sau khi hết hạn thanh toán.
+- [] Nói chuyện với chatbot.
+- [] Sửa lại phần label chờ thanh toán, đã thanh toán, đang xử lý, hoàn thành, đã hủy. Xử lý luôn cả ở màn order detail.

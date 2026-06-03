@@ -222,7 +222,11 @@ class _PaymentResultScreenState extends State<PaymentResultScreen>
   }
 
   void _goHome() {
-    Navigator.of(context).pushNamedAndRemoveUntil('/home', (route) => false);
+    Navigator.of(context).pushNamedAndRemoveUntil(
+      '/home',
+      (route) => false,
+      arguments: widget.isSuccess ? 3 : 0, // 3 = Orders tab, 0 = Home tab
+    );
   }
 }
 

@@ -1,122 +1,170 @@
-import 'product_model.dart';
+/// Order models — matched to actual API response shape.
 
-enum OrderStatus { pending, confirmed, shipped, delivered, cancelled }
-enum PaymentStatus { pending, paid, failed }
+class OrderAddress {
+  final String id;
+  final String recipientName;
+  final String phone;
+  final String? province;
+  final String? district;
+  final String? ward;
+  final String? street;
 
-class OrderItem {
-  final String productId;
-  final String productName;
-  final double price;
-  final int quantity;
-  final String productImage;
-
-  OrderItem({
-    required this.productId,
-    required this.productName,
-    required this.price,
-    required this.quantity,
-    required this.productImage,
+  OrderAddress({
+    required this.id,
+    required this.recipientName,
+    required this.phone,
+    this.province,
+    this.district,
+    this.ward,
+    this.street,
   });
 
-  double get subtotal => price * quantity;
-
-  factory OrderItem.fromJson(Map<String, dynamic> json) {
-    return OrderItem(
-      productId: json['product_id'] as String,
-      productName: json['product_name'] as String,
-      price: (json['price'] as num).toDouble(),
-      quantity: json['quantity'] as int,
-      productImage: json['product_image'] as String,
+  factory OrderAddress.fromJson(Map<String, dynamic> json) {
+    return OrderAddress(
+      id: json['id'] as String,
+      recipientName: json['recipient_name'] as String? ?? '',
+      phone: json['phone'] as String? ?? '',
+      province: json['province'] as String?,
+      district: json['district'] as String?,
+      ward: json['ward'] as String?,
+      street: json['street'] as String?,
     );
   }
 
-  Map<String, dynamic> toJson() {
-    return {
-      'product_id': productId,
-      'product_name': productName,
-      'price': price,
-      'quantity': quantity,
-      'product_image': productImage,
-    };
+  /// Join non-null address parts into a single string.
+  String get fullAddress {
+    return [street, ward, district, province]
+        .where((s) => s != null && s.isNotEmpty)
+        .join(', ');
+  }
+}
+
+class OrderItem {
+  final String id;
+  final String productId;
+  final String? variantId;
+  final String? productName;
+  final String? productImage;
+  final int quantity;
+  final double unitPrice;
+  final double subtotal;
+
+  OrderItem({
+    required this.id,
+    required this.productId,
+    this.variantId,
+    this.productName,
+    this.productImage,
+    required this.quantity,
+    required this.unitPrice,
+    required this.subtotal,
+  });
+
+  factory OrderItem.fromJson(Map<String, dynamic> json) {
+    return OrderItem(
+      id: json['id'] as String,
+      productId: json['product_id'] as String,
+      variantId: json['variant_id'] as String?,
+      productName: json['product_name'] as String?,
+      productImage: json['product_image'] as String?,
+      quantity: json['quantity'] as int? ?? 1,
+      unitPrice: (json['unit_price'] as num?)?.toDouble() ?? 0,
+      subtotal: (json['subtotal'] as num?)?.toDouble() ?? 0,
+    );
   }
 }
 
 class Order {
   final String id;
-  final String userId;
-  final List<OrderItem> items;
-  final double subtotal;
+  final int? orderCode;
+  final String status;
+  final String paymentStatus;
+  final double totalAmount;
+  final double discountAmount;
   final double shippingFee;
-  final double tax;
-  final double total;
-  final String shippingAddress;
-  final String shippingPhone;
-  final OrderStatus status;
-  final PaymentStatus paymentStatus;
   final String? paymentMethod;
-  final String? trackingNumber;
-  final DateTime createdAt;
-  final DateTime? deliveredAt;
+  final String? note;
+  final DateTime? createdAt;
+  final DateTime? updatedAt;
+  final List<OrderItem> items;
+  final OrderAddress? address;
 
   Order({
     required this.id,
-    required this.userId,
-    required this.items,
-    required this.subtotal,
-    required this.shippingFee,
-    required this.tax,
-    required this.total,
-    required this.shippingAddress,
-    required this.shippingPhone,
+    this.orderCode,
     required this.status,
     required this.paymentStatus,
+    required this.totalAmount,
+    this.discountAmount = 0,
+    this.shippingFee = 0,
     this.paymentMethod,
-    this.trackingNumber,
-    required this.createdAt,
-    this.deliveredAt,
+    this.note,
+    this.createdAt,
+    this.updatedAt,
+    this.items = const [],
+    this.address,
   });
 
   factory Order.fromJson(Map<String, dynamic> json) {
     return Order(
       id: json['id'] as String,
-      userId: json['user_id'] as String,
-      items: List<OrderItem>.from(
-        (json['items'] as List).map((item) => OrderItem.fromJson(item as Map<String, dynamic>)),
-      ),
-      subtotal: (json['subtotal'] as num).toDouble(),
-      shippingFee: (json['shipping_fee'] as num).toDouble(),
-      tax: (json['tax'] as num).toDouble(),
-      total: (json['total'] as num).toDouble(),
-      shippingAddress: json['shipping_address'] as String,
-      shippingPhone: json['shipping_phone'] as String,
-      status: OrderStatus.values.byName(json['status'] as String),
-      paymentStatus: PaymentStatus.values.byName(json['payment_status'] as String),
+      orderCode: json['order_code'] as int?,
+      status: json['status'] as String? ?? 'pending_payment',
+      paymentStatus: json['payment_status'] as String? ?? 'pending',
+      totalAmount: (json['total_amount'] as num?)?.toDouble() ?? 0,
+      discountAmount: (json['discount_amount'] as num?)?.toDouble() ?? 0,
+      shippingFee: (json['shipping_fee'] as num?)?.toDouble() ?? 0,
       paymentMethod: json['payment_method'] as String?,
-      trackingNumber: json['tracking_number'] as String?,
-      createdAt: DateTime.parse(json['created_at'] as String),
-      deliveredAt: json['delivered_at'] != null 
-          ? DateTime.parse(json['delivered_at'] as String)
+      note: json['note'] as String?,
+      createdAt: json['created_at'] != null
+          ? DateTime.tryParse(json['created_at'] as String)?.toLocal()
+          : null,
+      updatedAt: json['updated_at'] != null
+          ? DateTime.tryParse(json['updated_at'] as String)?.toLocal()
+          : null,
+      items: (json['items'] as List?)
+              ?.map((e) => OrderItem.fromJson(e as Map<String, dynamic>))
+              .toList() ??
+          [],
+      address: json['address'] != null
+          ? OrderAddress.fromJson(json['address'] as Map<String, dynamic>)
           : null,
     );
   }
 
-  Map<String, dynamic> toJson() {
-    return {
-      'id': id,
-      'user_id': userId,
-      'items': items.map((item) => item.toJson()).toList(),
-      'subtotal': subtotal,
-      'shipping_fee': shippingFee,
-      'tax': tax,
-      'total': total,
-      'shipping_address': shippingAddress,
-      'shipping_phone': shippingPhone,
-      'status': status.name,
-      'payment_status': paymentStatus.name,
-      'payment_method': paymentMethod,
-      'tracking_number': trackingNumber,
-      'created_at': createdAt.toIso8601String(),
-      'delivered_at': deliveredAt?.toIso8601String(),
-    };
+  // ── Helpers ──
+
+  String get displayOrderCode =>
+      '#${orderCode ?? id.substring(0, 8).toUpperCase()}';
+
+  int get totalItemCount =>
+      items.fold<int>(0, (sum, i) => sum + i.quantity);
+
+  String get statusLabel {
+    switch (status) {
+      case 'pending_payment':
+        return 'Chờ thanh toán';
+      case 'paid':
+        return 'Đã thanh toán';
+      case 'processing':
+        return 'Đang xử lý';
+      case 'completed':
+        return 'Hoàn thành';
+      case 'cancelled':
+        return 'Đã hủy';
+      default:
+        return status;
+    }
+  }
+
+  String get paymentMethodLabel {
+    switch (paymentMethod) {
+      case 'payos':
+        return 'PayOS';
+      case 'cod':
+        return 'COD (Thanh toán khi nhận hàng)';
+      default:
+        return paymentMethod ?? 'Không xác định';
+    }
   }
 }

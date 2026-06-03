@@ -6,6 +6,7 @@ import '../../bloc/cart_bloc.dart';
 import '../../bloc/catalog_bloc.dart';
 import '../../widgets/premium_home_tab.dart';
 import '../../widgets/products_tab.dart';
+import '../../widgets/orders_tab.dart';
 import '../../widgets/chat_bottom_sheet.dart';
 import 'cart_screen.dart';
 import 'profile_screen.dart';
@@ -24,6 +25,8 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      final args = ModalRoute.of(context)?.settings.arguments;
+      if (args is int) setState(() => _selectedTab = args);
       context.read<CartBloc>().add(const CartFetch());
     });
   }
@@ -54,10 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
           CartScreen(
             onContinueShopping: () => setState(() => _selectedTab = 0),
           ),
-          const Scaffold(
-            backgroundColor: _bgDark,
-            body: Center(child: Text('Orders', style: TextStyle(color: Colors.white))),
-          ),
+          const OrdersTab(),
           const ProfileScreen(),
         ],
       ),
