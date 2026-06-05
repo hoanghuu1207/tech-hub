@@ -10,3 +10,9 @@
 - [] Check phần hủy đơn hàng. Tự động hủy sau khi hết hạn thanh toán.
 - [] Nói chuyện với chatbot.
 - [] Sửa lại phần label chờ thanh toán, đã thanh toán, đang xử lý, hoàn thành, đã hủy. Xử lý luôn cả ở màn order detail.
+
+### ADMIN ###
+- [] Thống kê sản phẩm bán chạy, top sản phẩm xem nhiều, đơn hàng thanh toán, thất bại...
+
+### PAYOS ###
+- [] Thay tài khoản Payos

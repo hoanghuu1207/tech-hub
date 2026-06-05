@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../bloc/cart_bloc.dart';
+import '../services/order_service.dart';
 import 'payment_result_screen.dart';
 
 class PaymentWebViewScreen extends StatefulWidget {
@@ -26,14 +27,20 @@ class _PaymentWebViewScreenState extends State<PaymentWebViewScreen> {
   void _goToResult({required bool isSuccess, String? orderId}) {
     if (_navigated || !mounted) return;
     _navigated = true;
+    final resolvedOrderId = orderId ?? widget.orderId;
+
     if (isSuccess) {
       context.read<CartBloc>().add(const CartFetch());
+    } else {
+      // Gọi API hủy đơn để cập nhật payment_status = failed trong DB
+      OrderService().cancelOrder(resolvedOrderId);
     }
+
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
         builder: (_) => PaymentResultScreen(
           isSuccess: isSuccess,
-          orderId: orderId ?? widget.orderId,
+          orderId: resolvedOrderId,
         ),
       ),
     );
@@ -71,10 +78,19 @@ class _PaymentWebViewScreenState extends State<PaymentWebViewScreen> {
                 return NavigationActionPolicy.CANCEL;
               }
 
-              // 2. Intercept backend redirect page — don't load it, navigate directly
+              // 2. For cancelled payments: ALLOW the redirect page to load
+              //    so the backend can update payment_status in the DB.
+              //    For success: intercept immediately (webhook handles DB).
               if (url.contains('/api/v1/payment/result')) {
-                _handleResultUrl(url);
-                return NavigationActionPolicy.CANCEL;
+                final uri = Uri.parse(url);
+                final status = uri.queryParameters['status'] ?? '';
+                if (status == 'success') {
+                  // Webhook đã cập nhật DB, navigate ngay
+                  _handleResultUrl(url);
+                  return NavigationActionPolicy.CANCEL;
+                }
+                // cancelled → cho page load để backend cập nhật DB
+                return NavigationActionPolicy.ALLOW;
               }
 
               return NavigationActionPolicy.ALLOW;
@@ -131,7 +147,7 @@ class _PaymentWebViewScreenState extends State<PaymentWebViewScreen> {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         title: Text('Hủy thanh toán?',
           style: GoogleFonts.outfit(color: Colors.white, fontWeight: FontWeight.w700)),
-        content: Text('Bạn có chắc muốn hủy thanh toán? Đơn hàng vẫn được giữ lại.',
+        content: Text('Bạn có chắc muốn hủy thanh toán? Đơn hàng sẽ bị hủy.',
           style: GoogleFonts.outfit(color: const Color(0xFF94A3B8), fontSize: 14)),
         actions: [
           TextButton(

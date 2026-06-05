@@ -151,10 +151,6 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
         return _C.blue;
       case 'paid':
         return _C.emerald;
-      case 'processing':
-        return _C.amber;
-      case 'completed':
-        return _C.emerald;
       case 'cancelled':
         return _C.rose;
       default:
@@ -168,10 +164,6 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
         return Icons.payment_rounded;
       case 'paid':
         return Icons.check_circle_rounded;
-      case 'processing':
-        return Icons.local_shipping_rounded;
-      case 'completed':
-        return Icons.verified_rounded;
       case 'cancelled':
         return Icons.close_rounded;
       default:
@@ -185,10 +177,6 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
         return 0;
       case 'paid':
         return 1;
-      case 'processing':
-        return 2;
-      case 'completed':
-        return 3;
       case 'cancelled':
         return -1; // special case
       default:
@@ -198,7 +186,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
 
   Widget _buildTimeline() {
     final isCancelled = _order.status == 'cancelled';
-    final steps = ['Chờ thanh toán', 'Đã thanh toán', 'Đang xử lý', 'Hoàn thành'];
+    final steps = ['Chờ thanh toán', 'Đã thanh toán'];
     final step = _currentStep;
 
     return Row(
@@ -528,7 +516,6 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
           ],
         );
 
-      case 'completed':
       case 'cancelled':
         return SizedBox(
           width: double.infinity,
@@ -551,7 +538,6 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
         );
 
       case 'paid':
-      case 'processing':
         return SizedBox(
           width: double.infinity,
           height: 50,

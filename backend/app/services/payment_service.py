@@ -169,7 +169,7 @@ class PaymentService:
             user_id=user.id,
             address_id=address_id,
             order_code=order_code,
-            status="pending",
+            status="pending_payment",
             total_amount=total_amount,
             discount_amount=Decimal("0"),
             shipping_fee=Decimal("0"),
@@ -321,7 +321,7 @@ class PaymentService:
             # Cập nhật trạng thái
             if code == "00":
                 order.payment_status = "paid"
-                order.status = "confirmed"
+                order.status = "paid"
 
                 # ── Trừ tồn kho (stock deduction) ──
                 for item in order.items:
@@ -466,11 +466,11 @@ class PaymentService:
                 logger.warning(f"💳 [PayOS] Cancel failed (may already be cancelled): {e}")
 
         order.status = "cancelled"
-        order.payment_status = "cancelled"
+        order.payment_status = "failed"
 
         # Cập nhật payment record
         if order.payment_details:
-            order.payment_details.status = "cancelled"
+            order.payment_details.status = "failed"
 
         await db.commit()
         logger.info(f"💳 [Order] Cancelled #{order.order_code}")

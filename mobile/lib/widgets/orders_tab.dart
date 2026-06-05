@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:shimmer/shimmer.dart';
-import '../bloc/auth_bloc.dart';
+import '../services/auth_service.dart';
 import '../bloc/order_bloc.dart';
 import '../models/order_model.dart';
 import '../screens/order_detail_screen.dart';
@@ -26,16 +26,13 @@ class OrdersTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocBuilder<AuthBloc, AuthState>(
-      builder: (context, authState) {
-        if (authState is! AuthSuccess) {
-          return _buildLoginPrompt(context);
-        }
-        return BlocProvider(
-          create: (_) => OrderBloc()..add(const OrdersFetchRequested()),
-          child: const _OrdersContent(),
-        );
-      },
+    final isLoggedIn = AuthService().isTokenValid;
+    if (!isLoggedIn) {
+      return _buildLoginPrompt(context);
+    }
+    return BlocProvider(
+      create: (_) => OrderBloc()..add(const OrdersFetchRequested()),
+      child: const _OrdersContent(),
     );
   }
 
@@ -114,8 +111,6 @@ class _OrdersContent extends StatelessWidget {
     _StatusFilter('Tất cả', null),
     _StatusFilter('Chờ thanh toán', 'pending_payment'),
     _StatusFilter('Đã thanh toán', 'paid'),
-    _StatusFilter('Đang xử lý', 'processing'),
-    _StatusFilter('Hoàn thành', 'completed'),
     _StatusFilter('Đã hủy', 'cancelled'),
   ];
 
@@ -519,10 +514,6 @@ class _StatusBadge extends StatelessWidget {
       case 'pending_payment':
         return const Color(0xFF3B82F6);
       case 'paid':
-        return const Color(0xFF10B981);
-      case 'processing':
-        return const Color(0xFFF59E0B);
-      case 'completed':
         return const Color(0xFF10B981);
       case 'cancelled':
         return const Color(0xFFEF4444);

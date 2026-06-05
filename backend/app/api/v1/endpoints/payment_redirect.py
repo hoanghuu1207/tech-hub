@@ -1,26 +1,72 @@
 """
 Payment Redirect — Trung gian giữa PayOS và Flutter app.
 
-PayOS redirect browser tới đây → Backend trả HTML chứa deep link →
+PayOS redirect browser tới đây → Backend cập nhật DB → trả HTML chứa deep link →
 Flutter WebView bắt deep link và navigate sang PaymentResultScreen.
 """
 
-from fastapi import APIRouter, Query
-from fastapi.responses import HTMLResponse
+import logging
+from uuid import UUID
 
+from fastapi import APIRouter, Query, Depends
+from fastapi.responses import HTMLResponse
+from sqlalchemy import select
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from app.db.session import get_db
+from app.models.order import Order, Payment
+
+logger = logging.getLogger("payment_redirect")
 router = APIRouter()
 
 DEEP_LINK_SCHEME = "techhub"
+
 
 @router.get("/result", response_class=HTMLResponse, summary="Payment redirect page")
 async def payment_result(
     status: str = Query("success", description="success hoặc cancelled"),
     orderId: str = Query("", description="Order ID"),
+    db: AsyncSession = Depends(get_db),
 ):
     """
     Trang trung gian sau khi PayOS thanh toán xong.
-    Tự động redirect Flutter app qua deep link.
+
+    - Nếu status=cancelled → cập nhật payment_status='failed', status='cancelled'
+    - Sau đó redirect Flutter app qua deep link.
     """
+
+    # ── Cập nhật DB khi thanh toán bị hủy/thất bại ──
+    if status == "cancelled" and orderId:
+        try:
+            order_uuid = UUID(orderId)
+            stmt = select(Order).where(Order.id == order_uuid)
+            result = await db.execute(stmt)
+            order = result.scalar_one_or_none()
+
+            if order and order.payment_status == "pending":
+                order.payment_status = "failed"
+                order.status = "cancelled"
+
+                # Cập nhật payment record
+                stmt_payment = select(Payment).where(Payment.order_id == order.id)
+                result_payment = await db.execute(stmt_payment)
+                payment = result_payment.scalar_one_or_none()
+                if payment and payment.status == "pending":
+                    payment.status = "failed"
+                    payment.gateway_response = {
+                        **(payment.gateway_response or {}),
+                        "cancel_reason": "user_cancelled_on_payos",
+                    }
+
+                await db.commit()
+                logger.info(f"💳 [Redirect] Order {orderId} → payment_status=failed, status=cancelled")
+            else:
+                logger.info(f"💳 [Redirect] Order {orderId} already processed (status={order.status if order else 'not_found'})")
+
+        except Exception as e:
+            logger.error(f"💳 [Redirect] Error updating order {orderId}: {e}")
+            # Không rollback — vẫn redirect user về app
+
     deep_link = f"{DEEP_LINK_SCHEME}://payment/result?status={status}&orderId={orderId}"
     
     status_text = "Thanh toán thành công!" if status == "success" else "Thanh toán đã bị hủy"

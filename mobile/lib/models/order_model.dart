@@ -146,10 +146,6 @@ class Order {
         return 'Chờ thanh toán';
       case 'paid':
         return 'Đã thanh toán';
-      case 'processing':
-        return 'Đang xử lý';
-      case 'completed':
-        return 'Hoàn thành';
       case 'cancelled':
         return 'Đã hủy';
       default:
