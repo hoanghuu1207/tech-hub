@@ -202,32 +202,48 @@ class _CartScreenState extends State<CartScreen> {
 
   // ── CART ITEMS ──
   Widget _buildCartItems(List<CartItem> items) {
-    final allSelected = items.isNotEmpty && items.every((i) => _selectedIds.contains(i.id));
+    // Sort: in-stock first (server order = newest first), then OOS at bottom
+    final inStock = items.where((i) => !i.isOutOfStock).toList();
+    final outOfStock = items.where((i) => i.isOutOfStock).toList();
+    final sorted = [...inStock, ...outOfStock];
+
+    final selectableItems = inStock;
+    final allSelected = selectableItems.isNotEmpty && selectableItems.every((i) => _selectedIds.contains(i.id));
+
     return Column(
       children: [
-        // Select All row
+        // Select All row (only for in-stock items)
         Padding(
           padding: const EdgeInsets.only(top: 8, bottom: 4),
           child: GestureDetector(
             onTap: () => setState(() {
-              if (allSelected) { _selectedIds.clear(); } else { _selectedIds.addAll(items.map((i) => i.id)); }
+              if (allSelected) { _selectedIds.clear(); } else { _selectedIds.addAll(selectableItems.map((i) => i.id)); }
             }),
             child: Row(children: [
               _buildCheckbox(allSelected),
               const SizedBox(width: 10),
-              Text('Chọn tất cả (${items.length})',
+              Text('Chọn tất cả (${selectableItems.length})',
                 style: GoogleFonts.outfit(fontSize: 13, fontWeight: FontWeight.w600, color: _K.textSecondary)),
             ]),
           ),
         ),
         const SizedBox(height: 4),
-        ...items.map((item) => _buildCartItemCard(item)),
+        ...sorted.map((item) => _buildCartItemCard(item)),
       ],
     );
   }
 
   Widget _buildCartItemCard(CartItem item) {
-    final isChecked = _selectedIds.contains(item.id);
+    final isOOS = item.isOutOfStock;
+    final isChecked = !isOOS && _selectedIds.contains(item.id);
+
+    // Auto-remove OOS items from selection
+    if (isOOS && _selectedIds.contains(item.id)) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        setState(() => _selectedIds.remove(item.id));
+      });
+    }
+
     return Dismissible(
       key: Key(item.id),
       direction: DismissDirection.endToStart,
@@ -243,73 +259,101 @@ class _CartScreenState extends State<CartScreen> {
         child: const Icon(Icons.delete_outline_rounded, color: _K.rose, size: 28),
       ),
       child: GestureDetector(
-        onTap: () => setState(() {
+        onTap: isOOS ? null : () => setState(() {
           if (isChecked) { _selectedIds.remove(item.id); } else { _selectedIds.add(item.id); }
         }),
-        child: Container(
-          margin: const EdgeInsets.only(bottom: 12),
-          padding: const EdgeInsets.all(12),
-          decoration: BoxDecoration(
-            color: _K.surface,
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: isChecked ? _K.primary.withOpacity(0.6) : _K.divider.withOpacity(0.5)),
-          ),
-          child: Row(
-            children: [
-              // Checkbox
-              _buildCheckbox(isChecked),
-              const SizedBox(width: 10),
-              // Product Image
-              ClipRRect(
-                borderRadius: BorderRadius.circular(12),
-                child: item.imageUrl != null && item.imageUrl!.isNotEmpty
-                    ? Image.network(item.imageUrl!, width: 72, height: 72, fit: BoxFit.cover,
-                        errorBuilder: (_, __, ___) => _buildImagePlaceholder())
-                    : _buildImagePlaceholder(),
+        child: Opacity(
+          opacity: isOOS ? 0.5 : 1.0,
+          child: Container(
+            margin: const EdgeInsets.only(bottom: 12),
+            padding: const EdgeInsets.all(12),
+            decoration: BoxDecoration(
+              color: _K.surface,
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(
+                color: isOOS
+                    ? _K.rose.withOpacity(0.3)
+                    : isChecked
+                        ? _K.primary.withOpacity(0.6)
+                        : _K.divider.withOpacity(0.5),
               ),
-              const SizedBox(width: 10),
-              // Info
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+            ),
+            child: Stack(
+              children: [
+                Row(
                   children: [
-                    Text(item.productName, maxLines: 2, overflow: TextOverflow.ellipsis,
-                      style: GoogleFonts.outfit(fontSize: 13, fontWeight: FontWeight.w600, color: _K.textPrimary, height: 1.3)),
-                    const SizedBox(height: 4),
-                    if (item.colorName != null)
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 4),
-                        child: Row(mainAxisSize: MainAxisSize.min, children: [
-                          Container(width: 12, height: 12,
-                            decoration: BoxDecoration(
-                              color: _parseHex(item.colorHex ?? '#888888'),
-                              shape: BoxShape.circle,
-                              border: Border.all(color: _K.textMuted, width: 1),
-                            )),
-                          const SizedBox(width: 6),
-                          Text(item.colorName!, style: GoogleFonts.outfit(fontSize: 11, color: _K.textSecondary)),
-                        ]),
+                    // Checkbox
+                    _buildCheckbox(isChecked),
+                    const SizedBox(width: 10),
+                    // Product Image
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(12),
+                      child: item.imageUrl != null && item.imageUrl!.isNotEmpty
+                          ? Image.network(item.imageUrl!, width: 72, height: 72, fit: BoxFit.cover,
+                              errorBuilder: (_, __, ___) => _buildImagePlaceholder())
+                          : _buildImagePlaceholder(),
+                    ),
+                    const SizedBox(width: 10),
+                    // Info
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(item.productName, maxLines: 2, overflow: TextOverflow.ellipsis,
+                            style: GoogleFonts.outfit(fontSize: 13, fontWeight: FontWeight.w600, color: _K.textPrimary, height: 1.3)),
+                          const SizedBox(height: 4),
+                          if (item.colorName != null)
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 4),
+                              child: Row(mainAxisSize: MainAxisSize.min, children: [
+                                Container(width: 12, height: 12,
+                                  decoration: BoxDecoration(
+                                    color: _parseHex(item.colorHex ?? '#888888'),
+                                    shape: BoxShape.circle,
+                                    border: Border.all(color: _K.textMuted, width: 1),
+                                  )),
+                                const SizedBox(width: 6),
+                                Text(item.colorName!, style: GoogleFonts.outfit(fontSize: 11, color: _K.textSecondary)),
+                              ]),
+                            ),
+                          Text(_formatPrice(item.unitPrice), style: GoogleFonts.outfit(
+                            fontSize: 14, fontWeight: FontWeight.w700, color: isOOS ? _K.textMuted : _K.emerald)),
+                        ],
                       ),
-                    Text(_formatPrice(item.unitPrice), style: GoogleFonts.outfit(
-                      fontSize: 14, fontWeight: FontWeight.w700, color: _K.emerald)),
+                    ),
+                    // Quantity
+                    Column(children: [
+                      _buildQtyButton(Icons.add, isOOS ? null : () {
+                        context.read<CartBloc>().add(CartUpdateQuantity(item.id, item.quantity + 1));
+                      }),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 6),
+                        child: Text('${item.quantity}', style: GoogleFonts.outfit(
+                          fontSize: 16, fontWeight: FontWeight.w700, color: _K.textPrimary)),
+                      ),
+                      _buildQtyButton(Icons.remove, isOOS ? null : (item.quantity > 1 ? () {
+                        context.read<CartBloc>().add(CartUpdateQuantity(item.id, item.quantity - 1));
+                      } : null)),
+                    ]),
                   ],
                 ),
-              ),
-              // Quantity
-              Column(children: [
-                _buildQtyButton(Icons.add, () {
-                  context.read<CartBloc>().add(CartUpdateQuantity(item.id, item.quantity + 1));
-                }),
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 6),
-                  child: Text('${item.quantity}', style: GoogleFonts.outfit(
-                    fontSize: 16, fontWeight: FontWeight.w700, color: _K.textPrimary)),
-                ),
-                _buildQtyButton(Icons.remove, item.quantity > 1 ? () {
-                  context.read<CartBloc>().add(CartUpdateQuantity(item.id, item.quantity - 1));
-                } : null),
-              ]),
-            ],
+                // "Hết hàng" badge
+                if (isOOS)
+                  Positioned(
+                    top: 0,
+                    right: 0,
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                      decoration: BoxDecoration(
+                        color: _K.rose,
+                        borderRadius: BorderRadius.circular(6),
+                      ),
+                      child: Text('Hết hàng',
+                        style: GoogleFonts.outfit(fontSize: 10, fontWeight: FontWeight.w700, color: Colors.white)),
+                    ),
+                  ),
+              ],
+            ),
           ),
         ),
       ),

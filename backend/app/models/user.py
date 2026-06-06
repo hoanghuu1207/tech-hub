@@ -29,6 +29,7 @@ class User(Base):
     
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+    fcm_token = Column(String, nullable=True)  # Firebase Cloud Messaging device token
 
     # Quan hệ
     addresses = relationship("Address", back_populates="user", cascade="all, delete-orphan")

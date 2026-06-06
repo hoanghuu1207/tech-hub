@@ -1,6 +1,6 @@
 import time
 import logging
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.exceptions import RequestValidationError
@@ -11,6 +11,7 @@ from app.db.qdrant import check_qdrant_connection, qdrant_client
 from app.api.v1.router import api_router
 from app.core.config import settings
 from app.core.rate_limit import limiter
+from app.services.notification_manager import notification_manager
 
 # --- Logging setup ---
 logger = logging.getLogger("api_logger")
@@ -27,8 +28,6 @@ app = FastAPI(
 
 check_qdrant_connection()
 logger.info(f"Qdrant URL: {settings.QDRANT_CLUSTER_ENDPOINT}")
-# logger.info(f"Qdrant API Key: {settings.QDRANT_API_KEY}")
-# qdrant_client.search(collection_name="products", query_vector=[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0], limit=5)
 
 
 # --- 1. Rate Limiting Setup ---
@@ -92,3 +91,18 @@ async def generic_exception_handler(request: Request, exc: Exception):
 
 # --- 5. Mount API Router ---
 app.include_router(api_router, prefix="/api/v1")
+
+# --- 6. WebSocket Notification Endpoint ---
+@app.websocket("/ws/notifications/{user_id}")
+async def notification_websocket(websocket: WebSocket, user_id: str):
+    """WebSocket endpoint cho real-time notifications."""
+    await notification_manager.connect(user_id, websocket)
+    try:
+        while True:
+            # Keep alive — chờ tin nhắn từ client (ping/pong)
+            await websocket.receive_text()
+    except WebSocketDisconnect:
+        notification_manager.disconnect(user_id, websocket)
+    except Exception:
+        notification_manager.disconnect(user_id, websocket)
+

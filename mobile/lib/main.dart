@@ -2,11 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'bloc/index.dart';
 import 'screens/index.dart';
 import 'services/index.dart';
+import 'services/notification_ws.dart';
 import 'utils/index.dart';
 import 'widgets/app_button.dart';
+
+/// Background FCM message handler (phải là top-level function).
+@pragma('vm:entry-point')
+Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
+  await Firebase.initializeApp();
+  print('🔥 [FCM] Background message: ${message.notification?.title}');
+}
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,15 +28,22 @@ void main() async {
       print('✅ .env loaded successfully');
     } catch (e) {
       print('⚠️ Warning loading .env: $e');
-      // Continue - .env không bắt buộc trong dev
     }
+
+    // Initialize Firebase
+    await Firebase.initializeApp();
+    FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
+    print('✅ Firebase initialized');
 
     // Initialize AuthService singleton
     await AuthService().init();
     print('✅ AuthService initialized');
+
+    // Initialize local notifications
+    await NotificationWebSocket().initLocalNotifications();
+    print('✅ Local notifications initialized');
   } catch (e) {
-    print('❌ Error initializing AuthService: $e');
-    // Tiếp tục vì AuthService có fallback values
+    print('❌ Error initializing: $e');
   }
 
   runApp(const MyApp());

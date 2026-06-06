@@ -24,6 +24,7 @@ from app.core.config import settings
 from app.models.order import Order, OrderItem, Payment, CartItem, Address
 from app.models.product import Product, ProductVariant, ProductImage
 from app.models.user import User
+from app.models.interaction import Notification
 from app.schemas.order import (
     CreateOrderRequest, CreateOrderResponse, OrderItemCreate,
 )
@@ -345,6 +346,90 @@ class PaymentService:
                 for cart_item in cart_result.scalars().all():
                     await db.delete(cart_item)
                 logger.info(f"💳 [Cart] Cleared {len(product_ids)} cart items after payment")
+
+                # ── Gửi notification cho user có sản phẩm hết hàng trong giỏ ──
+                out_of_stock_variants = []
+                for item in order.items:
+                    if item.variant_id and item.variant and item.variant.stock_quantity <= 0:
+                        out_of_stock_variants.append(item.variant)
+
+                if out_of_stock_variants:
+                    oos_variant_ids = [v.id for v in out_of_stock_variants]
+                    # Tìm cart_items của user KHÁC có chứa variant hết hàng
+                    oos_cart_stmt = (
+                        select(CartItem)
+                        .options(
+                            selectinload(CartItem.product),
+                            selectinload(CartItem.variant),
+                        )
+                        .where(
+                            CartItem.variant_id.in_(oos_variant_ids),
+                            CartItem.user_id != order.user_id,
+                        )
+                    )
+                    oos_cart_result = await db.execute(oos_cart_stmt)
+                    oos_cart_items = oos_cart_result.scalars().all()
+
+                    # Nhóm theo user_id
+                    from collections import defaultdict
+                    user_products: dict[UUID, list[str]] = defaultdict(list)
+                    for ci in oos_cart_items:
+                        product_name = ci.product.name if ci.product else "Sản phẩm"
+                        color_name = ci.variant.color_name if ci.variant else ""
+                        display = f"{product_name} ({color_name})" if color_name else product_name
+                        if display not in user_products[ci.user_id]:
+                            user_products[ci.user_id].append(display)
+
+                    # Tạo notification cho mỗi user + push qua WebSocket + FCM
+                    from app.services.notification_manager import notification_manager
+                    from app.services.fcm_service import send_push_notification
+
+                    for uid, product_names in user_products.items():
+                        if len(product_names) == 1:
+                            body = f"Sản phẩm {product_names[0]} trong giỏ hàng của bạn đã hết hàng."
+                        else:
+                            items_text = ", ".join(product_names)
+                            body = f"Các sản phẩm sau trong giỏ hàng của bạn đã hết hàng: {items_text}"
+
+                        notif = Notification(
+                            user_id=uid,
+                            type="out_of_stock",
+                            title="Sản phẩm hết hàng",
+                            body=body,
+                            data={"variant_ids": [str(v) for v in oos_variant_ids]},
+                        )
+                        db.add(notif)
+
+                        # Push real-time qua WebSocket (khi app đang mở)
+                        try:
+                            await notification_manager.send_to_user(uid, {
+                                "type": "out_of_stock",
+                                "title": "Sản phẩm hết hàng",
+                                "body": body,
+                                "data": {"variant_ids": [str(v) for v in oos_variant_ids]},
+                            })
+                        except Exception as ws_err:
+                            logger.warning(f"💳 [WS] Failed to push to {uid}: {ws_err}")
+
+                        # Push qua FCM (khi app tắt hoặc ở background)
+                        try:
+                            user_stmt = select(User).where(User.id == uid)
+                            user_result = await db.execute(user_stmt)
+                            target_user = user_result.scalar_one_or_none()
+                            if target_user and target_user.fcm_token:
+                                await send_push_notification(
+                                    fcm_token=target_user.fcm_token,
+                                    title="Sản phẩm hết hàng",
+                                    body=body,
+                                    data={"type": "out_of_stock"},
+                                )
+                        except Exception as fcm_err:
+                            logger.warning(f"💳 [FCM] Failed to push to {uid}: {fcm_err}")
+
+                    logger.info(
+                        f"💳 [Notification] Sent OOS notifications to {len(user_products)} users "
+                        f"for {len(out_of_stock_variants)} variants"
+                    )
 
                 logger.info(f"💳 [Webhook] ✅ Order #{order_code} PAID + Stock deducted")
             else:

@@ -33,6 +33,7 @@ class CartItemOut(BaseModel):
     quantity: int
     unit_price: float
     image_url: Optional[str]
+    stock_quantity: int = 0
 
     class Config:
         from_attributes = True
@@ -126,6 +127,7 @@ async def get_cart(
             quantity=item.quantity,
             unit_price=price,
             image_url=_get_product_image(p),
+            stock_quantity=v.stock_quantity if v else 999,
         ))
 
     return CartResponse(success=True, data=out_items)

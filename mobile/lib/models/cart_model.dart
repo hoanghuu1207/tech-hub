@@ -8,6 +8,7 @@ class CartItem {
   int quantity;
   final double unitPrice;
   final String? imageUrl;
+  final int stockQuantity;
 
   CartItem({
     required this.id,
@@ -19,9 +20,11 @@ class CartItem {
     required this.quantity,
     required this.unitPrice,
     this.imageUrl,
+    this.stockQuantity = 999,
   });
 
   double get subtotal => unitPrice * quantity;
+  bool get isOutOfStock => stockQuantity <= 0;
 
   factory CartItem.fromJson(Map<String, dynamic> json) {
     return CartItem(
@@ -34,10 +37,11 @@ class CartItem {
       quantity: json['quantity'] ?? 1,
       unitPrice: (json['unit_price'] as num?)?.toDouble() ?? 0,
       imageUrl: json['product_image'] ?? json['image_url'],
+      stockQuantity: json['stock_quantity'] ?? 999,
     );
   }
 
-  CartItem copyWith({int? quantity}) {
+  CartItem copyWith({int? quantity, int? stockQuantity}) {
     return CartItem(
       id: id,
       productId: productId,
@@ -48,9 +52,11 @@ class CartItem {
       quantity: quantity ?? this.quantity,
       unitPrice: unitPrice,
       imageUrl: imageUrl,
+      stockQuantity: stockQuantity ?? this.stockQuantity,
     );
   }
 }
+
 
 class ShippingAddress {
   final String? id;
