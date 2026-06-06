@@ -7,6 +7,8 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../bloc/cart_bloc.dart';
 import '../../models/cart_model.dart';
 import '../../services/auth_service.dart';
+import 'payment_webview_screen.dart';
+import 'payment_result_screen.dart';
 
 // ── Design tokens ──
 class _K {
@@ -33,6 +35,7 @@ class CartScreen extends StatefulWidget {
 
 class _CartScreenState extends State<CartScreen> {
   String _paymentMethod = 'payos';
+  final Set<String> _selectedIds = {};
   final _noteController = TextEditingController();
   final _nameController = TextEditingController();
   final _phoneController = TextEditingController();
@@ -66,7 +69,13 @@ class _CartScreenState extends State<CartScreen> {
     return BlocConsumer<CartBloc, CartState>(
       listener: (context, state) {
         if (state.checkoutUrl != null && state.checkoutUrl!.isNotEmpty) {
-          _openCheckoutUrl(state.checkoutUrl!);
+          // PayOS → open WebView
+          Navigator.of(context).push(MaterialPageRoute(
+            builder: (_) => PaymentWebViewScreen(
+              checkoutUrl: state.checkoutUrl!,
+              orderId: state.lastOrderId ?? '',
+            ),
+          ));
         }
         if (state.checkoutError != null) {
           ScaffoldMessenger.of(context).showSnackBar(SnackBar(
@@ -74,9 +83,14 @@ class _CartScreenState extends State<CartScreen> {
             backgroundColor: _K.rose,
           ));
         }
-        if (state.lastOrderId != null && state.checkoutUrl == null) {
-          // COD order success
-          _showOrderSuccessDialog(context, state.lastOrderId!);
+        if (state.lastOrderId != null && state.checkoutUrl == null && !state.isCheckingOut) {
+          // COD → direct success
+          Navigator.of(context).push(MaterialPageRoute(
+            builder: (_) => PaymentResultScreen(
+              isSuccess: true,
+              orderId: state.lastOrderId!,
+            ),
+          ));
         }
       },
       builder: (context, state) {
@@ -119,6 +133,7 @@ class _CartScreenState extends State<CartScreen> {
 
   // ── HEADER ──
   Widget _buildHeader(int itemCount) {
+    final hasSelection = _selectedIds.isNotEmpty;
     return Container(
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
       decoration: BoxDecoration(
@@ -129,35 +144,41 @@ class _CartScreenState extends State<CartScreen> {
         children: [
           Container(
             width: 40, height: 40,
-            decoration: BoxDecoration(
-              color: _K.surface,
-              borderRadius: BorderRadius.circular(12),
-            ),
+            decoration: BoxDecoration(color: _K.surface, borderRadius: BorderRadius.circular(12)),
             child: const Icon(Icons.shopping_bag_rounded, color: _K.primary, size: 22),
           ),
           const SizedBox(width: 12),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('Giỏ hàng', style: GoogleFonts.outfit(
-                fontSize: 20, fontWeight: FontWeight.w800, color: _K.textPrimary,
-              )),
-              Text('$itemCount sản phẩm', style: GoogleFonts.outfit(
-                fontSize: 12, color: _K.textSecondary,
-              )),
+              Text('Giỏ hàng', style: GoogleFonts.outfit(fontSize: 20, fontWeight: FontWeight.w800, color: _K.textPrimary)),
+              Text(hasSelection ? 'Đã chọn ${_selectedIds.length}/$itemCount' : '$itemCount sản phẩm',
+                style: GoogleFonts.outfit(fontSize: 12, color: _K.textSecondary)),
             ],
           ),
           const Spacer(),
           if (itemCount > 0)
             GestureDetector(
-              onTap: () => context.read<CartBloc>().add(const CartClear()),
-              child: Container(
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                decoration: BoxDecoration(
-                  color: _K.rose.withOpacity(0.1),
-                  borderRadius: BorderRadius.circular(8),
+              onTap: hasSelection ? () {
+                context.read<CartBloc>().add(CartDeleteSelected(_selectedIds.toList()));
+                setState(() => _selectedIds.clear());
+              } : null,
+              child: AnimatedOpacity(
+                opacity: hasSelection ? 1.0 : 0.4,
+                duration: const Duration(milliseconds: 200),
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  decoration: BoxDecoration(
+                    color: _K.rose.withOpacity(hasSelection ? 0.15 : 0.05),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Row(mainAxisSize: MainAxisSize.min, children: [
+                    Icon(Icons.delete_outline_rounded, size: 16, color: hasSelection ? _K.rose : _K.textMuted),
+                    const SizedBox(width: 4),
+                    Text('Xoá', style: GoogleFonts.outfit(fontSize: 12, fontWeight: FontWeight.w600,
+                      color: hasSelection ? _K.rose : _K.textMuted)),
+                  ]),
                 ),
-                child: Text('Xoá tất cả', style: GoogleFonts.outfit(fontSize: 12, fontWeight: FontWeight.w600, color: _K.rose)),
               ),
             ),
         ],
@@ -165,92 +186,131 @@ class _CartScreenState extends State<CartScreen> {
     );
   }
 
+  // ── CHECKBOX ──
+  Widget _buildCheckbox(bool checked) {
+    return AnimatedContainer(
+      duration: const Duration(milliseconds: 150),
+      width: 22, height: 22,
+      decoration: BoxDecoration(
+        color: checked ? _K.primary : Colors.transparent,
+        borderRadius: BorderRadius.circular(6),
+        border: Border.all(color: checked ? _K.primary : _K.textMuted, width: 1.5),
+      ),
+      child: checked ? const Icon(Icons.check_rounded, size: 16, color: Colors.white) : null,
+    );
+  }
+
   // ── CART ITEMS ──
   Widget _buildCartItems(List<CartItem> items) {
+    final allSelected = items.isNotEmpty && items.every((i) => _selectedIds.contains(i.id));
     return Column(
-      children: items.map((item) => _buildCartItemCard(item)).toList(),
+      children: [
+        // Select All row
+        Padding(
+          padding: const EdgeInsets.only(top: 8, bottom: 4),
+          child: GestureDetector(
+            onTap: () => setState(() {
+              if (allSelected) { _selectedIds.clear(); } else { _selectedIds.addAll(items.map((i) => i.id)); }
+            }),
+            child: Row(children: [
+              _buildCheckbox(allSelected),
+              const SizedBox(width: 10),
+              Text('Chọn tất cả (${items.length})',
+                style: GoogleFonts.outfit(fontSize: 13, fontWeight: FontWeight.w600, color: _K.textSecondary)),
+            ]),
+          ),
+        ),
+        const SizedBox(height: 4),
+        ...items.map((item) => _buildCartItemCard(item)),
+      ],
     );
   }
 
   Widget _buildCartItemCard(CartItem item) {
+    final isChecked = _selectedIds.contains(item.id);
     return Dismissible(
       key: Key(item.id),
       direction: DismissDirection.endToStart,
-      onDismissed: (_) => context.read<CartBloc>().add(CartRemoveItem(item.id)),
+      onDismissed: (_) {
+        _selectedIds.remove(item.id);
+        context.read<CartBloc>().add(CartRemoveItem(item.id));
+      },
       background: Container(
         margin: const EdgeInsets.only(bottom: 12),
-        decoration: BoxDecoration(
-          color: _K.rose.withOpacity(0.15),
-          borderRadius: BorderRadius.circular(16),
-        ),
+        decoration: BoxDecoration(color: _K.rose.withOpacity(0.15), borderRadius: BorderRadius.circular(16)),
         alignment: Alignment.centerRight,
         padding: const EdgeInsets.only(right: 24),
         child: const Icon(Icons.delete_outline_rounded, color: _K.rose, size: 28),
       ),
-      child: Container(
-        margin: const EdgeInsets.only(bottom: 12),
-        padding: const EdgeInsets.all(12),
-        decoration: BoxDecoration(
-          color: _K.surface,
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: _K.divider.withOpacity(0.5)),
-        ),
-        child: Row(
-          children: [
-            // Product Image
-            ClipRRect(
-              borderRadius: BorderRadius.circular(12),
-              child: item.imageUrl != null && item.imageUrl!.isNotEmpty
-                  ? Image.network(item.imageUrl!, width: 80, height: 80, fit: BoxFit.cover,
-                      errorBuilder: (_, __, ___) => _buildImagePlaceholder())
-                  : _buildImagePlaceholder(),
-            ),
-            const SizedBox(width: 12),
-            // Info
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(item.productName, maxLines: 2, overflow: TextOverflow.ellipsis,
-                    style: GoogleFonts.outfit(fontSize: 14, fontWeight: FontWeight.w600, color: _K.textPrimary, height: 1.3)),
-                  const SizedBox(height: 4),
-                  if (item.colorName != null) Row(children: [
-                    Container(
-                      width: 12, height: 12,
-                      decoration: BoxDecoration(
-                        color: _parseHex(item.colorHex ?? '#888888'),
-                        shape: BoxShape.circle,
-                        border: Border.all(color: _K.textMuted, width: 1),
-                      ),
-                    ),
-                    const SizedBox(width: 6),
-                    Text(item.colorName!, style: GoogleFonts.outfit(fontSize: 12, color: _K.textSecondary)),
-                  ]),
-                  const SizedBox(height: 6),
-                  Text(_formatPrice(item.unitPrice), style: GoogleFonts.outfit(
-                    fontSize: 15, fontWeight: FontWeight.w700, color: _K.emerald,
-                  )),
-                ],
+      child: GestureDetector(
+        onTap: () => setState(() {
+          if (isChecked) { _selectedIds.remove(item.id); } else { _selectedIds.add(item.id); }
+        }),
+        child: Container(
+          margin: const EdgeInsets.only(bottom: 12),
+          padding: const EdgeInsets.all(12),
+          decoration: BoxDecoration(
+            color: _K.surface,
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(color: isChecked ? _K.primary.withOpacity(0.6) : _K.divider.withOpacity(0.5)),
+          ),
+          child: Row(
+            children: [
+              // Checkbox
+              _buildCheckbox(isChecked),
+              const SizedBox(width: 10),
+              // Product Image
+              ClipRRect(
+                borderRadius: BorderRadius.circular(12),
+                child: item.imageUrl != null && item.imageUrl!.isNotEmpty
+                    ? Image.network(item.imageUrl!, width: 72, height: 72, fit: BoxFit.cover,
+                        errorBuilder: (_, __, ___) => _buildImagePlaceholder())
+                    : _buildImagePlaceholder(),
               ),
-            ),
-            // Quantity
-            Column(
-              children: [
+              const SizedBox(width: 10),
+              // Info
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(item.productName, maxLines: 2, overflow: TextOverflow.ellipsis,
+                      style: GoogleFonts.outfit(fontSize: 13, fontWeight: FontWeight.w600, color: _K.textPrimary, height: 1.3)),
+                    const SizedBox(height: 4),
+                    if (item.colorName != null)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 4),
+                        child: Row(mainAxisSize: MainAxisSize.min, children: [
+                          Container(width: 12, height: 12,
+                            decoration: BoxDecoration(
+                              color: _parseHex(item.colorHex ?? '#888888'),
+                              shape: BoxShape.circle,
+                              border: Border.all(color: _K.textMuted, width: 1),
+                            )),
+                          const SizedBox(width: 6),
+                          Text(item.colorName!, style: GoogleFonts.outfit(fontSize: 11, color: _K.textSecondary)),
+                        ]),
+                      ),
+                    Text(_formatPrice(item.unitPrice), style: GoogleFonts.outfit(
+                      fontSize: 14, fontWeight: FontWeight.w700, color: _K.emerald)),
+                  ],
+                ),
+              ),
+              // Quantity
+              Column(children: [
                 _buildQtyButton(Icons.add, () {
                   context.read<CartBloc>().add(CartUpdateQuantity(item.id, item.quantity + 1));
                 }),
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 6),
                   child: Text('${item.quantity}', style: GoogleFonts.outfit(
-                    fontSize: 16, fontWeight: FontWeight.w700, color: _K.textPrimary,
-                  )),
+                    fontSize: 16, fontWeight: FontWeight.w700, color: _K.textPrimary)),
                 ),
                 _buildQtyButton(Icons.remove, item.quantity > 1 ? () {
                   context.read<CartBloc>().add(CartUpdateQuantity(item.id, item.quantity - 1));
                 } : null),
-              ],
-            ),
-          ],
+              ]),
+            ],
+          ),
         ),
       ),
     );
@@ -368,6 +428,9 @@ class _CartScreenState extends State<CartScreen> {
 
   // ── ORDER SUMMARY (Sticky bottom) ──
   Widget _buildOrderSummary(CartState state) {
+    final selectedItems = state.cart.items.where((i) => _selectedIds.contains(i.id)).toList();
+    final selectedTotal = selectedItems.fold<double>(0, (sum, i) => sum + i.subtotal);
+    final hasSelection = selectedItems.isNotEmpty;
     return Container(
       padding: EdgeInsets.fromLTRB(16, 14, 16, MediaQuery.of(context).padding.bottom + 14),
       decoration: BoxDecoration(
@@ -378,30 +441,27 @@ class _CartScreenState extends State<CartScreen> {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          // Subtotal
-          _buildSummaryRow('Tạm tính', _formatPrice(state.cart.total)),
+          _buildSummaryRow('Tạm tính (${selectedItems.length} sản phẩm)', _formatPrice(selectedTotal)),
           const SizedBox(height: 6),
-          _buildSummaryRow('Phí vận chuyển', 'Miễn phí', valueColor: _K.emerald),
+          _buildSummaryRow('Phí vận chuyển', hasSelection ? 'Miễn phí' : '--', valueColor: _K.emerald),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 10),
             child: Divider(height: 1, color: _K.divider.withOpacity(0.5)),
           ),
-          // Total
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text('Tổng cộng', style: GoogleFonts.outfit(fontSize: 16, fontWeight: FontWeight.w600, color: _K.textPrimary)),
-              Text(_formatPrice(state.cart.total), style: GoogleFonts.outfit(
-                fontSize: 22, fontWeight: FontWeight.w800, color: _K.emerald,
+              Text(_formatPrice(selectedTotal), style: GoogleFonts.outfit(
+                fontSize: 22, fontWeight: FontWeight.w800, color: hasSelection ? _K.emerald : _K.textMuted,
               )),
             ],
           ),
           const SizedBox(height: 14),
-          // Checkout button
           SizedBox(
             width: double.infinity, height: 52,
             child: ElevatedButton(
-              onPressed: state.isCheckingOut || state.cart.items.isEmpty ? null : () => _checkout(context),
+              onPressed: state.isCheckingOut || !hasSelection ? null : () => _checkout(context),
               style: ElevatedButton.styleFrom(
                 backgroundColor: _K.primary,
                 disabledBackgroundColor: _K.primary.withOpacity(0.4),
@@ -539,7 +599,7 @@ class _CartScreenState extends State<CartScreen> {
         controller: controller,
         keyboardType: keyboardType,
         maxLines: maxLines,
-        style: GoogleFonts.outfit(fontSize: 14, color: _K.textPrimary),
+        style: GoogleFonts.outfit(fontSize: 14, color: Colors.black),
         decoration: InputDecoration(
           hintText: hint,
           hintStyle: GoogleFonts.outfit(fontSize: 14, color: _K.textMuted),
@@ -564,10 +624,85 @@ class _CartScreenState extends State<CartScreen> {
       return;
     }
 
-    context.read<CartBloc>().add(CartCheckoutRequested(
+    final bloc = context.read<CartBloc>();
+    final selectedItems = bloc.state.cart.items.where((i) => _selectedIds.contains(i.id)).toList();
+    final selectedTotal = selectedItems.fold<double>(0, (sum, i) => sum + i.subtotal);
+
+    // Show confirm dialog
+    showDialog(
+      context: context,
+      builder: (_) => Dialog(
+        backgroundColor: _K.surface,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+        child: Padding(
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              // Icon
+              Container(
+                width: 64, height: 64,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: _K.primary.withOpacity(0.15),
+                ),
+                child: const Icon(Icons.shopping_bag_outlined, color: _K.primary, size: 32),
+              ),
+              const SizedBox(height: 20),
+              Text('Xác nhận đặt hàng',
+                style: GoogleFonts.outfit(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold)),
+              const SizedBox(height: 12),
+              Text('${selectedItems.length} sản phẩm • ${_formatPrice(selectedTotal)}',
+                style: GoogleFonts.outfit(color: _K.emerald, fontSize: 16, fontWeight: FontWeight.w700)),
+              const SizedBox(height: 8),
+              Text('Thanh toán qua: ${_paymentMethod == "payos" ? "PayOS" : "COD"}',
+                style: GoogleFonts.outfit(color: _K.textSecondary, fontSize: 14)),
+              const SizedBox(height: 24),
+              Row(
+                children: [
+                  Expanded(
+                    child: OutlinedButton(
+                      onPressed: () => Navigator.pop(context),
+                      style: OutlinedButton.styleFrom(
+                        side: BorderSide(color: Colors.white.withOpacity(0.2)),
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                      ),
+                      child: Text('Hủy', style: GoogleFonts.outfit(color: Colors.white70)),
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: ElevatedButton(
+                      onPressed: () {
+                        Navigator.pop(context); // close dialog
+                        _performCheckout(context, selectedItems);
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: _K.primary,
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                      ),
+                      child: Text('Đồng ý',
+                        style: GoogleFonts.outfit(color: Colors.white, fontWeight: FontWeight.w700)),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _performCheckout(BuildContext context, List<CartItem> selectedItems) {
+    final bloc = context.read<CartBloc>();
+    bloc.add(CartCheckoutRequested(
+      items: selectedItems,
       shippingAddress: ShippingAddress(
-        recipientName: name,
-        phone: phone,
+        recipientName: _nameController.text.trim(),
+        phone: _phoneController.text.trim(),
         province: _provinceController.text.trim(),
         district: _districtController.text.trim(),
         ward: _wardController.text.trim(),
@@ -576,51 +711,8 @@ class _CartScreenState extends State<CartScreen> {
       note: _noteController.text.trim(),
       paymentMethod: _paymentMethod,
     ));
-  }
 
-  void _openCheckoutUrl(String url) async {
-    final uri = Uri.parse(url);
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    }
-  }
-
-  void _showOrderSuccessDialog(BuildContext context, String orderId) {
-    showDialog(
-      context: context,
-      builder: (_) => AlertDialog(
-        backgroundColor: _K.surface,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Container(
-              width: 56, height: 56,
-              decoration: BoxDecoration(color: _K.emerald.withOpacity(0.15), shape: BoxShape.circle),
-              child: const Icon(Icons.check_circle_rounded, color: _K.emerald, size: 36),
-            ),
-            const SizedBox(height: 16),
-            Text('Đặt hàng thành công!', style: GoogleFonts.outfit(fontSize: 18, fontWeight: FontWeight.w700, color: _K.textPrimary)),
-            const SizedBox(height: 8),
-            Text('Đơn hàng COD sẽ được giao đến bạn.', textAlign: TextAlign.center,
-              style: GoogleFonts.outfit(fontSize: 13, color: _K.textSecondary)),
-            const SizedBox(height: 20),
-            SizedBox(
-              width: double.infinity,
-              child: ElevatedButton(
-                onPressed: () => Navigator.pop(context),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: _K.primary,
-                  foregroundColor: Colors.white,
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                ),
-                child: Text('Đóng', style: GoogleFonts.outfit(fontWeight: FontWeight.w700)),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
+    setState(() => _selectedIds.clear());
   }
 
   // ── HELPERS ──
@@ -635,3 +727,4 @@ class _CartScreenState extends State<CartScreen> {
     return '${f.format(price)}đ';
   }
 }
+

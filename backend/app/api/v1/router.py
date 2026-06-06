@@ -1,7 +1,10 @@
 from fastapi import APIRouter
-from app.api.v1.endpoints import auth, ai, chat, orders, webhook, cart
+from app.api.v1.endpoints import auth, ai, chat, orders, webhook, cart, payment_redirect, catalog
 
 api_router = APIRouter()
+
+# Mount Catalog sub-router (Categories, Brands, ProductLines)
+api_router.include_router(catalog.router, prefix="/catalog", tags=["catalog"])
 
 # Mount auth sub-router vào hệ thống
 api_router.include_router(auth.router, prefix="/auth", tags=["auth"])
@@ -20,4 +23,7 @@ api_router.include_router(orders.router, prefix="/orders", tags=["orders"])
 
 # Mount Webhook sub-router (PayOS callback — NO AUTH)
 api_router.include_router(webhook.router, prefix="/webhook", tags=["webhook"])
+
+# Mount Payment Redirect sub-router (PayOS → deep link)
+api_router.include_router(payment_redirect.router, prefix="/payment", tags=["Payment Redirect"])
 

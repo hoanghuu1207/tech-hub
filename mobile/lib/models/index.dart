@@ -5,3 +5,4 @@ export 'order_model.dart';
 export 'chat_model.dart';
 export 'review_model.dart';
 export 'category_model.dart';
+export 'catalog_models.dart';

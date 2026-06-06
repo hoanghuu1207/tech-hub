@@ -44,6 +44,10 @@ async def create_order(
 
     Response chứa `checkout_url` để mở trang thanh toán PayOS.
     """
+    import logging
+    logger = logging.getLogger("orders")
+    logger.info(f"📦 [Order] Request: items={len(request.items)}, method={request.payment_method}, "
+                f"address_id={request.address_id}, has_shipping={request.shipping_address is not None}")
     try:
         result = await payment_service.create_order(request, user, db)
         return CheckoutResponse(
@@ -52,8 +56,10 @@ async def create_order(
             data=result,
         )
     except ValueError as e:
+        logger.error(f"📦 [Order] ValueError: {e}")
         return CheckoutResponse(success=False, message=str(e), error=str(e))
     except Exception as e:
+        logger.error(f"📦 [Order] Exception: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 
 
