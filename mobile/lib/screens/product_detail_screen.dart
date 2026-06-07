@@ -10,6 +10,7 @@ import '../services/auth_service.dart';
 import '../bloc/cart_bloc.dart';
 import '../utils/formatters.dart';
 import '../utils/snackbars.dart';
+import 'buy_now_checkout_screen.dart';
 
 // ── Dark theme constants ──
 class _C {
@@ -592,8 +593,170 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
   }
 
   void _buyNow(ProductDetail product, ProductVariantDetail? variant) {
-    _addToCart(product, variant);
-    Navigator.pushNamedAndRemoveUntil(context, '/home', (r) => false, arguments: 2);
+    if (!AuthService().isTokenValid) {
+      AppSnackbars.showError(context, 'Vui lòng đăng nhập để mua hàng');
+      return;
+    }
+
+    final stockQuantity = variant?.stockQuantity ?? 999;
+    int selectedQty = 1;
+
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
+      builder: (ctx) {
+        return StatefulBuilder(
+          builder: (ctx, setSheetState) {
+            final unitPrice = variant?.salePriceOverride ??
+                variant?.priceOverride ??
+                product.salePrice ??
+                product.basePrice;
+            final isAtMax = selectedQty >= stockQuantity;
+
+            return Container(
+              padding: EdgeInsets.fromLTRB(20, 20, 20, 20 + MediaQuery.of(ctx).padding.bottom),
+              decoration: const BoxDecoration(
+                color: Color(0xFF1E293B),
+                borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+              ),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  // Handle bar
+                  Container(
+                    width: 40, height: 4,
+                    margin: const EdgeInsets.only(bottom: 20),
+                    decoration: BoxDecoration(color: _C.divider, borderRadius: BorderRadius.circular(2)),
+                  ),
+                  // Product info row
+                  Row(
+                    children: [
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(12),
+                        child: product.primaryImage != null
+                            ? Image.network(product.primaryImage!, width: 64, height: 64, fit: BoxFit.cover,
+                                errorBuilder: (_, __, ___) => Container(width: 64, height: 64, color: _C.divider, child: const Icon(Icons.image, color: _C.textMuted)))
+                            : Container(width: 64, height: 64, color: _C.divider, child: const Icon(Icons.image, color: _C.textMuted)),
+                      ),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(product.name, maxLines: 2, overflow: TextOverflow.ellipsis,
+                              style: GoogleFonts.outfit(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.white)),
+                            const SizedBox(height: 4),
+                            if (variant != null)
+                              Row(mainAxisSize: MainAxisSize.min, children: [
+                                if (variant.colorHex != null)
+                                  Container(width: 12, height: 12, margin: const EdgeInsets.only(right: 6),
+                                    decoration: BoxDecoration(
+                                      color: _hexColor(variant.colorHex),
+                                      shape: BoxShape.circle,
+                                      border: Border.all(color: Colors.white24),
+                                    )),
+                                Text(variant.colorName, style: GoogleFonts.outfit(fontSize: 12, color: _C.textSecondary)),
+                              ]),
+                            const SizedBox(height: 4),
+                            Text(AppFormatters.formatCurrency(unitPrice),
+                              style: GoogleFonts.outfit(fontSize: 16, fontWeight: FontWeight.w700, color: _C.success)),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 20),
+                  // Stock info
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text('Kho: $stockQuantity sản phẩm',
+                        style: GoogleFonts.outfit(fontSize: 13, color: _C.textMuted)),
+                      Text('Tổng: ${AppFormatters.formatCurrency(unitPrice * selectedQty)}',
+                        style: GoogleFonts.outfit(fontSize: 14, fontWeight: FontWeight.w700, color: _C.success)),
+                    ],
+                  ),
+                  const SizedBox(height: 16),
+                  // Quantity selector
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('Số lượng', style: GoogleFonts.outfit(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.white)),
+                      const Spacer(),
+                      // Minus
+                      GestureDetector(
+                        onTap: selectedQty > 1 ? () => setSheetState(() => selectedQty--) : null,
+                        child: Container(
+                          width: 36, height: 36,
+                          decoration: BoxDecoration(
+                            color: selectedQty > 1 ? _C.primary.withOpacity(0.15) : _C.divider.withOpacity(0.3),
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(color: selectedQty > 1 ? _C.primary : _C.divider),
+                          ),
+                          child: Icon(Icons.remove, size: 18, color: selectedQty > 1 ? _C.primary : _C.textMuted),
+                        ),
+                      ),
+                      Container(
+                        width: 56,
+                        alignment: Alignment.center,
+                        child: Text('$selectedQty',
+                          style: GoogleFonts.outfit(fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white)),
+                      ),
+                      // Plus
+                      GestureDetector(
+                        onTap: isAtMax ? () {
+                          ScaffoldMessenger.of(ctx).showSnackBar(SnackBar(
+                            content: Text('Chỉ còn $stockQuantity sản phẩm trong kho',
+                              style: GoogleFonts.outfit(color: Colors.white)),
+                            backgroundColor: _C.amber,
+                            duration: const Duration(seconds: 2),
+                          ));
+                        } : () => setSheetState(() => selectedQty++),
+                        child: Container(
+                          width: 36, height: 36,
+                          decoration: BoxDecoration(
+                            color: isAtMax ? _C.divider.withOpacity(0.3) : _C.primary.withOpacity(0.15),
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(color: isAtMax ? _C.divider : _C.primary),
+                          ),
+                          child: Icon(Icons.add, size: 18, color: isAtMax ? _C.textMuted : _C.primary),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 24),
+                  // Confirm button
+                  SizedBox(
+                    width: double.infinity, height: 52,
+                    child: ElevatedButton(
+                      onPressed: () {
+                        Navigator.pop(ctx); // close bottom sheet
+                        Navigator.push(context, MaterialPageRoute(
+                          builder: (_) => BuyNowCheckoutScreen(
+                            product: product,
+                            variant: variant,
+                            initialQuantity: selectedQty,
+                          ),
+                        ));
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: _C.primary,
+                        foregroundColor: Colors.white,
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+                        elevation: 0,
+                      ),
+                      child: Text('Tiếp tục đặt hàng',
+                        style: GoogleFonts.outfit(fontSize: 16, fontWeight: FontWeight.w700)),
+                    ),
+                  ),
+                ],
+              ),
+            );
+          },
+        );
+      },
+    );
   }
 
   Color _hexColor(String? hex) {
