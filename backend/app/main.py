@@ -1,7 +1,7 @@
 import time
 import logging
 from fastapi import FastAPI, Request, WebSocket, WebSocketDisconnect
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.exceptions import RequestValidationError
 from starlette.exceptions import HTTPException as StarletteHTTPException
@@ -89,7 +89,114 @@ async def generic_exception_handler(request: Request, exc: Exception):
     logger.error(f"Internal Server Error: {str(exc)}")
     return error_response(message="Internal server error", status_code=500)
 
-# --- 5. Mount API Router ---
+# --- 5b. Share Deep Link Redirect ---
+@app.get("/share/product/{product_id}", response_class=HTMLResponse)
+async def share_product_redirect(product_id: str, request: Request):
+    """
+    Trang redirect cho share link.
+    Mở trong trình duyệt → tự động redirect sang app TechHub.
+    Nếu app chưa cài → hiển thị trang landing fallback.
+    """
+    deep_link = f"techhub://product/{product_id}"
+
+    html = f"""<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub - Xem sản phẩm</title>
+    <style>
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }}
+        .container {{
+            text-align: center;
+            padding: 40px 24px;
+            max-width: 400px;
+        }}
+        .logo {{
+            font-size: 48px;
+            margin-bottom: 16px;
+        }}
+        .title {{
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }}
+        .subtitle {{
+            color: #94A3B8;
+            font-size: 14px;
+            margin-bottom: 32px;
+            line-height: 1.5;
+        }}
+        .spinner {{
+            width: 40px; height: 40px;
+            border: 3px solid #334155;
+            border-top-color: #6366F1;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 24px;
+        }}
+        @keyframes spin {{ to {{ transform: rotate(360deg); }} }}
+        .btn {{
+            display: inline-block;
+            background: #6366F1;
+            color: #fff;
+            padding: 14px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: background 0.2s;
+        }}
+        .btn:hover {{ background: #4F46E5; }}
+        .fallback {{
+            display: none;
+            margin-top: 24px;
+            color: #64748B;
+            font-size: 13px;
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🛍️</div>
+        <h1 class="title">TechHub</h1>
+        <p class="subtitle">Đang mở ứng dụng TechHub...</p>
+        <div class="spinner" id="spinner"></div>
+        <a href="{deep_link}" class="btn" id="openBtn" style="display:none;">
+            Mở trong TechHub
+        </a>
+        <p class="fallback" id="fallback">
+            Nếu ứng dụng không tự mở, hãy ấn nút ở trên.<br>
+            Bạn cần cài đặt ứng dụng TechHub trước.
+        </p>
+    </div>
+    <script>
+        // Thử redirect sang app
+        window.location.href = "{deep_link}";
+
+        // Sau 2s nếu vẫn ở trang này → app chưa cài, hiện nút fallback
+        setTimeout(function() {{
+            document.getElementById('spinner').style.display = 'none';
+            document.getElementById('openBtn').style.display = 'inline-block';
+            document.getElementById('fallback').style.display = 'block';
+        }}, 2000);
+    </script>
+</body>
+</html>"""
+
+    return HTMLResponse(content=html)
+
+
+# --- 6. Mount API Router ---
 app.include_router(api_router, prefix="/api/v1")
 
 # --- 6. WebSocket Notification Endpoint ---
