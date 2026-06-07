@@ -31,6 +31,9 @@ class Settings(BaseSettings):
     PAYOS_CHECKSUM_KEY: str
     PAYMENT_REDIRECT_BASE_URL: str = "http://localhost:8000"
 
+    # Firebase config
+    FIREBASE_SERVICE_ACCOUNT_BASE64: str | None = None
+
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",

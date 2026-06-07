@@ -8,8 +8,10 @@ import '../../widgets/premium_home_tab.dart';
 import '../../widgets/products_tab.dart';
 import '../../widgets/orders_tab.dart';
 import '../../widgets/chat_bottom_sheet.dart';
+import '../../services/notification_ws.dart';
 import 'cart_screen.dart';
 import 'profile_screen.dart';
+import 'notification_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -28,7 +30,23 @@ class _HomeScreenState extends State<HomeScreen> {
       final args = ModalRoute.of(context)?.settings.arguments;
       if (args is int) setState(() => _selectedTab = args);
       context.read<CartBloc>().add(const CartFetch());
+
+      // Connect to notification WebSocket
+      final notifWs = NotificationWebSocket();
+      notifWs.onNotification = () {
+        // Refresh cart data (to update stock_quantity / disabled items)
+        if (mounted) context.read<CartBloc>().add(const CartFetch());
+        // Rebuild UI to refresh notification badge count
+        if (mounted) setState(() {});
+      };
+      notifWs.connect();
     });
+  }
+
+  @override
+  void dispose() {
+    NotificationWebSocket().disconnect();
+    super.dispose();
   }
 
   // ── Dark theme colors ──
@@ -49,6 +67,10 @@ class _HomeScreenState extends State<HomeScreen> {
             onCartTap: () => setState(() => _selectedTab = 2),
             onSearchTap: () => Navigator.of(context).pushNamed('/search'),
             onProductsTap: () => setState(() => _selectedTab = 1),
+            onNotificationTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const NotificationScreen()),
+            ),
           ),
           BlocProvider(
             create: (_) => CatalogBloc()..add(const CatalogStarted()),
@@ -125,7 +147,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   _buildNavItem(Icons.home_rounded, 'Trang chủ', 0),
                   _buildNavItem(Icons.grid_view_rounded, 'Sản phẩm', 1),
-                  _buildNavItem(Icons.shopping_bag_rounded, 'Giỏ hàng', 2, badgeCount: cartState.cart.itemCount),
+                  _buildNavItem(Icons.shopping_bag_rounded, 'Giỏ hàng', 2, badgeCount: cartState.cart.activeItemCount),
                   _buildNavItem(Icons.receipt_long_rounded, 'Đơn hàng', 3),
                   _buildNavItem(Icons.person_rounded, 'Tài khoản', 4),
                 ],

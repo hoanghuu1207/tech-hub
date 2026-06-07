@@ -8,6 +8,7 @@ import '../models/index.dart';
 import '../services/auth_service.dart';
 import '../services/product_service.dart';
 import '../services/cart_service.dart';
+import '../services/notification_service.dart';
 import '../utils/index.dart';
 
 // ── Premium Dark Colors ──
@@ -30,6 +31,7 @@ class PremiumHomeTab extends StatefulWidget {
   final VoidCallback? onCartTap;
   final VoidCallback? onSearchTap;
   final VoidCallback? onProductsTap;
+  final VoidCallback? onNotificationTap;
 
   const PremiumHomeTab({
     Key? key,
@@ -37,6 +39,7 @@ class PremiumHomeTab extends StatefulWidget {
     this.onCartTap,
     this.onSearchTap,
     this.onProductsTap,
+    this.onNotificationTap,
   }) : super(key: key);
 
   @override
@@ -45,6 +48,7 @@ class PremiumHomeTab extends StatefulWidget {
 
 class _PremiumHomeTabState extends State<PremiumHomeTab> {
   final ProductService _productService = ProductService();
+  final NotificationService _notificationService = NotificationService();
 
   // ── Local state (independent of Bloc single-state issue) ──
   List<Product> _products = [];
@@ -54,6 +58,7 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
   String? _productError;
   String _selectedCategory = '';
   int _promoIndex = 0;
+  int _unreadNotifCount = 0;
   late final PageController _promoController;
 
   @override
@@ -73,7 +78,16 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
     await Future.wait([
       _loadProducts(),
       _loadCategories(),
+      _loadUnreadCount(),
     ]);
+  }
+
+  Future<void> _loadUnreadCount() async {
+    if (!AuthService().isTokenValid) return;
+    try {
+      final count = await _notificationService.getUnreadCount();
+      if (mounted) setState(() => _unreadNotifCount = count);
+    } catch (_) {}
   }
 
   Future<void> _loadProducts({String? category}) async {
@@ -136,7 +150,7 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
   Widget _buildHeader() {
     final user = AuthService().currentUser;
     final cartState = context.watch<CartBloc>().state;
-    final cartCount = cartState.cart.itemCount;
+    final cartCount = cartState.cart.activeItemCount;
 
     return Padding(
       padding: const EdgeInsets.fromLTRB(20, 16, 20, 4),
@@ -171,6 +185,37 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
               ],
             ),
           ),
+          // ── Notification bell ──
+          GestureDetector(
+            onTap: widget.onNotificationTap,
+            child: Container(
+              width: 44, height: 44,
+              decoration: BoxDecoration(
+                color: _C.surface, shape: BoxShape.circle,
+                border: Border.all(color: _C.divider),
+              ),
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+                  const Icon(Icons.notifications_outlined, color: _C.textPrimary, size: 22),
+                  if (_unreadNotifCount > 0)
+                    Positioned(
+                      top: 6, right: 6,
+                      child: Container(
+                        padding: const EdgeInsets.all(4),
+                        decoration: const BoxDecoration(color: _C.rose, shape: BoxShape.circle),
+                        child: Text(
+                          _unreadNotifCount > 9 ? '9+' : '$_unreadNotifCount',
+                          style: const TextStyle(color: Colors.white, fontSize: 9, fontWeight: FontWeight.w800),
+                        ),
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          ),
+          const SizedBox(width: 8),
+          // ── Cart icon ──
           GestureDetector(
             onTap: widget.onCartTap,
             child: Container(
