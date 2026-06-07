@@ -9,3 +9,4 @@ export 'change_password_screen.dart';
 export 'payment_webview_screen.dart';
 export 'payment_result_screen.dart';
 export 'order_detail_screen.dart';
+export 'product_detail_screen.dart';

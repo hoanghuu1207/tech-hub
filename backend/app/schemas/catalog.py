@@ -131,7 +131,66 @@ class AllProductsResponse(BaseModel):
     data: Optional[AllProductsData] = None
 
 
+
+# ─── Product Detail ─────────────────────────────────────
+
+class ProductVariantOut(BaseModel):
+    """Variant detail for product detail page."""
+    id: UUID
+    color_name: str
+    color_hex: Optional[str] = None
+    price_override: Optional[float] = None
+    sale_price_override: Optional[float] = None
+    stock_quantity: int = 0
+
+    class Config:
+        from_attributes = True
+
+
+class ProductImageOut(BaseModel):
+    """Image detail for product detail page."""
+    id: UUID
+    image_url: str
+    is_primary: bool = False
+    sort_order: int = 0
+
+    class Config:
+        from_attributes = True
+
+
+class ProductDetailOut(BaseModel):
+    """Full product detail."""
+    id: UUID
+    name: str
+    slug: str
+    base_price: float
+    sale_price: Optional[float] = None
+    description: Optional[str] = None
+    highlight_features: Optional[List[str]] = []
+    rating_avg: Optional[float] = 0
+    rating_count: Optional[int] = 0
+    sold_count: Optional[int] = 0
+    status: Optional[str] = "new"
+    brand: Optional[BrandOut] = None
+    category: Optional[CategoryOut] = None
+    line: Optional[ProductLineOut] = None
+    variants: List[ProductVariantOut] = []
+    images: List[ProductImageOut] = []
+    specs: Optional[dict] = {}
+
+    class Config:
+        from_attributes = True
+
+
+class ProductDetailResponse(BaseModel):
+    """Response for product detail API."""
+    success: bool = True
+    message: str = "OK"
+    data: Optional[ProductDetailOut] = None
+
+
 # Resolve forward references
 CategoryProductsResponse.model_rebuild()
 BrandProductsResponse.model_rebuild()
 LineProductsResponse.model_rebuild()
+ProductDetailResponse.model_rebuild()

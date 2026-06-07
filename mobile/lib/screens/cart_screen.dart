@@ -323,9 +323,16 @@ class _CartScreenState extends State<CartScreen> {
                     ),
                     // Quantity
                     Column(children: [
-                      _buildQtyButton(Icons.add, isOOS ? null : () {
+                      _buildQtyButton(Icons.add, isOOS ? null : (item.quantity >= item.stockQuantity ? () {
+                        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                          content: Text('Chỉ còn ${item.stockQuantity} sản phẩm trong kho',
+                            style: GoogleFonts.outfit(color: Colors.white)),
+                          backgroundColor: _K.amber,
+                          duration: const Duration(seconds: 2),
+                        ));
+                      } : () {
                         context.read<CartBloc>().add(CartUpdateQuantity(item.id, item.quantity + 1));
-                      }),
+                      })),
                       Padding(
                         padding: const EdgeInsets.symmetric(vertical: 6),
                         child: Text('${item.quantity}', style: GoogleFonts.outfit(

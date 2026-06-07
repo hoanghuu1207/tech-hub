@@ -143,11 +143,14 @@ async def add_to_cart(
     if not product or not product.is_active:
         raise HTTPException(status_code=404, detail="Sản phẩm không tồn tại hoặc đã ngừng bán")
 
-    # Check variant exists
+    # Check variant exists & get stock
+    variant = None
+    stock_quantity = 999  # default for products without variants
     if req.variant_id:
         variant = await db.get(ProductVariant, req.variant_id)
         if not variant or not variant.is_active or variant.product_id != req.product_id:
             raise HTTPException(status_code=404, detail="Phiên bản màu của sản phẩm không hợp lệ")
+        stock_quantity = variant.stock_quantity
 
     # Check existing item
     stmt = select(CartItem).where(
@@ -158,8 +161,16 @@ async def add_to_cart(
     res = await db.execute(stmt)
     existing = res.scalar_one_or_none()
 
+    # Validate stock quantity
+    new_quantity = (existing.quantity if existing else 0) + req.quantity
+    if new_quantity > stock_quantity:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Số lượng vượt quá tồn kho. Chỉ còn {stock_quantity} sản phẩm."
+        )
+
     if existing:
-        existing.quantity += req.quantity
+        existing.quantity = new_quantity
     else:
         new_item = CartItem(
             user_id=user.id,
@@ -189,6 +200,14 @@ async def update_cart_quantity(
     if req.quantity <= 0:
         await db.delete(item)
     else:
+        # Validate stock quantity
+        if item.variant_id:
+            variant = await db.get(ProductVariant, item.variant_id)
+            if variant and req.quantity > variant.stock_quantity:
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Số lượng vượt quá tồn kho. Chỉ còn {variant.stock_quantity} sản phẩm."
+                )
         item.quantity = req.quantity
 
     await db.commit()
