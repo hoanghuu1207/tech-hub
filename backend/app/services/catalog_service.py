@@ -17,11 +17,12 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
 from app.models.product import (
-    Category, Brand, ProductLine, Product, ProductImage,
+    Category, Brand, ProductLine, Product, ProductImage, ProductVariant,
 )
 from app.schemas.catalog import (
     CategoryOut, BrandOut, ProductLineOut, ProductCompact,
     CategoryWithBrandsOut,
+    ProductDetailOut, ProductVariantOut, ProductImageOut,
 )
 
 logger = logging.getLogger("catalog")
@@ -275,6 +276,75 @@ class CatalogService:
             "products": [self._product_to_compact(p) for p in products],
             "total": total,
         }
+
+
+    # ──────────────────────────────────────────────────────
+    # API 5: Product Detail
+    # ──────────────────────────────────────────────────────
+
+    async def get_product_detail(
+        self, product_id: UUID, db: AsyncSession,
+    ) -> Optional[ProductDetailOut]:
+        """
+        Lấy chi tiết đầy đủ của 1 product: variants, images, brand, category, line, specs.
+        Chỉ trả về product active. Variants chỉ lấy is_active. Images sort theo sort_order.
+        """
+        stmt = (
+            select(Product)
+            .options(
+                selectinload(Product.variants),
+                selectinload(Product.images),
+                selectinload(Product.brand),
+                selectinload(Product.category),
+                selectinload(Product.line),
+            )
+            .where(Product.id == product_id, Product.is_active == True)
+        )
+        result = await db.execute(stmt)
+        product = result.scalar_one_or_none()
+
+        if not product:
+            return None
+
+        # Filter active variants, sort images by sort_order
+        active_variants = [
+            v for v in product.variants if v.is_active
+        ]
+        sorted_images = sorted(
+            product.images, key=lambda img: img.sort_order
+        )
+
+        return ProductDetailOut(
+            id=product.id,
+            name=product.name,
+            slug=product.slug,
+            base_price=float(product.base_price),
+            sale_price=float(product.sale_price) if product.sale_price else None,
+            description=product.description,
+            highlight_features=product.highlight_features or [],
+            rating_avg=float(product.rating_avg or 0),
+            rating_count=product.rating_count or 0,
+            sold_count=product.sold_count or 0,
+            status=product.status or "new",
+            brand=BrandOut.model_validate(product.brand) if product.brand else None,
+            category=CategoryOut.model_validate(product.category) if product.category else None,
+            line=ProductLineOut.model_validate(product.line) if product.line else None,
+            variants=[ProductVariantOut(
+                id=v.id,
+                color_name=v.color_name,
+                color_hex=v.color_hex,
+                price_override=float(v.price_override) if v.price_override else None,
+                sale_price_override=float(v.sale_price_override) if v.sale_price_override else None,
+                stock_quantity=v.stock_quantity or 0,
+            ) for v in active_variants],
+            images=[ProductImageOut(
+                id=img.id,
+                image_url=img.image_url,
+                is_primary=img.is_primary,
+                sort_order=img.sort_order,
+            ) for img in sorted_images],
+            specs=product.specs or {},
+        )
 
 
 # Singleton

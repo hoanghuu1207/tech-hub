@@ -20,6 +20,7 @@ from app.schemas.catalog import (
     BrandProductsResponse, BrandProductsData,
     LineProductsResponse, LineProductsData,
     AllProductsResponse, AllProductsData,
+    ProductDetailResponse,
 )
 
 router = APIRouter()
@@ -45,6 +46,24 @@ async def list_all_products(
         total=total,
     )
     return AllProductsResponse(data=data)
+
+
+# ─── 0b. Chi tiết 1 sản phẩm ─────────────────────────────
+
+@router.get(
+    "/products/{product_id}",
+    response_model=ProductDetailResponse,
+    summary="Chi tiết sản phẩm",
+    description="Lấy toàn bộ thông tin chi tiết của 1 sản phẩm: variants, images, specs, brand, category, line.",
+)
+async def get_product_detail(
+    product_id: UUID,
+    db: AsyncSession = Depends(get_db),
+):
+    detail = await catalog_service.get_product_detail(product_id, db)
+    if detail is None:
+        raise HTTPException(status_code=404, detail="Sản phẩm không tồn tại")
+    return ProductDetailResponse(data=detail)
 
 
 # ─── 1. Danh sách categories gốc + brands ────────────────

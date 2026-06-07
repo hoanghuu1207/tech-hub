@@ -72,7 +72,7 @@ class MyApp extends StatelessWidget {
             final productId = settings.arguments as String;
             return MaterialPageRoute(
               builder: (context) =>
-                  PlaceholderScreen(title: 'Product: $productId'),
+                  ProductDetailScreen(productId: productId),
             );
           }
           return null;
@@ -181,8 +181,7 @@ class MyApp extends StatelessWidget {
       '/products': (context) => const PlaceholderScreen(title: 'Products'),
       '/products-by-category': (context) =>
           const PlaceholderScreen(title: 'Category'),
-      '/product-detail': (context) =>
-          const PlaceholderScreen(title: 'Product Detail'),
+      // product-detail is handled by onGenerateRoute
       '/checkout': (context) => const PlaceholderScreen(title: 'Checkout'),
       '/orders': (context) => const PlaceholderScreen(title: 'Orders'),
       '/profile': (context) => const ProfileScreen(),

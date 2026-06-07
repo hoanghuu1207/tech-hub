@@ -125,4 +125,14 @@ class CatalogService {
       total: (data['total'] as num?)?.toInt() ?? 0,
     );
   }
+
+  // ── GET /catalog/products/{productId} ──
+  Future<ProductDetail> getProductDetail(String productId) async {
+    final response = await _apiService.get('/catalog/products/$productId');
+    final data = jsonDecode(response);
+    if (data['success'] == true && data['data'] != null) {
+      return ProductDetail.fromJson(data['data'] as Map<String, dynamic>);
+    }
+    throw NotFoundException('Product not found');
+  }
 }
