@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:share_plus/share_plus.dart';
 import '../models/catalog_models.dart';
 import '../services/catalog_service.dart';
+import '../services/api_service.dart';
 import '../services/auth_service.dart';
 import '../bloc/cart_bloc.dart';
 import '../utils/formatters.dart';
@@ -154,7 +156,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
         Container(
           margin: const EdgeInsets.all(8),
           decoration: BoxDecoration(color: _C.surface.withOpacity(0.8), shape: BoxShape.circle),
-          child: IconButton(icon: const Icon(Icons.share, color: Colors.white, size: 20), onPressed: () {}),
+          child: IconButton(icon: const Icon(Icons.share, color: Colors.white, size: 20), onPressed: () => _shareProduct(product)),
         )
       ],
       flexibleSpace: FlexibleSpaceBar(
@@ -554,6 +556,25 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
           ),
         ),
       ]),
+    );
+  }
+
+  void _shareProduct(ProductDetail product) {
+    // Lấy base host từ API_URL (bỏ /api/v1)
+    final apiUrl = ApiService().baseUrl;
+    final baseHost = apiUrl.replaceAll('/api/v1', '');
+    final shareLink = '$baseHost/share/product/${product.id}';
+
+    final price = AppFormatters.formatCurrency(product.displayPrice);
+    final brand = product.brandName.isNotEmpty ? ' - ${product.brandName}' : '';
+
+    final shareText = '🔥 ${product.name}$brand\n'
+        '💰 Giá: $price\n'
+        '📱 Xem chi tiết trên TechHub:\n'
+        '$shareLink';
+
+    SharePlus.instance.share(
+      ShareParams(text: shareText),
     );
   }
 

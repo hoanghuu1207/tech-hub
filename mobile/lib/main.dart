@@ -4,6 +4,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:app_links/app_links.dart';
 import 'bloc/index.dart';
 import 'screens/index.dart';
 import 'services/index.dart';
@@ -49,8 +50,51 @@ void main() async {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
+
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  final _navigatorKey = GlobalKey<NavigatorState>();
+  late final AppLinks _appLinks;
+
+  @override
+  void initState() {
+    super.initState();
+    _appLinks = AppLinks();
+    _initDeepLinks();
+  }
+
+  Future<void> _initDeepLinks() async {
+    // Handle link when app is already running
+    _appLinks.uriLinkStream.listen((uri) {
+      _handleDeepLink(uri);
+    });
+
+    // Handle link that launched the app (cold start)
+    try {
+      final initialUri = await _appLinks.getInitialLink();
+      if (initialUri != null) {
+        // Delay to let MaterialApp finish building
+        Future.delayed(const Duration(milliseconds: 500), () {
+          _handleDeepLink(initialUri);
+        });
+      }
+    } catch (e) {
+      print('⚠️ Error getting initial deep link: $e');
+    }
+  }
+
+  void _handleDeepLink(Uri uri) {
+    // techhub://product/{productId}
+    if (uri.scheme == 'techhub' && uri.host == 'product' && uri.pathSegments.isNotEmpty) {
+      final productId = uri.pathSegments.first;
+      _navigatorKey.currentState?.pushNamed('/product-detail', arguments: productId);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -63,6 +107,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'TechHub',
+        navigatorKey: _navigatorKey,
         debugShowCheckedModeBanner: false,
         theme: _buildTheme(),
         home: const SplashScreen(),
