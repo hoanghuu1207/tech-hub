@@ -14,6 +14,7 @@
 
 ### ADMIN ###
 - [] Thống kê sản phẩm bán chạy, top sản phẩm xem nhiều, đơn hàng thanh toán, thất bại...
+- [] Set thông báo đến user hot deal...
 
 ### PAYOS ###
 - [] Thay tài khoản Payos

@@ -112,6 +112,7 @@ class Cart {
 
   double get total => items.fold(0, (sum, item) => sum + item.subtotal);
   int get itemCount => items.fold(0, (sum, item) => sum + item.quantity);
+  int get activeItemCount => items.where((item) => !item.isOutOfStock).fold(0, (sum, item) => sum + item.quantity);
 
   Cart removeItem(String itemId) {
     return Cart(items: items.where((i) => i.id != itemId).toList());

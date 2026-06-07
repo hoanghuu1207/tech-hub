@@ -150,7 +150,7 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
   Widget _buildHeader() {
     final user = AuthService().currentUser;
     final cartState = context.watch<CartBloc>().state;
-    final cartCount = cartState.cart.itemCount;
+    final cartCount = cartState.cart.activeItemCount;
 
     return Padding(
       padding: const EdgeInsets.fromLTRB(20, 16, 20, 4),

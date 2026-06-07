@@ -147,7 +147,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   _buildNavItem(Icons.home_rounded, 'Trang chủ', 0),
                   _buildNavItem(Icons.grid_view_rounded, 'Sản phẩm', 1),
-                  _buildNavItem(Icons.shopping_bag_rounded, 'Giỏ hàng', 2, badgeCount: cartState.cart.itemCount),
+                  _buildNavItem(Icons.shopping_bag_rounded, 'Giỏ hàng', 2, badgeCount: cartState.cart.activeItemCount),
                   _buildNavItem(Icons.receipt_long_rounded, 'Đơn hàng', 3),
                   _buildNavItem(Icons.person_rounded, 'Tài khoản', 4),
                 ],
