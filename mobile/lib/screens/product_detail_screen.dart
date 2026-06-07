@@ -246,7 +246,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
             children: [
               Text(AppFormatters.formatCurrency(product.displayPrice), style: GoogleFonts.outfit(fontSize: 28, fontWeight: FontWeight.w800, color: _C.success)),
               if (product.hasDiscount) ...[
-                Text(AppFormatters.formatCurrency(product.basePrice), style: GoogleFonts.outfit(fontSize: 16, color: _C.textMuted, decoration: TextDecoration.lineThrough)),
+                Text(AppFormatters.formatCurrency(product.basePrice), style: GoogleFonts.outfit(fontSize: 16, color: Color.fromARGB(255, 255, 0, 100), decoration: TextDecoration.lineThrough, decorationColor: Colors.black, decorationThickness: 3)),
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                   decoration: BoxDecoration(color: _C.error, borderRadius: BorderRadius.circular(8)),
