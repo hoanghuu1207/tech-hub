@@ -12,6 +12,7 @@ import '../../services/notification_ws.dart';
 import 'cart_screen.dart';
 import 'profile_screen.dart';
 import 'notification_screen.dart';
+import 'payment_webview_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -58,36 +59,108 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: IndexedStack(
-        index: _selectedTab,
-        children: [
-          PremiumHomeTab(
-            onProfileTap: () => setState(() => _selectedTab = 4),
-            onCartTap: () => setState(() => _selectedTab = 2),
-            onSearchTap: () => Navigator.of(context).pushNamed('/search'),
-            onProductsTap: () => setState(() => _selectedTab = 1),
-            onNotificationTap: () => Navigator.push(
-              context,
-              MaterialPageRoute(builder: (_) => const NotificationScreen()),
+    return BlocListener<ChatBloc, ChatState>(
+      listenWhen: (prev, curr) =>
+          curr.pendingNavigation != null &&
+          curr.pendingNavigation != prev.pendingNavigation,
+      listener: (context, state) {
+        final nav = state.pendingNavigation;
+        if (nav == null) return;
+        _handleChatNavigation(nav);
+        // Clear the pending navigation so it doesn't fire again
+        context.read<ChatBloc>().add(const ChatNavigationHandled());
+      },
+      child: Scaffold(
+        body: IndexedStack(
+          index: _selectedTab,
+          children: [
+            PremiumHomeTab(
+              onProfileTap: () => setState(() => _selectedTab = 4),
+              onCartTap: () => setState(() => _selectedTab = 2),
+              onSearchTap: () => Navigator.of(context).pushNamed('/search'),
+              onProductsTap: () => setState(() => _selectedTab = 1),
+              onNotificationTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const NotificationScreen()),
+              ),
             ),
-          ),
-          BlocProvider(
-            create: (_) => CatalogBloc()..add(const CatalogStarted()),
-            child: const ProductsTab(),
-          ),
-          CartScreen(
-            onContinueShopping: () => setState(() => _selectedTab = 0),
-          ),
-          const OrdersTab(),
-          const ProfileScreen(),
-        ],
+            BlocProvider(
+              create: (_) => CatalogBloc()..add(const CatalogStarted()),
+              child: const ProductsTab(),
+            ),
+            CartScreen(
+              onContinueShopping: () => setState(() => _selectedTab = 0),
+            ),
+            const OrdersTab(),
+            const ProfileScreen(),
+          ],
+        ),
+        // ── AI Chatbot FAB with glow ──
+        floatingActionButton: _buildChatbotFAB(),
+        // ── Premium Dark Bottom Nav ──
+        bottomNavigationBar: _buildBottomNav(),
       ),
-      // ── AI Chatbot FAB with glow ──
-      floatingActionButton: _buildChatbotFAB(),
-      // ── Premium Dark Bottom Nav ──
-      bottomNavigationBar: _buildBottomNav(),
     );
+  }
+
+  // ── Handle chat navigation actions ──
+  void _handleChatNavigation(ChatNavigationAction nav) {
+    switch (nav.action) {
+      // ── Search results → Switch to products tab ──
+      case 'show_product_list':
+        setState(() => _selectedTab = 1);
+        break;
+
+      // ── Product detail → Push detail screen ──
+      case 'navigate_product_detail':
+        final id = nav.data['product_id'];
+        if (id != null) {
+          Navigator.of(context).pushNamed('/product-detail', arguments: id.toString());
+        }
+        break;
+
+      // ── Cart actions → Switch to cart tab ──
+      case 'show_cart':
+      case 'cart_updated':
+        setState(() => _selectedTab = 2);
+        context.read<CartBloc>().add(const CartFetch());
+        break;
+
+      // ── Payment → Open PayOS WebView ──
+      case 'open_payment':
+        final checkoutUrl = nav.data['checkout_url'];
+        final orderId = nav.data['order_id'];
+        if (checkoutUrl != null && orderId != null) {
+          Navigator.of(context).push(MaterialPageRoute(
+            builder: (_) => PaymentWebViewScreen(
+              checkoutUrl: checkoutUrl.toString(),
+              orderId: orderId.toString(),
+            ),
+          ));
+        }
+        break;
+
+      // ── Order detail → Switch to orders tab ──
+      case 'show_order_detail':
+        // OrderDetailScreen requires an Order object, so just switch to Orders tab
+        setState(() => _selectedTab = 3);
+        break;
+
+      // ── Promotions → Switch to home tab ──
+      case 'show_promotions':
+        setState(() => _selectedTab = 0);
+        break;
+
+      // ── Compare → Switch to products tab (for now) ──
+      case 'show_compare_table':
+        setState(() => _selectedTab = 1);
+        break;
+
+      // ── Require login → Navigate to login ──
+      case 'require_login':
+        Navigator.of(context).pushNamed('/login');
+        break;
+    }
   }
 
   Widget _buildChatbotFAB() {

@@ -6,6 +6,7 @@ import 'package:intl/intl.dart';
 import '../bloc/chat_bloc.dart';
 import '../bloc/cart_bloc.dart';
 import '../models/chat_model.dart';
+import '../screens/payment_webview_screen.dart';
 
 // ── Colors ──
 class _K {
@@ -327,6 +328,15 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
         return _buildLoginCard();
       case 'show_cart':
         return _buildShowCartCard(action);
+      case 'show_product_list':
+      case 'show_promotions':
+        return _buildViewListCard(action);
+      case 'navigate_product_detail':
+        return _buildViewDetailCard(action);
+      case 'show_order_detail':
+        return _buildViewOrderCard(action);
+      case 'show_compare_table':
+        return _buildCompareCard(action);
       default:
         return const SizedBox.shrink();
     }
@@ -424,7 +434,7 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
           SizedBox(
             width: double.infinity,
             child: ElevatedButton.icon(
-              onPressed: () => _openUrl(action.checkoutUrl),
+              onPressed: () => _openUrl(action.checkoutUrl, orderId: action.orderId),
               icon: const Icon(Icons.payment_rounded, size: 18),
               label: Text('Thanh toán PayOS', style: GoogleFonts.outfit(fontWeight: FontWeight.w700)),
               style: ElevatedButton.styleFrom(
@@ -704,11 +714,94 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
     return '${f.format(price)}đ';
   }
 
-  void _openUrl(String? url) {
-    // TODO: Use url_launcher to open checkout URL
-    if (url != null) {
-      debugPrint('Opening URL: $url');
-    }
+  void _openUrl(String? url, {String? orderId}) {
+    if (url == null) return;
+    Navigator.pop(context); // Close BottomSheet
+    Navigator.of(context).push(MaterialPageRoute(
+      builder: (_) => PaymentWebViewScreen(
+        checkoutUrl: url,
+        orderId: orderId ?? '',
+      ),
+    ));
+  }
+
+  // ── VIEW LIST CARD (search results / promotions) ──
+  Widget _buildViewListCard(ChatActionData action) {
+    final isPromo = action.action == 'show_promotions';
+    return _buildSimpleActionCard(
+      icon: isPromo ? Icons.local_offer_rounded : Icons.grid_view_rounded,
+      color: isPromo ? _K.amber : _K.primary,
+      label: isPromo ? 'Xem sản phẩm khuyến mãi' : 'Xem danh sách sản phẩm',
+      onTap: () => Navigator.pop(context),
+    );
+  }
+
+  // ── VIEW DETAIL CARD ──
+  Widget _buildViewDetailCard(ChatActionData action) {
+    return _buildSimpleActionCard(
+      icon: Icons.open_in_new_rounded,
+      color: _K.emerald,
+      label: 'Xem chi tiết ${action.productName ?? "sản phẩm"}',
+      onTap: () {
+        Navigator.pop(context);
+        final id = action.productId;
+        if (id != null) {
+          Navigator.of(context).pushNamed('/product-detail', arguments: id);
+        }
+      },
+    );
+  }
+
+  // ── VIEW ORDER CARD ──
+  Widget _buildViewOrderCard(ChatActionData action) {
+    return _buildSimpleActionCard(
+      icon: Icons.receipt_long_rounded,
+      color: _K.amber,
+      label: 'Xem đơn hàng',
+      onTap: () => Navigator.pop(context),
+    );
+  }
+
+  // ── COMPARE CARD ──
+  Widget _buildCompareCard(ChatActionData action) {
+    return _buildSimpleActionCard(
+      icon: Icons.compare_arrows_rounded,
+      color: _K.primary,
+      label: 'Xem bảng so sánh',
+      onTap: () => Navigator.pop(context),
+    );
+  }
+
+  // ── REUSABLE SIMPLE ACTION CARD ──
+  Widget _buildSimpleActionCard({
+    required IconData icon,
+    required Color color,
+    required String label,
+    required VoidCallback onTap,
+  }) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(
+          color: color.withOpacity(0.1),
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: color.withOpacity(0.3)),
+        ),
+        child: Row(
+          children: [
+            Icon(icon, color: color, size: 20),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Text(label, style: GoogleFonts.outfit(
+                fontSize: 13, fontWeight: FontWeight.w600, color: _K.textPrimary,
+              )),
+            ),
+            Icon(Icons.arrow_forward_ios_rounded, color: color, size: 14),
+          ],
+        ),
+      ),
+    );
   }
 }
 
