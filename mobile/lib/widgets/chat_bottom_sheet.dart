@@ -23,8 +23,7 @@ class _K {
 }
 
 class ChatBottomSheet extends StatefulWidget {
-  final VoidCallback? onViewCart;
-  const ChatBottomSheet({Key? key, this.onViewCart}) : super(key: key);
+  const ChatBottomSheet({Key? key}) : super(key: key);
 
   @override
   State<ChatBottomSheet> createState() => _ChatBottomSheetState();
@@ -40,7 +39,10 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
   void initState() {
     super.initState();
     _dotController = AnimationController(vsync: this, duration: const Duration(milliseconds: 1200))..repeat();
-    WidgetsBinding.instance.addPostFrameCallback((_) => _focusNode.requestFocus());
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _focusNode.requestFocus();
+      _scrollToBottom();
+    });
   }
 
   @override
@@ -60,6 +62,12 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
           duration: const Duration(milliseconds: 300),
           curve: Curves.easeOut,
         );
+      }
+    });
+    // Fallback: delayed jump for when the list hasn't fully laid out yet
+    Future.delayed(const Duration(milliseconds: 400), () {
+      if (mounted && _scrollController.hasClients) {
+        _scrollController.jumpTo(_scrollController.position.maxScrollExtent);
       }
     });
   }
@@ -434,7 +442,20 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
           SizedBox(
             width: double.infinity,
             child: ElevatedButton.icon(
-              onPressed: () => _openUrl(action.checkoutUrl, orderId: action.orderId),
+              onPressed: () {
+                final url = action.checkoutUrl;
+                final orderId = action.orderId;
+                if (url != null && url.isNotEmpty) {
+                  final nav = Navigator.of(context);
+                  nav.pop(); // close bottom sheet
+                  nav.push(MaterialPageRoute(
+                    builder: (_) => PaymentWebViewScreen(
+                      checkoutUrl: url,
+                      orderId: orderId ?? '',
+                    ),
+                  ));
+                }
+              },
               icon: const Icon(Icons.payment_rounded, size: 18),
               label: Text('Thanh toán PayOS', style: GoogleFonts.outfit(fontWeight: FontWeight.w700)),
               style: ElevatedButton.styleFrom(
@@ -524,12 +545,7 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
         const SizedBox(width: 10),
         Expanded(child: Text('Giỏ hàng: ${action.totalItems ?? 0} sản phẩm', style: GoogleFonts.outfit(fontSize: 13, fontWeight: FontWeight.w600, color: _K.textPrimary))),
         GestureDetector(
-          onTap: () {
-            Navigator.pop(context);
-            if (widget.onViewCart != null) {
-              widget.onViewCart!();
-            }
-          },
+          onTap: () => _requestNavAndClose('show_cart', action.rawData),
           child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
             decoration: BoxDecoration(color: _K.primary, borderRadius: BorderRadius.circular(8)),
@@ -713,16 +729,20 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
     final f = NumberFormat('#,###', 'vi_VN');
     return '${f.format(price)}đ';
   }
+  /// Pops back to HomeScreen first, then dispatches navigation event on next frame.
+  /// This ensures HomeScreen is fully visible before BlocListener switches tabs.
+  void _requestNavAndClose(String action, Map<String, dynamic> data) {
+    final chatBloc = context.read<ChatBloc>();
+    final nav = Navigator.of(context);
+    nav.pop(); // close bottom sheet
+    nav.popUntil((route) => route.isFirst); // pop back to HomeScreen
 
-  void _openUrl(String? url, {String? orderId}) {
-    if (url == null) return;
-    Navigator.pop(context); // Close BottomSheet
-    Navigator.of(context).push(MaterialPageRoute(
-      builder: (_) => PaymentWebViewScreen(
-        checkoutUrl: url,
-        orderId: orderId ?? '',
-      ),
-    ));
+    // Dispatch navigation AFTER pops complete so HomeScreen rebuilds fresh
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      chatBloc.add(ChatNavigationRequested(
+        ChatNavigationAction(action: action, data: data),
+      ));
+    });
   }
 
   // ── VIEW LIST CARD (search results / promotions) ──
@@ -732,7 +752,7 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
       icon: isPromo ? Icons.local_offer_rounded : Icons.grid_view_rounded,
       color: isPromo ? _K.amber : _K.primary,
       label: isPromo ? 'Xem sản phẩm khuyến mãi' : 'Xem danh sách sản phẩm',
-      onTap: () => Navigator.pop(context),
+      onTap: () => _requestNavAndClose(action.action, action.rawData),
     );
   }
 
@@ -743,11 +763,13 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
       color: _K.emerald,
       label: 'Xem chi tiết ${action.productName ?? "sản phẩm"}',
       onTap: () {
-        Navigator.pop(context);
         final id = action.productId;
-        if (id != null) {
-          Navigator.of(context).pushNamed('/product-detail', arguments: id);
-        }
+        if (id == null) return;
+        final nav = Navigator.of(context);
+        nav.pop(); // close bottom sheet
+        // Pop any stacked screens back to root, then push detail
+        nav.popUntil((route) => route.isFirst);
+        nav.pushNamed('/product-detail', arguments: id);
       },
     );
   }
@@ -758,7 +780,7 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
       icon: Icons.receipt_long_rounded,
       color: _K.amber,
       label: 'Xem đơn hàng',
-      onTap: () => Navigator.pop(context),
+      onTap: () => _requestNavAndClose('show_order_detail', action.rawData),
     );
   }
 
@@ -768,7 +790,7 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
       icon: Icons.compare_arrows_rounded,
       color: _K.primary,
       label: 'Xem bảng so sánh',
-      onTap: () => Navigator.pop(context),
+      onTap: () => _requestNavAndClose('show_compare_table', action.rawData),
     );
   }
 

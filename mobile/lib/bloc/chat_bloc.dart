@@ -48,6 +48,14 @@ class ChatNavigationHandled extends ChatEvent {
   const ChatNavigationHandled();
 }
 
+/// Re-triggers a navigation action (e.g. when user taps an action card button)
+class ChatNavigationRequested extends ChatEvent {
+  final ChatNavigationAction navigation;
+  const ChatNavigationRequested(this.navigation);
+  @override
+  List<Object?> get props => [navigation];
+}
+
 // ── States ──
 class ChatState extends Equatable {
   final List<ChatMessage> messages;
@@ -98,6 +106,7 @@ class ChatBloc extends Bloc<ChatEvent, ChatState> {
     on<ChatMessageSent>(_onMessageSent);
     on<ChatClearRequested>(_onClear);
     on<ChatNavigationHandled>(_onNavigationHandled);
+    on<ChatNavigationRequested>(_onNavigationRequested);
   }
 
   Future<void> _onMessageSent(ChatMessageSent event, Emitter<ChatState> emit) async {
@@ -130,11 +139,14 @@ class ChatBloc extends Bloc<ChatEvent, ChatState> {
       // 3. Build navigation action if applicable
       ChatNavigationAction? navAction;
       if (botMsg.actionData != null) {
-        final action = botMsg.actionData!.action;
+        var action = botMsg.actionData!.action;
+        final navData = Map<String, dynamic>.from(botMsg.actionData!.rawData);
+        navData['intent_type'] = botMsg.intentType;
+
         if (_screenActions.contains(action)) {
           navAction = ChatNavigationAction(
             action: action,
-            data: botMsg.actionData!.rawData,
+            data: navData,
           );
         }
       }
@@ -163,5 +175,14 @@ class ChatBloc extends Bloc<ChatEvent, ChatState> {
 
   void _onNavigationHandled(ChatNavigationHandled event, Emitter<ChatState> emit) {
     emit(state.copyWith(clearNavigation: true));
+  }
+
+  void _onNavigationRequested(ChatNavigationRequested event, Emitter<ChatState> emit) {
+    emit(state.copyWith(
+      pendingNavigation: ChatNavigationAction(
+        action: event.navigation.action,
+        data: event.navigation.data,
+      ),
+    ));
   }
 }

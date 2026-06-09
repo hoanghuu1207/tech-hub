@@ -81,11 +81,13 @@ compare_products_func = genai.protos.FunctionDeclaration(
 add_to_cart_func = genai.protos.FunctionDeclaration(
     name="add_to_cart",
     description=(
-        "BẮT BUỘC gọi tool này để thêm sản phẩm vào giỏ hàng. KHÔNG ĐƯỢC tự nói 'đã thêm' mà không gọi tool. "
+        "CHỈ dùng khi người dùng MUỐN THÊM VÀO GIỎ HÀNG, KHÔNG phải khi muốn mua ngay. "
+        "KHÔNG ĐƯỢC tự nói 'đã thêm' mà không gọi tool. "
         "Cần product_id (UUID lấy từ kết quả search_products hoặc get_product_detail trước đó). "
-        "Khi người dùng nói 'thêm vào giỏ', 'mua cái này', 'cho vào giỏ', 'bỏ vào giỏ hàng' → PHẢI gọi add_to_cart. "
+        "Khi người dùng nói 'thêm vào giỏ', 'cho vào giỏ', 'bỏ vào giỏ hàng', 'add to cart' → gọi add_to_cart. "
+        "⚠️ KHÔNG gọi add_to_cart khi người dùng nói 'mua', 'tôi muốn mua', 'mua cái này', 'đặt mua' — những câu đó phải dùng buy_product. "
         "Nếu kết quả trả về yêu cầu chọn màu (action='select_variant'), hãy hỏi người dùng chọn màu rồi gọi lại với variant_id. "
-        "Ví dụ: 'thêm sản phẩm đầu tiên vào giỏ', 'mua cái iPhone này', 'cho tôi cái thứ 2'."
+        "Ví dụ: 'thêm sản phẩm đầu tiên vào giỏ', 'cho vào giỏ cái thứ 2', 'bỏ vào giỏ hàng'."
     ),
     parameters=genai.protos.Schema(
         type=genai.protos.Type.OBJECT,
@@ -183,9 +185,10 @@ buy_product_func = genai.protos.FunctionDeclaration(
     description=(
         "Mua ngay sản phẩm KHÔNG qua giỏ hàng — tạo đơn hàng trực tiếp + thanh toán PayOS. YÊU CẦU ĐĂNG NHẬP. "
         "Cần product_id (UUID lấy từ kết quả search_products hoặc get_product_detail trước đó). "
-        "BẮT BUỘC gọi tool này khi người dùng muốn mua ngay, đặt hàng nhanh một sản phẩm cụ thể. "
+        "BẮT BUỘC gọi tool này khi người dùng muốn MUA sản phẩm. "
+        "Khi người dùng nói 'mua', 'tôi muốn mua', 'mua cái này', 'mua ngay', 'đặt mua', 'đặt hàng', 'mua luôn', 'mua cho tôi', 'order' → PHẢI gọi buy_product. "
         "Nếu kết quả trả về yêu cầu chọn màu (action='select_variant'), hãy hỏi người dùng chọn màu rồi gọi lại với variant_id. "
-        "Ví dụ: 'mua ngay cái này', 'đặt mua 2 cái iPhone đầu tiên', 'mua luôn sản phẩm thứ 3'."
+        "Ví dụ: 'tôi muốn mua cái này', 'mua ngay sản phẩm đầu tiên', 'đặt mua 2 cái iPhone', 'mua cho tôi cái thứ 3'."
     ),
     parameters=genai.protos.Schema(
         type=genai.protos.Type.OBJECT,

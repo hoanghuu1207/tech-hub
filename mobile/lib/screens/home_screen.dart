@@ -7,7 +7,6 @@ import '../../bloc/catalog_bloc.dart';
 import '../../widgets/premium_home_tab.dart';
 import '../../widgets/products_tab.dart';
 import '../../widgets/orders_tab.dart';
-import '../../widgets/chat_bottom_sheet.dart';
 import '../../services/notification_ws.dart';
 import 'cart_screen.dart';
 import 'profile_screen.dart';
@@ -51,7 +50,6 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // ── Dark theme colors ──
-  static const _bgDark = Color(0xFF0F172A);
   static const _surfaceDark = Color(0xFF1E293B);
   static const _primaryColor = Color(0xFF6366F1);
   static const _textMuted = Color(0xFF64748B);
@@ -95,8 +93,6 @@ class _HomeScreenState extends State<HomeScreen> {
             const ProfileScreen(),
           ],
         ),
-        // ── AI Chatbot FAB with glow ──
-        floatingActionButton: _buildChatbotFAB(),
         // ── Premium Dark Bottom Nav ──
         bottomNavigationBar: _buildBottomNav(),
       ),
@@ -115,6 +111,8 @@ class _HomeScreenState extends State<HomeScreen> {
       case 'navigate_product_detail':
         final id = nav.data['product_id'];
         if (id != null) {
+          // Pop any stacked screens to avoid duplicates
+          Navigator.of(context).popUntil((route) => route.isFirst);
           Navigator.of(context).pushNamed('/product-detail', arguments: id.toString());
         }
         break;
@@ -161,40 +159,6 @@ class _HomeScreenState extends State<HomeScreen> {
         Navigator.of(context).pushNamed('/login');
         break;
     }
-  }
-
-  Widget _buildChatbotFAB() {
-    return Container(
-      decoration: BoxDecoration(
-        shape: BoxShape.circle,
-        boxShadow: [
-          BoxShadow(
-            color: _primaryColor.withOpacity(0.5),
-            blurRadius: 24,
-            offset: const Offset(0, 8),
-          ),
-        ],
-      ),
-      child: FloatingActionButton(
-        onPressed: () {
-          showModalBottomSheet(
-            context: context,
-            isScrollControlled: true,
-            backgroundColor: Colors.transparent,
-            builder: (_) => BlocProvider.value(
-              value: context.read<ChatBloc>(),
-              child: ChatBottomSheet(
-                onViewCart: () => setState(() => _selectedTab = 2),
-              ),
-            ),
-          );
-        },
-        backgroundColor: _primaryColor,
-        foregroundColor: Colors.white,
-        elevation: 0,
-        child: const Icon(Icons.psychology, size: 28),
-      ),
-    );
   }
 
   Widget _buildBottomNav() {

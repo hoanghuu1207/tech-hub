@@ -11,6 +11,7 @@ import 'services/index.dart';
 import 'services/notification_ws.dart';
 import 'utils/index.dart';
 import 'widgets/app_button.dart';
+import 'widgets/global_chat_fab.dart';
 
 /// Background FCM message handler (phải là top-level function).
 @pragma('vm:entry-point')
@@ -121,6 +122,12 @@ class _MyAppState extends State<MyApp> {
             );
           }
           return null;
+        },
+        builder: (context, child) {
+          return _GlobalFABWrapper(
+            navigatorKey: _navigatorKey,
+            child: child!,
+          );
         },
       ),
     );
@@ -400,6 +407,31 @@ class PlaceholderScreen extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+/// Wraps every route with a floating chat FAB (always visible).
+class _GlobalFABWrapper extends StatelessWidget {
+  final GlobalKey<NavigatorState> navigatorKey;
+  final Widget child;
+
+  const _GlobalFABWrapper({
+    required this.navigatorKey,
+    required this.child,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        child,
+        Positioned(
+          right: 16,
+          bottom: MediaQuery.of(context).padding.bottom + 76,
+          child: GlobalChatFAB(navigatorKey: navigatorKey),
+        ),
+      ],
     );
   }
 }

@@ -21,6 +21,6 @@
 
 ### BUG CHATBOT
 - [] Khi hỏi sản phẩm, nó sẽ list ra danh sách sản phẩm, sau đó tôi hỏi sản phẩm khác, vì lưu context nên nó lại lấy các sản phẩm đã list ra để search. (Ví dụ: tai nghe dưới 200k, nó sẽ list ra các tai nghe có giá từ 90 -> 200k, sau đó tôi tiếp tục hỏi tai nghe dưới 50k, thì nó lại trả lời không có, mặc dù có tai nghe dưới 50k trong db).
-- [] Xem chi tiết sản phẩm, sau khi xác nhận xem chi tiết thì nó ngay lập tức chuyển sang màn product detail và đóng bottomsheet chatbot, tôi muốn nó chuyển màn nhưng không đóng bottomsheet, ở mọi màn trong app đều có icon chatbot ở home để có thể mở lại.
-- [] Khi mở bottomsheet thì nó lại scroll ở trên, tôi muốn scroll xuống dưới cùng của đoạn chat.
+- [x] Xem chi tiết sản phẩm, sau khi xác nhận xem chi tiết thì nó ngay lập tức chuyển sang màn product detail và đóng bottomsheet chatbot, tôi muốn nó chuyển màn nhưng không đóng bottomsheet, ở mọi màn trong app đều có icon chatbot ở home để có thể mở lại.
+- [x] Khi mở bottomsheet thì nó lại scroll ở trên, tôi muốn scroll xuống dưới cùng của đoạn chat.
 - [] Sau khi xác nhận thah toán, nó ngay lập tức gọi hàm tạo order và sang màn chứa webview payos, và không điền 1 thông tin gì về thông tin user mua hàng. Tôi muốn nếu thanh toán từ giỏ hàng(proceed_to_checkout), thì sẽ yêu cầu user nhập thông tin trước, khi ấn thanh toán ở bottomsheet chatbot thì sẽ giống logic nút đặt hàng & thanh toán ở tab giỏ hàng. Nếu mua hàng trực tiếp buy_product thì sẽ yêu cầu user nhập thông tin trước, nhưng ở đây sẽ chuyển sang màn buy_now_checkout_screen, logic tiếp theo tương tự. 
