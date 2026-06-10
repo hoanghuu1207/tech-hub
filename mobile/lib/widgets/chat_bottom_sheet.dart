@@ -6,6 +6,7 @@ import 'package:intl/intl.dart';
 import '../bloc/chat_bloc.dart';
 import '../bloc/cart_bloc.dart';
 import '../models/chat_model.dart';
+import '../screens/payment_webview_screen.dart';
 
 // ── Colors ──
 class _K {
@@ -22,8 +23,7 @@ class _K {
 }
 
 class ChatBottomSheet extends StatefulWidget {
-  final VoidCallback? onViewCart;
-  const ChatBottomSheet({Key? key, this.onViewCart}) : super(key: key);
+  const ChatBottomSheet({Key? key}) : super(key: key);
 
   @override
   State<ChatBottomSheet> createState() => _ChatBottomSheetState();
@@ -39,7 +39,10 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
   void initState() {
     super.initState();
     _dotController = AnimationController(vsync: this, duration: const Duration(milliseconds: 1200))..repeat();
-    WidgetsBinding.instance.addPostFrameCallback((_) => _focusNode.requestFocus());
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _focusNode.requestFocus();
+      _scrollToBottom();
+    });
   }
 
   @override
@@ -59,6 +62,12 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
           duration: const Duration(milliseconds: 300),
           curve: Curves.easeOut,
         );
+      }
+    });
+    // Fallback: delayed jump for when the list hasn't fully laid out yet
+    Future.delayed(const Duration(milliseconds: 400), () {
+      if (mounted && _scrollController.hasClients) {
+        _scrollController.jumpTo(_scrollController.position.maxScrollExtent);
       }
     });
   }
@@ -327,6 +336,15 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
         return _buildLoginCard();
       case 'show_cart':
         return _buildShowCartCard(action);
+      case 'show_product_list':
+      case 'show_promotions':
+        return _buildViewListCard(action);
+      case 'navigate_product_detail':
+        return _buildViewDetailCard(action);
+      case 'show_order_detail':
+        return _buildViewOrderCard(action);
+      case 'show_compare_table':
+        return _buildCompareCard(action);
       default:
         return const SizedBox.shrink();
     }
@@ -424,7 +442,20 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
           SizedBox(
             width: double.infinity,
             child: ElevatedButton.icon(
-              onPressed: () => _openUrl(action.checkoutUrl),
+              onPressed: () {
+                final url = action.checkoutUrl;
+                final orderId = action.orderId;
+                if (url != null && url.isNotEmpty) {
+                  final nav = Navigator.of(context);
+                  nav.pop(); // close bottom sheet
+                  nav.push(MaterialPageRoute(
+                    builder: (_) => PaymentWebViewScreen(
+                      checkoutUrl: url,
+                      orderId: orderId ?? '',
+                    ),
+                  ));
+                }
+              },
               icon: const Icon(Icons.payment_rounded, size: 18),
               label: Text('Thanh toán PayOS', style: GoogleFonts.outfit(fontWeight: FontWeight.w700)),
               style: ElevatedButton.styleFrom(
@@ -514,12 +545,7 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
         const SizedBox(width: 10),
         Expanded(child: Text('Giỏ hàng: ${action.totalItems ?? 0} sản phẩm', style: GoogleFonts.outfit(fontSize: 13, fontWeight: FontWeight.w600, color: _K.textPrimary))),
         GestureDetector(
-          onTap: () {
-            Navigator.pop(context);
-            if (widget.onViewCart != null) {
-              widget.onViewCart!();
-            }
-          },
+          onTap: () => _requestNavAndClose('show_cart', action.rawData),
           child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
             decoration: BoxDecoration(color: _K.primary, borderRadius: BorderRadius.circular(8)),
@@ -703,12 +729,101 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
     final f = NumberFormat('#,###', 'vi_VN');
     return '${f.format(price)}đ';
   }
+  /// Pops back to HomeScreen first, then dispatches navigation event on next frame.
+  /// This ensures HomeScreen is fully visible before BlocListener switches tabs.
+  void _requestNavAndClose(String action, Map<String, dynamic> data) {
+    final chatBloc = context.read<ChatBloc>();
+    final nav = Navigator.of(context);
+    nav.pop(); // close bottom sheet
+    nav.popUntil((route) => route.isFirst); // pop back to HomeScreen
 
-  void _openUrl(String? url) {
-    // TODO: Use url_launcher to open checkout URL
-    if (url != null) {
-      debugPrint('Opening URL: $url');
-    }
+    // Dispatch navigation AFTER pops complete so HomeScreen rebuilds fresh
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      chatBloc.add(ChatNavigationRequested(
+        ChatNavigationAction(action: action, data: data),
+      ));
+    });
+  }
+
+  // ── VIEW LIST CARD (search results / promotions) ──
+  Widget _buildViewListCard(ChatActionData action) {
+    final isPromo = action.action == 'show_promotions';
+    return _buildSimpleActionCard(
+      icon: isPromo ? Icons.local_offer_rounded : Icons.grid_view_rounded,
+      color: isPromo ? _K.amber : _K.primary,
+      label: isPromo ? 'Xem sản phẩm khuyến mãi' : 'Xem danh sách sản phẩm',
+      onTap: () => _requestNavAndClose(action.action, action.rawData),
+    );
+  }
+
+  // ── VIEW DETAIL CARD ──
+  Widget _buildViewDetailCard(ChatActionData action) {
+    return _buildSimpleActionCard(
+      icon: Icons.open_in_new_rounded,
+      color: _K.emerald,
+      label: 'Xem chi tiết ${action.productName ?? "sản phẩm"}',
+      onTap: () {
+        final id = action.productId;
+        if (id == null) return;
+        final nav = Navigator.of(context);
+        nav.pop(); // close bottom sheet
+        // Pop any stacked screens back to root, then push detail
+        nav.popUntil((route) => route.isFirst);
+        nav.pushNamed('/product-detail', arguments: id);
+      },
+    );
+  }
+
+  // ── VIEW ORDER CARD ──
+  Widget _buildViewOrderCard(ChatActionData action) {
+    return _buildSimpleActionCard(
+      icon: Icons.receipt_long_rounded,
+      color: _K.amber,
+      label: 'Xem đơn hàng',
+      onTap: () => _requestNavAndClose('show_order_detail', action.rawData),
+    );
+  }
+
+  // ── COMPARE CARD ──
+  Widget _buildCompareCard(ChatActionData action) {
+    return _buildSimpleActionCard(
+      icon: Icons.compare_arrows_rounded,
+      color: _K.primary,
+      label: 'Xem bảng so sánh',
+      onTap: () => _requestNavAndClose('show_compare_table', action.rawData),
+    );
+  }
+
+  // ── REUSABLE SIMPLE ACTION CARD ──
+  Widget _buildSimpleActionCard({
+    required IconData icon,
+    required Color color,
+    required String label,
+    required VoidCallback onTap,
+  }) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(
+          color: color.withOpacity(0.1),
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: color.withOpacity(0.3)),
+        ),
+        child: Row(
+          children: [
+            Icon(icon, color: color, size: 20),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Text(label, style: GoogleFonts.outfit(
+                fontSize: 13, fontWeight: FontWeight.w600, color: _K.textPrimary,
+              )),
+            ),
+            Icon(Icons.arrow_forward_ios_rounded, color: color, size: 14),
+          ],
+        ),
+      ),
+    );
   }
 }
 

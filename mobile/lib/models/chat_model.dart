@@ -36,6 +36,9 @@ class ChatActionData {
     return ChatActionData(action: json['action'] ?? '', raw: json);
   }
 
+  /// Expose the raw map for navigation data passing
+  Map<String, dynamic> get rawData => _raw;
+
   // Helpers
   List<ChatVariant>? get variants {
     final list = _raw['variants'] as List?;
@@ -45,12 +48,15 @@ class ChatActionData {
   String? get checkoutUrl => _raw['checkout_url'];
   String? get productName => _raw['product_name'];
   String? get productId => _raw['product_id'];
+  String? get productSlug => _raw['product_slug'];
   String? get colorName => _raw['color_name'];
   int? get orderCode => _raw['order_code'];
   double? get totalAmount => (_raw['total_amount'] as num?)?.toDouble();
   int? get totalItems => _raw['total_items'];
   String? get orderId => _raw['order_id'];
   int? get quantity => _raw['quantity'];
+  List<String>? get productIds => (_raw['product_ids'] as List?)?.cast<String>();
+  List<String>? get orderIds => (_raw['order_ids'] as List?)?.cast<String>();
 }
 
 class ChatMessage {
