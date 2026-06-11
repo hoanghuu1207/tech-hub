@@ -80,7 +80,7 @@ class CatalogService:
                 selectinload(Product.category),
                 selectinload(Product.line),
             )
-            .where(Product.is_active == True)
+            .where(Product.is_active == True, Product.deleted_at.is_(None))
             .order_by(Product.sold_count.desc(), Product.created_at.desc())
         )
 
@@ -104,7 +104,7 @@ class CatalogService:
         line_id: Optional[UUID] = None,
     ) -> int:
         """Đếm tổng sản phẩm theo filter."""
-        stmt = select(func.count(Product.id)).where(Product.is_active == True)
+        stmt = select(func.count(Product.id)).where(Product.is_active == True, Product.deleted_at.is_(None))
         if category_id:
             stmt = stmt.where(Product.category_id == category_id)
         if brand_id:
