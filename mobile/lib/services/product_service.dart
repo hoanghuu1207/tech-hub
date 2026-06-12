@@ -1,16 +1,21 @@
 import 'dart:convert';
 import '../models/index.dart';
 import 'api_service.dart';
+import 'auth_service.dart';
 
 class ProductService {
   static final ProductService _instance = ProductService._internal();
   final ApiService _apiService = ApiService();
+  final AuthService _authService = AuthService();
 
   ProductService._internal();
 
   factory ProductService() {
     return _instance;
   }
+
+  /// Helper: lấy token nếu đã login
+  String? get _token => _authService.isAuthenticated ? _authService.token : null;
 
   /// Get trending/featured products using AI search
   /// Since backend has no /products endpoint, we use /ai/search with a broad query
@@ -22,6 +27,7 @@ class ProductService {
           'query': 'sản phẩm công nghệ nổi bật bán chạy',
           'limit': 20,
         },
+        token: _token,
       );
       final data = jsonDecode(response);
 
@@ -55,6 +61,7 @@ class ProductService {
           },
           'limit': limit,
         },
+        token: _token,
       );
 
       final data = jsonDecode(response);
@@ -83,6 +90,7 @@ class ProductService {
           'query': query,
           'limit': limit,
         },
+        token: _token,
       );
 
       final data = jsonDecode(response);
@@ -107,6 +115,7 @@ class ProductService {
           'query': productId,
           'limit': 1,
         },
+        token: _token,
       );
       final data = jsonDecode(response);
 
@@ -138,6 +147,7 @@ class ProductService {
       final response = await _apiService.post(
         '/products/compare',
         body: {'product_ids': productIds},
+        token: _token,
       );
 
       return jsonDecode(response);
@@ -161,3 +171,4 @@ class ProductService {
     ];
   }
 }
+

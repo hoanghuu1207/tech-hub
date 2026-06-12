@@ -431,6 +431,18 @@ class PaymentService:
                         f"for {len(out_of_stock_variants)} variants"
                     )
 
+                # ── Cập nhật hồ sơ cá nhân từ hành vi mua hàng ──
+                try:
+                    from app.services.profile_learning_service import profile_learning_service
+                    await profile_learning_service.learn_from_purchase(
+                        user_id=order.user_id,
+                        order_items=order.items,
+                        db=db,
+                    )
+                    logger.info(f"💳 [Profile] Triggered profile learning for user {order.user_id}")
+                except Exception as profile_err:
+                    logger.warning(f"💳 [Profile] Learning failed: {profile_err}")
+
                 logger.info(f"💳 [Webhook] ✅ Order #{order_code} PAID + Stock deducted")
             else:
                 order.payment_status = "failed"
