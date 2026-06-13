@@ -144,6 +144,7 @@ class AISearchService:
         db: AsyncSession,
         filters: Optional[AISearchFilters] = None,
         limit: int = 10,
+        user_profile: Optional[str] = None,
     ) -> AISearchData:
         start_time = time.time()
 
@@ -269,6 +270,20 @@ class AISearchService:
 
         # Sắp xếp theo score (semantic similarity)
         results.sort(key=lambda x: x.similarity_score, reverse=True)
+
+        # ── Profile Boost: ưu tiên sản phẩm khớp sở thích cá nhân ──
+        if user_profile:
+            profile_lower = user_profile.lower()
+            PROFILE_BOOST = 0.08  # Nhỏ hơn brand_boost để không lấn át relevance
+            for r in results:
+                boost = 0.0
+                if r.brand_name and r.brand_name.lower() in profile_lower:
+                    boost += PROFILE_BOOST
+                if r.category_name and r.category_name.lower() in profile_lower:
+                    boost += PROFILE_BOOST * 0.5
+                r.similarity_score = round(r.similarity_score + boost, 4)
+            results.sort(key=lambda x: x.similarity_score, reverse=True)
+
         results = results[:limit]
 
         elapsed = (time.time() - start_time) * 1000

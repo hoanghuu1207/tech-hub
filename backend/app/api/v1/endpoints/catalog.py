@@ -8,11 +8,14 @@ Endpoints:
     GET  /api/v1/catalog/product-lines/{line_id}                 — Products của 1 product_line
 """
 
+from typing import Optional
 from uuid import UUID
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db.session import get_db
+from app.models.user import User
+from app.core.dependencies import get_optional_user
 from app.services.catalog_service import catalog_service
 from app.schemas.catalog import (
     CategoriesListResponse,
@@ -38,9 +41,15 @@ async def list_all_products(
     limit: int = Query(50, ge=1, le=100),
     offset: int = Query(0, ge=0),
     db: AsyncSession = Depends(get_db),
+    current_user: Optional[User] = Depends(get_optional_user),
 ):
     products = await catalog_service._query_products(db, limit=limit, offset=offset)
     total = await catalog_service._count_products(db)
+
+    # Cá nhân hóa thứ tự sản phẩm nếu đã login
+    user_profile = current_user.profile_summary if current_user else None
+    products = catalog_service._personalize_products(products, user_profile)
+
     data = AllProductsData(
         products=[catalog_service._product_to_compact(p) for p in products],
         total=total,
@@ -59,10 +68,38 @@ async def list_all_products(
 async def get_product_detail(
     product_id: UUID,
     db: AsyncSession = Depends(get_db),
+    current_user: Optional[User] = Depends(get_optional_user),
 ):
     detail = await catalog_service.get_product_detail(product_id, db)
     if detail is None:
         raise HTTPException(status_code=404, detail="Sản phẩm không tồn tại")
+
+    # ── Tracking: cập nhật hồ sơ cá nhân từ hành vi duyệt ──
+    if current_user:
+        try:
+            from app.services.profile_learning_service import profile_learning_service
+            from app.models.product import Product
+            from sqlalchemy.orm import selectinload
+            from sqlalchemy import select
+
+            stmt = (
+                select(Product)
+                .options(selectinload(Product.category), selectinload(Product.brand))
+                .where(Product.id == product_id)
+            )
+            result = await db.execute(stmt)
+            product = result.scalar_one_or_none()
+            if product:
+                await profile_learning_service.learn_from_view(
+                    user_id=current_user.id,
+                    product=product,
+                    db=db,
+                )
+                await db.commit()
+        except Exception as e:
+            import logging
+            logging.getLogger("catalog").warning(f"Profile learning from view failed: {e}")
+
     return ProductDetailResponse(data=detail)
 
 
@@ -99,9 +136,12 @@ async def get_category_products(
     limit: int = Query(50, ge=1, le=100),
     offset: int = Query(0, ge=0),
     db: AsyncSession = Depends(get_db),
+    current_user: Optional[User] = Depends(get_optional_user),
 ):
+    user_profile = current_user.profile_summary if current_user else None
     result = await catalog_service.get_category_products(
-        category_id, db, limit=limit, offset=offset
+        category_id, db, limit=limit, offset=offset,
+        user_profile=user_profile,
     )
     if result is None:
         raise HTTPException(status_code=404, detail="Category không tồn tại")
@@ -128,9 +168,12 @@ async def get_brand_products(
     limit: int = Query(50, ge=1, le=100),
     offset: int = Query(0, ge=0),
     db: AsyncSession = Depends(get_db),
+    current_user: Optional[User] = Depends(get_optional_user),
 ):
+    user_profile = current_user.profile_summary if current_user else None
     result = await catalog_service.get_brand_products(
-        category_id, brand_id, db, limit=limit, offset=offset
+        category_id, brand_id, db, limit=limit, offset=offset,
+        user_profile=user_profile,
     )
     if result is None:
         raise HTTPException(status_code=404, detail="Category hoặc Brand không tồn tại")
@@ -154,9 +197,12 @@ async def get_line_products(
     limit: int = Query(50, ge=1, le=100),
     offset: int = Query(0, ge=0),
     db: AsyncSession = Depends(get_db),
+    current_user: Optional[User] = Depends(get_optional_user),
 ):
+    user_profile = current_user.profile_summary if current_user else None
     result = await catalog_service.get_line_products(
-        line_id, db, limit=limit, offset=offset
+        line_id, db, limit=limit, offset=offset,
+        user_profile=user_profile,
     )
     if result is None:
         raise HTTPException(status_code=404, detail="Product Line không tồn tại")

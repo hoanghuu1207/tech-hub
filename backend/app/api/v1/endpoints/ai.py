@@ -7,10 +7,13 @@ Endpoints:
 """
 
 import logging
+from typing import Optional
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db.session import get_db
+from app.models.user import User
+from app.core.dependencies import get_optional_user
 from app.schemas.ai import (
     AISearchRequest,
     AISearchResponse,
@@ -37,6 +40,7 @@ router = APIRouter()
 async def ai_search(
     request: AISearchRequest,
     db: AsyncSession = Depends(get_db),
+    current_user: Optional[User] = Depends(get_optional_user),
 ):
     """
     Tìm kiếm sản phẩm bằng ngôn ngữ tự nhiên qua AI.
@@ -46,11 +50,13 @@ async def ai_search(
     - **limit**: Số kết quả tối đa (mặc định 10, tối đa 50)
     """
     try:
+        user_profile = current_user.profile_summary if current_user else None
         result = await ai_search_service.search(
             query=request.query,
             db=db,
             filters=request.filters,
             limit=request.limit,
+            user_profile=user_profile,
         )
 
         return AISearchResponse(

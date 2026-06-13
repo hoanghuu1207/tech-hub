@@ -1,11 +1,13 @@
 import 'dart:convert';
 import '../models/catalog_models.dart';
 import 'api_service.dart';
+import 'auth_service.dart';
 
 /// Singleton service for the /catalog/* browsing endpoints.
 class CatalogService {
   static final CatalogService _instance = CatalogService._internal();
   final ApiService _apiService = ApiService();
+  final AuthService _authService = AuthService();
 
   CatalogService._internal();
 
@@ -128,7 +130,10 @@ class CatalogService {
 
   // ── GET /catalog/products/{productId} ──
   Future<ProductDetail> getProductDetail(String productId) async {
-    final response = await _apiService.get('/catalog/products/$productId');
+    final response = await _apiService.get(
+      '/catalog/products/$productId',
+      token: _authService.isAuthenticated ? _authService.token : null,
+    );
     final data = jsonDecode(response);
     if (data['success'] == true && data['data'] != null) {
       return ProductDetail.fromJson(data['data'] as Map<String, dynamic>);

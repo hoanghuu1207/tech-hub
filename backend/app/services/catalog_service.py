@@ -6,6 +6,10 @@ Cung cấp 4 API chính:
   2. GET /categories/{id}      → Products + brands của 1 category
   3. GET /categories/{id}/brands/{id} → Products + lines của 1 brand/category
   4. GET /product-lines/{id}   → Products của 1 line
+
+Cá nhân hóa:
+  - Khi user đã login và có profile_summary, danh sách sản phẩm sẽ được
+    re-rank (boost) theo sở thích cá nhân (thương hiệu, danh mục, tầm giá).
 """
 
 import logging
@@ -62,6 +66,59 @@ class CatalogService:
         )
 
     @staticmethod
+    def _personalize_products(
+        products: List[Product],
+        profile_summary: Optional[str],
+    ) -> List[Product]:
+        """
+        Re-rank danh sách sản phẩm dựa trên hồ sơ người dùng.
+        Boost các sản phẩm khớp thương hiệu/danh mục yêu thích lên đầu.
+        Không thay đổi tập kết quả, chỉ thay đổi thứ tự.
+        """
+        if not profile_summary or not products:
+            return products
+
+        profile_lower = profile_summary.lower()
+
+        def _calc_boost(product: Product) -> float:
+            """Tính điểm boost cho 1 sản phẩm dựa trên profile."""
+            boost = 0.0
+
+            # Boost nếu thương hiệu khớp
+            if product.brand and product.brand.name:
+                brand_name = product.brand.name.lower()
+                if brand_name in profile_lower:
+                    boost += 3.0
+
+            # Boost nếu danh mục khớp
+            if product.category and product.category.name:
+                cat_name = product.category.name.lower()
+                if cat_name in profile_lower:
+                    boost += 2.0
+
+            # Boost nếu tên sản phẩm chứa từ khóa trong profile
+            if product.name:
+                name_lower = product.name.lower()
+                # Tìm các từ khóa đặc trưng trong profile
+                keywords = ["chống ồn", "pin trâu", "gaming", "mỏng nhẹ",
+                            "chụp ảnh", "chống nước", "true wireless"]
+                for kw in keywords:
+                    if kw in profile_lower and kw in name_lower:
+                        boost += 1.5
+
+            return boost
+
+        # Sắp xếp: sản phẩm có boost cao lên trước, giữ thứ tự cũ nếu boost bằng nhau
+        products_with_boost = [(p, _calc_boost(p)) for p in products]
+        products_with_boost.sort(key=lambda x: x[1], reverse=True)
+
+        # Chỉ re-rank nếu ít nhất 1 sản phẩm có boost > 0
+        if any(b > 0 for _, b in products_with_boost):
+            return [p for p, _ in products_with_boost]
+
+        return products
+
+    @staticmethod
     async def _query_products(
         db: AsyncSession,
         *,
@@ -80,7 +137,7 @@ class CatalogService:
                 selectinload(Product.category),
                 selectinload(Product.line),
             )
-            .where(Product.is_active == True)
+            .where(Product.is_active == True, Product.deleted_at.is_(None))
             .order_by(Product.sold_count.desc(), Product.created_at.desc())
         )
 
@@ -104,7 +161,7 @@ class CatalogService:
         line_id: Optional[UUID] = None,
     ) -> int:
         """Đếm tổng sản phẩm theo filter."""
-        stmt = select(func.count(Product.id)).where(Product.is_active == True)
+        stmt = select(func.count(Product.id)).where(Product.is_active == True, Product.deleted_at.is_(None))
         if category_id:
             stmt = stmt.where(Product.category_id == category_id)
         if brand_id:
@@ -173,6 +230,7 @@ class CatalogService:
     async def get_category_products(
         self, category_id: UUID, db: AsyncSession,
         limit: int = 50, offset: int = 0,
+        user_profile: Optional[str] = None,
     ) -> dict:
         """
         Lấy tất cả products thuộc category_id,
@@ -190,6 +248,9 @@ class CatalogService:
         )
         total = await self._count_products(db, category_id=category_id)
 
+        # Cá nhân hóa thứ tự sản phẩm
+        products = self._personalize_products(products, user_profile)
+
         return {
             "category": CategoryOut.model_validate(category),
             "brands": [BrandOut.model_validate(b) for b in brands],
@@ -204,6 +265,7 @@ class CatalogService:
     async def get_brand_products(
         self, category_id: UUID, brand_id: UUID, db: AsyncSession,
         limit: int = 50, offset: int = 0,
+        user_profile: Optional[str] = None,
     ) -> dict:
         """
         Lấy tất cả products thuộc category_id + brand_id,
@@ -236,6 +298,9 @@ class CatalogService:
             db, category_id=category_id, brand_id=brand_id,
         )
 
+        # Cá nhân hóa thứ tự sản phẩm
+        products = self._personalize_products(products, user_profile)
+
         return {
             "category": CategoryOut.model_validate(category),
             "brand": BrandOut.model_validate(brand),
@@ -251,6 +316,7 @@ class CatalogService:
     async def get_line_products(
         self, line_id: UUID, db: AsyncSession,
         limit: int = 50, offset: int = 0,
+        user_profile: Optional[str] = None,
     ) -> dict:
         """
         Lấy products có line_id = line_id (chỉ lấy đúng line đó).
@@ -269,6 +335,9 @@ class CatalogService:
             db, line_id=line_id, limit=limit, offset=offset
         )
         total = await self._count_products(db, line_id=line_id)
+
+        # Cá nhân hóa thứ tự sản phẩm
+        products = self._personalize_products(products, user_profile)
 
         return {
             "product_line": ProductLineOut.model_validate(line),

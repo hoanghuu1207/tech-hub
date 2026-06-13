@@ -26,6 +26,7 @@ from app.models.chat import ChatConversation, ChatMessage
 from app.schemas.chat import ChatResponseData
 from app.services.chat_tools import ALL_TOOLS, AUTH_REQUIRED_TOOLS
 from app.services.chat_tool_handlers import TOOL_HANDLERS
+from app.services.profile_learning_service import profile_learning_service
 
 logger = logging.getLogger("chatbot")
 logger.setLevel(logging.INFO)
@@ -83,6 +84,12 @@ TechShop là cửa hàng trực tuyến chuyên bán các sản phẩm công ngh
 - Luôn thân thiện, nhiệt tình, dùng ngôn ngữ tiếng Việt tự nhiên.
 - KHÔNG bịa thông tin về giá, tồn kho, khuyến mãi.
 - Trả lời ngắn gọn 2-3 câu (trừ giải thích kiến thức phức tạp).
+
+=== CÁ NHÂN HÓA ===
+- Nếu có HỒ SƠ KHÁCH HÀNG bên dưới, hãy ưu tiên tư vấn sản phẩm, thương hiệu, tính năng phù hợp với sở thích trong hồ sơ.
+- Khi khách hỏi chung chung ("gợi ý cho tôi", "có gì hay không"), hãy dùng hồ sơ để đề xuất cá nhân hóa.
+- KHÔNG nhắc trực tiếp rằng bạn đang đọc hồ sơ. Hãy tư vấn tự nhiên như một người bán hàng hiểu khách.
+{user_profile_section}
 """
 
 MAX_HISTORY_MESSAGES = 30
@@ -94,10 +101,28 @@ class ChatService:
 
     def __init__(self):
         genai.configure(api_key=settings.GEMINI_API_KEY)
-        self._model = genai.GenerativeModel(
+        # Model mặc định (không có hồ sơ cá nhân)
+        self._base_model = genai.GenerativeModel(
             model_name="gemini-2.5-flash-lite",
             tools=[ALL_TOOLS],
-            system_instruction=CHATBOT_SYSTEM_PROMPT,
+            system_instruction=CHATBOT_SYSTEM_PROMPT.format(user_profile_section=""),
+            tool_config={"function_calling_config": {"mode": "AUTO"}},
+        )
+
+    def _get_model(self, user_profile: str = None):
+        """Tạo model với hồ sơ cá nhân nếu có."""
+        if not user_profile:
+            return self._base_model
+
+        profile_section = (
+            f"\n=== HỒ SƠ KHÁCH HÀNG ===\n{user_profile}"
+        )
+        return genai.GenerativeModel(
+            model_name="gemini-2.5-flash-lite",
+            tools=[ALL_TOOLS],
+            system_instruction=CHATBOT_SYSTEM_PROMPT.format(
+                user_profile_section=profile_section
+            ),
             tool_config={"function_calling_config": {"mode": "AUTO"}},
         )
 
@@ -127,12 +152,23 @@ class ChatService:
                     f"\n💬 [Chatbot] Session: {conv_id_str[:8]}... | User: {user_id or 'guest'}" +
                     f"\n   Message: {message}\n" + "=" * 60)
 
-        # ── 2. Load history từ DB ──
+        # ── 2. Load user profile cho cá nhân hóa ──
+        user_profile = None
+        if user_id:
+            try:
+                user_profile = await profile_learning_service.get_profile_for_prompt(user_id, db)
+                if user_profile:
+                    logger.info(f"💬 [Chatbot] Loaded profile for user {str(user_id)[:8]}...")
+            except Exception as e:
+                logger.warning(f"💬 [Chatbot] Failed to load profile: {e}")
+
+        # ── 3. Load history từ DB ──
         gemini_history = await self._load_gemini_history(db, conversation.id)
 
-        # ── 3. Multi-tool conversation loop ──
+        # ── 4. Multi-tool conversation loop ──
         try:
-            chat_session = self._model.start_chat(history=gemini_history)
+            model = self._get_model(user_profile)
+            chat_session = model.start_chat(history=gemini_history)
             response = chat_session.send_message(
                 message,
                 generation_config=genai.GenerationConfig(temperature=0.7, max_output_tokens=1024),
@@ -233,6 +269,19 @@ class ChatService:
                 await self._update_conversation_title(db, conversation.id, title)
 
             await db.commit()
+
+            # ── 6. Trigger profile learning (fire-and-forget) ──
+            if user_id and intent_type != "general_knowledge":
+                try:
+                    await profile_learning_service.learn_from_chat(
+                        user_id=user_id,
+                        user_message=message,
+                        intent_type=intent_type,
+                        db=db,
+                    )
+                    await db.commit()
+                except Exception as profile_err:
+                    logger.warning(f"💬 [Chatbot] Profile learning failed: {profile_err}")
 
             elapsed = (time.time() - start_time) * 1000
             logger.info(f"💬 [Chatbot] Response ({intent_type}) in {elapsed:.0f}ms: {assistant_message[:100]}...")
