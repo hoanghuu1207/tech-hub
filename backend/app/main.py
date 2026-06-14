@@ -34,9 +34,17 @@ logger.info(f"Qdrant URL: {settings.QDRANT_CLUSTER_ENDPOINT}")
 app.state.limiter = limiter
 
 # --- 2. CORS Middleware ---
+# Khi allow_credentials=True, allow_origins KHÔNG ĐƯỢC để là "*" (wildcard).
+# Phải liệt kê rõ các domain local và dùng regex cho các domain Vercel (bao gồm cả preview branch).
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Phát triển cho phép tất cả các nguồn gọi API
+    allow_origins=[
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ],
+    allow_origin_regex=r"https://.*\.vercel\.app", # Cho phép tất cả các preview và production domains từ Vercel
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
