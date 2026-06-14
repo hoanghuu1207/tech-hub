@@ -1,8 +1,10 @@
 import axios, { AxiosError, InternalAxiosRequestConfig } from "axios";
 import Cookies from "js-cookie";
 
+const apiUrl = process.env.NEXT_PUBLIC_API_URL || "/api/v1";
+
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL,
+  baseURL: apiUrl,
   timeout: 15000,
   headers: { "Content-Type": "application/json" },
 });
@@ -77,7 +79,7 @@ api.interceptors.response.use(
 
       try {
         const response = await axios.post(
-          `${process.env.NEXT_PUBLIC_API_URL}/auth/refresh`,
+          `${apiUrl}/auth/refresh`,
           { refresh_token: refreshToken }
         );
 
