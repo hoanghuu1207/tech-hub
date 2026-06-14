@@ -64,10 +64,10 @@ export function TopProductsChart() {
                   borderRadius: "8px",
                   fontSize: "12px",
                 }}
-                formatter={(value: number) => [`${value} sản phẩm`, "Đã bán"]}
-                labelFormatter={(label: string, payload) => {
+                formatter={(value) => [`${value} sản phẩm`, "Đã bán"]}
+                labelFormatter={(label, payload) => {
                   if (payload?.[0]?.payload?.fullName) return payload[0].payload.fullName;
-                  return label;
+                  return String(label);
                 }}
               />
               <Bar

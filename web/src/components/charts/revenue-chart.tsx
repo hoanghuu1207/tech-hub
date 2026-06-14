@@ -89,11 +89,11 @@ export function RevenueChart() {
                   borderRadius: "8px",
                   fontSize: "12px",
                 }}
-                formatter={(value: number, name: string) => {
-                  if (name === "revenue") return [formatCurrency(value), "Doanh thu"];
+                formatter={(value, name) => {
+                  if (name === "revenue") return [formatCurrency(Number(value)), "Doanh thu"];
                   return [value, "Đơn hàng"];
                 }}
-                labelFormatter={formatShortDate}
+                labelFormatter={(label) => formatShortDate(String(label))}
               />
               <Area
                 yAxisId="revenue"
