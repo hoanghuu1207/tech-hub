@@ -3,7 +3,8 @@
 import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { useProduct, useUpdateProduct, useAdminCategories, useAdminBrandsByCategory, useAdminProductLines, useSpecTemplates } from "@/hooks/use-products";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
@@ -109,13 +110,13 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
   // Helpers
   const generateSlug = (t: string) => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
-  const handleCategoryChange = (v: string) => {
-    setCategoryId(v);
+  const handleCategoryChange = (v: string | null) => {
+    setCategoryId(v ?? "");
     setBrandId("");
     setLineId("");
   };
-  const handleBrandChange = (v: string) => {
-    setBrandId(v);
+  const handleBrandChange = (v: string | null) => {
+    setBrandId(v ?? "");
     setLineId("");
   };
 
@@ -127,14 +128,14 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
   };
 
   const addVariant = () => setVariants([...variants, { color_name: "", color_hex: "#000000", price_override: "", sale_price_override: "", stock_quantity: "0", sku: "", is_active: true, sort_order: variants.length }]);
-  const updateVariant = (i: number, f: keyof VariantRow, v: string | boolean | number) => { const u = [...variants]; (u[i] as Record<string, unknown>)[f] = v; setVariants(u); };
+  const updateVariant = (i: number, f: keyof VariantRow, v: string | boolean | number) => { const u = [...variants]; (u[i] as unknown as Record<string, unknown>)[f] = v; setVariants(u); };
   const removeVariant = (i: number) => setVariants(variants.filter((_, j) => j !== i));
 
   const addImage = () => setImages([...images, { image_url: "", alt_text: "", is_primary: images.length === 0, sort_order: images.length }]);
   const updateImage = (i: number, f: keyof ImageRow, v: string | boolean | number) => {
     const u = [...images];
     if (f === "is_primary" && v === true) u.forEach((img, j) => { img.is_primary = j === i; });
-    else (u[i] as Record<string, unknown>)[f] = v;
+    else (u[i] as unknown as Record<string, unknown>)[f] = v;
     setImages(u);
   };
 
@@ -169,7 +170,7 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
       {/* Header */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <Button variant="ghost" size="icon" asChild><Link href="/products"><ArrowLeft className="h-4 w-4" /></Link></Button>
+          <Link href="/products" className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}><ArrowLeft className="h-4 w-4" /></Link>
           <div>
             <h2 className="text-xl font-bold tracking-tight">Chỉnh sửa sản phẩm</h2>
             <p className="text-sm text-muted-foreground">{product?.name}</p>
@@ -232,7 +233,7 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
                   </div>
                   <div className="space-y-1.5">
                     <Label>Dòng SP</Label>
-                    <Select value={lineId || " "} onValueChange={(v) => setLineId(v.trim())} disabled={!brandId}>
+                    <Select value={lineId || " "} onValueChange={(v) => setLineId((v ?? "").trim())} disabled={!brandId}>
                       <SelectTrigger><SelectValue placeholder={!brandId ? "Chọn thương hiệu trước" : "Chọn dòng SP"} /></SelectTrigger>
                       <SelectContent>
                         <SelectItem value=" ">-- Không chọn --</SelectItem>
@@ -249,7 +250,7 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
                   <div className="space-y-1.5"><Label>Giá sale (₫)</Label><Input type="number" value={salePrice} onChange={(e) => setSalePrice(e.target.value)} /></div>
                   <div className="space-y-1.5">
                     <Label>Trạng thái</Label>
-                    <Select value={status} onValueChange={setStatus}><SelectTrigger><SelectValue /></SelectTrigger><SelectContent><SelectItem value="new">Mới</SelectItem><SelectItem value="active">Đang bán</SelectItem><SelectItem value="inactive">Ngừng bán</SelectItem></SelectContent></Select>
+                    <Select value={status} onValueChange={(v) => setStatus(v ?? "new")}><SelectTrigger><SelectValue /></SelectTrigger><SelectContent><SelectItem value="new">Mới</SelectItem><SelectItem value="active">Đang bán</SelectItem><SelectItem value="inactive">Ngừng bán</SelectItem></SelectContent></Select>
                   </div>
                   <div className="flex items-center gap-2"><input type="checkbox" id="is_active" checked={isActive} onChange={(e) => setIsActive(e.target.checked)} className="rounded" /><Label htmlFor="is_active" className="text-sm">Hiển thị trên app</Label></div>
                 </CardContent>

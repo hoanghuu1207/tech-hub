@@ -3,7 +3,8 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { useProducts, useDeleteProduct, useToggleProductStatus, useAdminCategories, useAdminBrandsByCategory, useAdminProductLines } from "@/hooks/use-products";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
@@ -50,21 +51,21 @@ export default function ProductsPage() {
   );
 
   // ─── Cascading reset logic ─────────────────────────────
-  const handleCategoryChange = (value: string) => {
-    setCategoryFilter(value);
+  const handleCategoryChange = (value: string | null) => {
+    setCategoryFilter(value ?? "all");
     setBrandFilter("all");    // reset brand khi đổi category
     setLineFilter("all");     // reset line khi đổi category
     setPage(0);
   };
 
-  const handleBrandChange = (value: string) => {
-    setBrandFilter(value);
+  const handleBrandChange = (value: string | null) => {
+    setBrandFilter(value ?? "all");
     setLineFilter("all");     // reset line khi đổi brand
     setPage(0);
   };
 
-  const handleLineChange = (value: string) => {
-    setLineFilter(value);
+  const handleLineChange = (value: string | null) => {
+    setLineFilter(value ?? "all");
     setPage(0);
   };
 
@@ -131,12 +132,10 @@ export default function ProductsPage() {
             {data ? `${data.total} sản phẩm` : "Đang tải..."}
           </p>
         </div>
-        <Button asChild className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white">
-          <Link href="/products/new">
+        <Link href="/products/new" className={cn(buttonVariants(), "bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white")}>
             <Plus className="mr-2 h-4 w-4" />
             Thêm sản phẩm
-          </Link>
-        </Button>
+        </Link>
       </div>
 
       {/* ─── Filters ───────────────────────────────────── */}
@@ -226,7 +225,7 @@ export default function ProductsPage() {
             {/* Status filter */}
             <div className="space-y-1">
               <span className="text-xs text-muted-foreground">Trạng thái</span>
-              <Select value={statusFilter} onValueChange={(v) => { setStatusFilter(v); setPage(0); }}>
+              <Select value={statusFilter} onValueChange={(v) => { setStatusFilter(v ?? "all"); setPage(0); }}>
                 <SelectTrigger className="w-[130px] h-9">
                   <SelectValue />
                 </SelectTrigger>
@@ -241,7 +240,7 @@ export default function ProductsPage() {
             {/* Indexed filter */}
             <div className="space-y-1">
               <span className="text-xs text-muted-foreground">Qdrant</span>
-              <Select value={indexedFilter} onValueChange={(v) => { setIndexedFilter(v); setPage(0); }}>
+              <Select value={indexedFilter} onValueChange={(v) => { setIndexedFilter(v ?? "all"); setPage(0); }}>
                 <SelectTrigger className="w-[130px] h-9">
                   <SelectValue />
                 </SelectTrigger>
@@ -343,9 +342,9 @@ export default function ProductsPage() {
                           title={product.is_active ? "Ẩn sản phẩm" : "Hiện sản phẩm"}>
                           {product.is_active ? <EyeOff className="h-3.5 w-3.5" /> : <Eye className="h-3.5 w-3.5" />}
                         </Button>
-                        <Button variant="ghost" size="icon" className="h-7 w-7" asChild>
-                          <Link href={`/products/${product.id}`} title="Chỉnh sửa"><Pencil className="h-3.5 w-3.5" /></Link>
-                        </Button>
+                        <Link href={`/products/${product.id}`} title="Chỉnh sửa" className={cn(buttonVariants({ variant: "ghost", size: "icon" }), "h-7 w-7")}>
+                          <Pencil className="h-3.5 w-3.5" />
+                        </Link>
                         <Button variant="ghost" size="icon" className="h-7 w-7 text-destructive hover:text-destructive"
                           onClick={() => setDeleteTarget({ id: product.id, name: product.name })} title="Xóa">
                           <Trash2 className="h-3.5 w-3.5" />

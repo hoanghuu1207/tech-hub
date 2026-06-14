@@ -43,8 +43,7 @@ export function AppSidebar() {
       <SidebarHeader className="border-b border-sidebar-border">
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton size="lg" asChild>
-              <Link href="/dashboard">
+            <SidebarMenuButton size="lg" render={<Link href="/dashboard" />}>
                 <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-500 to-indigo-600 text-white shadow-sm">
                   <Cpu className="size-4" />
                 </div>
@@ -52,7 +51,6 @@ export function AppSidebar() {
                   <span className="font-bold text-sm">TechHub</span>
                   <span className="text-xs text-muted-foreground">Admin Panel</span>
                 </div>
-              </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
@@ -68,11 +66,9 @@ export function AppSidebar() {
                 const isActive = pathname === item.href || pathname.startsWith(item.href + "/");
                 return (
                   <SidebarMenuItem key={item.href}>
-                    <SidebarMenuButton asChild isActive={isActive} tooltip={item.title}>
-                      <Link href={item.href} className="flex items-center gap-2">
-                        <item.icon className="size-4 shrink-0" />
-                        <span>{item.title}</span>
-                      </Link>
+                    <SidebarMenuButton render={<Link href={item.href} className="flex items-center gap-2" />} isActive={isActive} tooltip={item.title}>
+                      <item.icon className="size-4 shrink-0" />
+                      <span>{item.title}</span>
                     </SidebarMenuButton>
                   </SidebarMenuItem>
                 );
@@ -87,11 +83,14 @@ export function AppSidebar() {
         <SidebarMenu>
           <SidebarMenuItem>
             <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <SidebarMenuButton
-                  size="lg"
-                  className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
-                >
+              <DropdownMenuTrigger
+                render={
+                  <SidebarMenuButton
+                    size="lg"
+                    className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
+                  />
+                }
+              >
                   <Avatar className="h-8 w-8 rounded-lg">
                     <AvatarFallback className="rounded-lg bg-gradient-to-br from-blue-500 to-indigo-600 text-white text-xs font-semibold">
                       {initials}
@@ -102,7 +101,6 @@ export function AppSidebar() {
                     <span className="truncate text-xs text-muted-foreground">{user?.email}</span>
                   </div>
                   <ChevronUp className="ml-auto size-4" />
-                </SidebarMenuButton>
               </DropdownMenuTrigger>
               <DropdownMenuContent
                 className="w-[--radix-dropdown-menu-trigger-width] min-w-56 rounded-lg"

@@ -74,7 +74,7 @@ export function OrderStatusChart() {
                     borderRadius: "8px",
                     fontSize: "12px",
                   }}
-                  formatter={(value: number) => [`${value} đơn`, ""]}
+                  formatter={(value) => [`${value} đơn`, ""]}
                 />
                 <Legend
                   verticalAlign="bottom"

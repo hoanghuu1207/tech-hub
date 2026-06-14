@@ -3,7 +3,8 @@
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { useCreateProduct, useAdminCategories, useAdminBrandsByCategory, useAdminProductLines, useSpecTemplates } from "@/hooks/use-products";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
@@ -54,15 +55,15 @@ export default function NewProductPage() {
   }, [specTemplates]);
 
   const generateSlug = (t: string) => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-  const handleCategoryChange = (v: string) => { setCategoryId(v); setBrandId(""); setLineId(""); };
-  const handleBrandChange = (v: string) => { setBrandId(v); setLineId(""); };
+  const handleCategoryChange = (v: string | null) => { setCategoryId(v ?? ""); setBrandId(""); setLineId(""); };
+  const handleBrandChange = (v: string | null) => { setBrandId(v ?? ""); setLineId(""); };
   const updateSpecValue = (group: string, key: string, value: string) => { setSpecsMap(prev => ({ ...prev, [group]: { ...(prev[group] || {}), [key]: value } })); };
 
   const addVariant = () => setVariants([...variants, { color_name: "", color_hex: "#000000", price_override: "", sale_price_override: "", stock_quantity: "0", sku: "", is_active: true, sort_order: variants.length }]);
-  const updateVariant = (i: number, f: keyof VariantRow, v: string | boolean | number) => { const u = [...variants]; (u[i] as Record<string, unknown>)[f] = v; setVariants(u); };
+  const updateVariant = (i: number, f: keyof VariantRow, v: string | boolean | number) => { const u = [...variants]; (u[i] as unknown as Record<string, unknown>)[f] = v; setVariants(u); };
 
   const addImage = () => setImages([...images, { image_url: "", alt_text: "", is_primary: images.length === 0, sort_order: images.length }]);
-  const updateImage = (i: number, f: keyof ImageRow, v: string | boolean | number) => { const u = [...images]; if (f === "is_primary" && v === true) u.forEach((img, j) => { img.is_primary = j === i; }); else (u[i] as Record<string, unknown>)[f] = v; setImages(u); };
+  const updateImage = (i: number, f: keyof ImageRow, v: string | boolean | number) => { const u = [...images]; if (f === "is_primary" && v === true) u.forEach((img, j) => { img.is_primary = j === i; }); else (u[i] as unknown as Record<string, unknown>)[f] = v; setImages(u); };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -92,7 +93,7 @@ export default function NewProductPage() {
     <form onSubmit={handleSubmit} className="space-y-4">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <Button variant="ghost" size="icon" asChild><Link href="/products"><ArrowLeft className="h-4 w-4" /></Link></Button>
+          <Link href="/products" className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}><ArrowLeft className="h-4 w-4" /></Link>
           <div><h2 className="text-xl font-bold tracking-tight">Thêm sản phẩm mới</h2><p className="text-sm text-muted-foreground">Tạo sản phẩm và biến thể</p></div>
         </div>
         <Button type="submit" disabled={createMutation.isPending} className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white">
@@ -138,7 +139,7 @@ export default function NewProductPage() {
                     <Select value={brandId} onValueChange={handleBrandChange} disabled={!categoryId}><SelectTrigger><SelectValue placeholder={!categoryId ? "Chọn danh mục trước" : "Chọn thương hiệu"} /></SelectTrigger><SelectContent>{brandsByCategory?.map(b => <SelectItem key={b.id} value={b.id}>{b.name}</SelectItem>)}</SelectContent></Select>
                   </div>
                   <div className="space-y-1.5"><Label>Dòng SP</Label>
-                    <Select value={lineId || " "} onValueChange={(v) => setLineId(v.trim())} disabled={!brandId}><SelectTrigger><SelectValue placeholder={!brandId ? "Chọn thương hiệu trước" : "Chọn dòng SP"} /></SelectTrigger><SelectContent><SelectItem value=" ">-- Không chọn --</SelectItem>{productLines?.map(l => <SelectItem key={l.id} value={l.id}>{l.name}</SelectItem>)}</SelectContent></Select>
+                    <Select value={lineId || " "} onValueChange={(v) => setLineId((v ?? "").trim())} disabled={!brandId}><SelectTrigger><SelectValue placeholder={!brandId ? "Chọn thương hiệu trước" : "Chọn dòng SP"} /></SelectTrigger><SelectContent><SelectItem value=" ">-- Không chọn --</SelectItem>{productLines?.map(l => <SelectItem key={l.id} value={l.id}>{l.name}</SelectItem>)}</SelectContent></Select>
                   </div>
                 </CardContent>
               </Card>
@@ -147,7 +148,7 @@ export default function NewProductPage() {
                 <CardContent className="space-y-3">
                   <div className="space-y-1.5"><Label>Giá gốc (₫) *</Label><Input type="number" value={basePrice} onChange={(e) => setBasePrice(e.target.value)} /></div>
                   <div className="space-y-1.5"><Label>Giá sale (₫)</Label><Input type="number" value={salePrice} onChange={(e) => setSalePrice(e.target.value)} /></div>
-                  <div className="space-y-1.5"><Label>Trạng thái</Label><Select value={status} onValueChange={setStatus}><SelectTrigger><SelectValue /></SelectTrigger><SelectContent><SelectItem value="new">Mới</SelectItem><SelectItem value="active">Đang bán</SelectItem><SelectItem value="inactive">Ngừng bán</SelectItem></SelectContent></Select></div>
+                  <div className="space-y-1.5"><Label>Trạng thái</Label><Select value={status} onValueChange={(v) => setStatus(v ?? "new")}><SelectTrigger><SelectValue /></SelectTrigger><SelectContent><SelectItem value="new">Mới</SelectItem><SelectItem value="active">Đang bán</SelectItem><SelectItem value="inactive">Ngừng bán</SelectItem></SelectContent></Select></div>
                   <div className="flex items-center gap-2"><input type="checkbox" id="is_active" checked={isActive} onChange={(e) => setIsActive(e.target.checked)} className="rounded" /><Label htmlFor="is_active" className="text-sm">Hiển thị trên app</Label></div>
                 </CardContent>
               </Card>
