@@ -143,7 +143,7 @@ async def _resolve_variant(product, variant_id_str: str | None, quantity: int) -
 async def handle_search_products(args: dict, db, user_id) -> dict:
     """Tool: search_products"""
     query = args.get("query", "")
-    limit = int(args.get("limit", 10))
+    limit = int(args.get("limit", 5))
 
     logger.info(f"🔧 [Tool] search_products(query='{query}', limit={limit})")
 

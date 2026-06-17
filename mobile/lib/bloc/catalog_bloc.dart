@@ -48,6 +48,11 @@ class CatalogLoadMore extends CatalogEvent {
   const CatalogLoadMore();
 }
 
+/// Pull-to-refresh — reload data from scratch keeping current filters.
+class CatalogRefresh extends CatalogEvent {
+  const CatalogRefresh();
+}
+
 // ═══════════════════════════════════════════════════════════════
 // ── State ──
 // ═══════════════════════════════════════════════════════════════
@@ -175,6 +180,7 @@ class CatalogBloc extends Bloc<CatalogEvent, CatalogState> {
     on<CatalogBrandSelected>(_onBrandSelected);
     on<CatalogLineSelected>(_onLineSelected);
     on<CatalogLoadMore>(_onLoadMore);
+    on<CatalogRefresh>(_onRefresh);
   }
 
   // ── Initial load ──
@@ -328,6 +334,68 @@ class CatalogBloc extends Bloc<CatalogEvent, CatalogState> {
         offset: result.products.length,
         hasMore: result.products.length < result.total,
       ));
+    } catch (e) {
+      emit(state.copyWith(
+        status: CatalogStatus.error,
+        errorMessage: () => e.toString(),
+      ));
+    }
+  }
+
+  // ── Pull-to-refresh ──
+  Future<void> _onRefresh(CatalogRefresh event, Emitter<CatalogState> emit) async {
+    try {
+      // Always refresh categories
+      final categories = await _service.getCategories();
+
+      if (state.selectedLineId != null && state.selectedBrandId != null && state.selectedCategoryId != null) {
+        // Refresh with line filter
+        final result = await _service.getLineProducts(state.selectedLineId!, limit: _pageSize, offset: 0);
+        emit(state.copyWith(
+          status: CatalogStatus.loaded,
+          categories: categories,
+          products: result.products,
+          total: result.total,
+          offset: result.products.length,
+          hasMore: result.products.length < result.total,
+        ));
+      } else if (state.selectedBrandId != null && state.selectedCategoryId != null) {
+        // Refresh with brand filter
+        final result = await _service.getBrandProducts(state.selectedCategoryId!, state.selectedBrandId!, limit: _pageSize, offset: 0);
+        emit(state.copyWith(
+          status: CatalogStatus.loaded,
+          categories: categories,
+          products: result.products,
+          total: result.total,
+          productLines: result.lines,
+          offset: result.products.length,
+          hasMore: result.products.length < result.total,
+        ));
+      } else if (state.selectedCategoryId != null) {
+        // Refresh with category filter
+        final result = await _service.getCategoryProducts(state.selectedCategoryId!, limit: _pageSize, offset: 0);
+        emit(state.copyWith(
+          status: CatalogStatus.loaded,
+          categories: categories,
+          products: result.products,
+          total: result.total,
+          brands: result.brands,
+          offset: result.products.length,
+          hasMore: result.products.length < result.total,
+        ));
+      } else {
+        // Refresh all products
+        final products = await _service.getAllProducts(limit: _pageSize, offset: 0);
+        final total = await _service.getAllProductsTotal();
+        emit(state.copyWith(
+          status: CatalogStatus.loaded,
+          categories: categories,
+          products: products,
+          total: total,
+          offset: products.length,
+          hasMore: products.length < total,
+        ));
+      }
     } catch (e) {
       emit(state.copyWith(
         status: CatalogStatus.error,

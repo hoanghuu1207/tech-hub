@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:cached_network_image/cached_network_image.dart';
@@ -29,6 +30,21 @@ class _C {
 class ProductsTab extends StatelessWidget {
   const ProductsTab({Key? key}) : super(key: key);
 
+  Future<void> _onRefresh(BuildContext context) {
+    final bloc = context.read<CatalogBloc>();
+    bloc.add(const CatalogRefresh());
+    // Wait for the bloc to finish refreshing
+    final completer = Completer<void>();
+    late StreamSubscription<CatalogState> sub;
+    sub = bloc.stream.listen((state) {
+      if (state.status != CatalogStatus.loading) {
+        completer.complete();
+        sub.cancel();
+      }
+    });
+    return completer.future;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,23 +61,28 @@ class ProductsTab extends StatelessWidget {
               }
               return false;
             },
-            child: CustomScrollView(
-              physics: const AlwaysScrollableScrollPhysics(),
-              slivers: [
-                // 1) App bar
-                _buildAppBar(context),
-                // 2) Category bar (pinned)
-                _buildCategoryBar(context, state),
-                // 3) Secondary filter bar (pinned, hidden when no category)
-                if (state.selectedCategoryId != null)
-                  _buildSecondaryFilterBar(context, state),
-                // 4) Breadcrumb + count
-                _buildBreadcrumbRow(context, state),
-                // 5) Product grid
-                _buildBody(context, state),
-                // Bottom padding
-                const SliverToBoxAdapter(child: SizedBox(height: 100)),
-              ],
+            child: RefreshIndicator(
+              color: _C.primary,
+              backgroundColor: _C.surface,
+              onRefresh: () => _onRefresh(context),
+              child: CustomScrollView(
+                physics: const AlwaysScrollableScrollPhysics(),
+                slivers: [
+                  // 1) App bar
+                  _buildAppBar(context),
+                  // 2) Category bar (pinned)
+                  _buildCategoryBar(context, state),
+                  // 3) Secondary filter bar (pinned, hidden when no category)
+                  if (state.selectedCategoryId != null)
+                    _buildSecondaryFilterBar(context, state),
+                  // 4) Breadcrumb + count
+                  _buildBreadcrumbRow(context, state),
+                  // 5) Product grid
+                  _buildBody(context, state),
+                  // Bottom padding
+                  const SliverToBoxAdapter(child: SizedBox(height: 100)),
+                ],
+              ),
             ),
           );
         },
@@ -86,22 +107,6 @@ class ProductsTab extends StatelessWidget {
           color: _C.textPrimary,
         ),
       ),
-      actions: [
-        IconButton(
-          icon: Container(
-            width: 40,
-            height: 40,
-            decoration: BoxDecoration(
-              color: _C.surface,
-              shape: BoxShape.circle,
-              border: Border.all(color: _C.divider),
-            ),
-            child: const Icon(Icons.search_rounded, color: _C.textPrimary, size: 20),
-          ),
-          onPressed: () => Navigator.of(context).pushNamed('/search'),
-        ),
-        const SizedBox(width: 4),
-      ],
     );
   }
 

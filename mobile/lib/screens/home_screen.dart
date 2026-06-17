@@ -75,7 +75,6 @@ class _HomeScreenState extends State<HomeScreen> {
             PremiumHomeTab(
               onProfileTap: () => setState(() => _selectedTab = 4),
               onCartTap: () => setState(() => _selectedTab = 2),
-              onSearchTap: () => Navigator.of(context).pushNamed('/search'),
               onProductsTap: () => setState(() => _selectedTab = 1),
               onNotificationTap: () => Navigator.push(
                 context,

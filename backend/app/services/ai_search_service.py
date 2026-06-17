@@ -272,16 +272,92 @@ class AISearchService:
         results.sort(key=lambda x: x.similarity_score, reverse=True)
 
         # ── Profile Boost: ưu tiên sản phẩm khớp sở thích cá nhân ──
+        # Thứ tự ưu tiên: Brand(0.15) > Category(0.10) > Price(0.06) > Purchase(0.04) > Features(0.03)
         if user_profile:
+            import re as _re
             profile_lower = user_profile.lower()
-            PROFILE_BOOST = 0.08  # Nhỏ hơn brand_boost để không lấn át relevance
+
+            # Parse structured preferences
+            known_brands = [
+                "apple", "samsung", "xiaomi", "huawei", "oppo", "vivo",
+                "realme", "sony", "jbl", "marshall", "bose", "garmin",
+                "dell", "hp", "asus", "acer", "lenovo", "msi",
+                "amazfit", "honor",
+            ]
+            pref_brands = [b for b in known_brands if b in profile_lower]
+
+            category_map = {
+                "smartphone": ["smartphone", "điện thoại", "phone"],
+                "laptop": ["laptop", "máy tính xách tay"],
+                "tablet": ["tablet", "máy tính bảng", "ipad"],
+                "headphone": ["tai nghe", "headphone", "earphone", "earbud"],
+                "smartwatch": ["đồng hồ thông minh", "smartwatch", "đồng hồ"],
+                "accessory": ["phụ kiện", "accessory"],
+            }
+            pref_categories = []
+            for cat_key, aliases in category_map.items():
+                if any(alias in profile_lower for alias in aliases):
+                    pref_categories.append(cat_key)
+
+            # Price range
+            pref_price_min, pref_price_max = None, None
+            if any(kw in profile_lower for kw in ["giá rẻ", "bình dân", "budget"]):
+                pref_price_max = 5_000_000
+            elif any(kw in profile_lower for kw in ["tầm trung", "mid-range"]):
+                pref_price_min, pref_price_max = 5_000_000, 20_000_000
+            elif any(kw in profile_lower for kw in ["cao cấp", "premium", "flagship"]):
+                pref_price_min = 20_000_000
+
+            pm = _re.search(r"dưới\s+([\d,.]+)\s*(?:triệu|tr|củ)", profile_lower)
+            if pm:
+                pref_price_max = float(pm.group(1).replace(",", ".")) * 1_000_000
+            pm = _re.search(r"trên\s+([\d,.]+)\s*(?:triệu|tr|củ)", profile_lower)
+            if pm:
+                pref_price_min = float(pm.group(1).replace(",", ".")) * 1_000_000
+            rm = _re.search(r"(\d+)\s*[-–]\s*(\d+)\s*(?:triệu|tr)", profile_lower)
+            if rm:
+                pref_price_min = float(rm.group(1)) * 1_000_000
+                pref_price_max = float(rm.group(2)) * 1_000_000
+
+            # Features
+            feature_keywords = [
+                "chống ồn", "pin trâu", "gaming", "mỏng nhẹ", "chụp ảnh",
+                "chống nước", "true wireless", "5g", "sạc nhanh",
+                "định vị", "trẻ em", "thể thao", "văn phòng",
+            ]
+            pref_features = [kw for kw in feature_keywords if kw in profile_lower]
+
             for r in results:
                 boost = 0.0
-                if r.brand_name and r.brand_name.lower() in profile_lower:
-                    boost += PROFILE_BOOST
-                if r.category_name and r.category_name.lower() in profile_lower:
-                    boost += PROFILE_BOOST * 0.5
+
+                # ① Brand — cao nhất
+                if r.brand_name and r.brand_name.lower() in pref_brands:
+                    boost += 0.15
+
+                # ② Category
+                if r.category_slug and r.category_slug.lower() in pref_categories:
+                    boost += 0.10
+
+                # ③ Price range
+                if pref_price_min is not None or pref_price_max is not None:
+                    dp = r.sale_price if r.sale_price else r.base_price
+                    if dp and dp > 0:
+                        in_range = True
+                        if pref_price_min is not None and dp < pref_price_min:
+                            in_range = False
+                        if pref_price_max is not None and dp > pref_price_max:
+                            in_range = False
+                        if in_range:
+                            boost += 0.06
+
+                # ④ Features
+                if pref_features and r.highlight_features:
+                    combined = " ".join(r.highlight_features).lower()
+                    if any(kw in combined for kw in pref_features):
+                        boost += 0.03
+
                 r.similarity_score = round(r.similarity_score + boost, 4)
+
             results.sort(key=lambda x: x.similarity_score, reverse=True)
 
         results = results[:limit]

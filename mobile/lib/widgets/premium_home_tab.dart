@@ -133,8 +133,6 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
             physics: const AlwaysScrollableScrollPhysics(),
             slivers: [
               SliverToBoxAdapter(child: _buildHeader()),
-              SliverToBoxAdapter(child: _buildSearchBar()),
-              SliverToBoxAdapter(child: _buildPromoBanners()),
               SliverToBoxAdapter(child: _buildCategorySection()),
               SliverToBoxAdapter(child: _buildProductSectionTitle()),
               _buildProductGrid(),
