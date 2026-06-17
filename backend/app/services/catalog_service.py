@@ -66,45 +66,165 @@ class CatalogService:
         )
 
     @staticmethod
+    def _parse_profile_preferences(profile_summary: str) -> dict:
+        """
+        Trích xuất thông tin sở thích có cấu trúc từ profile_summary.
+        Returns dict với keys: brands, categories, price_range, purchased_products, features.
+        """
+        profile_lower = profile_summary.lower()
+        prefs = {
+            "brands": [],
+            "categories": [],
+            "price_min": None,
+            "price_max": None,
+            "purchased_keywords": [],
+            "features": [],
+        }
+
+        # ── Trích xuất thương hiệu ──
+        known_brands = [
+            "apple", "samsung", "xiaomi", "huawei", "oppo", "vivo",
+            "realme", "sony", "jbl", "marshall", "bose", "garmin",
+            "dell", "hp", "asus", "acer", "lenovo", "msi",
+            "amazfit", "honor",
+        ]
+        for brand in known_brands:
+            if brand in profile_lower:
+                prefs["brands"].append(brand)
+
+        # ── Trích xuất danh mục ──
+        category_map = {
+            "smartphone": ["smartphone", "điện thoại", "phone"],
+            "laptop": ["laptop", "máy tính xách tay"],
+            "tablet": ["tablet", "máy tính bảng", "ipad"],
+            "headphone": ["tai nghe", "headphone", "earphone", "earbud"],
+            "smartwatch": ["đồng hồ thông minh", "smartwatch", "đồng hồ"],
+            "accessory": ["phụ kiện", "accessory"],
+        }
+        for cat_key, aliases in category_map.items():
+            for alias in aliases:
+                if alias in profile_lower:
+                    prefs["categories"].append(cat_key)
+                    break
+
+        # ── Trích xuất phân khúc giá ──
+        import re
+        # "giá rẻ", "dưới X triệu"
+        if any(kw in profile_lower for kw in ["giá rẻ", "bình dân", "budget"]):
+            prefs["price_max"] = 5_000_000
+        elif any(kw in profile_lower for kw in ["tầm trung", "mid-range"]):
+            prefs["price_min"] = 5_000_000
+            prefs["price_max"] = 20_000_000
+        elif any(kw in profile_lower for kw in ["cao cấp", "premium", "flagship"]):
+            prefs["price_min"] = 20_000_000
+
+        # "dưới X triệu"
+        price_match = re.search(r"dưới\s+([\d,.]+)\s*(?:triệu|tr|củ)", profile_lower)
+        if price_match:
+            prefs["price_max"] = float(price_match.group(1).replace(",", ".")) * 1_000_000
+        price_match = re.search(r"trên\s+([\d,.]+)\s*(?:triệu|tr|củ)", profile_lower)
+        if price_match:
+            prefs["price_min"] = float(price_match.group(1).replace(",", ".")) * 1_000_000
+        # "tầm X-Y triệu"
+        range_match = re.search(r"(\d+)\s*[-–]\s*(\d+)\s*(?:triệu|tr)", profile_lower)
+        if range_match:
+            prefs["price_min"] = float(range_match.group(1)) * 1_000_000
+            prefs["price_max"] = float(range_match.group(2)) * 1_000_000
+
+        # ── Trích xuất lịch sử mua ──
+        purchase_section = ""
+        for line in profile_summary.split("\n"):
+            if "lịch sử mua" in line.lower() or "đã mua" in line.lower():
+                purchase_section = line.lower()
+                break
+        if purchase_section and "chưa có" not in purchase_section:
+            # Trích từ khóa sản phẩm đã mua
+            for brand in known_brands:
+                if brand in purchase_section:
+                    prefs["purchased_keywords"].append(brand)
+
+        # ── Trích xuất tính năng ──
+        feature_keywords = [
+            "chống ồn", "pin trâu", "gaming", "mỏng nhẹ", "chụp ảnh",
+            "chống nước", "true wireless", "5g", "sạc nhanh",
+            "định vị", "trẻ em", "thể thao", "văn phòng",
+        ]
+        for kw in feature_keywords:
+            if kw in profile_lower:
+                prefs["features"].append(kw)
+
+        return prefs
+
+    @staticmethod
     def _personalize_products(
         products: List[Product],
         profile_summary: Optional[str],
     ) -> List[Product]:
         """
         Re-rank danh sách sản phẩm dựa trên hồ sơ người dùng.
-        Boost các sản phẩm khớp thương hiệu/danh mục yêu thích lên đầu.
         Không thay đổi tập kết quả, chỉ thay đổi thứ tự.
+
+        Thứ tự ưu tiên (boost weights):
+          1. Thương hiệu yêu thích   → 5.0 (cao nhất)
+          2. Danh mục quan tâm        → 3.0
+          3. Phân khúc giá phù hợp    → 2.0
+          4. Lịch sử mua (keywords)   → 1.5
+          5. Tính năng ưu tiên        → 1.0
         """
         if not profile_summary or not products:
             return products
 
-        profile_lower = profile_summary.lower()
+        prefs = CatalogService._parse_profile_preferences(profile_summary)
 
         def _calc_boost(product: Product) -> float:
-            """Tính điểm boost cho 1 sản phẩm dựa trên profile."""
             boost = 0.0
 
-            # Boost nếu thương hiệu khớp
+            # ① Thương hiệu — Ưu tiên CAO NHẤT (5.0)
             if product.brand and product.brand.name:
-                brand_name = product.brand.name.lower()
-                if brand_name in profile_lower:
-                    boost += 3.0
+                brand_lower = product.brand.name.lower()
+                if brand_lower in prefs["brands"]:
+                    boost += 5.0
 
-            # Boost nếu danh mục khớp
-            if product.category and product.category.name:
-                cat_name = product.category.name.lower()
-                if cat_name in profile_lower:
+            # ② Danh mục — Ưu tiên cao (3.0)
+            if product.category and product.category.slug:
+                cat_slug = product.category.slug.lower()
+                if cat_slug in prefs["categories"]:
+                    boost += 3.0
+                # Fallback: match by category name
+                elif product.category.name:
+                    cat_name = product.category.name.lower()
+                    profile_lower = profile_summary.lower()
+                    if cat_name in profile_lower:
+                        boost += 3.0
+
+            # ③ Phân khúc giá — Ưu tiên trung bình (2.0)
+            display_price = float(product.sale_price) if product.sale_price else (
+                float(product.base_price) if product.base_price else 0
+            )
+            if display_price > 0:
+                in_range = True
+                if prefs["price_min"] is not None and display_price < prefs["price_min"]:
+                    in_range = False
+                if prefs["price_max"] is not None and display_price > prefs["price_max"]:
+                    in_range = False
+                if in_range and (prefs["price_min"] is not None or prefs["price_max"] is not None):
                     boost += 2.0
 
-            # Boost nếu tên sản phẩm chứa từ khóa trong profile
-            if product.name:
+            # ④ Lịch sử mua — Ưu tiên (1.5)
+            if product.brand and product.brand.name and prefs["purchased_keywords"]:
+                brand_lower = product.brand.name.lower()
+                if brand_lower in prefs["purchased_keywords"]:
+                    boost += 1.5
+
+            # ⑤ Tính năng — Ưu tiên thấp (1.0)
+            if product.name and prefs["features"]:
                 name_lower = product.name.lower()
-                # Tìm các từ khóa đặc trưng trong profile
-                keywords = ["chống ồn", "pin trâu", "gaming", "mỏng nhẹ",
-                            "chụp ảnh", "chống nước", "true wireless"]
-                for kw in keywords:
-                    if kw in profile_lower and kw in name_lower:
-                        boost += 1.5
+                features_text = " ".join(product.highlight_features or []).lower()
+                combined = name_lower + " " + features_text
+                for kw in prefs["features"]:
+                    if kw in combined:
+                        boost += 1.0
+                        break  # Chỉ tính 1 lần cho tính năng
 
             return boost
 

@@ -7,6 +7,7 @@ import '../bloc/chat_bloc.dart';
 import '../bloc/cart_bloc.dart';
 import '../models/chat_model.dart';
 import '../screens/payment_webview_screen.dart';
+import '../screens/chat_product_list_screen.dart';
 
 // ── Colors ──
 class _K {
@@ -29,7 +30,7 @@ class ChatBottomSheet extends StatefulWidget {
   State<ChatBottomSheet> createState() => _ChatBottomSheetState();
 }
 
-class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderStateMixin {
+class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderStateMixin, WidgetsBindingObserver {
   final TextEditingController _controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
   final FocusNode _focusNode = FocusNode();
@@ -38,6 +39,7 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     _dotController = AnimationController(vsync: this, duration: const Duration(milliseconds: 1200))..repeat();
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _focusNode.requestFocus();
@@ -47,11 +49,22 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     _controller.dispose();
     _scrollController.dispose();
     _focusNode.dispose();
     _dotController.dispose();
     super.dispose();
+  }
+
+  @override
+  void didChangeMetrics() {
+    super.didChangeMetrics();
+    // When keyboard appears/disappears, scroll chat to bottom
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      _scrollToBottom();
+    });
   }
 
   void _scrollToBottom() {
@@ -82,16 +95,17 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
 
   @override
   Widget build(BuildContext context) {
-    return DraggableScrollableSheet(
-      initialChildSize: 0.55,
-      minChildSize: 0.0,
-      maxChildSize: 0.92,
-      snap: true,
-      snapSizes: const [0.0, 0.55, 0.92],
-      builder: (context, scrollController) {
-        return Padding(
-          padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
-          child: ClipRRect(
+    final bottomInset = MediaQuery.of(context).viewInsets.bottom;
+    return Padding(
+      padding: EdgeInsets.only(bottom: bottomInset),
+      child: DraggableScrollableSheet(
+        initialChildSize: 0.55,
+        minChildSize: 0.0,
+        maxChildSize: 0.92,
+        snap: true,
+        snapSizes: const [0.0, 0.55, 0.92],
+        builder: (context, scrollController) {
+          return ClipRRect(
             borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
             child: BackdropFilter(
               filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
@@ -131,9 +145,9 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
                 ),
               ),
             ),
-          ),
-        );
-      },
+          );
+        },
+      ),
     );
   }
 
@@ -307,7 +321,7 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
                   // ── Action Cards ──
                   if (msg.actionData != null) ...[
                     const SizedBox(height: 10),
-                    _buildActionCard(msg.actionData!),
+                    _buildActionCard(msg.actionData!, products: msg.products),
                   ],
                   // ── Products ──
                   if (msg.products != null && msg.products!.isNotEmpty) ...[
@@ -324,7 +338,7 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
   }
 
   // ── ACTION CARDS ──
-  Widget _buildActionCard(ChatActionData action) {
+  Widget _buildActionCard(ChatActionData action, {List<dynamic>? products}) {
     switch (action.action) {
       case 'select_variant':
         return _buildVariantSelector(action);
@@ -338,7 +352,7 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
         return _buildShowCartCard(action);
       case 'show_product_list':
       case 'show_promotions':
-        return _buildViewListCard(action);
+        return _buildViewListCard(action, products: products);
       case 'navigate_product_detail':
         return _buildViewDetailCard(action);
       case 'show_order_detail':
@@ -655,7 +669,12 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
   // ── INPUT BAR ──
   Widget _buildInputBar() {
     return Container(
-      padding: EdgeInsets.fromLTRB(12, 10, 12, MediaQuery.of(context).padding.bottom + 10),
+      padding: EdgeInsets.fromLTRB(
+        12, 10, 12,
+        MediaQuery.of(context).viewInsets.bottom > 0
+          ? 10
+          : MediaQuery.of(context).padding.bottom + 10,
+      ),
       decoration: BoxDecoration(
         color: _K.surface,
         border: Border(top: BorderSide(color: _K.divider.withOpacity(0.5))),
@@ -746,13 +765,29 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
   }
 
   // ── VIEW LIST CARD (search results / promotions) ──
-  Widget _buildViewListCard(ChatActionData action) {
+  Widget _buildViewListCard(ChatActionData action, {List<dynamic>? products}) {
     final isPromo = action.action == 'show_promotions';
     return _buildSimpleActionCard(
       icon: isPromo ? Icons.local_offer_rounded : Icons.grid_view_rounded,
       color: isPromo ? _K.amber : _K.primary,
       label: isPromo ? 'Xem sản phẩm khuyến mãi' : 'Xem danh sách sản phẩm',
-      onTap: () => _requestNavAndClose(action.action, action.rawData),
+      onTap: () {
+        if (products != null && products.isNotEmpty) {
+          final productMaps = products
+              .whereType<Map<String, dynamic>>()
+              .toList();
+          final nav = Navigator.of(context);
+          nav.pop(); // close bottom sheet
+          nav.push(MaterialPageRoute(
+            builder: (_) => ChatProductListScreen(
+              products: productMaps,
+              title: isPromo ? 'Sản phẩm khuyến mãi' : 'Kết quả tìm kiếm',
+            ),
+          ));
+        } else {
+          _requestNavAndClose(action.action, action.rawData);
+        }
+      },
     );
   }
 
