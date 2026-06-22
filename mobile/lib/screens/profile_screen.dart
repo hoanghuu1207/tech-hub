@@ -20,7 +20,8 @@ class _K {
 }
 
 class ProfileScreen extends StatefulWidget {
-  const ProfileScreen({Key? key}) : super(key: key);
+  final VoidCallback? onOrdersTap;
+  const ProfileScreen({Key? key, this.onOrdersTap}) : super(key: key);
 
   @override
   State<ProfileScreen> createState() => _ProfileScreenState();
@@ -179,7 +180,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     }),
                     Divider(height: 1, color: _K.divider.withOpacity(0.3), indent: 56, endIndent: 16),
                     _buildSettingsTile(Icons.shopping_bag_outlined, 'Đơn hàng của tôi', () {
-                      Navigator.pushNamed(context, '/orders');
+                      if (widget.onOrdersTap != null) {
+                        widget.onOrdersTap!();
+                      } else {
+                        Navigator.pushNamed(context, '/orders');
+                      }
                     }),
                   ],
                 ),

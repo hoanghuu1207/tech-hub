@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
-import 'api_service.dart';
+import '../core/network/api_client.dart';
 import 'auth_service.dart';
 
 /// Real-time notification listener via WebSocket + FCM + local notifications.
@@ -129,10 +129,9 @@ class NotificationWebSocket {
       final auth = AuthService();
       if (!auth.isTokenValid) return;
 
-      await ApiService().post(
+      await ApiClient().dio.post(
         '/notifications/register-token',
-        body: {'fcm_token': token},
-        token: auth.token,
+        data: {'fcm_token': token},
       );
       debugPrint('🔥 [FCM] Token registered with backend');
     } catch (e) {
@@ -146,7 +145,7 @@ class NotificationWebSocket {
     if (!auth.isTokenValid || auth.currentUser == null) return;
 
     // Build WS URL: http://host:8000/api/v1 → ws://host:8000/ws/notifications/{user_id}
-    final baseUrl = ApiService().baseUrl;
+    final baseUrl = ApiClient().dio.options.baseUrl;
     final hostUrl = baseUrl.replaceAll('/api/v1', '');
     final wsHost = hostUrl.replaceFirst('http', 'ws');
     final userId = auth.currentUser!.id;

@@ -1,13 +1,10 @@
-import 'dart:convert';
 import '../models/order_model.dart';
-import 'api_service.dart';
-import 'auth_service.dart';
+import '../core/network/api_client.dart';
 
 /// Singleton service for order-related API calls.
 class OrderService {
   static final OrderService _instance = OrderService._internal();
-  final ApiService _apiService = ApiService();
-  final AuthService _authService = AuthService();
+  final ApiClient _apiClient = ApiClient();
 
   OrderService._internal();
   factory OrderService() => _instance;
@@ -15,13 +12,12 @@ class OrderService {
   /// Fetch all orders for the current user.
   /// Returns newest-first.
   Future<List<Order>> getUserOrders({int limit = 20}) async {
-    final response = await _apiService.get(
+    final response = await _apiClient.dio.get(
       '/orders',
-      queryParams: {'limit': '$limit'},
-      token: _authService.token,
+      queryParameters: {'limit': '$limit'},
     );
 
-    final data = jsonDecode(response) as Map<String, dynamic>;
+    final data = response.data as Map<String, dynamic>;
     final List list = data['data'] as List? ?? [];
 
     final orders = list
@@ -41,12 +37,8 @@ class OrderService {
   /// Fetch a single order by ID.
   Future<Order?> getOrderDetail(String orderId) async {
     try {
-      final response = await _apiService.get(
-        '/orders/$orderId',
-        token: _authService.token,
-      );
-
-      final data = jsonDecode(response) as Map<String, dynamic>;
+      final response = await _apiClient.dio.get('/orders/$orderId');
+      final data = response.data as Map<String, dynamic>;
       return Order.fromJson(data['data'] as Map<String, dynamic>);
     } catch (e) {
       return null;
@@ -56,12 +48,11 @@ class OrderService {
   /// Cancel an order — POST /orders/{id}/cancel.
   Future<bool> cancelOrder(String orderId) async {
     try {
-      final response = await _apiService.post(
+      final response = await _apiClient.dio.post(
         '/orders/$orderId/cancel',
-        body: {},
-        token: _authService.token,
+        data: {},
       );
-      final data = jsonDecode(response) as Map<String, dynamic>;
+      final data = response.data as Map<String, dynamic>;
       return data['success'] == true;
     } catch (e) {
       return false;

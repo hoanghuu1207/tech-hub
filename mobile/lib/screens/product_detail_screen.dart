@@ -5,7 +5,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:share_plus/share_plus.dart';
 import '../models/catalog_models.dart';
 import '../services/catalog_service.dart';
-import '../services/api_service.dart';
+import '../core/network/api_client.dart';
 import '../services/auth_service.dart';
 import '../bloc/cart_bloc.dart';
 import '../utils/formatters.dart';
@@ -562,7 +562,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
 
   void _shareProduct(ProductDetail product) {
     // Lấy base host từ API_URL (bỏ /api/v1)
-    final apiUrl = ApiService().baseUrl;
+    final apiUrl = ApiClient().dio.options.baseUrl;
     final baseHost = apiUrl.replaceAll('/api/v1', '');
     final shareLink = '$baseHost/share/product/${product.id}';
 

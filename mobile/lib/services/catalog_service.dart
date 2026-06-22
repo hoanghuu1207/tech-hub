@@ -1,13 +1,10 @@
-import 'dart:convert';
 import '../models/catalog_models.dart';
-import 'api_service.dart';
-import 'auth_service.dart';
+import '../core/network/api_client.dart';
 
 /// Singleton service for the /catalog/* browsing endpoints.
 class CatalogService {
   static final CatalogService _instance = CatalogService._internal();
-  final ApiService _apiService = ApiService();
-  final AuthService _authService = AuthService();
+  final ApiClient _apiClient = ApiClient();
 
   CatalogService._internal();
 
@@ -18,11 +15,11 @@ class CatalogService {
     int limit = 50,
     int offset = 0,
   }) async {
-    final response = await _apiService.get(
+    final response = await _apiClient.dio.get(
       '/catalog/products',
-      queryParams: {'limit': '$limit', 'offset': '$offset'},
+      queryParameters: {'limit': '$limit', 'offset': '$offset'},
     );
-    final data = jsonDecode(response);
+    final data = response.data;
     final List<dynamic> items = data['data']?['products'] ?? [];
     return items
         .map((e) => ProductCompact.fromJson(e as Map<String, dynamic>))
@@ -31,18 +28,18 @@ class CatalogService {
 
   /// Total product count from the last getAllProducts call.
   Future<int> getAllProductsTotal() async {
-    final response = await _apiService.get(
+    final response = await _apiClient.dio.get(
       '/catalog/products',
-      queryParams: {'limit': '1', 'offset': '0'},
+      queryParameters: {'limit': '1', 'offset': '0'},
     );
-    final data = jsonDecode(response);
+    final data = response.data;
     return (data['data']?['total'] as num?)?.toInt() ?? 0;
   }
 
   // ── GET /catalog/categories ──
   Future<List<CatalogCategory>> getCategories() async {
-    final response = await _apiService.get('/catalog/categories');
-    final data = jsonDecode(response);
+    final response = await _apiClient.dio.get('/catalog/categories');
+    final data = response.data;
     final List<dynamic> items = data['data'] ?? [];
     return items
         .map((e) => CatalogCategory.fromJson(e as Map<String, dynamic>))
@@ -56,11 +53,11 @@ class CatalogService {
     int limit = 50,
     int offset = 0,
   }) async {
-    final response = await _apiService.get(
+    final response = await _apiClient.dio.get(
       '/catalog/categories/$categoryId',
-      queryParams: {'limit': '$limit', 'offset': '$offset'},
+      queryParameters: {'limit': '$limit', 'offset': '$offset'},
     );
-    final data = jsonDecode(response)['data'];
+    final data = response.data['data'];
     return (
       brands: (data['brands'] as List<dynamic>?)
               ?.map((b) => CatalogBrand.fromJson(b as Map<String, dynamic>))
@@ -87,11 +84,11 @@ class CatalogService {
     int limit = 50,
     int offset = 0,
   }) async {
-    final response = await _apiService.get(
+    final response = await _apiClient.dio.get(
       '/catalog/categories/$categoryId/brands/$brandId',
-      queryParams: {'limit': '$limit', 'offset': '$offset'},
+      queryParameters: {'limit': '$limit', 'offset': '$offset'},
     );
-    final data = jsonDecode(response)['data'];
+    final data = response.data['data'];
     return (
       lines: (data['product_lines'] as List<dynamic>?)
               ?.map((l) =>
@@ -113,11 +110,11 @@ class CatalogService {
     int limit = 50,
     int offset = 0,
   }) async {
-    final response = await _apiService.get(
+    final response = await _apiClient.dio.get(
       '/catalog/product-lines/$lineId',
-      queryParams: {'limit': '$limit', 'offset': '$offset'},
+      queryParameters: {'limit': '$limit', 'offset': '$offset'},
     );
-    final data = jsonDecode(response)['data'];
+    final data = response.data['data'];
     return (
       products: (data['products'] as List<dynamic>?)
               ?.map(
@@ -130,14 +127,11 @@ class CatalogService {
 
   // ── GET /catalog/products/{productId} ──
   Future<ProductDetail> getProductDetail(String productId) async {
-    final response = await _apiService.get(
-      '/catalog/products/$productId',
-      token: _authService.isAuthenticated ? _authService.token : null,
-    );
-    final data = jsonDecode(response);
+    final response = await _apiClient.dio.get('/catalog/products/$productId');
+    final data = response.data;
     if (data['success'] == true && data['data'] != null) {
       return ProductDetail.fromJson(data['data'] as Map<String, dynamic>);
     }
-    throw NotFoundException('Product not found');
+    throw Exception('Product not found');
   }
 }
