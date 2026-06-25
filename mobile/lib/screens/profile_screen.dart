@@ -28,17 +28,10 @@ class ProfileScreen extends StatefulWidget {
 }
 
 class _ProfileScreenState extends State<ProfileScreen> {
-  bool _isValidSession = false;
 
   @override
   void initState() {
     super.initState();
-    _checkAuth();
-  }
-
-  Future<void> _checkAuth() async {
-    final valid = await AuthService().verifyAuth();
-    if (mounted) setState(() => _isValidSession = valid);
   }
 
   String _getInitials(String name) {
@@ -84,7 +77,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     final authService = AuthService();
 
-    if (!_isValidSession || !authService.isTokenValid || authService.currentUser == null) {
+    if (!authService.isTokenValid || authService.currentUser == null) {
       return _buildUnauthenticatedUI();
     }
 
