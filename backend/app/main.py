@@ -1,5 +1,7 @@
+import asyncio
 import time
 import logging
+from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse, HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -12,6 +14,7 @@ from app.api.v1.router import api_router
 from app.core.config import settings
 from app.core.rate_limit import limiter
 from app.services.notification_manager import notification_manager
+from app.services.payment_scheduler import run_payment_expiry_scheduler
 
 # --- Logging setup ---
 logger = logging.getLogger("api_logger")
@@ -21,9 +24,24 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 ch.setFormatter(formatter)
 logger.addHandler(ch)
 
+# --- Lifespan: startup / shutdown ---
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup: khởi chạy background scheduler cho payment expiry
+    scheduler_task = asyncio.create_task(run_payment_expiry_scheduler())
+    logger.info("🚀 [Lifespan] Payment expiry scheduler started")
+    yield
+    # Shutdown: dừng scheduler
+    scheduler_task.cancel()
+    try:
+        await scheduler_task
+    except asyncio.CancelledError:
+        logger.info("🛑 [Lifespan] Payment expiry scheduler stopped")
+
 app = FastAPI(
     title=settings.APP_NAME,
-    debug=settings.DEBUG
+    debug=settings.DEBUG,
+    lifespan=lifespan,
 )
 
 check_qdrant_connection()
