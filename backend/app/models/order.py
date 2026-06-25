@@ -39,6 +39,7 @@ class Order(Base):
     
     payment_method = Column(String(30), nullable=True)
     payment_status = Column(String(20), default="pending")
+    payment_expires_at = Column(DateTime(timezone=True), nullable=True)  # PayOS link expiry
     note = Column(Text, nullable=True)
     
     created_at = Column(DateTime(timezone=True), server_default=func.now())

@@ -82,6 +82,7 @@ class OrderOut(BaseModel):
     shipping_fee: float = 0
     payment_method: Optional[str] = None
     payment_status: str
+    payment_expires_at: Optional[datetime] = None
     note: Optional[str] = None
     created_at: Optional[datetime] = None
     updated_at: Optional[datetime] = None

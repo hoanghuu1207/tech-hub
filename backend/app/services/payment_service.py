@@ -8,6 +8,7 @@ Flow:
 """
 
 import time
+from datetime import datetime, timezone, timedelta
 import hmac
 import hashlib
 import json
@@ -165,6 +166,7 @@ class PaymentService:
 
         # ── 3. Tạo Order ──
         order_code = int(time.time() * 1000) % 2147483647  # PayOS yêu cầu int32 max
+        payment_expiry_minutes = 15  # Thời gian hết hạn thanh toán PayOS
 
         order = Order(
             user_id=user.id,
@@ -176,6 +178,10 @@ class PaymentService:
             shipping_fee=Decimal("0"),
             payment_method=request.payment_method,
             payment_status="pending",
+            payment_expires_at=(
+                datetime.now(timezone.utc) + timedelta(minutes=payment_expiry_minutes)
+                if request.payment_method == "payos" else None
+            ),
             note=request.note,
         )
         db.add(order)
@@ -212,7 +218,7 @@ class PaymentService:
                     items=payos_item_list,
                     returnUrl=_build_return_url(str(order.id)),
                     cancelUrl=_build_cancel_url(str(order.id)),
-                    expiredAt=int(time.time()) + 15 * 60,  # 15 phút
+                    expiredAt=int(time.time()) + payment_expiry_minutes * 60,
                 )
 
                 payos_response = self._payos.payment_requests.create(payment_data)
