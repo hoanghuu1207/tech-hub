@@ -19,7 +19,7 @@ done
 
 echo ""
 echo "🔄 [1/6] Pulling latest code..."
-git pull origin main
+git pull origin web/admin
 
 echo ""
 echo "🏗️  [2/6] Building & restarting containers..."
