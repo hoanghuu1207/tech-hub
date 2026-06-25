@@ -89,7 +89,9 @@ class _HomeScreenState extends State<HomeScreen> {
               onContinueShopping: () => setState(() => _selectedTab = 0),
             ),
             const OrdersTab(),
-            const ProfileScreen(),
+            ProfileScreen(
+              onOrdersTap: () => setState(() => _selectedTab = 3),
+            ),
           ],
         ),
         // ── Premium Dark Bottom Nav ──

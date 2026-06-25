@@ -1,11 +1,8 @@
-import 'dart:convert';
-import 'api_service.dart';
-import 'auth_service.dart';
+import '../core/network/api_client.dart';
 
 class ChatService {
   static final ChatService _instance = ChatService._internal();
-  final ApiService _apiService = ApiService();
-  final AuthService _authService = AuthService();
+  final ApiClient _apiClient = ApiClient();
 
   String? _conversationId;
 
@@ -23,15 +20,12 @@ class ChatService {
       body['conversation_id'] = _conversationId;
     }
 
-    final response = await _apiService.post(
-      '/chat',
-      body: body,
-      token: _authService.token,
-    );
+    final response = await _apiClient.dio.post('/chat', data: body);
+    final data = response.data;
 
-    final data = jsonDecode(response) as Map<String, dynamic>;
-
-    if (data['success'] == true && data['data'] != null) {
+    if (data is Map<String, dynamic> &&
+        data['success'] == true &&
+        data['data'] != null) {
       final chatData = data['data'] as Map<String, dynamic>;
       // Persist session_id for conversation continuity
       _conversationId = chatData['session_id'];

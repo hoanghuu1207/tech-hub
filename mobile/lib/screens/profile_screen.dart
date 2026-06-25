@@ -20,24 +20,18 @@ class _K {
 }
 
 class ProfileScreen extends StatefulWidget {
-  const ProfileScreen({Key? key}) : super(key: key);
+  final VoidCallback? onOrdersTap;
+  const ProfileScreen({Key? key, this.onOrdersTap}) : super(key: key);
 
   @override
   State<ProfileScreen> createState() => _ProfileScreenState();
 }
 
 class _ProfileScreenState extends State<ProfileScreen> {
-  bool _isValidSession = false;
 
   @override
   void initState() {
     super.initState();
-    _checkAuth();
-  }
-
-  Future<void> _checkAuth() async {
-    final valid = await AuthService().verifyAuth();
-    if (mounted) setState(() => _isValidSession = valid);
   }
 
   String _getInitials(String name) {
@@ -83,7 +77,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     final authService = AuthService();
 
-    if (!_isValidSession || !authService.isTokenValid || authService.currentUser == null) {
+    if (!authService.isTokenValid || authService.currentUser == null) {
       return _buildUnauthenticatedUI();
     }
 
@@ -179,7 +173,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     }),
                     Divider(height: 1, color: _K.divider.withOpacity(0.3), indent: 56, endIndent: 16),
                     _buildSettingsTile(Icons.shopping_bag_outlined, 'Đơn hàng của tôi', () {
-                      Navigator.pushNamed(context, '/orders');
+                      if (widget.onOrdersTap != null) {
+                        widget.onOrdersTap!();
+                      } else {
+                        Navigator.pushNamed(context, '/orders');
+                      }
                     }),
                   ],
                 ),

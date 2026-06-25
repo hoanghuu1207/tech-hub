@@ -359,11 +359,7 @@ class _PremiumHomeTabState extends State<PremiumHomeTab> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text('Danh mục', style: GoogleFonts.outfit(fontSize: 18, fontWeight: FontWeight.w700, color: _C.textPrimary)),
-              GestureDetector(
-                onTap: () {},
-                child: Text('Xem tất cả', style: GoogleFonts.outfit(fontSize: 13, fontWeight: FontWeight.w600, color: _C.primary)),
-              ),
+              Text('Danh mục', style: GoogleFonts.outfit(fontSize: 18, fontWeight: FontWeight.w700, color: _C.textPrimary))
             ],
           ),
         ),

@@ -1,35 +1,32 @@
-import 'dart:convert';
-import 'api_service.dart';
-import 'auth_service.dart';
 import '../models/cart_model.dart';
+import '../core/network/api_client.dart';
 
 class CartService {
   static final CartService _instance = CartService._internal();
-  final ApiService _apiService = ApiService();
-  final AuthService _authService = AuthService();
+  final ApiClient _apiClient = ApiClient();
 
   CartService._internal();
   factory CartService() => _instance;
 
-  Cart _parseCartResponse(String responseStr) {
-    final data = jsonDecode(responseStr) as Map<String, dynamic>;
-    if (data['success'] == true && data['data'] != null) {
-      final itemsList = data['data'] as List;
-      final items = itemsList.map((x) => CartItem.fromJson(x as Map<String, dynamic>)).toList();
-      return Cart(items: items);
+  /// Parse the Dio response data (already decoded JSON map)
+  Cart _parseCartData(dynamic responseData) {
+    if (responseData is Map<String, dynamic>) {
+      final data = responseData['data'];
+      if (responseData['success'] == true && data != null && data is List) {
+        final items = data
+            .map((x) => CartItem.fromJson(x as Map<String, dynamic>))
+            .toList();
+        return Cart(items: items);
+      }
     }
     return Cart(items: []);
   }
 
   /// Get current cart from server — GET /api/v1/cart
   Future<Cart> getCart() async {
-    if (!_authService.isAuthenticated) return Cart(items: []);
     try {
-      final response = await _apiService.get(
-        '/cart',
-        token: _authService.token,
-      );
-      return _parseCartResponse(response);
+      final response = await _apiClient.dio.get('/cart');
+      return _parseCartData(response.data);
     } catch (e) {
       return Cart(items: []);
     }
@@ -38,14 +35,12 @@ class CartService {
   /// Get product variants — GET /api/v1/cart/variants/{productId}
   Future<List<Map<String, dynamic>>> getProductVariants(String productId) async {
     try {
-      print('🔍 Fetching variants for product: $productId');
-      final response = await _apiService.get('/cart/variants/$productId');
-      print('📦 Variants response: $response');
-      final data = jsonDecode(response) as Map<String, dynamic>;
-      if (data['success'] == true && data['data'] != null) {
-        final variants = List<Map<String, dynamic>>.from(data['data'] as List);
-        print('✅ Found ${variants.length} variants');
-        return variants;
+      final response = await _apiClient.dio.get('/cart/variants/$productId');
+      final data = response.data;
+      if (data is Map<String, dynamic> &&
+          data['success'] == true &&
+          data['data'] != null) {
+        return List<Map<String, dynamic>>.from(data['data'] as List);
       }
       return [];
     } catch (e) {
@@ -60,50 +55,36 @@ class CartService {
     String? variantId,
     int quantity = 1,
   }) async {
-    if (!_authService.isAuthenticated) return Cart(items: []);
-    final response = await _apiService.post(
+    final response = await _apiClient.dio.post(
       '/cart',
-      body: {
+      data: {
         'product_id': productId,
         if (variantId != null) 'variant_id': variantId,
         'quantity': quantity,
       },
-      token: _authService.token,
     );
-    return _parseCartResponse(response);
+    return _parseCartData(response.data);
   }
 
   /// Update item quantity — PUT /api/v1/cart/{id}
   Future<Cart> updateQuantity(String cartItemId, int quantity) async {
-    if (!_authService.isAuthenticated) return Cart(items: []);
-    final response = await _apiService.put(
+    final response = await _apiClient.dio.put(
       '/cart/$cartItemId',
-      body: {
-        'quantity': quantity,
-      },
-      token: _authService.token,
+      data: {'quantity': quantity},
     );
-    return _parseCartResponse(response);
+    return _parseCartData(response.data);
   }
 
   /// Remove item from cart — DELETE /api/v1/cart/{id}
   Future<Cart> removeCartItem(String cartItemId) async {
-    if (!_authService.isAuthenticated) return Cart(items: []);
-    final response = await _apiService.delete(
-      '/cart/$cartItemId',
-      token: _authService.token,
-    );
-    return _parseCartResponse(response);
+    final response = await _apiClient.dio.delete('/cart/$cartItemId');
+    return _parseCartData(response.data);
   }
 
   /// Clear entire cart — DELETE /api/v1/cart
   Future<Cart> clearCart() async {
-    if (!_authService.isAuthenticated) return Cart(items: []);
-    final response = await _apiService.delete(
-      '/cart',
-      token: _authService.token,
-    );
-    return _parseCartResponse(response);
+    final response = await _apiClient.dio.delete('/cart');
+    return _parseCartData(response.data);
   }
 
   /// Create order (checkout) — POST /api/v1/orders
@@ -127,14 +108,11 @@ class CartService {
         'shipping_address': shippingAddress.toJson(),
     };
 
-    final response = await _apiService.post(
-      '/orders',
-      body: body,
-      token: _authService.token,
-    );
-
-    final data = jsonDecode(response) as Map<String, dynamic>;
-    if (data['success'] == true && data['data'] != null) {
+    final response = await _apiClient.dio.post('/orders', data: body);
+    final data = response.data;
+    if (data is Map<String, dynamic> &&
+        data['success'] == true &&
+        data['data'] != null) {
       return data['data'] as Map<String, dynamic>;
     }
     throw Exception(data['error'] ?? data['message'] ?? 'Checkout failed');
@@ -142,12 +120,9 @@ class CartService {
 
   /// Get user orders — GET /api/v1/orders
   Future<List<Map<String, dynamic>>> getOrders() async {
-    final response = await _apiService.get(
-      '/orders',
-      token: _authService.token,
-    );
-    final data = jsonDecode(response) as Map<String, dynamic>;
-    if (data['success'] == true) {
+    final response = await _apiClient.dio.get('/orders');
+    final data = response.data;
+    if (data is Map<String, dynamic> && data['success'] == true) {
       return List<Map<String, dynamic>>.from(data['data'] as List);
     }
     return [];
@@ -155,12 +130,12 @@ class CartService {
 
   /// Cancel order — POST /api/v1/orders/{id}/cancel
   Future<bool> cancelOrder(String orderId) async {
-    final response = await _apiService.post(
-      '/orders/$orderId/cancel',
-      body: {},
-      token: _authService.token,
-    );
-    final data = jsonDecode(response) as Map<String, dynamic>;
-    return data['success'] == true;
+    try {
+      final response = await _apiClient.dio.post('/orders/$orderId/cancel', data: {});
+      final data = response.data;
+      return data is Map<String, dynamic> && data['success'] == true;
+    } catch (e) {
+      return false;
+    }
   }
 }

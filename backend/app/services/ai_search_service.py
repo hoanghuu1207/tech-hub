@@ -84,16 +84,27 @@ search_text là câu TÌM KIẾM NGỮ NGHĨA, sẽ được dùng để so sán
   + Đặc tính sản phẩm: "chống nước", "chống ồn", "mỏng nhẹ", "pin trâu", "chụp ảnh đẹp"
   + Loại sản phẩm cụ thể: "định vị trẻ em", "gaming", "ultrabook", "true wireless"
 
+=== QUY TẮC EXACT_NAME (RẤT QUAN TRỌNG) ===
+exact_name: Tên model CỤ THỂ mà user đang tìm. Chỉ điền khi user nói RÕ RÀNG tên dòng sản phẩm.
+- Nếu user nói tên sản phẩm cụ thể → điền tên chuẩn hóa (viết đúng hoa thường)
+- Nếu user tìm kiếm chung chung ("điện thoại pin trâu", "laptop chơi game") → null
+- QUAN TRỌNG: Phải giữ ĐÚNG và ĐỦ các từ khóa model. Ví dụ:
+  + "iPhone 15 Pro Max" KHÁC "iPhone 15 Pro" KHÁC "iPhone 15"
+  + "Galaxy S24 Ultra" KHÁC "Galaxy S24" KHÁC "Galaxy S24+"
+  + "MacBook Pro M3" KHÁC "MacBook Air M3"
+
 Trả về JSON thuần túy (KHÔNG markdown, KHÔNG ```):
-{"search_text": "...", "category_slug": null, "brand_slugs": [], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
+{"search_text": "...", "exact_name": null, "category_slug": null, "brand_slugs": [], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
 
 Ví dụ:
-- "đồng hồ huawei hoặc xiaomi dành cho trẻ em dưới 2 triệu" → {"search_text": "đồng hồ định vị trẻ em", "category_slug": "smartwatch", "brand_slugs": ["huawei", "xiaomi"], "price_max": 2000000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "tai nghe chống ồn sony tầm 3 củ" → {"search_text": "tai nghe chống ồn", "category_slug": "headphone", "brand_slugs": ["sony"], "price_min": 2100000, "price_max": 3900000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "laptop chơi game cho sinh viên dell hoặc hp ram 16gb" → {"search_text": "laptop chơi game sinh viên", "category_slug": "laptop", "brand_slugs": ["dell", "hp"], "price_min": null, "price_max": null, "ram_min": 16, "ram_max": 16, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "điện thoại chụp ảnh đẹp pin trâu dưới 5tr" → {"search_text": "điện thoại chụp ảnh đẹp pin trâu", "category_slug": "smartphone", "brand_slugs": [], "price_min": null, "price_max": 5000000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "ip 15 pro max" → {"search_text": "iPhone 15 Pro Max", "category_slug": "smartphone", "brand_slugs": ["apple"], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "smartwatch nữ nhỏ gọn dưới 5 triệu" → {"search_text": "đồng hồ thông minh nữ nhỏ gọn", "category_slug": "smartwatch", "brand_slugs": [], "price_min": null, "price_max": 5000000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
+- "đồng hồ huawei hoặc xiaomi dành cho trẻ em dưới 2 triệu" → {"search_text": "đồng hồ định vị trẻ em", "exact_name": null, "category_slug": "smartwatch", "brand_slugs": ["huawei", "xiaomi"], "price_max": 2000000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
+- "tai nghe chống ồn sony tầm 3 củ" → {"search_text": "tai nghe chống ồn", "exact_name": null, "category_slug": "headphone", "brand_slugs": ["sony"], "price_min": 2100000, "price_max": 3900000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
+- "laptop chơi game cho sinh viên dell hoặc hp ram 16gb" → {"search_text": "laptop chơi game sinh viên", "exact_name": null, "category_slug": "laptop", "brand_slugs": ["dell", "hp"], "price_min": null, "price_max": null, "ram_min": 16, "ram_max": 16, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
+- "điện thoại chụp ảnh đẹp pin trâu dưới 5tr" → {"search_text": "điện thoại chụp ảnh đẹp pin trâu", "exact_name": null, "category_slug": "smartphone", "brand_slugs": [], "price_min": null, "price_max": 5000000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
+- "ip 15 pro max" → {"search_text": "iPhone 15 Pro Max", "exact_name": "iPhone 15 Pro Max", "category_slug": "smartphone", "brand_slugs": ["apple"], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
+- "cho tôi xem Samsung Galaxy S24 Ultra" → {"search_text": "Samsung Galaxy S24 Ultra", "exact_name": "Galaxy S24 Ultra", "category_slug": "smartphone", "brand_slugs": ["samsung"], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
+- "MacBook Air M2" → {"search_text": "MacBook Air M2", "exact_name": "MacBook Air M2", "category_slug": "laptop", "brand_slugs": ["apple"], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
+- "smartwatch nữ nhỏ gọn dưới 5 triệu" → {"search_text": "đồng hồ thông minh nữ nhỏ gọn", "exact_name": null, "category_slug": "smartwatch", "brand_slugs": [], "price_min": null, "price_max": 5000000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
 """
 
 
@@ -101,6 +112,7 @@ Ví dụ:
 class ParsedIntent:
     """Kết quả phân tích ý định từ Gemini LLM."""
     search_text: str  # Từ khóa refined cho embedding
+    exact_name: Optional[str] = None  # Tên model cụ thể (e.g. "iPhone 15 Pro Max")
     category_slug: Optional[str] = None
     brand_slugs: Optional[list[str]] = None  # Hỗ trợ nhiều brand (OR)
     price_min: Optional[float] = None
@@ -151,6 +163,7 @@ class AISearchService:
         # ── Bước 1: Dùng Gemini LLM phân tích ý định ──
         intent = await self._parse_intent(query)
         logger.info(f"[AI Search] Query: '{query}' → Intent: search='{intent.search_text}', "
+                     f"exact_name='{intent.exact_name}', "
                      f"cat={intent.category_slug}, brands={intent.brand_slugs}, "
                      f"price=[{intent.price_min}, {intent.price_max}], "
                      f"ram=[{intent.ram_min}, {intent.ram_max}]")
@@ -243,6 +256,12 @@ class AISearchService:
                     for bs in saved_brand_slugs
                 )
                 if not brand_match:
+                    continue
+
+            # Post-filter: Exact name matching (khi user tìm tên model cụ thể)
+            # Ví dụ: "iPhone 15 Pro Max" → loại bỏ "iPhone 12 Pro Max", "iPhone 15 Pro"
+            if intent.exact_name:
+                if not self._product_name_matches(product.name, intent.exact_name):
                     continue
 
             # Lấy ảnh chính
@@ -445,6 +464,7 @@ class AISearchService:
 
                 return ParsedIntent(
                     search_text=data.get("search_text") or query,
+                    exact_name=data.get("exact_name"),
                     category_slug=data.get("category_slug"),
                     brand_slugs=brand_slugs or None,
                     price_min=data.get("price_min"),
@@ -510,6 +530,39 @@ class AISearchService:
             filters.screen_min = intent.screen_min
         if filters.screen_max is None and intent.screen_max is not None:
             filters.screen_max = intent.screen_max
+
+    # ────────────────────────────────────────────────────────
+    # PRIVATE: Product name matching (exact model filter)
+    # ────────────────────────────────────────────────────────
+
+    @staticmethod
+    def _product_name_matches(product_name: str, exact_name: str) -> bool:
+        """
+        Kiểm tra tên sản phẩm có khớp với tên model cụ thể không.
+        
+        Logic: Tách exact_name thành các token quan trọng, kiểm tra TẤT CẢ 
+        các token đều xuất hiện trong product_name.
+        
+        Ví dụ:
+          - exact_name="iPhone 15 Pro Max", product_name="iPhone 15 Pro Max 2TB" → True
+          - exact_name="iPhone 15 Pro Max", product_name="iPhone 15 Pro Max 512GB" → True
+          - exact_name="iPhone 15 Pro Max", product_name="iPhone 12 Pro Max 128GB" → False (12 ≠ 15)
+          - exact_name="iPhone 15 Pro Max", product_name="iPhone 15 Pro" → False (thiếu "Max")
+          - exact_name="Galaxy S24 Ultra", product_name="Galaxy S24+ 256GB" → False (thiếu "Ultra")
+        """
+        name_lower = product_name.lower()
+        # Tách exact_name thành tokens, loại bỏ các từ chung không mang tính phân biệt
+        skip_words = {'cho', 'tôi', 'xem', 'điện', 'thoại', 'the', 'new', 'mới'}
+        tokens = [
+            t for t in exact_name.lower().split()
+            if t not in skip_words and len(t) > 0
+        ]
+        
+        if not tokens:
+            return True
+        
+        # Tất cả token quan trọng phải có mặt trong tên sản phẩm
+        return all(token in name_lower for token in tokens)
 
     # ────────────────────────────────────────────────────────
     # PRIVATE: Embedding + Qdrant search

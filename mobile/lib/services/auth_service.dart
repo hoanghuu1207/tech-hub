@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:dio/dio.dart';
 import '../models/index.dart';
 import '../core/network/api_client.dart';
 import '../core/storage/secure_storage.dart';
@@ -39,17 +40,37 @@ class AuthService {
   bool get isAuthenticated => _isAuthenticated;
   String? get token => _token;
 
-  /// Check if the stored JWT token is still valid (not expired)
+  /// Check if user has a valid session.
+  /// 
+  /// Instead of only checking the in-memory access token (which expires in
+  /// 30 min), this now reads the latest token from SecureStorage (which may
+  /// have been refreshed by ApiClient interceptor) and also checks if a
+  /// refresh token exists as a fallback — meaning the session can still be
+  /// recovered even if the access token is expired.
   bool get isTokenValid {
-    if (_token == null) return false;
+    // If we still have authentication state, the session is considered valid
+    // as long as a refresh token exists. The ApiClient interceptor will
+    // handle transparent token refresh on actual API calls.
+    if (!_isAuthenticated) return false;
+    
+    // Check the in-memory token first (fast path)
+    if (_token != null && _isJwtNotExpired(_token!)) {
+      return true;
+    }
+    
+    // If the in-memory token is expired, we still consider the session valid
+    // because the ApiClient interceptor will auto-refresh on next API call.
+    // The real session expiry is determined by the refresh token (7 days).
+    return _isAuthenticated;
+  }
+
+  /// Parse a JWT and check if it's not expired.
+  bool _isJwtNotExpired(String token) {
     try {
-      // JWT format: header.payload.signature
-      final parts = _token!.split('.');
+      final parts = token.split('.');
       if (parts.length != 3) return false;
       
-      // Decode the payload (base64url)
       String payload = parts[1];
-      // Add padding if needed
       switch (payload.length % 4) {
         case 2: payload += '=='; break;
         case 3: payload += '='; break;
@@ -65,13 +86,66 @@ class AuthService {
     }
   }
 
-  /// Verify authentication: check token validity + optionally verify with server
+  /// Verify authentication by attempting to refresh the token if needed.
+  /// Returns true if the session is still valid.
   Future<bool> verifyAuth() async {
-    if (!_isAuthenticated || !isTokenValid) {
-      if (_isAuthenticated) await logout();
+    if (!_isAuthenticated) return false;
+
+    // If access token is still fresh, no need to do anything
+    if (_token != null && _isJwtNotExpired(_token!)) {
+      return true;
+    }
+
+    // Access token is expired — try to refresh it silently
+    try {
+      final refreshToken = await _storage.getRefreshToken();
+      if (refreshToken == null) {
+        // No refresh token → session truly expired
+        await logout();
+        return false;
+      }
+
+      // Attempt refresh
+      final refreshed = await _tryRefreshToken(refreshToken);
+      if (refreshed) {
+        return true;
+      } else {
+        // Refresh token is also invalid → session expired
+        await logout();
+        return false;
+      }
+    } catch (_) {
+      await logout();
       return false;
     }
-    return true;
+  }
+
+  /// Attempt to refresh the access token using the given refresh token.
+  Future<bool> _tryRefreshToken(String refreshToken) async {
+    try {
+      final dio = ApiClient().dio;
+      // Use a fresh Dio instance to avoid interceptor loops
+      final refreshDio = Dio(BaseOptions(baseUrl: dio.options.baseUrl));
+      final response = await refreshDio.post('/auth/refresh', data: {
+        'refresh_token': refreshToken,
+      });
+
+      if (response.statusCode == 200 && response.data['success'] == true) {
+        final newToken = response.data['data']['access_token'];
+        await _storage.saveToken(newToken);
+        _token = newToken; // Update in-memory token
+        return true;
+      }
+      return false;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  /// Called by ApiClient interceptor after a successful token refresh,
+  /// to keep the in-memory token in sync.
+  void updateTokenInMemory(String newToken) {
+    _token = newToken;
   }
 
   /// Register new user

@@ -1,6 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import '../../core/storage/secure_storage.dart';
+import '../../services/auth_service.dart';
 import 'exceptions.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
@@ -67,29 +68,36 @@ class ApiClient {
       },
       onError: (DioException e, handler) async {
         if (e.response?.statusCode == 401) {
-          // Token expired, attempt to refresh
-          final isRefreshed = await _refreshToken();
-          if (isRefreshed) {
-            // Retry the original request
-            try {
-               final token = await _storage.getToken();
-               e.requestOptions.headers['Authorization'] = 'Bearer $token';
-               final retryResponse = await _dio.fetch(e.requestOptions);
-               return handler.resolve(retryResponse);
-            } catch (retryError) {
-               return handler.reject(e);
+          // Skip auto-refresh for auth endpoints (login, register, refresh)
+          // These return 401 for legitimate reasons (wrong password, etc.)
+          final path = e.requestOptions.path;
+          final isAuthEndpoint = path.contains('/auth/');
+
+          if (!isAuthEndpoint) {
+            // Token expired, attempt to refresh
+            final isRefreshed = await _refreshToken();
+            if (isRefreshed) {
+              // Retry the original request
+              try {
+                 final token = await _storage.getToken();
+                 e.requestOptions.headers['Authorization'] = 'Bearer $token';
+                 final retryResponse = await _dio.fetch(e.requestOptions);
+                 return handler.resolve(retryResponse);
+              } catch (retryError) {
+                 return handler.reject(e);
+              }
+            } else {
+               // Logout User / Clear Data
+               await _storage.deleteAll();
+               return handler.reject(
+                 DioException(
+                    requestOptions: e.requestOptions,
+                    response: e.response,
+                    error: UnauthorizedException('Phiên đăng nhập hết hạn.'),
+                    type: DioExceptionType.badResponse,
+                 ),
+               );
             }
-          } else {
-             // Logout User / Clear Data
-             await _storage.deleteAll();
-             return handler.reject(
-               DioException(
-                  requestOptions: e.requestOptions,
-                  response: e.response,
-                  error: UnauthorizedException('Phiên đăng nhập hết hạn.'),
-                  type: DioExceptionType.badResponse,
-               ),
-             );
           }
         }
 
@@ -120,6 +128,8 @@ class ApiClient {
       if (response.statusCode == 200 && response.data['success'] == true) {
         final newToken = response.data['data']['access_token'];
         await _storage.saveToken(newToken);
+        // Keep AuthService in-memory token in sync
+        AuthService().updateTokenInMemory(newToken);
         return true;
       }
       return false;

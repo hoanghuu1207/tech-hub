@@ -1,12 +1,10 @@
-import 'dart:convert';
 import '../models/index.dart';
-import 'api_service.dart';
-import 'auth_service.dart';
+import '../core/network/api_client.dart';
+import '../core/network/exceptions.dart';
 
 class ProductService {
   static final ProductService _instance = ProductService._internal();
-  final ApiService _apiService = ApiService();
-  final AuthService _authService = AuthService();
+  final ApiClient _apiClient = ApiClient();
 
   ProductService._internal();
 
@@ -14,22 +12,18 @@ class ProductService {
     return _instance;
   }
 
-  /// Helper: lấy token nếu đã login
-  String? get _token => _authService.isAuthenticated ? _authService.token : null;
-
   /// Get trending/featured products using AI search
   /// Since backend has no /products endpoint, we use /ai/search with a broad query
   Future<List<Product>> getTrendingProducts() async {
     try {
-      final response = await _apiService.post(
+      final response = await _apiClient.dio.post(
         '/ai/search',
-        body: {
+        data: {
           'query': 'sản phẩm công nghệ nổi bật bán chạy',
           'limit': 20,
         },
-        token: _token,
       );
-      final data = jsonDecode(response);
+      final data = response.data;
 
       if (data['success'] == true && data['data'] != null) {
         final List<dynamic> results = data['data']['products'] ?? [];
@@ -52,19 +46,18 @@ class ProductService {
     String? filterSpecs,
   }) async {
     try {
-      final response = await _apiService.post(
+      final response = await _apiClient.dio.post(
         '/ai/search',
-        body: {
+        data: {
           'query': categoryName,
           'filters': {
             'category': categoryName,
           },
           'limit': limit,
         },
-        token: _token,
       );
 
-      final data = jsonDecode(response);
+      final data = response.data;
       if (data['success'] == true && data['data'] != null) {
         final List<dynamic> results = data['data']['products'] ?? [];
         return results
@@ -84,16 +77,15 @@ class ProductService {
     int limit = 20,
   }) async {
     try {
-      final response = await _apiService.post(
+      final response = await _apiClient.dio.post(
         '/ai/search',
-        body: {
+        data: {
           'query': query,
           'limit': limit,
         },
-        token: _token,
       );
 
-      final data = jsonDecode(response);
+      final data = response.data;
       if (data['success'] == true && data['data'] != null) {
         final List<dynamic> results = data['data']['products'] ?? [];
         return results
@@ -109,15 +101,14 @@ class ProductService {
   /// Get product by ID - not available in current API, use search by name
   Future<Product> getProductById(String productId) async {
     try {
-      final response = await _apiService.post(
+      final response = await _apiClient.dio.post(
         '/ai/search',
-        body: {
+        data: {
           'query': productId,
           'limit': 1,
         },
-        token: _token,
       );
-      final data = jsonDecode(response);
+      final data = response.data;
 
       if (data['success'] == true && data['data'] != null) {
         final List<dynamic> results = data['data']['products'] ?? [];
@@ -144,13 +135,12 @@ class ProductService {
   /// Compare products
   Future<Map<String, dynamic>> compareProducts(List<String> productIds) async {
     try {
-      final response = await _apiService.post(
+      final response = await _apiClient.dio.post(
         '/products/compare',
-        body: {'product_ids': productIds},
-        token: _token,
+        data: {'product_ids': productIds},
       );
 
-      return jsonDecode(response);
+      return response.data as Map<String, dynamic>;
     } catch (e) {
       rethrow;
     }
@@ -171,4 +161,3 @@ class ProductService {
     ];
   }
 }
-

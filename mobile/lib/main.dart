@@ -60,6 +60,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final _navigatorKey = GlobalKey<NavigatorState>();
+  final _fabRouteObserver = _FabRouteObserver();
   late final AppLinks _appLinks;
 
   @override
@@ -109,6 +110,7 @@ class _MyAppState extends State<MyApp> {
       child: MaterialApp(
         title: 'TechHub',
         navigatorKey: _navigatorKey,
+        navigatorObservers: [_fabRouteObserver],
         debugShowCheckedModeBanner: false,
         theme: _buildTheme(),
         home: const SplashScreen(),
@@ -411,7 +413,8 @@ class PlaceholderScreen extends StatelessWidget {
   }
 }
 
-/// Wraps every route with a floating chat FAB (always visible).
+/// Wraps every route with a floating chat FAB.
+/// Visibility is controlled by GlobalChatFAB.visible (ValueNotifier).
 class _GlobalFABWrapper extends StatelessWidget {
   final GlobalKey<NavigatorState> navigatorKey;
   final Widget child;
@@ -434,4 +437,30 @@ class _GlobalFABWrapper extends StatelessWidget {
       ],
     );
   }
+}
+
+/// NavigatorObserver that hides/shows the chat FAB based on the current route.
+class _FabRouteObserver extends NavigatorObserver {
+  static const _hiddenRoutes = {'/', '/login', '/register'};
+
+  void _check(Route? route) {
+    final name = route?.settings.name;
+    if (name != null && _hiddenRoutes.contains(name)) {
+      GlobalChatFAB.hideForRoute();
+    } else {
+      GlobalChatFAB.showForRoute();
+    }
+  }
+
+  @override
+  void didPush(Route route, Route? previousRoute) => _check(route);
+
+  @override
+  void didPop(Route route, Route? previousRoute) => _check(previousRoute);
+
+  @override
+  void didReplace({Route? newRoute, Route? oldRoute}) => _check(newRoute);
+
+  @override
+  void didRemove(Route route, Route? previousRoute) => _check(previousRoute);
 }
