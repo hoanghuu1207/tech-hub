@@ -56,16 +56,43 @@ class ChatNavigationRequested extends ChatEvent {
   List<Object?> get props => [navigation];
 }
 
+/// Load conversation list for the current user
+class ChatLoadConversations extends ChatEvent {
+  const ChatLoadConversations();
+}
+
+/// Load a specific conversation's messages and resume chatting
+class ChatLoadConversation extends ChatEvent {
+  final String conversationId;
+  final String? title;
+  const ChatLoadConversation(this.conversationId, {this.title});
+  @override
+  List<Object?> get props => [conversationId];
+}
+
+/// Go back to history list from a loaded conversation
+class ChatBackToHistory extends ChatEvent {
+  const ChatBackToHistory();
+}
+
 // ── States ──
 class ChatState extends Equatable {
   final List<ChatMessage> messages;
   final bool isTyping;
   final ChatNavigationAction? pendingNavigation;
 
+  /// Conversation history list
+  final List<Map<String, dynamic>> conversations;
+  final bool showHistory;
+  final bool isLoadingHistory;
+
   const ChatState({
     this.messages = const [],
     this.isTyping = false,
     this.pendingNavigation,
+    this.conversations = const [],
+    this.showHistory = false,
+    this.isLoadingHistory = false,
   });
 
   ChatState copyWith({
@@ -73,16 +100,22 @@ class ChatState extends Equatable {
     bool? isTyping,
     ChatNavigationAction? pendingNavigation,
     bool clearNavigation = false,
+    List<Map<String, dynamic>>? conversations,
+    bool? showHistory,
+    bool? isLoadingHistory,
   }) {
     return ChatState(
       messages: messages ?? this.messages,
       isTyping: isTyping ?? this.isTyping,
       pendingNavigation: clearNavigation ? null : (pendingNavigation ?? this.pendingNavigation),
+      conversations: conversations ?? this.conversations,
+      showHistory: showHistory ?? this.showHistory,
+      isLoadingHistory: isLoadingHistory ?? this.isLoadingHistory,
     );
   }
 
   @override
-  List<Object?> get props => [messages, isTyping, pendingNavigation];
+  List<Object?> get props => [messages, isTyping, pendingNavigation, conversations, showHistory, isLoadingHistory];
 }
 
 // ── BLoC ──
@@ -107,6 +140,9 @@ class ChatBloc extends Bloc<ChatEvent, ChatState> {
     on<ChatClearRequested>(_onClear);
     on<ChatNavigationHandled>(_onNavigationHandled);
     on<ChatNavigationRequested>(_onNavigationRequested);
+    on<ChatLoadConversations>(_onLoadConversations);
+    on<ChatLoadConversation>(_onLoadConversation);
+    on<ChatBackToHistory>(_onBackToHistory);
   }
 
   Future<void> _onMessageSent(ChatMessageSent event, Emitter<ChatState> emit) async {
@@ -155,6 +191,9 @@ class ChatBloc extends Bloc<ChatEvent, ChatState> {
         messages: [...updated, botMsg],
         isTyping: false,
         pendingNavigation: navAction,
+        conversations: state.conversations,
+        showHistory: false,
+        isLoadingHistory: false,
       ));
     } catch (e) {
       print('❌ ChatBloc error: $e');
@@ -184,5 +223,64 @@ class ChatBloc extends Bloc<ChatEvent, ChatState> {
         data: event.navigation.data,
       ),
     ));
+  }
+
+  // ── History ──
+
+  Future<void> _onLoadConversations(ChatLoadConversations event, Emitter<ChatState> emit) async {
+    emit(state.copyWith(showHistory: true, isLoadingHistory: true));
+    try {
+      final conversations = await _chatService.getConversations();
+      emit(state.copyWith(conversations: conversations, isLoadingHistory: false));
+    } catch (e) {
+      print('❌ ChatBloc loadConversations error: $e');
+      emit(state.copyWith(conversations: [], isLoadingHistory: false));
+    }
+  }
+
+  Future<void> _onLoadConversation(ChatLoadConversation event, Emitter<ChatState> emit) async {
+    // Show loading state while fetching messages
+    emit(state.copyWith(showHistory: false, isTyping: true, messages: []));
+
+    try {
+      // Set the conversation ID so future messages continue this conversation
+      _chatService.setConversationId(event.conversationId);
+
+      final rawMessages = await _chatService.getMessages(event.conversationId);
+
+      final messages = rawMessages.map((m) {
+        final role = m['role'] == 'user' ? ChatMessageRole.user : ChatMessageRole.assistant;
+        // Parse products_data if it exists and is a list of product maps
+        List<dynamic>? products;
+        if (m['products_data'] != null && m['products_data'] is List) {
+          final rawProducts = m['products_data'] as List;
+          // Filter out tool summary entries
+          final realProducts = rawProducts.where((p) =>
+              p is Map<String, dynamic> && !p.containsKey('_tool_summary')).toList();
+          if (realProducts.isNotEmpty) {
+            products = realProducts;
+          }
+        }
+        return ChatMessage(
+          id: m['id'] ?? const Uuid().v4(),
+          role: role,
+          content: m['content'] ?? '',
+          timestamp: m['created_at'] != null
+              ? DateTime.tryParse(m['created_at']) ?? DateTime.now()
+              : DateTime.now(),
+          intentType: m['intent_type'],
+          products: products,
+        );
+      }).toList();
+
+      emit(state.copyWith(messages: messages, isTyping: false, showHistory: false));
+    } catch (e) {
+      print('❌ ChatBloc loadConversation error: $e');
+      emit(state.copyWith(isTyping: false, showHistory: false));
+    }
+  }
+
+  void _onBackToHistory(ChatBackToHistory event, Emitter<ChatState> emit) {
+    emit(state.copyWith(showHistory: false));
   }
 }

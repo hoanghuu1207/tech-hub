@@ -8,6 +8,7 @@ import '../bloc/cart_bloc.dart';
 import '../models/chat_model.dart';
 import '../screens/payment_webview_screen.dart';
 import '../screens/chat_product_list_screen.dart';
+import '../services/auth_service.dart';
 
 // ── Colors ──
 class _K {
@@ -137,10 +138,26 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
                     // ── Header ──
                     _buildHeader(),
                     Divider(height: 1, color: _K.divider.withOpacity(0.5)),
-                    // ── Messages ──
-                    Expanded(child: _buildMessageList()),
-                    // ── Input ──
-                    _buildInputBar(),
+                    // ── Messages or History ──
+                    Expanded(
+                      child: BlocBuilder<ChatBloc, ChatState>(
+                        buildWhen: (prev, curr) => prev.showHistory != curr.showHistory,
+                        builder: (context, state) {
+                          if (state.showHistory) {
+                            return _buildHistoryList();
+                          }
+                          return _buildMessageList();
+                        },
+                      ),
+                    ),
+                    // ── Input (hidden when showing history) ──
+                    BlocBuilder<ChatBloc, ChatState>(
+                      buildWhen: (prev, curr) => prev.showHistory != curr.showHistory,
+                      builder: (context, state) {
+                        if (state.showHistory) return const SizedBox.shrink();
+                        return _buildInputBar();
+                      },
+                    ),
                   ],
                 ),
               ),
@@ -152,39 +169,68 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
   }
 
   Widget _buildHeader() {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-      child: Row(
-        children: [
-          // Pulsing green dot
-          _PulsingDot(controller: _dotController),
-          const SizedBox(width: 10),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text('TechBot', style: GoogleFonts.outfit(
-                  fontSize: 17, fontWeight: FontWeight.w700, color: _K.textPrimary,
-                )),
-                Text('AI Assistant', style: GoogleFonts.outfit(
-                  fontSize: 12, color: _K.textSecondary,
-                )),
-              ],
-            ),
+    return BlocBuilder<ChatBloc, ChatState>(
+      buildWhen: (prev, curr) => prev.showHistory != curr.showHistory,
+      builder: (context, state) {
+        final isHistory = state.showHistory;
+        return Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+          child: Row(
+            children: [
+              // Pulsing green dot
+              _PulsingDot(controller: _dotController),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      isHistory ? 'Lịch sử chat' : 'TechBot',
+                      style: GoogleFonts.outfit(
+                        fontSize: 17, fontWeight: FontWeight.w700, color: _K.textPrimary,
+                      ),
+                    ),
+                    Text(
+                      isHistory ? 'Chọn cuộc trò chuyện' : 'AI Assistant',
+                      style: GoogleFonts.outfit(
+                        fontSize: 12, color: _K.textSecondary,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              // History / Back to chat toggle
+              if (AuthService().isTokenValid)
+                IconButton(
+                  onPressed: () {
+                    if (isHistory) {
+                      // Go back to current chat (just hide history)
+                      context.read<ChatBloc>().add(const ChatBackToHistory());
+                    } else {
+                      context.read<ChatBloc>().add(const ChatLoadConversations());
+                    }
+                  },
+                  icon: Icon(
+                    isHistory ? Icons.arrow_back_rounded : Icons.history_rounded,
+                    color: _K.textMuted, size: 20,
+                  ),
+                  tooltip: isHistory ? 'Quay lại' : 'Lịch sử chat',
+                ),
+              // New conversation
+              IconButton(
+                onPressed: () => context.read<ChatBloc>().add(const ChatClearRequested()),
+                icon: const Icon(Icons.refresh_rounded, color: _K.textMuted, size: 20),
+                tooltip: 'Cuộc trò chuyện mới',
+              ),
+              // Close
+              IconButton(
+                onPressed: () => Navigator.pop(context),
+                icon: const Icon(Icons.close_rounded, color: _K.textMuted, size: 22),
+              ),
+            ],
           ),
-          // Clear chat
-          IconButton(
-            onPressed: () => context.read<ChatBloc>().add(const ChatClearRequested()),
-            icon: const Icon(Icons.refresh_rounded, color: _K.textMuted, size: 20),
-            tooltip: 'Cuộc trò chuyện mới',
-          ),
-          // Close
-          IconButton(
-            onPressed: () => Navigator.pop(context),
-            icon: const Icon(Icons.close_rounded, color: _K.textMuted, size: 22),
-          ),
-        ],
-      ),
+        );
+      },
     );
   }
 
@@ -277,6 +323,122 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
         child: Text(text, style: GoogleFonts.outfit(fontSize: 12, color: _K.textSecondary)),
       ),
     );
+  }
+
+  // ── HISTORY LIST ──
+  Widget _buildHistoryList() {
+    return BlocBuilder<ChatBloc, ChatState>(
+      buildWhen: (prev, curr) =>
+          prev.conversations != curr.conversations ||
+          prev.isLoadingHistory != curr.isLoadingHistory,
+      builder: (context, state) {
+        if (state.isLoadingHistory) {
+          return const Center(
+            child: CircularProgressIndicator(color: _K.primary, strokeWidth: 2.5),
+          );
+        }
+
+        if (state.conversations.isEmpty) {
+          return Center(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Container(
+                  width: 56, height: 56,
+                  decoration: BoxDecoration(
+                    color: _K.primary.withOpacity(0.15),
+                    shape: BoxShape.circle,
+                  ),
+                  child: const Icon(Icons.forum_outlined, color: _K.primary, size: 28),
+                ),
+                const SizedBox(height: 14),
+                Text('Chưa có cuộc trò chuyện nào',
+                  style: GoogleFonts.outfit(fontSize: 15, fontWeight: FontWeight.w600, color: _K.textPrimary)),
+                const SizedBox(height: 6),
+                Text('Bắt đầu trò chuyện với TechBot!',
+                  style: GoogleFonts.outfit(fontSize: 13, color: _K.textMuted)),
+              ],
+            ),
+          );
+        }
+
+        return ListView.separated(
+          padding: const EdgeInsets.fromLTRB(12, 12, 12, 12),
+          itemCount: state.conversations.length,
+          separatorBuilder: (_, __) => const SizedBox(height: 6),
+          itemBuilder: (context, index) {
+            final conv = state.conversations[index];
+            final title = conv['title'] ?? 'Cuộc trò chuyện mới';
+            final updatedAt = conv['updated_at'] != null
+                ? DateTime.tryParse(conv['updated_at'])
+                : null;
+            final convId = conv['id'] as String;
+
+            return GestureDetector(
+              onTap: () {
+                context.read<ChatBloc>().add(ChatLoadConversation(convId, title: title));
+              },
+              child: Container(
+                padding: const EdgeInsets.all(14),
+                decoration: BoxDecoration(
+                  color: _K.surface,
+                  borderRadius: BorderRadius.circular(14),
+                  border: Border.all(color: _K.divider.withOpacity(0.5)),
+                ),
+                child: Row(
+                  children: [
+                    Container(
+                      width: 38, height: 38,
+                      decoration: BoxDecoration(
+                        color: _K.primary.withOpacity(0.15),
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: const Icon(Icons.chat_bubble_outline_rounded, color: _K.primary, size: 18),
+                    ),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            title,
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                            style: GoogleFonts.outfit(
+                              fontSize: 13, fontWeight: FontWeight.w600, color: _K.textPrimary, height: 1.3,
+                            ),
+                          ),
+                          if (updatedAt != null)
+                            Padding(
+                              padding: const EdgeInsets.only(top: 4),
+                              child: Text(
+                                _formatConversationTime(updatedAt),
+                                style: GoogleFonts.outfit(fontSize: 11, color: _K.textMuted),
+                              ),
+                            ),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    const Icon(Icons.chevron_right_rounded, color: _K.textMuted, size: 20),
+                  ],
+                ),
+              ),
+            );
+          },
+        );
+      },
+    );
+  }
+
+  String _formatConversationTime(DateTime dt) {
+    final now = DateTime.now();
+    final diff = now.difference(dt);
+    if (diff.inMinutes < 1) return 'Vừa xong';
+    if (diff.inMinutes < 60) return '${diff.inMinutes} phút trước';
+    if (diff.inHours < 24) return '${diff.inHours} giờ trước';
+    if (diff.inDays < 7) return '${diff.inDays} ngày trước';
+    return DateFormat('dd/MM/yyyy HH:mm').format(dt);
   }
 
   // ── MESSAGE BUBBLE ──
@@ -580,33 +742,43 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
         separatorBuilder: (_, __) => const SizedBox(width: 8),
         itemBuilder: (context, index) {
           final p = products[index] as Map<String, dynamic>;
-          return Container(
-            width: 120,
-            padding: const EdgeInsets.all(8),
-            decoration: BoxDecoration(
-              color: _K.bg,
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(color: _K.divider),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                if (p['primary_image'] != null)
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8),
-                    child: Image.network(p['primary_image'], height: 56, width: double.infinity, fit: BoxFit.cover,
-                      errorBuilder: (_, __, ___) => Container(height: 56, color: _K.surface, child: const Icon(Icons.image, color: _K.textMuted, size: 24))),
-                  )
-                else
-                  Container(height: 56, decoration: BoxDecoration(color: _K.surface, borderRadius: BorderRadius.circular(8)),
-                    child: const Center(child: Icon(Icons.devices, color: _K.textMuted, size: 24))),
-                const SizedBox(height: 6),
-                Text(p['name'] ?? '', maxLines: 2, overflow: TextOverflow.ellipsis,
-                  style: GoogleFonts.outfit(fontSize: 10, fontWeight: FontWeight.w600, color: _K.textPrimary, height: 1.2)),
-                const Spacer(),
-                Text(_formatPrice((p['sale_price'] ?? p['base_price'] ?? 0).toDouble()),
-                  style: GoogleFonts.outfit(fontSize: 11, fontWeight: FontWeight.w700, color: _K.emerald)),
-              ],
+          return GestureDetector(
+            onTap: () {
+              final id = (p['id'] ?? p['product_id'] ?? '').toString();
+              if (id.isEmpty) return;
+              final nav = Navigator.of(context);
+              nav.pop(); // close bottom sheet
+              nav.popUntil((route) => route.isFirst);
+              nav.pushNamed('/product-detail', arguments: id);
+            },
+            child: Container(
+              width: 120,
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: _K.bg,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: _K.divider),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  if (p['primary_image'] != null)
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(8),
+                      child: Image.network(p['primary_image'], height: 56, width: double.infinity, fit: BoxFit.cover,
+                        errorBuilder: (_, __, ___) => Container(height: 56, color: _K.surface, child: const Icon(Icons.image, color: _K.textMuted, size: 24))),
+                    )
+                  else
+                    Container(height: 56, decoration: BoxDecoration(color: _K.surface, borderRadius: BorderRadius.circular(8)),
+                      child: const Center(child: Icon(Icons.devices, color: _K.textMuted, size: 24))),
+                  const SizedBox(height: 6),
+                  Text(p['name'] ?? '', maxLines: 2, overflow: TextOverflow.ellipsis,
+                    style: GoogleFonts.outfit(fontSize: 10, fontWeight: FontWeight.w600, color: _K.textPrimary, height: 1.2)),
+                  const Spacer(),
+                  Text(_formatPrice((p['sale_price'] ?? p['base_price'] ?? 0).toDouble()),
+                    style: GoogleFonts.outfit(fontSize: 11, fontWeight: FontWeight.w700, color: _K.emerald)),
+                ],
+              ),
             ),
           );
         },
