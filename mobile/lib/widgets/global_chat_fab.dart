@@ -107,25 +107,14 @@ class _GlobalChatFABState extends State<GlobalChatFAB> {
           ),
         );
       },
-      child: Container(
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          boxShadow: [
-            BoxShadow(
-              color: _primaryColor.withOpacity(0.5),
-              blurRadius: 24,
-              offset: const Offset(0, 8),
-            ),
-          ],
-        ),
-        child: FloatingActionButton(
-          heroTag: 'global_chat_fab',
-          onPressed: () => _openChat(context),
-          backgroundColor: _primaryColor,
-          foregroundColor: Colors.white,
-          elevation: 0,
-          child: const Icon(Icons.psychology, size: 28),
-        ),
+      child: FloatingActionButton(
+        heroTag: 'global_chat_fab',
+        onPressed: () => _openChat(context),
+        backgroundColor: Colors.white,
+        foregroundColor: _primaryColor,
+        elevation: 6,
+        shape: const CircleBorder(),
+        child: const Icon(Icons.psychology, size: 28),
       ),
     );
   }

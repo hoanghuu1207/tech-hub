@@ -413,26 +413,66 @@ class PlaceholderScreen extends StatelessWidget {
   }
 }
 
-/// Wraps every route with a floating chat FAB.
+/// Wraps every route with a floating chat FAB that can be dragged around the screen.
 /// Visibility is controlled by GlobalChatFAB.visible (ValueNotifier).
-class _GlobalFABWrapper extends StatelessWidget {
+class _GlobalFABWrapper extends StatefulWidget {
   final GlobalKey<NavigatorState> navigatorKey;
   final Widget child;
 
   const _GlobalFABWrapper({
+    Key? key,
     required this.navigatorKey,
     required this.child,
-  });
+  }) : super(key: key);
+
+  @override
+  State<_GlobalFABWrapper> createState() => _GlobalFABWrapperState();
+}
+
+class _GlobalFABWrapperState extends State<_GlobalFABWrapper> {
+  Offset? _position;
 
   @override
   Widget build(BuildContext context) {
+    final screenSize = MediaQuery.of(context).size;
+    final padding = MediaQuery.of(context).padding;
+
+    const double fabSize = 56.0;
+    const double margin = 16.0;
+
+    final double minX = margin;
+    final double maxX = (screenSize.width - fabSize - margin).clamp(minX, double.infinity);
+    final double minY = padding.top + margin;
+    final double maxY = (screenSize.height - padding.bottom - margin - fabSize).clamp(minY, double.infinity);
+
+    if (_position == null) {
+      final double initialX = maxX;
+      final double initialY = screenSize.height - padding.bottom - 92 - fabSize;
+      _position = Offset(initialX, initialY);
+    } else {
+      _position = Offset(
+        _position!.dx.clamp(minX, maxX),
+        _position!.dy.clamp(minY, maxY),
+      );
+    }
+
     return Stack(
       children: [
-        child,
+        widget.child,
         Positioned(
-          right: 16,
-          bottom: MediaQuery.of(context).padding.bottom + 76,
-          child: GlobalChatFAB(navigatorKey: navigatorKey),
+          left: _position!.dx,
+          top: _position!.dy,
+          child: GestureDetector(
+            onPanUpdate: (details) {
+              setState(() {
+                _position = Offset(
+                  (_position!.dx + details.delta.dx).clamp(minX, maxX),
+                  (_position!.dy + details.delta.dy).clamp(minY, maxY),
+                );
+              });
+            },
+            child: GlobalChatFAB(navigatorKey: widget.navigatorKey),
+          ),
         ),
       ],
     );

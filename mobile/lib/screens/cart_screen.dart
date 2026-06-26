@@ -115,8 +115,6 @@ class _CartScreenState extends State<CartScreen> {
                         _buildShippingSection(),
                         const SizedBox(height: 24),
                         _buildNoteSection(),
-                        const SizedBox(height: 24),
-                        _buildPaymentSelector(),
                         const SizedBox(height: 100),
                       ],
                     ),
@@ -418,64 +416,7 @@ class _CartScreenState extends State<CartScreen> {
     );
   }
 
-  // ── PAYMENT ──
-  Widget _buildPaymentSelector() {
-    return _buildSection('Phương thức thanh toán', Icons.payment_rounded, child: Row(
-      children: [
-        Expanded(child: _buildPaymentOption('payos', 'PayOS', Icons.qr_code_scanner_rounded, 'QR / Chuyển khoản')),
-        const SizedBox(width: 10),
-        Expanded(child: _buildPaymentOption('cod', 'COD', Icons.local_shipping_rounded, 'Thanh toán khi nhận')),
-      ],
-    ));
-  }
 
-  Widget _buildPaymentOption(String value, String title, IconData icon, String subtitle) {
-    final isSelected = _paymentMethod == value;
-    return GestureDetector(
-      onTap: () => setState(() => _paymentMethod = value),
-      child: AnimatedContainer(
-        duration: const Duration(milliseconds: 200),
-        padding: const EdgeInsets.all(14),
-        decoration: BoxDecoration(
-          color: isSelected ? _K.primary.withOpacity(0.1) : _K.surface,
-          borderRadius: BorderRadius.circular(14),
-          border: Border.all(
-            color: isSelected ? _K.primary : _K.divider,
-            width: isSelected ? 1.5 : 1,
-          ),
-          boxShadow: isSelected ? [BoxShadow(color: _K.primary.withOpacity(0.15), blurRadius: 12)] : [],
-        ),
-        child: Column(
-          children: [
-            Row(
-              children: [
-                Icon(icon, color: isSelected ? _K.primary : _K.textMuted, size: 22),
-                const Spacer(),
-                if (isSelected)
-                  Container(
-                    width: 20, height: 20,
-                    decoration: const BoxDecoration(color: _K.primary, shape: BoxShape.circle),
-                    child: const Icon(Icons.check, color: Colors.white, size: 14),
-                  ),
-              ],
-            ),
-            const SizedBox(height: 8),
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(title, style: GoogleFonts.outfit(fontSize: 14, fontWeight: FontWeight.w700,
-                    color: isSelected ? _K.textPrimary : _K.textSecondary)),
-                  Text(subtitle, style: GoogleFonts.outfit(fontSize: 11, color: _K.textMuted)),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
 
   // ── ORDER SUMMARY (Sticky bottom) ──
   Widget _buildOrderSummary(CartState state) {
@@ -706,7 +647,7 @@ class _CartScreenState extends State<CartScreen> {
               Text('${selectedItems.length} sản phẩm • ${_formatPrice(selectedTotal)}',
                 style: GoogleFonts.outfit(color: _K.emerald, fontSize: 16, fontWeight: FontWeight.w700)),
               const SizedBox(height: 8),
-              Text('Thanh toán qua: ${_paymentMethod == "payos" ? "PayOS" : "COD"}',
+              Text('Thanh toán: Chuyển khoản QR PayOS',
                 style: GoogleFonts.outfit(color: _K.textSecondary, fontSize: 14)),
               const SizedBox(height: 24),
               Row(
