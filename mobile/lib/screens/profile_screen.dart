@@ -138,18 +138,18 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       user.email,
                       style: GoogleFonts.outfit(fontSize: 14, color: _K.textSecondary),
                     ),
-                    const SizedBox(height: 12),
-                    Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 5),
-                      decoration: BoxDecoration(
-                        color: _K.emerald.withOpacity(0.15),
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text(
-                        user.role.toUpperCase(),
-                        style: GoogleFonts.outfit(fontSize: 11, fontWeight: FontWeight.w700, color: _K.emerald),
-                      ),
-                    ),
+                    // const SizedBox(height: 12),
+                    // Container(
+                    //   padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 5),
+                    //   decoration: BoxDecoration(
+                    //     color: _K.emerald.withOpacity(0.15),
+                    //     borderRadius: BorderRadius.circular(20),
+                    //   ),
+                    //   child: Text(
+                    //     user.role.toUpperCase(),
+                    //     style: GoogleFonts.outfit(fontSize: 11, fontWeight: FontWeight.w700, color: _K.emerald),
+                    //   ),
+                    // ),
                   ],
                 ),
               ),

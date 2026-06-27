@@ -8,6 +8,7 @@ import '../bloc/cart_bloc.dart';
 import '../models/chat_model.dart';
 import '../screens/payment_webview_screen.dart';
 import '../screens/chat_product_list_screen.dart';
+import '../screens/compare_product_screen.dart';
 import '../services/auth_service.dart';
 
 // ── Colors ──
@@ -997,7 +998,16 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
       icon: Icons.compare_arrows_rounded,
       color: _K.primary,
       label: 'Xem bảng so sánh',
-      onTap: () => _requestNavAndClose('show_compare_table', action.rawData),
+      onTap: () {
+        final ids = action.productIds;
+        if (ids != null && ids.length >= 2) {
+          final nav = Navigator.of(context);
+          nav.pop(); // close bottom sheet
+          nav.push(MaterialPageRoute(
+            builder: (_) => CompareProductScreen(productIds: ids),
+          ));
+        }
+      },
     );
   }
 
