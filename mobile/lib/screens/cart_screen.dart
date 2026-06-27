@@ -94,6 +94,16 @@ class _CartScreenState extends State<CartScreen> {
         }
       },
       builder: (context, state) {
+        final user = AuthService().currentUser;
+        if (user != null) {
+          if (_nameController.text.isEmpty && user.fullName.isNotEmpty) {
+            _nameController.text = user.fullName;
+          }
+          if (_phoneController.text.isEmpty && (user.phone ?? '').isNotEmpty) {
+            _phoneController.text = user.phone!;
+          }
+        }
+
         if (state.cart.items.isEmpty && state.lastOrderId == null) {
           return _buildEmptyState();
         }
