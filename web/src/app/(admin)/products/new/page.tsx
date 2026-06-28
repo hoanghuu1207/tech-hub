@@ -47,10 +47,30 @@ export default function NewProductPage() {
   const { data: productLines } = useAdminProductLines(brandId || undefined, categoryId || undefined);
   const { data: specTemplates } = useSpecTemplates(categoryId || undefined);
 
+  // Map spec_group display names (Vietnamese) to JSONB group keys (English)
+  const SPEC_GROUP_TO_KEY: Record<string, string> = {
+    "Màn hình": "screen", "Hiệu năng": "performance", "Camera": "camera_rear",
+    "Camera sau": "camera_rear", "Camera trước": "camera_front",
+    "Pin & Sạc": "battery", "Thiết kế": "design", "Kết nối": "connectivity",
+    "Thông tin": "raw", "Tính năng": "special_features", "Webcam": "webcam",
+    "Khác": "other",
+  };
+  const SPEC_GROUP_LABELS: Record<string, string> = {
+    design: "Thiết kế", screen: "Màn hình", performance: "Hiệu năng",
+    camera_rear: "Camera sau", camera_front: "Camera trước",
+    connectivity: "Kết nối", battery: "Pin", webcam: "Webcam",
+    special_features: "Tính năng đặc biệt", raw: "Thông tin khác", other: "Khác",
+  };
+
+  // Group spec templates by JSONB group key (English)
   const specGroups = useMemo(() => {
     if (!specTemplates) return {};
     const groups: Record<string, SpecTemplate[]> = {};
-    for (const t of specTemplates) { const g = t.spec_group || "Khác"; if (!groups[g]) groups[g] = []; groups[g].push(t); }
+    for (const t of specTemplates) {
+      const groupKey = SPEC_GROUP_TO_KEY[t.spec_group || "Khác"] || t.spec_group || "other";
+      if (!groups[groupKey]) groups[groupKey] = [];
+      groups[groupKey].push(t);
+    }
     return groups;
   }, [specTemplates]);
 
@@ -71,11 +91,21 @@ export default function NewProductPage() {
     if (variants.length === 0) { toast.error("Phải có ít nhất 1 biến thể sản phẩm"); setActiveTab("variants"); return; }
     if (variants.some(v => !v.color_name)) { toast.error("Tên màu biến thể không được để trống"); setActiveTab("variants"); return; }
 
+    // specsMap is already in JSONB format (group_key → spec_key → value) — clean and send
+    const specsForApi: Record<string, Record<string, string>> = {};
+    for (const [group, fields] of Object.entries(specsMap)) {
+      const cleaned: Record<string, string> = {};
+      for (const [k, v] of Object.entries(fields)) {
+        if (v !== undefined && v !== "") cleaned[k] = v;
+      }
+      if (Object.keys(cleaned).length > 0) specsForApi[group] = cleaned;
+    }
+
     const body = {
       name, slug, category_id: categoryId, brand_id: brandId, line_id: lineId || null,
       description: description || null, highlight_features: features,
       base_price: parseFloat(basePrice), sale_price: salePrice ? parseFloat(salePrice) : null,
-      status, specs: specsMap, is_active: isActive,
+      status, specs: specsForApi, is_active: isActive,
       variants: variants.map(v => ({ color_name: v.color_name, color_hex: v.color_hex || null, price_override: v.price_override ? parseFloat(v.price_override) : null, sale_price_override: v.sale_price_override ? parseFloat(v.sale_price_override) : null, stock_quantity: parseInt(v.stock_quantity) || 0, sku: v.sku || null, is_active: v.is_active, sort_order: v.sort_order })),
       images: images.map(img => ({ image_url: img.image_url, alt_text: img.alt_text || null, is_primary: img.is_primary, sort_order: img.sort_order })),
     };
@@ -156,7 +186,7 @@ export default function NewProductPage() {
           </div>
         </TabsContent>
 
-        {/* TAB: Specs */}
+        {/* TAB: Specs — from spec_templates with proper JSONB keys */}
         <TabsContent value="specs">
           {!categoryId ? (
             <Card><CardContent className="py-12 text-center text-muted-foreground">Vui lòng chọn danh mục trước để hiển thị thông số kỹ thuật.</CardContent></Card>
@@ -164,11 +194,11 @@ export default function NewProductPage() {
             <Card><CardContent className="py-12 text-center text-muted-foreground">Danh mục này chưa có mẫu thông số kỹ thuật.</CardContent></Card>
           ) : (
             <div className="space-y-4">
-              {Object.entries(specGroups).map(([group, templates]) => (
-                <Card key={group}>
-                  <CardHeader><CardTitle className="text-base">{group}</CardTitle></CardHeader>
+              {Object.entries(specGroups).map(([groupKey, templates]) => (
+                <Card key={groupKey}>
+                  <CardHeader><CardTitle className="text-base">{SPEC_GROUP_LABELS[groupKey] || groupKey}</CardTitle></CardHeader>
                   <CardContent><div className="grid gap-3 sm:grid-cols-2">{templates.map(t => (
-                    <div key={t.id} className="space-y-1"><Label className="text-sm">{t.display_name} {t.unit && <span className="text-muted-foreground">({t.unit})</span>}</Label><Input value={specsMap[group]?.[t.display_name] || ""} onChange={(e) => updateSpecValue(group, t.display_name, e.target.value)} placeholder={`Nhập ${t.display_name.toLowerCase()}`} className="h-8" /></div>
+                    <div key={t.id} className="space-y-1"><Label className="text-sm">{t.display_name} {t.unit && <span className="text-muted-foreground">({t.unit})</span>}</Label><Input value={specsMap[groupKey]?.[t.spec_key] || ""} onChange={(e) => updateSpecValue(groupKey, t.spec_key, e.target.value)} placeholder={`Nhập ${t.display_name.toLowerCase()}`} className="h-8" /></div>
                   ))}</div></CardContent>
                 </Card>
               ))}
