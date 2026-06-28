@@ -642,6 +642,150 @@ async def list_all_categories(
     }
 
 
+# ─── Create Category ─────────────────────────────────────
+
+class CategoryCreate(BaseModel):
+    name: str
+    slug: str
+    parent_id: str | None = None
+    icon_url: str | None = None
+    description: str | None = None
+    is_active: bool = True
+    sort_order: int = 0
+
+
+class CategoryUpdate(BaseModel):
+    name: str | None = None
+    slug: str | None = None
+    parent_id: str | None = None
+    icon_url: str | None = None
+    description: str | None = None
+    is_active: bool | None = None
+    sort_order: int | None = None
+
+
+@router.post("/categories", summary="Create category (admin)")
+async def create_category(
+    body: CategoryCreate,
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Create a new category."""
+    # Check slug uniqueness
+    existing = await db.execute(select(Category).where(Category.slug == body.slug))
+    if existing.scalar_one_or_none():
+        raise HTTPException(400, f"Slug '{body.slug}' already exists")
+
+    category = Category(
+        name=body.name,
+        slug=body.slug,
+        parent_id=UUID(body.parent_id) if body.parent_id else None,
+        icon_url=body.icon_url,
+        description=body.description,
+        is_active=body.is_active,
+        sort_order=body.sort_order,
+    )
+    db.add(category)
+    await db.commit()
+    await db.refresh(category)
+
+    return {
+        "success": True,
+        "message": "Category created",
+        "data": {
+            "id": str(category.id),
+            "name": category.name,
+            "slug": category.slug,
+            "parent_id": str(category.parent_id) if category.parent_id else None,
+            "icon_url": category.icon_url,
+            "description": category.description,
+            "is_active": category.is_active,
+            "sort_order": category.sort_order,
+        },
+    }
+
+
+@router.put("/categories/{category_id}", summary="Update category (admin)")
+async def update_category(
+    category_id: UUID,
+    body: CategoryUpdate,
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Update an existing category."""
+    result = await db.execute(select(Category).where(Category.id == category_id))
+    category = result.scalar_one_or_none()
+    if not category:
+        raise HTTPException(404, "Category not found")
+
+    update_fields = body.model_dump(exclude_unset=True)
+    for field, value in update_fields.items():
+        if field == "parent_id" and value is not None:
+            value = UUID(value)
+        elif field == "parent_id" and value is None:
+            pass  # Allow setting parent_id to None
+        setattr(category, field, value)
+
+    await db.commit()
+    await db.refresh(category)
+
+    return {
+        "success": True,
+        "message": "Category updated",
+        "data": {
+            "id": str(category.id),
+            "name": category.name,
+            "slug": category.slug,
+            "parent_id": str(category.parent_id) if category.parent_id else None,
+            "icon_url": category.icon_url,
+            "description": category.description,
+            "is_active": category.is_active,
+            "sort_order": category.sort_order,
+        },
+    }
+
+
+@router.delete("/categories/{category_id}", summary="Delete category (admin)")
+async def delete_category(
+    category_id: UUID,
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Delete a category. Will fail if products are attached."""
+    result = await db.execute(select(Category).where(Category.id == category_id))
+    category = result.scalar_one_or_none()
+    if not category:
+        raise HTTPException(404, "Category not found")
+
+    # Check if category has products
+    from sqlalchemy import exists
+    has_products = await db.execute(
+        select(exists().where(Product.category_id == category_id))
+    )
+    if has_products.scalar():
+        raise HTTPException(
+            400,
+            f"Cannot delete category '{category.name}': it has products attached. "
+            "Move or delete the products first."
+        )
+
+    # Check if category has subcategories
+    has_children = await db.execute(
+        select(exists().where(Category.parent_id == category_id))
+    )
+    if has_children.scalar():
+        raise HTTPException(
+            400,
+            f"Cannot delete category '{category.name}': it has subcategories. "
+            "Delete the subcategories first."
+        )
+
+    await db.delete(category)
+    await db.commit()
+
+    return {"success": True, "message": f"Category '{category.name}' deleted"}
+
+
 # ─── Brands by Category (via product_lines) ─────────────
 
 @router.get("/categories/{category_id}/brands", summary="Brands of a category")
@@ -705,6 +849,123 @@ async def list_brands(
     }
 
 
+# ─── Brand CRUD ──────────────────────────────────────────
+
+class BrandCreate(BaseModel):
+    name: str
+    slug: str
+    logo_url: str | None = None
+    country: str | None = None
+    is_active: bool = True
+
+
+class BrandUpdate(BaseModel):
+    name: str | None = None
+    slug: str | None = None
+    logo_url: str | None = None
+    country: str | None = None
+    is_active: bool | None = None
+
+
+@router.post("/brands", summary="Create brand (admin)")
+async def create_brand(
+    body: BrandCreate,
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Create a new brand."""
+    existing = await db.execute(select(Brand).where(Brand.slug == body.slug))
+    if existing.scalar_one_or_none():
+        raise HTTPException(400, f"Slug '{body.slug}' already exists")
+
+    brand = Brand(
+        name=body.name,
+        slug=body.slug,
+        logo_url=body.logo_url,
+        country=body.country,
+        is_active=body.is_active,
+    )
+    db.add(brand)
+    await db.commit()
+    await db.refresh(brand)
+
+    return {
+        "success": True,
+        "message": "Brand created",
+        "data": {
+            "id": str(brand.id),
+            "name": brand.name,
+            "slug": brand.slug,
+            "logo_url": brand.logo_url,
+            "country": brand.country,
+            "is_active": brand.is_active,
+        },
+    }
+
+
+@router.put("/brands/{brand_id}", summary="Update brand (admin)")
+async def update_brand(
+    brand_id: UUID,
+    body: BrandUpdate,
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Update an existing brand."""
+    result = await db.execute(select(Brand).where(Brand.id == brand_id))
+    brand = result.scalar_one_or_none()
+    if not brand:
+        raise HTTPException(404, "Brand not found")
+
+    update_fields = body.model_dump(exclude_unset=True)
+    for field, value in update_fields.items():
+        setattr(brand, field, value)
+
+    await db.commit()
+    await db.refresh(brand)
+
+    return {
+        "success": True,
+        "message": "Brand updated",
+        "data": {
+            "id": str(brand.id),
+            "name": brand.name,
+            "slug": brand.slug,
+            "logo_url": brand.logo_url,
+            "country": brand.country,
+            "is_active": brand.is_active,
+        },
+    }
+
+
+@router.delete("/brands/{brand_id}", summary="Delete brand (admin)")
+async def delete_brand(
+    brand_id: UUID,
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Delete a brand. Will fail if products are attached."""
+    result = await db.execute(select(Brand).where(Brand.id == brand_id))
+    brand = result.scalar_one_or_none()
+    if not brand:
+        raise HTTPException(404, "Brand not found")
+
+    from sqlalchemy import exists
+    has_products = await db.execute(
+        select(exists().where(Product.brand_id == brand_id))
+    )
+    if has_products.scalar():
+        raise HTTPException(
+            400,
+            f"Cannot delete brand '{brand.name}': it has products attached. "
+            "Move or delete the products first."
+        )
+
+    await db.delete(brand)
+    await db.commit()
+
+    return {"success": True, "message": f"Brand '{brand.name}' deleted"}
+
+
 # ─── Product Lines by Category + Brand ──────────────────
 
 @router.get("/product-lines", summary="List product lines (admin)")
@@ -744,6 +1005,140 @@ async def list_product_lines(
             for l in lines
         ],
     }
+
+
+# ─── Product Line CRUD ───────────────────────────────────
+
+class ProductLineCreate(BaseModel):
+    name: str
+    slug: str
+    brand_id: str
+    category_id: str
+    description: str | None = None
+    is_active: bool = True
+    sort_order: int = 0
+
+
+class ProductLineUpdate(BaseModel):
+    name: str | None = None
+    slug: str | None = None
+    brand_id: str | None = None
+    category_id: str | None = None
+    description: str | None = None
+    is_active: bool | None = None
+    sort_order: int | None = None
+
+
+def _serialize_line(l: ProductLine) -> dict:
+    return {
+        "id": str(l.id),
+        "name": l.name,
+        "slug": l.slug,
+        "brand_id": str(l.brand_id),
+        "brand_name": l.brand.name if l.brand else None,
+        "category_id": str(l.category_id),
+        "category_name": l.category.name if l.category else None,
+        "description": l.description,
+        "is_active": l.is_active,
+        "sort_order": l.sort_order,
+    }
+
+
+@router.post("/product-lines", summary="Create product line (admin)")
+async def create_product_line(
+    body: ProductLineCreate,
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Create a new product line."""
+    existing = await db.execute(select(ProductLine).where(ProductLine.slug == body.slug))
+    if existing.scalar_one_or_none():
+        raise HTTPException(400, f"Slug '{body.slug}' already exists")
+
+    line = ProductLine(
+        name=body.name,
+        slug=body.slug,
+        brand_id=UUID(body.brand_id),
+        category_id=UUID(body.category_id),
+        description=body.description,
+        is_active=body.is_active,
+        sort_order=body.sort_order,
+    )
+    db.add(line)
+    await db.commit()
+
+    # Re-fetch with relationships
+    result = await db.execute(
+        select(ProductLine).where(ProductLine.id == line.id).options(
+            selectinload(ProductLine.brand),
+            selectinload(ProductLine.category),
+        )
+    )
+    line = result.unique().scalar_one()
+
+    return {"success": True, "message": "Product line created", "data": _serialize_line(line)}
+
+
+@router.put("/product-lines/{line_id}", summary="Update product line (admin)")
+async def update_product_line(
+    line_id: UUID,
+    body: ProductLineUpdate,
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Update an existing product line."""
+    result = await db.execute(select(ProductLine).where(ProductLine.id == line_id))
+    line = result.scalar_one_or_none()
+    if not line:
+        raise HTTPException(404, "Product line not found")
+
+    update_fields = body.model_dump(exclude_unset=True)
+    for field, value in update_fields.items():
+        if field in ("brand_id", "category_id") and value:
+            value = UUID(value)
+        setattr(line, field, value)
+
+    await db.commit()
+
+    # Re-fetch with relationships
+    result = await db.execute(
+        select(ProductLine).where(ProductLine.id == line_id).options(
+            selectinload(ProductLine.brand),
+            selectinload(ProductLine.category),
+        )
+    )
+    line = result.unique().scalar_one()
+
+    return {"success": True, "message": "Product line updated", "data": _serialize_line(line)}
+
+
+@router.delete("/product-lines/{line_id}", summary="Delete product line (admin)")
+async def delete_product_line(
+    line_id: UUID,
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Delete a product line. Will fail if products are attached."""
+    result = await db.execute(select(ProductLine).where(ProductLine.id == line_id))
+    line = result.scalar_one_or_none()
+    if not line:
+        raise HTTPException(404, "Product line not found")
+
+    from sqlalchemy import exists
+    has_products = await db.execute(
+        select(exists().where(Product.line_id == line_id))
+    )
+    if has_products.scalar():
+        raise HTTPException(
+            400,
+            f"Cannot delete product line '{line.name}': it has products attached. "
+            "Move or delete the products first."
+        )
+
+    await db.delete(line)
+    await db.commit()
+
+    return {"success": True, "message": f"Product line '{line.name}' deleted"}
 
 
 # ─── Spec Templates by Category ─────────────────────────

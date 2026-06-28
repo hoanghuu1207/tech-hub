@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { useProduct, useUpdateProduct, useAdminCategories, useAdminBrandsByCategory, useAdminProductLines } from "@/hooks/use-products";
+import { useProduct, useUpdateProduct, useAdminCategories, useAdminBrands, useAdminProductLines } from "@/hooks/use-products";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Input } from "@/components/ui/input";
@@ -55,7 +55,7 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
 
   // Cascading dropdowns
   const { data: categories } = useAdminCategories();
-  const { data: brandsByCategory } = useAdminBrandsByCategory(categoryId || undefined);
+  const { data: allBrands } = useAdminBrands();
   const { data: productLines } = useAdminProductLines(brandId || undefined, categoryId || undefined);
 
   // ── Spec label maps (giống mobile app — đọc trực tiếp từ JSONB) ──
@@ -257,9 +257,9 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
                   </div>
                   <div className="space-y-1.5">
                     <Label>Thương hiệu *</Label>
-                    <Select value={brandId} onValueChange={handleBrandChange} disabled={!categoryId}>
-                      <SelectTrigger><SelectValue placeholder={!categoryId ? "Chọn danh mục trước" : "Chọn thương hiệu"} /></SelectTrigger>
-                      <SelectContent>{brandsByCategory?.map(b => <SelectItem key={b.id} value={b.id}>{b.name}</SelectItem>)}</SelectContent>
+                    <Select value={brandId} onValueChange={handleBrandChange}>
+                      <SelectTrigger><SelectValue placeholder="Chọn thương hiệu" /></SelectTrigger>
+                      <SelectContent>{allBrands?.map(b => <SelectItem key={b.id} value={b.id}>{b.name}</SelectItem>)}</SelectContent>
                     </Select>
                   </div>
                   <div className="space-y-1.5">

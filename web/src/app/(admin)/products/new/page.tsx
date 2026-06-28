@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import { useCreateProduct, useAdminCategories, useAdminBrandsByCategory, useAdminProductLines, useSpecTemplates } from "@/hooks/use-products";
+import { useCreateProduct, useAdminCategories, useAdminBrands, useAdminProductLines, useSpecTemplates } from "@/hooks/use-products";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Input } from "@/components/ui/input";
@@ -43,7 +43,7 @@ export default function NewProductPage() {
 
   // Cascading dropdowns
   const { data: categories } = useAdminCategories();
-  const { data: brandsByCategory } = useAdminBrandsByCategory(categoryId || undefined);
+  const { data: allBrands } = useAdminBrands();
   const { data: productLines } = useAdminProductLines(brandId || undefined, categoryId || undefined);
   const { data: specTemplates } = useSpecTemplates(categoryId || undefined);
 
@@ -166,7 +166,7 @@ export default function NewProductPage() {
                     <Select value={categoryId} onValueChange={handleCategoryChange}><SelectTrigger><SelectValue placeholder="Chọn danh mục" /></SelectTrigger><SelectContent>{categories?.map(c => <SelectItem key={c.id} value={c.id}>{c.name}</SelectItem>)}</SelectContent></Select>
                   </div>
                   <div className="space-y-1.5"><Label>Thương hiệu *</Label>
-                    <Select value={brandId} onValueChange={handleBrandChange} disabled={!categoryId}><SelectTrigger><SelectValue placeholder={!categoryId ? "Chọn danh mục trước" : "Chọn thương hiệu"} /></SelectTrigger><SelectContent>{brandsByCategory?.map(b => <SelectItem key={b.id} value={b.id}>{b.name}</SelectItem>)}</SelectContent></Select>
+                    <Select value={brandId} onValueChange={handleBrandChange}><SelectTrigger><SelectValue placeholder="Chọn thương hiệu" /></SelectTrigger><SelectContent>{allBrands?.map(b => <SelectItem key={b.id} value={b.id}>{b.name}</SelectItem>)}</SelectContent></Select>
                   </div>
                   <div className="space-y-1.5"><Label>Dòng SP</Label>
                     <Select value={lineId || " "} onValueChange={(v) => setLineId((v ?? "").trim())} disabled={!brandId}><SelectTrigger><SelectValue placeholder={!brandId ? "Chọn thương hiệu trước" : "Chọn dòng SP"} /></SelectTrigger><SelectContent><SelectItem value=" ">-- Không chọn --</SelectItem>{productLines?.map(l => <SelectItem key={l.id} value={l.id}>{l.name}</SelectItem>)}</SelectContent></Select>

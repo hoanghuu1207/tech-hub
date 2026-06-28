@@ -27,8 +27,8 @@ export const MENU_ITEMS: MenuItem[] = [
   { title: "Thương hiệu", href: "/brands", icon: Tags },
   { title: "Dòng sản phẩm", href: "/product-lines", icon: Layers },
   { title: "Đơn hàng", href: "/orders", icon: ShoppingCart },
-  { title: "Người dùng", href: "/users", icon: Users },
-  { title: "Đánh giá", href: "/reviews", icon: Star },
+  // { title: "Người dùng", href: "/users", icon: Users },
+  // { title: "Đánh giá", href: "/reviews", icon: Star },
   { title: "Vector Index", href: "/vector-index", icon: Search },
 ];
 

@@ -229,3 +229,158 @@ async def get_recent_orders(
         for o in orders
     ]
     return {"success": True, "data": data}
+
+
+# ─── Admin Order Management ─────────────────────────────
+
+@router.get("/orders", summary="List all orders (admin)")
+async def list_admin_orders(
+    status: str | None = Query(None),
+    payment_status: str | None = Query(None),
+    page: int = Query(1, ge=1),
+    limit: int = Query(20, ge=1, le=100),
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """List all orders with optional filtering and pagination."""
+    from sqlalchemy.orm import selectinload
+
+    query = (
+        select(Order)
+        .options(
+            selectinload(Order.user),
+            selectinload(Order.address),
+            selectinload(Order.items).selectinload(OrderItem.product).selectinload(Product.images),
+        )
+    )
+
+    if status:
+        query = query.where(Order.status == status)
+    if payment_status:
+        query = query.where(Order.payment_status == payment_status)
+
+    # Count total
+    from sqlalchemy import func as sa_func
+    count_query = select(sa_func.count(Order.id))
+    if status:
+        count_query = count_query.where(Order.status == status)
+    if payment_status:
+        count_query = count_query.where(Order.payment_status == payment_status)
+    total_result = await db.execute(count_query)
+    total = total_result.scalar_one()
+
+    # Paginate
+    query = query.order_by(Order.created_at.desc()).offset((page - 1) * limit).limit(limit)
+    result = await db.execute(query)
+    orders = result.unique().scalars().all()
+
+    def _get_product_image(product):
+        if not product or not hasattr(product, 'images') or not product.images:
+            return None
+        for img in product.images:
+            if img.is_primary:
+                return img.image_url
+        return product.images[0].image_url if product.images else None
+
+    data = []
+    for o in orders:
+        items = [
+            {
+                "id": str(item.id),
+                "product_id": str(item.product_id),
+                "variant_id": str(item.variant_id) if item.variant_id else None,
+                "quantity": item.quantity,
+                "unit_price": float(item.unit_price),
+                "subtotal": float(item.subtotal),
+                "product_name": item.product.name if item.product else None,
+                "product_image": _get_product_image(item.product),
+            }
+            for item in o.items
+        ]
+
+        address = None
+        if o.address:
+            address = {
+                "recipient_name": o.address.recipient_name,
+                "phone": o.address.phone,
+                "province": o.address.province,
+                "district": o.address.district,
+                "ward": o.address.ward,
+                "street": o.address.street,
+            }
+
+        data.append({
+            "id": str(o.id),
+            "order_code": o.order_code,
+            "status": o.status,
+            "total_amount": float(o.total_amount),
+            "discount_amount": float(o.discount_amount or 0),
+            "shipping_fee": float(o.shipping_fee or 0),
+            "payment_method": o.payment_method,
+            "payment_status": o.payment_status,
+            "note": o.note,
+            "created_at": o.created_at.isoformat() if o.created_at else None,
+            "updated_at": o.updated_at.isoformat() if o.updated_at else None,
+            "user_name": o.user.full_name if o.user else None,
+            "user_email": o.user.email if o.user else None,
+            "items": items,
+            "address": address,
+            "item_count": len(o.items),
+        })
+
+    return {
+        "success": True,
+        "data": data,
+        "pagination": {
+            "total": total,
+            "page": page,
+            "limit": limit,
+            "total_pages": (total + limit - 1) // limit,
+        },
+    }
+
+
+@router.put("/orders/{order_id}/status", summary="Update order status (admin)")
+async def update_order_status(
+    order_id: UUID,
+    status: str = Query(...),
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Update order status. Valid statuses: pending, confirmed, shipping, delivered, cancelled."""
+    valid_statuses = ["pending", "confirmed", "shipping", "delivered", "cancelled"]
+    if status not in valid_statuses:
+        raise HTTPException(400, f"Invalid status. Must be one of: {valid_statuses}")
+
+    result = await db.execute(select(Order).where(Order.id == order_id))
+    order = result.scalar_one_or_none()
+    if not order:
+        raise HTTPException(404, "Order not found")
+
+    order.status = status
+    await db.commit()
+
+    return {"success": True, "message": f"Order status updated to '{status}'"}
+
+
+@router.put("/orders/{order_id}/payment-status", summary="Update payment status (admin)")
+async def update_payment_status(
+    order_id: UUID,
+    payment_status: str = Query(...),
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Update payment status. Valid: pending, paid, failed, refunded."""
+    valid = ["pending", "paid", "failed", "refunded"]
+    if payment_status not in valid:
+        raise HTTPException(400, f"Invalid payment status. Must be one of: {valid}")
+
+    result = await db.execute(select(Order).where(Order.id == order_id))
+    order = result.scalar_one_or_none()
+    if not order:
+        raise HTTPException(404, "Order not found")
+
+    order.payment_status = payment_status
+    await db.commit()
+
+    return {"success": True, "message": f"Payment status updated to '{payment_status}'"}
