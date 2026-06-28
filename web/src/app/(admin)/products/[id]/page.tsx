@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { useProduct, useUpdateProduct, useAdminCategories, useAdminBrandsByCategory, useAdminProductLines, useSpecTemplates } from "@/hooks/use-products";
+import { useProduct, useUpdateProduct, useAdminCategories, useAdminBrands, useAdminProductLines } from "@/hooks/use-products";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Input } from "@/components/ui/input";
@@ -17,7 +17,7 @@ import { ArrowLeft, Save, Loader2, Plus, Trash2, X, GripVertical, AlertTriangle 
 import { toast } from "sonner";
 import Link from "next/link";
 import { use } from "react";
-import type { SpecTemplate } from "@/hooks/use-products";
+
 
 interface VariantRow {
   id?: string; color_name: string; color_hex: string;
@@ -55,21 +55,35 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
 
   // Cascading dropdowns
   const { data: categories } = useAdminCategories();
-  const { data: brandsByCategory } = useAdminBrandsByCategory(categoryId || undefined);
+  const { data: allBrands } = useAdminBrands();
   const { data: productLines } = useAdminProductLines(brandId || undefined, categoryId || undefined);
-  const { data: specTemplates } = useSpecTemplates(categoryId || undefined);
 
-  // Group spec templates
-  const specGroups = useMemo(() => {
-    if (!specTemplates) return {};
-    const groups: Record<string, SpecTemplate[]> = {};
-    for (const t of specTemplates) {
-      const g = t.spec_group || "Khác";
-      if (!groups[g]) groups[g] = [];
-      groups[g].push(t);
-    }
-    return groups;
-  }, [specTemplates]);
+  // ── Spec label maps (giống mobile app — đọc trực tiếp từ JSONB) ──
+  const SPEC_GROUP_LABELS: Record<string, string> = {
+    design: "Thiết kế", screen: "Màn hình", performance: "Hiệu năng",
+    camera_rear: "Camera sau", camera_front: "Camera trước",
+    connectivity: "Kết nối", battery: "Pin", webcam: "Webcam",
+    special_features: "Tính năng đặc biệt", raw: "Thông tin khác",
+  };
+  const SPEC_KEY_LABELS: Record<string, string> = {
+    material: "Chất liệu", weight_g: "Trọng lượng (g)", weight_kg: "Trọng lượng (kg)",
+    dimensions_mm: "Kích thước (mm)", dimensions_cm: "Kích thước (cm)",
+    case_size_mm: "Kích thước mặt (mm)", colors_raw: "Màu sắc",
+    size_inch: "Kích thước màn hình", size_mm: "Kích thước (mm)",
+    resolution: "Độ phân giải", refresh_rate_hz: "Tần số quét (Hz)",
+    technology: "Công nghệ màn hình",
+    chipset: "Vi xử lý", cpu: "CPU", gpu: "GPU", ram_gb: "RAM (GB)",
+    storage_gb: "Bộ nhớ trong (GB)", os: "Hệ điều hành",
+    main_mp: "Camera chính (MP)", resolution_mp: "Độ phân giải (MP)",
+    optical_zoom: "Zoom quang học", raw: "Chi tiết",
+    capacity_mah: "Dung lượng pin (mAh)", capacity_wh: "Dung lượng pin (Wh)",
+    usage_hours: "Thời gian sử dụng (giờ)", earbuds_hours: "Pin tai nghe (giờ)",
+    case_hours: "Pin hộp sạc (giờ)",
+    wifi: "Wi-Fi", bluetooth: "Bluetooth",
+    earbuds_dimensions_mm: "Kích thước tai nghe", case_dimensions_mm: "Kích thước hộp sạc",
+    earbuds_weight_g: "Trọng lượng tai nghe (g)", total_weight_g: "Tổng trọng lượng (g)",
+    _list: "Danh sách",
+  };
 
   // Populate form
   useEffect(() => {
@@ -85,12 +99,19 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
     setSalePrice(product.sale_price ? String(product.sale_price) : "");
     setStatus(product.status || "new");
     setIsActive(product.is_active);
-    // Parse specs into grouped map
+    // Store specs in raw JSONB format directly (group_key → field_key → value)
     const specs = product.specs || {};
     const map: Record<string, Record<string, string>> = {};
     for (const [group, fields] of Object.entries(specs)) {
-      if (typeof fields === "object" && fields !== null) {
-        map[group] = fields as Record<string, string>;
+      if (typeof fields === "object" && fields !== null && !Array.isArray(fields)) {
+        const fieldMap: Record<string, string> = {};
+        for (const [k, v] of Object.entries(fields as Record<string, unknown>)) {
+          if (v != null) fieldMap[k] = String(v);
+        }
+        if (Object.keys(fieldMap).length > 0) map[group] = fieldMap;
+      } else if (Array.isArray(fields)) {
+        // special_features is an array
+        map[group] = { _list: (fields as string[]).join(", ") };
       }
     }
     setSpecsMap(map);
@@ -145,11 +166,21 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
     if (variants.length === 0) { toast.error("Phải có ít nhất 1 biến thể sản phẩm"); setActiveTab("variants"); return; }
     if (variants.some(v => !v.color_name)) { toast.error("Tên màu biến thể không được để trống"); setActiveTab("variants"); return; }
 
+    // specsMap is already in raw JSONB format — clean up empty values and send directly
+    const specsForApi: Record<string, Record<string, string>> = {};
+    for (const [group, fields] of Object.entries(specsMap)) {
+      const cleaned: Record<string, string> = {};
+      for (const [k, v] of Object.entries(fields)) {
+        if (v !== undefined && v !== "") cleaned[k] = v;
+      }
+      if (Object.keys(cleaned).length > 0) specsForApi[group] = cleaned;
+    }
+
     const body = {
       name, slug, category_id: categoryId, brand_id: brandId, line_id: lineId || null,
       description: description || null, highlight_features: features,
       base_price: parseFloat(basePrice), sale_price: salePrice ? parseFloat(salePrice) : null,
-      status, specs: specsMap, is_active: isActive,
+      status, specs: specsForApi, is_active: isActive,
       variants: variants.map(v => ({ id: v.id || null, color_name: v.color_name, color_hex: v.color_hex || null, price_override: v.price_override ? parseFloat(v.price_override) : null, sale_price_override: v.sale_price_override ? parseFloat(v.sale_price_override) : null, stock_quantity: parseInt(v.stock_quantity) || 0, sku: v.sku || null, is_active: v.is_active, sort_order: v.sort_order })),
       images: images.map(img => ({ id: img.id || null, image_url: img.image_url, alt_text: img.alt_text || null, is_primary: img.is_primary, variant_id: img.variant_id || null, sort_order: img.sort_order })),
     };
@@ -226,9 +257,9 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
                   </div>
                   <div className="space-y-1.5">
                     <Label>Thương hiệu *</Label>
-                    <Select value={brandId} onValueChange={handleBrandChange} disabled={!categoryId}>
-                      <SelectTrigger><SelectValue placeholder={!categoryId ? "Chọn danh mục trước" : "Chọn thương hiệu"} /></SelectTrigger>
-                      <SelectContent>{brandsByCategory?.map(b => <SelectItem key={b.id} value={b.id}>{b.name}</SelectItem>)}</SelectContent>
+                    <Select value={brandId} onValueChange={handleBrandChange}>
+                      <SelectTrigger><SelectValue placeholder="Chọn thương hiệu" /></SelectTrigger>
+                      <SelectContent>{allBrands?.map(b => <SelectItem key={b.id} value={b.id}>{b.name}</SelectItem>)}</SelectContent>
                     </Select>
                   </div>
                   <div className="space-y-1.5">
@@ -259,23 +290,26 @@ export default function EditProductPage({ params }: { params: Promise<{ id: stri
           </div>
         </TabsContent>
 
-        {/* TAB: Specs — Dynamic from spec_templates */}
+        {/* TAB: Specs — Direct from product.specs JSONB */}
         <TabsContent value="specs">
-          {!categoryId ? (
-            <Card><CardContent className="py-12 text-center text-muted-foreground">Vui lòng chọn danh mục trước để hiển thị thông số kỹ thuật.</CardContent></Card>
-          ) : !specTemplates || specTemplates.length === 0 ? (
-            <Card><CardContent className="py-12 text-center text-muted-foreground">Danh mục này chưa có mẫu thông số kỹ thuật.</CardContent></Card>
+          {Object.keys(specsMap).length === 0 ? (
+            <Card><CardContent className="py-12 text-center text-muted-foreground">Sản phẩm này chưa có thông số kỹ thuật.</CardContent></Card>
           ) : (
             <div className="space-y-4">
-              {Object.entries(specGroups).map(([group, templates]) => (
-                <Card key={group}>
-                  <CardHeader><CardTitle className="text-base">{group}</CardTitle></CardHeader>
+              {Object.entries(specsMap).map(([groupKey, fields]) => (
+                <Card key={groupKey}>
+                  <CardHeader><CardTitle className="text-base">{SPEC_GROUP_LABELS[groupKey] || groupKey}</CardTitle></CardHeader>
                   <CardContent>
                     <div className="grid gap-3 sm:grid-cols-2">
-                      {templates.map(t => (
-                        <div key={t.id} className="space-y-1">
-                          <Label className="text-sm">{t.display_name} {t.unit && <span className="text-muted-foreground">({t.unit})</span>}</Label>
-                          <Input value={specsMap[group]?.[t.display_name] || ""} onChange={(e) => updateSpecValue(group, t.display_name, e.target.value)} placeholder={`Nhập ${t.display_name.toLowerCase()}`} className="h-8" />
+                      {Object.entries(fields).map(([fieldKey, value]) => (
+                        <div key={fieldKey} className="space-y-1">
+                          <Label className="text-sm">{SPEC_KEY_LABELS[fieldKey] || fieldKey}</Label>
+                          <Input
+                            value={value || ""}
+                            onChange={(e) => updateSpecValue(groupKey, fieldKey, e.target.value)}
+                            placeholder={`Nhập ${(SPEC_KEY_LABELS[fieldKey] || fieldKey).toLowerCase()}`}
+                            className="h-8"
+                          />
                         </div>
                       ))}
                     </div>

@@ -39,4 +39,42 @@ class ChatService {
   void resetConversation() {
     _conversationId = null;
   }
+
+  /// Restore a previous conversation by its ID
+  void setConversationId(String id) {
+    _conversationId = id;
+  }
+
+  /// Fetch the list of conversations for the current user (requires auth)
+  Future<List<Map<String, dynamic>>> getConversations({int limit = 20}) async {
+    final response = await _apiClient.dio.get(
+      '/chat/conversations',
+      queryParameters: {'limit': limit},
+    );
+    final data = response.data;
+    if (data is Map<String, dynamic> &&
+        data['success'] == true &&
+        data['data'] != null) {
+      return List<Map<String, dynamic>>.from(data['data'] as List);
+    }
+    return [];
+  }
+
+  /// Fetch messages for a specific conversation
+  Future<List<Map<String, dynamic>>> getMessages(
+    String conversationId, {
+    int limit = 50,
+  }) async {
+    final response = await _apiClient.dio.get(
+      '/chat/conversations/$conversationId/messages',
+      queryParameters: {'limit': limit},
+    );
+    final data = response.data;
+    if (data is Map<String, dynamic> &&
+        data['success'] == true &&
+        data['data'] != null) {
+      return List<Map<String, dynamic>>.from(data['data'] as List);
+    }
+    return [];
+  }
 }

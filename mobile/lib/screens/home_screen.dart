@@ -9,6 +9,7 @@ import '../../widgets/products_tab.dart';
 import '../../widgets/orders_tab.dart';
 import '../../services/notification_ws.dart';
 import 'cart_screen.dart';
+import 'compare_product_screen.dart';
 import 'profile_screen.dart';
 import 'notification_screen.dart';
 import 'payment_webview_screen.dart';
@@ -150,9 +151,14 @@ class _HomeScreenState extends State<HomeScreen> {
         setState(() => _selectedTab = 0);
         break;
 
-      // ── Compare → Switch to products tab (for now) ──
+      // ── Compare → Open compare screen ──
       case 'show_compare_table':
-        setState(() => _selectedTab = 1);
+        final ids = (nav.data['product_ids'] as List?)?.cast<String>();
+        if (ids != null && ids.length >= 2) {
+          Navigator.of(context).push(MaterialPageRoute(
+            builder: (_) => CompareProductScreen(productIds: ids),
+          ));
+        }
         break;
 
       // ── Require login → Navigate to login ──

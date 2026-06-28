@@ -76,7 +76,7 @@ class _OrderDetailScreenState extends State<OrderDetailScreen> {
               _buildNoteCard(),
             ],
             const SizedBox(height: 24),
-            _buildActionButtons(),
+            // _buildActionButtons(),
           ],
         ),
       ),
