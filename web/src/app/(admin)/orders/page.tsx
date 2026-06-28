@@ -195,7 +195,7 @@ export default function OrdersPage() {
           <div className="flex flex-wrap gap-3 items-end">
             <div className="space-y-1">
               <span className="text-xs text-muted-foreground">Trạng thái đơn</span>
-              <Select value={filterStatus} onValueChange={(v) => { setFilterStatus(v); setPage(1); }}>
+              <Select value={filterStatus} onValueChange={(v) => { setFilterStatus(v ?? "all"); setPage(1); }}>
                 <SelectTrigger className="w-[160px] h-9">
                   <SelectValue />
                 </SelectTrigger>
@@ -210,7 +210,7 @@ export default function OrdersPage() {
 
             <div className="space-y-1">
               <span className="text-xs text-muted-foreground">Thanh toán</span>
-              <Select value={filterPayment} onValueChange={(v) => { setFilterPayment(v); setPage(1); }}>
+              <Select value={filterPayment} onValueChange={(v) => { setFilterPayment(v ?? "all"); setPage(1); }}>
                 <SelectTrigger className="w-[160px] h-9">
                   <SelectValue />
                 </SelectTrigger>
@@ -375,7 +375,7 @@ export default function OrdersPage() {
                     <span className="text-xs font-medium text-muted-foreground">Trạng thái đơn</span>
                     <Select
                       value={detailOrder.status}
-                      onValueChange={(v) => handleStatusChange(detailOrder.id, v)}
+                      onValueChange={(v) => v && handleStatusChange(detailOrder.id, v)}
                     >
                       <SelectTrigger className="h-9">
                         <SelectValue />
@@ -391,7 +391,7 @@ export default function OrdersPage() {
                     <span className="text-xs font-medium text-muted-foreground">Trạng thái thanh toán</span>
                     <Select
                       value={detailOrder.payment_status}
-                      onValueChange={(v) => handlePaymentStatusChange(detailOrder.id, v)}
+                      onValueChange={(v) => v && handlePaymentStatusChange(detailOrder.id, v)}
                     >
                       <SelectTrigger className="h-9">
                         <SelectValue />
