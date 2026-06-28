@@ -25,7 +25,11 @@ search_products_func = genai.protos.FunctionDeclaration(
             ),
             "limit": genai.protos.Schema(
                 type=genai.protos.Type.INTEGER,
-                description="Số lượng sản phẩm tối đa trả về (mặc định 5).",
+                description=(
+                    "Số lượng sản phẩm trả về (mặc định 5, tối đa 20). "
+                    "Nếu user yêu cầu tìm thêm, tìm nhiều hơn, hoặc chỉ định số lượng cụ thể (ví dụ: '10 sản phẩm', 'thêm 5 cái nữa'), "
+                    "hãy tăng limit tương ứng. KHÔNG được từ chối khi user yêu cầu nhiều hơn 5."
+                ),
             ),
         },
         required=["query"],

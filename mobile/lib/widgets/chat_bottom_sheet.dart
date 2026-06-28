@@ -735,13 +735,71 @@ class _ChatBottomSheetState extends State<ChatBottomSheet> with TickerProviderSt
 
   // ── PRODUCT LIST (from search results) ──
   Widget _buildProductList(List<dynamic> products) {
+    const int previewLimit = 5;
+    final int displayCount = products.length > previewLimit ? previewLimit : products.length;
+    final bool hasMore = products.length > previewLimit;
+    final int totalItems = displayCount + (hasMore ? 1 : 0);
+
     return SizedBox(
       height: 130,
       child: ListView.separated(
         scrollDirection: Axis.horizontal,
-        itemCount: products.length > 5 ? 5 : products.length,
+        itemCount: totalItems,
         separatorBuilder: (_, __) => const SizedBox(width: 8),
         itemBuilder: (context, index) {
+          // ── "Xem tất cả" card khi có nhiều hơn preview ──
+          if (hasMore && index == displayCount) {
+            final remaining = products.length - previewLimit;
+            return GestureDetector(
+              onTap: () {
+                final productMaps = products
+                    .whereType<Map<String, dynamic>>()
+                    .toList();
+                final nav = Navigator.of(context);
+                nav.pop(); // close bottom sheet
+                nav.push(MaterialPageRoute(
+                  builder: (_) => ChatProductListScreen(
+                    products: productMaps,
+                    title: 'Kết quả tìm kiếm',
+                  ),
+                ));
+              },
+              child: Container(
+                width: 100,
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: _K.primary.withOpacity(0.08),
+                  borderRadius: BorderRadius.circular(12),
+                  border: Border.all(color: _K.primary.withOpacity(0.3)),
+                ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Container(
+                      width: 36, height: 36,
+                      decoration: BoxDecoration(
+                        color: _K.primary.withOpacity(0.15),
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Icon(Icons.grid_view_rounded, color: _K.primary, size: 20),
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      '+$remaining sản phẩm',
+                      style: GoogleFonts.outfit(fontSize: 11, fontWeight: FontWeight.w700, color: _K.primary),
+                      textAlign: TextAlign.center,
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      'Xem tất cả',
+                      style: GoogleFonts.outfit(fontSize: 10, color: _K.textSecondary),
+                    ),
+                  ],
+                ),
+              ),
+            );
+          }
+
           final p = products[index] as Map<String, dynamic>;
           return GestureDetector(
             onTap: () {
