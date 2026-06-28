@@ -285,7 +285,7 @@ export default function ProductLinesPage() {
             {/* Category filter */}
             <div className="space-y-1">
               <span className="text-xs text-muted-foreground">Danh mục</span>
-              <Select value={filterCategory} onValueChange={(v) => { setFilterCategory(v); setFilterBrand("all"); }}>
+              <Select value={filterCategory} onValueChange={(v) => { setFilterCategory(v ?? "all"); setFilterBrand("all"); }}>
                 <SelectTrigger className="w-[160px] h-9">
                   <SelectValue />
                 </SelectTrigger>
@@ -301,7 +301,7 @@ export default function ProductLinesPage() {
             {/* Brand filter */}
             <div className="space-y-1">
               <span className="text-xs text-muted-foreground">Thương hiệu</span>
-              <Select value={filterBrand} onValueChange={setFilterBrand}>
+              <Select value={filterBrand} onValueChange={(v) => setFilterBrand(v ?? "all")}>
                 <SelectTrigger className="w-[160px] h-9">
                   <SelectValue />
                 </SelectTrigger>
