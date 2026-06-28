@@ -445,7 +445,7 @@ export default function ProductLinesPage() {
                 <Label htmlFor="line-category">Danh mục *</Label>
                 <Select
                   value={form.category_id || "none"}
-                  onValueChange={(v) => setForm((prev) => ({ ...prev, category_id: v === "none" ? "" : v }))}
+                  onValueChange={(v) => setForm((prev) => ({ ...prev, category_id: !v || v === "none" ? "" : v }))}
                 >
                   <SelectTrigger id="line-category">
                     <SelectValue placeholder="Chọn danh mục">
@@ -467,7 +467,7 @@ export default function ProductLinesPage() {
                 <Label htmlFor="line-brand">Thương hiệu *</Label>
                 <Select
                   value={form.brand_id || "none"}
-                  onValueChange={(v) => setForm((prev) => ({ ...prev, brand_id: v === "none" ? "" : v }))}
+                  onValueChange={(v) => setForm((prev) => ({ ...prev, brand_id: !v || v === "none" ? "" : v }))}
                 >
                   <SelectTrigger id="line-brand">
                     <SelectValue placeholder="Chọn thương hiệu">
