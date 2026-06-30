@@ -25,6 +25,11 @@ class AISearchFilters(BaseModel):
     storage_max: Optional[int] = Field(None, description="Bộ nhớ tối đa (GB)")
     screen_min: Optional[float] = Field(None, description="Kích thước màn hình tối thiểu (inch)")
     screen_max: Optional[float] = Field(None, description="Kích thước màn hình tối đa (inch)")
+    # Màu sắc (lọc theo variant color_name)
+    colors: Optional[List[str]] = Field(None, description="Danh sách màu sắc (vd: ['đen', 'trắng', 'xanh'])")
+    # Bộ lọc thông số kỹ thuật mở rộng (key-value linh hoạt)
+    spec_filters: Optional[dict] = Field(None, description="Bộ lọc specs mở rộng (vd: {'chipset': 'snapdragon', 'os': 'android', 'camera_mp_min': 48})")
+
 
 
 class AISearchRequest(BaseModel):
