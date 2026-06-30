@@ -83,38 +83,31 @@ async def get_product_detail(
         _user_id = current_user.id
 
         async def _background_learn_view():
+            from app.models.product import Product
+            from app.models.interaction import ProductView
+            from sqlalchemy.orm import selectinload
+            from sqlalchemy import select, delete
+            from app.db.session import SessionLocal
+            import logging
+            _logger = logging.getLogger("catalog")
+
+            # ── Bước 1: Ghi lịch sử xem vào product_views (LUÔN chạy) ──
             try:
-                from app.services.profile_learning_service import profile_learning_service
-                from app.models.product import Product
-                from app.models.interaction import ProductView
-                from sqlalchemy.orm import selectinload
-                from sqlalchemy import select, delete
-                from app.db.session import SessionLocal
-
-                async with SessionLocal() as bg_db:
-                    stmt = (
-                        select(Product)
-                        .options(selectinload(Product.category), selectinload(Product.brand))
-                        .where(Product.id == product_id)
+                async with SessionLocal() as view_db:
+                    # Xóa bản ghi cũ nếu đã xem sản phẩm này (upsert logic)
+                    await view_db.execute(
+                        delete(ProductView).where(
+                            ProductView.user_id == _user_id,
+                            ProductView.product_id == product_id,
+                        )
                     )
-                    result = await bg_db.execute(stmt)
-                    product = result.scalar_one_or_none()
-                    if product:
-                        # 1. Cập nhật profile summary (Gemini)
-                        await profile_learning_service.learn_from_view(
-                            user_id=_user_id,
-                            product=product,
-                            db=bg_db,
-                        )
 
-                        # 2. Ghi lịch sử xem vào product_views
-                        # Xóa bản ghi cũ nếu đã xem sản phẩm này (upsert logic)
-                        await bg_db.execute(
-                            delete(ProductView).where(
-                                ProductView.user_id == _user_id,
-                                ProductView.product_id == product_id,
-                            )
-                        )
+                    # Query product để lấy brand_id, category_id, line_id
+                    stmt = select(Product).where(Product.id == product_id)
+                    result = await view_db.execute(stmt)
+                    product = result.scalar_one_or_none()
+
+                    if product:
                         view = ProductView(
                             user_id=_user_id,
                             product_id=product.id,
@@ -122,23 +115,70 @@ async def get_product_detail(
                             category_id=product.category_id,
                             line_id=product.line_id,
                         )
-                        bg_db.add(view)
+                        view_db.add(view)
 
-                        # 3. Giữ tối đa 30 bản ghi gần nhất
+                        # Giữ tối đa 30 bản ghi gần nhất
                         subq = (
                             select(ProductView.id)
                             .where(ProductView.user_id == _user_id)
                             .order_by(ProductView.viewed_at.desc())
                             .offset(30)
                         )
-                        await bg_db.execute(
+                        await view_db.execute(
                             delete(ProductView).where(ProductView.id.in_(subq))
                         )
 
-                        await bg_db.commit()
+                    await view_db.commit()
+                    _logger.info(
+                        f"👁️ [ProductView] Saved — user={str(_user_id)[:8]}... "
+                        f"product={str(product_id)[:8]}... "
+                        f"name={product.name if product else 'N/A'}"
+                    )
             except Exception as e:
-                import logging
-                logging.getLogger("catalog").warning(f"Profile learning from view failed: {e}")
+                _logger.error(
+                    f"❌ [ProductView] FAILED — user={str(_user_id)[:8]}... "
+                    f"product={str(product_id)[:8]}... error={e}", exc_info=True
+                )
+
+            # ── Bước 2: Cập nhật profile summary (Gemini — có thể fail) ──
+            try:
+                from app.services.profile_learning_service import profile_learning_service
+
+                _logger.info(
+                    f"🧠 [ProfileLearn] Starting — "
+                    f"user={str(_user_id)[:8]}... product={str(product_id)[:8]}..."
+                )
+
+                async with SessionLocal() as profile_db:
+                    stmt = (
+                        select(Product)
+                        .options(selectinload(Product.category), selectinload(Product.brand))
+                        .where(Product.id == product_id)
+                    )
+                    result = await profile_db.execute(stmt)
+                    product = result.scalar_one_or_none()
+                    if product:
+                        await profile_learning_service.learn_from_view(
+                            user_id=_user_id,
+                            product=product,
+                            db=profile_db,
+                        )
+                        await profile_db.commit()
+                        _logger.info(
+                            f"✅ [ProfileLearn] Done — "
+                            f"user={str(_user_id)[:8]}... product={product.name}"
+                        )
+                    else:
+                        _logger.warning(
+                            f"⚠️ [ProfileLearn] Product not found — "
+                            f"product={str(product_id)[:8]}..."
+                        )
+            except Exception as e:
+                _logger.error(
+                    f"❌ [ProfileLearn] FAILED — "
+                    f"user={str(_user_id)[:8]}... product={str(product_id)[:8]}... "
+                    f"error={e}", exc_info=True
+                )
 
         asyncio.create_task(_background_learn_view())
 
