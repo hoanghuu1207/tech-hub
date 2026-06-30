@@ -504,7 +504,8 @@ class CatalogService:
         if cached is not None:
             if (user_profile or rv) and cached.get("products"):
                 cached["products"] = await self._inject_recent_views(
-                    db, cached["products"], rv, limit
+                    db, cached["products"], rv, limit,
+                    category_id=category_id,
                 )
                 cached["products"] = self._personalize_compact_products(
                     cached["products"], user_profile,
@@ -531,7 +532,8 @@ class CatalogService:
 
         if (user_profile or rv) and cache_data["products"]:
             cache_data["products"] = await self._inject_recent_views(
-                db, cache_data["products"], rv, limit
+                db, cache_data["products"], rv, limit,
+                category_id=category_id,
             )
             cache_data["products"] = self._personalize_compact_products(
                 cache_data["products"], user_profile,
@@ -612,7 +614,8 @@ class CatalogService:
         if cached is not None:
             if (user_profile or rv) and cached.get("products"):
                 cached["products"] = await self._inject_recent_views(
-                    db, cached["products"], rv, limit
+                    db, cached["products"], rv, limit,
+                    category_id=category_id, brand_id=brand_id,
                 )
                 cached["products"] = self._personalize_compact_products(
                     cached["products"], user_profile,
@@ -640,7 +643,8 @@ class CatalogService:
 
         if (user_profile or rv) and cache_data["products"]:
             cache_data["products"] = await self._inject_recent_views(
-                db, cache_data["products"], rv, limit
+                db, cache_data["products"], rv, limit,
+                category_id=category_id, brand_id=brand_id,
             )
             cache_data["products"] = self._personalize_compact_products(
                 cache_data["products"], user_profile,
@@ -707,7 +711,8 @@ class CatalogService:
         if cached is not None:
             if (user_profile or rv) and cached.get("products"):
                 cached["products"] = await self._inject_recent_views(
-                    db, cached["products"], rv, limit
+                    db, cached["products"], rv, limit,
+                    line_id=line_id,
                 )
                 cached["products"] = self._personalize_compact_products(
                     cached["products"], user_profile,
@@ -734,7 +739,8 @@ class CatalogService:
 
         if (user_profile or rv) and cache_data["products"]:
             cache_data["products"] = await self._inject_recent_views(
-                db, cache_data["products"], rv, limit
+                db, cache_data["products"], rv, limit,
+                line_id=line_id,
             )
             cache_data["products"] = self._personalize_compact_products(
                 cache_data["products"], user_profile,
@@ -902,11 +908,15 @@ class CatalogService:
     async def _inject_recent_views(
         self, db: AsyncSession, products_data: list[dict],
         rv: dict, limit: int,
+        category_id: Optional[UUID] = None,
+        brand_id: Optional[UUID] = None,
+        line_id: Optional[UUID] = None,
     ) -> list[dict]:
         """
         Inject SP vừa xem gần đây vào đầu danh sách nếu chúng
         không có trong cached products (do bị đẩy ra ngoài top 50
         bởi sold_count ordering).
+        Chỉ inject SP phù hợp với filter hiện tại (category/brand/line).
         """
         if not rv or not rv.get("product_ids"):
             return products_data
@@ -927,8 +937,7 @@ class CatalogService:
             f"🔍 [Inject] {len(missing_ids)} viewed products missing from cache, injecting..."
         )
 
-        # Query SP bị thiếu từ DB
-        from sqlalchemy.dialects.postgresql import UUID as PgUUID
+        # Query SP bị thiếu từ DB — có filter theo context
         missing_uuids = [UUID(pid) for pid in missing_ids]
         stmt = (
             select(Product)
@@ -944,6 +953,13 @@ class CatalogService:
                 Product.deleted_at.is_(None),
             )
         )
+        # Áp filter theo context (category/brand/line)
+        if category_id:
+            stmt = stmt.where(Product.category_id == category_id)
+        if brand_id:
+            stmt = stmt.where(Product.brand_id == brand_id)
+        if line_id:
+            stmt = stmt.where(Product.line_id == line_id)
         result = await db.execute(stmt)
         missing_products = list(result.scalars().unique().all())
 
