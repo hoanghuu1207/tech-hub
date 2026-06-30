@@ -408,6 +408,10 @@ class CatalogService:
                 f"products_count={len(cached.get('products', []))}"
             )
             if should_personalize:
+                # Inject SP đã xem nhưng không có trong cache
+                cached["products"] = await self._inject_recent_views(
+                    db, cached["products"], rv, limit
+                )
                 cached["products"] = self._personalize_compact_products(
                     cached["products"], user_profile,
                     recent_view_ids=rv.get("product_ids"),
@@ -431,6 +435,9 @@ class CatalogService:
 
         # Personalize cho request hiện tại
         if (user_profile or rv) and data["products"]:
+            data["products"] = await self._inject_recent_views(
+                db, data["products"], rv, limit
+            )
             data["products"] = self._personalize_compact_products(
                 data["products"], user_profile,
                 recent_view_ids=rv.get("product_ids"),
@@ -496,6 +503,9 @@ class CatalogService:
         cached = await cache_get(cache_key)
         if cached is not None:
             if (user_profile or rv) and cached.get("products"):
+                cached["products"] = await self._inject_recent_views(
+                    db, cached["products"], rv, limit
+                )
                 cached["products"] = self._personalize_compact_products(
                     cached["products"], user_profile,
                     recent_view_ids=rv.get("product_ids"),
@@ -520,6 +530,9 @@ class CatalogService:
         await cache_set(cache_key, cache_data, CacheTTL.PRODUCT_LIST)
 
         if (user_profile or rv) and cache_data["products"]:
+            cache_data["products"] = await self._inject_recent_views(
+                db, cache_data["products"], rv, limit
+            )
             cache_data["products"] = self._personalize_compact_products(
                 cache_data["products"], user_profile,
                 recent_view_ids=rv.get("product_ids"),
@@ -598,6 +611,9 @@ class CatalogService:
         cached = await cache_get(cache_key)
         if cached is not None:
             if (user_profile or rv) and cached.get("products"):
+                cached["products"] = await self._inject_recent_views(
+                    db, cached["products"], rv, limit
+                )
                 cached["products"] = self._personalize_compact_products(
                     cached["products"], user_profile,
                     recent_view_ids=rv.get("product_ids"),
@@ -623,6 +639,9 @@ class CatalogService:
         await cache_set(cache_key, cache_data, CacheTTL.PRODUCT_LIST)
 
         if (user_profile or rv) and cache_data["products"]:
+            cache_data["products"] = await self._inject_recent_views(
+                db, cache_data["products"], rv, limit
+            )
             cache_data["products"] = self._personalize_compact_products(
                 cache_data["products"], user_profile,
                 recent_view_ids=rv.get("product_ids"),
@@ -687,6 +706,9 @@ class CatalogService:
         cached = await cache_get(cache_key)
         if cached is not None:
             if (user_profile or rv) and cached.get("products"):
+                cached["products"] = await self._inject_recent_views(
+                    db, cached["products"], rv, limit
+                )
                 cached["products"] = self._personalize_compact_products(
                     cached["products"], user_profile,
                     recent_view_ids=rv.get("product_ids"),
@@ -711,6 +733,9 @@ class CatalogService:
         await cache_set(cache_key, cache_data, CacheTTL.PRODUCT_LIST)
 
         if (user_profile or rv) and cache_data["products"]:
+            cache_data["products"] = await self._inject_recent_views(
+                db, cache_data["products"], rv, limit
+            )
             cache_data["products"] = self._personalize_compact_products(
                 cache_data["products"], user_profile,
                 recent_view_ids=rv.get("product_ids"),
@@ -869,6 +894,84 @@ class CatalogService:
             "category_ids": cat_names,
             "line_ids": {str(v.line_id) for v in views if v.line_id},
         }
+
+    # ──────────────────────────────────────────────────────
+    # Helpers: Inject SP đã xem vào danh sách cached
+    # ──────────────────────────────────────────────────────
+
+    async def _inject_recent_views(
+        self, db: AsyncSession, products_data: list[dict],
+        rv: dict, limit: int,
+    ) -> list[dict]:
+        """
+        Inject SP vừa xem gần đây vào đầu danh sách nếu chúng
+        không có trong cached products (do bị đẩy ra ngoài top 50
+        bởi sold_count ordering).
+        """
+        if not rv or not rv.get("product_ids"):
+            return products_data
+
+        rv_ids = rv["product_ids"]  # dict {pid_str: position}
+        existing_ids = {str(p.get("id", "")) for p in products_data}
+
+        # Tìm SP đã xem nhưng KHÔNG có trong danh sách hiện tại
+        missing_ids = [
+            pid for pid in rv_ids.keys()
+            if pid not in existing_ids
+        ]
+
+        if not missing_ids:
+            return products_data
+
+        logger.info(
+            f"🔍 [Inject] {len(missing_ids)} viewed products missing from cache, injecting..."
+        )
+
+        # Query SP bị thiếu từ DB
+        from sqlalchemy.dialects.postgresql import UUID as PgUUID
+        missing_uuids = [UUID(pid) for pid in missing_ids]
+        stmt = (
+            select(Product)
+            .options(
+                selectinload(Product.images),
+                selectinload(Product.brand),
+                selectinload(Product.category),
+                selectinload(Product.line),
+            )
+            .where(
+                Product.id.in_(missing_uuids),
+                Product.is_active == True,
+                Product.deleted_at.is_(None),
+            )
+        )
+        result = await db.execute(stmt)
+        missing_products = list(result.scalars().unique().all())
+
+        if not missing_products:
+            return products_data
+
+        # Convert sang compact dict
+        injected = [
+            self._product_to_compact(p).model_dump() for p in missing_products
+        ]
+
+        logger.info(
+            f"🔍 [Inject] Injected: "
+            + ", ".join(p.get("name", "?") for p in injected)
+        )
+
+        # Ghép: injected + original, cắt lại đúng limit
+        combined = injected + products_data
+        # Loại bỏ duplicate (giữ bản inject ở đầu)
+        seen = set()
+        deduped = []
+        for p in combined:
+            pid = str(p.get("id", ""))
+            if pid not in seen:
+                seen.add(pid)
+                deduped.append(p)
+
+        return deduped[:limit] if limit else deduped
 
     # ──────────────────────────────────────────────────────
     # Helpers: Personalize trên dữ liệu đã serialize (dict)
