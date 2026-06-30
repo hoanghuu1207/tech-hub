@@ -13,6 +13,7 @@ Cá nhân hóa:
 """
 
 import logging
+import json
 from uuid import UUID
 from typing import Optional, List
 
@@ -344,6 +345,50 @@ class CatalogService:
         return output
 
     # ──────────────────────────────────────────────────────
+    # API 1b: Tất cả sản phẩm (có cache)
+    # ──────────────────────────────────────────────────────
+
+    async def get_all_products_cached(
+        self, db: AsyncSession, limit: int = 50, offset: int = 0,
+        user_profile: Optional[str] = None,
+    ) -> dict:
+        """Lấy tất cả products, cache base data, personalize trên cached data."""
+        from app.services.cache_service import CacheKeys, CacheTTL
+        from app.db.redis import cache_get, cache_set
+
+        cache_key = CacheKeys.all_products(limit, offset)
+
+        # Thử lấy từ cache
+        cached = await cache_get(cache_key)
+        if cached is not None:
+            # Personalize trên cached data nếu có profile
+            if user_profile and cached.get("products"):
+                cached["products"] = self._personalize_compact_products(
+                    cached["products"], user_profile
+                )
+            return cached
+
+        # Cache miss → query DB
+        products = await self._query_products(db, limit=limit, offset=offset)
+        total = await self._count_products(db)
+
+        data = {
+            "products": [self._product_to_compact(p).model_dump() for p in products],
+            "total": total,
+        }
+
+        # Cache base data (không personalization)
+        await cache_set(cache_key, data, CacheTTL.ALL_PRODUCTS)
+
+        # Personalize cho request hiện tại
+        if user_profile and data["products"]:
+            data["products"] = self._personalize_compact_products(
+                data["products"], user_profile
+            )
+
+        return data
+
+    # ──────────────────────────────────────────────────────
     # API 2: Products + brands của 1 category
     # ──────────────────────────────────────────────────────
 
@@ -368,15 +413,61 @@ class CatalogService:
         )
         total = await self._count_products(db, category_id=category_id)
 
-        # Cá nhân hóa thứ tự sản phẩm
-        products = self._personalize_products(products, user_profile)
-
-        return {
+        result = {
             "category": CategoryOut.model_validate(category),
             "brands": [BrandOut.model_validate(b) for b in brands],
             "products": [self._product_to_compact(p) for p in products],
             "total": total,
         }
+
+        # Cá nhân hóa thứ tự sản phẩm
+        if user_profile and result["products"]:
+            products = self._personalize_products(products, user_profile)
+            result["products"] = [self._product_to_compact(p) for p in products]
+
+        return result
+
+    async def get_category_products_cached(
+        self, category_id: UUID, db: AsyncSession,
+        limit: int = 50, offset: int = 0,
+        user_profile: Optional[str] = None,
+    ) -> dict:
+        """get_category_products với Redis cache."""
+        from app.services.cache_service import CacheKeys, CacheTTL
+        from app.db.redis import cache_get, cache_set
+
+        cache_key = CacheKeys.category_products(category_id, limit, offset)
+        cached = await cache_get(cache_key)
+        if cached is not None:
+            if user_profile and cached.get("products"):
+                cached["products"] = self._personalize_compact_products(
+                    cached["products"], user_profile
+                )
+            return cached
+
+        # Cache miss → gọi method gốc (không personalize)
+        result = await self.get_category_products(
+            category_id, db, limit=limit, offset=offset, user_profile=None
+        )
+        if result is None:
+            return None
+
+        # Serialize để cache
+        cache_data = {
+            "category": result["category"].model_dump() if hasattr(result["category"], 'model_dump') else result["category"],
+            "brands": [b.model_dump() if hasattr(b, 'model_dump') else b for b in result["brands"]],
+            "products": [p.model_dump() if hasattr(p, 'model_dump') else p for p in result["products"]],
+            "total": result["total"],
+        }
+        await cache_set(cache_key, cache_data, CacheTTL.PRODUCT_LIST)
+
+        # Personalize cho request hiện tại
+        if user_profile and cache_data["products"]:
+            cache_data["products"] = self._personalize_compact_products(
+                cache_data["products"], user_profile
+            )
+
+        return cache_data
 
     # ──────────────────────────────────────────────────────
     # API 3: Products + lines của 1 brand trong 1 category
@@ -419,7 +510,8 @@ class CatalogService:
         )
 
         # Cá nhân hóa thứ tự sản phẩm
-        products = self._personalize_products(products, user_profile)
+        if user_profile:
+            products = self._personalize_products(products, user_profile)
 
         return {
             "category": CategoryOut.model_validate(category),
@@ -428,6 +520,46 @@ class CatalogService:
             "products": [self._product_to_compact(p) for p in products],
             "total": total,
         }
+
+    async def get_brand_products_cached(
+        self, category_id: UUID, brand_id: UUID, db: AsyncSession,
+        limit: int = 50, offset: int = 0,
+        user_profile: Optional[str] = None,
+    ) -> dict:
+        """get_brand_products với Redis cache."""
+        from app.services.cache_service import CacheKeys, CacheTTL
+        from app.db.redis import cache_get, cache_set
+
+        cache_key = CacheKeys.brand_products(category_id, brand_id, limit, offset)
+        cached = await cache_get(cache_key)
+        if cached is not None:
+            if user_profile and cached.get("products"):
+                cached["products"] = self._personalize_compact_products(
+                    cached["products"], user_profile
+                )
+            return cached
+
+        result = await self.get_brand_products(
+            category_id, brand_id, db, limit=limit, offset=offset, user_profile=None
+        )
+        if result is None:
+            return None
+
+        cache_data = {
+            "category": result["category"].model_dump() if hasattr(result["category"], 'model_dump') else result["category"],
+            "brand": result["brand"].model_dump() if hasattr(result["brand"], 'model_dump') else result["brand"],
+            "product_lines": [pl.model_dump() if hasattr(pl, 'model_dump') else pl for pl in result["product_lines"]],
+            "products": [p.model_dump() if hasattr(p, 'model_dump') else p for p in result["products"]],
+            "total": result["total"],
+        }
+        await cache_set(cache_key, cache_data, CacheTTL.PRODUCT_LIST)
+
+        if user_profile and cache_data["products"]:
+            cache_data["products"] = self._personalize_compact_products(
+                cache_data["products"], user_profile
+            )
+
+        return cache_data
 
     # ──────────────────────────────────────────────────────
     # API 4: Products của 1 product_line
@@ -457,7 +589,8 @@ class CatalogService:
         total = await self._count_products(db, line_id=line_id)
 
         # Cá nhân hóa thứ tự sản phẩm
-        products = self._personalize_products(products, user_profile)
+        if user_profile:
+            products = self._personalize_products(products, user_profile)
 
         return {
             "product_line": ProductLineOut.model_validate(line),
@@ -465,6 +598,45 @@ class CatalogService:
             "products": [self._product_to_compact(p) for p in products],
             "total": total,
         }
+
+    async def get_line_products_cached(
+        self, line_id: UUID, db: AsyncSession,
+        limit: int = 50, offset: int = 0,
+        user_profile: Optional[str] = None,
+    ) -> dict:
+        """get_line_products với Redis cache."""
+        from app.services.cache_service import CacheKeys, CacheTTL
+        from app.db.redis import cache_get, cache_set
+
+        cache_key = CacheKeys.line_products(line_id, limit, offset)
+        cached = await cache_get(cache_key)
+        if cached is not None:
+            if user_profile and cached.get("products"):
+                cached["products"] = self._personalize_compact_products(
+                    cached["products"], user_profile
+                )
+            return cached
+
+        result = await self.get_line_products(
+            line_id, db, limit=limit, offset=offset, user_profile=None
+        )
+        if result is None:
+            return None
+
+        cache_data = {
+            "product_line": result["product_line"].model_dump() if hasattr(result["product_line"], 'model_dump') else result["product_line"],
+            "brand": result["brand"].model_dump() if hasattr(result["brand"], 'model_dump') else result["brand"],
+            "products": [p.model_dump() if hasattr(p, 'model_dump') else p for p in result["products"]],
+            "total": result["total"],
+        }
+        await cache_set(cache_key, cache_data, CacheTTL.PRODUCT_LIST)
+
+        if user_profile and cache_data["products"]:
+            cache_data["products"] = self._personalize_compact_products(
+                cache_data["products"], user_profile
+            )
+
+        return cache_data
 
 
     # ──────────────────────────────────────────────────────
@@ -534,6 +706,74 @@ class CatalogService:
             ) for img in sorted_images],
             specs=product.specs or {},
         )
+
+    async def get_product_detail_cached(
+        self, product_id: UUID, db: AsyncSession,
+    ) -> Optional[ProductDetailOut]:
+        """get_product_detail với Redis cache."""
+        from app.services.cache_service import CacheKeys, CacheTTL
+        from app.db.redis import cache_get, cache_set
+
+        cache_key = CacheKeys.product_detail(product_id)
+        cached = await cache_get(cache_key)
+        if cached is not None:
+            return ProductDetailOut(**cached)
+
+        detail = await self.get_product_detail(product_id, db)
+        if detail is None:
+            return None
+
+        # Cache serialized detail
+        await cache_set(cache_key, detail.model_dump(), CacheTTL.PRODUCT_DETAIL)
+        return detail
+
+    # ──────────────────────────────────────────────────────
+    # Helpers: Personalize trên dữ liệu đã serialize (dict)
+    # ──────────────────────────────────────────────────────
+
+    @staticmethod
+    def _personalize_compact_products(
+        products_data: list[dict],
+        profile_summary: str,
+    ) -> list[dict]:
+        """
+        Re-rank danh sách sản phẩm (dạng dict/serialized) dựa trên hồ sơ.
+        Dùng cho cached data — không cần ORM objects.
+        """
+        if not profile_summary or not products_data:
+            return products_data
+
+        prefs = CatalogService._parse_profile_preferences(profile_summary)
+
+        def _calc_boost(p: dict) -> float:
+            boost = 0.0
+            brand_name = p.get("brand_name", "") or ""
+            category_name = p.get("category_name", "") or ""
+
+            if brand_name.lower() in prefs["brands"]:
+                boost += 5.0
+            if category_name.lower() in [c.lower() for c in prefs["categories"]]:
+                boost += 3.0
+
+            dp = p.get("sale_price") or p.get("base_price") or 0
+            if dp > 0:
+                in_range = True
+                if prefs["price_min"] is not None and dp < prefs["price_min"]:
+                    in_range = False
+                if prefs["price_max"] is not None and dp > prefs["price_max"]:
+                    in_range = False
+                if in_range and (prefs["price_min"] is not None or prefs["price_max"] is not None):
+                    boost += 2.0
+
+            return boost
+
+        products_with_boost = [(p, _calc_boost(p)) for p in products_data]
+        products_with_boost.sort(key=lambda x: x[1], reverse=True)
+
+        if any(b > 0 for _, b in products_with_boost):
+            return [p for p, _ in products_with_boost]
+
+        return products_data
 
 
 # Singleton

@@ -760,13 +760,34 @@ class AISearchService:
         return True
 
     async def _embed_query(self, text: str) -> list[float]:
+        # Thử lấy embedding từ cache trước
+        try:
+            from app.services.cache_service import CacheKeys, CacheTTL
+            from app.db.redis import cache_get, cache_set
+
+            cache_key = CacheKeys.embedding(text)
+            cached = await cache_get(cache_key)
+            if cached is not None:
+                logger.info(f"[AI Search] Embedding cache HIT for '{text[:50]}...'")
+                return cached
+        except Exception:
+            pass
+
         try:
             loop = asyncio.get_event_loop()
             result = await loop.run_in_executor(
                 _executor,
                 lambda: genai.embed_content(model=EMBEDDING_MODEL, content=text)
             )
-            return result["embedding"]
+            embedding = result["embedding"]
+
+            # Cache embedding vector
+            try:
+                await cache_set(cache_key, embedding, CacheTTL.EMBEDDING)
+            except Exception:
+                pass
+
+            return embedding
         except Exception as e:
             logger.error(f"[AI Search] Gemini embedding failed: {e}")
             raise ValueError(f"Không thể tạo embedding cho query: {e}")

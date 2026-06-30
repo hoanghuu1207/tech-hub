@@ -22,6 +22,21 @@ services:
       timeout: 5s
       retries: 5
 
+  redis:
+    image: redis:7-alpine
+    container_name: techshop_redis
+    restart: always
+    volumes:
+      - redis_data:/data
+    networks:
+      - techshop_network
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
   backend:
     build:
       context: .
@@ -34,6 +49,8 @@ services:
       - "127.0.0.1:8000:8000"    # Chỉ bind localhost, Nginx sẽ proxy vào
     depends_on:
       postgres:
+        condition: service_healthy
+      redis:
         condition: service_healthy
     networks:
       - techshop_network
@@ -52,6 +69,8 @@ services:
 
 volumes:
   postgres_data:
+    driver: local
+  redis_data:
     driver: local
 
 networks:

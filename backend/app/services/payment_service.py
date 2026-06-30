@@ -450,6 +450,15 @@ class PaymentService:
                     logger.warning(f"💳 [Profile] Learning failed: {profile_err}")
 
                 logger.info(f"💳 [Webhook] ✅ Order #{order_code} PAID + Stock deducted")
+
+                # ── Invalidate cache (stock changed) ──
+                try:
+                    from app.services.cache_service import CacheInvalidator
+                    for item in order.items:
+                        await CacheInvalidator.invalidate_product(item.product_id)
+                    await CacheInvalidator.invalidate_catalog()
+                except Exception:
+                    pass
             else:
                 order.payment_status = "failed"
                 order.status = "cancelled"

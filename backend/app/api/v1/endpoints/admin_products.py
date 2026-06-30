@@ -343,6 +343,13 @@ async def create_product(
 
     await db.commit()
 
+    # Invalidate cache sau khi tạo sản phẩm mới
+    try:
+        from app.services.cache_service import CacheInvalidator
+        await CacheInvalidator.invalidate_catalog()
+    except Exception:
+        pass
+
     # Re-fetch with relationships
     result = await db.execute(
         select(Product).where(Product.id == product.id).options(
@@ -357,6 +364,7 @@ async def create_product(
     stock = sum(v.stock_quantity for v in product.variants) if product.variants else 0
 
     return {"success": True, "message": "Product created", "data": _serialize_product(product, stock)}
+
 
 
 # ─── UPDATE Product ──────────────────────────────────────
@@ -461,6 +469,13 @@ async def update_product(
 
     await db.commit()
 
+    # Invalidate cache sau khi cập nhật sản phẩm
+    try:
+        from app.services.cache_service import CacheInvalidator
+        await CacheInvalidator.invalidate_product_and_catalog(product_id)
+    except Exception:
+        pass
+
     # Re-fetch
     result = await db.execute(
         select(Product).where(Product.id == product.id).options(
@@ -523,6 +538,13 @@ async def delete_product(
     product.qdrant_vector_id = None
     await db.commit()
 
+    # Invalidate cache sau khi xóa sản phẩm
+    try:
+        from app.services.cache_service import CacheInvalidator
+        await CacheInvalidator.invalidate_product_and_catalog(product_id)
+    except Exception:
+        pass
+
     return {"success": True, "message": f"Product '{product.name}' moved to trash"}
 
 
@@ -563,6 +585,13 @@ async def toggle_product_status(
 
     product.is_active = body.is_active
     await db.commit()
+
+    # Invalidate cache sau khi thay đổi trạng thái
+    try:
+        from app.services.cache_service import CacheInvalidator
+        await CacheInvalidator.invalidate_product_and_catalog(product_id)
+    except Exception:
+        pass
 
     # Update Qdrant payload is_active if indexed
     if product.qdrant_vector_id:
