@@ -1,3 +1,4 @@
+import 'package:dio/dio.dart';
 import '../core/network/api_client.dart';
 
 class ChatService {
@@ -20,7 +21,13 @@ class ChatService {
       body['conversation_id'] = _conversationId;
     }
 
-    final response = await _apiClient.dio.post('/chat', data: body);
+    final response = await _apiClient.dio.post(
+      '/chat',
+      data: body,
+      options: Options(
+        receiveTimeout: const Duration(seconds: 120),
+      ),
+    );
     final data = response.data;
 
     if (data is Map<String, dynamic> &&
