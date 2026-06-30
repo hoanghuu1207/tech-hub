@@ -284,18 +284,22 @@ class ChatService:
 
             await db.commit()
 
-            # ── 6. Trigger profile learning (fire-and-forget) ──
+            # ── 6. Trigger profile learning (fire-and-forget — không block response) ──
             if user_id and intent_type != "general_knowledge":
-                try:
-                    await profile_learning_service.learn_from_chat(
-                        user_id=user_id,
-                        user_message=message,
-                        intent_type=intent_type,
-                        db=db,
-                    )
-                    await db.commit()
-                except Exception as profile_err:
-                    logger.warning(f"💬 [Chatbot] Profile learning failed: {profile_err}")
+                async def _background_learn():
+                    try:
+                        from app.db.session import SessionLocal
+                        async with SessionLocal() as bg_db:
+                            await profile_learning_service.learn_from_chat(
+                                user_id=user_id,
+                                user_message=message,
+                                intent_type=intent_type,
+                                db=bg_db,
+                            )
+                            await bg_db.commit()
+                    except Exception as profile_err:
+                        logger.warning(f"💬 [Chatbot] Profile learning failed: {profile_err}")
+                asyncio.create_task(_background_learn())
 
             elapsed = (time.time() - start_time) * 1000
             logger.info(f"💬 [Chatbot] Response ({intent_type}) in {elapsed:.0f}ms: {assistant_message[:100]}...")
