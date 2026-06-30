@@ -61,7 +61,7 @@ Nhiệm vụ: Dựa trên HỒ SƠ CŨ và HÀNH ĐỘNG MỚI, hãy viết lạ
 """
 
 # Giới hạn tần suất cập nhật (giây) — tránh gọi Gemini quá nhiều
-MIN_UPDATE_INTERVAL_SECONDS = 30
+MIN_UPDATE_INTERVAL_SECONDS = 15
 
 
 class ProfileLearningService:

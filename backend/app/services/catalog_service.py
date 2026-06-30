@@ -162,14 +162,14 @@ class CatalogService:
     def _personalize_products(
         products: List[Product],
         profile_summary: Optional[str],
-        recent_view_ids: Optional[Set[str]] = None,
+        recent_view_ids: Optional[dict] = None,
         related_brand_ids: Optional[Set[str]] = None,
         related_category_ids: Optional[Set[str]] = None,
         related_line_ids: Optional[Set[str]] = None,
     ) -> List[Product]:
         """
         Re-rank danh sách sản phẩm. Thứ tự ưu tiên:
-          0. Sản phẩm vừa xem gần đây       → 20.0
+          0. Sản phẩm vừa xem gần đây       → 20.0 ~ 12.0 (giảm dần theo thứ tự)
           0b. SP liên quan (cùng brand/cat/line với SP đã xem) → 8.0
           1. Thương hiệu yêu thích (profile) → 5.0
           2. Danh mục quan tâm (profile)      → 3.0
@@ -182,7 +182,7 @@ class CatalogService:
             return products
 
         prefs = CatalogService._parse_profile_preferences(profile_summary) if profile_summary else None
-        rv_ids = recent_view_ids or set()
+        rv_ids = recent_view_ids or {}   # dict {pid: position}
         rb_ids = related_brand_ids or set()
         rc_ids = related_category_ids or set()
         rl_ids = related_line_ids or set()
@@ -191,9 +191,11 @@ class CatalogService:
             boost = 0.0
             pid = str(product.id)
 
-            # ⓪ Sản phẩm vừa xem gần đây (20.0)
+            # ⓪ Sản phẩm vừa xem gần đây (20.0 → 12.0 giảm dần)
+            #    position 0 = gần nhất → boost cao nhất
             if pid in rv_ids:
-                boost += 20.0
+                position = rv_ids[pid]
+                boost += max(20.0 - position * 1.0, 12.0)
 
             # ⓪b Sản phẩm liên quan (cùng brand/category/line) (8.0)
             if pid not in rv_ids:
@@ -799,8 +801,11 @@ class CatalogService:
     ) -> dict:
         """
         Lấy N sản phẩm xem gần nhất của user.
-        Returns dict với keys: product_ids, brand_ids, category_ids, line_ids.
-        brand_ids và category_ids chứa **tên** (string) để dùng cho compact products.
+        Returns dict với keys:
+          - product_ids: dict {product_id_str: position} (0 = gần nhất)
+          - brand_ids: set tên brand (lowercase)
+          - category_ids: set tên category (lowercase)
+          - line_ids: set line_id (str)
         """
         stmt = (
             select(ProductView)
@@ -813,6 +818,11 @@ class CatalogService:
 
         if not views:
             return {}
+
+        # product_ids: dict {pid: position} — position 0 = xem gần nhất
+        product_ids_with_pos = {
+            str(v.product_id): idx for idx, v in enumerate(views)
+        }
 
         # Collect unique brand/category IDs từ views
         brand_uuid_set = {v.brand_id for v in views if v.brand_id}
@@ -835,9 +845,9 @@ class CatalogService:
             cat_names = {row[0].lower() for row in res.all()}
 
         return {
-            "product_ids": {str(v.product_id) for v in views},
-            "brand_ids": brand_names,       # tên brand (lowercase)
-            "category_ids": cat_names,       # tên category (lowercase)
+            "product_ids": product_ids_with_pos,  # dict {pid: position}
+            "brand_ids": brand_names,
+            "category_ids": cat_names,
             "line_ids": {str(v.line_id) for v in views if v.line_id},
         }
 
@@ -849,7 +859,7 @@ class CatalogService:
     def _personalize_compact_products(
         products_data: list[dict],
         profile_summary: Optional[str],
-        recent_view_ids: Optional[Set[str]] = None,
+        recent_view_ids: Optional[dict] = None,
         related_brand_ids: Optional[Set[str]] = None,
         related_category_ids: Optional[Set[str]] = None,
         related_line_ids: Optional[Set[str]] = None,
@@ -857,13 +867,13 @@ class CatalogService:
         """
         Re-rank danh sách sản phẩm (dạng dict/serialized).
         Dùng cho cached data — không cần ORM objects.
-        Thứ tự: recently viewed → related → profile boost → sold_count.
+        Thứ tự: recently viewed (giảm dần) → related → profile boost → sold_count.
         """
         if not products_data:
             return products_data
 
         prefs = CatalogService._parse_profile_preferences(profile_summary) if profile_summary else None
-        rv_ids = recent_view_ids or set()
+        rv_ids = recent_view_ids or {}   # dict {pid: position}
         rb_ids = related_brand_ids or set()
         rc_ids = related_category_ids or set()
         rl_ids = related_line_ids or set()
@@ -874,9 +884,10 @@ class CatalogService:
             brand_name = (p.get("brand_name") or "").lower()
             category_name = (p.get("category_name") or "").lower()
 
-            # ⓪ Sản phẩm vừa xem (20.0)
+            # ⓪ Sản phẩm vừa xem (20.0 → 12.0 giảm dần)
             if pid in rv_ids:
-                boost += 20.0
+                position = rv_ids[pid]
+                boost += max(20.0 - position * 1.0, 12.0)
 
             # ⓪b Sản phẩm liên quan (8.0)
             if pid not in rv_ids:
