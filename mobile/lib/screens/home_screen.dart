@@ -4,7 +4,6 @@ import 'package:google_fonts/google_fonts.dart';
 import '../../bloc/chat_bloc.dart';
 import '../../bloc/cart_bloc.dart';
 import '../../bloc/catalog_bloc.dart';
-import '../../widgets/premium_home_tab.dart';
 import '../../widgets/products_tab.dart';
 import '../../widgets/orders_tab.dart';
 import '../../services/notification_ws.dart';
@@ -73,25 +72,23 @@ class _HomeScreenState extends State<HomeScreen> {
         body: IndexedStack(
           index: _selectedTab,
           children: [
-            PremiumHomeTab(
-              onProfileTap: () => setState(() => _selectedTab = 4),
-              onCartTap: () => setState(() => _selectedTab = 2),
-              onProductsTap: () => setState(() => _selectedTab = 1),
-              onNotificationTap: () => Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const NotificationScreen()),
-              ),
-            ),
             BlocProvider(
               create: (_) => CatalogBloc()..add(const CatalogStarted()),
-              child: const ProductsTab(),
+              child: ProductsTab(
+                onProfileTap: () => setState(() => _selectedTab = 3),
+                onCartTap: () => setState(() => _selectedTab = 1),
+                onNotificationTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const NotificationScreen()),
+                ),
+              ),
             ),
             CartScreen(
               onContinueShopping: () => setState(() => _selectedTab = 0),
             ),
             const OrdersTab(),
             ProfileScreen(
-              onOrdersTap: () => setState(() => _selectedTab = 3),
+              onOrdersTap: () => setState(() => _selectedTab = 2),
             ),
           ],
         ),
@@ -106,7 +103,7 @@ class _HomeScreenState extends State<HomeScreen> {
     switch (nav.action) {
       // ── Search results → Switch to products tab ──
       case 'show_product_list':
-        setState(() => _selectedTab = 1);
+        setState(() => _selectedTab = 0);
         break;
 
       // ── Product detail → Push detail screen ──
@@ -122,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
       // ── Cart actions → Switch to cart tab ──
       case 'show_cart':
       case 'cart_updated':
-        setState(() => _selectedTab = 2);
+        setState(() => _selectedTab = 1);
         context.read<CartBloc>().add(const CartFetch());
         break;
 
@@ -142,8 +139,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
       // ── Order detail → Switch to orders tab ──
       case 'show_order_detail':
-        // OrderDetailScreen requires an Order object, so just switch to Orders tab
-        setState(() => _selectedTab = 3);
+        setState(() => _selectedTab = 2);
         break;
 
       // ── Promotions → Switch to home tab ──
@@ -190,10 +186,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   _buildNavItem(Icons.home_rounded, 'Trang chủ', 0),
-                  _buildNavItem(Icons.grid_view_rounded, 'Sản phẩm', 1),
-                  _buildNavItem(Icons.shopping_bag_rounded, 'Giỏ hàng', 2, badgeCount: cartState.cart.activeItemCount),
-                  _buildNavItem(Icons.receipt_long_rounded, 'Đơn hàng', 3),
-                  _buildNavItem(Icons.person_rounded, 'Tài khoản', 4),
+                  _buildNavItem(Icons.shopping_bag_rounded, 'Giỏ hàng', 1, badgeCount: cartState.cart.activeItemCount),
+                  _buildNavItem(Icons.receipt_long_rounded, 'Đơn hàng', 2),
+                  _buildNavItem(Icons.person_rounded, 'Tài khoản', 3),
                 ],
               );
             },
