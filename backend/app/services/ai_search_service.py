@@ -80,6 +80,28 @@ brand_slugs là MẢNG thương hiệu, viết thường không dấu.
 Nếu user nói "hoặc"/"hay"/"và" nhiều brand → liệt kê hết: ["huawei", "xiaomi"]
 Nếu chỉ 1 brand → ["apple"]. Không xác định → [].
 
+=== QUY TẮC MÀU SẮC (colors) ===
+colors là MẢNG tên màu sắc mà user yêu cầu, viết thường tiếng Việt.
+- "đen", "trắng", "xanh", "đỏ", "vàng", "hồng", "tím", "bạc", "xám", "xanh dương", "xanh lá"
+- "black" → "đen", "white" → "trắng", "blue" → "xanh dương", "red" → "đỏ", "gold" → "vàng", "pink" → "hồng", "silver" → "bạc", "gray/grey" → "xám", "green" → "xanh lá", "purple" → "tím"
+- Nếu user không đề cập màu → []
+
+=== QUY TẮC SPEC_FILTERS (THÔNG SỐ KỸ THUẬT MỞ RỘNG) ===
+spec_filters là object chứa BẤT KỲ thông số kỹ thuật nào mà user yêu cầu nhưng KHÔNG nằm trong các trường cố định (ram, storage, screen).
+Các key phổ biến:
+- "chipset": tên chip (vd: "snapdragon", "dimensity", "a17", "m2") — dạng text, viết thường
+- "os": hệ điều hành (vd: "android", "ios", "windows", "harmonyos") — dạng text, viết thường
+- "camera_mp_min": camera tối thiểu (MP) — dạng số
+- "battery_mah_min": pin tối thiểu (mAh) — dạng số
+- "battery_mah_max": pin tối đa (mAh) — dạng số
+- "refresh_rate_min": tần số quét tối thiểu (Hz) — dạng số
+- "fast_charge_min": sạc nhanh tối thiểu (W) — dạng số
+- "type": loại sản phẩm (vd: "true wireless", "over-ear", "in-ear") — dạng text
+- "water_resistance": kháng nước (vd: "ip68", "ip67", "5atm") — dạng text
+- "sim": loại SIM (vd: "2 sim", "esim") — dạng text
+- "5g": true nếu user yêu cầu 5G — dạng boolean
+Nếu không có thông số mở rộng → {}
+
 === QUY TẮC SEARCH_TEXT (RẤT QUAN TRỌNG) ===
 search_text là câu TÌM KIẾM NGỮ NGHĨA, sẽ được dùng để so sánh vector similarity với dữ liệu sản phẩm.
 - BỎ: giá cả, số tiền, tên brand, specs kỹ thuật (ram, gb, inch...)
@@ -88,6 +110,7 @@ search_text là câu TÌM KIẾM NGỮ NGHĨA, sẽ được dùng để so sán
   + Mục đích sử dụng: "chơi game", "học tập", "chạy bộ", "bơi lội", "nghe nhạc"
   + Đặc tính sản phẩm: "chống nước", "chống ồn", "mỏng nhẹ", "pin trâu", "chụp ảnh đẹp"
   + Loại sản phẩm cụ thể: "định vị trẻ em", "gaming", "ultrabook", "true wireless"
+  + Màu sắc: "đen", "trắng", "xanh"... (GIỮ LẠI trong search_text để hỗ trợ semantic search)
 
 === QUY TẮC EXACT_NAME (RẤT QUAN TRỌNG) ===
 exact_name: Tên model CỤ THỂ mà user đang tìm. Chỉ điền khi user nói RÕ RÀNG tên dòng sản phẩm.
@@ -99,17 +122,16 @@ exact_name: Tên model CỤ THỂ mà user đang tìm. Chỉ điền khi user n�
   + "MacBook Pro M3" KHÁC "MacBook Air M3"
 
 Trả về JSON thuần túy (KHÔNG markdown, KHÔNG ```):
-{"search_text": "...", "exact_name": null, "category_slug": null, "brand_slugs": [], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
+{"search_text": "...", "exact_name": null, "category_slug": null, "brand_slugs": [], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null, "colors": [], "spec_filters": {}}
 
 Ví dụ:
-- "đồng hồ huawei hoặc xiaomi dành cho trẻ em dưới 2 triệu" → {"search_text": "đồng hồ định vị trẻ em", "exact_name": null, "category_slug": "smartwatch", "brand_slugs": ["huawei", "xiaomi"], "price_max": 2000000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "tai nghe chống ồn sony tầm 3 củ" → {"search_text": "tai nghe chống ồn", "exact_name": null, "category_slug": "headphone", "brand_slugs": ["sony"], "price_min": 2100000, "price_max": 3900000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "laptop chơi game cho sinh viên dell hoặc hp ram 16gb" → {"search_text": "laptop chơi game sinh viên", "exact_name": null, "category_slug": "laptop", "brand_slugs": ["dell", "hp"], "price_min": null, "price_max": null, "ram_min": 16, "ram_max": 16, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "điện thoại chụp ảnh đẹp pin trâu dưới 5tr" → {"search_text": "điện thoại chụp ảnh đẹp pin trâu", "exact_name": null, "category_slug": "smartphone", "brand_slugs": [], "price_min": null, "price_max": 5000000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "ip 15 pro max" → {"search_text": "iPhone 15 Pro Max", "exact_name": "iPhone 15 Pro Max", "category_slug": "smartphone", "brand_slugs": ["apple"], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "cho tôi xem Samsung Galaxy S24 Ultra" → {"search_text": "Samsung Galaxy S24 Ultra", "exact_name": "Galaxy S24 Ultra", "category_slug": "smartphone", "brand_slugs": ["samsung"], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "MacBook Air M2" → {"search_text": "MacBook Air M2", "exact_name": "MacBook Air M2", "category_slug": "laptop", "brand_slugs": ["apple"], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
-- "smartwatch nữ nhỏ gọn dưới 5 triệu" → {"search_text": "đồng hồ thông minh nữ nhỏ gọn", "exact_name": null, "category_slug": "smartwatch", "brand_slugs": [], "price_min": null, "price_max": 5000000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null}
+- "đồng hồ huawei hoặc xiaomi dành cho trẻ em dưới 2 triệu" → {"search_text": "đồng hồ định vị trẻ em", "exact_name": null, "category_slug": "smartwatch", "brand_slugs": ["huawei", "xiaomi"], "price_max": 2000000, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null, "colors": [], "spec_filters": {}}
+- "điện thoại màu đen samsung" → {"search_text": "điện thoại màu đen", "exact_name": null, "category_slug": "smartphone", "brand_slugs": ["samsung"], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null, "colors": ["đen"], "spec_filters": {}}
+- "laptop gaming chip snapdragon ram 16gb màn 144hz" → {"search_text": "laptop gaming", "exact_name": null, "category_slug": "laptop", "brand_slugs": [], "price_min": null, "price_max": null, "ram_min": 16, "ram_max": 16, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null, "colors": [], "spec_filters": {"chipset": "snapdragon", "refresh_rate_min": 144}}
+- "điện thoại 5g camera 108mp pin 5000mah trở lên" → {"search_text": "điện thoại 5g camera chất lượng cao pin trâu", "exact_name": null, "category_slug": "smartphone", "brand_slugs": [], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null, "colors": [], "spec_filters": {"5g": true, "camera_mp_min": 108, "battery_mah_min": 5000}}
+- "tai nghe true wireless chống nước ip68 màu trắng" → {"search_text": "tai nghe true wireless chống nước màu trắng", "exact_name": null, "category_slug": "headphone", "brand_slugs": [], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null, "colors": ["trắng"], "spec_filters": {"type": "true wireless", "water_resistance": "ip68"}}
+- "iphone 15 màu hồng" → {"search_text": "iPhone 15 màu hồng", "exact_name": "iPhone 15", "category_slug": "smartphone", "brand_slugs": ["apple"], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null, "colors": ["hồng"], "spec_filters": {}}
+- "điện thoại android sạc nhanh 65w" → {"search_text": "điện thoại sạc nhanh", "exact_name": null, "category_slug": "smartphone", "brand_slugs": [], "price_min": null, "price_max": null, "ram_min": null, "ram_max": null, "storage_min": null, "storage_max": null, "screen_min": null, "screen_max": null, "colors": [], "spec_filters": {"os": "android", "fast_charge_min": 65}}
 """
 
 
@@ -128,6 +150,8 @@ class ParsedIntent:
     storage_max: Optional[int] = None
     screen_min: Optional[float] = None
     screen_max: Optional[float] = None
+    colors: Optional[list[str]] = None  # Màu sắc yêu cầu
+    spec_filters: Optional[dict] = None  # Thông số kỹ thuật mở rộng
 
     @property
     def has_filters(self) -> bool:
@@ -138,6 +162,8 @@ class ParsedIntent:
             self.ram_min is not None, self.ram_max is not None,
             self.storage_min is not None, self.storage_max is not None,
             self.screen_min is not None, self.screen_max is not None,
+            self.colors,
+            self.spec_filters,
         ])
 
 
@@ -171,7 +197,8 @@ class AISearchService:
                      f"exact_name='{intent.exact_name}', "
                      f"cat={intent.category_slug}, brands={intent.brand_slugs}, "
                      f"price=[{intent.price_min}, {intent.price_max}], "
-                     f"ram=[{intent.ram_min}, {intent.ram_max}]")
+                     f"ram=[{intent.ram_min}, {intent.ram_max}], "
+                     f"colors={intent.colors}, spec_filters={intent.spec_filters}")
 
         # ── Bước 2: Merge intent vào filters ──
         if filters is None:
@@ -208,7 +235,9 @@ class AISearchService:
                 product_ids.append(UUID(pid))
                 score_map[pid] = point.score
 
-        products = await self._hydrate_products(product_ids, db)
+        # Hydrate kèm variants để lọc màu sắc
+        need_variants = bool(intent.colors)
+        products = await self._hydrate_products(product_ids, db, include_variants=need_variants)
 
         # ── Bước 6: Post-filter + Brand boost scoring ──
         BRAND_BOOST = 0.15  # Boost cho sản phẩm khớp brand yêu cầu
@@ -264,9 +293,18 @@ class AISearchService:
                     continue
 
             # Post-filter: Exact name matching (khi user tìm tên model cụ thể)
-            # Ví dụ: "iPhone 15 Pro Max" → loại bỏ "iPhone 12 Pro Max", "iPhone 15 Pro"
             if intent.exact_name:
                 if not self._product_name_matches(product.name, intent.exact_name):
+                    continue
+
+            # Post-filter: Màu sắc (lọc theo variants)
+            if intent.colors:
+                if not self._product_has_color(product, intent.colors):
+                    continue
+
+            # Post-filter: Thông số kỹ thuật mở rộng (spec_filters)
+            if intent.spec_filters:
+                if not self._product_matches_spec_filters(product, intent.spec_filters):
                     continue
 
             # Lấy ảnh chính
@@ -442,7 +480,7 @@ class AISearchService:
                         [INTENT_PARSER_PROMPT, f"Câu truy vấn: \"{query}\""],
                         generation_config=genai.GenerationConfig(
                             temperature=0.1,
-                            max_output_tokens=300,
+                            max_output_tokens=500,
                         ),
                     )
                 )
@@ -452,8 +490,8 @@ class AISearchService:
                 raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
                 raw_text = re.sub(r"\s*```$", "", raw_text)
 
-                # Trích xuất JSON object từ response (robust parsing)
-                json_match = re.search(r"\{[^{}]*\}", raw_text, re.DOTALL)
+                # Trích xuất JSON object từ response (robust parsing — hỗ trợ nested objects như spec_filters)
+                json_match = re.search(r"\{(?:[^{}]|\{[^{}]*\})*\}", raw_text, re.DOTALL)
                 if json_match:
                     raw_text = json_match.group(0)
 
@@ -471,6 +509,12 @@ class AISearchService:
                 if not brand_slugs and data.get("brand_slug"):
                     brand_slugs = [data["brand_slug"]]
 
+                # Xử lý colors
+                colors = data.get("colors") or []
+                
+                # Xử lý spec_filters
+                spec_filters = data.get("spec_filters") or {}
+
                 return ParsedIntent(
                     search_text=data.get("search_text") or query,
                     exact_name=data.get("exact_name"),
@@ -484,6 +528,8 @@ class AISearchService:
                     storage_max=data.get("storage_max"),
                     screen_min=data.get("screen_min"),
                     screen_max=data.get("screen_max"),
+                    colors=colors or None,
+                    spec_filters=spec_filters or None,
                 )
 
             except Exception as e:
@@ -539,6 +585,10 @@ class AISearchService:
             filters.screen_min = intent.screen_min
         if filters.screen_max is None and intent.screen_max is not None:
             filters.screen_max = intent.screen_max
+        if filters.colors is None and intent.colors:
+            filters.colors = intent.colors
+        if filters.spec_filters is None and intent.spec_filters:
+            filters.spec_filters = intent.spec_filters
 
     # ────────────────────────────────────────────────────────
     # PRIVATE: Product name matching (exact model filter)
@@ -574,8 +624,140 @@ class AISearchService:
         return all(token in name_lower for token in tokens)
 
     # ────────────────────────────────────────────────────────
-    # PRIVATE: Embedding + Qdrant search
+    # PRIVATE: Color matching (filter by variant colors)
     # ────────────────────────────────────────────────────────
+
+    @staticmethod
+    def _product_has_color(product, requested_colors: list[str]) -> bool:
+        """
+        Kiểm tra sản phẩm có variant với màu sắc khớp yêu cầu không.
+        Dùng substring matching để xử lý tên màu dạng "Đen Titan", "Xanh Dương Đậm" v.v.
+        """
+        if not hasattr(product, 'variants') or not product.variants:
+            # Nếu không load được variants, thử match trong tên sản phẩm
+            product_lower = product.name.lower()
+            return any(color.lower() in product_lower for color in requested_colors)
+
+        # Lấy tất cả tên màu từ variants active
+        variant_colors = [
+            v.color_name.lower() for v in product.variants
+            if v.is_active and v.color_name
+        ]
+
+        if not variant_colors:
+            return False
+
+        # Kiểm tra có bất kỳ màu yêu cầu nào khớp với variant colors
+        for req_color in requested_colors:
+            req_lower = req_color.lower()
+            if any(req_lower in vc or vc in req_lower for vc in variant_colors):
+                return True
+        return False
+
+    # ────────────────────────────────────────────────────────
+    # PRIVATE: Extended spec filter matching
+    # ────────────────────────────────────────────────────────
+
+    @staticmethod
+    def _product_matches_spec_filters(product, spec_filters: dict) -> bool:
+        """
+        Kiểm tra sản phẩm có khớp với các bộ lọc thông số kỹ thuật mở rộng.
+        Hỗ trợ: chipset, os, camera_mp, battery_mah, refresh_rate, fast_charge,
+        type, water_resistance, 5g, và generic text matching.
+        """
+        specs = product.specs or {}
+        perf = specs.get("performance") or {}
+        screen = specs.get("screen") or {}
+        battery = specs.get("battery") or {}
+        camera = specs.get("camera_rear") or {}
+
+        # Flatten tất cả specs thành 1 string để full-text search
+        def flatten_specs(obj, parts=None):
+            if parts is None:
+                parts = []
+            if isinstance(obj, dict):
+                for v in obj.values():
+                    flatten_specs(v, parts)
+            elif isinstance(obj, list):
+                for item in obj:
+                    flatten_specs(item, parts)
+            elif obj is not None:
+                parts.append(str(obj).lower())
+            return parts
+
+        specs_text = " ".join(flatten_specs(specs))
+
+        # Thêm highlight_features vào search text
+        if product.highlight_features:
+            specs_text += " " + " ".join(str(f).lower() for f in product.highlight_features)
+
+        for key, value in spec_filters.items():
+            if value is None:
+                continue
+
+            if key == "chipset":
+                chipset = perf.get("chipset", "")
+                if not chipset or str(value).lower() not in str(chipset).lower():
+                    return False
+
+            elif key == "os":
+                os_val = perf.get("os", "")
+                if not os_val or str(value).lower() not in str(os_val).lower():
+                    return False
+
+            elif key == "camera_mp_min":
+                main_mp = camera.get("main_mp")
+                if main_mp is None or float(main_mp) < float(value):
+                    return False
+
+            elif key == "battery_mah_min":
+                cap = battery.get("capacity_mah")
+                if cap is None or float(cap) < float(value):
+                    return False
+
+            elif key == "battery_mah_max":
+                cap = battery.get("capacity_mah")
+                if cap is None or float(cap) > float(value):
+                    return False
+
+            elif key == "refresh_rate_min":
+                rr = screen.get("refresh_rate_hz")
+                if rr is None or float(rr) < float(value):
+                    return False
+
+            elif key == "fast_charge_min":
+                fc = battery.get("fast_charge_w")
+                if fc is None or float(fc) < float(value):
+                    return False
+
+            elif key == "type":
+                # Tìm trong specs.type hoặc trong full specs text
+                spec_type = specs.get("type", "")
+                if spec_type and str(value).lower() in str(spec_type).lower():
+                    continue
+                if str(value).lower() not in specs_text:
+                    return False
+
+            elif key == "water_resistance":
+                # Tìm trong full specs text (ip68, 5atm, etc.)
+                if str(value).lower() not in specs_text:
+                    return False
+
+            elif key == "5g":
+                if value is True:
+                    if "5g" not in specs_text:
+                        return False
+
+            elif key == "sim":
+                if str(value).lower() not in specs_text:
+                    return False
+
+            else:
+                # Generic: tìm value trong toàn bộ specs text
+                if str(value).lower() not in specs_text:
+                    return False
+
+        return True
 
     async def _embed_query(self, text: str) -> list[float]:
         try:
@@ -663,13 +845,17 @@ class AISearchService:
     # PRIVATE: Hydrate từ PostgreSQL
     # ────────────────────────────────────────────────────────
 
+
     @staticmethod
-    async def _hydrate_products(product_ids: list[UUID], db: AsyncSession) -> list[Product]:
+    async def _hydrate_products(product_ids: list[UUID], db: AsyncSession, include_variants: bool = False) -> list[Product]:
         if not product_ids:
             return []
+        options = [selectinload(Product.category), selectinload(Product.brand), selectinload(Product.images)]
+        if include_variants:
+            options.append(selectinload(Product.variants))
         result = await db.execute(
             select(Product).where(Product.id.in_(product_ids))
-            .options(selectinload(Product.category), selectinload(Product.brand), selectinload(Product.images))
+            .options(*options)
         )
         products = result.scalars().all()
         id_order = {pid: idx for idx, pid in enumerate(product_ids)}

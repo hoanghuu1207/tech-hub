@@ -484,6 +484,9 @@ class _FabRouteObserver extends NavigatorObserver {
   static const _hiddenRoutes = {'/', '/login', '/register'};
 
   void _check(Route? route) {
+    if (route is PageRoute) {
+      GlobalChatFAB.showForSheet();
+    }
     final name = route?.settings.name;
     if (name != null && _hiddenRoutes.contains(name)) {
       GlobalChatFAB.hideForRoute();
