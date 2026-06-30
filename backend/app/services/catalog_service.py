@@ -7,15 +7,16 @@ Cung cấp 4 API chính:
   3. GET /categories/{id}/brands/{id} → Products + lines của 1 brand/category
   4. GET /product-lines/{id}   → Products của 1 line
 
-Cá nhân hóa:
-  - Khi user đã login và có profile_summary, danh sách sản phẩm sẽ được
-    re-rank (boost) theo sở thích cá nhân (thương hiệu, danh mục, tầm giá).
+Cá nhân hóa (thứ tự ưu tiên):
+  1. Sản phẩm vừa xem gần đây + sản phẩm liên quan (cùng brand/category/line)
+  2. Profile summary: thương hiệu, danh mục, phân khúc giá, lịch sử mua, tính năng
+  3. Trong cùng mức boost: ưu tiên sold_count cao hơn
 """
 
 import logging
 import json
 from uuid import UUID
-from typing import Optional, List
+from typing import Optional, List, Set
 
 from sqlalchemy import select, func
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -24,6 +25,7 @@ from sqlalchemy.orm import selectinload
 from app.models.product import (
     Category, Brand, ProductLine, Product, ProductImage, ProductVariant,
 )
+from app.models.interaction import ProductView
 from app.schemas.catalog import (
     CategoryOut, BrandOut, ProductLineOut, ProductCompact,
     CategoryWithBrandsOut,
@@ -160,82 +162,101 @@ class CatalogService:
     def _personalize_products(
         products: List[Product],
         profile_summary: Optional[str],
+        recent_view_ids: Optional[Set[str]] = None,
+        related_brand_ids: Optional[Set[str]] = None,
+        related_category_ids: Optional[Set[str]] = None,
+        related_line_ids: Optional[Set[str]] = None,
     ) -> List[Product]:
         """
-        Re-rank danh sách sản phẩm dựa trên hồ sơ người dùng.
-        Không thay đổi tập kết quả, chỉ thay đổi thứ tự.
-
-        Thứ tự ưu tiên (boost weights):
-          1. Thương hiệu yêu thích   → 5.0 (cao nhất)
-          2. Danh mục quan tâm        → 3.0
-          3. Phân khúc giá phù hợp    → 2.0
-          4. Lịch sử mua (keywords)   → 1.5
-          5. Tính năng ưu tiên        → 1.0
+        Re-rank danh sách sản phẩm. Thứ tự ưu tiên:
+          0. Sản phẩm vừa xem gần đây       → 20.0
+          0b. SP liên quan (cùng brand/cat/line với SP đã xem) → 8.0
+          1. Thương hiệu yêu thích (profile) → 5.0
+          2. Danh mục quan tâm (profile)      → 3.0
+          3. Phân khúc giá phù hợp (profile)  → 2.0
+          4. Lịch sử mua (profile)            → 1.5
+          5. Tính năng ưu tiên (profile)      → 1.0
+        Tie-breaker: sold_count (cao → thấp).
         """
-        if not profile_summary or not products:
+        if not products:
             return products
 
-        prefs = CatalogService._parse_profile_preferences(profile_summary)
+        prefs = CatalogService._parse_profile_preferences(profile_summary) if profile_summary else None
+        rv_ids = recent_view_ids or set()
+        rb_ids = related_brand_ids or set()
+        rc_ids = related_category_ids or set()
+        rl_ids = related_line_ids or set()
 
         def _calc_boost(product: Product) -> float:
             boost = 0.0
+            pid = str(product.id)
 
-            # ① Thương hiệu — Ưu tiên CAO NHẤT (5.0)
+            # ⓪ Sản phẩm vừa xem gần đây (20.0)
+            if pid in rv_ids:
+                boost += 20.0
+
+            # ⓪b Sản phẩm liên quan (cùng brand/category/line) (8.0)
+            if pid not in rv_ids:
+                related = False
+                if product.brand_id and str(product.brand_id) in rb_ids:
+                    related = True
+                if product.category_id and str(product.category_id) in rc_ids:
+                    related = True
+                if product.line_id and str(product.line_id) in rl_ids:
+                    related = True
+                if related:
+                    boost += 8.0
+
+            if not prefs:
+                return boost
+
+            # ① Thương hiệu yêu thích (5.0)
             if product.brand and product.brand.name:
-                brand_lower = product.brand.name.lower()
-                if brand_lower in prefs["brands"]:
+                if product.brand.name.lower() in prefs["brands"]:
                     boost += 5.0
 
-            # ② Danh mục — Ưu tiên cao (3.0)
+            # ② Danh mục quan tâm (3.0)
             if product.category and product.category.slug:
                 cat_slug = product.category.slug.lower()
                 if cat_slug in prefs["categories"]:
                     boost += 3.0
-                # Fallback: match by category name
-                elif product.category.name:
-                    cat_name = product.category.name.lower()
-                    profile_lower = profile_summary.lower()
-                    if cat_name in profile_lower:
-                        boost += 3.0
+                elif product.category.name and product.category.name.lower() in profile_summary.lower():
+                    boost += 3.0
 
-            # ③ Phân khúc giá — Ưu tiên trung bình (2.0)
-            display_price = float(product.sale_price) if product.sale_price else (
-                float(product.base_price) if product.base_price else 0
-            )
-            if display_price > 0:
+            # ③ Phân khúc giá (2.0)
+            dp = float(product.sale_price) if product.sale_price else (float(product.base_price) if product.base_price else 0)
+            if dp > 0:
                 in_range = True
-                if prefs["price_min"] is not None and display_price < prefs["price_min"]:
+                if prefs["price_min"] is not None and dp < prefs["price_min"]:
                     in_range = False
-                if prefs["price_max"] is not None and display_price > prefs["price_max"]:
+                if prefs["price_max"] is not None and dp > prefs["price_max"]:
                     in_range = False
                 if in_range and (prefs["price_min"] is not None or prefs["price_max"] is not None):
                     boost += 2.0
 
-            # ④ Lịch sử mua — Ưu tiên (1.5)
+            # ④ Lịch sử mua (1.5)
             if product.brand and product.brand.name and prefs["purchased_keywords"]:
-                brand_lower = product.brand.name.lower()
-                if brand_lower in prefs["purchased_keywords"]:
+                if product.brand.name.lower() in prefs["purchased_keywords"]:
                     boost += 1.5
 
-            # ⑤ Tính năng — Ưu tiên thấp (1.0)
+            # ⑤ Tính năng (1.0)
             if product.name and prefs["features"]:
-                name_lower = product.name.lower()
-                features_text = " ".join(product.highlight_features or []).lower()
-                combined = name_lower + " " + features_text
+                combined = product.name.lower() + " " + " ".join(product.highlight_features or []).lower()
                 for kw in prefs["features"]:
                     if kw in combined:
                         boost += 1.0
-                        break  # Chỉ tính 1 lần cho tính năng
+                        break
 
             return boost
 
-        # Sắp xếp: sản phẩm có boost cao lên trước, giữ thứ tự cũ nếu boost bằng nhau
-        products_with_boost = [(p, _calc_boost(p)) for p in products]
-        products_with_boost.sort(key=lambda x: x[1], reverse=True)
+        # Sort: boost cao trước, tie-break bằng sold_count
+        products_with_score = [
+            (p, _calc_boost(p), p.sold_count or 0) for p in products
+        ]
+        products_with_score.sort(key=lambda x: (x[1], x[2]), reverse=True)
 
-        # Chỉ re-rank nếu ít nhất 1 sản phẩm có boost > 0
-        if any(b > 0 for _, b in products_with_boost):
-            return [p for p, _ in products_with_boost]
+        if any(b > 0 for _, b, _ in products_with_score):
+            return [p for p, _, _ in products_with_score]
 
         return products
 
@@ -351,20 +372,27 @@ class CatalogService:
     async def get_all_products_cached(
         self, db: AsyncSession, limit: int = 50, offset: int = 0,
         user_profile: Optional[str] = None,
+        user_id: Optional[UUID] = None,
     ) -> dict:
         """Lấy tất cả products, cache base data, personalize trên cached data."""
         from app.services.cache_service import CacheKeys, CacheTTL
         from app.db.redis import cache_get, cache_set
+
+        # Lấy lịch sử xem gần đây (nếu đã login)
+        rv = await self._get_recent_views(db, user_id) if user_id else {}
 
         cache_key = CacheKeys.all_products(limit, offset)
 
         # Thử lấy từ cache
         cached = await cache_get(cache_key)
         if cached is not None:
-            # Personalize trên cached data nếu có profile
-            if user_profile and cached.get("products"):
+            if (user_profile or rv) and cached.get("products"):
                 cached["products"] = self._personalize_compact_products(
-                    cached["products"], user_profile
+                    cached["products"], user_profile,
+                    recent_view_ids=rv.get("product_ids"),
+                    related_brand_ids=rv.get("brand_ids"),
+                    related_category_ids=rv.get("category_ids"),
+                    related_line_ids=rv.get("line_ids"),
                 )
             return cached
 
@@ -381,9 +409,13 @@ class CatalogService:
         await cache_set(cache_key, data, CacheTTL.ALL_PRODUCTS)
 
         # Personalize cho request hiện tại
-        if user_profile and data["products"]:
+        if (user_profile or rv) and data["products"]:
             data["products"] = self._personalize_compact_products(
-                data["products"], user_profile
+                data["products"], user_profile,
+                recent_view_ids=rv.get("product_ids"),
+                related_brand_ids=rv.get("brand_ids"),
+                related_category_ids=rv.get("category_ids"),
+                related_line_ids=rv.get("line_ids"),
             )
 
         return data
@@ -431,28 +463,33 @@ class CatalogService:
         self, category_id: UUID, db: AsyncSession,
         limit: int = 50, offset: int = 0,
         user_profile: Optional[str] = None,
+        user_id: Optional[UUID] = None,
     ) -> dict:
         """get_category_products với Redis cache."""
         from app.services.cache_service import CacheKeys, CacheTTL
         from app.db.redis import cache_get, cache_set
 
+        rv = await self._get_recent_views(db, user_id) if user_id else {}
+
         cache_key = CacheKeys.category_products(category_id, limit, offset)
         cached = await cache_get(cache_key)
         if cached is not None:
-            if user_profile and cached.get("products"):
+            if (user_profile or rv) and cached.get("products"):
                 cached["products"] = self._personalize_compact_products(
-                    cached["products"], user_profile
+                    cached["products"], user_profile,
+                    recent_view_ids=rv.get("product_ids"),
+                    related_brand_ids=rv.get("brand_ids"),
+                    related_category_ids=rv.get("category_ids"),
+                    related_line_ids=rv.get("line_ids"),
                 )
             return cached
 
-        # Cache miss → gọi method gốc (không personalize)
         result = await self.get_category_products(
             category_id, db, limit=limit, offset=offset, user_profile=None
         )
         if result is None:
             return None
 
-        # Serialize để cache
         cache_data = {
             "category": result["category"].model_dump() if hasattr(result["category"], 'model_dump') else result["category"],
             "brands": [b.model_dump() if hasattr(b, 'model_dump') else b for b in result["brands"]],
@@ -461,10 +498,13 @@ class CatalogService:
         }
         await cache_set(cache_key, cache_data, CacheTTL.PRODUCT_LIST)
 
-        # Personalize cho request hiện tại
-        if user_profile and cache_data["products"]:
+        if (user_profile or rv) and cache_data["products"]:
             cache_data["products"] = self._personalize_compact_products(
-                cache_data["products"], user_profile
+                cache_data["products"], user_profile,
+                recent_view_ids=rv.get("product_ids"),
+                related_brand_ids=rv.get("brand_ids"),
+                related_category_ids=rv.get("category_ids"),
+                related_line_ids=rv.get("line_ids"),
             )
 
         return cache_data
@@ -525,17 +565,24 @@ class CatalogService:
         self, category_id: UUID, brand_id: UUID, db: AsyncSession,
         limit: int = 50, offset: int = 0,
         user_profile: Optional[str] = None,
+        user_id: Optional[UUID] = None,
     ) -> dict:
         """get_brand_products với Redis cache."""
         from app.services.cache_service import CacheKeys, CacheTTL
         from app.db.redis import cache_get, cache_set
 
+        rv = await self._get_recent_views(db, user_id) if user_id else {}
+
         cache_key = CacheKeys.brand_products(category_id, brand_id, limit, offset)
         cached = await cache_get(cache_key)
         if cached is not None:
-            if user_profile and cached.get("products"):
+            if (user_profile or rv) and cached.get("products"):
                 cached["products"] = self._personalize_compact_products(
-                    cached["products"], user_profile
+                    cached["products"], user_profile,
+                    recent_view_ids=rv.get("product_ids"),
+                    related_brand_ids=rv.get("brand_ids"),
+                    related_category_ids=rv.get("category_ids"),
+                    related_line_ids=rv.get("line_ids"),
                 )
             return cached
 
@@ -554,9 +601,13 @@ class CatalogService:
         }
         await cache_set(cache_key, cache_data, CacheTTL.PRODUCT_LIST)
 
-        if user_profile and cache_data["products"]:
+        if (user_profile or rv) and cache_data["products"]:
             cache_data["products"] = self._personalize_compact_products(
-                cache_data["products"], user_profile
+                cache_data["products"], user_profile,
+                recent_view_ids=rv.get("product_ids"),
+                related_brand_ids=rv.get("brand_ids"),
+                related_category_ids=rv.get("category_ids"),
+                related_line_ids=rv.get("line_ids"),
             )
 
         return cache_data
@@ -603,17 +654,24 @@ class CatalogService:
         self, line_id: UUID, db: AsyncSession,
         limit: int = 50, offset: int = 0,
         user_profile: Optional[str] = None,
+        user_id: Optional[UUID] = None,
     ) -> dict:
         """get_line_products với Redis cache."""
         from app.services.cache_service import CacheKeys, CacheTTL
         from app.db.redis import cache_get, cache_set
 
+        rv = await self._get_recent_views(db, user_id) if user_id else {}
+
         cache_key = CacheKeys.line_products(line_id, limit, offset)
         cached = await cache_get(cache_key)
         if cached is not None:
-            if user_profile and cached.get("products"):
+            if (user_profile or rv) and cached.get("products"):
                 cached["products"] = self._personalize_compact_products(
-                    cached["products"], user_profile
+                    cached["products"], user_profile,
+                    recent_view_ids=rv.get("product_ids"),
+                    related_brand_ids=rv.get("brand_ids"),
+                    related_category_ids=rv.get("category_ids"),
+                    related_line_ids=rv.get("line_ids"),
                 )
             return cached
 
@@ -631,9 +689,13 @@ class CatalogService:
         }
         await cache_set(cache_key, cache_data, CacheTTL.PRODUCT_LIST)
 
-        if user_profile and cache_data["products"]:
+        if (user_profile or rv) and cache_data["products"]:
             cache_data["products"] = self._personalize_compact_products(
-                cache_data["products"], user_profile
+                cache_data["products"], user_profile,
+                recent_view_ids=rv.get("product_ids"),
+                related_brand_ids=rv.get("brand_ids"),
+                related_category_ids=rv.get("category_ids"),
+                related_line_ids=rv.get("line_ids"),
             )
 
         return cache_data
@@ -728,33 +790,115 @@ class CatalogService:
         return detail
 
     # ──────────────────────────────────────────────────────
+    # Helpers: Lấy lịch sử xem gần đây
+    # ──────────────────────────────────────────────────────
+
+    @staticmethod
+    async def _get_recent_views(
+        db: AsyncSession, user_id: UUID, limit: int = 15,
+    ) -> dict:
+        """
+        Lấy N sản phẩm xem gần nhất của user.
+        Returns dict với keys: product_ids, brand_ids, category_ids, line_ids.
+        brand_ids và category_ids chứa **tên** (string) để dùng cho compact products.
+        """
+        stmt = (
+            select(ProductView)
+            .where(ProductView.user_id == user_id)
+            .order_by(ProductView.viewed_at.desc())
+            .limit(limit)
+        )
+        result = await db.execute(stmt)
+        views = list(result.scalars().all())
+
+        if not views:
+            return {}
+
+        # Collect unique brand/category IDs từ views
+        brand_uuid_set = {v.brand_id for v in views if v.brand_id}
+        cat_uuid_set = {v.category_id for v in views if v.category_id}
+
+        # Resolve brand names
+        brand_names: Set[str] = set()
+        if brand_uuid_set:
+            res = await db.execute(
+                select(Brand.name).where(Brand.id.in_(brand_uuid_set))
+            )
+            brand_names = {row[0].lower() for row in res.all()}
+
+        # Resolve category names
+        cat_names: Set[str] = set()
+        if cat_uuid_set:
+            res = await db.execute(
+                select(Category.name).where(Category.id.in_(cat_uuid_set))
+            )
+            cat_names = {row[0].lower() for row in res.all()}
+
+        return {
+            "product_ids": {str(v.product_id) for v in views},
+            "brand_ids": brand_names,       # tên brand (lowercase)
+            "category_ids": cat_names,       # tên category (lowercase)
+            "line_ids": {str(v.line_id) for v in views if v.line_id},
+        }
+
+    # ──────────────────────────────────────────────────────
     # Helpers: Personalize trên dữ liệu đã serialize (dict)
     # ──────────────────────────────────────────────────────
 
     @staticmethod
     def _personalize_compact_products(
         products_data: list[dict],
-        profile_summary: str,
+        profile_summary: Optional[str],
+        recent_view_ids: Optional[Set[str]] = None,
+        related_brand_ids: Optional[Set[str]] = None,
+        related_category_ids: Optional[Set[str]] = None,
+        related_line_ids: Optional[Set[str]] = None,
     ) -> list[dict]:
         """
-        Re-rank danh sách sản phẩm (dạng dict/serialized) dựa trên hồ sơ.
+        Re-rank danh sách sản phẩm (dạng dict/serialized).
         Dùng cho cached data — không cần ORM objects.
+        Thứ tự: recently viewed → related → profile boost → sold_count.
         """
-        if not profile_summary or not products_data:
+        if not products_data:
             return products_data
 
-        prefs = CatalogService._parse_profile_preferences(profile_summary)
+        prefs = CatalogService._parse_profile_preferences(profile_summary) if profile_summary else None
+        rv_ids = recent_view_ids or set()
+        rb_ids = related_brand_ids or set()
+        rc_ids = related_category_ids or set()
+        rl_ids = related_line_ids or set()
 
         def _calc_boost(p: dict) -> float:
             boost = 0.0
-            brand_name = p.get("brand_name", "") or ""
-            category_name = p.get("category_name", "") or ""
+            pid = str(p.get("id", ""))
+            brand_name = (p.get("brand_name") or "").lower()
+            category_name = (p.get("category_name") or "").lower()
 
-            if brand_name.lower() in prefs["brands"]:
+            # ⓪ Sản phẩm vừa xem (20.0)
+            if pid in rv_ids:
+                boost += 20.0
+
+            # ⓪b Sản phẩm liên quan (8.0)
+            if pid not in rv_ids:
+                related = False
+                # rb_ids / rc_ids đã là lowercase names (từ _get_recent_views)
+                if brand_name and brand_name in rb_ids:
+                    related = True
+                if category_name and category_name in rc_ids:
+                    related = True
+                if related:
+                    boost += 8.0
+
+            if not prefs:
+                return boost
+
+            # ① Thương hiệu (5.0)
+            if brand_name in prefs["brands"]:
                 boost += 5.0
-            if category_name.lower() in [c.lower() for c in prefs["categories"]]:
+            # ② Danh mục (3.0)
+            if category_name in [c.lower() for c in prefs["categories"]]:
                 boost += 3.0
-
+            # ③ Phân khúc giá (2.0)
             dp = p.get("sale_price") or p.get("base_price") or 0
             if dp > 0:
                 in_range = True
@@ -764,17 +908,28 @@ class CatalogService:
                     in_range = False
                 if in_range and (prefs["price_min"] is not None or prefs["price_max"] is not None):
                     boost += 2.0
+            # ④ Lịch sử mua (1.5)
+            if brand_name and brand_name in prefs.get("purchased_keywords", []):
+                boost += 1.5
+            # ⑤ Tính năng (1.0)
+            for kw in prefs.get("features", []):
+                if kw in (p.get("name") or "").lower():
+                    boost += 1.0
+                    break
 
             return boost
 
-        products_with_boost = [(p, _calc_boost(p)) for p in products_data]
-        products_with_boost.sort(key=lambda x: x[1], reverse=True)
+        products_with_score = [
+            (p, _calc_boost(p), p.get("sold_count") or 0) for p in products_data
+        ]
+        products_with_score.sort(key=lambda x: (x[1], x[2]), reverse=True)
 
-        if any(b > 0 for _, b in products_with_boost):
-            return [p for p, _ in products_with_boost]
+        if any(b > 0 for _, b, _ in products_with_score):
+            return [p for p, _, _ in products_with_score]
 
         return products_data
 
 
 # Singleton
 catalog_service = CatalogService()
+

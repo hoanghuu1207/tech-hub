@@ -40,3 +40,19 @@ class Notification(Base):
 
     # Relationships
     user = relationship("User", back_populates="notifications")
+
+
+class ProductView(Base):
+    """Theo dõi lịch sử xem sản phẩm gần đây của người dùng."""
+    __tablename__ = "product_views"
+
+    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    user_id = Column(UUID(as_uuid=True), ForeignKey("users.id", ondelete="CASCADE"), nullable=False, index=True)
+    product_id = Column(UUID(as_uuid=True), ForeignKey("products.product_id", ondelete="CASCADE"), nullable=False)
+
+    # Denormalized fields để truy vấn nhanh (tránh JOIN khi personalize)
+    brand_id = Column(UUID(as_uuid=True), nullable=True)
+    category_id = Column(UUID(as_uuid=True), nullable=True)
+    line_id = Column(UUID(as_uuid=True), nullable=True)
+
+    viewed_at = Column(DateTime(timezone=True), server_default=func.now(), index=True)

@@ -47,8 +47,10 @@ async def list_all_products(
 
     # Cá nhân hóa thứ tự sản phẩm nếu đã login
     user_profile = current_user.profile_summary if current_user else None
+    user_id = current_user.id if current_user else None
     result = await catalog_service.get_all_products_cached(
-        db, limit=limit, offset=offset, user_profile=user_profile
+        db, limit=limit, offset=offset,
+        user_profile=user_profile, user_id=user_id,
     )
 
     data = AllProductsData(
@@ -75,7 +77,7 @@ async def get_product_detail(
     if detail is None:
         raise HTTPException(status_code=404, detail="Sản phẩm không tồn tại")
 
-    # ── Tracking: cập nhật hồ sơ cá nhân từ hành vi duyệt (fire-and-forget) ──
+    # ── Tracking: cập nhật hồ sơ cá nhân + ghi lịch sử xem (fire-and-forget) ──
     if current_user:
         import asyncio
         _user_id = current_user.id
@@ -84,8 +86,9 @@ async def get_product_detail(
             try:
                 from app.services.profile_learning_service import profile_learning_service
                 from app.models.product import Product
+                from app.models.interaction import ProductView
                 from sqlalchemy.orm import selectinload
-                from sqlalchemy import select
+                from sqlalchemy import select, delete
                 from app.db.session import SessionLocal
 
                 async with SessionLocal() as bg_db:
@@ -97,11 +100,41 @@ async def get_product_detail(
                     result = await bg_db.execute(stmt)
                     product = result.scalar_one_or_none()
                     if product:
+                        # 1. Cập nhật profile summary (Gemini)
                         await profile_learning_service.learn_from_view(
                             user_id=_user_id,
                             product=product,
                             db=bg_db,
                         )
+
+                        # 2. Ghi lịch sử xem vào product_views
+                        # Xóa bản ghi cũ nếu đã xem sản phẩm này (upsert logic)
+                        await bg_db.execute(
+                            delete(ProductView).where(
+                                ProductView.user_id == _user_id,
+                                ProductView.product_id == product_id,
+                            )
+                        )
+                        view = ProductView(
+                            user_id=_user_id,
+                            product_id=product.id,
+                            brand_id=product.brand_id,
+                            category_id=product.category_id,
+                            line_id=product.line_id,
+                        )
+                        bg_db.add(view)
+
+                        # 3. Giữ tối đa 30 bản ghi gần nhất
+                        subq = (
+                            select(ProductView.id)
+                            .where(ProductView.user_id == _user_id)
+                            .order_by(ProductView.viewed_at.desc())
+                            .offset(30)
+                        )
+                        await bg_db.execute(
+                            delete(ProductView).where(ProductView.id.in_(subq))
+                        )
+
                         await bg_db.commit()
             except Exception as e:
                 import logging
@@ -148,9 +181,10 @@ async def get_category_products(
     current_user: Optional[User] = Depends(get_optional_user),
 ):
     user_profile = current_user.profile_summary if current_user else None
+    user_id = current_user.id if current_user else None
     result = await catalog_service.get_category_products_cached(
         category_id, db, limit=limit, offset=offset,
-        user_profile=user_profile,
+        user_profile=user_profile, user_id=user_id,
     )
     if result is None:
         raise HTTPException(status_code=404, detail="Category không tồn tại")
@@ -180,9 +214,10 @@ async def get_brand_products(
     current_user: Optional[User] = Depends(get_optional_user),
 ):
     user_profile = current_user.profile_summary if current_user else None
+    user_id = current_user.id if current_user else None
     result = await catalog_service.get_brand_products_cached(
         category_id, brand_id, db, limit=limit, offset=offset,
-        user_profile=user_profile,
+        user_profile=user_profile, user_id=user_id,
     )
     if result is None:
         raise HTTPException(status_code=404, detail="Category hoặc Brand không tồn tại")
@@ -209,9 +244,10 @@ async def get_line_products(
     current_user: Optional[User] = Depends(get_optional_user),
 ):
     user_profile = current_user.profile_summary if current_user else None
+    user_id = current_user.id if current_user else None
     result = await catalog_service.get_line_products_cached(
         line_id, db, limit=limit, offset=offset,
-        user_profile=user_profile,
+        user_profile=user_profile, user_id=user_id,
     )
     if result is None:
         raise HTTPException(status_code=404, detail="Product Line không tồn tại")
