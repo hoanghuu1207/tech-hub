@@ -10,10 +10,12 @@ Pipeline:
     6. Trả về danh sách sản phẩm kèm similarity score
 """
 
+import asyncio
 import json
 import re
 import time
 import logging
+from concurrent.futures import ThreadPoolExecutor
 from typing import Optional, Tuple, Dict, Any
 from uuid import UUID
 from dataclasses import dataclass
@@ -47,6 +49,9 @@ if not logger.handlers:
 COLLECTION_NAME = "products"
 EMBEDDING_MODEL = "models/gemini-embedding-2"
 EMBEDDING_DIM = 3072
+
+# Thread pool cho các sync calls (Gemini API, Qdrant) — tránh block event loop
+_executor = ThreadPoolExecutor(max_workers=4)
 
 # ── Prompt hệ thống cho Gemini Intent Parser ──
 INTENT_PARSER_PROMPT = """Bạn là bộ phân tích ý định tìm kiếm sản phẩm công nghệ cho cửa hàng TechShop.
@@ -185,7 +190,7 @@ class AISearchService:
         # Tăng mạnh limit vì brand/specs sẽ được filter cứng ở post-processing
         search_limit = limit * 20 if intent.has_filters else limit
         qdrant_filter = self._build_qdrant_filters(filters)
-        scored_points = self._search_qdrant(query_vector, qdrant_filter, search_limit)
+        scored_points = await self._search_qdrant(query_vector, qdrant_filter, search_limit)
 
         # Restore brand slugs cho post-processing
         filters.brand_slugs = saved_brand_slugs
@@ -395,7 +400,7 @@ class AISearchService:
     async def suggest(self, query: str, limit: int = 5) -> list[AISuggestItem]:
         """Gợi ý tìm kiếm dựa trên vector similarity."""
         query_vector = await self._embed_query(query)
-        scored_points = self._search_qdrant(query_vector, qdrant_filter=None, limit=limit)
+        scored_points = await self._search_qdrant(query_vector, qdrant_filter=None, limit=limit)
 
         suggestions = []
         seen_texts = set()
@@ -430,12 +435,16 @@ class AISearchService:
         for api_key in keys_to_try:
             try:
                 genai.configure(api_key=api_key)
-                response = self._llm_model.generate_content(
-                    [INTENT_PARSER_PROMPT, f"Câu truy vấn: \"{query}\""],
-                    generation_config=genai.GenerationConfig(
-                        temperature=0.1,
-                        max_output_tokens=300,
-                    ),
+                loop = asyncio.get_event_loop()
+                response = await loop.run_in_executor(
+                    _executor,
+                    lambda: self._llm_model.generate_content(
+                        [INTENT_PARSER_PROMPT, f"Câu truy vấn: \"{query}\""],
+                        generation_config=genai.GenerationConfig(
+                            temperature=0.1,
+                            max_output_tokens=300,
+                        ),
+                    )
                 )
 
                 raw_text = response.text.strip()
@@ -570,21 +579,29 @@ class AISearchService:
 
     async def _embed_query(self, text: str) -> list[float]:
         try:
-            result = genai.embed_content(model=EMBEDDING_MODEL, content=text)
+            loop = asyncio.get_event_loop()
+            result = await loop.run_in_executor(
+                _executor,
+                lambda: genai.embed_content(model=EMBEDDING_MODEL, content=text)
+            )
             return result["embedding"]
         except Exception as e:
             logger.error(f"[AI Search] Gemini embedding failed: {e}")
             raise ValueError(f"Không thể tạo embedding cho query: {e}")
 
-    def _search_qdrant(self, query_vector: list[float], qdrant_filter: Optional[Filter], limit: int):
+    async def _search_qdrant(self, query_vector: list[float], qdrant_filter: Optional[Filter], limit: int):
         try:
-            response = qdrant_client.query_points(
-                collection_name=COLLECTION_NAME,
-                query=query_vector,
-                query_filter=qdrant_filter,
-                limit=limit,
-                with_payload=True,
-                score_threshold=0.3,
+            loop = asyncio.get_event_loop()
+            response = await loop.run_in_executor(
+                _executor,
+                lambda: qdrant_client.query_points(
+                    collection_name=COLLECTION_NAME,
+                    query=query_vector,
+                    query_filter=qdrant_filter,
+                    limit=limit,
+                    with_payload=True,
+                    score_threshold=0.3,
+                )
             )
             return response.points
         except Exception as e:
