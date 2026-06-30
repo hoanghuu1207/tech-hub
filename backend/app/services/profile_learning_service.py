@@ -11,7 +11,9 @@ Hồ sơ này được nhúng vào System Prompt khi chatbot tư vấn,
 giúp AI cá nhân hóa thay vì trả lời chung chung.
 """
 
+import asyncio
 import logging
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from typing import Optional
 from uuid import UUID
@@ -33,6 +35,9 @@ if not logger.handlers:
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     ch.setFormatter(formatter)
     logger.addHandler(ch)
+
+# Thread pool cho sync Gemini calls
+_profile_executor = ThreadPoolExecutor(max_workers=2)
 
 # ── Prompt để Gemini tóm tắt hồ sơ ──
 PROFILE_SUMMARIZE_PROMPT = """Bạn là hệ thống phân tích hồ sơ khách hàng của cửa hàng công nghệ TechShop.
@@ -179,12 +184,16 @@ class ProfileLearningService:
                 f"Hãy viết lại hồ sơ tóm tắt (tiếng Việt, tối đa 200 từ):"
             )
 
-            response = self._model.generate_content(
-                prompt,
-                generation_config=genai.GenerationConfig(
-                    temperature=0.3,
-                    max_output_tokens=400,
-                ),
+            loop = asyncio.get_event_loop()
+            response = await loop.run_in_executor(
+                _profile_executor,
+                lambda: self._model.generate_content(
+                    prompt,
+                    generation_config=genai.GenerationConfig(
+                        temperature=0.3,
+                        max_output_tokens=400,
+                    ),
+                )
             )
 
             new_profile = response.text.strip()

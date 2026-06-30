@@ -1,4 +1,5 @@
 import asyncio
+import os
 import time
 import logging
 from contextlib import asynccontextmanager
@@ -27,16 +28,36 @@ logger.addHandler(ch)
 # --- Lifespan: startup / shutdown ---
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: khởi chạy background scheduler cho payment expiry
-    scheduler_task = asyncio.create_task(run_payment_expiry_scheduler())
-    logger.info("🚀 [Lifespan] Payment expiry scheduler started")
-    yield
-    # Shutdown: dừng scheduler
-    scheduler_task.cancel()
+    # Multi-worker safe: chỉ worker đầu tiên chạy scheduler
+    scheduler_task = None
+    lock_file = "/tmp/techshop_scheduler.lock"
+    is_scheduler_owner = False
+
     try:
-        await scheduler_task
-    except asyncio.CancelledError:
-        logger.info("🛑 [Lifespan] Payment expiry scheduler stopped")
+        # Tạo lock file — worker nào tạo được trước sẽ sở hữu scheduler
+        fd = os.open(lock_file, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+        os.write(fd, str(os.getpid()).encode())
+        os.close(fd)
+        is_scheduler_owner = True
+        scheduler_task = asyncio.create_task(run_payment_expiry_scheduler())
+        logger.info(f"🚀 [Lifespan] Payment expiry scheduler started (PID: {os.getpid()})")
+    except FileExistsError:
+        logger.info(f"🚀 [Lifespan] Worker PID {os.getpid()} skipping scheduler (already running)")
+
+    yield
+
+    # Shutdown: dừng scheduler và cleanup lock
+    if scheduler_task:
+        scheduler_task.cancel()
+        try:
+            await scheduler_task
+        except asyncio.CancelledError:
+            logger.info("🛑 [Lifespan] Payment expiry scheduler stopped")
+    if is_scheduler_owner:
+        try:
+            os.unlink(lock_file)
+        except OSError:
+            pass
 
 app = FastAPI(
     title=settings.APP_NAME,
@@ -221,6 +242,11 @@ async def share_product_redirect(product_id: str, request: Request):
 
     return HTMLResponse(content=html)
 
+
+# --- 5c. Health Check Endpoint (Docker healthcheck + monitoring) ---
+@app.get("/api/v1/health")
+async def health_check():
+    return {"status": "ok", "pid": os.getpid()}
 
 # --- 6. Mount API Router ---
 app.include_router(api_router, prefix="/api/v1")

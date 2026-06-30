@@ -10,10 +10,12 @@ Tools:
     get_order_status, get_promotions
 """
 
+import asyncio
 import json
 import uuid
 import time
 import logging
+from concurrent.futures import ThreadPoolExecutor
 from typing import Optional, List
 from uuid import UUID
 
@@ -36,6 +38,9 @@ if not logger.handlers:
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     ch.setFormatter(formatter)
     logger.addHandler(ch)
+
+# Thread pool cho sync Gemini calls — tránh block event loop
+_chat_executor = ThreadPoolExecutor(max_workers=4)
 
 # ── System Prompt ──
 CHATBOT_SYSTEM_PROMPT = """Bạn là TechBot — trợ lý AI thông minh của cửa hàng công nghệ TechShop.
@@ -171,9 +176,13 @@ class ChatService:
         try:
             model = self._get_model(user_profile)
             chat_session = model.start_chat(history=gemini_history)
-            response = chat_session.send_message(
-                message,
-                generation_config=genai.GenerationConfig(temperature=0.7, max_output_tokens=1024),
+            loop = asyncio.get_event_loop()
+            response = await loop.run_in_executor(
+                _chat_executor,
+                lambda: chat_session.send_message(
+                    message,
+                    generation_config=genai.GenerationConfig(temperature=0.7, max_output_tokens=1024),
+                )
             )
 
             # Track results across tool rounds
@@ -230,9 +239,12 @@ class ChatService:
                         response={"result": tool_result["summary"]},
                     )
                 )
-                response = chat_session.send_message(
-                    fn_response,
-                    generation_config=genai.GenerationConfig(temperature=0.7, max_output_tokens=512),
+                response = await loop.run_in_executor(
+                    _chat_executor,
+                    lambda fn_resp=fn_response: chat_session.send_message(
+                        fn_resp,
+                        generation_config=genai.GenerationConfig(temperature=0.7, max_output_tokens=512),
+                    )
                 )
 
             # Extract final text (nếu chưa set từ early-break ở trên)
