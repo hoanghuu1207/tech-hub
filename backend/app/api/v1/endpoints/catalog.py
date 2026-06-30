@@ -24,6 +24,7 @@ from app.schemas.catalog import (
     LineProductsResponse, LineProductsData,
     AllProductsResponse, AllProductsData,
     ProductDetailResponse,
+    ProductCompact,
 )
 
 router = APIRouter()
@@ -43,16 +44,16 @@ async def list_all_products(
     db: AsyncSession = Depends(get_db),
     current_user: Optional[User] = Depends(get_optional_user),
 ):
-    products = await catalog_service._query_products(db, limit=limit, offset=offset)
-    total = await catalog_service._count_products(db)
 
     # Cá nhân hóa thứ tự sản phẩm nếu đã login
     user_profile = current_user.profile_summary if current_user else None
-    products = catalog_service._personalize_products(products, user_profile)
+    result = await catalog_service.get_all_products_cached(
+        db, limit=limit, offset=offset, user_profile=user_profile
+    )
 
     data = AllProductsData(
-        products=[catalog_service._product_to_compact(p) for p in products],
-        total=total,
+        products=[ProductCompact(**p) if isinstance(p, dict) else p for p in result["products"]],
+        total=result["total"],
     )
     return AllProductsResponse(data=data)
 
@@ -70,7 +71,7 @@ async def get_product_detail(
     db: AsyncSession = Depends(get_db),
     current_user: Optional[User] = Depends(get_optional_user),
 ):
-    detail = await catalog_service.get_product_detail(product_id, db)
+    detail = await catalog_service.get_product_detail_cached(product_id, db)
     if detail is None:
         raise HTTPException(status_code=404, detail="Sản phẩm không tồn tại")
 
@@ -139,7 +140,7 @@ async def get_category_products(
     current_user: Optional[User] = Depends(get_optional_user),
 ):
     user_profile = current_user.profile_summary if current_user else None
-    result = await catalog_service.get_category_products(
+    result = await catalog_service.get_category_products_cached(
         category_id, db, limit=limit, offset=offset,
         user_profile=user_profile,
     )
@@ -171,7 +172,7 @@ async def get_brand_products(
     current_user: Optional[User] = Depends(get_optional_user),
 ):
     user_profile = current_user.profile_summary if current_user else None
-    result = await catalog_service.get_brand_products(
+    result = await catalog_service.get_brand_products_cached(
         category_id, brand_id, db, limit=limit, offset=offset,
         user_profile=user_profile,
     )
@@ -200,7 +201,7 @@ async def get_line_products(
     current_user: Optional[User] = Depends(get_optional_user),
 ):
     user_profile = current_user.profile_summary if current_user else None
-    result = await catalog_service.get_line_products(
+    result = await catalog_service.get_line_products_cached(
         line_id, db, limit=limit, offset=offset,
         user_profile=user_profile,
     )

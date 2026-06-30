@@ -18,6 +18,18 @@ services:
     networks:
       - techshop_network
 
+  redis:
+    image: redis:7-alpine
+    container_name: techshop_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - techshop_network
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
+
   backend:
     build:
       context: .
@@ -48,6 +60,7 @@ services:
 
 volumes:
   postgres_data:
+  redis_data:
 
 
 networks:

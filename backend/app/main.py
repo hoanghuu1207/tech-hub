@@ -28,6 +28,10 @@ logger.addHandler(ch)
 # --- Lifespan: startup / shutdown ---
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    # ── Redis health check ──
+    from app.db.redis import check_redis_connection
+    await check_redis_connection()
+
     # Multi-worker safe: chỉ worker đầu tiên chạy scheduler
     scheduler_task = None
     lock_file = "/tmp/techshop_scheduler.lock"
