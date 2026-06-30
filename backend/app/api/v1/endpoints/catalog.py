@@ -75,31 +75,39 @@ async def get_product_detail(
     if detail is None:
         raise HTTPException(status_code=404, detail="Sản phẩm không tồn tại")
 
-    # ── Tracking: cập nhật hồ sơ cá nhân từ hành vi duyệt ──
+    # ── Tracking: cập nhật hồ sơ cá nhân từ hành vi duyệt (fire-and-forget) ──
     if current_user:
-        try:
-            from app.services.profile_learning_service import profile_learning_service
-            from app.models.product import Product
-            from sqlalchemy.orm import selectinload
-            from sqlalchemy import select
+        import asyncio
+        _user_id = current_user.id
 
-            stmt = (
-                select(Product)
-                .options(selectinload(Product.category), selectinload(Product.brand))
-                .where(Product.id == product_id)
-            )
-            result = await db.execute(stmt)
-            product = result.scalar_one_or_none()
-            if product:
-                await profile_learning_service.learn_from_view(
-                    user_id=current_user.id,
-                    product=product,
-                    db=db,
-                )
-                await db.commit()
-        except Exception as e:
-            import logging
-            logging.getLogger("catalog").warning(f"Profile learning from view failed: {e}")
+        async def _background_learn_view():
+            try:
+                from app.services.profile_learning_service import profile_learning_service
+                from app.models.product import Product
+                from sqlalchemy.orm import selectinload
+                from sqlalchemy import select
+                from app.db.session import SessionLocal
+
+                async with SessionLocal() as bg_db:
+                    stmt = (
+                        select(Product)
+                        .options(selectinload(Product.category), selectinload(Product.brand))
+                        .where(Product.id == product_id)
+                    )
+                    result = await bg_db.execute(stmt)
+                    product = result.scalar_one_or_none()
+                    if product:
+                        await profile_learning_service.learn_from_view(
+                            user_id=_user_id,
+                            product=product,
+                            db=bg_db,
+                        )
+                        await bg_db.commit()
+            except Exception as e:
+                import logging
+                logging.getLogger("catalog").warning(f"Profile learning from view failed: {e}")
+
+        asyncio.create_task(_background_learn_view())
 
     return ProductDetailResponse(data=detail)
 
