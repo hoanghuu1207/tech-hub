@@ -383,12 +383,24 @@ class CatalogService:
         # Lấy lịch sử xem gần đây (nếu đã login)
         rv = await self._get_recent_views(db, user_id) if user_id else {}
 
+        logger.info(
+            f"🔍 [AllProducts] user_id={str(user_id)[:8] if user_id else None}, "
+            f"has_profile={bool(user_profile)}, "
+            f"rv={rv}, "
+            f"rv_truthy={bool(rv)}"
+        )
+
         cache_key = CacheKeys.all_products(limit, offset)
 
         # Thử lấy từ cache
         cached = await cache_get(cache_key)
         if cached is not None:
-            if (user_profile or rv) and cached.get("products"):
+            should_personalize = (user_profile or rv) and cached.get("products")
+            logger.info(
+                f"🔍 [AllProducts] Cache HIT, should_personalize={bool(should_personalize)}, "
+                f"products_count={len(cached.get('products', []))}"
+            )
+            if should_personalize:
                 cached["products"] = self._personalize_compact_products(
                     cached["products"], user_profile,
                     recent_view_ids=rv.get("product_ids"),
