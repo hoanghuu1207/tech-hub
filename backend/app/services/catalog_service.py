@@ -878,6 +878,21 @@ class CatalogService:
         rc_ids = related_category_ids or set()
         rl_ids = related_line_ids or set()
 
+        # Debug log
+        if rv_ids or prefs:
+            logger.info(
+                f"🔍 [Personalize] rv_ids={rv_ids}, "
+                f"rb_ids={rb_ids}, rc_ids={rc_ids}, "
+                f"has_prefs={prefs is not None}, "
+                f"total_products={len(products_data)}"
+            )
+            if products_data:
+                sample = products_data[0]
+                logger.info(
+                    f"🔍 [Personalize] Sample product id={sample.get('id')} "
+                    f"type={type(sample.get('id'))}"
+                )
+
         def _calc_boost(p: dict) -> float:
             boost = 0.0
             pid = str(p.get("id", ""))
@@ -936,6 +951,15 @@ class CatalogService:
         products_with_score.sort(key=lambda x: (x[1], x[2]), reverse=True)
 
         if any(b > 0 for _, b, _ in products_with_score):
+            # Debug: log top 3 boosted products
+            top3 = products_with_score[:3]
+            logger.info(
+                f"🔍 [Personalize] Top 3 after sort: "
+                + ", ".join(
+                    f"{p.get('name','?')}(boost={b:.1f}, sold={s})"
+                    for p, b, s in top3
+                )
+            )
             return [p for p, _, _ in products_with_score]
 
         return products_data
