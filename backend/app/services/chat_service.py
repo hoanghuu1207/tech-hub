@@ -212,7 +212,7 @@ class ChatService:
                     logger.warning(f"💬 [Chatbot] Unknown tool: {tool_name}")
                     break
 
-                tool_result = await handler(tool_args, db, user_id)
+                tool_result = await handler(tool_args, db, user_id, user_profile=user_profile)
 
                 # Cập nhật kết quả
                 intent_type = tool_result["intent_type"]

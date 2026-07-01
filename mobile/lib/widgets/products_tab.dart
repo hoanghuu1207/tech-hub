@@ -28,7 +28,16 @@ class _C {
 }
 
 class ProductsTab extends StatelessWidget {
-  const ProductsTab({Key? key}) : super(key: key);
+  final VoidCallback? onProfileTap;
+  final VoidCallback? onCartTap;
+  final VoidCallback? onNotificationTap;
+
+  const ProductsTab({
+    Key? key,
+    this.onProfileTap,
+    this.onCartTap,
+    this.onNotificationTap,
+  }) : super(key: key);
 
   Future<void> _onRefresh(BuildContext context) {
     final bloc = context.read<CatalogBloc>();
@@ -68,8 +77,8 @@ class ProductsTab extends StatelessWidget {
               child: CustomScrollView(
                 physics: const AlwaysScrollableScrollPhysics(),
                 slivers: [
-                  // 1) App bar
-                  _buildAppBar(context),
+                  // 1) Header (avatar, name, icons)
+                  SliverToBoxAdapter(child: _buildHeader(context)),
                   // 2) Category bar (pinned)
                   _buildCategoryBar(context, state),
                   // 3) Secondary filter bar (pinned, hidden when no category)
@@ -91,20 +100,91 @@ class ProductsTab extends StatelessWidget {
   }
 
   // ═══════════════════════════════════════════
-  // 1) SLIVER APP BAR
+  // 1) HEADER (replaces SliverAppBar)
   // ═══════════════════════════════════════════
-  Widget _buildAppBar(BuildContext context) {
-    return SliverAppBar(
-      backgroundColor: _C.bg,
-      surfaceTintColor: Colors.transparent,
-      floating: true,
-      snap: true,
-      title: Text(
-        'Sản phẩm',
-        style: GoogleFonts.outfit(
-          fontSize: 24,
-          fontWeight: FontWeight.w800,
-          color: _C.textPrimary,
+  Widget _buildHeader(BuildContext context) {
+    final user = AuthService().currentUser;
+    final cartState = context.watch<CartBloc>().state;
+    final cartCount = cartState.cart.activeItemCount;
+
+    return SafeArea(
+      bottom: false,
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(20, 16, 20, 4),
+        child: Row(
+          children: [
+            GestureDetector(
+              onTap: onProfileTap,
+              child: Container(
+                width: 44, height: 44,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  gradient: const LinearGradient(colors: [_C.primary, Color(0xFF22D3EE)]),
+                  boxShadow: [BoxShadow(color: _C.primary.withOpacity(0.4), blurRadius: 12)],
+                ),
+                child: user?.avatarUrl != null
+                    ? ClipOval(child: CachedNetworkImage(imageUrl: user!.avatarUrl!, fit: BoxFit.cover))
+                    : const Icon(Icons.person, color: Colors.white, size: 22),
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('TechHub', style: GoogleFonts.outfit(
+                    fontSize: 22, fontWeight: FontWeight.w800, color: _C.textPrimary, letterSpacing: -0.5,
+                  )),
+                  Text(
+                    user != null ? 'Xin chào, ${user.fullName.split(' ').last} 👋' : 'Khám phá công nghệ',
+                    style: GoogleFonts.outfit(fontSize: 13, color: _C.textSecondary),
+                  ),
+                ],
+              ),
+            ),
+            // ── Notification bell ──
+            GestureDetector(
+              onTap: onNotificationTap,
+              child: Container(
+                width: 44, height: 44,
+                decoration: BoxDecoration(
+                  color: _C.surface, shape: BoxShape.circle,
+                  border: Border.all(color: _C.divider),
+                ),
+                child: const Icon(Icons.notifications_outlined, color: _C.textPrimary, size: 22),
+              ),
+            ),
+            const SizedBox(width: 8),
+            // ── Cart icon ──
+            GestureDetector(
+              onTap: onCartTap,
+              child: Container(
+                width: 44, height: 44,
+                decoration: BoxDecoration(
+                  color: _C.surface, shape: BoxShape.circle,
+                  border: Border.all(color: _C.divider),
+                ),
+                child: Stack(
+                  alignment: Alignment.center,
+                  children: [
+                    const Icon(Icons.shopping_bag_outlined, color: _C.textPrimary, size: 22),
+                    if (cartCount > 0)
+                      Positioned(
+                        top: 6, right: 6,
+                        child: Container(
+                          padding: const EdgeInsets.all(4),
+                          decoration: const BoxDecoration(color: _C.rose, shape: BoxShape.circle),
+                          child: Text(
+                            cartCount > 9 ? '9+' : '$cartCount',
+                            style: const TextStyle(color: Colors.white, fontSize: 9, fontWeight: FontWeight.w800),
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );

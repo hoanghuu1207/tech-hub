@@ -140,14 +140,15 @@ async def _resolve_variant(product, variant_id_str: str | None, quantity: int) -
     return variant, unit_price, None
 
 
-async def handle_search_products(args: dict, db, user_id) -> dict:
+async def handle_search_products(args: dict, db, user_id, **kwargs) -> dict:
     """Tool: search_products"""
     query = args.get("query", "")
     limit = min(int(args.get("limit", 5)), 20)  # Cap tối đa 20
+    user_profile = kwargs.get("user_profile")
 
-    logger.info(f"🔧 [Tool] search_products(query='{query}', limit={limit})")
+    logger.info(f"🔧 [Tool] search_products(query='{query}', limit={limit}, has_profile={bool(user_profile)})")
 
-    search_result = await ai_search_service.search(query=query, db=db, limit=limit)
+    search_result = await ai_search_service.search(query=query, db=db, limit=limit, user_profile=user_profile)
 
     products = [
         ChatProductResult(
@@ -179,7 +180,7 @@ async def handle_search_products(args: dict, db, user_id) -> dict:
     }
 
 
-async def handle_get_product_detail(args: dict, db, user_id) -> dict:
+async def handle_get_product_detail(args: dict, db, user_id, **kwargs) -> dict:
     """Tool: get_product_detail"""
     product_id = args.get("product_id")
     product_slug = args.get("product_slug")
@@ -263,7 +264,7 @@ async def handle_get_product_detail(args: dict, db, user_id) -> dict:
     }
 
 
-async def handle_compare_products(args: dict, db, user_id) -> dict:
+async def handle_compare_products(args: dict, db, user_id, **kwargs) -> dict:
     """Tool: compare_products"""
     product_ids = args.get("product_ids", [])
 
@@ -342,7 +343,7 @@ async def handle_compare_products(args: dict, db, user_id) -> dict:
     }
 
 
-async def handle_add_to_cart(args: dict, db, user_id) -> dict:
+async def handle_add_to_cart(args: dict, db, user_id, **kwargs) -> dict:
     """Tool: add_to_cart — Thêm sản phẩm vào giỏ hàng (có variant/màu + check stock)."""
     if not user_id:
         return {
@@ -418,7 +419,7 @@ async def handle_add_to_cart(args: dict, db, user_id) -> dict:
     }
 
 
-async def handle_get_cart(args: dict, db, user_id) -> dict:
+async def handle_get_cart(args: dict, db, user_id, **kwargs) -> dict:
     """Tool: get_cart (YÊU CẦU AUTH)"""
     if not user_id:
         return {
@@ -470,7 +471,7 @@ async def handle_get_cart(args: dict, db, user_id) -> dict:
     }
 
 
-async def handle_proceed_to_checkout(args: dict, db, user_id) -> dict:
+async def handle_proceed_to_checkout(args: dict, db, user_id, **kwargs) -> dict:
     """Tool: proceed_to_checkout — Thanh toán giỏ hàng qua PayOS (YÊU CẦU AUTH)"""
     if not user_id:
         return {
@@ -543,7 +544,7 @@ async def handle_proceed_to_checkout(args: dict, db, user_id) -> dict:
         }
 
 
-async def handle_get_order_status(args: dict, db, user_id) -> dict:
+async def handle_get_order_status(args: dict, db, user_id, **kwargs) -> dict:
     """Tool: get_order_status (YÊU CẦU AUTH)"""
     if not user_id:
         return {
@@ -610,7 +611,7 @@ async def handle_get_order_status(args: dict, db, user_id) -> dict:
     }
 
 
-async def handle_get_promotions(args: dict, db, user_id) -> dict:
+async def handle_get_promotions(args: dict, db, user_id, **kwargs) -> dict:
     """Tool: get_promotions — Sản phẩm đang giảm giá."""
     category = args.get("category")
     limit = int(args.get("limit", 10))
@@ -671,7 +672,7 @@ async def handle_get_promotions(args: dict, db, user_id) -> dict:
     }
 
 
-async def handle_buy_product(args: dict, db, user_id) -> dict:
+async def handle_buy_product(args: dict, db, user_id, **kwargs) -> dict:
     """Tool: buy_product — Mua ngay sản phẩm qua PayOS (có variant/màu + check stock)."""
     if not user_id:
         return {
